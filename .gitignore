@@ -6,3 +6,6 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 npm-debug.log*
+
+# Local Claude Code settings
+.claude/
