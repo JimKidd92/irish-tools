@@ -1,0 +1,60 @@
+// The growing collection of fun & handy Irish tools.
+// Add new ones here — `live: true` to enable, otherwise it shows as "Coming soon".
+export const tools = [
+  {
+    id: 'immersion',
+    emoji: '🔥',
+    name: 'Is the Immersion On?',
+    tagline: 'The eternal question, finally answered.',
+    live: true,
+  },
+  {
+    id: 'cup-of-tea',
+    emoji: '☕',
+    name: 'Will Ya Have a Cup of Tea?',
+    tagline: 'Ah go on, go on, go on, go on.',
+    live: false,
+  },
+  {
+    id: 'soft-day',
+    emoji: '🌧️',
+    name: 'Is It a Soft Day?',
+    tagline: 'Translating the Irish weather forecast.',
+    live: false,
+  },
+  {
+    id: 'foot-the-turf',
+    emoji: '🔥',
+    name: 'Is It Time to Foot the Turf?',
+    tagline: 'Weather says when the bog’s ready.',
+    live: false,
+  },
+  {
+    id: 'good-drying',
+    emoji: '🧺',
+    name: 'Is There Good Drying Out?',
+    tagline: 'Should ya hang the washing on the line?',
+    live: false,
+  },
+  {
+    id: 'mass-times',
+    emoji: '⛪',
+    name: 'How’s the Form?',
+    tagline: 'A grand stretch in the evenings calculator.',
+    live: false,
+  },
+  {
+    id: 'notes-money',
+    emoji: '💶',
+    name: 'Whose Round Is It?',
+    tagline: 'Never get caught at the bar again.',
+    live: false,
+  },
+  {
+    id: 'spuds',
+    emoji: '🥔',
+    name: 'How Many Spuds?',
+    tagline: 'Dinner portions, done properly.',
+    live: false,
+  },
+]
