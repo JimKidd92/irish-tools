@@ -22,7 +22,8 @@ export const tools = [
     emoji: '☕',
     name: 'Will Ya Have a Cup of Tea?',
     tagline: 'Ah go on, go on, go on, go on.',
-    live: false,
+    live: true,
+    path: 'tea',
   },
   {
     id: 'soft-day',
@@ -52,13 +53,15 @@ export const tools = [
     emoji: '💶',
     name: 'Whose Round Is It?',
     tagline: 'Never get caught at the bar again.',
-    live: false,
+    live: true,
+    path: 'round',
   },
   {
     id: 'spuds',
     emoji: '🥔',
     name: 'How Many Spuds?',
     tagline: 'Dinner portions, done properly.',
-    live: false,
+    live: true,
+    path: 'spuds',
   },
 ]

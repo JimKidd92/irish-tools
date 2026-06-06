@@ -2,6 +2,9 @@ import ImmersionTool from './components/ImmersionTool.jsx'
 import DryingTool from './components/DryingTool.jsx'
 import SoftDayTool from './components/SoftDayTool.jsx'
 import FootTurfTool from './components/FootTurfTool.jsx'
+import TeaTool from './components/TeaTool.jsx'
+import RoundTool from './components/RoundTool.jsx'
+import SpudsTool from './components/SpudsTool.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
@@ -31,6 +34,22 @@ const PAGES = {
     subtitle:
       'Footing turf needs a dry, breezy spell. We’ll check the days behind and ahead and tell you if it’s worth heading to the bog.',
     Component: FootTurfTool,
+  },
+  tea: {
+    title: 'Will Ya Have a Cup of Tea?',
+    subtitle: 'Mrs Doyle won’t take no for an answer. Go on, go on, go on…',
+    Component: TeaTool,
+  },
+  round: {
+    title: 'Whose Round Is It?',
+    subtitle:
+      'Add the session and we’ll keep honest track of who’s bought and whose turn is next. Saved on this device.',
+    Component: RoundTool,
+  },
+  spuds: {
+    title: 'How Many Spuds?',
+    subtitle: 'Dinner portions, done properly. Never run short of spuds again.',
+    Component: SpudsTool,
   },
 }
 
