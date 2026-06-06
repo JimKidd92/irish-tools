@@ -689,6 +689,21 @@ a {
   font-size: 0.95rem;
 }
 
+/* ---------- Share button ---------- */
+.share {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.share__msg {
+  color: var(--green-dark);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 /* ---------- Daily quiz banner (home) ---------- */
 .quiz-banner {
   width: 100%;

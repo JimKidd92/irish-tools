@@ -1,6 +1,7 @@
 import { softDayAssessment, irishWeather, describeWeather } from '../lib/weather.js'
 import { useWeatherTool } from '../hooks/useWeatherTool.js'
 import LocationSearch from './LocationSearch.jsx'
+import ShareButton from './ShareButton.jsx'
 
 function compute(forecast) {
   const assessment = softDayAssessment(forecast)
@@ -67,6 +68,11 @@ export default function SoftDayTool() {
               <span className="drying__stat-key">{result.weather.text}</span>
             </li>
           </ul>
+
+          <ShareButton
+            url="https://irishtools.ie/#/soft-day"
+            text={`🌧️ Is it a soft day in ${location?.name}? ${result.isSoftDay ? 'Soft day, thank God.' : 'Not a soft day.'} “${result.irish.phrase}”`}
+          />
         </div>
       )}
 

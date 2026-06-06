@@ -1,6 +1,7 @@
 import { getDaylight, formAssessment, formVerdict } from '../lib/weather.js'
 import { useWeatherTool } from '../hooks/useWeatherTool.js'
 import LocationSearch from './LocationSearch.jsx'
+import ShareButton from './ShareButton.jsx'
 
 const fetchDaylight = (lat, lon) => getDaylight(lat, lon)
 
@@ -53,6 +54,11 @@ export default function HowsTheFormTool() {
               <span className="drying__stat-key">min vs last wk</span>
             </li>
           </ul>
+
+          <ShareButton
+            url="https://irishtools.ie/#/form"
+            text={`🌅 ${verdict.title} (${location?.name}) — sunset ${result.sunset}, ${result.dayLength} of daylight.`}
+          />
         </div>
       )}
 

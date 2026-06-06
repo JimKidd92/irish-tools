@@ -1,6 +1,7 @@
 import { getOutlook, footTurfAssessment, footTurfVerdict } from '../lib/weather.js'
 import { useWeatherTool } from '../hooks/useWeatherTool.js'
 import LocationSearch from './LocationSearch.jsx'
+import ShareButton from './ShareButton.jsx'
 
 const fetchOutlook = (lat, lon) => getOutlook(lat, lon)
 
@@ -57,6 +58,11 @@ export default function FootTurfTool() {
               </li>
             ))}
           </ul>
+
+          <ShareButton
+            url="https://irishtools.ie/#/turf"
+            text={`🔥 Time to foot the turf near ${location?.name}? ${verdict.title} — ${result.score}/100 footing weather.`}
+          />
         </div>
       )}
 

@@ -1,6 +1,7 @@
 import { describeWeather, dryingScore, dryingVerdict } from '../lib/weather.js'
 import { useWeatherTool } from '../hooks/useWeatherTool.js'
 import LocationSearch from './LocationSearch.jsx'
+import ShareButton from './ShareButton.jsx'
 
 // Turn a raw forecast into this tool's result.
 function compute(forecast) {
@@ -70,6 +71,11 @@ export default function DryingTool() {
               <span className="drying__stat-key">temp</span>
             </li>
           </ul>
+
+          <ShareButton
+            url="https://irishtools.ie/#/drying"
+            text={`🧺 Is there good drying out in ${location?.name}? ${verdict.title} — ${result.score}/100 drying.`}
+          />
         </div>
       )}
 
