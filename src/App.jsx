@@ -6,9 +6,11 @@ import TeaTool from './components/TeaTool.jsx'
 import RoundTool from './components/RoundTool.jsx'
 import SpudsTool from './components/SpudsTool.jsx'
 import HowsTheFormTool from './components/HowsTheFormTool.jsx'
+import QuizTool from './components/QuizTool.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
+import { loadProgress, playedToday } from './lib/dailyQuiz.js'
 
 // Each tool page: a title, subtitle and the tool component itself.
 const PAGES = {
@@ -57,6 +59,12 @@ const PAGES = {
     subtitle:
       'Is there a grand stretch in the evenings, or are they drawing in? We’ll check the daylight where you are.',
     Component: HowsTheFormTool,
+  },
+  quiz: {
+    title: 'The Daily Irish Quiz',
+    subtitle:
+      'Five fresh questions every day. Build your streak and share your score — sure you’d know it all.',
+    Component: QuizTool,
   },
 }
 
@@ -130,6 +138,8 @@ function Home() {
         </p>
       </div>
 
+      <QuizBanner />
+
       <section className="tools" id="tools">
         <ul className="tool-grid">
           {tools.map((tool) =>
@@ -155,6 +165,30 @@ function Home() {
         </ul>
       </section>
     </>
+  )
+}
+
+function QuizBanner() {
+  const progress = loadProgress()
+  const done = playedToday()
+  return (
+    <button className="quiz-banner" onClick={() => navigate('quiz')}>
+      <span className="quiz-banner__emoji" aria-hidden="true">🍀</span>
+      <span className="quiz-banner__text">
+        <span className="quiz-banner__title">The Daily Irish Quiz</span>
+        <span className="quiz-banner__sub">
+          {done
+            ? 'You’ve done today’s — come back tomorrow for more.'
+            : 'Five fresh questions every day. How well do you know your stuff?'}
+        </span>
+      </span>
+      <span className="quiz-banner__cta">
+        {progress.streak > 0 && (
+          <span className="quiz-banner__streak">{progress.streak} 🔥</span>
+        )}
+        <span className="quiz-banner__play">{done ? 'See result' : 'Play today →'}</span>
+      </span>
+    </button>
   )
 }
 
