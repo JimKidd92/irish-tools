@@ -9,6 +9,10 @@ import HowsTheFormTool from './components/HowsTheFormTool.jsx'
 import QuizTool from './components/QuizTool.jsx'
 import BankHolidayTool from './components/BankHolidayTool.jsx'
 import RegDecoderTool from './components/RegDecoderTool.jsx'
+import PintsTool from './components/PintsTool.jsx'
+import MammyTool from './components/MammyTool.jsx'
+import FocalTool from './components/FocalTool.jsx'
+import PubTool from './components/PubTool.jsx'
 import PrivacyPage from './components/PrivacyPage.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
 import AdSpace from './components/AdSpace.jsx'
@@ -80,6 +84,26 @@ const PAGES = {
     title: 'Reg Plate Decoder',
     subtitle: 'Pop in any Irish reg and we’ll tell you the year and county it’s from.',
     Component: RegDecoderTool,
+  },
+  pints: {
+    title: 'That’s How Many Pints?',
+    subtitle: 'The only currency that matters. Type a price, see it in pints.',
+    Component: PintsTool,
+  },
+  mammy: {
+    title: 'Irish Mammy Says…',
+    subtitle: 'Words of wisdom from the woman herself. Hit the button for another.',
+    Component: MammyTool,
+  },
+  focal: {
+    title: 'Cúpla Focal',
+    subtitle: 'A bit of Irish for the day. Learn a focal or two, go on.',
+    Component: FocalTool,
+  },
+  pub: {
+    title: 'Is the Pub Open?',
+    subtitle: 'Can I get a pint today? The eternal question, settled.',
+    Component: PubTool,
   },
 }
 

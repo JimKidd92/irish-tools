@@ -1481,6 +1481,168 @@ a {
   color: var(--ink);
 }
 
+/* ---------- That's how many pints ---------- */
+.pints__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.pints__amount {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 260px;
+  width: 100%;
+}
+
+.pints__euro {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--ink-soft);
+}
+
+.pints__input {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.pints__where {
+  display: flex;
+  gap: 8px;
+}
+
+.pints__result {
+  text-align: center;
+  margin-top: 22px;
+}
+
+.pints__big {
+  font-size: 3rem;
+  font-weight: 800;
+  display: block;
+}
+
+.pints__unit {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+}
+
+.pints__note {
+  font-size: 1.1rem;
+  margin: 14px 0 4px;
+}
+
+.pints__basis {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* ---------- Irish Mammy says ---------- */
+.mammy {
+  text-align: center;
+  position: relative;
+}
+
+.mammy__quote-mark {
+  font-size: 4rem;
+  line-height: 0.5;
+  color: var(--green);
+  opacity: 0.35;
+  display: block;
+  height: 28px;
+}
+
+.mammy__quote {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 10px auto 24px;
+  max-width: 460px;
+  letter-spacing: -0.01em;
+}
+
+.mammy__buttons,
+.focal__buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ---------- Cúpla focal ---------- */
+.focal {
+  text-align: center;
+}
+
+.focal__label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+}
+
+.focal__irish {
+  font-size: 2.4rem;
+  margin: 10px 0 6px;
+  color: var(--green-dark);
+  letter-spacing: -0.02em;
+}
+
+.focal__pron {
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 0 0 4px;
+}
+
+.focal__english {
+  font-size: 1.2rem;
+  margin: 0 0 22px;
+}
+
+/* ---------- Is the pub open ---------- */
+.pub {
+  text-align: center;
+}
+
+.pub__emoji {
+  font-size: 3.6rem;
+  display: block;
+}
+
+.pub__title {
+  font-size: 2rem;
+  margin: 8px 0 6px;
+  letter-spacing: -0.02em;
+}
+
+.pub.is-open .pub__title {
+  color: var(--green);
+}
+
+.pub.is-closed .pub__title {
+  color: #c0392b;
+}
+
+.pub__blurb {
+  font-size: 1.1rem;
+  max-width: 440px;
+  margin: 0 auto 10px;
+}
+
+.pub__disclaimer {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  margin: 0 0 4px;
+}
+
 /* ---------- Foot the turf: day strip ---------- */
 .turf__days {
   list-style: none;

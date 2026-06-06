@@ -38,6 +38,11 @@ function lastWeekday(year, month, weekday) {
   return new Date(year, month, last.getDate() - offset)
 }
 
+// Good Friday is two days before Easter Sunday.
+export function goodFriday(year) {
+  return addDays(easterSunday(year), -2)
+}
+
 export function irishHolidays(year) {
   // St Brigid's Day (since 2023): first Monday in February, unless 1 Feb is a
   // Friday, in which case the Friday is the holiday.
