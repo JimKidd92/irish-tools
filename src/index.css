@@ -1294,6 +1294,151 @@ a {
   font-size: 1.05rem;
 }
 
+/* ---------- Next bank holiday ---------- */
+.bankhol__next {
+  text-align: center;
+  background: #f7f6ef;
+  border-radius: 16px;
+  padding: 26px 20px;
+  margin-bottom: 4px;
+}
+
+.bankhol__emoji {
+  font-size: 3rem;
+  display: block;
+}
+
+.bankhol__count {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 800;
+  color: var(--green-dark);
+  font-size: 1.1rem;
+}
+
+.bankhol__name {
+  margin: 4px 0 2px;
+  font-size: 1.9rem;
+  letter-spacing: -0.02em;
+}
+
+.bankhol__date {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.bankhol__heading {
+  font-size: 1rem;
+  color: var(--ink-soft);
+  margin: 24px 0 10px;
+  text-align: center;
+}
+
+.bankhol__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bankhol__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.bankhol__row-emoji {
+  font-size: 1.2rem;
+}
+
+.bankhol__row-name {
+  flex: 1;
+  font-weight: 600;
+}
+
+.bankhol__row-date {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.bankhol__row-days {
+  color: var(--green-dark);
+  font-weight: 700;
+  font-size: 0.85rem;
+  min-width: 44px;
+  text-align: right;
+}
+
+/* ---------- Reg decoder ---------- */
+.reg__examples {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 14px 0 4px;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.reg__example {
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.reg__example:hover {
+  border-color: var(--green);
+}
+
+.reg__result {
+  margin-top: 22px;
+  text-align: center;
+}
+
+.reg__grid {
+  list-style: none;
+  margin: 0 auto 16px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 420px;
+}
+
+.reg__grid li {
+  background: #f7f6ef;
+  border-radius: 12px;
+  padding: 16px 6px;
+}
+
+.reg__val {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.reg__key {
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+}
+
+.reg__sentence {
+  font-size: 1.1rem;
+  color: var(--ink);
+}
+
 /* ---------- Foot the turf: day strip ---------- */
 .turf__days {
   list-style: none;

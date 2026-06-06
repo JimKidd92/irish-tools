@@ -65,4 +65,20 @@ export const tools = [
     live: true,
     path: 'spuds',
   },
+  {
+    id: 'bank-holiday',
+    emoji: '🗓️',
+    name: 'Next Bank Holiday',
+    tagline: 'When’s the next day off?',
+    live: true,
+    path: 'bank-holiday',
+  },
+  {
+    id: 'reg',
+    emoji: '🚗',
+    name: 'Reg Plate Decoder',
+    tagline: 'What year and county is that reg?',
+    live: true,
+    path: 'reg',
+  },
 ]

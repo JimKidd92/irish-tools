@@ -7,6 +7,8 @@ import RoundTool from './components/RoundTool.jsx'
 import SpudsTool from './components/SpudsTool.jsx'
 import HowsTheFormTool from './components/HowsTheFormTool.jsx'
 import QuizTool from './components/QuizTool.jsx'
+import BankHolidayTool from './components/BankHolidayTool.jsx'
+import RegDecoderTool from './components/RegDecoderTool.jsx'
 import PrivacyPage from './components/PrivacyPage.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
 import AdSpace from './components/AdSpace.jsx'
@@ -67,6 +69,16 @@ const PAGES = {
     subtitle:
       'Five fresh questions every day. Build your streak and share your score — sure you’d know it all.',
     Component: QuizTool,
+  },
+  'bank-holiday': {
+    title: 'Next Bank Holiday',
+    subtitle: 'When’s the next day off? Counting down to the next Irish bank holiday.',
+    Component: BankHolidayTool,
+  },
+  reg: {
+    title: 'Reg Plate Decoder',
+    subtitle: 'Pop in any Irish reg and we’ll tell you the year and county it’s from.',
+    Component: RegDecoderTool,
   },
 }
 
