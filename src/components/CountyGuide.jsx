@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { COUNTIES, PROVINCES } from '../data/counties.js'
 import { PLACES } from '../data/places.js'
+import countyInfo from '../data/counties.generated.json'
 import { navigate } from '../hooks/useHashRoute.js'
 import ShareButton from './ShareButton.jsx'
 
@@ -10,11 +11,16 @@ export default function CountyGuide() {
 
   if (county) {
     const places = PLACES.filter((p) => p.county === county.name)
+    const info = countyInfo[county.name] || {}
     return (
       <section className="panel county">
         <button className="back-link" onClick={() => setSelected(null)}>
           ← All counties
         </button>
+
+        {info.image && (
+          <img className="county__hero" src={info.image} alt={`Scenery in County ${county.name}`} loading="lazy" />
+        )}
 
         <div className="county__detail">
           <h2 className="county__name">{county.name}</h2>
@@ -24,6 +30,8 @@ export default function CountyGuide() {
           <p className="county__town">
             <strong>County town:</strong> {county.town}
           </p>
+
+          {info.extract && <p className="county__about">{info.extract}</p>}
 
           {places.length > 0 && (
             <div className="county__places">
@@ -45,6 +53,16 @@ export default function CountyGuide() {
             url="https://irishtools.ie/#/counties"
             text={`☘️ ${county.name} (${county.irish}) — “${county.nickname}”, in ${county.province}. ${county.blurb}`}
           />
+
+          {info.wikiUrl && (
+            <p className="county__source">
+              Photo & info via{' '}
+              <a href={info.wikiUrl} target="_blank" rel="noopener noreferrer">
+                Wikipedia
+              </a>{' '}
+              / Wikimedia Commons.
+            </p>
+          )}
         </div>
       </section>
     )

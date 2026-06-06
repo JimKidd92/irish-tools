@@ -1709,8 +1709,31 @@ a {
   background: var(--surface-alt);
 }
 
+.county__hero {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  display: block;
+}
+
 .county__detail {
   text-align: center;
+}
+
+.county__about {
+  max-width: 540px;
+  margin: 16px auto 0;
+  color: var(--ink);
+  line-height: 1.7;
+  text-align: left;
+}
+
+.county__source {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin-top: 16px;
 }
 
 .county__name {
