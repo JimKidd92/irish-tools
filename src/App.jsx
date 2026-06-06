@@ -10,6 +10,9 @@ import QuizTool from './components/QuizTool.jsx'
 import BankHolidayTool from './components/BankHolidayTool.jsx'
 import RegDecoderTool from './components/RegDecoderTool.jsx'
 import PintsTool from './components/PintsTool.jsx'
+import SurnameTool from './components/SurnameTool.jsx'
+import NamesTool from './components/NamesTool.jsx'
+import PlacesTool from './components/PlacesTool.jsx'
 import MammyTool from './components/MammyTool.jsx'
 import FocalTool from './components/FocalTool.jsx'
 import PubTool from './components/PubTool.jsx'
@@ -107,6 +110,22 @@ const PAGES = {
     title: 'Is the Pub Open?',
     subtitle: 'Can I get a pint today? The eternal question, settled.',
     Component: PubTool,
+  },
+  surnames: {
+    title: 'Irish Surname Origins',
+    subtitle:
+      'Curious where your family name comes from? Find its Irish form, meaning, and the part of Ireland it hails from.',
+    Component: SurnameTool,
+  },
+  names: {
+    title: 'Irish Names & Meanings',
+    subtitle: 'Beautiful Irish names with their meanings and how to actually say them.',
+    Component: NamesTool,
+  },
+  places: {
+    title: 'Places to Visit',
+    subtitle: 'Planning a trip home? Explore the must-see spots across the island of Ireland.',
+    Component: PlacesTool,
   },
 }
 

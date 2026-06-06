@@ -3,6 +3,33 @@
 // `category` groups them in the side nav: 'Weather' | 'Craic' | 'Handy'.
 export const tools = [
   {
+    id: 'surnames',
+    emoji: '🧬',
+    name: 'Irish Surname Origins',
+    tagline: 'Where does your family name come from?',
+    live: true,
+    path: 'surnames',
+    category: 'Heritage',
+  },
+  {
+    id: 'names',
+    emoji: '📛',
+    name: 'Irish Names & Meanings',
+    tagline: 'Beautiful names, with meanings.',
+    live: true,
+    path: 'names',
+    category: 'Heritage',
+  },
+  {
+    id: 'places',
+    emoji: '🗺️',
+    name: 'Places to Visit',
+    tagline: 'Map your trip to Ireland.',
+    live: true,
+    path: 'places',
+    category: 'Explore Ireland',
+  },
+  {
     id: 'immersion',
     emoji: '🔥',
     name: 'Is the Immersion On?',
@@ -131,7 +158,7 @@ export const tools = [
 ]
 
 // Tools grouped by category, in display order. Used by the side nav.
-export const TOOL_CATEGORIES = ['Weather', 'Craic', 'Handy']
+export const TOOL_CATEGORIES = ['Heritage', 'Explore Ireland', 'Craic', 'Weather', 'Handy']
 
 export function toolsByCategory() {
   return TOOL_CATEGORIES.map((category) => ({
