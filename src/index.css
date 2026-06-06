@@ -1577,6 +1577,12 @@ a {
   flex-wrap: wrap;
 }
 
+/* Share sits inline here, so drop the margin it uses under results. */
+.mammy__buttons .share,
+.focal__buttons .share {
+  margin-top: 0;
+}
+
 /* ---------- Cúpla focal ---------- */
 .focal {
   text-align: center;
