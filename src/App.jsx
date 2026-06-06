@@ -18,7 +18,7 @@ import ConsentBanner from './components/ConsentBanner.jsx'
 import SideNav from './components/SideNav.jsx'
 import Logo from './components/Logo.jsx'
 import AdSpace from './components/AdSpace.jsx'
-import { tools } from './data/tools.js'
+import { toolsByCategory } from './data/tools.js'
 import { useState } from 'react'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
@@ -211,22 +211,24 @@ function ToolPage({ page }) {
 }
 
 function Home() {
+  const groups = toolsByCategory()
   return (
     <>
       <div className="hero">
         <h1 className="hero__title">Grand little tools for grand little problems.</h1>
         <p className="hero__subtitle">
-          A growing collection of fun and handy tools for Irish people. Pick one below —
-          sure it’s only a bit of craic.
+          A growing collection of fun and handy tools for Ireland and the Irish abroad.
+          Pick one below — sure it’s only a bit of craic.
         </p>
       </div>
 
       <QuizBanner />
 
-      <section className="tools" id="tools">
-        <ul className="tool-grid">
-          {tools.map((tool) =>
-            tool.live ? (
+      {groups.map((group) => (
+        <section className="tools" id={group.category.toLowerCase()} key={group.category}>
+          <h2 className="tools__heading">{group.category}</h2>
+          <ul className="tool-grid">
+            {group.items.map((tool) => (
               <li key={tool.id}>
                 <a
                   className="tool-card tool-card--link is-live"
@@ -239,14 +241,10 @@ function Home() {
                   <ToolCardInner tool={tool} />
                 </a>
               </li>
-            ) : (
-              <li key={tool.id} className="tool-card is-soon">
-                <ToolCardInner tool={tool} />
-              </li>
-            ),
-          )}
-        </ul>
-      </section>
+            ))}
+          </ul>
+        </section>
+      ))}
     </>
   )
 }
