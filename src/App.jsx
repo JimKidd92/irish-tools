@@ -1,5 +1,6 @@
 import ImmersionTool from './components/ImmersionTool.jsx'
 import DryingTool from './components/DryingTool.jsx'
+import SoftDayTool from './components/SoftDayTool.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
@@ -17,6 +18,12 @@ const PAGES = {
     subtitle:
       'Should ya hang the washing on the line? We’ll check the weather where you are and give you the verdict.',
     Component: DryingTool,
+  },
+  'soft-day': {
+    title: 'Is It a Soft Day?',
+    subtitle:
+      'Mild, grey and a gentle mizzle? We’ll tell you if it’s a soft oul day — and translate the forecast into proper Irish.',
+    Component: SoftDayTool,
   },
 }
 

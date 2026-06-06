@@ -465,8 +465,8 @@ a {
   color: inherit;
 }
 
-/* ---------- Drying tool ---------- */
-.drying {
+/* Shared weather-tool search + status (used by drying, soft day, …) */
+.weather-tool {
   background: #fff;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -475,14 +475,14 @@ a {
   margin: 16px 0;
 }
 
-.drying__search {
+.loc-search {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
 }
 
-.drying__input {
+.loc-search__input {
   flex: 1;
   min-width: 200px;
   padding: 12px 16px;
@@ -491,23 +491,23 @@ a {
   font-size: 1rem;
 }
 
-.drying__input:focus {
+.loc-search__input:focus {
   outline: none;
   border-color: var(--green);
   box-shadow: 0 0 0 3px rgba(22, 155, 98, 0.15);
 }
 
-.drying__status {
+.weather-status {
   text-align: center;
   margin: 20px 0 0;
   color: var(--ink-soft);
 }
 
-.drying__status--error {
+.weather-status--error {
   color: #c0392b;
 }
 
-.drying__hint {
+.weather-hint {
   text-align: center;
   color: var(--ink-soft);
   margin: 22px auto 0;
@@ -615,6 +615,67 @@ a {
   .drying__stats {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* ---------- Soft day tool ---------- */
+.softday__result {
+  margin-top: 26px;
+  text-align: center;
+}
+
+.softday__big {
+  font-size: 3.2rem;
+  display: block;
+}
+
+.softday__answer {
+  margin: 6px 0 2px;
+  font-size: 1.9rem;
+  letter-spacing: -0.02em;
+}
+
+.softday__result.is-soft .softday__answer {
+  color: var(--green-dark);
+}
+
+.softday__result.is-not-soft .softday__answer {
+  color: var(--ink);
+}
+
+.softday__place {
+  margin: 0 0 18px;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.softday__phrase {
+  background: #f7f6ef;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 20px;
+  max-width: 440px;
+  margin: 0 auto 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.softday__phrase-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+
+.softday__phrase-text {
+  font-size: 1.5rem;
+  color: var(--green-dark);
+  letter-spacing: -0.01em;
+}
+
+.softday__phrase-note {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
 }
 
 /* ---------- Responsive ---------- */

@@ -153,3 +153,57 @@ export function dryingVerdict(score) {
     blurb: 'Leave them inside, sure you’d be wasting your time. Desperate altogether.',
   }
 }
+
+// --- Soft day --------------------------------------------------------------
+// A "soft day, thank God" is the classic Irish mild, grey, damp, drizzly/misty
+// day — not cold, not lashing, just a gentle persistent mizzle under low cloud.
+
+export function softDayAssessment(forecast) {
+  const c = forecast.current ?? {}
+  const temp = c.temperature_2m ?? 10
+  const humidity = c.relative_humidity_2m ?? 85
+  const wind = c.wind_speed_10m ?? 10
+  const code = c.weather_code ?? 3
+  const precip = c.precipitation ?? 0
+
+  // Each ingredient of "softness" scored 0–1, then combined.
+  // Mild temperature (sweet spot ~7–14°C).
+  const mild = temp >= 6 && temp <= 15 ? 1 - Math.abs(temp - 10.5) / 6 : 0
+  // Damp air.
+  const damp = clamp((humidity - 80) / 18, 0, 1)
+  // Grey/misty/drizzly skies: overcast (3), fog (45–48), drizzle (51–57),
+  // light rain (61), light showers (80).
+  const greyCodes = [3, 45, 48, 51, 53, 55, 56, 57, 61, 80]
+  const grey = greyCodes.includes(code) ? 1 : code <= 2 ? 0 : 0.4
+  // Gentle, not blowing a gale.
+  const gentle = clamp(1 - Math.max(0, wind - 25) / 30, 0, 1)
+  // Not lashing — a soft day is a light mizzle, not heavy rain.
+  const notLashing = precip <= 2.5 ? 1 : clamp(1 - (precip - 2.5) / 5, 0, 1)
+
+  const score = Math.round(
+    (mild * 0.3 + damp * 0.2 + grey * 0.25 + gentle * 0.1 + notLashing * 0.15) * 100,
+  )
+
+  // It only counts as a genuine soft day if it's mild, gentle and not lashing.
+  const isSoftDay = score >= 60 && temp >= 5 && temp <= 16 && precip <= 4 && wind < 35
+
+  return { score, isSoftDay, temp, humidity, wind, precip, code }
+}
+
+// Translate the raw weather into proper Irish vernacular — the fun bit.
+export function irishWeather({ temp, wind, humidity, code, precip }) {
+  if (code >= 95) return { phrase: 'Wild out altogether', note: 'Thunder and all — stay in by the fire.' }
+  if (code >= 71 && code <= 77) return { phrase: 'Baltic — snow and all', note: 'Perishing. Wrap up well.' }
+  if (precip >= 5 || (code >= 63 && code <= 67) || code === 82)
+    return { phrase: 'It’s lashing', note: 'Bucketing down out there. You’d be drownded.' }
+  if (temp <= 3) return { phrase: 'Perishing', note: 'Baltic out. Bitter cold.' }
+  if (temp >= 23 && code <= 1) return { phrase: 'Splitting the stones', note: 'Roasting! A rare oul scorcher.' }
+  if (code === 45 || code === 48) return { phrase: 'A soft, misty oul day', note: 'Fog down low, can’t see a thing.' }
+  if ([51, 53, 55, 56, 57, 61].includes(code))
+    return { phrase: 'Soft day, thank God', note: 'Gentle mizzle, mild and grey. Classic.' }
+  if (wind >= 45) return { phrase: 'Blowing a hooley', note: 'Mind your washing — it’d take the head off ya.' }
+  if (temp >= 18 && humidity >= 75) return { phrase: 'Awful close', note: 'Muggy and warm. You’d be stuck to yourself.' }
+  if (code <= 1 && temp >= 14) return { phrase: 'Grand day altogether', note: 'Dry and bright. Make the most of it.' }
+  if (code === 3) return { phrase: 'Bit grey but grand', note: 'Dry enough, just a blanket of cloud.' }
+  return { phrase: 'Middlin’', note: 'Neither one thing nor the other, sure.' }
+}

@@ -29,7 +29,8 @@ export const tools = [
     emoji: '🌧️',
     name: 'Is It a Soft Day?',
     tagline: 'Translating the Irish weather forecast.',
-    live: false,
+    live: true,
+    path: 'soft-day',
   },
   {
     id: 'foot-the-turf',
