@@ -1,12 +1,40 @@
 import ImmersionTool from './components/ImmersionTool.jsx'
+import DryingTool from './components/DryingTool.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
+import { useHashRoute, navigate } from './hooks/useHashRoute.js'
+
+// Each tool page: a title, subtitle and the tool component itself.
+const PAGES = {
+  immersion: {
+    title: 'Is the Immersion On?',
+    subtitle:
+      'The eternal Irish question. Settle it once and for all — your answer is saved on this device.',
+    Component: ImmersionTool,
+  },
+  drying: {
+    title: 'Is There Good Drying Out?',
+    subtitle:
+      'Should ya hang the washing on the line? We’ll check the weather where you are and give you the verdict.',
+    Component: DryingTool,
+  },
+}
 
 export default function App() {
+  const route = useHashRoute()
+  const page = PAGES[route]
+
   return (
     <div className="page">
       <header className="site-header">
-        <a className="brand" href="/">
+        <a
+          className="brand"
+          href="#/"
+          onClick={(e) => {
+            e.preventDefault()
+            navigate('home')
+          }}
+        >
           <span className="brand__mark" aria-hidden="true">🍀</span>
           <span className="brand__name">Irish&nbsp;Tools</span>
         </a>
@@ -16,40 +44,7 @@ export default function App() {
       <AdSpace label="Banner ad" />
 
       <main className="main">
-        <div className="hero">
-          <h1 className="hero__title">Is the Immersion On?</h1>
-          <p className="hero__subtitle">
-            The eternal Irish question. Settle it once and for all — your answer is
-            saved on this device.
-          </p>
-        </div>
-
-        <ImmersionTool />
-
-        <aside className="sidebar-ad">
-          <AdSpace label="Sidebar ad" />
-        </aside>
-
-        <section className="tools" id="tools">
-          <h2 className="tools__heading">More Irish tools</h2>
-          <p className="tools__sub">
-            We’re building out the collection. Here’s what’s brewing.
-          </p>
-          <ul className="tool-grid">
-            {tools.map((tool) => (
-              <li key={tool.id} className={`tool-card ${tool.live ? 'is-live' : 'is-soon'}`}>
-                <span className="tool-card__emoji" aria-hidden="true">
-                  {tool.emoji}
-                </span>
-                <h3 className="tool-card__name">{tool.name}</h3>
-                <p className="tool-card__tagline">{tool.tagline}</p>
-                <span className="tool-card__badge">
-                  {tool.live ? 'Live now' : 'Coming soon'}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </section>
+        {page ? <ToolPage page={page} /> : <Home />}
       </main>
 
       <footer className="site-footer">
@@ -62,5 +57,76 @@ export default function App() {
         </p>
       </footer>
     </div>
+  )
+}
+
+function ToolPage({ page }) {
+  const { title, subtitle, Component } = page
+  return (
+    <>
+      <button className="back-link" onClick={() => navigate('home')}>
+        ← All tools
+      </button>
+      <div className="hero">
+        <h1 className="hero__title">{title}</h1>
+        <p className="hero__subtitle">{subtitle}</p>
+      </div>
+      <Component />
+      <aside className="sidebar-ad">
+        <AdSpace label="Sidebar ad" />
+      </aside>
+    </>
+  )
+}
+
+function Home() {
+  return (
+    <>
+      <div className="hero">
+        <h1 className="hero__title">Grand little tools for grand little problems.</h1>
+        <p className="hero__subtitle">
+          A growing collection of fun and handy tools for Irish people. Pick one below —
+          sure it’s only a bit of craic.
+        </p>
+      </div>
+
+      <section className="tools" id="tools">
+        <ul className="tool-grid">
+          {tools.map((tool) =>
+            tool.live ? (
+              <li key={tool.id}>
+                <a
+                  className="tool-card tool-card--link is-live"
+                  href={`#/${tool.path}`}
+                  onClick={(e) => {
+                    e.preventDefault()
+                    navigate(tool.path)
+                  }}
+                >
+                  <ToolCardInner tool={tool} />
+                </a>
+              </li>
+            ) : (
+              <li key={tool.id} className="tool-card is-soon">
+                <ToolCardInner tool={tool} />
+              </li>
+            ),
+          )}
+        </ul>
+      </section>
+    </>
+  )
+}
+
+function ToolCardInner({ tool }) {
+  return (
+    <>
+      <span className="tool-card__emoji" aria-hidden="true">
+        {tool.emoji}
+      </span>
+      <h3 className="tool-card__name">{tool.name}</h3>
+      <p className="tool-card__tagline">{tool.tagline}</p>
+      <span className="tool-card__badge">{tool.live ? 'Live now' : 'Coming soon'}</span>
+    </>
   )
 }

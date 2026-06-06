@@ -7,6 +7,15 @@ export const tools = [
     name: 'Is the Immersion On?',
     tagline: 'The eternal question, finally answered.',
     live: true,
+    path: 'immersion',
+  },
+  {
+    id: 'good-drying',
+    emoji: '🧺',
+    name: 'Is There Good Drying Out?',
+    tagline: 'Should ya hang the washing on the line?',
+    live: true,
+    path: 'drying',
   },
   {
     id: 'cup-of-tea',
@@ -27,13 +36,6 @@ export const tools = [
     emoji: '🔥',
     name: 'Is It Time to Foot the Turf?',
     tagline: 'Weather says when the bog’s ready.',
-    live: false,
-  },
-  {
-    id: 'good-drying',
-    emoji: '🧺',
-    name: 'Is There Good Drying Out?',
-    tagline: 'Should ya hang the washing on the line?',
     live: false,
   },
   {
