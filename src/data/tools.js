@@ -1,5 +1,6 @@
 // The growing collection of fun & handy Irish tools.
 // Add new ones here — `live: true` to enable, otherwise it shows as "Coming soon".
+// `category` groups them in the side nav: 'Weather' | 'Craic' | 'Handy'.
 export const tools = [
   {
     id: 'immersion',
@@ -8,6 +9,7 @@ export const tools = [
     tagline: 'The eternal question, finally answered.',
     live: true,
     path: 'immersion',
+    category: 'Craic',
   },
   {
     id: 'good-drying',
@@ -16,6 +18,7 @@ export const tools = [
     tagline: 'Should ya hang the washing on the line?',
     live: true,
     path: 'drying',
+    category: 'Weather',
   },
   {
     id: 'cup-of-tea',
@@ -24,6 +27,7 @@ export const tools = [
     tagline: 'Ah go on, go on, go on, go on.',
     live: true,
     path: 'tea',
+    category: 'Craic',
   },
   {
     id: 'soft-day',
@@ -32,6 +36,7 @@ export const tools = [
     tagline: 'Translating the Irish weather forecast.',
     live: true,
     path: 'soft-day',
+    category: 'Weather',
   },
   {
     id: 'foot-the-turf',
@@ -40,6 +45,7 @@ export const tools = [
     tagline: 'Weather says when the bog’s ready.',
     live: true,
     path: 'turf',
+    category: 'Weather',
   },
   {
     id: 'mass-times',
@@ -48,6 +54,7 @@ export const tools = [
     tagline: 'A grand stretch in the evenings calculator.',
     live: true,
     path: 'form',
+    category: 'Weather',
   },
   {
     id: 'notes-money',
@@ -56,6 +63,7 @@ export const tools = [
     tagline: 'Never get caught at the bar again.',
     live: true,
     path: 'round',
+    category: 'Handy',
   },
   {
     id: 'spuds',
@@ -64,6 +72,7 @@ export const tools = [
     tagline: 'Dinner portions, done properly.',
     live: true,
     path: 'spuds',
+    category: 'Handy',
   },
   {
     id: 'bank-holiday',
@@ -72,6 +81,7 @@ export const tools = [
     tagline: 'When’s the next day off?',
     live: true,
     path: 'bank-holiday',
+    category: 'Handy',
   },
   {
     id: 'reg',
@@ -80,6 +90,7 @@ export const tools = [
     tagline: 'What year and county is that reg?',
     live: true,
     path: 'reg',
+    category: 'Handy',
   },
   {
     id: 'pints',
@@ -88,6 +99,7 @@ export const tools = [
     tagline: 'The only currency that matters.',
     live: true,
     path: 'pints',
+    category: 'Craic',
   },
   {
     id: 'mammy',
@@ -96,6 +108,7 @@ export const tools = [
     tagline: 'Words of wisdom, on tap.',
     live: true,
     path: 'mammy',
+    category: 'Craic',
   },
   {
     id: 'focal',
@@ -104,6 +117,7 @@ export const tools = [
     tagline: 'A bit of Irish for the day.',
     live: true,
     path: 'focal',
+    category: 'Craic',
   },
   {
     id: 'pub',
@@ -112,5 +126,16 @@ export const tools = [
     tagline: 'Can I get a pint today?',
     live: true,
     path: 'pub',
+    category: 'Craic',
   },
 ]
+
+// Tools grouped by category, in display order. Used by the side nav.
+export const TOOL_CATEGORIES = ['Weather', 'Craic', 'Handy']
+
+export function toolsByCategory() {
+  return TOOL_CATEGORIES.map((category) => ({
+    category,
+    items: tools.filter((t) => t.live && t.category === category),
+  }))
+}

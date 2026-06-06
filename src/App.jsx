@@ -15,8 +15,11 @@ import FocalTool from './components/FocalTool.jsx'
 import PubTool from './components/PubTool.jsx'
 import PrivacyPage from './components/PrivacyPage.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
+import SideNav from './components/SideNav.jsx'
+import Logo from './components/Logo.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
+import { useState } from 'react'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
 import { loadProgress, playedToday } from './lib/dailyQuiz.js'
@@ -111,10 +114,22 @@ export default function App() {
   const route = useHashRoute()
   const page = PAGES[route]
   const [theme, toggleTheme] = useTheme()
+  const [navOpen, setNavOpen] = useState(false)
 
   return (
     <div className="page">
+      <SideNav open={navOpen} onClose={() => setNavOpen(false)} route={route} />
+
       <header className="site-header">
+        <button
+          className="nav-toggle"
+          onClick={() => setNavOpen(true)}
+          aria-label="Open menu"
+        >
+          <span className="nav-toggle__bar" />
+          <span className="nav-toggle__bar" />
+          <span className="nav-toggle__bar" />
+        </button>
         <button
           className="theme-toggle"
           onClick={toggleTheme}
@@ -131,7 +146,7 @@ export default function App() {
             navigate('home')
           }}
         >
-          <span className="brand__mark" aria-hidden="true">🍀</span>
+          <Logo size={34} className="brand__logo" />
           <span className="brand__name">Irish&nbsp;Tools</span>
         </a>
         <p className="brand__tagline">Grand little tools for grand little problems.</p>
