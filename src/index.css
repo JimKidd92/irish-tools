@@ -678,6 +678,57 @@ a {
   font-size: 0.95rem;
 }
 
+/* ---------- Foot the turf: day strip ---------- */
+.turf__days {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 440px;
+}
+
+.turf__day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #f7f6ef;
+  border: 1px solid var(--line);
+  min-width: 64px;
+}
+
+.turf__day.is-dry {
+  border-color: var(--green);
+  background: rgba(22, 155, 98, 0.08);
+}
+
+.turf__day.is-wet {
+  border-color: #d8c2b0;
+  background: rgba(176, 101, 29, 0.08);
+}
+
+.turf__day-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+
+.turf__day-icon {
+  font-size: 1.4rem;
+}
+
+.turf__day-rain {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
 /* ---------- Responsive ---------- */
 @media (min-width: 760px) {
   .immersion {

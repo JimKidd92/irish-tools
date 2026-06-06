@@ -1,6 +1,7 @@
 import ImmersionTool from './components/ImmersionTool.jsx'
 import DryingTool from './components/DryingTool.jsx'
 import SoftDayTool from './components/SoftDayTool.jsx'
+import FootTurfTool from './components/FootTurfTool.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
@@ -24,6 +25,12 @@ const PAGES = {
     subtitle:
       'Mild, grey and a gentle mizzle? We’ll tell you if it’s a soft oul day — and translate the forecast into proper Irish.',
     Component: SoftDayTool,
+  },
+  turf: {
+    title: 'Is It Time to Foot the Turf?',
+    subtitle:
+      'Footing turf needs a dry, breezy spell. We’ll check the days behind and ahead and tell you if it’s worth heading to the bog.',
+    Component: FootTurfTool,
   },
 }
 

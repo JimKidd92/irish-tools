@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import { geocode, getForecast } from '../lib/weather.js'
 
 // Shared logic for any location-based weather tool: holds the chosen location,
-// handles search + geolocation, fetches the forecast, and runs a `compute`
-// function over it to produce the tool-specific result. Remembers the last
-// location per tool via `storageKey`.
-export function useWeatherTool(storageKey, compute) {
+// handles search + geolocation, fetches weather (via `fetcher`), and runs a
+// `compute` function over it to produce the tool-specific result. Remembers the
+// last location per tool via `storageKey`.
+export function useWeatherTool(storageKey, compute, fetcher = getForecast) {
   const [query, setQuery] = useState('')
   const [location, setLocation] = useState(() => load(storageKey))
   const [result, setResult] = useState(null)
@@ -22,8 +22,8 @@ export function useWeatherTool(storageKey, compute) {
     setStatus('loading')
     setError('')
     try {
-      const forecast = await getForecast(loc.latitude, loc.longitude)
-      setResult(compute(forecast))
+      const data = await fetcher(loc.latitude, loc.longitude)
+      setResult(compute(data))
       setLocation(loc)
       try {
         localStorage.setItem(storageKey, JSON.stringify(loc))

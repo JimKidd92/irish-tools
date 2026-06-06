@@ -37,7 +37,8 @@ export const tools = [
     emoji: '🔥',
     name: 'Is It Time to Foot the Turf?',
     tagline: 'Weather says when the bog’s ready.',
-    live: false,
+    live: true,
+    path: 'turf',
   },
   {
     id: 'mass-times',

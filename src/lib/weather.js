@@ -40,6 +40,23 @@ export async function getForecast(latitude, longitude) {
   return res.json()
 }
 
+// Fetch a multi-day outlook: a few days behind (to see if it's been dry) and a
+// few ahead. Used by "Foot the Turf?" and handy for future planning tools.
+export async function getOutlook(latitude, longitude, { pastDays = 3, forecastDays = 4 } = {}) {
+  const params = new URLSearchParams({
+    latitude,
+    longitude,
+    daily: 'precipitation_sum,precipitation_probability_max,wind_speed_10m_max,temperature_2m_max',
+    timezone: 'auto',
+    past_days: String(pastDays),
+    forecast_days: String(forecastDays),
+    wind_speed_unit: 'kmh',
+  })
+  const res = await fetch(`${FORECAST_URL}?${params}`)
+  if (!res.ok) throw new Error('Could not fetch the outlook.')
+  return res.json()
+}
+
 // Human-readable label for an Open-Meteo WMO weather code.
 export function describeWeather(code) {
   if (code === 0) return { text: 'Clear', emoji: '☀️' }
@@ -206,4 +223,95 @@ export function irishWeather({ temp, wind, humidity, code, precip }) {
   if (code <= 1 && temp >= 14) return { phrase: 'Grand day altogether', note: 'Dry and bright. Make the most of it.' }
   if (code === 3) return { phrase: 'Bit grey but grand', note: 'Dry enough, just a blanket of cloud.' }
   return { phrase: 'Middlin’', note: 'Neither one thing nor the other, sure.' }
+}
+
+// --- Foot the turf ---------------------------------------------------------
+// Footing turf means standing the cut sods up in little stooks so they dry in
+// the bog. You want a dry, breezy spell — ideally it's been dry and stays dry.
+
+const DRY_DAY_MM = 1.0 // under 1mm of rain counts as a "dry" day
+
+export function footTurfAssessment(outlook) {
+  const daily = outlook.daily ?? {}
+  const dates = daily.time ?? []
+  const precip = daily.precipitation_sum ?? []
+  const rainProb = daily.precipitation_probability_max ?? []
+  const wind = daily.wind_speed_10m_max ?? []
+  const temp = daily.temperature_2m_max ?? []
+
+  // Locate today within the window (past days sit before it).
+  const todayStr = new Date().toLocaleDateString('en-CA') // YYYY-MM-DD
+  let todayIdx = dates.indexOf(todayStr)
+  if (todayIdx < 0) todayIdx = 0
+
+  const pastIdx = range(0, todayIdx)
+  const aheadIdx = range(todayIdx, dates.length) // today + forecast days
+
+  const pastDry = pastIdx.filter((i) => (precip[i] ?? 0) < DRY_DAY_MM).length
+  const aheadDry = aheadIdx.filter((i) => (precip[i] ?? 0) < DRY_DAY_MM).length
+  const rainAhead = aheadIdx.reduce((a, i) => a + (precip[i] ?? 0), 0)
+  const avgWind = mean(aheadIdx.map((i) => wind[i] ?? 0))
+  const avgTemp = mean(aheadIdx.map((i) => temp[i] ?? 0))
+
+  // Score 0–100: dry days ahead dominate, recent dryness helps, then wind/warmth.
+  let score = Math.round(
+    (aheadIdx.length ? aheadDry / aheadIdx.length : 0) * 55 +
+      (pastIdx.length ? pastDry / pastIdx.length : 0) * 20 +
+      clamp(avgWind / 30, 0, 1) * 15 +
+      clamp((avgTemp - 8) / 12, 0, 1) * 10,
+  )
+  if (rainAhead > 20) score = Math.min(score, 35) // a soaking spell ruins it
+  score = clamp(score, 0, 100)
+
+  // A little day strip for the UI (today + next few days).
+  const days = aheadIdx.map((i) => ({
+    label:
+      dates[i] === todayStr
+        ? 'Today'
+        : new Date(dates[i]).toLocaleDateString('en-IE', { weekday: 'short' }),
+    dry: (precip[i] ?? 0) < DRY_DAY_MM,
+    rainProb: rainProb[i] ?? 0,
+  }))
+
+  return { score, pastDry, aheadDry, rainAhead, avgWind, days }
+}
+
+export function footTurfVerdict(score) {
+  if (score >= 75)
+    return {
+      level: 'top',
+      emoji: '🔥',
+      title: 'Get to the bog!',
+      blurb: 'A grand dry stretch. Get the turf footed while it lasts — perfect drying.',
+    }
+  if (score >= 55)
+    return {
+      level: 'good',
+      emoji: '👍',
+      title: 'A grand stretch — chance it',
+      blurb: 'Decent enough drying ahead. Worth getting out to the bog.',
+    }
+  if (score >= 35)
+    return {
+      level: 'middling',
+      emoji: '🤔',
+      title: 'Middling, keep an eye',
+      blurb: 'Bit hit and miss. You’d foot a few but be ready for showers.',
+    }
+  return {
+    level: 'poor',
+    emoji: '🌧️',
+    title: 'Too wet, leave it',
+    blurb: 'The bog’ll be soaked. No point footing turf that won’t dry. Wait for a better spell.',
+  }
+}
+
+function range(start, end) {
+  const out = []
+  for (let i = start; i < end; i++) out.push(i)
+  return out
+}
+
+function mean(arr) {
+  return arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0
 }
