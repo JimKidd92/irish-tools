@@ -1,0 +1,4434 @@
+[
+  {
+    "name": "Abbey of Kells",
+    "blurb": "Former monastery in Kells, County Meath, Ireland",
+    "type": "monastery",
+    "lat": 53.7262,
+    "lng": -6.87912,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kells%20roundtower%20highcross.jpg?width=400"
+  },
+  {
+    "name": "Abbey of St. Mary de Portu Patrum, Annaghdown",
+    "blurb": "House of Augustinian canons",
+    "type": "abbey",
+    "lat": 53.386994,
+    "lng": -9.072593,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Annaghdown%20Abbey%20of%20St.%20Mary%20de%20Portu%20Patrum%20Nave%202010%2009%2012.jpg?width=400"
+  },
+  {
+    "name": "Abbey of St. Mura",
+    "blurb": "Abbey in Ireland",
+    "type": "monastery",
+    "lat": 55.08666667,
+    "lng": -7.46444444,
+    "image": null
+  },
+  {
+    "name": "Abbeydorney Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 52.35361111,
+    "lng": -9.68333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Abbeydorney%20Ruin.JPG?width=400"
+  },
+  {
+    "name": "Abbeylara Cistercian Abbey",
+    "blurb": "Ruins of a Cistercian Abbey in Abbeylara, Co. Longford",
+    "type": "abbey",
+    "lat": 53.76458,
+    "lng": -7.44609,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cistercian%20Abbey%20ruins%2C%20Abbeylara%20-%20geograph.org.uk%20-%20437037.jpg?width=400"
+  },
+  {
+    "name": "Abbeylara Monastery",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 53.764722,
+    "lng": -7.446667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cistercian%20Abbey%20ruins%2C%20Abbeylara%20-%20geograph.org.uk%20-%20437037.jpg?width=400"
+  },
+  {
+    "name": "Abbeyleix Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 52.912778,
+    "lng": -7.348611,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Abbeyleix%20Demesne%20Anglican%20Church%20NW%202010%2009%2002.jpg?width=400"
+  },
+  {
+    "name": "Abbeymahon Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 51.641944,
+    "lng": -8.754167,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AbbeymahonAbbey.JPG?width=400"
+  },
+  {
+    "name": "Abbeyshrule Monastery",
+    "blurb": "Ruins of a Cistercian monastery in County Longford, Ireland",
+    "type": "abbey",
+    "lat": 53.579722,
+    "lng": -7.658056,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Longford%20-%20Abbeyshrule%20Monastery%20-%2020170930225722.jpg?width=400"
+  },
+  {
+    "name": "Adare Trinitarian Abbey",
+    "blurb": "Trinitarian abbey of medieval origin in Adare, Co. Limerick, Ireland",
+    "type": "monastery",
+    "lat": 52.564888,
+    "lng": -8.788889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Trinitarian%20monastery%2C%20Adare%20-%20geograph.org.uk%20-%20248039.jpg?width=400"
+  },
+  {
+    "name": "Aghalard Castle",
+    "blurb": "Tower house in County Mayo, Ireland",
+    "type": "castle",
+    "lat": 53.55623,
+    "lng": -9.29932833,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aghalard%20Castle%2C%20County%20Mayo%20-%20geograph-2329557.jpg?width=400"
+  },
+  {
+    "name": "Aghalurcher Monastery",
+    "blurb": "Pre-Norman ruins in County Fermanagh, Northern Ireland",
+    "type": "monastery",
+    "lat": 54.2344,
+    "lng": -7.45167,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aghalurcher%20Church%20Yard.jpg?width=400"
+  },
+  {
+    "name": "Aileach Castle",
+    "blurb": "Castle in Derry, County Londonderry, Northern Ireland",
+    "type": "castle",
+    "lat": 55.0405,
+    "lng": -7.35036,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Doherty%20Tower%20-%20geograph.org.uk%20-%20508480.jpg?width=400"
+  },
+  {
+    "name": "Airds Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.5894,
+    "lng": -5.46167,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Airds%20Castle%2C%20site%20of%20remains.%20-%20geograph.org.uk%20-%20248936.jpg?width=400"
+  },
+  {
+    "name": "Altidore Castle",
+    "blurb": "Castle in Kilcoole, County Wicklow",
+    "type": "castle",
+    "lat": 53.110624,
+    "lng": -6.138031,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Altidore%2C%20county%20Wicklow%20-%20geograph.org.uk%20-%202005781.jpg?width=400"
+  },
+  {
+    "name": "Altinaghree Castle",
+    "blurb": "Castle in Northern Ireland",
+    "type": "castle",
+    "lat": 54.88,
+    "lng": -7.246,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Altinaghree%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Antrim Castle",
+    "blurb": "17th century house in Antrim, Ireland, now demolished",
+    "type": "castle",
+    "lat": 54.721944444,
+    "lng": -6.230833333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AntrimCastleI.jpg?width=400"
+  },
+  {
+    "name": "Archbold's Castle",
+    "blurb": "Fortified town house or castle, in Dalkey, County Dublin",
+    "type": "castle",
+    "lat": 53.277762,
+    "lng": -6.105232,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Archibolds%20Castle%20Dalkey.JPG?width=400"
+  },
+  {
+    "name": "Ardaloo Castle",
+    "blurb": "Demolished castle in Ardaloo, County Kilkenny",
+    "type": "castle",
+    "lat": 52.709728,
+    "lng": -7.304141,
+    "image": null
+  },
+  {
+    "name": "Ardclone Castle",
+    "blurb": "Demolished castle in Ardclone, County Kilkenny",
+    "type": "castle",
+    "lat": 52.339642,
+    "lng": -7.333453,
+    "image": null
+  },
+  {
+    "name": "Ardee Castle",
+    "blurb": "Fortified medieval tower house in Ardee, County Louth",
+    "type": "castle",
+    "lat": 53.855152,
+    "lng": -6.538569,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Louth%20-%20Ardee%20Castle%20-%2020180930142814.jpg?width=400"
+  },
+  {
+    "name": "Ardfinnan Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 52.31,
+    "lng": -7.88,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%20-%20Ardfinnan%2C%20Tipperary%20%282%29%20-%20geograph.org.uk%20-%201393369.jpg?width=400"
+  },
+  {
+    "name": "Ardgillan Castle",
+    "blurb": "Country house and demesne near Balbriggan, north of Dublin, Ireland",
+    "type": "castle",
+    "lat": 53.586,
+    "lng": -6.16,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ardgillan%20castle.jpg?width=400"
+  },
+  {
+    "name": "Ardglass Castle",
+    "blurb": "Row of 15th century warehouses in Northern Ireland",
+    "type": "castle",
+    "lat": 54.2583,
+    "lng": -5.60556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ardglass%20Golf%20Club%2C%20November%202010%20%2808%29.JPG?width=400"
+  },
+  {
+    "name": "Arkin's Castle",
+    "blurb": "Building in Ireland",
+    "type": "castle",
+    "lat": 53.104845,
+    "lng": -9.662614,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arkin%27s%20Castle.JPG?width=400"
+  },
+  {
+    "name": "Ashford Castle, County Mayo",
+    "blurb": "Fortification",
+    "type": "castle",
+    "lat": 53.5348,
+    "lng": -9.284406,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashford%20castle%20from%20Lough%20Corrib.JPG?width=400"
+  },
+  {
+    "name": "Ashtown Castle",
+    "blurb": "Tower house in Phoenix Park in Dublin, Ireland",
+    "type": "castle",
+    "lat": 53.365766666,
+    "lng": -6.330572222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashtown%20Castle1.JPG?width=400"
+  },
+  {
+    "name": "Assaroe Abbey",
+    "blurb": "Former Irish Cistercian abbey",
+    "type": "abbey",
+    "lat": 54.50694444,
+    "lng": -8.2,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AssaroeAbbey.JPG?width=400"
+  },
+  {
+    "name": "Athlone Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.42333,
+    "lng": -7.9425,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castelo%20de%20Athlone%20Irlanda.jpg?width=400"
+  },
+  {
+    "name": "Athlumney Castle",
+    "blurb": "Castle (tower house and fortified house) in County Meath, Ireland",
+    "type": "castle",
+    "lat": 53.65029,
+    "lng": -6.67504,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Athlumney%2C%20Meath%20%283%29%20-%20geograph.org.uk%20-%202494800.jpg?width=400"
+  },
+  {
+    "name": "Athy Priory",
+    "blurb": "Friary in Athy, Ireland",
+    "type": "monastery",
+    "lat": 52.990694,
+    "lng": -6.983284,
+    "image": null
+  },
+  {
+    "name": "Audley's Castle",
+    "blurb": "Irish Norman ruined tower castle",
+    "type": "castle",
+    "lat": 54.3796,
+    "lng": -5.57194,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Audley%27s%20Castle%2C%20through%20trees.jpg?width=400"
+  },
+  {
+    "name": "Augustinian Friary of the Holy Trinity",
+    "blurb": "Medieval Roman Catholic priory in Dublin, Ireland",
+    "type": "monastery",
+    "lat": 53.3432,
+    "lng": -6.2776,
+    "image": null
+  },
+  {
+    "name": "Augustinian Monastery",
+    "blurb": "Abandoned monastery building on Mill Street in Callan, Co. Kilkenny",
+    "type": "monastery",
+    "lat": 52.54452,
+    "lng": -7.3887,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Augustinian%20Monastery%20-%20geograph.org.uk%20-%20565530.jpg?width=400"
+  },
+  {
+    "name": "Baggotrath Castle",
+    "blurb": "Former castle near Baggot Street, Dublin, Ireland",
+    "type": "castle",
+    "lat": 53.3335,
+    "lng": -6.24305,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Baggotsrath%20Castle%20%28Co.%20Dublin%29.jpg?width=400"
+  },
+  {
+    "name": "Balleen Castle",
+    "blurb": "Castle in the townland of Balleen Little",
+    "type": "castle",
+    "lat": 52.752368,
+    "lng": -7.442024,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Balleen%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%202495757.jpg?width=400"
+  },
+  {
+    "name": "Ballinafad Castle",
+    "blurb": "Elizabethan castle in County Sligo, Ireland",
+    "type": "castle",
+    "lat": 54.026,
+    "lng": -8.3358,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballinafad%20Castle%2C%20Co.%20Sligo%2C%20Ireland.jpg?width=400"
+  },
+  {
+    "name": "Ballincollig Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 51.87916667,
+    "lng": -8.59944444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/06%2007%20Ballincollig%20Castle%20W%20Monogram.JPG?width=400"
+  },
+  {
+    "name": "Ballindoney Castle",
+    "blurb": "Tower house in County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.337611111,
+    "lng": -7.847111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballindoney%2C%20Tipperary%20-%20geograph.org.uk%20-%201393375.jpg?width=400"
+  },
+  {
+    "name": "Ballinlough Castle",
+    "blurb": "Country house in County Westmeath, Ireland",
+    "type": "castle",
+    "lat": 53.634,
+    "lng": -7.026,
+    "image": null
+  },
+  {
+    "name": "Ballinskelligs Castle",
+    "blurb": "Castle in Kerry, Ireland",
+    "type": "castle",
+    "lat": 51.820097,
+    "lng": -10.270506,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballinskelligs%2C%20Kerry%20-%20geograph.org.uk%20-%201392857.jpg?width=400"
+  },
+  {
+    "name": "Ballintlea Castle (site of)",
+    "blurb": "Possibly demolished castle or other building mentioned in the Down Survey in Ballintlea, barony of Knocktopher, County Kilkenny",
+    "type": "castle",
+    "lat": 52.380923,
+    "lng": -7.135383,
+    "image": null
+  },
+  {
+    "name": "Ballintober Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.72225,
+    "lng": -8.41562,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Ballintober%2C%20Roscommon%20%28geograph%201954203%29.jpg?width=400"
+  },
+  {
+    "name": "Ballintubber Abbey",
+    "blurb": "Church in County Mayo, Ireland",
+    "type": "abbey",
+    "lat": 53.757267,
+    "lng": -9.282407,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballintubber%20Abbey%20East%20Range%202007%2008%2012.jpg?width=400"
+  },
+  {
+    "name": "Ballyadams Castle",
+    "blurb": "Ruins of a castle in County Laois, Ireland",
+    "type": "castle",
+    "lat": 52.96483,
+    "lng": -7.064,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballyadams%20Castle.png?width=400"
+  },
+  {
+    "name": "Ballycar Castle",
+    "blurb": "Former castle in County Clare, Ireland",
+    "type": "castle",
+    "lat": 52.76404167,
+    "lng": -8.87440556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20south-east%20prospect%20of%20Ballicar%20Castle%20%281680%29%20by%20Thomas%20Dineley.jpg?width=400"
+  },
+  {
+    "name": "Ballycarbery Castle",
+    "blurb": "Castle in County Kerry, Ireland",
+    "type": "castle",
+    "lat": 51.948862,
+    "lng": -10.258656,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballycarbery%20Castle-IMG%205554.jpg?width=400"
+  },
+  {
+    "name": "Ballyconra Castle (site of)",
+    "blurb": "Site of a 17th century house in Ballyconra, County Kilkenny",
+    "type": "castle",
+    "lat": 52.795982,
+    "lng": -7.35275,
+    "image": null
+  },
+  {
+    "name": "Ballycowan Castle",
+    "blurb": "Castle / Fortified House in County Offaly, Ireland",
+    "type": "castle",
+    "lat": 53.276419,
+    "lng": -7.558745,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballycowan%20Castle%2C%20Co.%20Offaly%20-%20geograph.org.uk%20-%20942610.jpg?width=400"
+  },
+  {
+    "name": "Ballydaniel Castle",
+    "blurb": "Demolished castle in Ballydaniel, County Kilkenny",
+    "type": "castle",
+    "lat": 52.696008,
+    "lng": -7.344053,
+    "image": null
+  },
+  {
+    "name": "Ballygally Castle",
+    "blurb": "Castle in County Antrim, Northern Ireland",
+    "type": "castle",
+    "lat": 54.899,
+    "lng": -5.8617,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballygally%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Ballygrennan Castle",
+    "blurb": "Ruined towerhouse in County Limerick",
+    "type": "castle",
+    "lat": 52.465556,
+    "lng": -8.538889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballygrennan%2C%20Limerick%20%282%29%20-%20geograph.org.uk%20-%201541499.jpg?width=400"
+  },
+  {
+    "name": "Ballygunner Castle",
+    "blurb": "Country house near Waterford city, Ireland",
+    "type": "castle",
+    "lat": 52.228,
+    "lng": -7.0565,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Ballygunner%2C%20Waterford%20%283%29%20%28geograph%204570343%29.jpg?width=400"
+  },
+  {
+    "name": "Ballyhack Castle",
+    "blurb": "Tower house in County Wexford, Ireland",
+    "type": "castle",
+    "lat": 52.245936,
+    "lng": -6.967427,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballyhack%20Castle%20by%20the%20harbour.jpg?width=400"
+  },
+  {
+    "name": "Ballyheigue Castle",
+    "blurb": "Ruined castle in County Kerry, Ireland",
+    "type": "castle",
+    "lat": 52.39228,
+    "lng": -9.83896,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballyheigue%20castle.jpg?width=400"
+  },
+  {
+    "name": "Ballyhenebery Castle",
+    "blurb": "Demolished castle in Ballyhenebery, County Kilkenny, indicated on the Down Survey map",
+    "type": "castle",
+    "lat": 52.377129,
+    "lng": -7.363072,
+    "image": null
+  },
+  {
+    "name": "Ballykeefe Castle",
+    "blurb": "Ruinous castle in Ballykeefecastle, County Kilkenny",
+    "type": "castle",
+    "lat": 52.599928,
+    "lng": -7.388813,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Ballykeefe%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%206565964.jpg?width=400"
+  },
+  {
+    "name": "Ballykeoghan Castle",
+    "blurb": "Demolished castle in Skeard, County Kilkenny, marked as being in Ballykeoghan on the Down Survey map",
+    "type": "castle",
+    "lat": 52.321035,
+    "lng": -7.163227,
+    "image": null
+  },
+  {
+    "name": "Ballylahan Castle",
+    "blurb": "Castle ruins in Ireland",
+    "type": "castle",
+    "lat": 53.934565608,
+    "lng": -9.104968368,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballylahan%20Castle%20-%20geograph.org.uk%20-%20505506.jpg?width=400"
+  },
+  {
+    "name": "Ballymoon Castle",
+    "blurb": "Castle in County Carlow, Ireland",
+    "type": "castle",
+    "lat": 52.700236,
+    "lng": -6.906662,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballymoon%20Castle%20sunset%202.jpg?width=400"
+  },
+  {
+    "name": "Ballymore Castle",
+    "blurb": "Fortress in Ireland",
+    "type": "castle",
+    "lat": 53.233333333,
+    "lng": -8.183333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Ballymore%2C%20Galway%20%281%29%20%28geograph%204071679%29.jpg?width=400"
+  },
+  {
+    "name": "Ballymote Castle",
+    "blurb": "Medieval castle in Sligo, Ireland",
+    "type": "castle",
+    "lat": 54.087642285,
+    "lng": -8.519693656,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballymote%20Castle%2Coutside%20view%20-%20geograph.org.uk%20-%201588824.jpg?width=400"
+  },
+  {
+    "name": "Ballymoty Motte",
+    "blurb": "Motte located in County Wexford, Ireland",
+    "type": "castle",
+    "lat": 52.505617,
+    "lng": -6.461506,
+    "image": null
+  },
+  {
+    "name": "Ballynaboley Castle",
+    "blurb": "Demolished castle or fortified house in Ballynaboley, Ullid, Iverk, County Kilkenny",
+    "type": "castle",
+    "lat": 52.329375,
+    "lng": -7.215504,
+    "image": null
+  },
+  {
+    "name": "Ballynacarriga House",
+    "blurb": "Castle in County Cork, Ireland",
+    "type": "castle",
+    "lat": 52.17347,
+    "lng": -8.26726,
+    "image": null
+  },
+  {
+    "name": "Ballynoony Castle",
+    "blurb": "Demolished castle in Ballynoony West, Knocktopher, County Kilkenny",
+    "type": "castle",
+    "lat": 52.386759,
+    "lng": -7.157609,
+    "image": null
+  },
+  {
+    "name": "Ballyroe Castle",
+    "blurb": "Demolished castle in Ballyroe, Freshford, County Kilkenny",
+    "type": "castle",
+    "lat": 52.703749,
+    "lng": -7.409944,
+    "image": null
+  },
+  {
+    "name": "Ballyroney Castle",
+    "blurb": "Castle in Northern Ireland",
+    "type": "castle",
+    "lat": 54.282,
+    "lng": -6.13,
+    "image": null
+  },
+  {
+    "name": "Ballyshannon Castle",
+    "blurb": "Demolished castle in Ireland",
+    "type": "castle",
+    "lat": 54.501389,
+    "lng": -8.19,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gaelic%20Chieftain.jpg?width=400"
+  },
+  {
+    "name": "Ballytobin Castle",
+    "blurb": "Demolished castle in Ballytobin, County Kilkenny",
+    "type": "castle",
+    "lat": 52.508332,
+    "lng": -7.347335,
+    "image": null
+  },
+  {
+    "name": "Baltinglass Abbey",
+    "blurb": "Former Cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 52.94277778,
+    "lng": -6.70694444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Digital%20Eye%E2%80%932015%E2%80%93Baltinglass%20Abbey.jpg?width=400"
+  },
+  {
+    "name": "Bangor Abbey",
+    "blurb": "Abbey in Bangor, County Down, Northern Ireland",
+    "type": "abbey",
+    "lat": 54.656,
+    "lng": -5.675,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rear%20of%20Bangor%20Abbey.jpg?width=400"
+  },
+  {
+    "name": "Barberstown Castle",
+    "blurb": "Castle in County Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.323,
+    "lng": -6.61,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Barberstown%20Castle%2C%20Straffan.%20Co%20Kildare%20%283%29%20-%20geograph.org.uk%20-%201254264.jpg?width=400"
+  },
+  {
+    "name": "Bargy Castle",
+    "blurb": "Castle in County Wexford, Ireland",
+    "type": "castle",
+    "lat": 52.2225,
+    "lng": -6.491389,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bargy%20Castle%20-%20geograph.org.uk%20-%201239917.jpg?width=400"
+  },
+  {
+    "name": "Barmeath Castle",
+    "blurb": "Castle in County Louth, Ireland",
+    "type": "castle",
+    "lat": 53.8267,
+    "lng": -6.3365,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Barmeath%20Castle%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%20872697.jpg?width=400"
+  },
+  {
+    "name": "Barrabehy Castle",
+    "blurb": "Demolished castle in Barrabehy, County Kilkenny",
+    "type": "castle",
+    "lat": 52.346567,
+    "lng": -7.250502,
+    "image": null
+  },
+  {
+    "name": "Barretstown Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.15,
+    "lng": -6.6,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castlebarretstown.JPG?width=400"
+  },
+  {
+    "name": "Barryscourt Castle",
+    "blurb": "Castle in eastern County Cork, Ireland",
+    "type": "castle",
+    "lat": 51.904615,
+    "lng": -8.259374,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Barryscourt%20Castle%2C%20Cork.JPG?width=400"
+  },
+  {
+    "name": "Bective Abbey",
+    "blurb": "Ruined Cistercian abbey in Meath, Ireland",
+    "type": "abbey",
+    "lat": 53.5825527,
+    "lng": -6.7027057,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bective%20Abbey%20from%20the%20Sky.jpg?width=400"
+  },
+  {
+    "name": "Belfast Castle",
+    "blurb": "Mansion in Cavehill country Park, Belfast, Northern Ireland",
+    "type": "castle",
+    "lat": 54.6427,
+    "lng": -5.94232,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Belfast%20Castle%2C%20Antrim%20Road%20Belfast.jpg?width=400"
+  },
+  {
+    "name": "Bellaghy Castle",
+    "blurb": "Castle in Magherafelt, County Londonderry, Northern Ireland",
+    "type": "castle",
+    "lat": 54.8058,
+    "lng": -6.51828,
+    "image": null
+  },
+  {
+    "name": "Belle Isle Castle",
+    "blurb": "Historic Irish landmark situated on Belle Island",
+    "type": "castle",
+    "lat": 54.2678,
+    "lng": -7.5564,
+    "image": null
+  },
+  {
+    "name": "Benburb Castle",
+    "blurb": "Castle in Northern Irelandˌ UK",
+    "type": "castle",
+    "lat": 54.40833333,
+    "lng": -6.745,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Benburb-Castle-1.jpg?width=400"
+  },
+  {
+    "name": "Birr Castle",
+    "blurb": "17th century castle with demesne and historic telescope",
+    "type": "castle",
+    "lat": 53.095319444,
+    "lng": -7.915541666,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Birr%20Castle%2C%20Offaly.jpg?width=400"
+  },
+  {
+    "name": "Bishop's palace at Uppercourt",
+    "blurb": "Demolished medieval bishop's palace at Uppercourt near Freshford in County Kilkenny",
+    "type": "castle",
+    "lat": 52.726232,
+    "lng": -7.408826,
+    "image": null
+  },
+  {
+    "name": "Black Castle",
+    "blurb": "Castle in Killaree, County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.694973,
+    "lng": -7.324983,
+    "image": null
+  },
+  {
+    "name": "Black Friary, Trim",
+    "blurb": "Ruins of a friary of the Dominican Order in Trim, County Meath",
+    "type": "abbey",
+    "lat": 53.560286,
+    "lng": -6.789461,
+    "image": null
+  },
+  {
+    "name": "Blackrock Castle",
+    "blurb": "In Blackrock, Cork",
+    "type": "castle",
+    "lat": 51.90000001,
+    "lng": -8.40250001,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Blackrock%20Castle%20%28Blackrock%2C%20Co.Cork%29.jpg?width=400"
+  },
+  {
+    "name": "Blackrock College",
+    "blurb": "Catholic school established and owned by the Spiritans in Ireland",
+    "type": "castle",
+    "lat": 53.30472222,
+    "lng": -6.19166667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BlackrockCollege.JPG?width=400"
+  },
+  {
+    "name": "Blackwater Castle",
+    "blurb": "Castle in County Cork, Ireland",
+    "type": "castle",
+    "lat": 52.170583,
+    "lng": -8.460477,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Castle%20Widenham%2C%20Cork%20%281%29%20%28geograph%203036915%29.jpg?width=400"
+  },
+  {
+    "name": "Blanchvillestown Castle",
+    "blurb": "Demolished castle in Blanchville Demesne",
+    "type": "castle",
+    "lat": 52.627433,
+    "lng": -7.132625,
+    "image": null
+  },
+  {
+    "name": "Blarney Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 51.928888888,
+    "lng": -8.570833333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Blarney%20Castle-02-2017-gje.jpg?width=400"
+  },
+  {
+    "name": "Block house on Island to south of Soldiers Point",
+    "blurb": "Fort in Newry, County Down, Northern Ireland",
+    "type": "fort",
+    "lat": 54.021,
+    "lng": -6.08514,
+    "image": null
+  },
+  {
+    "name": "Blundell Castle",
+    "blurb": "Castle ruins in Edenderry, Ireland",
+    "type": "castle",
+    "lat": 53.339444444,
+    "lng": -7.051111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Blundell%20ruins.jpg?width=400"
+  },
+  {
+    "name": "Bolton Abbey",
+    "blurb": "Trappist abbey in Ireland",
+    "type": "abbey",
+    "lat": 52.956117347,
+    "lng": -6.82279656,
+    "image": null
+  },
+  {
+    "name": "Booly Castle",
+    "blurb": "Demolished castle in Cotterellsbooly, County Kilkenny",
+    "type": "castle",
+    "lat": 52.545861,
+    "lng": -7.205471,
+    "image": null
+  },
+  {
+    "name": "Boyle Abbey",
+    "blurb": "Cistercian abbey",
+    "type": "abbey",
+    "lat": 53.97358333,
+    "lng": -8.29691667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Digital%20Eye%E2%80%932015%E2%80%93Boyle%20Abbey.jpg?width=400"
+  },
+  {
+    "name": "Bridgetown Abbey",
+    "blurb": "Ruined priory in Cork, Ireland",
+    "type": "abbey",
+    "lat": 52.14933,
+    "lng": -8.450211,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bridgetown%20Priory%20-%20geograph.org.uk%20-%201392122.jpg?width=400"
+  },
+  {
+    "name": "Bright Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.270712,
+    "lng": -5.688014,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bright%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Brusselstown Ring",
+    "blurb": "Hillfort in County Wicklow, Ireland",
+    "type": "hillfort",
+    "lat": 52.96296,
+    "lng": -6.61645,
+    "image": null
+  },
+  {
+    "name": "Bunratty Castle",
+    "blurb": "Castle in Co. Clare, Ireland",
+    "type": "castle",
+    "lat": 52.69666667,
+    "lng": -8.81180556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunrattybig.jpg?width=400"
+  },
+  {
+    "name": "Burriscarra Abbey",
+    "blurb": "Ruins of an abbey and a church",
+    "type": "monastery",
+    "lat": 53.730929,
+    "lng": -9.24574,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BurriscarraAbbey.jpg?width=400"
+  },
+  {
+    "name": "Burt Castle",
+    "blurb": "Ruined castle in County Donegal, Ireland",
+    "type": "castle",
+    "lat": 55.01959991,
+    "lng": -7.50220013,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Burt%20Castle%20-%20geograph.org.uk%20-%201029895.jpg?width=400"
+  },
+  {
+    "name": "Cahercommaun",
+    "blurb": "Fort",
+    "type": "fort",
+    "lat": 53.014722222,
+    "lng": -9.070555555,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cahercommaun%20close%20up.jpg?width=400"
+  },
+  {
+    "name": "Caherconree",
+    "blurb": "Mountain in Kerry, Ireland",
+    "type": "fort",
+    "lat": 52.197222222,
+    "lng": -9.862777777,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Caherconree%20Fort.JPG?width=400"
+  },
+  {
+    "name": "Caherdaniel",
+    "blurb": "Town in Munster, Ireland",
+    "type": "fort",
+    "lat": 51.769553,
+    "lng": -10.0996,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cathair%20D%C3%B3nall%20%28Caherdaniel%29%20Ring%20Fort%20-%20geograph.org.uk%20-%201432501.jpg?width=400"
+  },
+  {
+    "name": "Caherdooneerish Stone Fort",
+    "blurb": "Stone fort in County Clare, Ireland",
+    "type": "fort",
+    "lat": 53.146783,
+    "lng": -9.258944,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Caher%20dun%20Irghuis.jpg?width=400"
+  },
+  {
+    "name": "Caherdorgan North",
+    "blurb": "Circular cashel in County Kerry",
+    "type": "hillfort",
+    "lat": 52.179267,
+    "lng": -10.339503,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Kerry%20-%20Caherdorgan%20Fort%20-%2020130404105952.jpg?width=400"
+  },
+  {
+    "name": "Caherkinmonwee Castle",
+    "blurb": "Irish castle",
+    "type": "castle",
+    "lat": 53.236814283,
+    "lng": -8.6948008,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Caherkinmonwee%2C%20Galway%20%281%29%20-%20geograph.org.uk%20-%204070919.jpg?width=400"
+  },
+  {
+    "name": "Caherlesk Castle",
+    "blurb": "Demolished castle in Caherlesk, County Kilkenny",
+    "type": "castle",
+    "lat": 52.514605,
+    "lng": -7.337386,
+    "image": null
+  },
+  {
+    "name": "Cahir Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 52.37455,
+    "lng": -7.92719,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ireland-Cahir%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Camden Fort Meagher",
+    "blurb": "Coastal defence fort in County Cork, Ireland",
+    "type": "fort",
+    "lat": 51.808,
+    "lng": -8.279,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CamdenFortMeagherCorkBilletsExhibits.JPG?width=400"
+  },
+  {
+    "name": "Canon Island Abbey",
+    "blurb": "Historic site in County Clare, Ireland",
+    "type": "abbey",
+    "lat": 52.67906389,
+    "lng": -9.03705556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Canon%20Island%20Abbey.png?width=400"
+  },
+  {
+    "name": "Carbury Castle",
+    "blurb": "Castle in Carbury, Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.361667,
+    "lng": -6.968889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruins%20of%20Carbury%2C%20County%20Kildare.jpg?width=400"
+  },
+  {
+    "name": "Carntierna",
+    "blurb": "Hillfort in County Cork, Ireland",
+    "type": "hillfort",
+    "lat": 52.114963,
+    "lng": -8.28285,
+    "image": null
+  },
+  {
+    "name": "Carra Castle",
+    "blurb": "Ruined castle in County Antrim, Northern Ireland",
+    "type": "castle",
+    "lat": 55.133611111,
+    "lng": -6.037222222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Carra%20-%20geograph.org.uk%20-%20467784.jpg?width=400"
+  },
+  {
+    "name": "Carrick Castle",
+    "blurb": "Castle in County Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.378056,
+    "lng": -7.038333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrick%20Castle%2C%20Kildare.jpg?width=400"
+  },
+  {
+    "name": "Carrickabraghy Castle",
+    "blurb": "Town in Ulster, Ireland",
+    "type": "castle",
+    "lat": 55.316329,
+    "lng": -7.372674,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrickabraghy%20Castle%2C%20Doagh%20Island%20-%20geograph.org.uk%20-%201333290.jpg?width=400"
+  },
+  {
+    "name": "Carrickfergus Castle",
+    "blurb": "Irish castle",
+    "type": "castle",
+    "lat": 54.7133,
+    "lng": -5.80645,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrickfergus%20Castle%2C%20reflections%20at%20sunset%20-%20geograph.org.uk%20-%201098306.jpg?width=400"
+  },
+  {
+    "name": "Carrickmines Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.253292,
+    "lng": -6.175398,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/January%202004%20Carrickminders.jpg?width=400"
+  },
+  {
+    "name": "Carrigadrohid Castle",
+    "blurb": "Castle in County Cork, Ireland",
+    "type": "castle",
+    "lat": 51.90098,
+    "lng": -8.85222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Carrigadrohid%20Castle%20-%2020190922144735.jpg?width=400"
+  },
+  {
+    "name": "Carrigogunnell",
+    "blurb": "Medieval Irish fortification",
+    "type": "castle",
+    "lat": 52.64666667,
+    "lng": -8.7425,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrigogunnell%20Castle%2C%20Clarina%2CLimerick.jpg?width=400"
+  },
+  {
+    "name": "Carrigrohane Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 51.8964,
+    "lng": -8.56,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrigrohane%20Castle%202016.jpg?width=400"
+  },
+  {
+    "name": "Castle Balfour",
+    "blurb": "Human settlement in Northern Ireland",
+    "type": "castle",
+    "lat": 54.2503,
+    "lng": -7.44547,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Balfour%2C%20Lisnaskea%20-%20geograph.org.uk%20-%201270799.jpg?width=400"
+  },
+  {
+    "name": "Castle Caldwell",
+    "blurb": "Castle in County Fermanagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.4928,
+    "lng": -7.9741,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Ruins%20of%20Castle%20Caldwell%20-%20and%20its%20history%20-%20geograph.org.uk%20-%201113036.jpg?width=400"
+  },
+  {
+    "name": "Castle Carra",
+    "blurb": "Hall house, County Mayo, Ireland",
+    "type": "castle",
+    "lat": 53.721389,
+    "lng": -9.255278,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Carra.jpg?width=400"
+  },
+  {
+    "name": "Castle Caulfield",
+    "blurb": "Historic ruin in County Tyrone, Northern Ireland",
+    "type": "castle",
+    "lat": 54.506,
+    "lng": -6.835,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CastleCaulfeild2008.JPG?width=400"
+  },
+  {
+    "name": "Castle Chichester",
+    "blurb": "Castle in County Antrim, Northern Ireland",
+    "type": "castle",
+    "lat": 54.7546,
+    "lng": -5.7077,
+    "image": null
+  },
+  {
+    "name": "Castle Connell",
+    "blurb": "Castle in County Limerick, Ireland",
+    "type": "castle",
+    "lat": 52.712192,
+    "lng": -8.503698,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Castle%20Connell%2C%20Limerick%20%281%29%20-%20geograph.org.uk%20-%206499528.jpg?width=400"
+  },
+  {
+    "name": "Castle Conway",
+    "blurb": "Historic structure in Ireland",
+    "type": "castle",
+    "lat": 52.10638889,
+    "lng": -9.78527778,
+    "image": null
+  },
+  {
+    "name": "Castle Ffrench",
+    "blurb": "Castle in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.458,
+    "lng": -8.36,
+    "image": null
+  },
+  {
+    "name": "Castle Naghten",
+    "blurb": "Motte in County Roscommon, Ireland",
+    "type": "castle",
+    "lat": 53.453222,
+    "lng": -8.060134,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Naghten.jpg?width=400"
+  },
+  {
+    "name": "Castle Oliver",
+    "blurb": "Castle in County Limerick, Ireland",
+    "type": "castle",
+    "lat": 52.326619,
+    "lng": -8.484117,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Oliver%20%281%29.jpg?width=400"
+  },
+  {
+    "name": "Castle Otway",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 52.77926,
+    "lng": -8.08151,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Otway.jpg?width=400"
+  },
+  {
+    "name": "Castle Pierce",
+    "blurb": "Ruined fortified house in Rathpatrick, County Kilkenny, named after Piers Cody aka Peter Archdeacon",
+    "type": "castle",
+    "lat": 52.784947,
+    "lng": -7.636992,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Castle%20Pierce%2C%20Kilkenny%20%281%29%20-%20geograph.org.uk%20-%204571595.jpg?width=400"
+  },
+  {
+    "name": "Castle Roche",
+    "blurb": "Ruined castle in County Louth, Ireland",
+    "type": "castle",
+    "lat": 54.04646,
+    "lng": -6.488317,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roche%20Castle%20from%20North%20West%201.jpg?width=400"
+  },
+  {
+    "name": "Castle Salem",
+    "blurb": "Fortified house in County Cork, Ireland",
+    "type": "castle",
+    "lat": 51.595881,
+    "lng": -9.056028,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Salem%20near%20Ross%20Carbery%20-%20geograph.org.uk%20-%20498699.jpg?width=400"
+  },
+  {
+    "name": "Castle Saunderson",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 54.126666666,
+    "lng": -7.359722222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20saunderson.jpg?width=400"
+  },
+  {
+    "name": "Castle Townsend",
+    "blurb": "Country house in County Cork, Ireland",
+    "type": "castle",
+    "lat": 51.52941,
+    "lng": -9.17289,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Castle%20Townsend%20-%2020140228210704.jpg?width=400"
+  },
+  {
+    "name": "Castle Upton",
+    "blurb": "Castle in the United Kingdom",
+    "type": "castle",
+    "lat": 54.704,
+    "lng": -6.091,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Upton%20Templepatrick%20-%20geograph.org.uk%20-%201075910.jpg?width=400"
+  },
+  {
+    "name": "Castleblunden Castle",
+    "blurb": "Demolished castle in the townland of Castleblunden, formerly known part of Clonmoran townland in County Kilkenny",
+    "type": "castle",
+    "lat": 52.637736,
+    "lng": -7.297099,
+    "image": null
+  },
+  {
+    "name": "Castlederg Castle",
+    "blurb": "Irish Castle",
+    "type": "castle",
+    "lat": 54.707,
+    "lng": -7.59662,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castlederg%20Castle%20-%20geograph.org.uk%20-%20371758.jpg?width=400"
+  },
+  {
+    "name": "Castledermot Monastery",
+    "blurb": "Early Christian monastic site founded in 812 with a round tower, two high crosses, and a western portal",
+    "type": "monastery",
+    "lat": 52.910458,
+    "lng": -6.834934,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castledermot%20Church%20of%20Saint%20James%20Round%20Tower%20and%20North%20Cross%202013%2009%2004.jpg?width=400"
+  },
+  {
+    "name": "Castlefield Castle",
+    "blurb": "Castle in the townland of Castlefield, formerly part of the townland of Nashtown in County Kilkenny",
+    "type": "castle",
+    "lat": 52.58797,
+    "lng": -7.118632,
+    "image": null
+  },
+  {
+    "name": "Castlehale Castle",
+    "blurb": "Castle ruins in in Rossenarra Demesne, County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.462815,
+    "lng": -7.3015383,
+    "image": null
+  },
+  {
+    "name": "Castleinch Castle (site of)",
+    "blurb": "Site of a castle in the townland of Castleinch or Inchyolaghan, Co. KIlkenny",
+    "type": "castle",
+    "lat": 52.619395,
+    "lng": -7.297658,
+    "image": null
+  },
+  {
+    "name": "Castleknock Castle",
+    "blurb": "Ruined Norman castle in Dublin, Ireland",
+    "type": "castle",
+    "lat": 53.3682,
+    "lng": -6.366,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castleknock%20Castle%20Nov2018.jpg?width=400"
+  },
+  {
+    "name": "Castlelost Castle",
+    "blurb": "Castle in County Westmeath, Ireland",
+    "type": "castle",
+    "lat": 53.4205,
+    "lng": -7.3225,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CastleLost.png?width=400"
+  },
+  {
+    "name": "Castlemore Moat",
+    "blurb": "Motte-and-bailey and National Monument in County Carlow, Ireland",
+    "type": "castle",
+    "lat": 52.809489,
+    "lng": -6.772553,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2002.09.01-1A.CastlemoreTullow.jpg?width=400"
+  },
+  {
+    "name": "Castlemorris Castle",
+    "blurb": "Demolished castle in Castlemorris townland, Aghaviller, County Kilkenny",
+    "type": "castle",
+    "lat": 52.461001,
+    "lng": -7.281022,
+    "image": null
+  },
+  {
+    "name": "Castleraw",
+    "blurb": "Castle in Loughgall, County Armagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.4157,
+    "lng": -6.5733,
+    "image": null
+  },
+  {
+    "name": "Castletown Castle",
+    "blurb": "Castle ruin with bawn in Castletown, County Kilkenny",
+    "type": "castle",
+    "lat": 52.804515,
+    "lng": -7.605356,
+    "image": null
+  },
+  {
+    "name": "Castlewarren Castle",
+    "blurb": "Ruinous or demolished castle in Castlewarren, County Kilkenny",
+    "type": "castle",
+    "lat": 52.704214,
+    "lng": -7.116011,
+    "image": null
+  },
+  {
+    "name": "Charlemont Fort",
+    "blurb": "Fort in Charlemont, County Armagh, Northern Ireland",
+    "type": "fort",
+    "lat": 54.448,
+    "lng": -6.679,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Charlemont%20fort.jpg?width=400"
+  },
+  {
+    "name": "Charles Fort",
+    "blurb": "Fortress opposite Kinsale, County Cork, Ireland",
+    "type": "fort",
+    "lat": 51.6965,
+    "lng": -8.499,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Fort%2C%20Kinsale%2C%20Co.%20Cork.JPG?width=400"
+  },
+  {
+    "name": "Cill Chomáin",
+    "blurb": "Civil parish in the barony of Erris, County Mayo, Ireland",
+    "type": "monastery",
+    "lat": 54.2635,
+    "lng": -9.7959,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunchiortan3may08%20029.JPG?width=400"
+  },
+  {
+    "name": "Clane Friary",
+    "blurb": "Friary in Clane, Ireland",
+    "type": "monastery",
+    "lat": 53.289256,
+    "lng": -6.683023,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clane%20Abbey.jpg?width=400"
+  },
+  {
+    "name": "Clara Castle",
+    "blurb": "Tower house and National Monument located in County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.669444,
+    "lng": -7.152222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clara%20Castle%20-%20geograph.org.uk%20-%20494292.jpg?width=400"
+  },
+  {
+    "name": "Clare Abbey",
+    "blurb": "Irish Augustinian abbey",
+    "type": "monastery",
+    "lat": 52.82833333,
+    "lng": -8.96833333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clare%20Abbey%2C%20Ennis%2C%20Clare%20%285262907283%29.jpg?width=400"
+  },
+  {
+    "name": "Clare Castle",
+    "blurb": "Ruined castle in County Armagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.3344,
+    "lng": -6.4396,
+    "image": null
+  },
+  {
+    "name": "Clare Island Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 53.793229,
+    "lng": -9.989088,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clare%20Island%20Abbey%20NE%201997%2009%2010.jpg?width=400"
+  },
+  {
+    "name": "Clashanree Castle",
+    "blurb": "Demolished moated castle in Westmoreland, formerly Clashanree, Aghaviller, County Kilkenny",
+    "type": "castle",
+    "lat": 52.456567,
+    "lng": -7.263085,
+    "image": null
+  },
+  {
+    "name": "Clintstown Castle",
+    "blurb": "Demolished castle in Clintstown, County Kilkenny",
+    "type": "castle",
+    "lat": 52.736753,
+    "lng": -7.338346,
+    "image": null
+  },
+  {
+    "name": "Cloghala Castle",
+    "blurb": "Demolished castle in Cloghala, County Kilkenny",
+    "type": "castle",
+    "lat": 52.592243,
+    "lng": -7.096052,
+    "image": null
+  },
+  {
+    "name": "Cloghan Castle",
+    "blurb": "Largely-gone tower house in southwest Ireland, surrounded by folklore",
+    "type": "castle",
+    "lat": 51.50211,
+    "lng": -9.29926,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cloghan%20castle%2C%20lough%20hyne.jpg?width=400"
+  },
+  {
+    "name": "Clonamery Castle",
+    "blurb": "Ruins of a towerhouse in Clonamery, Inistioge, Co. Kilkenny",
+    "type": "castle",
+    "lat": 52.464,
+    "lng": -7.032733,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clonamery%20Castle%20%2815501%29.jpg?width=400"
+  },
+  {
+    "name": "Clonard Abbey",
+    "blurb": "Early medieval monastery in Meath, Ireland",
+    "type": "abbey",
+    "lat": 53.450562,
+    "lng": -7.007299,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clonard%20Monastic%20Site%20Anglican%20Church%202007%2008%2026.jpg?width=400"
+  },
+  {
+    "name": "Clonard Monastery",
+    "blurb": "Catholic church and monastery in Belfast, Northern Ireland",
+    "type": "monastery",
+    "lat": 54.6,
+    "lng": -5.956,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clonard%20Monastery%20121091%20shopped.jpg?width=400"
+  },
+  {
+    "name": "Cloncourse Castle",
+    "blurb": "Ruined castle in County Laois, Ireland",
+    "type": "castle",
+    "lat": 52.963722222,
+    "lng": -7.675777777,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Cloncourse%2C%20Laois%20%281%29%20-%20geograph.org.uk%20-%202494282.jpg?width=400"
+  },
+  {
+    "name": "Clone Castle",
+    "blurb": "Castle ruins in Clone, Dunnamaggan, County Kilkenny",
+    "type": "castle",
+    "lat": 52.47799,
+    "lng": -7.302135,
+    "image": null
+  },
+  {
+    "name": "Clonea Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 52.10071,
+    "lng": -7.53442,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clonea%20Castle%2C%20Dungarvan%2C%20Co.%20Waterford%20-%20Robert%20French%20-%201865-1914.jpg?width=400"
+  },
+  {
+    "name": "Clones Abbey",
+    "blurb": "Historic site in County Monaghan, Ireland",
+    "type": "monastery",
+    "lat": 54.183,
+    "lng": -7.2337,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clones%20round%20tower%20and%20sarcohagus.jpg?width=400"
+  },
+  {
+    "name": "Clonmacnoise",
+    "blurb": "Monastery in County Offaly, Ireland",
+    "type": "monastery",
+    "lat": 53.323888888,
+    "lng": -7.991111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ClonmacnoiseCathedral.JPG?width=400"
+  },
+  {
+    "name": "Clonony Castle",
+    "blurb": "Castle in County Offaly, Ireland",
+    "type": "castle",
+    "lat": 53.236015,
+    "lng": -7.923001,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%20ClononyCastle5782w.jpg?width=400"
+  },
+  {
+    "name": "Cloonigny Castle",
+    "blurb": "Castle in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.355048,
+    "lng": -8.354676,
+    "image": null
+  },
+  {
+    "name": "Clough Castle",
+    "blurb": "Demolished castle in Clogh, County Kilkenny",
+    "type": "castle",
+    "lat": 52.852184,
+    "lng": -7.168121,
+    "image": null
+  },
+  {
+    "name": "Coleraine Castle",
+    "blurb": "Castle in County Londonderry, Northern Ireland",
+    "type": "castle",
+    "lat": 55.13249969,
+    "lng": -6.67700005,
+    "image": null
+  },
+  {
+    "name": "Comber Abbey",
+    "blurb": "Former cistercian abbey in Northern Ireland",
+    "type": "abbey",
+    "lat": 54.55027778,
+    "lng": -5.75,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20church%2C%20Comber%20-%20geograph.org.uk%20-%20348046.jpg?width=400"
+  },
+  {
+    "name": "Conahy Castle",
+    "blurb": "Demolished castle in Conahy, County Kilkenny",
+    "type": "castle",
+    "lat": 52.768659,
+    "lng": -7.309737,
+    "image": null
+  },
+  {
+    "name": "Convent of Mercy",
+    "blurb": "House in Newry, County Down, Northern Ireland",
+    "type": "monastery",
+    "lat": 54.1676,
+    "lng": -6.33412,
+    "image": null
+  },
+  {
+    "name": "Convent Of Sisters Of Charity Of St. Vincent De Paul, Clonard Gardens Belfast",
+    "blurb": "Convent in Belfast, County Antrim, Northern Ireland",
+    "type": "monastery",
+    "lat": 54.5996,
+    "lng": -5.9575,
+    "image": null
+  },
+  {
+    "name": "Coolcashin Castle",
+    "blurb": "Demolished castle in Coolcashin, County Kilkenny",
+    "type": "castle",
+    "lat": 52.771924,
+    "lng": -7.463849,
+    "image": null
+  },
+  {
+    "name": "Coolhull Castle",
+    "blurb": "Fortified house located in County Wexford, Ireland",
+    "type": "castle",
+    "lat": 52.234215,
+    "lng": -6.704587,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coolhull%20Castle%20-%20geograph.org.uk%20-%2014545.jpg?width=400"
+  },
+  {
+    "name": "Coonagh Castle",
+    "blurb": "Castle in County Limerick, Ireland",
+    "type": "castle",
+    "lat": 52.582526,
+    "lng": -8.2600347,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%20-%20Castletown%20Coonagh%2C%20Limerick%20-%20geograph.org.uk%20-%201542143.jpg?width=400"
+  },
+  {
+    "name": "Corcomroe Abbey",
+    "blurb": "Abbey ruin in Co. Clare",
+    "type": "abbey",
+    "lat": 53.1267,
+    "lng": -9.054,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Corcomroe%20Abbey%20South%20East%20View%201996%2008%2022.jpg?width=400"
+  },
+  {
+    "name": "Corluddy Castle",
+    "blurb": "Castle ruin in County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.265142,
+    "lng": -7.206382,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CorluddyCastle.jpg?width=400"
+  },
+  {
+    "name": "Cowd Castle",
+    "blurb": "Ruin of a tower house in Ardglass, County Down, Northern Ireland, UK",
+    "type": "castle",
+    "lat": 54.2582,
+    "lng": -5.6057,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cowd%20Castle%2C%20Ardglass%2C%20November%202010%20%2804%29.JPG?width=400"
+  },
+  {
+    "name": "Creevekeeran Castle",
+    "blurb": "Castle in the United Kingdom",
+    "type": "castle",
+    "lat": 54.2766,
+    "lng": -6.79607,
+    "image": null
+  },
+  {
+    "name": "Crevenish Castle",
+    "blurb": "Ruined bawn castle in County Fermanagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.51176,
+    "lng": -7.7452,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crevenish%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Crom Castle",
+    "blurb": "House in Fermanagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.1685,
+    "lng": -7.44878,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crom%20Castle%20in%202008.jpg?width=400"
+  },
+  {
+    "name": "Croom Castle",
+    "blurb": "Historic Irish castle",
+    "type": "castle",
+    "lat": 52.5147,
+    "lng": -8.7179,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dysert-Aenghusa%20Round%20Tower%20Croom.JPG?width=400"
+  },
+  {
+    "name": "Crowbally Castle",
+    "blurb": "Demolished castle in Crowbally, County Kilkenny",
+    "type": "castle",
+    "lat": 52.406076,
+    "lng": -7.178125,
+    "image": null
+  },
+  {
+    "name": "Cullahill Castle",
+    "blurb": "Ruined castle in County Laois, Ireland",
+    "type": "castle",
+    "lat": 52.816132,
+    "lng": -7.47281,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cullohill%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Culmore Fort",
+    "blurb": "Fort in Derry, County Londonderry, Northern Ireland",
+    "type": "fort",
+    "lat": 55.0466,
+    "lng": -7.25413,
+    "image": null
+  },
+  {
+    "name": "Dalkey Castle",
+    "blurb": "Fortified town houses or castle, in Dalkey, County Dublin",
+    "type": "castle",
+    "lat": 53.2779,
+    "lng": -6.1055,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dalkey%20castle%20and%20heritage%20center.jpg?width=400"
+  },
+  {
+    "name": "Daly Castle",
+    "blurb": "Castle ruin in Galway, Ireland",
+    "type": "castle",
+    "lat": 53.1301,
+    "lng": -8.718,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Castle%20Daly%2C%20Galway%20%281%29%20%28geograph%204069135%29.jpg?width=400"
+  },
+  {
+    "name": "Danesmoate House",
+    "blurb": "Georgian house in County Dublin, Ireland",
+    "type": "castle",
+    "lat": 53.26523,
+    "lng": -6.262449,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Danesmoate%20House.JPG?width=400"
+  },
+  {
+    "name": "Dangan Castle",
+    "blurb": "Demolished castle in Dangan, County Kilkenny",
+    "type": "castle",
+    "lat": 52.32624,
+    "lng": -7.16294,
+    "image": null
+  },
+  {
+    "name": "Dardistown Castle",
+    "blurb": "Castle and House in County Meath, Ireland",
+    "type": "castle",
+    "lat": 53.66666667,
+    "lng": -6.31666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dardistown%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Darver Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.933,
+    "lng": -6.464,
+    "image": null
+  },
+  {
+    "name": "Derryquin Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 51.822,
+    "lng": -9.873,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Derryquin%20Castle%20c.1870.%20Pen%20%26%20ink%20sketch%20by%20William%20Herbert%20Stokes%20%281845-1874%29.JPG?width=400"
+  },
+  {
+    "name": "Derryvella",
+    "blurb": "Early Christian monastic site in Co. Tipperary",
+    "type": "monastery",
+    "lat": 52.617942,
+    "lng": -7.669079,
+    "image": null
+  },
+  {
+    "name": "Desmond Castle",
+    "blurb": "Castle and great hall in County Limerick, Ireland",
+    "type": "castle",
+    "lat": 52.450067,
+    "lng": -9.061083,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Desmond%20Hall%20%28Castle%20Banqueting%20Hall%29%2C%20Newcastle%20West%2C%20Limerick%20-%20geograph.org.uk%20-%201392672.jpg?width=400"
+  },
+  {
+    "name": "Dominican Convent",
+    "blurb": "Convent in Belfast, County Antrim, Northern Ireland",
+    "type": "monastery",
+    "lat": 54.5945,
+    "lng": -5.95696,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Dominican%20Convent%20%2C%20Falls%20Road%20%28geograph%202922323%29.jpg?width=400"
+  },
+  {
+    "name": "Donamon Castle",
+    "blurb": "Fortified house in County Roscommon, Ireland",
+    "type": "castle",
+    "lat": 53.63167,
+    "lng": -8.31899,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Donamon%20Castle%20front.jpg?width=400"
+  },
+  {
+    "name": "Donegal Castle",
+    "blurb": "Castle in Donegal County, Ireland",
+    "type": "castle",
+    "lat": 54.655,
+    "lng": -8.111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Donegalcastle.jpg?width=400"
+  },
+  {
+    "name": "Doon Castle",
+    "blurb": "Irish castle",
+    "type": "castle",
+    "lat": 53.7968,
+    "lng": -9.455,
+    "image": null
+  },
+  {
+    "name": "Doonagore Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.00381,
+    "lng": -9.38739,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Doonagore%20Castle%20-%20IrishKeep.jpg?width=400"
+  },
+  {
+    "name": "Drimnagh Castle",
+    "blurb": "Norman castle",
+    "type": "castle",
+    "lat": 53.324973,
+    "lng": -6.33284,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Drimnagh%20Castle%20-%2020180302173736.jpg?width=400"
+  },
+  {
+    "name": "Dromiskin Monastery",
+    "blurb": "Former monastery in County Louth, Ireland",
+    "type": "monastery",
+    "lat": 53.922003,
+    "lng": -6.398219,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Church%20and%20High%20Cross%20at%20Dromiskin%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%201774597.jpg?width=400"
+  },
+  {
+    "name": "Dromore Castle",
+    "blurb": "Manor house in Templenoe, County Kerry, Ireland",
+    "type": "castle",
+    "lat": 51.8575,
+    "lng": -9.71638889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dromore%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Drumacoo Early Medieval Ecclesiastical Site",
+    "blurb": "Ruined ecclesiastical site in Galway, Ireland",
+    "type": "monastery",
+    "lat": 53.198723,
+    "lng": -8.904724,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Drumacoo%20doorway1.jpg?width=400"
+  },
+  {
+    "name": "Drumboe Castle",
+    "blurb": "Historical site in County Donegal, Ireland",
+    "type": "castle",
+    "lat": 54.80149,
+    "lng": -7.789092,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruins%20of%20Drumboe%20Castle%20-%20geograph.org.uk%20-%20960705.jpg?width=400"
+  },
+  {
+    "name": "Drumdowney Castle",
+    "blurb": "Demolished castle in Drumdowney Lower, County Kilkenny",
+    "type": "castle",
+    "lat": 52.280021,
+    "lng": -7.033642,
+    "image": null
+  },
+  {
+    "name": "Drumerhin Castle",
+    "blurb": "Demolished castle in Drumerhin, County Kilkenny",
+    "type": "castle",
+    "lat": 52.734967,
+    "lng": -7.205845,
+    "image": null
+  },
+  {
+    "name": "Drumroe Castle",
+    "blurb": "Castle in ruins in Mountloftus, County Kilkenny",
+    "type": "castle",
+    "lat": 52.605092,
+    "lng": -6.984928,
+    "image": null
+  },
+  {
+    "name": "Dublin Castle",
+    "blurb": "Castle",
+    "type": "castle",
+    "lat": 53.343109,
+    "lng": -6.267394,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dublin%20castle.JPG?width=400"
+  },
+  {
+    "name": "Duiske Abbey",
+    "blurb": "Abbey in County Kilkenny in Ireland",
+    "type": "abbey",
+    "lat": 52.54111111,
+    "lng": -6.95444444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Graiguenamanach%20Choir%20Window%20SE%201997%2008%2027.jpg?width=400"
+  },
+  {
+    "name": "Dún Ailinne",
+    "blurb": "Archaeological site",
+    "type": "hillfort",
+    "lat": 53.115,
+    "lng": -6.775,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BAn%20Ailine%20ditch.jpg?width=400"
+  },
+  {
+    "name": "Dún Dealgan Motte",
+    "blurb": "Motte and National Monument",
+    "type": "castle",
+    "lat": 54.013889,
+    "lng": -6.430278,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cuchulainn%27s%20Castle1.jpg?width=400"
+  },
+  {
+    "name": "Dún Dúchathair",
+    "blurb": "Stone fort in County Galway, Ireland",
+    "type": "fort",
+    "lat": 53.10455556,
+    "lng": -9.68756944,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BAn%20D%C3%BAchathair%20-%20geograph.org.uk%20-%202952.jpg?width=400"
+  },
+  {
+    "name": "Dun Putechantuy, dun, Kintyre",
+    "blurb": "Architectural structure in Argyll and Bute, Scotland, UK",
+    "type": "hillfort",
+    "lat": 55.520518,
+    "lng": -5.7132334,
+    "image": null
+  },
+  {
+    "name": "Dunaneeny Castle",
+    "blurb": "Ruin in County Antrim, Northern Ireland",
+    "type": "castle",
+    "lat": 55.2116,
+    "lng": -6.25102,
+    "image": null
+  },
+  {
+    "name": "Dunasead Castle",
+    "blurb": "17th century castle in Baltimore, Ireland",
+    "type": "castle",
+    "lat": 51.4835892,
+    "lng": -9.3730713,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20of%20the%20Jewels%20-%20geograph.org.uk%20-%201755185.jpg?width=400"
+  },
+  {
+    "name": "Dunaverty Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.3075,
+    "lng": -5.6447,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20the%20Bruce%20and%20the%20struggle%20for%20Scottish%20independence%20-%20The%20Rock%20of%20Blood.jpg?width=400"
+  },
+  {
+    "name": "Dunbeg Fort",
+    "blurb": "Fort",
+    "type": "fort",
+    "lat": 52.10333333,
+    "lng": -10.40861111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunbeg%20Fort%20-%20geograph.org.uk%20-%2016625.jpg?width=400"
+  },
+  {
+    "name": "Dunboy Castle",
+    "blurb": "Ruined castle in Ireland",
+    "type": "castle",
+    "lat": 51.633,
+    "lng": -9.924,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Ruin%20-%20geograph.org.uk%20-%205376884.jpg?width=400"
+  },
+  {
+    "name": "Dunbrody Abbey",
+    "blurb": "Former Cistercian abbey in Co. Wexford",
+    "type": "abbey",
+    "lat": 52.2835,
+    "lng": -6.96,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunbrody%20Abbey%20SE%201997%2008%2027.jpg?width=400"
+  },
+  {
+    "name": "Duncannon Fort",
+    "blurb": "Fort in Wexford, Ireland",
+    "type": "fort",
+    "lat": 52.220771,
+    "lng": -6.936627,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Duncannon%20Fort%2C%20Co.%20Wexford%20-%20geograph.org.uk%20-%20830116.jpg?width=400"
+  },
+  {
+    "name": "Dundrum Castle",
+    "blurb": "Ruined castle at Dundrum, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.2566,
+    "lng": -5.874,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dundrum%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Dungannon Castle",
+    "blurb": "Former castle in County Tyrone, Northern Ireland",
+    "type": "castle",
+    "lat": 54.5,
+    "lng": -6.76999998,
+    "image": null
+  },
+  {
+    "name": "Dungarvan Castle",
+    "blurb": "Demolished castle in Dungarvan, County Kilkenny",
+    "type": "castle",
+    "lat": 52.586857,
+    "lng": -7.093773,
+    "image": null
+  },
+  {
+    "name": "Dungiven Castle",
+    "blurb": "19th century castle in County Londonderry, Northern Ireland",
+    "type": "castle",
+    "lat": 54.9248,
+    "lng": -6.921,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dungiven%20Castle%20-%20Centre.jpg?width=400"
+  },
+  {
+    "name": "Dungooly Castle",
+    "blurb": "Demolished castle or fortified house in Dungooly, County Kilkenny",
+    "type": "castle",
+    "lat": 52.288769,
+    "lng": -7.201818,
+    "image": null
+  },
+  {
+    "name": "Dunguaire Castle",
+    "blurb": "Tower house in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.142222222,
+    "lng": -8.926111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunguaire%20Castle%2C%20Galway%2C%20Ireland.png?width=400"
+  },
+  {
+    "name": "Dunkerron Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 51.87416667,
+    "lng": -9.62694444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Dunkerron%2C%20Kerry%20%282%29%20%28geograph%203037291%29.jpg?width=400"
+  },
+  {
+    "name": "Dunlough Castle",
+    "blurb": "Norman fortification in County Cork, Ireland",
+    "type": "castle",
+    "lat": 51.482665,
+    "lng": -9.829419,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunloughcastle%204.jpg?width=400"
+  },
+  {
+    "name": "Dunluce Castle",
+    "blurb": "On north Irish coast",
+    "type": "castle",
+    "lat": 55.211388888,
+    "lng": -6.579166666,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunluce3.JPG?width=400"
+  },
+  {
+    "name": "Dunmoe Castle",
+    "blurb": "Castle in County Meath, Ireland",
+    "type": "castle",
+    "lat": 53.674094,
+    "lng": -6.636899,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Dunmoe%2C%20Meath%20%281%29%20-%20geograph.org.uk%20-%202494890.jpg?width=400"
+  },
+  {
+    "name": "Dunmore Castle",
+    "blurb": "Keep (donjon) in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.623756,
+    "lng": -8.755581,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunmore%20Castle%2C%20Co.%20Galway.JPG?width=400"
+  },
+  {
+    "name": "Dunsany Castle and Demesne",
+    "blurb": "Castle begun 12th century, in continuous ownership, County Meath, Ireland",
+    "type": "castle",
+    "lat": 53.535555555,
+    "lng": -6.620833333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunsany%20Castle%20in%20Meath%20mist.jpg?width=400"
+  },
+  {
+    "name": "Dunseverick Castle",
+    "blurb": "Castle near Dunseverick, Northern Ireland",
+    "type": "castle",
+    "lat": 55.231,
+    "lng": -6.395,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunseverick%20Castle%20-%20geograph.org.uk%20-%20742675.jpg?width=400"
+  },
+  {
+    "name": "Dunsoghly Castle",
+    "blurb": "Castle in St Margaret's, Ireland",
+    "type": "castle",
+    "lat": 53.426923,
+    "lng": -6.318328,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Dunsoghly%2C%20Co.%20Dublin%20%28geograph%202496350%29.jpg?width=400"
+  },
+  {
+    "name": "Durrow Abbey",
+    "blurb": "Historic site in Durrow, County Offaly, Ireland",
+    "type": "abbey",
+    "lat": 53.325952,
+    "lng": -7.51967,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Durrow%20abbey%20A.jpg?width=400"
+  },
+  {
+    "name": "Dysart Castle",
+    "blurb": "Castle ruins in Dysart, County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.5020111,
+    "lng": -7.1215444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dysart%20Castle%2C%20Thomastown%2C%20Co.%20Kilkenny%20-%20geograph.org.uk%20-%201106083.jpg?width=400"
+  },
+  {
+    "name": "Elizabeth Fort",
+    "blurb": "17th century fort in Cork, Ireland",
+    "type": "fort",
+    "lat": 51.8945,
+    "lng": -8.478,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth%20Fort%20-%20geograph.org.uk%20-%201383565.jpg?width=400"
+  },
+  {
+    "name": "Enniscorthy Castle",
+    "blurb": "16th century castle",
+    "type": "castle",
+    "lat": 52.50145,
+    "lng": -6.56716,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/EnniscorthyCastle.jpg?width=400"
+  },
+  {
+    "name": "Enniskillen Castle",
+    "blurb": "Castle",
+    "type": "castle",
+    "lat": 54.346111111,
+    "lng": -7.645,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Enniskillen%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Errew Abbey",
+    "blurb": "Former Augustinian monastery and National Monument located in County Mayo, Ireland",
+    "type": "monastery",
+    "lat": 54.053131,
+    "lng": -9.263349,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ErrewAbbey.jpg?width=400"
+  },
+  {
+    "name": "Esker Castle",
+    "blurb": "Demolished castle in the townland of Esker, County Kilkenny",
+    "type": "castle",
+    "lat": 52.743736,
+    "lng": -7.258593,
+    "image": null
+  },
+  {
+    "name": "Esker Friary",
+    "blurb": "Former monastery in County Galway, Ireland",
+    "type": "monastery",
+    "lat": 53.2823,
+    "lng": -8.6821,
+    "image": null
+  },
+  {
+    "name": "Eyrecourt Castle",
+    "blurb": "17th-century country house in Galway, Ireland",
+    "type": "castle",
+    "lat": 53.2016,
+    "lng": -8.12272,
+    "image": null
+  },
+  {
+    "name": "Farney Castle",
+    "blurb": "Castle in Tipperary, County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.67184,
+    "lng": -7.90112,
+    "image": null
+  },
+  {
+    "name": "Fathom Castle",
+    "blurb": "Castle in the United Kingdom",
+    "type": "castle",
+    "lat": 54.0401,
+    "lng": -6.1863,
+    "image": null
+  },
+  {
+    "name": "Feartagar Castle",
+    "blurb": "Tower house in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.569722,
+    "lng": -8.942778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Feartagar%20Castle%2C%20County%20Galway.jpg?width=400"
+  },
+  {
+    "name": "Feathallagh moated site",
+    "blurb": "Moated site and possibly former castle at Feathallagh, County Kilkenny",
+    "type": "castle",
+    "lat": 52.69161,
+    "lng": -7.147552,
+    "image": null
+  },
+  {
+    "name": "Fermoy Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 52.13611111,
+    "lng": -8.28333333,
+    "image": null
+  },
+  {
+    "name": "Ferns Abbey",
+    "blurb": "House of Augustinian canons",
+    "type": "abbey",
+    "lat": 52.589499,
+    "lng": -6.49169,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ferns%20Abbey%20South%20Range%202009%2009%2028.jpg?width=400"
+  },
+  {
+    "name": "Fethard Castle",
+    "blurb": "14th-century castle in Fethard-on-Sea, County Wexford, Ireland, which was erected as a summer residence for the bishop of Ferns",
+    "type": "castle",
+    "lat": 52.193379,
+    "lng": -6.839941,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fethard-on-Sea%20Castle%20S%202018%2009%2012.jpg?width=400"
+  },
+  {
+    "name": "Fiddaun Castle",
+    "blurb": "Castle near County Clare border in Ireland",
+    "type": "castle",
+    "lat": 53.01055556,
+    "lng": -8.87861111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fiddaun%20%2801%29.JPG?width=400"
+  },
+  {
+    "name": "Finnan Castle",
+    "blurb": "Demolished and unlocated castle or fortified house in Finnan, Fassidinan, County Kilkenny",
+    "type": "castle",
+    "lat": 52.791762,
+    "lng": -7.311031,
+    "image": null
+  },
+  {
+    "name": "Forestalstown Castle",
+    "blurb": "Demolished castle in Forestalstown, County Kilkenny",
+    "type": "castle",
+    "lat": 52.36754,
+    "lng": -7.000543,
+    "image": null
+  },
+  {
+    "name": "Fort Templebreedy",
+    "blurb": "Defensive fort for Cork Harbour, Ireland",
+    "type": "fort",
+    "lat": 51.79036,
+    "lng": -8.28306,
+    "image": null
+  },
+  {
+    "name": "Foulkscourt Castle",
+    "blurb": "Towerhouse in County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.76065,
+    "lng": -7.58166,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Foulkscourt%2C%20Kilkenny%20%281%29%20-%20geograph.org.uk%20-%202495691.jpg?width=400"
+  },
+  {
+    "name": "Foulksrath Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 52.749614,
+    "lng": -7.315992,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Foulksrath%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Galgorm Castle",
+    "blurb": "Castle in Ballymena, Co. Antrim now golf and shops",
+    "type": "castle",
+    "lat": 54.8572,
+    "lng": -6.31655,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/G%20castle%20view.jpg?width=400"
+  },
+  {
+    "name": "Gallen Monastery",
+    "blurb": "Early Christian monastic site",
+    "type": "monastery",
+    "lat": 53.264792,
+    "lng": -7.823971,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gallen%20Priory%20Early%20Monastic%20Site%20East%20Wall%202010%2009%2010.jpg?width=400"
+  },
+  {
+    "name": "Gallen Priory",
+    "blurb": "Country house, convent, school and later nursing home in Ferbane, Co. Offaly",
+    "type": "monastery",
+    "lat": 53.2646,
+    "lng": -7.82543,
+    "image": null
+  },
+  {
+    "name": "Garbally Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.406674,
+    "lng": -8.635868,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Garbally%2C%20Galway%20%28geograph%201953904%29.jpg?width=400"
+  },
+  {
+    "name": "Garryhiggin Castle",
+    "blurb": "Tower house ruin in Garryhiggin, County Kilkenny",
+    "type": "castle",
+    "lat": 52.683309,
+    "lng": -7.521231,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Garryhiggin%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%207541415.jpg?width=400"
+  },
+  {
+    "name": "Gaulstown Castle",
+    "blurb": "Demolished castle in Gaulstown Lower, Crannagh, County Kilkenny",
+    "type": "castle",
+    "lat": 52.680768,
+    "lng": -7.392477,
+    "image": null
+  },
+  {
+    "name": "Gilabbey",
+    "blurb": "Former site of an Augustinian Abbey, now a park in Cork",
+    "type": "abbey",
+    "lat": 51.894317,
+    "lng": -8.487591,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cork%20-%20Gilabbey%20-%2020170930153122.jpg?width=400"
+  },
+  {
+    "name": "Glanawydan Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 52.13277778,
+    "lng": -7.41666667,
+    "image": null
+  },
+  {
+    "name": "Glenarm Castle",
+    "blurb": "Country house in Glenarm, County Antrim, Northern Ireland",
+    "type": "castle",
+    "lat": 54.9661,
+    "lng": -5.95612,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glenarm%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Glendalough",
+    "blurb": "Monastery and glacial valley, Wicklow, Ireland",
+    "type": "abbey",
+    "lat": 53.010277777,
+    "lng": -6.3275,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glendalough%20monastery.jpg?width=400"
+  },
+  {
+    "name": "Glenstal Abbey",
+    "blurb": "Benedictine monastery in Murroe, County Limerick, Ireland",
+    "type": "abbey",
+    "lat": 52.661677777,
+    "lng": -8.388169444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GlenstalAbbeyHouse.jpg?width=400"
+  },
+  {
+    "name": "Glenveagh Castle",
+    "blurb": "Castle in County Donegal, Ireland",
+    "type": "castle",
+    "lat": 55.03333333,
+    "lng": -7.96666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gleann%20Bheatha%20-%20geograph.org.uk%20-%2069006.jpg?width=400"
+  },
+  {
+    "name": "Glinsk Castle",
+    "blurb": "Castle in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.652008,
+    "lng": -8.432011,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glinsk%20castle.jpg?width=400"
+  },
+  {
+    "name": "Gobban Saers Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 55.183333333,
+    "lng": -6.233333333,
+    "image": null
+  },
+  {
+    "name": "Gorteens Castle",
+    "blurb": "Ruined castle in County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.27037,
+    "lng": -7.04473,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GorteensCastle.jpg?width=400"
+  },
+  {
+    "name": "Gortlownan Motte",
+    "blurb": "Motte located in County Sligo, Ireland",
+    "type": "castle",
+    "lat": 54.221479,
+    "lng": -8.338829,
+    "image": null
+  },
+  {
+    "name": "Gosford Castle",
+    "blurb": "County Armagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.346,
+    "lng": -6.515,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gosford%20Castle%203.jpg?width=400"
+  },
+  {
+    "name": "Gowran Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 52.629293,
+    "lng": -7.063758,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gowran%20Castle%20-%20geograph.org.uk%20-%20475982.jpg?width=400"
+  },
+  {
+    "name": "Grace's Old Castle",
+    "blurb": "Historic castle and part of the Court House in Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.654187,
+    "lng": -7.253676,
+    "image": null
+  },
+  {
+    "name": "Gragara Castle",
+    "blurb": "Demolished castle in Gragara, County Kilkenny",
+    "type": "castle",
+    "lat": 52.744775,
+    "lng": -7.279115,
+    "image": null
+  },
+  {
+    "name": "Granagh Castle",
+    "blurb": "Ruin of a castle in Co. Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.280811,
+    "lng": -7.160479,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Granagh%20Castle%20-%20geograph.org.uk%20-%20486458.jpg?width=400"
+  },
+  {
+    "name": "Grange Castle",
+    "blurb": "Tower house in County Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.375118,
+    "lng": -7.068169,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grange%20Castle%2C%20County%20Kildare.jpg?width=400"
+  },
+  {
+    "name": "Grangefertagh castle",
+    "blurb": "Castle and bawn in Grangefertagh, County Kilkenny",
+    "type": "castle",
+    "lat": 52.781145,
+    "lng": -7.554102,
+    "image": null
+  },
+  {
+    "name": "Greencastle",
+    "blurb": "Castle in County Down, United Kingdom",
+    "type": "castle",
+    "lat": 54.0405,
+    "lng": -6.1043,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Castle%2C%20Greencastle%2C%20Carlingford%20Lough%20-%20geograph.org.uk%20-%201095224.jpg?width=400"
+  },
+  {
+    "name": "Greenmount Motte",
+    "blurb": "Motte in County Louth, Ireland",
+    "type": "castle",
+    "lat": 53.877999,
+    "lng": -6.385855,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Greenmount%20motte-and-bailey%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%201772463.jpg?width=400"
+  },
+  {
+    "name": "Gregans Castle",
+    "blurb": "Tower house and Georgian house, County Clare, Ireland",
+    "type": "castle",
+    "lat": 53.07676667,
+    "lng": -9.18432222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gregans%20Castles.jpg?width=400"
+  },
+  {
+    "name": "Grennan Castle",
+    "blurb": "Ruined castle near Thomastown, Co. Kilkenny",
+    "type": "castle",
+    "lat": 52.521063,
+    "lng": -7.127237,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grennan%20Castle-10-2017-gje.jpg?width=400"
+  },
+  {
+    "name": "Grey Abbey",
+    "blurb": "Ruined Cistercian monastery in Co. Down, Northern Ireland",
+    "type": "abbey",
+    "lat": 54.5358,
+    "lng": -5.5583,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Abbey%20-%20Ards.jpg?width=400"
+  },
+  {
+    "name": "Grey Point Fort",
+    "blurb": "Artillery battery in Helen's Bay, County Down",
+    "type": "fort",
+    "lat": 54.675183,
+    "lng": -5.741836,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Point%20Fort%2C%20Helen%27s%20Bay%20%282%29%20-%20geograph.org.uk%20-%20441338.jpg?width=400"
+  },
+  {
+    "name": "Harry Avery's Castle",
+    "blurb": "Ruined castle in Northern Ireland",
+    "type": "castle",
+    "lat": 54.7135,
+    "lng": -7.39334,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Avery%27s%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Headford Castle",
+    "blurb": "Castle in County Galway",
+    "type": "castle",
+    "lat": 53.468055555,
+    "lng": -9.099388888,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Headford%2C%20Galway%20-%20geograph.org.uk%20-%205829331.jpg?width=400"
+  },
+  {
+    "name": "Hillsborough Castle",
+    "blurb": "Castle in Royal Hillsborough, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.4612,
+    "lng": -6.08609,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hillsborough%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Hillsborough Fort",
+    "blurb": "Fort in Royal Hillsborough, County Down, Northern Ireland",
+    "type": "fort",
+    "lat": 54.4607,
+    "lng": -6.08149,
+    "image": null
+  },
+  {
+    "name": "Holy Cross Abbey",
+    "blurb": "Former Cistercian abbey in Tipperary, Ireland",
+    "type": "abbey",
+    "lat": 52.6393989,
+    "lng": -7.86799,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/IMGHolyCross%204780w.jpg?width=400"
+  },
+  {
+    "name": "Holy Trinity Abbey",
+    "blurb": "Abbey in Ireland",
+    "type": "abbey",
+    "lat": 53.989215,
+    "lng": -8.254515,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/COA%20Premonstratensians.svg?width=400"
+  },
+  {
+    "name": "Hope Castle",
+    "blurb": "Irish castle",
+    "type": "castle",
+    "lat": 54.119,
+    "lng": -6.73,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hope%20Castle%20Hotel%2C%20Castleblayney%20-%20geograph.org.uk%20-%201447309.jpg?width=400"
+  },
+  {
+    "name": "Hore Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 52.5175,
+    "lng": -7.9,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hore%20Abbey%20County%20Tipperary%20Irland%4020160604.jpg?width=400"
+  },
+  {
+    "name": "Howth Castle",
+    "blurb": "Fortification",
+    "type": "castle",
+    "lat": 53.3863,
+    "lng": -6.079,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Howth%20Castle%20and%20Environs.jpg?width=400"
+  },
+  {
+    "name": "Humewood Castle",
+    "blurb": "Castellated house in County Wicklow, Ireland",
+    "type": "castle",
+    "lat": 52.91,
+    "lng": -6.612,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Humewood%20Castle%2C%20Kiltegan.jpg?width=400"
+  },
+  {
+    "name": "Huntington Castle",
+    "blurb": "Castle in Clonegal, County Carlow, Ireland",
+    "type": "castle",
+    "lat": 52.6898,
+    "lng": -6.6486,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Huntington%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Inch Abbey",
+    "blurb": "Ruined monastery in County Down, Northern Ireland",
+    "type": "abbey",
+    "lat": 54.3328,
+    "lng": -5.73333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inch%20Abbey%2C%20Downpatrick%2C%20March%202010%20%2803%29.JPG?width=400"
+  },
+  {
+    "name": "Inch Castle",
+    "blurb": "Ruined castle in County Donegal, Ireland",
+    "type": "castle",
+    "lat": 55.04759979,
+    "lng": -7.49620008,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farland%20Bank%20and%20Inch%20Castle%20-%20panoramio.jpg?width=400"
+  },
+  {
+    "name": "Inchbofin Ecclesiastical Site",
+    "blurb": "Early medieval monastery site in County Westmeath",
+    "type": "monastery",
+    "lat": 53.54151,
+    "lng": -7.91714,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Placchetta%20decorativa%2C%20dall%27isola%20di%20inchbofin%2C%20lough%20ree%2C%20co.%20di%20westmeath%2C%20810%20dc%20ca.jpg?width=400"
+  },
+  {
+    "name": "Inchicronan Priory",
+    "blurb": "Abbey ruins in Co. Clare",
+    "type": "abbey",
+    "lat": 52.918017,
+    "lng": -8.90669,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/InchicronanPriory.JPG?width=400"
+  },
+  {
+    "name": "Inchmacnerin Abbey",
+    "blurb": "Irish former monastery",
+    "type": "monastery",
+    "lat": 53.994501,
+    "lng": -8.260823,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jetties%20on%20Lough%20Key%20-%20geograph.org.uk%20-%20801256.jpg?width=400"
+  },
+  {
+    "name": "Inchmore Castle",
+    "blurb": "Ruins of a castle in Inchmore, Co. Kilkenny",
+    "type": "castle",
+    "lat": 52.73585,
+    "lng": -7.34597,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inchmore%20Castle%2002.png?width=400"
+  },
+  {
+    "name": "Inishmacsaint Monastery",
+    "blurb": "Early Christian monastic site",
+    "type": "monastery",
+    "lat": 54.4355,
+    "lng": -7.745472222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inishmacsaint%20Church%20SW%202012%2009%2017.jpg?width=400"
+  },
+  {
+    "name": "Inishmaine Abbey",
+    "blurb": "Former Augustinian monastery and National Monument located in County Mayo, Ireland",
+    "type": "monastery",
+    "lat": 53.598092,
+    "lng": -9.301341,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/InishmaineAbbey.jpg?width=400"
+  },
+  {
+    "name": "Inislounaght Abbey",
+    "blurb": "12th-century Cistercian settlement in Ireland",
+    "type": "abbey",
+    "lat": 52.35,
+    "lng": -7.73055556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crusader%27s%20gravestone%20Marlfield%20churchyard%20June%202010.jpg?width=400"
+  },
+  {
+    "name": "Innisfallen Church, Oratories & Abbey",
+    "blurb": "Ensemble of early Christian and Augustinian monastic buildings on Innisfallen Island, National monument no. 183",
+    "type": "abbey",
+    "lat": 52.046266,
+    "lng": -9.554678,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Innisfallen%20Abbey%2C%20Lough%20Leanej.jpg?width=400"
+  },
+  {
+    "name": "James's Fort",
+    "blurb": "Bastion fort in County Cork, Ireland",
+    "type": "fort",
+    "lat": 51.69964,
+    "lng": -8.510284,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Fort%2C%20Kinsale%2C%20West%20Cork.JPG?width=400"
+  },
+  {
+    "name": "Jerpoint Abbey",
+    "blurb": "12th century abbey in County Kilkenny, Ireland",
+    "type": "abbey",
+    "lat": 52.51093,
+    "lng": -7.15798,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jerpoint%20Abbey%20E%201997%2008%2028.jpg?width=400"
+  },
+  {
+    "name": "Johnstown Castle",
+    "blurb": "Castle in Wexford, Ireland",
+    "type": "castle",
+    "lat": 52.293154,
+    "lng": -6.504663,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agricultural%20museum%2C%20Johnstown%20Castle%20-%20geograph.org.uk%20-%201274609.jpg?width=400"
+  },
+  {
+    "name": "Jordan's Castle",
+    "blurb": "State Care historic monument in Northern Ireland",
+    "type": "castle",
+    "lat": 54.26,
+    "lng": -5.609,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jordan%27s%20Castle%201.jpg?width=400"
+  },
+  {
+    "name": "Kearney's Castle",
+    "blurb": "Castle in Cashel, County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.5167,
+    "lng": -7.88744,
+    "image": null
+  },
+  {
+    "name": "Keatingstown Castle",
+    "blurb": "Castle in Keatingstown, County Kilkenny",
+    "type": "castle",
+    "lat": 52.688849,
+    "lng": -7.28764,
+    "image": null
+  },
+  {
+    "name": "Kells Castle",
+    "blurb": "Castle in Kells, County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.541647,
+    "lng": -7.272985,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kells%2C%20Co%20Kilkenny%2C%201794.jpg?width=400"
+  },
+  {
+    "name": "Kellsrath Castle",
+    "blurb": "Demolished castle in the historic townland of Kellsrath",
+    "type": "castle",
+    "lat": 52.523591,
+    "lng": -7.257777,
+    "image": null
+  },
+  {
+    "name": "Kilbeggan Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 53.36833333,
+    "lng": -7.50194444,
+    "image": null
+  },
+  {
+    "name": "Kilbennan Monastery",
+    "blurb": "Early Christian monastic site with ruins of a round tower and a medieval church, founded by St. Benen, a disciple of St. Patrick, in the 5th century",
+    "type": "monastery",
+    "lat": 53.538837,
+    "lng": -8.892038,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilbennan%20Church%20and%20Roundtower%20East%202010%2009%2016.jpg?width=400"
+  },
+  {
+    "name": "Kilbolane Castle",
+    "blurb": "Norman style castle in Cork, Ireland",
+    "type": "castle",
+    "lat": 52.339,
+    "lng": -8.851,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Kilbolane%2C%20Cork%20-%20geograph.org.uk%20-%201392690.jpg?width=400"
+  },
+  {
+    "name": "Kilcash Castle",
+    "blurb": "Ruin of a 16th-century tower-house",
+    "type": "castle",
+    "lat": 52.39777778,
+    "lng": -7.52138889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilcash%20Castle2.jpg?width=400"
+  },
+  {
+    "name": "Kilchrist Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.401,
+    "lng": -5.6467,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilchrist%20Castle%20-%20geograph.org.uk%20-%201343265.jpg?width=400"
+  },
+  {
+    "name": "Kilclief Castle",
+    "blurb": "Castle in the United Kingdom",
+    "type": "castle",
+    "lat": 54.328,
+    "lng": -5.554,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilclief%20Castle%2C%20Geograph.jpg?width=400"
+  },
+  {
+    "name": "Kilcoe Castle",
+    "blurb": "15th-century castle in West Cork",
+    "type": "castle",
+    "lat": 51.54024,
+    "lng": -9.41442,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilcoe%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Kilcooly Abbey",
+    "blurb": "Cistercian abbey in County Tipperary",
+    "type": "abbey",
+    "lat": 52.670759,
+    "lng": -7.571259,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilcooly%20Abbey.jpg?width=400"
+  },
+  {
+    "name": "Kilcrea Friary",
+    "blurb": "Church in County Cork, Ireland",
+    "type": "abbey",
+    "lat": 51.86472222,
+    "lng": -8.71111111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/KilcreaFriary.JPG?width=400"
+  },
+  {
+    "name": "Kildare Abbey",
+    "blurb": "Former monastery in County Kildare, Ireland",
+    "type": "monastery",
+    "lat": 53.158158,
+    "lng": -6.912026,
+    "image": null
+  },
+  {
+    "name": "Kildare Castle",
+    "blurb": "Ruined castle in Kildare Town, County Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.1572,
+    "lng": -6.9091,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kildare%20Town%20and%20Surrounds.jpg?width=400"
+  },
+  {
+    "name": "Kilgobbin Castle",
+    "blurb": "Tower house in Dún Laoghaire–Rathdown, Ireland",
+    "type": "castle",
+    "lat": 53.25966,
+    "lng": -6.21311,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Kilgoben%20%28Kilgobbin%29%20Castle%2C%205%20miles%20from%20Dublin%20-%20RIA%20MS%203%20C%203115%20-%20From%20Watercolour%20by%20Gabriel%20Beranger%20-%20ca.1729-1817.jpg?width=400"
+  },
+  {
+    "name": "Kilkea Castle",
+    "blurb": "Castle in County Kildare, Ireland",
+    "type": "castle",
+    "lat": 52.94333333,
+    "lng": -6.88694444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilkea%20Castle%20Castledermot%20Ireland.jpg?width=400"
+  },
+  {
+    "name": "Kilkenny Castle",
+    "blurb": "Castle in Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.650277777,
+    "lng": -7.249166666,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilkenny-castle.jpg?width=400"
+  },
+  {
+    "name": "Kilkerran Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.41656,
+    "lng": -5.5895672,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Top%20Of%20Kilkerran%20Castle%20-%20geograph.org.uk%20-%201208069.jpg?width=400"
+  },
+  {
+    "name": "Killenny Abbey",
+    "blurb": "Former Cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 53.9509632,
+    "lng": -6.63106436,
+    "image": null
+  },
+  {
+    "name": "Killevy Castle",
+    "blurb": "Country house in Clonlum, County Armagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.1232,
+    "lng": -6.4107,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killevy%20Castle%20-%20geograph.org.uk%20-%20564025%20%28cropped%29.jpg?width=400"
+  },
+  {
+    "name": "Killiney Castle",
+    "blurb": "Castle in Ireland from the 13th century",
+    "type": "castle",
+    "lat": 53.2693,
+    "lng": -6.1133,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killiney%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Killowen Castle",
+    "blurb": "Castle at Killowen, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 55.131666666,
+    "lng": -6.675277777,
+    "image": null
+  },
+  {
+    "name": "Killua Castle",
+    "blurb": "Castle in County Westmeath, Ireland",
+    "type": "castle",
+    "lat": 53.659538888,
+    "lng": -6.996211111,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killua%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Killyleagh Castle",
+    "blurb": "Castle in the village of Killyleagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.4025,
+    "lng": -5.6542,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killyleagh%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Killymoon Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.635,
+    "lng": -6.736,
+    "image": null
+  },
+  {
+    "name": "Kilmacar Castle",
+    "blurb": "Demolished castle in Kilmacar, County Kilkenny",
+    "type": "castle",
+    "lat": 52.768857,
+    "lng": -7.273694,
+    "image": null
+  },
+  {
+    "name": "Kilmacduagh monastery",
+    "blurb": "House of Augustinian canons",
+    "type": "abbey",
+    "lat": 53.0498213,
+    "lng": -8.88956,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilmacduagh%20Abbey%20of%20St.%20Mary%20de%20Petra%202015%2008%2031.jpg?width=400"
+  },
+  {
+    "name": "Kilmademog Castle",
+    "blurb": "Demolished castle in Kilmademog, County Kilkenny",
+    "type": "castle",
+    "lat": 52.713505,
+    "lng": -7.24713,
+    "image": null
+  },
+  {
+    "name": "Kilree",
+    "blurb": "Former Christian monastery located in County Kilkenny, Ireland",
+    "type": "monastery",
+    "lat": 52.518108,
+    "lng": -7.268573,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilree.jpg?width=400"
+  },
+  {
+    "name": "Kilshane Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 52.47333333,
+    "lng": -8.86166667,
+    "image": null
+  },
+  {
+    "name": "Kiltinan Castle",
+    "blurb": "Irish historic site",
+    "type": "castle",
+    "lat": 52.4305,
+    "lng": -7.6502,
+    "image": null
+  },
+  {
+    "name": "Kilwaughter Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.8424,
+    "lng": -5.88856,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killwaughter%20Castle%20-%20geograph.org.uk%20-%20226686.jpg?width=400"
+  },
+  {
+    "name": "Kinalehin Friary",
+    "blurb": "House of Franciscan friars in Abbey, County Galway",
+    "type": "abbey",
+    "lat": 53.1028016,
+    "lng": -8.39246,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kinalehin%20Friary%20South%20Range%202009%2009%2017.jpg?width=400"
+  },
+  {
+    "name": "Kinbane Castle",
+    "blurb": "Castle in County Antrim, Northern Ireland",
+    "type": "castle",
+    "lat": 55.2292,
+    "lng": -6.29139,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kinbane%20Castle%2C%20daylight.jpg?width=400"
+  },
+  {
+    "name": "Kindlestown Castle",
+    "blurb": "Castle (hall house) in County Wicklow, Ireland",
+    "type": "castle",
+    "lat": 53.141177,
+    "lng": -6.089058,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kindlestown%20Castle%2C%20County%20Wicklow.JPG?width=400"
+  },
+  {
+    "name": "King John's Castle",
+    "blurb": "Castle in Limerick, Ireland",
+    "type": "castle",
+    "lat": 52.669722222,
+    "lng": -8.625555555,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Treaty%20Stone%20and%20King%20Johns%20Castle%2C%20Limerick%20-%20geograph.org.uk%20-%20303274.jpg?width=400"
+  },
+  {
+    "name": "King's Castle",
+    "blurb": "Castle in Ardglass, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.2595,
+    "lng": -5.6078,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kings%20Castle%20Nursing%20Home%2C%20Ardglass%2C%20November%202010%20%2801%29.JPG?width=400"
+  },
+  {
+    "name": "Kirkistown Castle",
+    "blurb": "Castle in Newtownards, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.4424,
+    "lng": -5.4661,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kirkistown%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Knockdrum Stone Fort",
+    "blurb": "Circular stone ringfort in County Cork, Ireland",
+    "type": "hillfort",
+    "lat": 51.5265,
+    "lng": -9.1937,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Knockdrum%202.jpg?width=400"
+  },
+  {
+    "name": "Knockgraffon Castle",
+    "blurb": "Tower house in County Tipperary",
+    "type": "castle",
+    "lat": 52.417326,
+    "lng": -7.9290873,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Knockgraffon%2C%20Tipperary%20-%20geograph.org.uk%20-%201542103.jpg?width=400"
+  },
+  {
+    "name": "Knockmoy Abbey",
+    "blurb": "Abbey in Abbeyknockmoy, Ireland",
+    "type": "abbey",
+    "lat": 53.440587949,
+    "lng": -8.742944645,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Knockmoy%20Abbey%20957024.jpg?width=400"
+  },
+  {
+    "name": "Knockmoylan Castle",
+    "blurb": "Castle ruin in Knockmoylan, Knocktopher, County Kilkenny",
+    "type": "castle",
+    "lat": 52.404833,
+    "lng": -7.200061,
+    "image": null
+  },
+  {
+    "name": "Knocktopher Abbey",
+    "blurb": "Former Carmelite monastery, converted into a country house in County Kilkenny, Ireland",
+    "type": "monastery",
+    "lat": 52.48291,
+    "lng": -7.21666,
+    "image": null
+  },
+  {
+    "name": "Kyleballinamoe Castle",
+    "blurb": "Demolished castle in Kyleballinamoe, County Kilkenny",
+    "type": "castle",
+    "lat": 52.722297,
+    "lng": -7.453558,
+    "image": null
+  },
+  {
+    "name": "Kylemore Abbey",
+    "blurb": "Abbey in Galway, Ireland",
+    "type": "abbey",
+    "lat": 53.56167986,
+    "lng": -9.889264873,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kylemore%20Abbey%20Reflections.jpg?width=400"
+  },
+  {
+    "name": "Lackeen Castle",
+    "blurb": "Castle in County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 53.0886,
+    "lng": -8.0739,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Lackeen%2C%20Tipperary%20-%20geograph.org.uk%20-%201542016.jpg?width=400"
+  },
+  {
+    "name": "Lacken Castle",
+    "blurb": "Castle ruins in County Kilkenny",
+    "type": "castle",
+    "lat": 52.668434,
+    "lng": -7.328674,
+    "image": null
+  },
+  {
+    "name": "Lavistown Castle",
+    "blurb": "Demolished castle in Lavistown, County Kilkenny",
+    "type": "castle",
+    "lat": 52.638737,
+    "lng": -7.195786,
+    "image": null
+  },
+  {
+    "name": "Leamaneh Castle",
+    "blurb": "Castle ruin in County Clare, Ireland",
+    "type": "castle",
+    "lat": 52.98758889,
+    "lng": -9.14026389,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lemaneagh%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Leap Castle",
+    "blurb": "Castle",
+    "type": "castle",
+    "lat": 53.0281,
+    "lng": -7.8085,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Leap%2C%20Offaly%20%28geograph%201952754%29.jpg?width=400"
+  },
+  {
+    "name": "Legan Castle",
+    "blurb": "Castle with bawn in Legan, County Kilkenny",
+    "type": "castle",
+    "lat": 52.534712,
+    "lng": -7.16299,
+    "image": null
+  },
+  {
+    "name": "Leighlinbridge Castle",
+    "blurb": "Historic site in County Carlow, Ireland",
+    "type": "castle",
+    "lat": 52.7357,
+    "lng": -6.9781,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leighlinbridge3836.jpg?width=400"
+  },
+  {
+    "name": "Leixlip Castle",
+    "blurb": "Country house in County Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.36199,
+    "lng": -6.49068,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leixlip%20Castle%2C%20Co.%20Kildare%2C%20Ireland.jpg?width=400"
+  },
+  {
+    "name": "Lenan Head Fort",
+    "blurb": "Fort protecting Lough Swilly, Donegal, Ireland",
+    "type": "fort",
+    "lat": 55.247,
+    "lng": -7.532,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lenan%20Head%20Fort%20-%20geograph.org.uk%20-%20882388.jpg?width=400"
+  },
+  {
+    "name": "Liathleitir",
+    "blurb": "Hillfort in Galway",
+    "type": "hillfort",
+    "lat": 53.33418,
+    "lng": -9.22916,
+    "image": null
+  },
+  {
+    "name": "Limavady Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 55.024437,
+    "lng": -6.9381,
+    "image": null
+  },
+  {
+    "name": "Liscarroll Castle",
+    "blurb": "13th century castle in Cork, Ireland",
+    "type": "castle",
+    "lat": 52.260481,
+    "lng": -8.804103,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Liscarroll%2C%20Cork%20-%20geograph.org.uk%20-%201392828.jpg?width=400"
+  },
+  {
+    "name": "Lisdowney Castle",
+    "blurb": "Demolished castle in Lisdowney, County Kilkenny",
+    "type": "castle",
+    "lat": 52.790263,
+    "lng": -7.394867,
+    "image": null
+  },
+  {
+    "name": "Lisheen Castle",
+    "blurb": "18th century castle in Tipperary, Ireland, which began its life as an upper class Georgian house which was transformed into a castle",
+    "type": "castle",
+    "lat": 52.75182766,
+    "lng": -7.74448156,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lisheen%20Castle%2C%20Templemore%2C%20Tipperary%20%281%29%20%28geograph%206557090%29.jpg?width=400"
+  },
+  {
+    "name": "Lislaughtin Abbey",
+    "blurb": "Medieval Franciscan friary and National Monument located in County Kerry, Ireland",
+    "type": "abbey",
+    "lat": 52.557472,
+    "lng": -9.470057,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballylongford%20-%20Lislauthin%20Abbey.JPG?width=400"
+  },
+  {
+    "name": "Lismore Castle",
+    "blurb": "Historic Castle in Lismore, Co Waterford, Ireland",
+    "type": "castle",
+    "lat": 52.140555555,
+    "lng": -7.9325,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Irland%202010.08.18%20026.jpg?width=400"
+  },
+  {
+    "name": "Lisnagade",
+    "blurb": "Ringfort in County Down, Northern Ireland, United Kingdom",
+    "type": "hillfort",
+    "lat": 54.333,
+    "lng": -6.331,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lisnagade%20fort%20near%20Scarva%20-%20geograph.org.uk%20-%20284954.jpg?width=400"
+  },
+  {
+    "name": "Listowel Castle",
+    "blurb": "Castle in County Kerry, Ireland",
+    "type": "castle",
+    "lat": 52.44527778,
+    "lng": -9.48583333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Listowel%20Castle.JPEG?width=400"
+  },
+  {
+    "name": "Lochend Castle, Campbeltown",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.4224,
+    "lng": -5.6074,
+    "image": null
+  },
+  {
+    "name": "Lodge",
+    "blurb": "Ruins of a house mentioned in the Down Survey",
+    "type": "castle",
+    "lat": 52.747251,
+    "lng": -7.417251,
+    "image": null
+  },
+  {
+    "name": "Lough Cutra Castle",
+    "blurb": "Castle in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.0237,
+    "lng": -8.8031,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gothic%20revival%20castle%2C%20Lough%20Cutra%20Castle%2C%20Galway%2C%20Ireland%20%2820299996302%29.jpg?width=400"
+  },
+  {
+    "name": "Lough Rynn Castle",
+    "blurb": "Castle in County Leitrim, Ireland",
+    "type": "castle",
+    "lat": 53.89305556,
+    "lng": -7.84694444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lough%20Rynn1.JPG?width=400"
+  },
+  {
+    "name": "Loughmoe Castle",
+    "blurb": "Castle in County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.754932,
+    "lng": -7.826447,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Loughmore%20Castle.JPG?width=400"
+  },
+  {
+    "name": "Luttrellstown Castle",
+    "blurb": "Castle/mansion in Ireland",
+    "type": "castle",
+    "lat": 53.37926667,
+    "lng": -6.41745556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Luttrellstown%20Castle%20by%20Rose%20Barton%201898.jpg?width=400"
+  },
+  {
+    "name": "Lynch's Castle",
+    "blurb": "Former townhouse, now bank building in Galway",
+    "type": "castle",
+    "lat": 53.27324,
+    "lng": -9.05241,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ireland%20Galway%20Lynch%27s%20Castle%20BW%202025-09-10%2018-24-13.jpg?width=400"
+  },
+  {
+    "name": "Macosquin Abbey",
+    "blurb": "Cistercian Monastery in County Londonderry, Northern Ireland in the United Kingdom",
+    "type": "monastery",
+    "lat": 55.09916667,
+    "lng": -6.71666667,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20Church%20of%20Ireland%2C%20Macosquin%20-%20geograph.org.uk%20-%20529704.jpg?width=400"
+  },
+  {
+    "name": "Macroom Castle",
+    "blurb": "Irish Castle",
+    "type": "castle",
+    "lat": 51.904804,
+    "lng": -8.960315,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Macroom%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Mahee Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.500951,
+    "lng": -5.648475,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mahee%20Castle%2C%20January%202011%20%2801%29.JPG?width=400"
+  },
+  {
+    "name": "Malahide Castle",
+    "blurb": "Castle near the village of Malahide, Ireland",
+    "type": "castle",
+    "lat": 53.444722222,
+    "lng": -6.165,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Malahide%20Castle%2C%20March%202011%20%283%29.jpg?width=400"
+  },
+  {
+    "name": "Mallow Castle",
+    "blurb": "Castle in County Cork, Ireland",
+    "type": "castle",
+    "lat": 52.133888,
+    "lng": -8.639469,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Mallow%2C%20Cork%20-%20geograph.org.uk%20-%201392955.jpg?width=400"
+  },
+  {
+    "name": "Manderley Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.2627,
+    "lng": -6.113,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Manderley%20Castle%20%288173369686%29.jpg?width=400"
+  },
+  {
+    "name": "Margaret's Castle",
+    "blurb": "Irish castle",
+    "type": "castle",
+    "lat": 54.2586,
+    "lng": -5.6067,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Margarets%20Castle%2C%20Ardglass%2C%20November%202010%20%2802%29.JPG?width=400"
+  },
+  {
+    "name": "Markree Castle",
+    "blurb": "Castle located in Collooney, County Sligo, Ireland",
+    "type": "castle",
+    "lat": 54.17413889,
+    "lng": -8.46144444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Markree%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Maynooth Castle",
+    "blurb": "Castle in County Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.38079,
+    "lng": -6.5944,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Maynooth%20Castle4.jpg?width=400"
+  },
+  {
+    "name": "McCann’s Bakery",
+    "blurb": "Castle in Newry, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.173,
+    "lng": -6.33587,
+    "image": null
+  },
+  {
+    "name": "McDermott's Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.9894558,
+    "lng": -8.2325894,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/McDermott%27s%20Castle%2C%20County%20Roscommon%2C%20Ireland.jpg?width=400"
+  },
+  {
+    "name": "Menlo Castle",
+    "blurb": "16th-century castle in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.2963551,
+    "lng": -9.0757048,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Menlough%2C%20Galway%20%282%29%20-%20geograph.org.uk%20-%201953895.jpg?width=400"
+  },
+  {
+    "name": "Millmount Fort",
+    "blurb": "Fortified complex by the River Boyne in Ireland",
+    "type": "castle",
+    "lat": 53.711592,
+    "lng": -6.349484,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Millmount%202.JPG?width=400"
+  },
+  {
+    "name": "Minard Castle",
+    "blurb": "Castle in County Kerry, Ireland",
+    "type": "castle",
+    "lat": 52.126111,
+    "lng": -10.110556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20near%20Minard%20East%20-%20geograph.org.uk%20-%2017838.jpg?width=400"
+  },
+  {
+    "name": "Mitchelstown Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 52.27222222,
+    "lng": -8.28,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mitchelstown%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Moatpark Castle",
+    "blurb": "Demolished castle in Moatpark, County Kilkenny",
+    "type": "castle",
+    "lat": 52.803892,
+    "lng": -7.341362,
+    "image": null
+  },
+  {
+    "name": "Moil Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.4299,
+    "lng": -5.5973,
+    "image": null
+  },
+  {
+    "name": "Monasteranenagh Abbey",
+    "blurb": "Medieval friary and National Monument located in County Limerick, Ireland",
+    "type": "abbey",
+    "lat": 52.51685,
+    "lng": -8.66285,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MonasteranenaghAbbey.jpg?width=400"
+  },
+  {
+    "name": "Monasterboice",
+    "blurb": "Monastery",
+    "type": "monastery",
+    "lat": 53.777647222,
+    "lng": -6.417341666,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monasterboice%20North%20Church%20and%20West%20Cross%20West%20Face%202013%2009%2027.jpg?width=400"
+  },
+  {
+    "name": "Monastery of Inisnag",
+    "blurb": "Irish Christian monastery and church",
+    "type": "monastery",
+    "lat": 52.553214,
+    "lng": -7.2355099,
+    "image": null
+  },
+  {
+    "name": "Monastery of Mohill-Manchan",
+    "blurb": "Ancient monastery at Mohill in county Leitrim",
+    "type": "monastery",
+    "lat": 53.92259,
+    "lng": -7.86557,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monastery%20of%20Mohill%20ruined%20school.jpg?width=400"
+  },
+  {
+    "name": "Monea Castle",
+    "blurb": "Castle in County Fermanagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.393,
+    "lng": -7.748,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monea%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Monellan Castle",
+    "blurb": "Former castellated mansion in County Donegal, Ireland",
+    "type": "castle",
+    "lat": 54.7968309,
+    "lng": -7.6835354,
+    "image": null
+  },
+  {
+    "name": "Mongavlin Castle",
+    "blurb": "Ruined castle in County Donegal, Ireland",
+    "type": "castle",
+    "lat": 54.90416667,
+    "lng": -7.45333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mongavlin%20Castle%202013.jpg?width=400"
+  },
+  {
+    "name": "Monivea Castle",
+    "blurb": "Tower house in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.36667,
+    "lng": -8.683333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monivea%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Moonhall Castle",
+    "blurb": "Castle ruin in Moonhall, barony of Gowran, County Kilkenny",
+    "type": "castle",
+    "lat": 52.658489,
+    "lng": -7.120585,
+    "image": null
+  },
+  {
+    "name": "Moore Abbey",
+    "blurb": "Headquarters of the Sisters of Charity in Ireland",
+    "type": "abbey",
+    "lat": 53.1361,
+    "lng": -7.06287,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moore%20Abbey%20Residential%20Home%202007%2008%2027.jpg?width=400"
+  },
+  {
+    "name": "Moorstown Castle",
+    "blurb": "Castle in County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.38888889,
+    "lng": -7.83055556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Moorstown%2C%20Tipperary%20-%20geograph.org.uk%20-%201542086.jpg?width=400"
+  },
+  {
+    "name": "Mortimer's Castle",
+    "blurb": "Castle and National Monument located in County Westmeath, Ireland",
+    "type": "castle",
+    "lat": 53.648607,
+    "lng": -7.341412,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mortimer%27s%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Mount Melleray Monastery",
+    "blurb": "Abbey in County Waterford, Ireland",
+    "type": "abbey",
+    "lat": 52.18749,
+    "lng": -7.8586,
+    "image": null
+  },
+  {
+    "name": "Mountfortescue Hillfort",
+    "blurb": "National Monument consisting of a hillfort with tumuli located in County Meath, Ireland",
+    "type": "hillfort",
+    "lat": 53.76111,
+    "lng": -6.57747,
+    "image": null
+  },
+  {
+    "name": "Mountjoy Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.55888889,
+    "lng": -6.60777778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mountjoy%20castle.JPG?width=400"
+  },
+  {
+    "name": "Mourne Abbey",
+    "blurb": "Parish in Munster, Ireland",
+    "type": "abbey",
+    "lat": 52.13333333,
+    "lng": -8.65,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MourneAbbeyCork.jpg?width=400"
+  },
+  {
+    "name": "Movilla Abbey",
+    "blurb": "Abbey in the UK",
+    "type": "abbey",
+    "lat": 54.593,
+    "lng": -5.689,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Movilla%20Abbey%2C%20Newtownards%20-%20geograph.org.uk%20-%2084296.jpg?width=400"
+  },
+  {
+    "name": "Moycarkey Castle",
+    "blurb": "Castle in County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.626264,
+    "lng": -7.790036,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Moycarkey%2C%20Tipperary%20-%20geograph.org.uk%20-%201542271.jpg?width=400"
+  },
+  {
+    "name": "Moydrum Castle",
+    "blurb": "19th century ruin near Athlone, Ireland",
+    "type": "castle",
+    "lat": 53.4278,
+    "lng": -7.8633,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moydrum%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Moygara Castle",
+    "blurb": "Castle in County Sligo",
+    "type": "castle",
+    "lat": 53.971645,
+    "lng": -8.474742,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Moygara%2C%20Sligo%20%281%29%20-%20geograph.org.uk%20-%204073628.jpg?width=400"
+  },
+  {
+    "name": "Moyry Castle",
+    "blurb": "Castle in Northern Ireland",
+    "type": "castle",
+    "lat": 54.0703,
+    "lng": -6.38528,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moyry%20Castle%2C%20Geograph.jpg?width=400"
+  },
+  {
+    "name": "Muckross Abbey",
+    "blurb": "Ruined friary in the Killarney National Park, Ireland",
+    "type": "abbey",
+    "lat": 52.02611111,
+    "lng": -9.49555556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Muckross%20Abbey%20Friary%202014.jpg?width=400"
+  },
+  {
+    "name": "Mungret Abbey",
+    "blurb": "Medieval friary, County Limerick, Ireland",
+    "type": "monastery",
+    "lat": 52.634306,
+    "lng": -8.675514,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mungret%20Abbey%20part%20of%20the%20Mungret%20Churches.jpg?width=400"
+  },
+  {
+    "name": "Narrow Water Castle",
+    "blurb": "16th-century tower house in Northern Ireland",
+    "type": "castle",
+    "lat": 54.1148,
+    "lng": -6.2828,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Narrow%20Water%20Tower%2C%20Warrenpoint%20-%20geograph.org.uk%20-%20399224.jpg?width=400"
+  },
+  {
+    "name": "Necarne Castle",
+    "blurb": "Castle in Irvinestown, County Fermanagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.4631,
+    "lng": -7.63713,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Necarne%20Castle%20%28Castle%20Irvine%29%20%2C%20Irvinestown%20-%20geograph.org.uk%20-%20357778.jpg?width=400"
+  },
+  {
+    "name": "Neds Point Fort",
+    "blurb": "Fort in County Donegal, Ireland",
+    "type": "fort",
+    "lat": 55.141,
+    "lng": -7.474,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NedsPointfrontgate.JPG?width=400"
+  },
+  {
+    "name": "Neigham Castle",
+    "blurb": "Tower house in Neigham, County Kilkenny",
+    "type": "castle",
+    "lat": 52.606485,
+    "lng": -7.05442,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Neigham%20Castle%20in%20County%20Kilkenny%20-%20geograph-4570883.jpg?width=400"
+  },
+  {
+    "name": "Nenagh Castle",
+    "blurb": "Castle in County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.865014,
+    "lng": -8.198192,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nenagh%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Nendrum Castle",
+    "blurb": "Castle in Killinchy, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.501,
+    "lng": -5.64856,
+    "image": null
+  },
+  {
+    "name": "Nendrum Monastery",
+    "blurb": "Christian monastery on Mahee Island in Strangford Lough, County Down, Northern Ireland",
+    "type": "monastery",
+    "lat": 54.498,
+    "lng": -5.648,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nendrum%20Abbey%20Ruins.jpg?width=400"
+  },
+  {
+    "name": "Newbridge Estate",
+    "blurb": "Estate turned park, with historic buildings and show farm",
+    "type": "castle",
+    "lat": 53.48611111,
+    "lng": -6.16777778,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/794749-Newbridge%20House-Dublin.jpg?width=400"
+  },
+  {
+    "name": "Newhouse Castle",
+    "blurb": "Castle or manor house in Newhouse, County Kilkenny, either demolished or incorporated into the modern house",
+    "type": "castle",
+    "lat": 52.562633,
+    "lng": -7.15481,
+    "image": null
+  },
+  {
+    "name": "Newry Abbey",
+    "blurb": "Former cistercian abbey in Ireland",
+    "type": "abbey",
+    "lat": 54.17166667,
+    "lng": -6.33333333,
+    "image": null
+  },
+  {
+    "name": "Newtown Abbey",
+    "blurb": "Ruined medieval monastery, County Meath, Ireland",
+    "type": "monastery",
+    "lat": 53.555252,
+    "lng": -6.773247,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Newtown%20abbey%20Trim.jpg?width=400"
+  },
+  {
+    "name": "North Abbey",
+    "blurb": "Monastery in County Cork, Ireland",
+    "type": "monastery",
+    "lat": 51.95744,
+    "lng": -7.85454,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NorthAbbeyYoughal.JPG?width=400"
+  },
+  {
+    "name": "Northburgh Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 55.205244,
+    "lng": -6.975301,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Greencastle%20Castle%20Gate%20Towers%20II%202016%2009%2005.jpg?width=400"
+  },
+  {
+    "name": "Noughaval Early Monastic Site",
+    "blurb": "Early monastic site, County Clare, Ireland",
+    "type": "monastery",
+    "lat": 53.015775,
+    "lng": -9.180291,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Noughaval%20Old%20Church%202013%2007%2019.jpg?width=400"
+  },
+  {
+    "name": "Nugent Castle",
+    "blurb": "Castle ruin in County Westmeath, Ireland",
+    "type": "castle",
+    "lat": 53.6112,
+    "lng": -7.093598,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Delvin%20Castle%20-%20geograph.org.uk%20-%20166670.jpg?width=400"
+  },
+  {
+    "name": "O’Doherty’s Fort",
+    "blurb": "Fort in Derry, County Londonderry, Northern Ireland",
+    "type": "fort",
+    "lat": 54.9972,
+    "lng": -7.32079,
+    "image": null
+  },
+  {
+    "name": "O'Grady's Castle",
+    "blurb": "Castle in County Clare, Ireland",
+    "type": "castle",
+    "lat": 52.89704,
+    "lng": -8.53987,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/O%27Grady%27s%20tower%20house%2C%20Tuamgraney%20-%20geograph.org.uk%20-%201601576.jpg?width=400"
+  },
+  {
+    "name": "Old Monastery Hostel",
+    "blurb": "Former meeting house and monastery of the Christian Brothers, now used as a hostel in Letterfrack, County Galway, Ireland",
+    "type": "monastery",
+    "lat": 53.551968,
+    "lng": -9.945969,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Letterfrack%20Old%20Monastery%20Hostel%202018%2009%2004.jpg?width=400"
+  },
+  {
+    "name": "Olderfleet Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.845,
+    "lng": -5.809,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Olderfleet%20%28geograph%29.jpg?width=400"
+  },
+  {
+    "name": "Oranmore Castle",
+    "blurb": "Tower house in County Galway, Ireland",
+    "type": "castle",
+    "lat": 53.268255555,
+    "lng": -8.935069444,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oranmore%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Ormonde Castle",
+    "blurb": "Castle in County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.345234,
+    "lng": -7.407095,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20towerhouse%20at%20Ormonde%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Parkavonear Castle",
+    "blurb": "Ruined castle in County Kerry, Ireland",
+    "type": "castle",
+    "lat": 52.074444,
+    "lng": -9.554722,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Parkavonear%20Castle%20keep%20Aghadoe.JPG?width=400"
+  },
+  {
+    "name": "Parke's Castle",
+    "blurb": "O'Rourke Castle",
+    "type": "castle",
+    "lat": 54.264792,
+    "lng": -8.33443,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Parkes%20Castle%20-%20geograph.org.uk%20-%2071043.jpg?width=400"
+  },
+  {
+    "name": "Portaferry Castle",
+    "blurb": "Castle in Portaferry, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.38,
+    "lng": -5.549,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portaferry%20Castle%20%2803%29%2C%20October%202009.JPG?width=400"
+  },
+  {
+    "name": "Portlick Castle",
+    "blurb": "Medieval castle in Westmeath, Ireland",
+    "type": "castle",
+    "lat": 53.4952,
+    "lng": -7.9121,
+    "image": null
+  },
+  {
+    "name": "Portora Castle",
+    "blurb": "Castle in Enniskillen, Northern Ireland",
+    "type": "castle",
+    "lat": 54.351,
+    "lng": -7.655,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portora%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Portrane Castle",
+    "blurb": "Tower house in Fingal, North County Dublin",
+    "type": "castle",
+    "lat": 53.495213,
+    "lng": -6.114687,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrane%20Castle%2C%20Co.%20Dublin%20-%20geograph.org.uk%20-%201376023.jpg?width=400"
+  },
+  {
+    "name": "Pottlerath Castle",
+    "blurb": "Former castle and one of the main residences of the Butlers of Ormond in County Kilkenny",
+    "type": "castle",
+    "lat": 52.61603,
+    "lng": -7.440555,
+    "image": null
+  },
+  {
+    "name": "Presentation Convent, Portlaoise",
+    "blurb": "Disused convent building in Portlaoise, Co. Laois",
+    "type": "monastery",
+    "lat": 53.03522,
+    "lng": -7.29675,
+    "image": null
+  },
+  {
+    "name": "Purt Castle",
+    "blurb": "Castle in County Limerick, Ireland",
+    "type": "castle",
+    "lat": 52.3995,
+    "lng": -9.3198,
+    "image": null
+  },
+  {
+    "name": "Quilty",
+    "blurb": "Hillfort in Clare",
+    "type": "hillfort",
+    "lat": 52.60326,
+    "lng": -9.8123,
+    "image": null
+  },
+  {
+    "name": "Quintin Castle",
+    "blurb": "Castle in Portaferry, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.3768,
+    "lng": -5.4891,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Quintin%20Castle%20crop.jpg?width=400"
+  },
+  {
+    "name": "Quoile Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.3495,
+    "lng": -5.69986,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Down%20%28096%29%2C%20October%202009.JPG?width=400"
+  },
+  {
+    "name": "Rahan Castle",
+    "blurb": "Ruined castle near Dunkineely, County Donegal, Ireland, once a stronghold of Clan Suibhne",
+    "type": "castle",
+    "lat": 54.6188354,
+    "lng": -8.3803665,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rahan-castle-1.jpg?width=400"
+  },
+  {
+    "name": "Raphoe Castle",
+    "blurb": "17th-century castle ruin",
+    "type": "castle",
+    "lat": 54.8728,
+    "lng": -7.597,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Raphoe%20Bishop%27s%20Palace%202016%2009%2002.jpg?width=400"
+  },
+  {
+    "name": "Rappa Castle",
+    "blurb": "Ruined building in County Mayo, Ireland",
+    "type": "castle",
+    "lat": 54.1415,
+    "lng": -9.2493,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Rappa%2C%20Mayo%20%282%29%20-%20geograph.org.uk%20-%201954588.jpg?width=400"
+  },
+  {
+    "name": "Rathcoffey Castle",
+    "blurb": "Castle in County Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.331676,
+    "lng": -6.665488,
+    "image": null
+  },
+  {
+    "name": "Rathculbin House",
+    "blurb": "Demolished fortified house in Rathculbin, County Kilkenny",
+    "type": "castle",
+    "lat": 52.539345,
+    "lng": -7.322243,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Rathculbin%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%207609027.jpg?width=400"
+  },
+  {
+    "name": "Rathfriland Castle",
+    "blurb": "Ruin in County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.238632,
+    "lng": -6.15844,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20surviving%20wall%20of%20the%20Magennis%20Castle%20of%201611%20-%20geograph.org.uk%20-%202669895.jpg?width=400"
+  },
+  {
+    "name": "Rathlin Castle",
+    "blurb": "On Rathlin island",
+    "type": "castle",
+    "lat": 55.2972,
+    "lng": -6.16917,
+    "image": null
+  },
+  {
+    "name": "Rathmacknee Castle",
+    "blurb": "Tower house located in County Wexford, Ireland",
+    "type": "castle",
+    "lat": 52.269301,
+    "lng": -6.490495,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Walshestown%20Castle%20Geograph-3036259-by-Mike-Searle.jpg?width=400"
+  },
+  {
+    "name": "Rathumney Castle",
+    "blurb": "Hall house located in County Wexford, Ireland",
+    "type": "castle",
+    "lat": 52.295312,
+    "lng": -6.874471,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rathumney%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Rathurd Castle",
+    "blurb": "Castle located in Limerick",
+    "type": "castle",
+    "lat": 52.63649975,
+    "lng": -8.59913831,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Rathurd%2C%20Limerick%20%283%29%20-%20geograph.org.uk%20-%204570282.jpg?width=400"
+  },
+  {
+    "name": "Rattin Castle",
+    "blurb": "Castle ruin in Ireland",
+    "type": "castle",
+    "lat": 53.4437,
+    "lng": -7.1715,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rattin%20Castle%2C%20Westmeath%2C%20Ireland.jpg?width=400"
+  },
+  {
+    "name": "Red Bay Castle",
+    "blurb": "Castle in Northern Ireland",
+    "type": "castle",
+    "lat": 55.0675,
+    "lng": -6.05583,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20ruins%20of%20Red%20Bay%20Castle%20-%20geograph.org.uk%20-%203727864.jpg?width=400"
+  },
+  {
+    "name": "Redwood Castle",
+    "blurb": "Castle",
+    "type": "castle",
+    "lat": 53.14687329,
+    "lng": -8.1206131,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Redwood%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Rheban Castle",
+    "blurb": "Castle in County Kildare, Ireland",
+    "type": "castle",
+    "lat": 53.030272,
+    "lng": -7.035214,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Castle%20Reban%2C%20Co.%20Kildare%20%281%29%20-%20geograph.org.uk%20-%205029029.jpg?width=400"
+  },
+  {
+    "name": "Rincrew Abbey",
+    "blurb": "Ruined abbey in Youghal, Ireland",
+    "type": "monastery",
+    "lat": 51.98,
+    "lng": -7.869,
+    "image": null
+  },
+  {
+    "name": "Rindoon Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.5389,
+    "lng": -7.99098,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rindown%20Castle%2C%20Co.%20Roscommon%20-%20geograph.org.uk%20-%20731079.jpg?width=400"
+  },
+  {
+    "name": "Rochestown Castle",
+    "blurb": "Demolished castle in Rochestown, Killahy, County Kilkenny",
+    "type": "castle",
+    "lat": 52.363967,
+    "lng": -7.208861,
+    "image": null
+  },
+  {
+    "name": "Rock of Cashel",
+    "blurb": "Castle in County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.52,
+    "lng": -7.89,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rock%20of%20Cashel%2C%20Tipperary.jpg?width=400"
+  },
+  {
+    "name": "Rock of Dunamase",
+    "blurb": "Historic site in County Laois, Ireland",
+    "type": "castle",
+    "lat": 53.031666666,
+    "lng": -7.210277777,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20of%20Dunamase%20im%20Abendlicht%2002.jpg?width=400"
+  },
+  {
+    "name": "Rockstown Castle",
+    "blurb": "Historic site in County Limerick, Ireland",
+    "type": "castle",
+    "lat": 52.56731111,
+    "lng": -8.55722222,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Rockstown%2C%20Limerick%20-%20geograph.org.uk%20-%201541517.jpg?width=400"
+  },
+  {
+    "name": "Rockwell College",
+    "blurb": "Voluntary day and boarding school in Republic of Ireland",
+    "type": "monastery",
+    "lat": 52.459582,
+    "lng": -7.891717,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rockwell%20College%20Rugby%20Team%201936.jpg?width=400"
+  },
+  {
+    "name": "Ross Castle",
+    "blurb": "15th century castle in Ireland",
+    "type": "castle",
+    "lat": 52.041,
+    "lng": -9.531,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ross%20Castle%20on%20Lough%20Leane%20%2815242590587%29.jpg?width=400"
+  },
+  {
+    "name": "Rossmore Castle",
+    "blurb": "Former castle near Monaghan, Ireland",
+    "type": "castle",
+    "lat": 54.2258162,
+    "lng": -6.99852138,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rossmore.jpg?width=400"
+  },
+  {
+    "name": "Roughan Castle",
+    "blurb": "Castle in Roughan",
+    "type": "castle",
+    "lat": 54.556079,
+    "lng": -6.72848,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roughan%20Castle%20Geograph.jpg?width=400"
+  },
+  {
+    "name": "Roxborough Castle",
+    "blurb": "Building in Moy, County Tyrone",
+    "type": "castle",
+    "lat": 54.450833333,
+    "lng": -6.685555555,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roxborough%20Castle%20postcard.png?width=400"
+  },
+  {
+    "name": "Saddell Abbey",
+    "blurb": "Abbey in Argyll and Bute, Scotland, UK",
+    "type": "abbey",
+    "lat": 55.531804,
+    "lng": -5.5118928,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saddell%20Abbey%2020100928%20north%20transept%20and%20choir.jpg?width=400"
+  },
+  {
+    "name": "Saddell Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.527417708,
+    "lng": -5.504621973,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saddell%20Castle%2C%202012.JPG?width=400"
+  },
+  {
+    "name": "Sart Castle",
+    "blurb": "Demolished castle with bawn in Sart, County Kilkenny",
+    "type": "castle",
+    "lat": 52.706041,
+    "lng": -7.400916,
+    "image": null
+  },
+  {
+    "name": "Scholars Townhouse Hotel",
+    "blurb": "Hotel in Drogheda, County Louth, Ireland, which was formerly a convent and school of the Christian Brothers",
+    "type": "monastery",
+    "lat": 53.717978,
+    "lng": -6.348704,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Drogheda%20Scholars%20Townhouse%20Hotel%202022%2008%2025.jpg?width=400"
+  },
+  {
+    "name": "Sean Ross Abbey",
+    "blurb": "Place in Munster, Ireland",
+    "type": "monastery",
+    "lat": 52.955,
+    "lng": -7.797,
+    "image": null
+  },
+  {
+    "name": "Seskin Castle (site of)",
+    "blurb": "Demolished castle in Seskin North, County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.801816,
+    "lng": -7.383243,
+    "image": null
+  },
+  {
+    "name": "Shane's Castle ruins",
+    "blurb": "Country house in Antrim, County Antrim, Northern Ireland",
+    "type": "castle",
+    "lat": 54.7274,
+    "lng": -6.26807,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shane%27s%20Castle%2C%20County%20Antrim%20-%20geograph.org.uk%20-%20155426.jpg?width=400"
+  },
+  {
+    "name": "Shankill Castle",
+    "blurb": "Castle incorporated into a house in County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.6865,
+    "lng": -7.0217,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shankill%20Castle%20Paulstown%20771h.jpg?width=400"
+  },
+  {
+    "name": "Shrule Abbey",
+    "blurb": "Monastery in County Mayo, Ireland",
+    "type": "monastery",
+    "lat": 53.518869,
+    "lng": -9.090717,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shrule%20Abbey.jpg?width=400"
+  },
+  {
+    "name": "Sketrick Castle",
+    "blurb": "Castle in Killinchy, County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.4879,
+    "lng": -5.6485,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sketrick%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Skryne Castle",
+    "blurb": "Irish castle",
+    "type": "castle",
+    "lat": 53.583018,
+    "lng": -6.561537,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Screen%20Castle%2C%20Co%20Meath%20-%20geograph.org.uk%20-%201760551.jpg?width=400"
+  },
+  {
+    "name": "Slade Castle",
+    "blurb": "Tower house in County Wexford, Ireland",
+    "type": "castle",
+    "lat": 52.133868,
+    "lng": -6.910706,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Slade%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Slane Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 53.709417,
+    "lng": -6.56125,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castillo%20de%20Slane%2005.jpg?width=400"
+  },
+  {
+    "name": "Sleady Castle",
+    "blurb": "Castle in Ireland",
+    "type": "castle",
+    "lat": 52.1685,
+    "lng": -7.725333333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Sleady%2C%20Waterford%20%282%29%20-%20geograph.org.uk%20-%207836863.jpg?width=400"
+  },
+  {
+    "name": "Smarmore Castle",
+    "blurb": "Irish Mediaeval-built building in County Louth",
+    "type": "castle",
+    "lat": 53.814379,
+    "lng": -6.565611,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Smarmore%2C%20Co.%20Louth%2C%20Ireland%20-%20panoramio%20%285%29.jpg?width=400"
+  },
+  {
+    "name": "Smerby Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.444257,
+    "lng": -5.549108,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Island%20Muller%20by%20Kilchousland.%20-%20geograph.org.uk%20-%2086280.jpg?width=400"
+  },
+  {
+    "name": "Spike Island",
+    "blurb": "Island in County Cork, Ireland",
+    "type": "fort",
+    "lat": 51.835,
+    "lng": -8.285,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Entry%20of%20Fort%20Mitchel%20on%20Spike%20Island%201.jpg?width=400"
+  },
+  {
+    "name": "Springfield Castle",
+    "blurb": "Ruined fortification in County Limerick, Ireland",
+    "type": "castle",
+    "lat": 52.351884,
+    "lng": -8.955840615,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Springfield%20Castle%2C%20Broadford%2C%20Co%20Limerick%20-%20geograph-3037448.jpg?width=400"
+  },
+  {
+    "name": "St John's Priory",
+    "blurb": "Former Augustinian priory located in Kilkenny, Ireland",
+    "type": "monastery",
+    "lat": 52.653848,
+    "lng": -7.248448,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/StJohnPrioryKilkenny.jpg?width=400"
+  },
+  {
+    "name": "St Joseph's Monastery",
+    "blurb": "Monastery in Dundalk, County Louth, Ireland",
+    "type": "monastery",
+    "lat": 54.00408,
+    "lng": -6.38971,
+    "image": null
+  },
+  {
+    "name": "St Leonard's Garden",
+    "blurb": "Abbey in Dundalk, County Louth, Ireland",
+    "type": "abbey",
+    "lat": 54.00595,
+    "lng": -6.39744,
+    "image": null
+  },
+  {
+    "name": "St. Catherine's Church and towerhouse",
+    "blurb": "Church and tower house ruin in the townland of Rathbeagh, Co. Kilkenny",
+    "type": "castle",
+    "lat": 52.75469,
+    "lng": -7.34698,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Catherine%27s%20Church%201.jpg?width=400"
+  },
+  {
+    "name": "St. Dominic's Abbey",
+    "blurb": "Monastery ruin in Cashel",
+    "type": "abbey",
+    "lat": 52.518027777,
+    "lng": -7.887833333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crossing%20tower%20at%20St.%20Dominic%27s%20Abbey.jpg?width=400"
+  },
+  {
+    "name": "St. Katherine's Abbey, Monisternagalliaghduff",
+    "blurb": "Ruined abbey in County Limerick, Ireland",
+    "type": "abbey",
+    "lat": 52.5713,
+    "lng": -9.063,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2026-03-22%20Oldabbey%20view%20towards%20nunnery%20complex.jpg?width=400"
+  },
+  {
+    "name": "St. Mary's Abbey",
+    "blurb": "Former cistercian abbey in Dublin",
+    "type": "abbey",
+    "lat": 53.34742,
+    "lng": -6.269192,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20Abbey%20front.jpg?width=400"
+  },
+  {
+    "name": "St. Mary's Abbey, Duleek",
+    "blurb": "Monastery in Ireland",
+    "type": "monastery",
+    "lat": 53.655069,
+    "lng": -6.418806,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tower%20of%20St.%20Mary%27s%20Church%2C%20Duleek%20-%20geograph.org.uk%20-%20757989.jpg?width=400"
+  },
+  {
+    "name": "Stewart Castle",
+    "blurb": "Ruined castle in County Tyrone, Northern Ireland",
+    "type": "castle",
+    "lat": 54.719,
+    "lng": -7.375,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stewart%20Castle%2C%20Geograph.jpg?width=400"
+  },
+  {
+    "name": "Store, Mill Lane",
+    "blurb": "Castle in Magherafelt, County Londonderry, Northern Ireland",
+    "type": "castle",
+    "lat": 54.6906,
+    "lng": -6.66955,
+    "image": null
+  },
+  {
+    "name": "Strancally Castle",
+    "blurb": "Country house in County Waterford, Ireland",
+    "type": "castle",
+    "lat": 52.069,
+    "lng": -7.877,
+    "image": null
+  },
+  {
+    "name": "Strangford Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.3718,
+    "lng": -5.5553,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Strangford%20Castle%20%2802%29%2C%20August%202009.JPG?width=400"
+  },
+  {
+    "name": "Stroan Castle",
+    "blurb": "Demolished castle in Stroan, County Kilkenny",
+    "type": "castle",
+    "lat": 52.56093,
+    "lng": -7.123038,
+    "image": null
+  },
+  {
+    "name": "Sweetman's Castle (Sweetman's Tower)",
+    "blurb": "Castle in County Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.52436,
+    "lng": -7.13864,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sweetman%27s%20Castle%20%28Sweetman%27s%20Tower%29.jpg?width=400"
+  },
+  {
+    "name": "Swords Castle",
+    "blurb": "Fortification",
+    "type": "castle",
+    "lat": 53.4603,
+    "lng": -6.21999,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Swords%20Castle%20%28Near%20Dublin%20Airport%29%20-%20panoramio%20%2811%29.jpg?width=400"
+  },
+  {
+    "name": "Tallaght Monastery",
+    "blurb": "Former monastery founded in the eighth century in Tallaght, Ireland",
+    "type": "monastery",
+    "lat": 53.28912077,
+    "lng": -6.36562459,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monasticon%20Hibernicum%201873%20Tallaght.jpg?width=400"
+  },
+  {
+    "name": "Tamlaght Finlagan Monastery",
+    "blurb": "6th century Irish monastery",
+    "type": "monastery",
+    "lat": 55.0404,
+    "lng": -6.9807,
+    "image": null
+  },
+  {
+    "name": "Tandragee Castle",
+    "blurb": "Castle in the UK",
+    "type": "castle",
+    "lat": 54.3539,
+    "lng": -6.41652,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tandragee%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Tandragee Fort",
+    "blurb": "Fort in Feeny, County Londonderry, Northern Ireland",
+    "type": "fort",
+    "lat": 54.8888,
+    "lng": -7.01205,
+    "image": null
+  },
+  {
+    "name": "Tangy Loch Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.49105,
+    "lng": -5.64938,
+    "image": null
+  },
+  {
+    "name": "Tara Fort",
+    "blurb": "Fort in Portaferry, County Down, Northern Ireland",
+    "type": "fort",
+    "lat": 54.3591,
+    "lng": -5.49788,
+    "image": null
+  },
+  {
+    "name": "Temple House",
+    "blurb": "Irish mansion and castle",
+    "type": "castle",
+    "lat": 54.1171,
+    "lng": -8.5747,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TempleHouseCastle01.JPG?width=400"
+  },
+  {
+    "name": "The Black Abbey",
+    "blurb": "Ruin of an abbey in Co. Kildare",
+    "type": "abbey",
+    "lat": 53.145278,
+    "lng": -6.903889,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Kildare%20-%20The%20Black%20Abbey%20-%2020180928195612.jpg?width=400"
+  },
+  {
+    "name": "The New Castle, County Down",
+    "blurb": "Ruined castle in County Down, Northern Ireland",
+    "type": "castle",
+    "lat": 54.2097,
+    "lng": -5.89,
+    "image": null
+  },
+  {
+    "name": "The Tholsel",
+    "blurb": "Castle in Carrick-on-Suir, County Tipperary, Ireland",
+    "type": "castle",
+    "lat": 52.34672,
+    "lng": -7.4146,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrick-on-Suir%20-%20The%20Tholsel%20-%2020190909094330.jpg?width=400"
+  },
+  {
+    "name": "Threecastles Castle",
+    "blurb": "Irish National Monument",
+    "type": "castle",
+    "lat": 53.18173,
+    "lng": -6.48738,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Threecastles%20near%20Kilbride%2C%20Co%20Wicklow.%20-%20geograph.org.uk%20-%20262197.jpg?width=400"
+  },
+  {
+    "name": "Tinnakill Castle",
+    "blurb": "Ruined tower house in County Laois, Ireland",
+    "type": "castle",
+    "lat": 53.128,
+    "lng": -7.251,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Tinnakill%2C%20Laois%20%282%29%20%28geograph%206506412%29.jpg?width=400"
+  },
+  {
+    "name": "Tintern Abbey",
+    "blurb": "Cistercian abbey in Wexford, Ireland",
+    "type": "abbey",
+    "lat": 52.237027777,
+    "lng": -6.837833333,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tintern%20Abbey%20in%20a%20green.jpg?width=400"
+  },
+  {
+    "name": "Torrisdale Castle",
+    "blurb": "Castle in Argyll and Bute, Scotland, UK",
+    "type": "castle",
+    "lat": 55.5688,
+    "lng": -5.5013,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Torrisdale%20Castle.%20-%20geograph.org.uk%20-%20553191.jpg?width=400"
+  },
+  {
+    "name": "Tracton Abbey",
+    "blurb": "Medieval Cistercian friary in Cork, Ireland",
+    "type": "monastery",
+    "lat": 51.75638889,
+    "lng": -8.39166667,
+    "image": null
+  },
+  {
+    "name": "Tralee Castle",
+    "blurb": "Ruined castle in Tralee, County Kerry, Ireland",
+    "type": "castle",
+    "lat": 52.2684003,
+    "lng": -9.70398009,
+    "image": null
+  },
+  {
+    "name": "Trim Castle",
+    "blurb": "Irish castle",
+    "type": "castle",
+    "lat": 53.554341666,
+    "lng": -6.789755555,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20In%20Trim%2C%20County%20Meath%20-%20geograph.org.uk%20-%20303169.jpg?width=400"
+  },
+  {
+    "name": "Tristernagh Abbey",
+    "blurb": "Ruined Augustinian friary in Westmeath, Ireland",
+    "type": "monastery",
+    "lat": 53.5989104,
+    "lng": -7.4794096,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TristernaghAbbey.jpg?width=400"
+  },
+  {
+    "name": "Tullagher Castle",
+    "blurb": "Demolished, unclassified castle in Tullagher, County Kilkenny, mentioned in the Down Survey",
+    "type": "castle",
+    "lat": 52.429913,
+    "lng": -7.05188,
+    "image": null
+  },
+  {
+    "name": "Tullowglass Castle",
+    "blurb": "Nearly completely destroyed castle at Tullowglass, County Kilkenny",
+    "type": "castle",
+    "lat": 52.737011,
+    "lng": -7.300256,
+    "image": null
+  },
+  {
+    "name": "Tully Castle",
+    "blurb": "Castle in County Fermanagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.458,
+    "lng": -7.806,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tully%20Castle%2C%20County%20Fermanagh%20-%20geograph.org.uk%20-%20204216.jpg?width=400"
+  },
+  {
+    "name": "Tully's Castle",
+    "blurb": "Castle in South Dublin, Ireland",
+    "type": "castle",
+    "lat": 53.320812,
+    "lng": -6.389957,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monastery%20Road%20and%20Tulley%27s%20Castle%20-%20geograph.org.uk%20-%20811234.jpg?width=400"
+  },
+  {
+    "name": "Tullykelter Castle",
+    "blurb": "Castle in County Fermanagh, Northern Ireland",
+    "type": "castle",
+    "lat": 54.3829537,
+    "lng": -7.7620075,
+    "image": null
+  },
+  {
+    "name": "Tullynally Castle",
+    "blurb": "Irish country house",
+    "type": "castle",
+    "lat": 53.6786,
+    "lng": -7.3019,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tully-Nally-Castle%2003.jpg?width=400"
+  },
+  {
+    "name": "Turlough Abbey",
+    "blurb": "National monument (Ireland)",
+    "type": "monastery",
+    "lat": 53.888741,
+    "lng": -9.20827,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TurloughRoundTower.jpg?width=400"
+  },
+  {
+    "name": "Tynte's Castle",
+    "blurb": "Castle in County Cork, Ireland",
+    "type": "castle",
+    "lat": 51.95592,
+    "lng": -7.85016,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Tynte%27s%20Castle%20-%2020210725161247.jpg?width=400"
+  },
+  {
+    "name": "Tyrrellspass Castle",
+    "blurb": "Castle in County Westmeath, Ireland",
+    "type": "castle",
+    "lat": 53.386,
+    "lng": -7.381,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrrellspass%20Castle.jpg?width=400"
+  },
+  {
+    "name": "Ullard Castle",
+    "blurb": "Demolished castle in Ullard, County Kilkenny, described in the Down Survey",
+    "type": "castle",
+    "lat": 52.58126,
+    "lng": -6.92336,
+    "image": null
+  },
+  {
+    "name": "Urlingford Castle",
+    "blurb": "Castle ruin in Kilkenny, Ireland",
+    "type": "castle",
+    "lat": 52.7242,
+    "lng": -7.58551,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urlingford%20Castle.png?width=400"
+  },
+  {
+    "name": "Westport House",
+    "blurb": "House in Co Mayo",
+    "type": "castle",
+    "lat": 53.8006,
+    "lng": -9.53556,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Westport%20House%20in%20Co.%20Mayo%207.jpg?width=400"
+  },
+  {
+    "name": "White Abbey",
+    "blurb": "House of Carmelite friars, founded in 1290",
+    "type": "monastery",
+    "lat": 53.159444,
+    "lng": -6.916715,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/White%20Abbey%2C%20Kildare%20-%202025-06-29%2001.jpg?width=400"
+  },
+  {
+    "name": "Whites Castle",
+    "blurb": "16th-century castle in Athy, Ireland",
+    "type": "castle",
+    "lat": 52.992286656,
+    "lng": -6.984523804,
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Athy%20White%20Castle%202013%2009%2003.jpg?width=400"
+  },
+  {
+    "name": "Whiteswall Castle",
+    "blurb": "Demolished castle in Whiteswall, Galmoy, County Kilkenny",
+    "type": "castle",
+    "lat": 52.813377,
+    "lng": -7.581897,
+    "image": null
+  }
+]
