@@ -1639,6 +1639,133 @@ a {
   color: var(--ink);
 }
 
+/* ---------- Buy me a pint ---------- */
+.site-footer__support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.site-footer__support-text {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.pint-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--orange);
+  color: #2a1500;
+  font-weight: 800;
+  text-decoration: none;
+  padding: 11px 20px;
+  border-radius: 999px;
+  box-shadow: 0 6px 16px rgba(255, 122, 24, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.pint-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(255, 122, 24, 0.45);
+}
+
+/* ---------- County guide ---------- */
+.county__province {
+  margin-bottom: 18px;
+}
+
+.county__province-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+.county__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.county__chip {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--ink);
+  transition: all 0.15s ease;
+}
+
+.county__chip:hover {
+  border-color: var(--green);
+  background: var(--surface-alt);
+}
+
+.county__detail {
+  text-align: center;
+}
+
+.county__name {
+  font-size: 2.2rem;
+  margin: 8px 0 2px;
+  letter-spacing: -0.02em;
+}
+
+.county__irish {
+  font-size: 1.3rem;
+  color: var(--green-dark);
+  margin: 0 0 4px;
+}
+
+.county__nick {
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin: 0 0 14px;
+}
+
+.county__blurb {
+  max-width: 480px;
+  margin: 0 auto 12px;
+  font-size: 1.05rem;
+}
+
+.county__town {
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+.county__places {
+  text-align: left;
+  background: var(--surface-alt);
+  border-radius: 14px;
+  padding: 18px 20px;
+  max-width: 520px;
+  margin: 18px auto 0;
+}
+
+.county__places-title {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+.county__places ul {
+  margin: 0 0 14px;
+  padding-left: 18px;
+}
+
+.county__places li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
 /* ---------- Surname origins ---------- */
 .surname__result {
   text-align: center;

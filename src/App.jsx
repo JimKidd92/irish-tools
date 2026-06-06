@@ -13,6 +13,8 @@ import PintsTool from './components/PintsTool.jsx'
 import SurnameTool from './components/SurnameTool.jsx'
 import NamesTool from './components/NamesTool.jsx'
 import PlacesTool from './components/PlacesTool.jsx'
+import CountyGuide from './components/CountyGuide.jsx'
+import BuyMeAPint from './components/BuyMeAPint.jsx'
 import MammyTool from './components/MammyTool.jsx'
 import FocalTool from './components/FocalTool.jsx'
 import PubTool from './components/PubTool.jsx'
@@ -127,6 +129,11 @@ const PAGES = {
     subtitle: 'Planning a trip home? Explore the must-see spots across the island of Ireland.',
     Component: PlacesTool,
   },
+  counties: {
+    title: 'County Guide',
+    subtitle: 'Explore all 32 counties — their Irish names, nicknames and what to see.',
+    Component: CountyGuide,
+  },
 }
 
 export default function App() {
@@ -178,6 +185,10 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
+        <div className="site-footer__support">
+          <p className="site-footer__support-text">Enjoying the site? Keep it free:</p>
+          <BuyMeAPint />
+        </div>
         <p>
           Made with 🍀 in Ireland. Got an idea for a tool?{' '}
           <a href="mailto:hello@irishtools.ie">Tell us</a>.

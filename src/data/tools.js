@@ -27,7 +27,16 @@ export const tools = [
     tagline: 'Map your trip to Ireland.',
     live: true,
     path: 'places',
-    category: 'Explore Ireland',
+    category: 'Plan Your Trip',
+  },
+  {
+    id: 'counties',
+    emoji: '☘️',
+    name: 'County Guide',
+    tagline: 'Find where your people came from.',
+    live: true,
+    path: 'counties',
+    category: 'Plan Your Trip',
   },
   {
     id: 'immersion',
@@ -158,7 +167,7 @@ export const tools = [
 ]
 
 // Tools grouped by category, in display order. Used by the side nav.
-export const TOOL_CATEGORIES = ['Heritage', 'Explore Ireland', 'Craic', 'Weather', 'Handy']
+export const TOOL_CATEGORIES = ['Heritage', 'Plan Your Trip', 'Craic', 'Weather', 'Handy']
 
 export function toolsByCategory() {
   return TOOL_CATEGORIES.map((category) => ({
