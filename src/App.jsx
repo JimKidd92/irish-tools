@@ -7,6 +7,8 @@ import RoundTool from './components/RoundTool.jsx'
 import SpudsTool from './components/SpudsTool.jsx'
 import HowsTheFormTool from './components/HowsTheFormTool.jsx'
 import QuizTool from './components/QuizTool.jsx'
+import PrivacyPage from './components/PrivacyPage.jsx'
+import ConsentBanner from './components/ConsentBanner.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
@@ -92,7 +94,7 @@ export default function App() {
       <AdSpace label="Banner ad" />
 
       <main className="main">
-        {page ? <ToolPage page={page} /> : <Home />}
+        {route === 'privacy' ? <PrivacyPage /> : page ? <ToolPage page={page} /> : <Home />}
       </main>
 
       <footer className="site-footer">
@@ -100,10 +102,30 @@ export default function App() {
           Made with 🍀 in Ireland. Got an idea for a tool?{' '}
           <a href="mailto:hello@irishtools.ie">Tell us</a>.
         </p>
+        <p className="site-footer__links">
+          <a
+            href="#/privacy"
+            onClick={(e) => {
+              e.preventDefault()
+              navigate('privacy')
+            }}
+          >
+            Privacy policy
+          </a>
+          {' · '}
+          <button
+            className="linklike"
+            onClick={() => window.dispatchEvent(new Event('reopen-consent'))}
+          >
+            Cookie settings
+          </button>
+        </p>
         <p className="site-footer__fine">
           © {new Date().getFullYear()} Irish Tools · Sure it’s only a bit of craic.
         </p>
       </footer>
+
+      <ConsentBanner />
     </div>
   )
 }

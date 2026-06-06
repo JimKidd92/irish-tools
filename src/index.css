@@ -689,6 +689,91 @@ a {
   font-size: 0.95rem;
 }
 
+/* ---------- Legal / privacy page ---------- */
+.legal {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.legal__title {
+  font-size: 2.2rem;
+  margin: 12px 0 4px;
+  letter-spacing: -0.02em;
+}
+
+.legal__updated {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin: 0 0 24px;
+}
+
+.legal h2 {
+  font-size: 1.3rem;
+  margin: 28px 0 8px;
+}
+
+.legal ul {
+  padding-left: 20px;
+}
+
+.legal li {
+  margin-bottom: 6px;
+}
+
+/* ---------- Consent banner ---------- */
+.consent {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 50;
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 12px 34px rgba(20, 40, 30, 0.22);
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.consent__text {
+  flex: 1;
+  min-width: 240px;
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.consent__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.consent__link,
+.linklike {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--green-dark);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.site-footer__links {
+  margin: 0 0 6px;
+}
+
+.site-footer__links a {
+  color: var(--green-dark);
+}
+
 /* ---------- Share button ---------- */
 .share {
   margin-top: 20px;
