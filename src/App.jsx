@@ -14,6 +14,7 @@ import ConsentBanner from './components/ConsentBanner.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
+import { useTheme } from './hooks/useTheme.js'
 import { loadProgress, playedToday } from './lib/dailyQuiz.js'
 
 // Each tool page: a title, subtitle and the tool component itself.
@@ -85,10 +86,19 @@ const PAGES = {
 export default function App() {
   const route = useHashRoute()
   const page = PAGES[route]
+  const [theme, toggleTheme] = useTheme()
 
   return (
     <div className="page">
       <header className="site-header">
+        <button
+          className="theme-toggle"
+          onClick={toggleTheme}
+          aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+          title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
+        >
+          {theme === 'dark' ? '☀️' : '🌙'}
+        </button>
         <a
           className="brand"
           href="#/"

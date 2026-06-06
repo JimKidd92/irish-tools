@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { celebrate } from '../lib/confetti.js'
 
 // Escalating Mrs Doyle persistence. Each refusal cranks it up a notch.
 const NAGS = [
@@ -34,6 +35,7 @@ export default function TeaTool() {
 
   function accept() {
     setGaveIn(true)
+    celebrate()
   }
 
   function reset() {

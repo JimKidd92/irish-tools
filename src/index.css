@@ -9,6 +9,25 @@
   --line: #e3e0d2;
   --shadow: 0 10px 30px rgba(20, 40, 30, 0.12);
   --radius: 18px;
+  --surface: #ffffff;
+  --surface-alt: #f7f6ef;
+  --input-bg: #ffffff;
+}
+
+[data-theme='dark'] {
+  --green: #25b07c;
+  --green-dark: #4cd29a;
+  --orange: #ff8a33;
+  --orange-glow: #ffb066;
+  --cream: #0f1814;
+  --ink: #e7f0ea;
+  --ink-soft: #9fb3a8;
+  --line: #2a3a32;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  --surface: #18221d;
+  --surface-alt: #1f2b25;
+  --input-bg: #14201a;
+  color-scheme: dark;
 }
 
 * {
@@ -45,6 +64,27 @@ a {
 .site-header {
   text-align: center;
   padding: 36px 0 12px;
+  position: relative;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  font-size: 1.2rem;
+  cursor: pointer;
+  line-height: 1;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.08);
 }
 
 .brand {
@@ -136,7 +176,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 36px;
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -344,7 +384,7 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 22px;
@@ -443,7 +483,7 @@ a {
 }
 
 .btn--ghost {
-  background: #fff;
+  background: var(--surface);
   color: var(--ink);
   border: 1px solid var(--line);
 }
@@ -478,7 +518,7 @@ a {
 
 /* Shared weather-tool search + status (used by drying, soft day, …) */
 .weather-tool {
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -500,6 +540,8 @@ a {
   border: 1px solid var(--line);
   border-radius: 10px;
   font-size: 1rem;
+  background: var(--input-bg);
+  color: var(--ink);
 }
 
 .loc-search__input:focus {
@@ -603,7 +645,7 @@ a {
 }
 
 .drying__stats li {
-  background: #f7f6ef;
+  background: var(--surface-alt);
   border-radius: 12px;
   padding: 12px 6px;
 }
@@ -660,7 +702,7 @@ a {
 }
 
 .softday__phrase {
-  background: #f7f6ef;
+  background: var(--surface-alt);
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 18px 20px;
@@ -731,7 +773,7 @@ a {
   z-index: 50;
   max-width: 720px;
   margin: 0 auto;
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 14px;
   box-shadow: 0 12px 34px rgba(20, 40, 30, 0.22);
@@ -917,7 +959,7 @@ a {
   padding: 14px 16px;
   border: 1px solid var(--line);
   border-radius: 12px;
-  background: #fff;
+  background: var(--surface);
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
@@ -975,7 +1017,7 @@ a {
 .quiz__streak {
   display: inline-flex;
   flex-direction: column;
-  background: #f7f6ef;
+  background: var(--surface-alt);
   border-radius: 14px;
   padding: 12px 28px;
   margin-bottom: 22px;
@@ -1007,7 +1049,7 @@ a {
 
 /* ---------- Shared simple-tool panel ---------- */
 .panel {
-  background: #fff;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -1096,7 +1138,7 @@ a {
   padding: 12px 14px;
   border: 1px solid var(--line);
   border-radius: 12px;
-  background: #fafaf5;
+  background: var(--surface-alt);
   text-align: left;
 }
 
@@ -1166,7 +1208,7 @@ a {
   height: 40px;
   border-radius: 50%;
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--surface);
   font-size: 1.4rem;
   line-height: 1;
   cursor: pointer;
@@ -1204,7 +1246,7 @@ a {
 
 .spuds__chip {
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--surface);
   border-radius: 999px;
   padding: 8px 16px;
   font-size: 0.9rem;
@@ -1224,7 +1266,7 @@ a {
 }
 
 .spuds__result {
-  background: #f7f6ef;
+  background: var(--surface-alt);
   border-radius: 16px;
   padding: 24px;
 }
@@ -1297,7 +1339,7 @@ a {
 /* ---------- Next bank holiday ---------- */
 .bankhol__next {
   text-align: center;
-  background: #f7f6ef;
+  background: var(--surface-alt);
   border-radius: 16px;
   padding: 26px 20px;
   margin-bottom: 4px;
@@ -1389,7 +1431,7 @@ a {
 
 .reg__example {
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--surface);
   border-radius: 999px;
   padding: 5px 12px;
   font-size: 0.85rem;
@@ -1418,7 +1460,7 @@ a {
 }
 
 .reg__grid li {
-  background: #f7f6ef;
+  background: var(--surface-alt);
   border-radius: 12px;
   padding: 16px 6px;
 }
@@ -1458,7 +1500,7 @@ a {
   gap: 3px;
   padding: 10px 12px;
   border-radius: 12px;
-  background: #f7f6ef;
+  background: var(--surface-alt);
   border: 1px solid var(--line);
   min-width: 64px;
 }
@@ -1488,6 +1530,46 @@ a {
 .turf__day-rain {
   font-size: 0.78rem;
   color: var(--ink-soft);
+}
+
+/* ---------- Entrance animations ---------- */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero,
+.quiz-banner,
+.immersion,
+.weather-tool,
+.panel,
+.legal,
+.tool-grid > li {
+  animation: fadeUp 0.45s ease both;
+}
+
+/* Gently stagger the tool cards as they appear. */
+.tool-grid > li:nth-child(2) { animation-delay: 0.04s; }
+.tool-grid > li:nth-child(3) { animation-delay: 0.08s; }
+.tool-grid > li:nth-child(4) { animation-delay: 0.12s; }
+.tool-grid > li:nth-child(5) { animation-delay: 0.16s; }
+.tool-grid > li:nth-child(6) { animation-delay: 0.2s; }
+.tool-grid > li:nth-child(7) { animation-delay: 0.24s; }
+.tool-grid > li:nth-child(8) { animation-delay: 0.28s; }
+.tool-grid > li:nth-child(9) { animation-delay: 0.32s; }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }
 
 /* ---------- Responsive ---------- */

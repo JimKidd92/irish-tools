@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { celebrate } from '../lib/confetti.js'
 import {
   dailyQuestions,
   loadProgress,
@@ -46,6 +47,7 @@ export default function QuizTool() {
       const saved = recordResult(score, grid)
       setFinal({ score, grid, streak: saved.streak })
       setPhase('done')
+      if (score === questions.length) celebrate()
     }
   }
 
