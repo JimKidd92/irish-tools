@@ -43,10 +43,11 @@ export const tools = [
   },
   {
     id: 'mass-times',
-    emoji: '⛪',
+    emoji: '🌅',
     name: 'How’s the Form?',
     tagline: 'A grand stretch in the evenings calculator.',
-    live: false,
+    live: true,
+    path: 'form',
   },
   {
     id: 'notes-money',

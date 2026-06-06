@@ -57,6 +57,22 @@ export async function getOutlook(latitude, longitude, { pastDays = 3, forecastDa
   return res.json()
 }
 
+// Fetch daylight info (sunrise/sunset/day length) around today, for the
+// "grand stretch in the evenings" tool.
+export async function getDaylight(latitude, longitude) {
+  const params = new URLSearchParams({
+    latitude,
+    longitude,
+    daily: 'sunrise,sunset,daylight_duration',
+    timezone: 'auto',
+    past_days: '7',
+    forecast_days: '3',
+  })
+  const res = await fetch(`${FORECAST_URL}?${params}`)
+  if (!res.ok) throw new Error('Could not fetch the daylight.')
+  return res.json()
+}
+
 // Human-readable label for an Open-Meteo WMO weather code.
 export function describeWeather(code) {
   if (code === 0) return { text: 'Clear', emoji: '☀️' }
@@ -304,6 +320,69 @@ export function footTurfVerdict(score) {
     title: 'Too wet, leave it',
     blurb: 'The bog’ll be soaked. No point footing turf that won’t dry. Wait for a better spell.',
   }
+}
+
+// --- How's the form? (grand stretch in the evenings) ----------------------
+// Compares today's day length to a week ago to see if the evenings are
+// stretching out or drawing in, and reads off today's sunrise/sunset.
+
+export function formAssessment(daylight) {
+  const daily = daylight.daily ?? {}
+  const dates = daily.time ?? []
+  const sunrise = daily.sunrise ?? []
+  const sunset = daily.sunset ?? []
+  const duration = daily.daylight_duration ?? [] // seconds
+
+  const todayStr = new Date().toLocaleDateString('en-CA')
+  let todayIdx = dates.indexOf(todayStr)
+  if (todayIdx < 0) todayIdx = Math.min(7, dates.length - 1)
+  const weekAgoIdx = Math.max(0, todayIdx - 7)
+
+  const todayLen = duration[todayIdx] ?? 0
+  const weekAgoLen = duration[weekAgoIdx] ?? todayLen
+  const weeklyDeltaMin = Math.round((todayLen - weekAgoLen) / 60)
+
+  const hours = Math.floor(todayLen / 3600)
+  const minutes = Math.round((todayLen % 3600) / 60)
+
+  return {
+    sunrise: fmtClock(sunrise[todayIdx]),
+    sunset: fmtClock(sunset[todayIdx]),
+    dayLength: `${hours}h ${minutes}m`,
+    weeklyDeltaMin, // + = stretching, − = drawing in
+  }
+}
+
+export function formVerdict({ weeklyDeltaMin, sunset }) {
+  if (weeklyDeltaMin >= 3)
+    return {
+      level: 'stretching',
+      emoji: '🌅',
+      title: 'There’s a grand stretch in the evenings!',
+      blurb: `Up about ${weeklyDeltaMin} min on last week — bright till ${sunset}. Lovely altogether.`,
+    }
+  if (weeklyDeltaMin <= -3)
+    return {
+      level: 'drawing-in',
+      emoji: '🌇',
+      title: 'Ah, the evenings are drawing in.',
+      blurb: `Down about ${Math.abs(weeklyDeltaMin)} min on last week — dark by ${sunset}. Winter’s coming.`,
+    }
+  return {
+    level: 'steady',
+    emoji: '🌤️',
+    title: 'Holding steady, around the turn.',
+    blurb: `Daylight’s much the same as last week — sunset around ${sunset}. We’re near the longest or shortest of it.`,
+  }
+}
+
+// Pull "9:47pm" out of an Open-Meteo local ISO string ("2026-06-06T21:47").
+function fmtClock(iso) {
+  if (!iso) return '—'
+  const [h, m] = iso.slice(11, 16).split(':').map(Number)
+  const ap = h >= 12 ? 'pm' : 'am'
+  const hh = h % 12 || 12
+  return `${hh}:${String(m).padStart(2, '0')}${ap}`
 }
 
 function range(start, end) {

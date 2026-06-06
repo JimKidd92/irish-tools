@@ -5,6 +5,7 @@ import FootTurfTool from './components/FootTurfTool.jsx'
 import TeaTool from './components/TeaTool.jsx'
 import RoundTool from './components/RoundTool.jsx'
 import SpudsTool from './components/SpudsTool.jsx'
+import HowsTheFormTool from './components/HowsTheFormTool.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools } from './data/tools.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
@@ -50,6 +51,12 @@ const PAGES = {
     title: 'How Many Spuds?',
     subtitle: 'Dinner portions, done properly. Never run short of spuds again.',
     Component: SpudsTool,
+  },
+  form: {
+    title: 'How’s the Form?',
+    subtitle:
+      'Is there a grand stretch in the evenings, or are they drawing in? We’ll check the daylight where you are.',
+    Component: HowsTheFormTool,
   },
 }
 
@@ -159,7 +166,7 @@ function ToolCardInner({ tool }) {
       </span>
       <h3 className="tool-card__name">{tool.name}</h3>
       <p className="tool-card__tagline">{tool.tagline}</p>
-      <span className="tool-card__badge">{tool.live ? 'Live now' : 'Coming soon'}</span>
+      {!tool.live && <span className="tool-card__badge">Coming soon</span>}
     </>
   )
 }

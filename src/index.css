@@ -335,7 +335,15 @@ a {
   text-align: left;
 }
 
+/* Each grid cell is a flex container so its card fills the full row height. */
+.tool-grid > li {
+  display: flex;
+}
+
 .tool-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   background: #fff;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -349,7 +357,7 @@ a {
   box-shadow: 0 8px 22px rgba(22, 155, 98, 0.14);
 }
 
-.tool-card:hover {
+.tool-card--link:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow);
 }
@@ -376,6 +384,9 @@ a {
 }
 
 .tool-card__badge {
+  /* Pin the badge to the bottom so all cards line up regardless of text length. */
+  margin-top: auto;
+  align-self: flex-start;
   display: inline-block;
   font-size: 0.72rem;
   font-weight: 700;
@@ -927,6 +938,44 @@ a {
   margin: 0;
   color: var(--ink-soft);
   font-style: italic;
+}
+
+/* ---------- How's the form (daylight) ---------- */
+.form__result {
+  margin-top: 26px;
+  text-align: center;
+}
+
+.form__emoji {
+  font-size: 3.2rem;
+  display: block;
+}
+
+.form__title {
+  margin: 6px 0 2px;
+  font-size: 1.7rem;
+  letter-spacing: -0.02em;
+}
+
+.form__result--stretching .form__title {
+  color: var(--green-dark);
+}
+
+.form__result--drawing-in .form__title {
+  color: #b5651d;
+}
+
+.form__place {
+  margin: 0 0 8px;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.form__blurb {
+  margin: 0 auto 20px;
+  max-width: 440px;
+  color: var(--ink);
+  font-size: 1.05rem;
 }
 
 /* ---------- Foot the turf: day strip ---------- */
