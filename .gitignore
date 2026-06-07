@@ -9,3 +9,6 @@ npm-debug.log*
 
 # Local Claude Code settings
 .claude/
+
+# Local setup notes (not for the repo)
+docs/SETUP.md
