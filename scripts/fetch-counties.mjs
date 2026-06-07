@@ -69,11 +69,19 @@ async function summary(title) {
   return res.json()
 }
 
-// Prefer a wide image; the summary's originalimage is full-res, thumbnail ~320px.
+// Extract the Commons filename from an upload.wikimedia.org URL (thumb or full).
+function fileFromUpload(url) {
+  if (!url) return null
+  const m = url.match(/\/commons\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^/]+?)(?:\/\d+px-[^/]+)?$/)
+  return m ? m[1] : null
+}
+
+// Use Special:FilePath (https) so Wikimedia generates a valid, correctly-sized
+// thumbnail — rewriting the thumb width by hand gets a 400.
 function pickImage(data) {
   if (!data) return null
-  if (data.thumbnail?.source) return data.thumbnail.source.replace(/\/\d+px-/, '/640px-')
-  return data.originalimage?.source || null
+  const file = fileFromUpload(data.thumbnail?.source || data.originalimage?.source)
+  return file ? `https://commons.wikimedia.org/wiki/Special:FilePath/${file}?width=800` : null
 }
 
 async function fetchCounty(name) {

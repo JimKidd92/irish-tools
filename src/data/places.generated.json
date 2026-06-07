@@ -5,7 +5,7 @@
     "type": "monastery",
     "lat": 53.7262,
     "lng": -6.87912,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kells%20roundtower%20highcross.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kells%20roundtower%20highcross.jpg?width=400"
   },
   {
     "name": "Abbey of St. Mary de Portu Patrum, Annaghdown",
@@ -13,7 +13,7 @@
     "type": "abbey",
     "lat": 53.386994,
     "lng": -9.072593,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Annaghdown%20Abbey%20of%20St.%20Mary%20de%20Portu%20Patrum%20Nave%202010%2009%2012.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Annaghdown%20Abbey%20of%20St.%20Mary%20de%20Portu%20Patrum%20Nave%202010%2009%2012.jpg?width=400"
   },
   {
     "name": "Abbey of St. Mura",
@@ -29,7 +29,7 @@
     "type": "abbey",
     "lat": 52.35361111,
     "lng": -9.68333333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Abbeydorney%20Ruin.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbeydorney%20Ruin.JPG?width=400"
   },
   {
     "name": "Abbeylara Cistercian Abbey",
@@ -37,7 +37,7 @@
     "type": "abbey",
     "lat": 53.76458,
     "lng": -7.44609,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cistercian%20Abbey%20ruins%2C%20Abbeylara%20-%20geograph.org.uk%20-%20437037.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cistercian%20Abbey%20ruins%2C%20Abbeylara%20-%20geograph.org.uk%20-%20437037.jpg?width=400"
   },
   {
     "name": "Abbeylara Monastery",
@@ -45,7 +45,7 @@
     "type": "abbey",
     "lat": 53.764722,
     "lng": -7.446667,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cistercian%20Abbey%20ruins%2C%20Abbeylara%20-%20geograph.org.uk%20-%20437037.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cistercian%20Abbey%20ruins%2C%20Abbeylara%20-%20geograph.org.uk%20-%20437037.jpg?width=400"
   },
   {
     "name": "Abbeyleix Abbey",
@@ -53,7 +53,7 @@
     "type": "abbey",
     "lat": 52.912778,
     "lng": -7.348611,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Abbeyleix%20Demesne%20Anglican%20Church%20NW%202010%2009%2002.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbeyleix%20Demesne%20Anglican%20Church%20NW%202010%2009%2002.jpg?width=400"
   },
   {
     "name": "Abbeymahon Abbey",
@@ -61,7 +61,7 @@
     "type": "abbey",
     "lat": 51.641944,
     "lng": -8.754167,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AbbeymahonAbbey.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AbbeymahonAbbey.JPG?width=400"
   },
   {
     "name": "Abbeyshrule Monastery",
@@ -69,7 +69,7 @@
     "type": "abbey",
     "lat": 53.579722,
     "lng": -7.658056,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Longford%20-%20Abbeyshrule%20Monastery%20-%2020170930225722.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/County%20Longford%20-%20Abbeyshrule%20Monastery%20-%2020170930225722.jpg?width=400"
   },
   {
     "name": "Adare Trinitarian Abbey",
@@ -77,7 +77,7 @@
     "type": "monastery",
     "lat": 52.564888,
     "lng": -8.788889,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Trinitarian%20monastery%2C%20Adare%20-%20geograph.org.uk%20-%20248039.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trinitarian%20monastery%2C%20Adare%20-%20geograph.org.uk%20-%20248039.jpg?width=400"
   },
   {
     "name": "Aghalard Castle",
@@ -85,7 +85,7 @@
     "type": "castle",
     "lat": 53.55623,
     "lng": -9.29932833,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aghalard%20Castle%2C%20County%20Mayo%20-%20geograph-2329557.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aghalard%20Castle%2C%20County%20Mayo%20-%20geograph-2329557.jpg?width=400"
   },
   {
     "name": "Aghalurcher Monastery",
@@ -93,7 +93,7 @@
     "type": "monastery",
     "lat": 54.2344,
     "lng": -7.45167,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Aghalurcher%20Church%20Yard.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aghalurcher%20Church%20Yard.jpg?width=400"
   },
   {
     "name": "Aileach Castle",
@@ -101,7 +101,7 @@
     "type": "castle",
     "lat": 55.0405,
     "lng": -7.35036,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Doherty%20Tower%20-%20geograph.org.uk%20-%20508480.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Doherty%20Tower%20-%20geograph.org.uk%20-%20508480.jpg?width=400"
   },
   {
     "name": "Airds Castle",
@@ -109,7 +109,7 @@
     "type": "castle",
     "lat": 55.5894,
     "lng": -5.46167,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Airds%20Castle%2C%20site%20of%20remains.%20-%20geograph.org.uk%20-%20248936.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Airds%20Castle%2C%20site%20of%20remains.%20-%20geograph.org.uk%20-%20248936.jpg?width=400"
   },
   {
     "name": "Altidore Castle",
@@ -117,7 +117,7 @@
     "type": "castle",
     "lat": 53.110624,
     "lng": -6.138031,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Altidore%2C%20county%20Wicklow%20-%20geograph.org.uk%20-%202005781.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Altidore%2C%20county%20Wicklow%20-%20geograph.org.uk%20-%202005781.jpg?width=400"
   },
   {
     "name": "Altinaghree Castle",
@@ -125,7 +125,7 @@
     "type": "castle",
     "lat": 54.88,
     "lng": -7.246,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Altinaghree%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Altinaghree%20Castle.jpg?width=400"
   },
   {
     "name": "Antrim Castle",
@@ -133,7 +133,7 @@
     "type": "castle",
     "lat": 54.721944444,
     "lng": -6.230833333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AntrimCastleI.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AntrimCastleI.jpg?width=400"
   },
   {
     "name": "Archbold's Castle",
@@ -141,7 +141,7 @@
     "type": "castle",
     "lat": 53.277762,
     "lng": -6.105232,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Archibolds%20Castle%20Dalkey.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Archibolds%20Castle%20Dalkey.JPG?width=400"
   },
   {
     "name": "Ardaloo Castle",
@@ -165,7 +165,7 @@
     "type": "castle",
     "lat": 53.855152,
     "lng": -6.538569,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Louth%20-%20Ardee%20Castle%20-%2020180930142814.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/County%20Louth%20-%20Ardee%20Castle%20-%2020180930142814.jpg?width=400"
   },
   {
     "name": "Ardfinnan Castle",
@@ -173,7 +173,7 @@
     "type": "castle",
     "lat": 52.31,
     "lng": -7.88,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%20-%20Ardfinnan%2C%20Tipperary%20%282%29%20-%20geograph.org.uk%20-%201393369.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%20-%20Ardfinnan%2C%20Tipperary%20%282%29%20-%20geograph.org.uk%20-%201393369.jpg?width=400"
   },
   {
     "name": "Ardgillan Castle",
@@ -181,7 +181,7 @@
     "type": "castle",
     "lat": 53.586,
     "lng": -6.16,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ardgillan%20castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardgillan%20castle.jpg?width=400"
   },
   {
     "name": "Ardglass Castle",
@@ -189,7 +189,7 @@
     "type": "castle",
     "lat": 54.2583,
     "lng": -5.60556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ardglass%20Golf%20Club%2C%20November%202010%20%2808%29.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardglass%20Golf%20Club%2C%20November%202010%20%2808%29.JPG?width=400"
   },
   {
     "name": "Arkin's Castle",
@@ -197,7 +197,7 @@
     "type": "castle",
     "lat": 53.104845,
     "lng": -9.662614,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Arkin%27s%20Castle.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arkin%27s%20Castle.JPG?width=400"
   },
   {
     "name": "Ashford Castle, County Mayo",
@@ -205,7 +205,7 @@
     "type": "castle",
     "lat": 53.5348,
     "lng": -9.284406,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashford%20castle%20from%20Lough%20Corrib.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashford%20castle%20from%20Lough%20Corrib.JPG?width=400"
   },
   {
     "name": "Ashtown Castle",
@@ -213,7 +213,7 @@
     "type": "castle",
     "lat": 53.365766666,
     "lng": -6.330572222,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashtown%20Castle1.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashtown%20Castle1.JPG?width=400"
   },
   {
     "name": "Assaroe Abbey",
@@ -221,7 +221,7 @@
     "type": "abbey",
     "lat": 54.50694444,
     "lng": -8.2,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/AssaroeAbbey.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AssaroeAbbey.JPG?width=400"
   },
   {
     "name": "Athlone Castle",
@@ -229,7 +229,7 @@
     "type": "castle",
     "lat": 53.42333,
     "lng": -7.9425,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castelo%20de%20Athlone%20Irlanda.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castelo%20de%20Athlone%20Irlanda.jpg?width=400"
   },
   {
     "name": "Athlumney Castle",
@@ -237,7 +237,7 @@
     "type": "castle",
     "lat": 53.65029,
     "lng": -6.67504,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Athlumney%2C%20Meath%20%283%29%20-%20geograph.org.uk%20-%202494800.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Athlumney%2C%20Meath%20%283%29%20-%20geograph.org.uk%20-%202494800.jpg?width=400"
   },
   {
     "name": "Athy Priory",
@@ -253,7 +253,7 @@
     "type": "castle",
     "lat": 54.3796,
     "lng": -5.57194,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Audley%27s%20Castle%2C%20through%20trees.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audley%27s%20Castle%2C%20through%20trees.jpg?width=400"
   },
   {
     "name": "Augustinian Friary of the Holy Trinity",
@@ -269,7 +269,7 @@
     "type": "monastery",
     "lat": 52.54452,
     "lng": -7.3887,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Augustinian%20Monastery%20-%20geograph.org.uk%20-%20565530.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Augustinian%20Monastery%20-%20geograph.org.uk%20-%20565530.jpg?width=400"
   },
   {
     "name": "Baggotrath Castle",
@@ -277,7 +277,7 @@
     "type": "castle",
     "lat": 53.3335,
     "lng": -6.24305,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Baggotsrath%20Castle%20%28Co.%20Dublin%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baggotsrath%20Castle%20%28Co.%20Dublin%29.jpg?width=400"
   },
   {
     "name": "Balleen Castle",
@@ -285,7 +285,7 @@
     "type": "castle",
     "lat": 52.752368,
     "lng": -7.442024,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Balleen%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%202495757.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Balleen%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%202495757.jpg?width=400"
   },
   {
     "name": "Ballinafad Castle",
@@ -293,7 +293,7 @@
     "type": "castle",
     "lat": 54.026,
     "lng": -8.3358,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballinafad%20Castle%2C%20Co.%20Sligo%2C%20Ireland.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballinafad%20Castle%2C%20Co.%20Sligo%2C%20Ireland.jpg?width=400"
   },
   {
     "name": "Ballincollig Castle",
@@ -301,7 +301,7 @@
     "type": "castle",
     "lat": 51.87916667,
     "lng": -8.59944444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/06%2007%20Ballincollig%20Castle%20W%20Monogram.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/06%2007%20Ballincollig%20Castle%20W%20Monogram.JPG?width=400"
   },
   {
     "name": "Ballindoney Castle",
@@ -309,7 +309,7 @@
     "type": "castle",
     "lat": 52.337611111,
     "lng": -7.847111111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballindoney%2C%20Tipperary%20-%20geograph.org.uk%20-%201393375.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballindoney%2C%20Tipperary%20-%20geograph.org.uk%20-%201393375.jpg?width=400"
   },
   {
     "name": "Ballinlough Castle",
@@ -325,7 +325,7 @@
     "type": "castle",
     "lat": 51.820097,
     "lng": -10.270506,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballinskelligs%2C%20Kerry%20-%20geograph.org.uk%20-%201392857.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballinskelligs%2C%20Kerry%20-%20geograph.org.uk%20-%201392857.jpg?width=400"
   },
   {
     "name": "Ballintlea Castle (site of)",
@@ -341,7 +341,7 @@
     "type": "castle",
     "lat": 53.72225,
     "lng": -8.41562,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Ballintober%2C%20Roscommon%20%28geograph%201954203%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Ballintober%2C%20Roscommon%20%28geograph%201954203%29.jpg?width=400"
   },
   {
     "name": "Ballintubber Abbey",
@@ -349,7 +349,7 @@
     "type": "abbey",
     "lat": 53.757267,
     "lng": -9.282407,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballintubber%20Abbey%20East%20Range%202007%2008%2012.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballintubber%20Abbey%20East%20Range%202007%2008%2012.jpg?width=400"
   },
   {
     "name": "Ballyadams Castle",
@@ -357,7 +357,7 @@
     "type": "castle",
     "lat": 52.96483,
     "lng": -7.064,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballyadams%20Castle.png?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballyadams%20Castle.png?width=400"
   },
   {
     "name": "Ballycar Castle",
@@ -365,7 +365,7 @@
     "type": "castle",
     "lat": 52.76404167,
     "lng": -8.87440556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20south-east%20prospect%20of%20Ballicar%20Castle%20%281680%29%20by%20Thomas%20Dineley.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20south-east%20prospect%20of%20Ballicar%20Castle%20%281680%29%20by%20Thomas%20Dineley.jpg?width=400"
   },
   {
     "name": "Ballycarbery Castle",
@@ -373,7 +373,7 @@
     "type": "castle",
     "lat": 51.948862,
     "lng": -10.258656,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballycarbery%20Castle-IMG%205554.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballycarbery%20Castle-IMG%205554.jpg?width=400"
   },
   {
     "name": "Ballyconra Castle (site of)",
@@ -389,7 +389,7 @@
     "type": "castle",
     "lat": 53.276419,
     "lng": -7.558745,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballycowan%20Castle%2C%20Co.%20Offaly%20-%20geograph.org.uk%20-%20942610.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballycowan%20Castle%2C%20Co.%20Offaly%20-%20geograph.org.uk%20-%20942610.jpg?width=400"
   },
   {
     "name": "Ballydaniel Castle",
@@ -405,7 +405,7 @@
     "type": "castle",
     "lat": 54.899,
     "lng": -5.8617,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballygally%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballygally%20Castle.jpg?width=400"
   },
   {
     "name": "Ballygrennan Castle",
@@ -413,7 +413,7 @@
     "type": "castle",
     "lat": 52.465556,
     "lng": -8.538889,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballygrennan%2C%20Limerick%20%282%29%20-%20geograph.org.uk%20-%201541499.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Ballygrennan%2C%20Limerick%20%282%29%20-%20geograph.org.uk%20-%201541499.jpg?width=400"
   },
   {
     "name": "Ballygunner Castle",
@@ -421,7 +421,7 @@
     "type": "castle",
     "lat": 52.228,
     "lng": -7.0565,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Ballygunner%2C%20Waterford%20%283%29%20%28geograph%204570343%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Ballygunner%2C%20Waterford%20%283%29%20%28geograph%204570343%29.jpg?width=400"
   },
   {
     "name": "Ballyhack Castle",
@@ -429,7 +429,7 @@
     "type": "castle",
     "lat": 52.245936,
     "lng": -6.967427,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballyhack%20Castle%20by%20the%20harbour.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballyhack%20Castle%20by%20the%20harbour.jpg?width=400"
   },
   {
     "name": "Ballyheigue Castle",
@@ -437,7 +437,7 @@
     "type": "castle",
     "lat": 52.39228,
     "lng": -9.83896,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballyheigue%20castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballyheigue%20castle.jpg?width=400"
   },
   {
     "name": "Ballyhenebery Castle",
@@ -453,7 +453,7 @@
     "type": "castle",
     "lat": 52.599928,
     "lng": -7.388813,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Ballykeefe%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%206565964.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Ballykeefe%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%206565964.jpg?width=400"
   },
   {
     "name": "Ballykeoghan Castle",
@@ -469,7 +469,7 @@
     "type": "castle",
     "lat": 53.934565608,
     "lng": -9.104968368,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballylahan%20Castle%20-%20geograph.org.uk%20-%20505506.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballylahan%20Castle%20-%20geograph.org.uk%20-%20505506.jpg?width=400"
   },
   {
     "name": "Ballymoon Castle",
@@ -477,7 +477,7 @@
     "type": "castle",
     "lat": 52.700236,
     "lng": -6.906662,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballymoon%20Castle%20sunset%202.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballymoon%20Castle%20sunset%202.jpg?width=400"
   },
   {
     "name": "Ballymore Castle",
@@ -485,7 +485,7 @@
     "type": "castle",
     "lat": 53.233333333,
     "lng": -8.183333333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Ballymore%2C%20Galway%20%281%29%20%28geograph%204071679%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Ballymore%2C%20Galway%20%281%29%20%28geograph%204071679%29.jpg?width=400"
   },
   {
     "name": "Ballymote Castle",
@@ -493,7 +493,7 @@
     "type": "castle",
     "lat": 54.087642285,
     "lng": -8.519693656,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballymote%20Castle%2Coutside%20view%20-%20geograph.org.uk%20-%201588824.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballymote%20Castle%2Coutside%20view%20-%20geograph.org.uk%20-%201588824.jpg?width=400"
   },
   {
     "name": "Ballymoty Motte",
@@ -549,7 +549,7 @@
     "type": "castle",
     "lat": 54.501389,
     "lng": -8.19,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gaelic%20Chieftain.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaelic%20Chieftain.jpg?width=400"
   },
   {
     "name": "Ballytobin Castle",
@@ -565,7 +565,7 @@
     "type": "abbey",
     "lat": 52.94277778,
     "lng": -6.70694444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Digital%20Eye%E2%80%932015%E2%80%93Baltinglass%20Abbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Digital%20Eye%E2%80%932015%E2%80%93Baltinglass%20Abbey.jpg?width=400"
   },
   {
     "name": "Bangor Abbey",
@@ -573,7 +573,7 @@
     "type": "abbey",
     "lat": 54.656,
     "lng": -5.675,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rear%20of%20Bangor%20Abbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rear%20of%20Bangor%20Abbey.jpg?width=400"
   },
   {
     "name": "Barberstown Castle",
@@ -581,7 +581,7 @@
     "type": "castle",
     "lat": 53.323,
     "lng": -6.61,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Barberstown%20Castle%2C%20Straffan.%20Co%20Kildare%20%283%29%20-%20geograph.org.uk%20-%201254264.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barberstown%20Castle%2C%20Straffan.%20Co%20Kildare%20%283%29%20-%20geograph.org.uk%20-%201254264.jpg?width=400"
   },
   {
     "name": "Bargy Castle",
@@ -589,7 +589,7 @@
     "type": "castle",
     "lat": 52.2225,
     "lng": -6.491389,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bargy%20Castle%20-%20geograph.org.uk%20-%201239917.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bargy%20Castle%20-%20geograph.org.uk%20-%201239917.jpg?width=400"
   },
   {
     "name": "Barmeath Castle",
@@ -597,7 +597,7 @@
     "type": "castle",
     "lat": 53.8267,
     "lng": -6.3365,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Barmeath%20Castle%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%20872697.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barmeath%20Castle%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%20872697.jpg?width=400"
   },
   {
     "name": "Barrabehy Castle",
@@ -613,7 +613,7 @@
     "type": "castle",
     "lat": 53.15,
     "lng": -6.6,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castlebarretstown.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castlebarretstown.JPG?width=400"
   },
   {
     "name": "Barryscourt Castle",
@@ -621,7 +621,7 @@
     "type": "castle",
     "lat": 51.904615,
     "lng": -8.259374,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Barryscourt%20Castle%2C%20Cork.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barryscourt%20Castle%2C%20Cork.JPG?width=400"
   },
   {
     "name": "Bective Abbey",
@@ -629,7 +629,7 @@
     "type": "abbey",
     "lat": 53.5825527,
     "lng": -6.7027057,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bective%20Abbey%20from%20the%20Sky.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bective%20Abbey%20from%20the%20Sky.jpg?width=400"
   },
   {
     "name": "Belfast Castle",
@@ -637,7 +637,7 @@
     "type": "castle",
     "lat": 54.6427,
     "lng": -5.94232,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Belfast%20Castle%2C%20Antrim%20Road%20Belfast.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belfast%20Castle%2C%20Antrim%20Road%20Belfast.jpg?width=400"
   },
   {
     "name": "Bellaghy Castle",
@@ -661,7 +661,7 @@
     "type": "castle",
     "lat": 54.40833333,
     "lng": -6.745,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Benburb-Castle-1.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benburb-Castle-1.jpg?width=400"
   },
   {
     "name": "Birr Castle",
@@ -669,7 +669,7 @@
     "type": "castle",
     "lat": 53.095319444,
     "lng": -7.915541666,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Birr%20Castle%2C%20Offaly.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Birr%20Castle%2C%20Offaly.jpg?width=400"
   },
   {
     "name": "Bishop's palace at Uppercourt",
@@ -701,7 +701,7 @@
     "type": "castle",
     "lat": 51.90000001,
     "lng": -8.40250001,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Blackrock%20Castle%20%28Blackrock%2C%20Co.Cork%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackrock%20Castle%20%28Blackrock%2C%20Co.Cork%29.jpg?width=400"
   },
   {
     "name": "Blackrock College",
@@ -709,7 +709,7 @@
     "type": "castle",
     "lat": 53.30472222,
     "lng": -6.19166667,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BlackrockCollege.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/BlackrockCollege.JPG?width=400"
   },
   {
     "name": "Blackwater Castle",
@@ -717,7 +717,7 @@
     "type": "castle",
     "lat": 52.170583,
     "lng": -8.460477,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Castle%20Widenham%2C%20Cork%20%281%29%20%28geograph%203036915%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Castle%20Widenham%2C%20Cork%20%281%29%20%28geograph%203036915%29.jpg?width=400"
   },
   {
     "name": "Blanchvillestown Castle",
@@ -733,7 +733,7 @@
     "type": "castle",
     "lat": 51.928888888,
     "lng": -8.570833333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Blarney%20Castle-02-2017-gje.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blarney%20Castle-02-2017-gje.jpg?width=400"
   },
   {
     "name": "Block house on Island to south of Soldiers Point",
@@ -749,7 +749,7 @@
     "type": "castle",
     "lat": 53.339444444,
     "lng": -7.051111111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Blundell%20ruins.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blundell%20ruins.jpg?width=400"
   },
   {
     "name": "Bolton Abbey",
@@ -773,7 +773,7 @@
     "type": "abbey",
     "lat": 53.97358333,
     "lng": -8.29691667,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Digital%20Eye%E2%80%932015%E2%80%93Boyle%20Abbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Digital%20Eye%E2%80%932015%E2%80%93Boyle%20Abbey.jpg?width=400"
   },
   {
     "name": "Bridgetown Abbey",
@@ -781,7 +781,7 @@
     "type": "abbey",
     "lat": 52.14933,
     "lng": -8.450211,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bridgetown%20Priory%20-%20geograph.org.uk%20-%201392122.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bridgetown%20Priory%20-%20geograph.org.uk%20-%201392122.jpg?width=400"
   },
   {
     "name": "Bright Castle",
@@ -789,7 +789,7 @@
     "type": "castle",
     "lat": 54.270712,
     "lng": -5.688014,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bright%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bright%20Castle.jpg?width=400"
   },
   {
     "name": "Brusselstown Ring",
@@ -805,7 +805,7 @@
     "type": "castle",
     "lat": 52.69666667,
     "lng": -8.81180556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Bunrattybig.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunrattybig.jpg?width=400"
   },
   {
     "name": "Burriscarra Abbey",
@@ -813,7 +813,7 @@
     "type": "monastery",
     "lat": 53.730929,
     "lng": -9.24574,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/BurriscarraAbbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/BurriscarraAbbey.jpg?width=400"
   },
   {
     "name": "Burt Castle",
@@ -821,7 +821,7 @@
     "type": "castle",
     "lat": 55.01959991,
     "lng": -7.50220013,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Burt%20Castle%20-%20geograph.org.uk%20-%201029895.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Burt%20Castle%20-%20geograph.org.uk%20-%201029895.jpg?width=400"
   },
   {
     "name": "Cahercommaun",
@@ -829,7 +829,7 @@
     "type": "fort",
     "lat": 53.014722222,
     "lng": -9.070555555,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cahercommaun%20close%20up.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cahercommaun%20close%20up.jpg?width=400"
   },
   {
     "name": "Caherconree",
@@ -837,7 +837,7 @@
     "type": "fort",
     "lat": 52.197222222,
     "lng": -9.862777777,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Caherconree%20Fort.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caherconree%20Fort.JPG?width=400"
   },
   {
     "name": "Caherdaniel",
@@ -845,7 +845,7 @@
     "type": "fort",
     "lat": 51.769553,
     "lng": -10.0996,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cathair%20D%C3%B3nall%20%28Caherdaniel%29%20Ring%20Fort%20-%20geograph.org.uk%20-%201432501.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cathair%20D%C3%B3nall%20%28Caherdaniel%29%20Ring%20Fort%20-%20geograph.org.uk%20-%201432501.jpg?width=400"
   },
   {
     "name": "Caherdooneerish Stone Fort",
@@ -853,7 +853,7 @@
     "type": "fort",
     "lat": 53.146783,
     "lng": -9.258944,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Caher%20dun%20Irghuis.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caher%20dun%20Irghuis.jpg?width=400"
   },
   {
     "name": "Caherdorgan North",
@@ -861,7 +861,7 @@
     "type": "hillfort",
     "lat": 52.179267,
     "lng": -10.339503,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Kerry%20-%20Caherdorgan%20Fort%20-%2020130404105952.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/County%20Kerry%20-%20Caherdorgan%20Fort%20-%2020130404105952.jpg?width=400"
   },
   {
     "name": "Caherkinmonwee Castle",
@@ -869,7 +869,7 @@
     "type": "castle",
     "lat": 53.236814283,
     "lng": -8.6948008,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Caherkinmonwee%2C%20Galway%20%281%29%20-%20geograph.org.uk%20-%204070919.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Caherkinmonwee%2C%20Galway%20%281%29%20-%20geograph.org.uk%20-%204070919.jpg?width=400"
   },
   {
     "name": "Caherlesk Castle",
@@ -885,7 +885,7 @@
     "type": "castle",
     "lat": 52.37455,
     "lng": -7.92719,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ireland-Cahir%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ireland-Cahir%20Castle.jpg?width=400"
   },
   {
     "name": "Camden Fort Meagher",
@@ -893,7 +893,7 @@
     "type": "fort",
     "lat": 51.808,
     "lng": -8.279,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CamdenFortMeagherCorkBilletsExhibits.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CamdenFortMeagherCorkBilletsExhibits.JPG?width=400"
   },
   {
     "name": "Canon Island Abbey",
@@ -901,7 +901,7 @@
     "type": "abbey",
     "lat": 52.67906389,
     "lng": -9.03705556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Canon%20Island%20Abbey.png?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Canon%20Island%20Abbey.png?width=400"
   },
   {
     "name": "Carbury Castle",
@@ -909,7 +909,7 @@
     "type": "castle",
     "lat": 53.361667,
     "lng": -6.968889,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruins%20of%20Carbury%2C%20County%20Kildare.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruins%20of%20Carbury%2C%20County%20Kildare.jpg?width=400"
   },
   {
     "name": "Carntierna",
@@ -925,7 +925,7 @@
     "type": "castle",
     "lat": 55.133611111,
     "lng": -6.037222222,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Carra%20-%20geograph.org.uk%20-%20467784.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Carra%20-%20geograph.org.uk%20-%20467784.jpg?width=400"
   },
   {
     "name": "Carrick Castle",
@@ -933,7 +933,7 @@
     "type": "castle",
     "lat": 53.378056,
     "lng": -7.038333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrick%20Castle%2C%20Kildare.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carrick%20Castle%2C%20Kildare.jpg?width=400"
   },
   {
     "name": "Carrickabraghy Castle",
@@ -941,7 +941,7 @@
     "type": "castle",
     "lat": 55.316329,
     "lng": -7.372674,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrickabraghy%20Castle%2C%20Doagh%20Island%20-%20geograph.org.uk%20-%201333290.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carrickabraghy%20Castle%2C%20Doagh%20Island%20-%20geograph.org.uk%20-%201333290.jpg?width=400"
   },
   {
     "name": "Carrickfergus Castle",
@@ -949,7 +949,7 @@
     "type": "castle",
     "lat": 54.7133,
     "lng": -5.80645,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrickfergus%20Castle%2C%20reflections%20at%20sunset%20-%20geograph.org.uk%20-%201098306.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carrickfergus%20Castle%2C%20reflections%20at%20sunset%20-%20geograph.org.uk%20-%201098306.jpg?width=400"
   },
   {
     "name": "Carrickmines Castle",
@@ -957,7 +957,7 @@
     "type": "castle",
     "lat": 53.253292,
     "lng": -6.175398,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/January%202004%20Carrickminders.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/January%202004%20Carrickminders.jpg?width=400"
   },
   {
     "name": "Carrigadrohid Castle",
@@ -965,7 +965,7 @@
     "type": "castle",
     "lat": 51.90098,
     "lng": -8.85222,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Carrigadrohid%20Castle%20-%2020190922144735.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Carrigadrohid%20Castle%20-%2020190922144735.jpg?width=400"
   },
   {
     "name": "Carrigogunnell",
@@ -973,7 +973,7 @@
     "type": "castle",
     "lat": 52.64666667,
     "lng": -8.7425,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrigogunnell%20Castle%2C%20Clarina%2CLimerick.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carrigogunnell%20Castle%2C%20Clarina%2CLimerick.jpg?width=400"
   },
   {
     "name": "Carrigrohane Castle",
@@ -981,7 +981,7 @@
     "type": "castle",
     "lat": 51.8964,
     "lng": -8.56,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrigrohane%20Castle%202016.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carrigrohane%20Castle%202016.jpg?width=400"
   },
   {
     "name": "Castle Balfour",
@@ -989,7 +989,7 @@
     "type": "castle",
     "lat": 54.2503,
     "lng": -7.44547,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Balfour%2C%20Lisnaskea%20-%20geograph.org.uk%20-%201270799.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Balfour%2C%20Lisnaskea%20-%20geograph.org.uk%20-%201270799.jpg?width=400"
   },
   {
     "name": "Castle Caldwell",
@@ -997,7 +997,7 @@
     "type": "castle",
     "lat": 54.4928,
     "lng": -7.9741,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Ruins%20of%20Castle%20Caldwell%20-%20and%20its%20history%20-%20geograph.org.uk%20-%201113036.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Ruins%20of%20Castle%20Caldwell%20-%20and%20its%20history%20-%20geograph.org.uk%20-%201113036.jpg?width=400"
   },
   {
     "name": "Castle Carra",
@@ -1005,7 +1005,7 @@
     "type": "castle",
     "lat": 53.721389,
     "lng": -9.255278,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Carra.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Carra.jpg?width=400"
   },
   {
     "name": "Castle Caulfield",
@@ -1013,7 +1013,7 @@
     "type": "castle",
     "lat": 54.506,
     "lng": -6.835,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CastleCaulfeild2008.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CastleCaulfeild2008.JPG?width=400"
   },
   {
     "name": "Castle Chichester",
@@ -1029,7 +1029,7 @@
     "type": "castle",
     "lat": 52.712192,
     "lng": -8.503698,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Castle%20Connell%2C%20Limerick%20%281%29%20-%20geograph.org.uk%20-%206499528.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Castle%20Connell%2C%20Limerick%20%281%29%20-%20geograph.org.uk%20-%206499528.jpg?width=400"
   },
   {
     "name": "Castle Conway",
@@ -1053,7 +1053,7 @@
     "type": "castle",
     "lat": 53.453222,
     "lng": -8.060134,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Naghten.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Naghten.jpg?width=400"
   },
   {
     "name": "Castle Oliver",
@@ -1061,7 +1061,7 @@
     "type": "castle",
     "lat": 52.326619,
     "lng": -8.484117,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Oliver%20%281%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Oliver%20%281%29.jpg?width=400"
   },
   {
     "name": "Castle Otway",
@@ -1069,7 +1069,7 @@
     "type": "castle",
     "lat": 52.77926,
     "lng": -8.08151,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Otway.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Otway.jpg?width=400"
   },
   {
     "name": "Castle Pierce",
@@ -1077,7 +1077,7 @@
     "type": "castle",
     "lat": 52.784947,
     "lng": -7.636992,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Castle%20Pierce%2C%20Kilkenny%20%281%29%20-%20geograph.org.uk%20-%204571595.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Castle%20Pierce%2C%20Kilkenny%20%281%29%20-%20geograph.org.uk%20-%204571595.jpg?width=400"
   },
   {
     "name": "Castle Roche",
@@ -1085,7 +1085,7 @@
     "type": "castle",
     "lat": 54.04646,
     "lng": -6.488317,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roche%20Castle%20from%20North%20West%201.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roche%20Castle%20from%20North%20West%201.jpg?width=400"
   },
   {
     "name": "Castle Salem",
@@ -1093,7 +1093,7 @@
     "type": "castle",
     "lat": 51.595881,
     "lng": -9.056028,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Salem%20near%20Ross%20Carbery%20-%20geograph.org.uk%20-%20498699.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Salem%20near%20Ross%20Carbery%20-%20geograph.org.uk%20-%20498699.jpg?width=400"
   },
   {
     "name": "Castle Saunderson",
@@ -1101,7 +1101,7 @@
     "type": "castle",
     "lat": 54.126666666,
     "lng": -7.359722222,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20saunderson.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20saunderson.jpg?width=400"
   },
   {
     "name": "Castle Townsend",
@@ -1109,7 +1109,7 @@
     "type": "castle",
     "lat": 51.52941,
     "lng": -9.17289,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Castle%20Townsend%20-%2020140228210704.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Castle%20Townsend%20-%2020140228210704.jpg?width=400"
   },
   {
     "name": "Castle Upton",
@@ -1117,7 +1117,7 @@
     "type": "castle",
     "lat": 54.704,
     "lng": -6.091,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Upton%20Templepatrick%20-%20geograph.org.uk%20-%201075910.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Upton%20Templepatrick%20-%20geograph.org.uk%20-%201075910.jpg?width=400"
   },
   {
     "name": "Castleblunden Castle",
@@ -1133,7 +1133,7 @@
     "type": "castle",
     "lat": 54.707,
     "lng": -7.59662,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castlederg%20Castle%20-%20geograph.org.uk%20-%20371758.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castlederg%20Castle%20-%20geograph.org.uk%20-%20371758.jpg?width=400"
   },
   {
     "name": "Castledermot Monastery",
@@ -1141,7 +1141,7 @@
     "type": "monastery",
     "lat": 52.910458,
     "lng": -6.834934,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castledermot%20Church%20of%20Saint%20James%20Round%20Tower%20and%20North%20Cross%202013%2009%2004.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castledermot%20Church%20of%20Saint%20James%20Round%20Tower%20and%20North%20Cross%202013%2009%2004.jpg?width=400"
   },
   {
     "name": "Castlefield Castle",
@@ -1173,7 +1173,7 @@
     "type": "castle",
     "lat": 53.3682,
     "lng": -6.366,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castleknock%20Castle%20Nov2018.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castleknock%20Castle%20Nov2018.jpg?width=400"
   },
   {
     "name": "Castlelost Castle",
@@ -1181,7 +1181,7 @@
     "type": "castle",
     "lat": 53.4205,
     "lng": -7.3225,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CastleLost.png?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CastleLost.png?width=400"
   },
   {
     "name": "Castlemore Moat",
@@ -1189,7 +1189,7 @@
     "type": "castle",
     "lat": 52.809489,
     "lng": -6.772553,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2002.09.01-1A.CastlemoreTullow.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2002.09.01-1A.CastlemoreTullow.jpg?width=400"
   },
   {
     "name": "Castlemorris Castle",
@@ -1229,7 +1229,7 @@
     "type": "fort",
     "lat": 54.448,
     "lng": -6.679,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Charlemont%20fort.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlemont%20fort.jpg?width=400"
   },
   {
     "name": "Charles Fort",
@@ -1237,7 +1237,7 @@
     "type": "fort",
     "lat": 51.6965,
     "lng": -8.499,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Fort%2C%20Kinsale%2C%20Co.%20Cork.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Fort%2C%20Kinsale%2C%20Co.%20Cork.JPG?width=400"
   },
   {
     "name": "Cill Chomáin",
@@ -1245,7 +1245,7 @@
     "type": "monastery",
     "lat": 54.2635,
     "lng": -9.7959,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunchiortan3may08%20029.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunchiortan3may08%20029.JPG?width=400"
   },
   {
     "name": "Clane Friary",
@@ -1253,7 +1253,7 @@
     "type": "monastery",
     "lat": 53.289256,
     "lng": -6.683023,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clane%20Abbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clane%20Abbey.jpg?width=400"
   },
   {
     "name": "Clara Castle",
@@ -1261,7 +1261,7 @@
     "type": "castle",
     "lat": 52.669444,
     "lng": -7.152222,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clara%20Castle%20-%20geograph.org.uk%20-%20494292.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clara%20Castle%20-%20geograph.org.uk%20-%20494292.jpg?width=400"
   },
   {
     "name": "Clare Abbey",
@@ -1269,7 +1269,7 @@
     "type": "monastery",
     "lat": 52.82833333,
     "lng": -8.96833333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clare%20Abbey%2C%20Ennis%2C%20Clare%20%285262907283%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clare%20Abbey%2C%20Ennis%2C%20Clare%20%285262907283%29.jpg?width=400"
   },
   {
     "name": "Clare Castle",
@@ -1285,7 +1285,7 @@
     "type": "abbey",
     "lat": 53.793229,
     "lng": -9.989088,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clare%20Island%20Abbey%20NE%201997%2009%2010.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clare%20Island%20Abbey%20NE%201997%2009%2010.jpg?width=400"
   },
   {
     "name": "Clashanree Castle",
@@ -1317,7 +1317,7 @@
     "type": "castle",
     "lat": 51.50211,
     "lng": -9.29926,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cloghan%20castle%2C%20lough%20hyne.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cloghan%20castle%2C%20lough%20hyne.jpg?width=400"
   },
   {
     "name": "Clonamery Castle",
@@ -1325,7 +1325,7 @@
     "type": "castle",
     "lat": 52.464,
     "lng": -7.032733,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clonamery%20Castle%20%2815501%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clonamery%20Castle%20%2815501%29.jpg?width=400"
   },
   {
     "name": "Clonard Abbey",
@@ -1333,7 +1333,7 @@
     "type": "abbey",
     "lat": 53.450562,
     "lng": -7.007299,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clonard%20Monastic%20Site%20Anglican%20Church%202007%2008%2026.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clonard%20Monastic%20Site%20Anglican%20Church%202007%2008%2026.jpg?width=400"
   },
   {
     "name": "Clonard Monastery",
@@ -1341,7 +1341,7 @@
     "type": "monastery",
     "lat": 54.6,
     "lng": -5.956,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clonard%20Monastery%20121091%20shopped.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clonard%20Monastery%20121091%20shopped.jpg?width=400"
   },
   {
     "name": "Cloncourse Castle",
@@ -1349,7 +1349,7 @@
     "type": "castle",
     "lat": 52.963722222,
     "lng": -7.675777777,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Cloncourse%2C%20Laois%20%281%29%20-%20geograph.org.uk%20-%202494282.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Cloncourse%2C%20Laois%20%281%29%20-%20geograph.org.uk%20-%202494282.jpg?width=400"
   },
   {
     "name": "Clone Castle",
@@ -1365,7 +1365,7 @@
     "type": "castle",
     "lat": 52.10071,
     "lng": -7.53442,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clonea%20Castle%2C%20Dungarvan%2C%20Co.%20Waterford%20-%20Robert%20French%20-%201865-1914.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clonea%20Castle%2C%20Dungarvan%2C%20Co.%20Waterford%20-%20Robert%20French%20-%201865-1914.jpg?width=400"
   },
   {
     "name": "Clones Abbey",
@@ -1373,7 +1373,7 @@
     "type": "monastery",
     "lat": 54.183,
     "lng": -7.2337,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Clones%20round%20tower%20and%20sarcohagus.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clones%20round%20tower%20and%20sarcohagus.jpg?width=400"
   },
   {
     "name": "Clonmacnoise",
@@ -1381,7 +1381,7 @@
     "type": "monastery",
     "lat": 53.323888888,
     "lng": -7.991111111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ClonmacnoiseCathedral.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ClonmacnoiseCathedral.JPG?width=400"
   },
   {
     "name": "Clonony Castle",
@@ -1389,7 +1389,7 @@
     "type": "castle",
     "lat": 53.236015,
     "lng": -7.923001,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/IMG%20ClononyCastle5782w.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IMG%20ClononyCastle5782w.jpg?width=400"
   },
   {
     "name": "Cloonigny Castle",
@@ -1421,7 +1421,7 @@
     "type": "abbey",
     "lat": 54.55027778,
     "lng": -5.75,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20church%2C%20Comber%20-%20geograph.org.uk%20-%20348046.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20church%2C%20Comber%20-%20geograph.org.uk%20-%20348046.jpg?width=400"
   },
   {
     "name": "Conahy Castle",
@@ -1461,7 +1461,7 @@
     "type": "castle",
     "lat": 52.234215,
     "lng": -6.704587,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Coolhull%20Castle%20-%20geograph.org.uk%20-%2014545.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coolhull%20Castle%20-%20geograph.org.uk%20-%2014545.jpg?width=400"
   },
   {
     "name": "Coonagh Castle",
@@ -1469,7 +1469,7 @@
     "type": "castle",
     "lat": 52.582526,
     "lng": -8.2600347,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%20-%20Castletown%20Coonagh%2C%20Limerick%20-%20geograph.org.uk%20-%201542143.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%20-%20Castletown%20Coonagh%2C%20Limerick%20-%20geograph.org.uk%20-%201542143.jpg?width=400"
   },
   {
     "name": "Corcomroe Abbey",
@@ -1477,7 +1477,7 @@
     "type": "abbey",
     "lat": 53.1267,
     "lng": -9.054,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Corcomroe%20Abbey%20South%20East%20View%201996%2008%2022.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Corcomroe%20Abbey%20South%20East%20View%201996%2008%2022.jpg?width=400"
   },
   {
     "name": "Corluddy Castle",
@@ -1485,7 +1485,7 @@
     "type": "castle",
     "lat": 52.265142,
     "lng": -7.206382,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CorluddyCastle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CorluddyCastle.jpg?width=400"
   },
   {
     "name": "Cowd Castle",
@@ -1493,7 +1493,7 @@
     "type": "castle",
     "lat": 54.2582,
     "lng": -5.6057,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cowd%20Castle%2C%20Ardglass%2C%20November%202010%20%2804%29.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cowd%20Castle%2C%20Ardglass%2C%20November%202010%20%2804%29.JPG?width=400"
   },
   {
     "name": "Creevekeeran Castle",
@@ -1509,7 +1509,7 @@
     "type": "castle",
     "lat": 54.51176,
     "lng": -7.7452,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crevenish%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Crevenish%20Castle.jpg?width=400"
   },
   {
     "name": "Crom Castle",
@@ -1517,7 +1517,7 @@
     "type": "castle",
     "lat": 54.1685,
     "lng": -7.44878,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crom%20Castle%20in%202008.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Crom%20Castle%20in%202008.jpg?width=400"
   },
   {
     "name": "Croom Castle",
@@ -1525,7 +1525,7 @@
     "type": "castle",
     "lat": 52.5147,
     "lng": -8.7179,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dysert-Aenghusa%20Round%20Tower%20Croom.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dysert-Aenghusa%20Round%20Tower%20Croom.JPG?width=400"
   },
   {
     "name": "Crowbally Castle",
@@ -1541,7 +1541,7 @@
     "type": "castle",
     "lat": 52.816132,
     "lng": -7.47281,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cullohill%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cullohill%20Castle.jpg?width=400"
   },
   {
     "name": "Culmore Fort",
@@ -1557,7 +1557,7 @@
     "type": "castle",
     "lat": 53.2779,
     "lng": -6.1055,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dalkey%20castle%20and%20heritage%20center.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dalkey%20castle%20and%20heritage%20center.jpg?width=400"
   },
   {
     "name": "Daly Castle",
@@ -1565,7 +1565,7 @@
     "type": "castle",
     "lat": 53.1301,
     "lng": -8.718,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Castle%20Daly%2C%20Galway%20%281%29%20%28geograph%204069135%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Castle%20Daly%2C%20Galway%20%281%29%20%28geograph%204069135%29.jpg?width=400"
   },
   {
     "name": "Danesmoate House",
@@ -1573,7 +1573,7 @@
     "type": "castle",
     "lat": 53.26523,
     "lng": -6.262449,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Danesmoate%20House.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danesmoate%20House.JPG?width=400"
   },
   {
     "name": "Dangan Castle",
@@ -1589,7 +1589,7 @@
     "type": "castle",
     "lat": 53.66666667,
     "lng": -6.31666667,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dardistown%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dardistown%20Castle.jpg?width=400"
   },
   {
     "name": "Darver Castle",
@@ -1605,7 +1605,7 @@
     "type": "castle",
     "lat": 51.822,
     "lng": -9.873,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Derryquin%20Castle%20c.1870.%20Pen%20%26%20ink%20sketch%20by%20William%20Herbert%20Stokes%20%281845-1874%29.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Derryquin%20Castle%20c.1870.%20Pen%20%26%20ink%20sketch%20by%20William%20Herbert%20Stokes%20%281845-1874%29.JPG?width=400"
   },
   {
     "name": "Derryvella",
@@ -1621,7 +1621,7 @@
     "type": "castle",
     "lat": 52.450067,
     "lng": -9.061083,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Desmond%20Hall%20%28Castle%20Banqueting%20Hall%29%2C%20Newcastle%20West%2C%20Limerick%20-%20geograph.org.uk%20-%201392672.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Desmond%20Hall%20%28Castle%20Banqueting%20Hall%29%2C%20Newcastle%20West%2C%20Limerick%20-%20geograph.org.uk%20-%201392672.jpg?width=400"
   },
   {
     "name": "Dominican Convent",
@@ -1629,7 +1629,7 @@
     "type": "monastery",
     "lat": 54.5945,
     "lng": -5.95696,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Dominican%20Convent%20%2C%20Falls%20Road%20%28geograph%202922323%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Dominican%20Convent%20%2C%20Falls%20Road%20%28geograph%202922323%29.jpg?width=400"
   },
   {
     "name": "Donamon Castle",
@@ -1637,7 +1637,7 @@
     "type": "castle",
     "lat": 53.63167,
     "lng": -8.31899,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Donamon%20Castle%20front.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Donamon%20Castle%20front.jpg?width=400"
   },
   {
     "name": "Donegal Castle",
@@ -1645,7 +1645,7 @@
     "type": "castle",
     "lat": 54.655,
     "lng": -8.111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Donegalcastle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Donegalcastle.jpg?width=400"
   },
   {
     "name": "Doon Castle",
@@ -1661,7 +1661,7 @@
     "type": "castle",
     "lat": 53.00381,
     "lng": -9.38739,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Doonagore%20Castle%20-%20IrishKeep.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Doonagore%20Castle%20-%20IrishKeep.jpg?width=400"
   },
   {
     "name": "Drimnagh Castle",
@@ -1669,7 +1669,7 @@
     "type": "castle",
     "lat": 53.324973,
     "lng": -6.33284,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Drimnagh%20Castle%20-%2020180302173736.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Drimnagh%20Castle%20-%2020180302173736.jpg?width=400"
   },
   {
     "name": "Dromiskin Monastery",
@@ -1677,7 +1677,7 @@
     "type": "monastery",
     "lat": 53.922003,
     "lng": -6.398219,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Church%20and%20High%20Cross%20at%20Dromiskin%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%201774597.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Church%20and%20High%20Cross%20at%20Dromiskin%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%201774597.jpg?width=400"
   },
   {
     "name": "Dromore Castle",
@@ -1685,7 +1685,7 @@
     "type": "castle",
     "lat": 51.8575,
     "lng": -9.71638889,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dromore%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dromore%20Castle.jpg?width=400"
   },
   {
     "name": "Drumacoo Early Medieval Ecclesiastical Site",
@@ -1693,7 +1693,7 @@
     "type": "monastery",
     "lat": 53.198723,
     "lng": -8.904724,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Drumacoo%20doorway1.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Drumacoo%20doorway1.jpg?width=400"
   },
   {
     "name": "Drumboe Castle",
@@ -1701,7 +1701,7 @@
     "type": "castle",
     "lat": 54.80149,
     "lng": -7.789092,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruins%20of%20Drumboe%20Castle%20-%20geograph.org.uk%20-%20960705.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruins%20of%20Drumboe%20Castle%20-%20geograph.org.uk%20-%20960705.jpg?width=400"
   },
   {
     "name": "Drumdowney Castle",
@@ -1733,7 +1733,7 @@
     "type": "castle",
     "lat": 53.343109,
     "lng": -6.267394,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dublin%20castle.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dublin%20castle.JPG?width=400"
   },
   {
     "name": "Duiske Abbey",
@@ -1741,7 +1741,7 @@
     "type": "abbey",
     "lat": 52.54111111,
     "lng": -6.95444444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Graiguenamanach%20Choir%20Window%20SE%201997%2008%2027.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Graiguenamanach%20Choir%20Window%20SE%201997%2008%2027.jpg?width=400"
   },
   {
     "name": "Dún Ailinne",
@@ -1749,7 +1749,7 @@
     "type": "hillfort",
     "lat": 53.115,
     "lng": -6.775,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BAn%20Ailine%20ditch.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BAn%20Ailine%20ditch.jpg?width=400"
   },
   {
     "name": "Dún Dealgan Motte",
@@ -1757,15 +1757,15 @@
     "type": "castle",
     "lat": 54.013889,
     "lng": -6.430278,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cuchulainn%27s%20Castle1.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cuchulainn%27s%20Castle1.jpg?width=400"
   },
   {
     "name": "Dún Dúchathair",
     "blurb": "Stone fort in County Galway, Ireland",
     "type": "fort",
-    "lat": 53.10455556,
-    "lng": -9.68756944,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BAn%20D%C3%BAchathair%20-%20geograph.org.uk%20-%202952.jpg?width=400"
+    "lat": 53.10446,
+    "lng": -9.68773,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BAn%20D%C3%BAchathair%20-%20geograph.org.uk%20-%202952.jpg?width=400"
   },
   {
     "name": "Dun Putechantuy, dun, Kintyre",
@@ -1789,7 +1789,7 @@
     "type": "castle",
     "lat": 51.4835892,
     "lng": -9.3730713,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fort%20of%20the%20Jewels%20-%20geograph.org.uk%20-%201755185.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort%20of%20the%20Jewels%20-%20geograph.org.uk%20-%201755185.jpg?width=400"
   },
   {
     "name": "Dunaverty Castle",
@@ -1797,7 +1797,7 @@
     "type": "castle",
     "lat": 55.3075,
     "lng": -5.6447,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20the%20Bruce%20and%20the%20struggle%20for%20Scottish%20independence%20-%20The%20Rock%20of%20Blood.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20the%20Bruce%20and%20the%20struggle%20for%20Scottish%20independence%20-%20The%20Rock%20of%20Blood.jpg?width=400"
   },
   {
     "name": "Dunbeg Fort",
@@ -1805,7 +1805,7 @@
     "type": "fort",
     "lat": 52.10333333,
     "lng": -10.40861111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunbeg%20Fort%20-%20geograph.org.uk%20-%2016625.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunbeg%20Fort%20-%20geograph.org.uk%20-%2016625.jpg?width=400"
   },
   {
     "name": "Dunboy Castle",
@@ -1813,7 +1813,7 @@
     "type": "castle",
     "lat": 51.633,
     "lng": -9.924,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Ruin%20-%20geograph.org.uk%20-%205376884.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Ruin%20-%20geograph.org.uk%20-%205376884.jpg?width=400"
   },
   {
     "name": "Dunbrody Abbey",
@@ -1821,7 +1821,7 @@
     "type": "abbey",
     "lat": 52.2835,
     "lng": -6.96,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunbrody%20Abbey%20SE%201997%2008%2027.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunbrody%20Abbey%20SE%201997%2008%2027.jpg?width=400"
   },
   {
     "name": "Duncannon Fort",
@@ -1829,7 +1829,7 @@
     "type": "fort",
     "lat": 52.220771,
     "lng": -6.936627,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Duncannon%20Fort%2C%20Co.%20Wexford%20-%20geograph.org.uk%20-%20830116.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Duncannon%20Fort%2C%20Co.%20Wexford%20-%20geograph.org.uk%20-%20830116.jpg?width=400"
   },
   {
     "name": "Dundrum Castle",
@@ -1837,7 +1837,7 @@
     "type": "castle",
     "lat": 54.2566,
     "lng": -5.874,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dundrum%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dundrum%20Castle.jpg?width=400"
   },
   {
     "name": "Dungannon Castle",
@@ -1861,7 +1861,7 @@
     "type": "castle",
     "lat": 54.9248,
     "lng": -6.921,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dungiven%20Castle%20-%20Centre.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dungiven%20Castle%20-%20Centre.jpg?width=400"
   },
   {
     "name": "Dungooly Castle",
@@ -1877,7 +1877,7 @@
     "type": "castle",
     "lat": 53.142222222,
     "lng": -8.926111111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunguaire%20Castle%2C%20Galway%2C%20Ireland.png?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunguaire%20Castle%2C%20Galway%2C%20Ireland.png?width=400"
   },
   {
     "name": "Dunkerron Castle",
@@ -1885,7 +1885,7 @@
     "type": "castle",
     "lat": 51.87416667,
     "lng": -9.62694444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Dunkerron%2C%20Kerry%20%282%29%20%28geograph%203037291%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster-%20Dunkerron%2C%20Kerry%20%282%29%20%28geograph%203037291%29.jpg?width=400"
   },
   {
     "name": "Dunlough Castle",
@@ -1893,7 +1893,7 @@
     "type": "castle",
     "lat": 51.482665,
     "lng": -9.829419,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunloughcastle%204.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunloughcastle%204.jpg?width=400"
   },
   {
     "name": "Dunluce Castle",
@@ -1901,7 +1901,7 @@
     "type": "castle",
     "lat": 55.211388888,
     "lng": -6.579166666,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunluce3.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunluce3.JPG?width=400"
   },
   {
     "name": "Dunmoe Castle",
@@ -1909,7 +1909,7 @@
     "type": "castle",
     "lat": 53.674094,
     "lng": -6.636899,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Dunmoe%2C%20Meath%20%281%29%20-%20geograph.org.uk%20-%202494890.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Dunmoe%2C%20Meath%20%281%29%20-%20geograph.org.uk%20-%202494890.jpg?width=400"
   },
   {
     "name": "Dunmore Castle",
@@ -1917,7 +1917,7 @@
     "type": "castle",
     "lat": 53.623756,
     "lng": -8.755581,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunmore%20Castle%2C%20Co.%20Galway.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunmore%20Castle%2C%20Co.%20Galway.JPG?width=400"
   },
   {
     "name": "Dunsany Castle and Demesne",
@@ -1925,7 +1925,7 @@
     "type": "castle",
     "lat": 53.535555555,
     "lng": -6.620833333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunsany%20Castle%20in%20Meath%20mist.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunsany%20Castle%20in%20Meath%20mist.jpg?width=400"
   },
   {
     "name": "Dunseverick Castle",
@@ -1933,7 +1933,7 @@
     "type": "castle",
     "lat": 55.231,
     "lng": -6.395,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dunseverick%20Castle%20-%20geograph.org.uk%20-%20742675.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunseverick%20Castle%20-%20geograph.org.uk%20-%20742675.jpg?width=400"
   },
   {
     "name": "Dunsoghly Castle",
@@ -1941,7 +1941,7 @@
     "type": "castle",
     "lat": 53.426923,
     "lng": -6.318328,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Dunsoghly%2C%20Co.%20Dublin%20%28geograph%202496350%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Dunsoghly%2C%20Co.%20Dublin%20%28geograph%202496350%29.jpg?width=400"
   },
   {
     "name": "Durrow Abbey",
@@ -1949,7 +1949,7 @@
     "type": "abbey",
     "lat": 53.325952,
     "lng": -7.51967,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Durrow%20abbey%20A.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Durrow%20abbey%20A.jpg?width=400"
   },
   {
     "name": "Dysart Castle",
@@ -1957,7 +1957,7 @@
     "type": "castle",
     "lat": 52.5020111,
     "lng": -7.1215444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Dysart%20Castle%2C%20Thomastown%2C%20Co.%20Kilkenny%20-%20geograph.org.uk%20-%201106083.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dysart%20Castle%2C%20Thomastown%2C%20Co.%20Kilkenny%20-%20geograph.org.uk%20-%201106083.jpg?width=400"
   },
   {
     "name": "Elizabeth Fort",
@@ -1965,7 +1965,7 @@
     "type": "fort",
     "lat": 51.8945,
     "lng": -8.478,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth%20Fort%20-%20geograph.org.uk%20-%201383565.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth%20Fort%20-%20geograph.org.uk%20-%201383565.jpg?width=400"
   },
   {
     "name": "Enniscorthy Castle",
@@ -1973,7 +1973,7 @@
     "type": "castle",
     "lat": 52.50145,
     "lng": -6.56716,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/EnniscorthyCastle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/EnniscorthyCastle.jpg?width=400"
   },
   {
     "name": "Enniskillen Castle",
@@ -1981,7 +1981,7 @@
     "type": "castle",
     "lat": 54.346111111,
     "lng": -7.645,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Enniskillen%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Enniskillen%20Castle.jpg?width=400"
   },
   {
     "name": "Errew Abbey",
@@ -1989,7 +1989,7 @@
     "type": "monastery",
     "lat": 54.053131,
     "lng": -9.263349,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/ErrewAbbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ErrewAbbey.jpg?width=400"
   },
   {
     "name": "Esker Castle",
@@ -2037,7 +2037,7 @@
     "type": "castle",
     "lat": 53.569722,
     "lng": -8.942778,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Feartagar%20Castle%2C%20County%20Galway.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Feartagar%20Castle%2C%20County%20Galway.jpg?width=400"
   },
   {
     "name": "Feathallagh moated site",
@@ -2061,7 +2061,7 @@
     "type": "abbey",
     "lat": 52.589499,
     "lng": -6.49169,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ferns%20Abbey%20South%20Range%202009%2009%2028.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferns%20Abbey%20South%20Range%202009%2009%2028.jpg?width=400"
   },
   {
     "name": "Fethard Castle",
@@ -2069,7 +2069,7 @@
     "type": "castle",
     "lat": 52.193379,
     "lng": -6.839941,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fethard-on-Sea%20Castle%20S%202018%2009%2012.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fethard-on-Sea%20Castle%20S%202018%2009%2012.jpg?width=400"
   },
   {
     "name": "Fiddaun Castle",
@@ -2077,7 +2077,7 @@
     "type": "castle",
     "lat": 53.01055556,
     "lng": -8.87861111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Fiddaun%20%2801%29.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiddaun%20%2801%29.JPG?width=400"
   },
   {
     "name": "Finnan Castle",
@@ -2109,7 +2109,7 @@
     "type": "castle",
     "lat": 52.76065,
     "lng": -7.58166,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Foulkscourt%2C%20Kilkenny%20%281%29%20-%20geograph.org.uk%20-%202495691.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Foulkscourt%2C%20Kilkenny%20%281%29%20-%20geograph.org.uk%20-%202495691.jpg?width=400"
   },
   {
     "name": "Foulksrath Castle",
@@ -2117,7 +2117,7 @@
     "type": "castle",
     "lat": 52.749614,
     "lng": -7.315992,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Foulksrath%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Foulksrath%20Castle.jpg?width=400"
   },
   {
     "name": "Galgorm Castle",
@@ -2125,7 +2125,7 @@
     "type": "castle",
     "lat": 54.8572,
     "lng": -6.31655,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/G%20castle%20view.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/G%20castle%20view.jpg?width=400"
   },
   {
     "name": "Gallen Monastery",
@@ -2133,7 +2133,7 @@
     "type": "monastery",
     "lat": 53.264792,
     "lng": -7.823971,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gallen%20Priory%20Early%20Monastic%20Site%20East%20Wall%202010%2009%2010.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gallen%20Priory%20Early%20Monastic%20Site%20East%20Wall%202010%2009%2010.jpg?width=400"
   },
   {
     "name": "Gallen Priory",
@@ -2149,7 +2149,7 @@
     "type": "castle",
     "lat": 53.406674,
     "lng": -8.635868,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Garbally%2C%20Galway%20%28geograph%201953904%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht-%20Garbally%2C%20Galway%20%28geograph%201953904%29.jpg?width=400"
   },
   {
     "name": "Garryhiggin Castle",
@@ -2157,7 +2157,7 @@
     "type": "castle",
     "lat": 52.683309,
     "lng": -7.521231,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Garryhiggin%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%207541415.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Garryhiggin%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%207541415.jpg?width=400"
   },
   {
     "name": "Gaulstown Castle",
@@ -2173,7 +2173,7 @@
     "type": "abbey",
     "lat": 51.894317,
     "lng": -8.487591,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Cork%20-%20Gilabbey%20-%2020170930153122.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cork%20-%20Gilabbey%20-%2020170930153122.jpg?width=400"
   },
   {
     "name": "Glanawydan Abbey",
@@ -2189,7 +2189,7 @@
     "type": "castle",
     "lat": 54.9661,
     "lng": -5.95612,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glenarm%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Glenarm%20Castle.jpg?width=400"
   },
   {
     "name": "Glendalough",
@@ -2197,7 +2197,7 @@
     "type": "abbey",
     "lat": 53.010277777,
     "lng": -6.3275,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glendalough%20monastery.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Glendalough%20monastery.jpg?width=400"
   },
   {
     "name": "Glenstal Abbey",
@@ -2205,7 +2205,7 @@
     "type": "abbey",
     "lat": 52.661677777,
     "lng": -8.388169444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GlenstalAbbeyHouse.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GlenstalAbbeyHouse.jpg?width=400"
   },
   {
     "name": "Glenveagh Castle",
@@ -2213,7 +2213,7 @@
     "type": "castle",
     "lat": 55.03333333,
     "lng": -7.96666667,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gleann%20Bheatha%20-%20geograph.org.uk%20-%2069006.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gleann%20Bheatha%20-%20geograph.org.uk%20-%2069006.jpg?width=400"
   },
   {
     "name": "Glinsk Castle",
@@ -2221,7 +2221,7 @@
     "type": "castle",
     "lat": 53.652008,
     "lng": -8.432011,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Glinsk%20castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Glinsk%20castle.jpg?width=400"
   },
   {
     "name": "Gobban Saers Castle",
@@ -2237,7 +2237,7 @@
     "type": "castle",
     "lat": 52.27037,
     "lng": -7.04473,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/GorteensCastle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GorteensCastle.jpg?width=400"
   },
   {
     "name": "Gortlownan Motte",
@@ -2253,7 +2253,7 @@
     "type": "castle",
     "lat": 54.346,
     "lng": -6.515,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gosford%20Castle%203.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gosford%20Castle%203.jpg?width=400"
   },
   {
     "name": "Gowran Castle",
@@ -2261,7 +2261,7 @@
     "type": "castle",
     "lat": 52.629293,
     "lng": -7.063758,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gowran%20Castle%20-%20geograph.org.uk%20-%20475982.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gowran%20Castle%20-%20geograph.org.uk%20-%20475982.jpg?width=400"
   },
   {
     "name": "Grace's Old Castle",
@@ -2285,7 +2285,7 @@
     "type": "castle",
     "lat": 52.280811,
     "lng": -7.160479,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Granagh%20Castle%20-%20geograph.org.uk%20-%20486458.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Granagh%20Castle%20-%20geograph.org.uk%20-%20486458.jpg?width=400"
   },
   {
     "name": "Grange Castle",
@@ -2293,7 +2293,7 @@
     "type": "castle",
     "lat": 53.375118,
     "lng": -7.068169,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grange%20Castle%2C%20County%20Kildare.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grange%20Castle%2C%20County%20Kildare.jpg?width=400"
   },
   {
     "name": "Grangefertagh castle",
@@ -2309,7 +2309,7 @@
     "type": "castle",
     "lat": 54.0405,
     "lng": -6.1043,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Green%20Castle%2C%20Greencastle%2C%20Carlingford%20Lough%20-%20geograph.org.uk%20-%201095224.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20Castle%2C%20Greencastle%2C%20Carlingford%20Lough%20-%20geograph.org.uk%20-%201095224.jpg?width=400"
   },
   {
     "name": "Greenmount Motte",
@@ -2317,7 +2317,7 @@
     "type": "castle",
     "lat": 53.877999,
     "lng": -6.385855,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Greenmount%20motte-and-bailey%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%201772463.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Greenmount%20motte-and-bailey%2C%20Co.%20Louth%20-%20geograph.org.uk%20-%201772463.jpg?width=400"
   },
   {
     "name": "Gregans Castle",
@@ -2325,7 +2325,7 @@
     "type": "castle",
     "lat": 53.07676667,
     "lng": -9.18432222,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gregans%20Castles.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregans%20Castles.jpg?width=400"
   },
   {
     "name": "Grennan Castle",
@@ -2333,7 +2333,7 @@
     "type": "castle",
     "lat": 52.521063,
     "lng": -7.127237,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grennan%20Castle-10-2017-gje.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grennan%20Castle-10-2017-gje.jpg?width=400"
   },
   {
     "name": "Grey Abbey",
@@ -2341,7 +2341,7 @@
     "type": "abbey",
     "lat": 54.5358,
     "lng": -5.5583,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Abbey%20-%20Ards.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Abbey%20-%20Ards.jpg?width=400"
   },
   {
     "name": "Grey Point Fort",
@@ -2349,7 +2349,7 @@
     "type": "fort",
     "lat": 54.675183,
     "lng": -5.741836,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Point%20Fort%2C%20Helen%27s%20Bay%20%282%29%20-%20geograph.org.uk%20-%20441338.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Point%20Fort%2C%20Helen%27s%20Bay%20%282%29%20-%20geograph.org.uk%20-%20441338.jpg?width=400"
   },
   {
     "name": "Harry Avery's Castle",
@@ -2357,7 +2357,7 @@
     "type": "castle",
     "lat": 54.7135,
     "lng": -7.39334,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Avery%27s%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Harry%20Avery%27s%20Castle.jpg?width=400"
   },
   {
     "name": "Headford Castle",
@@ -2365,7 +2365,7 @@
     "type": "castle",
     "lat": 53.468055555,
     "lng": -9.099388888,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Headford%2C%20Galway%20-%20geograph.org.uk%20-%205829331.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Headford%2C%20Galway%20-%20geograph.org.uk%20-%205829331.jpg?width=400"
   },
   {
     "name": "Hillsborough Castle",
@@ -2373,7 +2373,7 @@
     "type": "castle",
     "lat": 54.4612,
     "lng": -6.08609,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hillsborough%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hillsborough%20Castle.jpg?width=400"
   },
   {
     "name": "Hillsborough Fort",
@@ -2389,7 +2389,7 @@
     "type": "abbey",
     "lat": 52.6393989,
     "lng": -7.86799,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/IMGHolyCross%204780w.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IMGHolyCross%204780w.jpg?width=400"
   },
   {
     "name": "Holy Trinity Abbey",
@@ -2397,7 +2397,7 @@
     "type": "abbey",
     "lat": 53.989215,
     "lng": -8.254515,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/COA%20Premonstratensians.svg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/COA%20Premonstratensians.svg?width=400"
   },
   {
     "name": "Hope Castle",
@@ -2405,7 +2405,7 @@
     "type": "castle",
     "lat": 54.119,
     "lng": -6.73,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hope%20Castle%20Hotel%2C%20Castleblayney%20-%20geograph.org.uk%20-%201447309.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hope%20Castle%20Hotel%2C%20Castleblayney%20-%20geograph.org.uk%20-%201447309.jpg?width=400"
   },
   {
     "name": "Hore Abbey",
@@ -2413,7 +2413,7 @@
     "type": "abbey",
     "lat": 52.5175,
     "lng": -7.9,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Hore%20Abbey%20County%20Tipperary%20Irland%4020160604.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hore%20Abbey%20County%20Tipperary%20Irland%4020160604.jpg?width=400"
   },
   {
     "name": "Howth Castle",
@@ -2421,7 +2421,7 @@
     "type": "castle",
     "lat": 53.3863,
     "lng": -6.079,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Howth%20Castle%20and%20Environs.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Howth%20Castle%20and%20Environs.jpg?width=400"
   },
   {
     "name": "Humewood Castle",
@@ -2429,7 +2429,7 @@
     "type": "castle",
     "lat": 52.91,
     "lng": -6.612,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Humewood%20Castle%2C%20Kiltegan.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Humewood%20Castle%2C%20Kiltegan.jpg?width=400"
   },
   {
     "name": "Huntington Castle",
@@ -2437,7 +2437,7 @@
     "type": "castle",
     "lat": 52.6898,
     "lng": -6.6486,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Huntington%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huntington%20Castle.jpg?width=400"
   },
   {
     "name": "Inch Abbey",
@@ -2445,7 +2445,7 @@
     "type": "abbey",
     "lat": 54.3328,
     "lng": -5.73333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inch%20Abbey%2C%20Downpatrick%2C%20March%202010%20%2803%29.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Inch%20Abbey%2C%20Downpatrick%2C%20March%202010%20%2803%29.JPG?width=400"
   },
   {
     "name": "Inch Castle",
@@ -2453,7 +2453,7 @@
     "type": "castle",
     "lat": 55.04759979,
     "lng": -7.49620008,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Farland%20Bank%20and%20Inch%20Castle%20-%20panoramio.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Farland%20Bank%20and%20Inch%20Castle%20-%20panoramio.jpg?width=400"
   },
   {
     "name": "Inchbofin Ecclesiastical Site",
@@ -2461,7 +2461,7 @@
     "type": "monastery",
     "lat": 53.54151,
     "lng": -7.91714,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Placchetta%20decorativa%2C%20dall%27isola%20di%20inchbofin%2C%20lough%20ree%2C%20co.%20di%20westmeath%2C%20810%20dc%20ca.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Placchetta%20decorativa%2C%20dall%27isola%20di%20inchbofin%2C%20lough%20ree%2C%20co.%20di%20westmeath%2C%20810%20dc%20ca.jpg?width=400"
   },
   {
     "name": "Inchicronan Priory",
@@ -2469,7 +2469,7 @@
     "type": "abbey",
     "lat": 52.918017,
     "lng": -8.90669,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/InchicronanPriory.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/InchicronanPriory.JPG?width=400"
   },
   {
     "name": "Inchmacnerin Abbey",
@@ -2477,7 +2477,7 @@
     "type": "monastery",
     "lat": 53.994501,
     "lng": -8.260823,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jetties%20on%20Lough%20Key%20-%20geograph.org.uk%20-%20801256.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jetties%20on%20Lough%20Key%20-%20geograph.org.uk%20-%20801256.jpg?width=400"
   },
   {
     "name": "Inchmore Castle",
@@ -2485,7 +2485,7 @@
     "type": "castle",
     "lat": 52.73585,
     "lng": -7.34597,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inchmore%20Castle%2002.png?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Inchmore%20Castle%2002.png?width=400"
   },
   {
     "name": "Inishmacsaint Monastery",
@@ -2493,7 +2493,7 @@
     "type": "monastery",
     "lat": 54.4355,
     "lng": -7.745472222,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Inishmacsaint%20Church%20SW%202012%2009%2017.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Inishmacsaint%20Church%20SW%202012%2009%2017.jpg?width=400"
   },
   {
     "name": "Inishmaine Abbey",
@@ -2501,7 +2501,7 @@
     "type": "monastery",
     "lat": 53.598092,
     "lng": -9.301341,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/InishmaineAbbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/InishmaineAbbey.jpg?width=400"
   },
   {
     "name": "Inislounaght Abbey",
@@ -2509,7 +2509,7 @@
     "type": "abbey",
     "lat": 52.35,
     "lng": -7.73055556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crusader%27s%20gravestone%20Marlfield%20churchyard%20June%202010.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Crusader%27s%20gravestone%20Marlfield%20churchyard%20June%202010.jpg?width=400"
   },
   {
     "name": "Innisfallen Church, Oratories & Abbey",
@@ -2517,7 +2517,7 @@
     "type": "abbey",
     "lat": 52.046266,
     "lng": -9.554678,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Innisfallen%20Abbey%2C%20Lough%20Leanej.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Innisfallen%20Abbey%2C%20Lough%20Leanej.jpg?width=400"
   },
   {
     "name": "James's Fort",
@@ -2525,7 +2525,7 @@
     "type": "fort",
     "lat": 51.69964,
     "lng": -8.510284,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Fort%2C%20Kinsale%2C%20West%20Cork.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/James%20Fort%2C%20Kinsale%2C%20West%20Cork.JPG?width=400"
   },
   {
     "name": "Jerpoint Abbey",
@@ -2533,7 +2533,7 @@
     "type": "abbey",
     "lat": 52.51093,
     "lng": -7.15798,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jerpoint%20Abbey%20E%201997%2008%2028.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerpoint%20Abbey%20E%201997%2008%2028.jpg?width=400"
   },
   {
     "name": "Johnstown Castle",
@@ -2541,7 +2541,7 @@
     "type": "castle",
     "lat": 52.293154,
     "lng": -6.504663,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Agricultural%20museum%2C%20Johnstown%20Castle%20-%20geograph.org.uk%20-%201274609.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agricultural%20museum%2C%20Johnstown%20Castle%20-%20geograph.org.uk%20-%201274609.jpg?width=400"
   },
   {
     "name": "Jordan's Castle",
@@ -2549,7 +2549,7 @@
     "type": "castle",
     "lat": 54.26,
     "lng": -5.609,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Jordan%27s%20Castle%201.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan%27s%20Castle%201.jpg?width=400"
   },
   {
     "name": "Kearney's Castle",
@@ -2573,7 +2573,7 @@
     "type": "castle",
     "lat": 52.541647,
     "lng": -7.272985,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kells%2C%20Co%20Kilkenny%2C%201794.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kells%2C%20Co%20Kilkenny%2C%201794.jpg?width=400"
   },
   {
     "name": "Kellsrath Castle",
@@ -2597,7 +2597,7 @@
     "type": "monastery",
     "lat": 53.538837,
     "lng": -8.892038,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilbennan%20Church%20and%20Roundtower%20East%202010%2009%2016.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilbennan%20Church%20and%20Roundtower%20East%202010%2009%2016.jpg?width=400"
   },
   {
     "name": "Kilbolane Castle",
@@ -2605,7 +2605,7 @@
     "type": "castle",
     "lat": 52.339,
     "lng": -8.851,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Kilbolane%2C%20Cork%20-%20geograph.org.uk%20-%201392690.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Kilbolane%2C%20Cork%20-%20geograph.org.uk%20-%201392690.jpg?width=400"
   },
   {
     "name": "Kilcash Castle",
@@ -2613,7 +2613,7 @@
     "type": "castle",
     "lat": 52.39777778,
     "lng": -7.52138889,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilcash%20Castle2.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilcash%20Castle2.jpg?width=400"
   },
   {
     "name": "Kilchrist Castle",
@@ -2621,7 +2621,7 @@
     "type": "castle",
     "lat": 55.401,
     "lng": -5.6467,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilchrist%20Castle%20-%20geograph.org.uk%20-%201343265.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilchrist%20Castle%20-%20geograph.org.uk%20-%201343265.jpg?width=400"
   },
   {
     "name": "Kilclief Castle",
@@ -2629,7 +2629,7 @@
     "type": "castle",
     "lat": 54.328,
     "lng": -5.554,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilclief%20Castle%2C%20Geograph.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilclief%20Castle%2C%20Geograph.jpg?width=400"
   },
   {
     "name": "Kilcoe Castle",
@@ -2637,7 +2637,7 @@
     "type": "castle",
     "lat": 51.54024,
     "lng": -9.41442,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilcoe%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilcoe%20Castle.jpg?width=400"
   },
   {
     "name": "Kilcooly Abbey",
@@ -2645,7 +2645,7 @@
     "type": "abbey",
     "lat": 52.670759,
     "lng": -7.571259,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilcooly%20Abbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilcooly%20Abbey.jpg?width=400"
   },
   {
     "name": "Kilcrea Friary",
@@ -2653,7 +2653,7 @@
     "type": "abbey",
     "lat": 51.86472222,
     "lng": -8.71111111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/KilcreaFriary.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/KilcreaFriary.JPG?width=400"
   },
   {
     "name": "Kildare Abbey",
@@ -2669,7 +2669,7 @@
     "type": "castle",
     "lat": 53.1572,
     "lng": -6.9091,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kildare%20Town%20and%20Surrounds.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kildare%20Town%20and%20Surrounds.jpg?width=400"
   },
   {
     "name": "Kilgobbin Castle",
@@ -2677,7 +2677,7 @@
     "type": "castle",
     "lat": 53.25966,
     "lng": -6.21311,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Kilgoben%20%28Kilgobbin%29%20Castle%2C%205%20miles%20from%20Dublin%20-%20RIA%20MS%203%20C%203115%20-%20From%20Watercolour%20by%20Gabriel%20Beranger%20-%20ca.1729-1817.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Kilgoben%20%28Kilgobbin%29%20Castle%2C%205%20miles%20from%20Dublin%20-%20RIA%20MS%203%20C%203115%20-%20From%20Watercolour%20by%20Gabriel%20Beranger%20-%20ca.1729-1817.jpg?width=400"
   },
   {
     "name": "Kilkea Castle",
@@ -2685,7 +2685,7 @@
     "type": "castle",
     "lat": 52.94333333,
     "lng": -6.88694444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilkea%20Castle%20Castledermot%20Ireland.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilkea%20Castle%20Castledermot%20Ireland.jpg?width=400"
   },
   {
     "name": "Kilkenny Castle",
@@ -2693,7 +2693,7 @@
     "type": "castle",
     "lat": 52.650277777,
     "lng": -7.249166666,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilkenny-castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilkenny-castle.jpg?width=400"
   },
   {
     "name": "Kilkerran Castle",
@@ -2701,7 +2701,7 @@
     "type": "castle",
     "lat": 55.41656,
     "lng": -5.5895672,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Top%20Of%20Kilkerran%20Castle%20-%20geograph.org.uk%20-%201208069.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Top%20Of%20Kilkerran%20Castle%20-%20geograph.org.uk%20-%201208069.jpg?width=400"
   },
   {
     "name": "Killenny Abbey",
@@ -2717,7 +2717,7 @@
     "type": "castle",
     "lat": 54.1232,
     "lng": -6.4107,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killevy%20Castle%20-%20geograph.org.uk%20-%20564025%20%28cropped%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Killevy%20Castle%20-%20geograph.org.uk%20-%20564025%20%28cropped%29.jpg?width=400"
   },
   {
     "name": "Killiney Castle",
@@ -2725,7 +2725,7 @@
     "type": "castle",
     "lat": 53.2693,
     "lng": -6.1133,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killiney%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Killiney%20Castle.jpg?width=400"
   },
   {
     "name": "Killowen Castle",
@@ -2741,7 +2741,7 @@
     "type": "castle",
     "lat": 53.659538888,
     "lng": -6.996211111,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killua%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Killua%20Castle.jpg?width=400"
   },
   {
     "name": "Killyleagh Castle",
@@ -2749,7 +2749,7 @@
     "type": "castle",
     "lat": 54.4025,
     "lng": -5.6542,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killyleagh%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Killyleagh%20Castle.jpg?width=400"
   },
   {
     "name": "Killymoon Castle",
@@ -2773,7 +2773,7 @@
     "type": "abbey",
     "lat": 53.0498213,
     "lng": -8.88956,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilmacduagh%20Abbey%20of%20St.%20Mary%20de%20Petra%202015%2008%2031.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilmacduagh%20Abbey%20of%20St.%20Mary%20de%20Petra%202015%2008%2031.jpg?width=400"
   },
   {
     "name": "Kilmademog Castle",
@@ -2789,7 +2789,7 @@
     "type": "monastery",
     "lat": 52.518108,
     "lng": -7.268573,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kilree.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilree.jpg?width=400"
   },
   {
     "name": "Kilshane Abbey",
@@ -2813,7 +2813,7 @@
     "type": "castle",
     "lat": 54.8424,
     "lng": -5.88856,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Killwaughter%20Castle%20-%20geograph.org.uk%20-%20226686.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Killwaughter%20Castle%20-%20geograph.org.uk%20-%20226686.jpg?width=400"
   },
   {
     "name": "Kinalehin Friary",
@@ -2821,7 +2821,7 @@
     "type": "abbey",
     "lat": 53.1028016,
     "lng": -8.39246,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kinalehin%20Friary%20South%20Range%202009%2009%2017.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinalehin%20Friary%20South%20Range%202009%2009%2017.jpg?width=400"
   },
   {
     "name": "Kinbane Castle",
@@ -2829,7 +2829,7 @@
     "type": "castle",
     "lat": 55.2292,
     "lng": -6.29139,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kinbane%20Castle%2C%20daylight.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kinbane%20Castle%2C%20daylight.jpg?width=400"
   },
   {
     "name": "Kindlestown Castle",
@@ -2837,7 +2837,7 @@
     "type": "castle",
     "lat": 53.141177,
     "lng": -6.089058,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kindlestown%20Castle%2C%20County%20Wicklow.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kindlestown%20Castle%2C%20County%20Wicklow.JPG?width=400"
   },
   {
     "name": "King John's Castle",
@@ -2845,7 +2845,7 @@
     "type": "castle",
     "lat": 52.669722222,
     "lng": -8.625555555,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Treaty%20Stone%20and%20King%20Johns%20Castle%2C%20Limerick%20-%20geograph.org.uk%20-%20303274.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Treaty%20Stone%20and%20King%20Johns%20Castle%2C%20Limerick%20-%20geograph.org.uk%20-%20303274.jpg?width=400"
   },
   {
     "name": "King's Castle",
@@ -2853,7 +2853,7 @@
     "type": "castle",
     "lat": 54.2595,
     "lng": -5.6078,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kings%20Castle%20Nursing%20Home%2C%20Ardglass%2C%20November%202010%20%2801%29.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kings%20Castle%20Nursing%20Home%2C%20Ardglass%2C%20November%202010%20%2801%29.JPG?width=400"
   },
   {
     "name": "Kirkistown Castle",
@@ -2861,7 +2861,7 @@
     "type": "castle",
     "lat": 54.4424,
     "lng": -5.4661,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kirkistown%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirkistown%20Castle.jpg?width=400"
   },
   {
     "name": "Knockdrum Stone Fort",
@@ -2869,7 +2869,7 @@
     "type": "hillfort",
     "lat": 51.5265,
     "lng": -9.1937,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Knockdrum%202.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Knockdrum%202.jpg?width=400"
   },
   {
     "name": "Knockgraffon Castle",
@@ -2877,7 +2877,7 @@
     "type": "castle",
     "lat": 52.417326,
     "lng": -7.9290873,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Knockgraffon%2C%20Tipperary%20-%20geograph.org.uk%20-%201542103.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Knockgraffon%2C%20Tipperary%20-%20geograph.org.uk%20-%201542103.jpg?width=400"
   },
   {
     "name": "Knockmoy Abbey",
@@ -2885,7 +2885,7 @@
     "type": "abbey",
     "lat": 53.440587949,
     "lng": -8.742944645,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Knockmoy%20Abbey%20957024.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Knockmoy%20Abbey%20957024.jpg?width=400"
   },
   {
     "name": "Knockmoylan Castle",
@@ -2917,7 +2917,7 @@
     "type": "abbey",
     "lat": 53.56167986,
     "lng": -9.889264873,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Kylemore%20Abbey%20Reflections.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kylemore%20Abbey%20Reflections.jpg?width=400"
   },
   {
     "name": "Lackeen Castle",
@@ -2925,7 +2925,7 @@
     "type": "castle",
     "lat": 53.0886,
     "lng": -8.0739,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Lackeen%2C%20Tipperary%20-%20geograph.org.uk%20-%201542016.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Lackeen%2C%20Tipperary%20-%20geograph.org.uk%20-%201542016.jpg?width=400"
   },
   {
     "name": "Lacken Castle",
@@ -2949,7 +2949,7 @@
     "type": "castle",
     "lat": 52.98758889,
     "lng": -9.14026389,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lemaneagh%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lemaneagh%20Castle.jpg?width=400"
   },
   {
     "name": "Leap Castle",
@@ -2957,7 +2957,7 @@
     "type": "castle",
     "lat": 53.0281,
     "lng": -7.8085,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Leap%2C%20Offaly%20%28geograph%201952754%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Leap%2C%20Offaly%20%28geograph%201952754%29.jpg?width=400"
   },
   {
     "name": "Legan Castle",
@@ -2973,7 +2973,7 @@
     "type": "castle",
     "lat": 52.7357,
     "lng": -6.9781,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leighlinbridge3836.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leighlinbridge3836.jpg?width=400"
   },
   {
     "name": "Leixlip Castle",
@@ -2981,7 +2981,7 @@
     "type": "castle",
     "lat": 53.36199,
     "lng": -6.49068,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Leixlip%20Castle%2C%20Co.%20Kildare%2C%20Ireland.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leixlip%20Castle%2C%20Co.%20Kildare%2C%20Ireland.jpg?width=400"
   },
   {
     "name": "Lenan Head Fort",
@@ -2989,7 +2989,7 @@
     "type": "fort",
     "lat": 55.247,
     "lng": -7.532,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lenan%20Head%20Fort%20-%20geograph.org.uk%20-%20882388.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lenan%20Head%20Fort%20-%20geograph.org.uk%20-%20882388.jpg?width=400"
   },
   {
     "name": "Liathleitir",
@@ -3013,7 +3013,7 @@
     "type": "castle",
     "lat": 52.260481,
     "lng": -8.804103,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Liscarroll%2C%20Cork%20-%20geograph.org.uk%20-%201392828.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Liscarroll%2C%20Cork%20-%20geograph.org.uk%20-%201392828.jpg?width=400"
   },
   {
     "name": "Lisdowney Castle",
@@ -3029,7 +3029,7 @@
     "type": "castle",
     "lat": 52.75182766,
     "lng": -7.74448156,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lisheen%20Castle%2C%20Templemore%2C%20Tipperary%20%281%29%20%28geograph%206557090%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisheen%20Castle%2C%20Templemore%2C%20Tipperary%20%281%29%20%28geograph%206557090%29.jpg?width=400"
   },
   {
     "name": "Lislaughtin Abbey",
@@ -3037,7 +3037,7 @@
     "type": "abbey",
     "lat": 52.557472,
     "lng": -9.470057,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ballylongford%20-%20Lislauthin%20Abbey.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ballylongford%20-%20Lislauthin%20Abbey.JPG?width=400"
   },
   {
     "name": "Lismore Castle",
@@ -3045,7 +3045,7 @@
     "type": "castle",
     "lat": 52.140555555,
     "lng": -7.9325,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Irland%202010.08.18%20026.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Irland%202010.08.18%20026.jpg?width=400"
   },
   {
     "name": "Lisnagade",
@@ -3053,7 +3053,7 @@
     "type": "hillfort",
     "lat": 54.333,
     "lng": -6.331,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lisnagade%20fort%20near%20Scarva%20-%20geograph.org.uk%20-%20284954.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisnagade%20fort%20near%20Scarva%20-%20geograph.org.uk%20-%20284954.jpg?width=400"
   },
   {
     "name": "Listowel Castle",
@@ -3061,7 +3061,7 @@
     "type": "castle",
     "lat": 52.44527778,
     "lng": -9.48583333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Listowel%20Castle.JPEG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Listowel%20Castle.JPEG?width=400"
   },
   {
     "name": "Lochend Castle, Campbeltown",
@@ -3085,7 +3085,7 @@
     "type": "castle",
     "lat": 53.0237,
     "lng": -8.8031,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Gothic%20revival%20castle%2C%20Lough%20Cutra%20Castle%2C%20Galway%2C%20Ireland%20%2820299996302%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gothic%20revival%20castle%2C%20Lough%20Cutra%20Castle%2C%20Galway%2C%20Ireland%20%2820299996302%29.jpg?width=400"
   },
   {
     "name": "Lough Rynn Castle",
@@ -3093,7 +3093,7 @@
     "type": "castle",
     "lat": 53.89305556,
     "lng": -7.84694444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Lough%20Rynn1.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lough%20Rynn1.JPG?width=400"
   },
   {
     "name": "Loughmoe Castle",
@@ -3101,7 +3101,7 @@
     "type": "castle",
     "lat": 52.754932,
     "lng": -7.826447,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Loughmore%20Castle.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Loughmore%20Castle.JPG?width=400"
   },
   {
     "name": "Luttrellstown Castle",
@@ -3109,7 +3109,7 @@
     "type": "castle",
     "lat": 53.37926667,
     "lng": -6.41745556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Luttrellstown%20Castle%20by%20Rose%20Barton%201898.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luttrellstown%20Castle%20by%20Rose%20Barton%201898.jpg?width=400"
   },
   {
     "name": "Lynch's Castle",
@@ -3117,7 +3117,7 @@
     "type": "castle",
     "lat": 53.27324,
     "lng": -9.05241,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ireland%20Galway%20Lynch%27s%20Castle%20BW%202025-09-10%2018-24-13.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ireland%20Galway%20Lynch%27s%20Castle%20BW%202025-09-10%2018-24-13.jpg?width=400"
   },
   {
     "name": "Macosquin Abbey",
@@ -3125,7 +3125,7 @@
     "type": "monastery",
     "lat": 55.09916667,
     "lng": -6.71666667,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20Church%20of%20Ireland%2C%20Macosquin%20-%20geograph.org.uk%20-%20529704.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20Church%20of%20Ireland%2C%20Macosquin%20-%20geograph.org.uk%20-%20529704.jpg?width=400"
   },
   {
     "name": "Macroom Castle",
@@ -3133,7 +3133,7 @@
     "type": "castle",
     "lat": 51.904804,
     "lng": -8.960315,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Macroom%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Macroom%20Castle.jpg?width=400"
   },
   {
     "name": "Mahee Castle",
@@ -3141,7 +3141,7 @@
     "type": "castle",
     "lat": 54.500951,
     "lng": -5.648475,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mahee%20Castle%2C%20January%202011%20%2801%29.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahee%20Castle%2C%20January%202011%20%2801%29.JPG?width=400"
   },
   {
     "name": "Malahide Castle",
@@ -3149,7 +3149,7 @@
     "type": "castle",
     "lat": 53.444722222,
     "lng": -6.165,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Malahide%20Castle%2C%20March%202011%20%283%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Malahide%20Castle%2C%20March%202011%20%283%29.jpg?width=400"
   },
   {
     "name": "Mallow Castle",
@@ -3157,7 +3157,7 @@
     "type": "castle",
     "lat": 52.133888,
     "lng": -8.639469,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Mallow%2C%20Cork%20-%20geograph.org.uk%20-%201392955.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Mallow%2C%20Cork%20-%20geograph.org.uk%20-%201392955.jpg?width=400"
   },
   {
     "name": "Manderley Castle",
@@ -3165,7 +3165,7 @@
     "type": "castle",
     "lat": 53.2627,
     "lng": -6.113,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Manderley%20Castle%20%288173369686%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Manderley%20Castle%20%288173369686%29.jpg?width=400"
   },
   {
     "name": "Margaret's Castle",
@@ -3173,7 +3173,7 @@
     "type": "castle",
     "lat": 54.2586,
     "lng": -5.6067,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Margarets%20Castle%2C%20Ardglass%2C%20November%202010%20%2802%29.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Margarets%20Castle%2C%20Ardglass%2C%20November%202010%20%2802%29.JPG?width=400"
   },
   {
     "name": "Markree Castle",
@@ -3181,7 +3181,7 @@
     "type": "castle",
     "lat": 54.17413889,
     "lng": -8.46144444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Markree%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Markree%20Castle.jpg?width=400"
   },
   {
     "name": "Maynooth Castle",
@@ -3189,7 +3189,7 @@
     "type": "castle",
     "lat": 53.38079,
     "lng": -6.5944,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Maynooth%20Castle4.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maynooth%20Castle4.jpg?width=400"
   },
   {
     "name": "McCann’s Bakery",
@@ -3205,7 +3205,7 @@
     "type": "castle",
     "lat": 53.9894558,
     "lng": -8.2325894,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/McDermott%27s%20Castle%2C%20County%20Roscommon%2C%20Ireland.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/McDermott%27s%20Castle%2C%20County%20Roscommon%2C%20Ireland.jpg?width=400"
   },
   {
     "name": "Menlo Castle",
@@ -3213,7 +3213,7 @@
     "type": "castle",
     "lat": 53.2963551,
     "lng": -9.0757048,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Menlough%2C%20Galway%20%282%29%20-%20geograph.org.uk%20-%201953895.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Menlough%2C%20Galway%20%282%29%20-%20geograph.org.uk%20-%201953895.jpg?width=400"
   },
   {
     "name": "Millmount Fort",
@@ -3221,7 +3221,7 @@
     "type": "castle",
     "lat": 53.711592,
     "lng": -6.349484,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Millmount%202.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Millmount%202.JPG?width=400"
   },
   {
     "name": "Minard Castle",
@@ -3229,7 +3229,7 @@
     "type": "castle",
     "lat": 52.126111,
     "lng": -10.110556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20near%20Minard%20East%20-%20geograph.org.uk%20-%2017838.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20near%20Minard%20East%20-%20geograph.org.uk%20-%2017838.jpg?width=400"
   },
   {
     "name": "Mitchelstown Castle",
@@ -3237,7 +3237,7 @@
     "type": "castle",
     "lat": 52.27222222,
     "lng": -8.28,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mitchelstown%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitchelstown%20Castle.jpg?width=400"
   },
   {
     "name": "Moatpark Castle",
@@ -3261,7 +3261,7 @@
     "type": "abbey",
     "lat": 52.51685,
     "lng": -8.66285,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MonasteranenaghAbbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MonasteranenaghAbbey.jpg?width=400"
   },
   {
     "name": "Monasterboice",
@@ -3269,7 +3269,7 @@
     "type": "monastery",
     "lat": 53.777647222,
     "lng": -6.417341666,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monasterboice%20North%20Church%20and%20West%20Cross%20West%20Face%202013%2009%2027.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monasterboice%20North%20Church%20and%20West%20Cross%20West%20Face%202013%2009%2027.jpg?width=400"
   },
   {
     "name": "Monastery of Inisnag",
@@ -3285,7 +3285,7 @@
     "type": "monastery",
     "lat": 53.92259,
     "lng": -7.86557,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monastery%20of%20Mohill%20ruined%20school.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monastery%20of%20Mohill%20ruined%20school.jpg?width=400"
   },
   {
     "name": "Monea Castle",
@@ -3293,7 +3293,7 @@
     "type": "castle",
     "lat": 54.393,
     "lng": -7.748,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monea%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monea%20Castle.jpg?width=400"
   },
   {
     "name": "Monellan Castle",
@@ -3309,7 +3309,7 @@
     "type": "castle",
     "lat": 54.90416667,
     "lng": -7.45333333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mongavlin%20Castle%202013.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mongavlin%20Castle%202013.jpg?width=400"
   },
   {
     "name": "Monivea Castle",
@@ -3317,7 +3317,7 @@
     "type": "castle",
     "lat": 53.36667,
     "lng": -8.683333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monivea%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monivea%20Castle.jpg?width=400"
   },
   {
     "name": "Moonhall Castle",
@@ -3333,7 +3333,7 @@
     "type": "abbey",
     "lat": 53.1361,
     "lng": -7.06287,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moore%20Abbey%20Residential%20Home%202007%2008%2027.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Moore%20Abbey%20Residential%20Home%202007%2008%2027.jpg?width=400"
   },
   {
     "name": "Moorstown Castle",
@@ -3341,7 +3341,7 @@
     "type": "castle",
     "lat": 52.38888889,
     "lng": -7.83055556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Moorstown%2C%20Tipperary%20-%20geograph.org.uk%20-%201542086.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Moorstown%2C%20Tipperary%20-%20geograph.org.uk%20-%201542086.jpg?width=400"
   },
   {
     "name": "Mortimer's Castle",
@@ -3349,7 +3349,7 @@
     "type": "castle",
     "lat": 53.648607,
     "lng": -7.341412,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mortimer%27s%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mortimer%27s%20Castle.jpg?width=400"
   },
   {
     "name": "Mount Melleray Monastery",
@@ -3373,7 +3373,7 @@
     "type": "castle",
     "lat": 54.55888889,
     "lng": -6.60777778,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mountjoy%20castle.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mountjoy%20castle.JPG?width=400"
   },
   {
     "name": "Mourne Abbey",
@@ -3381,7 +3381,7 @@
     "type": "abbey",
     "lat": 52.13333333,
     "lng": -8.65,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/MourneAbbeyCork.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MourneAbbeyCork.jpg?width=400"
   },
   {
     "name": "Movilla Abbey",
@@ -3389,7 +3389,7 @@
     "type": "abbey",
     "lat": 54.593,
     "lng": -5.689,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Movilla%20Abbey%2C%20Newtownards%20-%20geograph.org.uk%20-%2084296.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Movilla%20Abbey%2C%20Newtownards%20-%20geograph.org.uk%20-%2084296.jpg?width=400"
   },
   {
     "name": "Moycarkey Castle",
@@ -3397,7 +3397,7 @@
     "type": "castle",
     "lat": 52.626264,
     "lng": -7.790036,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Moycarkey%2C%20Tipperary%20-%20geograph.org.uk%20-%201542271.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Moycarkey%2C%20Tipperary%20-%20geograph.org.uk%20-%201542271.jpg?width=400"
   },
   {
     "name": "Moydrum Castle",
@@ -3405,7 +3405,7 @@
     "type": "castle",
     "lat": 53.4278,
     "lng": -7.8633,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moydrum%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Moydrum%20Castle.jpg?width=400"
   },
   {
     "name": "Moygara Castle",
@@ -3413,7 +3413,7 @@
     "type": "castle",
     "lat": 53.971645,
     "lng": -8.474742,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Moygara%2C%20Sligo%20%281%29%20-%20geograph.org.uk%20-%204073628.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Moygara%2C%20Sligo%20%281%29%20-%20geograph.org.uk%20-%204073628.jpg?width=400"
   },
   {
     "name": "Moyry Castle",
@@ -3421,7 +3421,7 @@
     "type": "castle",
     "lat": 54.0703,
     "lng": -6.38528,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Moyry%20Castle%2C%20Geograph.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Moyry%20Castle%2C%20Geograph.jpg?width=400"
   },
   {
     "name": "Muckross Abbey",
@@ -3429,7 +3429,7 @@
     "type": "abbey",
     "lat": 52.02611111,
     "lng": -9.49555556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Muckross%20Abbey%20Friary%202014.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Muckross%20Abbey%20Friary%202014.jpg?width=400"
   },
   {
     "name": "Mungret Abbey",
@@ -3437,7 +3437,7 @@
     "type": "monastery",
     "lat": 52.634306,
     "lng": -8.675514,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Mungret%20Abbey%20part%20of%20the%20Mungret%20Churches.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mungret%20Abbey%20part%20of%20the%20Mungret%20Churches.jpg?width=400"
   },
   {
     "name": "Narrow Water Castle",
@@ -3445,7 +3445,7 @@
     "type": "castle",
     "lat": 54.1148,
     "lng": -6.2828,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Narrow%20Water%20Tower%2C%20Warrenpoint%20-%20geograph.org.uk%20-%20399224.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Narrow%20Water%20Tower%2C%20Warrenpoint%20-%20geograph.org.uk%20-%20399224.jpg?width=400"
   },
   {
     "name": "Necarne Castle",
@@ -3453,7 +3453,7 @@
     "type": "castle",
     "lat": 54.4631,
     "lng": -7.63713,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Necarne%20Castle%20%28Castle%20Irvine%29%20%2C%20Irvinestown%20-%20geograph.org.uk%20-%20357778.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Necarne%20Castle%20%28Castle%20Irvine%29%20%2C%20Irvinestown%20-%20geograph.org.uk%20-%20357778.jpg?width=400"
   },
   {
     "name": "Neds Point Fort",
@@ -3461,7 +3461,7 @@
     "type": "fort",
     "lat": 55.141,
     "lng": -7.474,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NedsPointfrontgate.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NedsPointfrontgate.JPG?width=400"
   },
   {
     "name": "Neigham Castle",
@@ -3469,7 +3469,7 @@
     "type": "castle",
     "lat": 52.606485,
     "lng": -7.05442,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Neigham%20Castle%20in%20County%20Kilkenny%20-%20geograph-4570883.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Neigham%20Castle%20in%20County%20Kilkenny%20-%20geograph-4570883.jpg?width=400"
   },
   {
     "name": "Nenagh Castle",
@@ -3477,7 +3477,7 @@
     "type": "castle",
     "lat": 52.865014,
     "lng": -8.198192,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nenagh%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nenagh%20Castle.jpg?width=400"
   },
   {
     "name": "Nendrum Castle",
@@ -3493,7 +3493,7 @@
     "type": "monastery",
     "lat": 54.498,
     "lng": -5.648,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Nendrum%20Abbey%20Ruins.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nendrum%20Abbey%20Ruins.jpg?width=400"
   },
   {
     "name": "Newbridge Estate",
@@ -3501,7 +3501,7 @@
     "type": "castle",
     "lat": 53.48611111,
     "lng": -6.16777778,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/794749-Newbridge%20House-Dublin.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/794749-Newbridge%20House-Dublin.jpg?width=400"
   },
   {
     "name": "Newhouse Castle",
@@ -3525,7 +3525,7 @@
     "type": "monastery",
     "lat": 53.555252,
     "lng": -6.773247,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Newtown%20abbey%20Trim.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Newtown%20abbey%20Trim.jpg?width=400"
   },
   {
     "name": "North Abbey",
@@ -3533,7 +3533,7 @@
     "type": "monastery",
     "lat": 51.95744,
     "lng": -7.85454,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/NorthAbbeyYoughal.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NorthAbbeyYoughal.JPG?width=400"
   },
   {
     "name": "Northburgh Castle",
@@ -3541,7 +3541,7 @@
     "type": "castle",
     "lat": 55.205244,
     "lng": -6.975301,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Greencastle%20Castle%20Gate%20Towers%20II%202016%2009%2005.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Greencastle%20Castle%20Gate%20Towers%20II%202016%2009%2005.jpg?width=400"
   },
   {
     "name": "Noughaval Early Monastic Site",
@@ -3549,7 +3549,7 @@
     "type": "monastery",
     "lat": 53.015775,
     "lng": -9.180291,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Noughaval%20Old%20Church%202013%2007%2019.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Noughaval%20Old%20Church%202013%2007%2019.jpg?width=400"
   },
   {
     "name": "Nugent Castle",
@@ -3557,7 +3557,7 @@
     "type": "castle",
     "lat": 53.6112,
     "lng": -7.093598,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Delvin%20Castle%20-%20geograph.org.uk%20-%20166670.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Delvin%20Castle%20-%20geograph.org.uk%20-%20166670.jpg?width=400"
   },
   {
     "name": "O’Doherty’s Fort",
@@ -3573,7 +3573,7 @@
     "type": "castle",
     "lat": 52.89704,
     "lng": -8.53987,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/O%27Grady%27s%20tower%20house%2C%20Tuamgraney%20-%20geograph.org.uk%20-%201601576.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/O%27Grady%27s%20tower%20house%2C%20Tuamgraney%20-%20geograph.org.uk%20-%201601576.jpg?width=400"
   },
   {
     "name": "Old Monastery Hostel",
@@ -3581,7 +3581,7 @@
     "type": "monastery",
     "lat": 53.551968,
     "lng": -9.945969,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Letterfrack%20Old%20Monastery%20Hostel%202018%2009%2004.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Letterfrack%20Old%20Monastery%20Hostel%202018%2009%2004.jpg?width=400"
   },
   {
     "name": "Olderfleet Castle",
@@ -3589,7 +3589,7 @@
     "type": "castle",
     "lat": 54.845,
     "lng": -5.809,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Olderfleet%20%28geograph%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Olderfleet%20%28geograph%29.jpg?width=400"
   },
   {
     "name": "Oranmore Castle",
@@ -3597,7 +3597,7 @@
     "type": "castle",
     "lat": 53.268255555,
     "lng": -8.935069444,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Oranmore%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oranmore%20Castle.jpg?width=400"
   },
   {
     "name": "Ormonde Castle",
@@ -3605,7 +3605,7 @@
     "type": "castle",
     "lat": 52.345234,
     "lng": -7.407095,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20towerhouse%20at%20Ormonde%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern%20towerhouse%20at%20Ormonde%20Castle.jpg?width=400"
   },
   {
     "name": "Parkavonear Castle",
@@ -3613,7 +3613,7 @@
     "type": "castle",
     "lat": 52.074444,
     "lng": -9.554722,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Parkavonear%20Castle%20keep%20Aghadoe.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parkavonear%20Castle%20keep%20Aghadoe.JPG?width=400"
   },
   {
     "name": "Parke's Castle",
@@ -3621,7 +3621,7 @@
     "type": "castle",
     "lat": 54.264792,
     "lng": -8.33443,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Parkes%20Castle%20-%20geograph.org.uk%20-%2071043.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parkes%20Castle%20-%20geograph.org.uk%20-%2071043.jpg?width=400"
   },
   {
     "name": "Portaferry Castle",
@@ -3629,7 +3629,7 @@
     "type": "castle",
     "lat": 54.38,
     "lng": -5.549,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portaferry%20Castle%20%2803%29%2C%20October%202009.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portaferry%20Castle%20%2803%29%2C%20October%202009.JPG?width=400"
   },
   {
     "name": "Portlick Castle",
@@ -3645,7 +3645,7 @@
     "type": "castle",
     "lat": 54.351,
     "lng": -7.655,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portora%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portora%20Castle.jpg?width=400"
   },
   {
     "name": "Portrane Castle",
@@ -3653,7 +3653,7 @@
     "type": "castle",
     "lat": 53.495213,
     "lng": -6.114687,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrane%20Castle%2C%20Co.%20Dublin%20-%20geograph.org.uk%20-%201376023.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrane%20Castle%2C%20Co.%20Dublin%20-%20geograph.org.uk%20-%201376023.jpg?width=400"
   },
   {
     "name": "Pottlerath Castle",
@@ -3693,7 +3693,7 @@
     "type": "castle",
     "lat": 54.3768,
     "lng": -5.4891,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Quintin%20Castle%20crop.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Quintin%20Castle%20crop.jpg?width=400"
   },
   {
     "name": "Quoile Castle",
@@ -3701,7 +3701,7 @@
     "type": "castle",
     "lat": 54.3495,
     "lng": -5.69986,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Down%20%28096%29%2C%20October%202009.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Down%20%28096%29%2C%20October%202009.JPG?width=400"
   },
   {
     "name": "Rahan Castle",
@@ -3709,7 +3709,7 @@
     "type": "castle",
     "lat": 54.6188354,
     "lng": -8.3803665,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rahan-castle-1.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rahan-castle-1.jpg?width=400"
   },
   {
     "name": "Raphoe Castle",
@@ -3717,7 +3717,7 @@
     "type": "castle",
     "lat": 54.8728,
     "lng": -7.597,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Raphoe%20Bishop%27s%20Palace%202016%2009%2002.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raphoe%20Bishop%27s%20Palace%202016%2009%2002.jpg?width=400"
   },
   {
     "name": "Rappa Castle",
@@ -3725,7 +3725,7 @@
     "type": "castle",
     "lat": 54.1415,
     "lng": -9.2493,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Rappa%2C%20Mayo%20%282%29%20-%20geograph.org.uk%20-%201954588.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Connacht%2C%20Rappa%2C%20Mayo%20%282%29%20-%20geograph.org.uk%20-%201954588.jpg?width=400"
   },
   {
     "name": "Rathcoffey Castle",
@@ -3741,7 +3741,7 @@
     "type": "castle",
     "lat": 52.539345,
     "lng": -7.322243,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Rathculbin%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%207609027.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Rathculbin%2C%20Kilkenny%20%282%29%20-%20geograph.org.uk%20-%207609027.jpg?width=400"
   },
   {
     "name": "Rathfriland Castle",
@@ -3749,7 +3749,7 @@
     "type": "castle",
     "lat": 54.238632,
     "lng": -6.15844,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20surviving%20wall%20of%20the%20Magennis%20Castle%20of%201611%20-%20geograph.org.uk%20-%202669895.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20surviving%20wall%20of%20the%20Magennis%20Castle%20of%201611%20-%20geograph.org.uk%20-%202669895.jpg?width=400"
   },
   {
     "name": "Rathlin Castle",
@@ -3765,7 +3765,7 @@
     "type": "castle",
     "lat": 52.269301,
     "lng": -6.490495,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Walshestown%20Castle%20Geograph-3036259-by-Mike-Searle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Walshestown%20Castle%20Geograph-3036259-by-Mike-Searle.jpg?width=400"
   },
   {
     "name": "Rathumney Castle",
@@ -3773,7 +3773,7 @@
     "type": "castle",
     "lat": 52.295312,
     "lng": -6.874471,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rathumney%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rathumney%20Castle.jpg?width=400"
   },
   {
     "name": "Rathurd Castle",
@@ -3781,7 +3781,7 @@
     "type": "castle",
     "lat": 52.63649975,
     "lng": -8.59913831,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Rathurd%2C%20Limerick%20%283%29%20-%20geograph.org.uk%20-%204570282.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Rathurd%2C%20Limerick%20%283%29%20-%20geograph.org.uk%20-%204570282.jpg?width=400"
   },
   {
     "name": "Rattin Castle",
@@ -3789,7 +3789,7 @@
     "type": "castle",
     "lat": 53.4437,
     "lng": -7.1715,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rattin%20Castle%2C%20Westmeath%2C%20Ireland.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rattin%20Castle%2C%20Westmeath%2C%20Ireland.jpg?width=400"
   },
   {
     "name": "Red Bay Castle",
@@ -3797,7 +3797,7 @@
     "type": "castle",
     "lat": 55.0675,
     "lng": -6.05583,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20ruins%20of%20Red%20Bay%20Castle%20-%20geograph.org.uk%20-%203727864.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20ruins%20of%20Red%20Bay%20Castle%20-%20geograph.org.uk%20-%203727864.jpg?width=400"
   },
   {
     "name": "Redwood Castle",
@@ -3805,7 +3805,7 @@
     "type": "castle",
     "lat": 53.14687329,
     "lng": -8.1206131,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Redwood%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Redwood%20Castle.jpg?width=400"
   },
   {
     "name": "Rheban Castle",
@@ -3813,7 +3813,7 @@
     "type": "castle",
     "lat": 53.030272,
     "lng": -7.035214,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Castle%20Reban%2C%20Co.%20Kildare%20%281%29%20-%20geograph.org.uk%20-%205029029.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster%2C%20Castle%20Reban%2C%20Co.%20Kildare%20%281%29%20-%20geograph.org.uk%20-%205029029.jpg?width=400"
   },
   {
     "name": "Rincrew Abbey",
@@ -3829,7 +3829,7 @@
     "type": "castle",
     "lat": 53.5389,
     "lng": -7.99098,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rindown%20Castle%2C%20Co.%20Roscommon%20-%20geograph.org.uk%20-%20731079.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rindown%20Castle%2C%20Co.%20Roscommon%20-%20geograph.org.uk%20-%20731079.jpg?width=400"
   },
   {
     "name": "Rochestown Castle",
@@ -3845,7 +3845,7 @@
     "type": "castle",
     "lat": 52.52,
     "lng": -7.89,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rock%20of%20Cashel%2C%20Tipperary.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock%20of%20Cashel%2C%20Tipperary.jpg?width=400"
   },
   {
     "name": "Rock of Dunamase",
@@ -3853,7 +3853,7 @@
     "type": "castle",
     "lat": 53.031666666,
     "lng": -7.210277777,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20of%20Dunamase%20im%20Abendlicht%2002.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20of%20Dunamase%20im%20Abendlicht%2002.jpg?width=400"
   },
   {
     "name": "Rockstown Castle",
@@ -3861,7 +3861,7 @@
     "type": "castle",
     "lat": 52.56731111,
     "lng": -8.55722222,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Rockstown%2C%20Limerick%20-%20geograph.org.uk%20-%201541517.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Rockstown%2C%20Limerick%20-%20geograph.org.uk%20-%201541517.jpg?width=400"
   },
   {
     "name": "Rockwell College",
@@ -3869,7 +3869,7 @@
     "type": "monastery",
     "lat": 52.459582,
     "lng": -7.891717,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rockwell%20College%20Rugby%20Team%201936.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rockwell%20College%20Rugby%20Team%201936.jpg?width=400"
   },
   {
     "name": "Ross Castle",
@@ -3877,7 +3877,7 @@
     "type": "castle",
     "lat": 52.041,
     "lng": -9.531,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ross%20Castle%20on%20Lough%20Leane%20%2815242590587%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ross%20Castle%20on%20Lough%20Leane%20%2815242590587%29.jpg?width=400"
   },
   {
     "name": "Rossmore Castle",
@@ -3885,7 +3885,7 @@
     "type": "castle",
     "lat": 54.2258162,
     "lng": -6.99852138,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rossmore.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rossmore.jpg?width=400"
   },
   {
     "name": "Roughan Castle",
@@ -3893,7 +3893,7 @@
     "type": "castle",
     "lat": 54.556079,
     "lng": -6.72848,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roughan%20Castle%20Geograph.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roughan%20Castle%20Geograph.jpg?width=400"
   },
   {
     "name": "Roxborough Castle",
@@ -3901,7 +3901,7 @@
     "type": "castle",
     "lat": 54.450833333,
     "lng": -6.685555555,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Roxborough%20Castle%20postcard.png?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roxborough%20Castle%20postcard.png?width=400"
   },
   {
     "name": "Saddell Abbey",
@@ -3909,7 +3909,7 @@
     "type": "abbey",
     "lat": 55.531804,
     "lng": -5.5118928,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saddell%20Abbey%2020100928%20north%20transept%20and%20choir.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saddell%20Abbey%2020100928%20north%20transept%20and%20choir.jpg?width=400"
   },
   {
     "name": "Saddell Castle",
@@ -3917,7 +3917,7 @@
     "type": "castle",
     "lat": 55.527417708,
     "lng": -5.504621973,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Saddell%20Castle%2C%202012.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saddell%20Castle%2C%202012.JPG?width=400"
   },
   {
     "name": "Sart Castle",
@@ -3933,7 +3933,7 @@
     "type": "monastery",
     "lat": 53.717978,
     "lng": -6.348704,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Drogheda%20Scholars%20Townhouse%20Hotel%202022%2008%2025.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Drogheda%20Scholars%20Townhouse%20Hotel%202022%2008%2025.jpg?width=400"
   },
   {
     "name": "Sean Ross Abbey",
@@ -3957,7 +3957,7 @@
     "type": "castle",
     "lat": 54.7274,
     "lng": -6.26807,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shane%27s%20Castle%2C%20County%20Antrim%20-%20geograph.org.uk%20-%20155426.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shane%27s%20Castle%2C%20County%20Antrim%20-%20geograph.org.uk%20-%20155426.jpg?width=400"
   },
   {
     "name": "Shankill Castle",
@@ -3965,7 +3965,7 @@
     "type": "castle",
     "lat": 52.6865,
     "lng": -7.0217,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shankill%20Castle%20Paulstown%20771h.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shankill%20Castle%20Paulstown%20771h.jpg?width=400"
   },
   {
     "name": "Shrule Abbey",
@@ -3973,7 +3973,7 @@
     "type": "monastery",
     "lat": 53.518869,
     "lng": -9.090717,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Shrule%20Abbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shrule%20Abbey.jpg?width=400"
   },
   {
     "name": "Sketrick Castle",
@@ -3981,7 +3981,7 @@
     "type": "castle",
     "lat": 54.4879,
     "lng": -5.6485,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sketrick%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sketrick%20Castle.jpg?width=400"
   },
   {
     "name": "Skryne Castle",
@@ -3989,7 +3989,7 @@
     "type": "castle",
     "lat": 53.583018,
     "lng": -6.561537,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Screen%20Castle%2C%20Co%20Meath%20-%20geograph.org.uk%20-%201760551.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Screen%20Castle%2C%20Co%20Meath%20-%20geograph.org.uk%20-%201760551.jpg?width=400"
   },
   {
     "name": "Slade Castle",
@@ -3997,7 +3997,7 @@
     "type": "castle",
     "lat": 52.133868,
     "lng": -6.910706,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Slade%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Slade%20Castle.jpg?width=400"
   },
   {
     "name": "Slane Castle",
@@ -4005,7 +4005,7 @@
     "type": "castle",
     "lat": 53.709417,
     "lng": -6.56125,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castillo%20de%20Slane%2005.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castillo%20de%20Slane%2005.jpg?width=400"
   },
   {
     "name": "Sleady Castle",
@@ -4013,7 +4013,7 @@
     "type": "castle",
     "lat": 52.1685,
     "lng": -7.725333333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Sleady%2C%20Waterford%20%282%29%20-%20geograph.org.uk%20-%207836863.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Munster%2C%20Sleady%2C%20Waterford%20%282%29%20-%20geograph.org.uk%20-%207836863.jpg?width=400"
   },
   {
     "name": "Smarmore Castle",
@@ -4021,7 +4021,7 @@
     "type": "castle",
     "lat": 53.814379,
     "lng": -6.565611,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Smarmore%2C%20Co.%20Louth%2C%20Ireland%20-%20panoramio%20%285%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Smarmore%2C%20Co.%20Louth%2C%20Ireland%20-%20panoramio%20%285%29.jpg?width=400"
   },
   {
     "name": "Smerby Castle",
@@ -4029,7 +4029,7 @@
     "type": "castle",
     "lat": 55.444257,
     "lng": -5.549108,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Island%20Muller%20by%20Kilchousland.%20-%20geograph.org.uk%20-%2086280.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Island%20Muller%20by%20Kilchousland.%20-%20geograph.org.uk%20-%2086280.jpg?width=400"
   },
   {
     "name": "Spike Island",
@@ -4037,7 +4037,7 @@
     "type": "fort",
     "lat": 51.835,
     "lng": -8.285,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Entry%20of%20Fort%20Mitchel%20on%20Spike%20Island%201.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Entry%20of%20Fort%20Mitchel%20on%20Spike%20Island%201.jpg?width=400"
   },
   {
     "name": "Springfield Castle",
@@ -4045,7 +4045,7 @@
     "type": "castle",
     "lat": 52.351884,
     "lng": -8.955840615,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Springfield%20Castle%2C%20Broadford%2C%20Co%20Limerick%20-%20geograph-3037448.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Springfield%20Castle%2C%20Broadford%2C%20Co%20Limerick%20-%20geograph-3037448.jpg?width=400"
   },
   {
     "name": "St John's Priory",
@@ -4053,7 +4053,7 @@
     "type": "monastery",
     "lat": 52.653848,
     "lng": -7.248448,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/StJohnPrioryKilkenny.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/StJohnPrioryKilkenny.jpg?width=400"
   },
   {
     "name": "St Joseph's Monastery",
@@ -4077,7 +4077,7 @@
     "type": "castle",
     "lat": 52.75469,
     "lng": -7.34698,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Catherine%27s%20Church%201.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Catherine%27s%20Church%201.jpg?width=400"
   },
   {
     "name": "St. Dominic's Abbey",
@@ -4085,7 +4085,7 @@
     "type": "abbey",
     "lat": 52.518027777,
     "lng": -7.887833333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Crossing%20tower%20at%20St.%20Dominic%27s%20Abbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Crossing%20tower%20at%20St.%20Dominic%27s%20Abbey.jpg?width=400"
   },
   {
     "name": "St. Katherine's Abbey, Monisternagalliaghduff",
@@ -4093,7 +4093,7 @@
     "type": "abbey",
     "lat": 52.5713,
     "lng": -9.063,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/2026-03-22%20Oldabbey%20view%20towards%20nunnery%20complex.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2026-03-22%20Oldabbey%20view%20towards%20nunnery%20complex.jpg?width=400"
   },
   {
     "name": "St. Mary's Abbey",
@@ -4101,7 +4101,7 @@
     "type": "abbey",
     "lat": 53.34742,
     "lng": -6.269192,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20Abbey%20front.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Mary%27s%20Abbey%20front.jpg?width=400"
   },
   {
     "name": "St. Mary's Abbey, Duleek",
@@ -4109,7 +4109,7 @@
     "type": "monastery",
     "lat": 53.655069,
     "lng": -6.418806,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tower%20of%20St.%20Mary%27s%20Church%2C%20Duleek%20-%20geograph.org.uk%20-%20757989.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tower%20of%20St.%20Mary%27s%20Church%2C%20Duleek%20-%20geograph.org.uk%20-%20757989.jpg?width=400"
   },
   {
     "name": "Stewart Castle",
@@ -4117,7 +4117,7 @@
     "type": "castle",
     "lat": 54.719,
     "lng": -7.375,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Stewart%20Castle%2C%20Geograph.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stewart%20Castle%2C%20Geograph.jpg?width=400"
   },
   {
     "name": "Store, Mill Lane",
@@ -4141,7 +4141,7 @@
     "type": "castle",
     "lat": 54.3718,
     "lng": -5.5553,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Strangford%20Castle%20%2802%29%2C%20August%202009.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Strangford%20Castle%20%2802%29%2C%20August%202009.JPG?width=400"
   },
   {
     "name": "Stroan Castle",
@@ -4157,7 +4157,7 @@
     "type": "castle",
     "lat": 52.52436,
     "lng": -7.13864,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Sweetman%27s%20Castle%20%28Sweetman%27s%20Tower%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sweetman%27s%20Castle%20%28Sweetman%27s%20Tower%29.jpg?width=400"
   },
   {
     "name": "Swords Castle",
@@ -4165,7 +4165,7 @@
     "type": "castle",
     "lat": 53.4603,
     "lng": -6.21999,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Swords%20Castle%20%28Near%20Dublin%20Airport%29%20-%20panoramio%20%2811%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Swords%20Castle%20%28Near%20Dublin%20Airport%29%20-%20panoramio%20%2811%29.jpg?width=400"
   },
   {
     "name": "Tallaght Monastery",
@@ -4173,7 +4173,7 @@
     "type": "monastery",
     "lat": 53.28912077,
     "lng": -6.36562459,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monasticon%20Hibernicum%201873%20Tallaght.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monasticon%20Hibernicum%201873%20Tallaght.jpg?width=400"
   },
   {
     "name": "Tamlaght Finlagan Monastery",
@@ -4189,7 +4189,7 @@
     "type": "castle",
     "lat": 54.3539,
     "lng": -6.41652,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tandragee%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tandragee%20Castle.jpg?width=400"
   },
   {
     "name": "Tandragee Fort",
@@ -4221,7 +4221,7 @@
     "type": "castle",
     "lat": 54.1171,
     "lng": -8.5747,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TempleHouseCastle01.JPG?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/TempleHouseCastle01.JPG?width=400"
   },
   {
     "name": "The Black Abbey",
@@ -4229,7 +4229,7 @@
     "type": "abbey",
     "lat": 53.145278,
     "lng": -6.903889,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Kildare%20-%20The%20Black%20Abbey%20-%2020180928195612.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/County%20Kildare%20-%20The%20Black%20Abbey%20-%2020180928195612.jpg?width=400"
   },
   {
     "name": "The New Castle, County Down",
@@ -4245,7 +4245,7 @@
     "type": "castle",
     "lat": 52.34672,
     "lng": -7.4146,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Carrick-on-Suir%20-%20The%20Tholsel%20-%2020190909094330.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carrick-on-Suir%20-%20The%20Tholsel%20-%2020190909094330.jpg?width=400"
   },
   {
     "name": "Threecastles Castle",
@@ -4253,7 +4253,7 @@
     "type": "castle",
     "lat": 53.18173,
     "lng": -6.48738,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Threecastles%20near%20Kilbride%2C%20Co%20Wicklow.%20-%20geograph.org.uk%20-%20262197.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Threecastles%20near%20Kilbride%2C%20Co%20Wicklow.%20-%20geograph.org.uk%20-%20262197.jpg?width=400"
   },
   {
     "name": "Tinnakill Castle",
@@ -4261,7 +4261,7 @@
     "type": "castle",
     "lat": 53.128,
     "lng": -7.251,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Tinnakill%2C%20Laois%20%282%29%20%28geograph%206506412%29.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castles%20of%20Leinster-%20Tinnakill%2C%20Laois%20%282%29%20%28geograph%206506412%29.jpg?width=400"
   },
   {
     "name": "Tintern Abbey",
@@ -4269,7 +4269,7 @@
     "type": "abbey",
     "lat": 52.237027777,
     "lng": -6.837833333,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tintern%20Abbey%20in%20a%20green.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tintern%20Abbey%20in%20a%20green.jpg?width=400"
   },
   {
     "name": "Torrisdale Castle",
@@ -4277,7 +4277,7 @@
     "type": "castle",
     "lat": 55.5688,
     "lng": -5.5013,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Torrisdale%20Castle.%20-%20geograph.org.uk%20-%20553191.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Torrisdale%20Castle.%20-%20geograph.org.uk%20-%20553191.jpg?width=400"
   },
   {
     "name": "Tracton Abbey",
@@ -4301,7 +4301,7 @@
     "type": "castle",
     "lat": 53.554341666,
     "lng": -6.789755555,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Castle%20In%20Trim%2C%20County%20Meath%20-%20geograph.org.uk%20-%20303169.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20In%20Trim%2C%20County%20Meath%20-%20geograph.org.uk%20-%20303169.jpg?width=400"
   },
   {
     "name": "Tristernagh Abbey",
@@ -4309,7 +4309,7 @@
     "type": "monastery",
     "lat": 53.5989104,
     "lng": -7.4794096,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TristernaghAbbey.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/TristernaghAbbey.jpg?width=400"
   },
   {
     "name": "Tullagher Castle",
@@ -4333,7 +4333,7 @@
     "type": "castle",
     "lat": 54.458,
     "lng": -7.806,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tully%20Castle%2C%20County%20Fermanagh%20-%20geograph.org.uk%20-%20204216.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tully%20Castle%2C%20County%20Fermanagh%20-%20geograph.org.uk%20-%20204216.jpg?width=400"
   },
   {
     "name": "Tully's Castle",
@@ -4341,7 +4341,7 @@
     "type": "castle",
     "lat": 53.320812,
     "lng": -6.389957,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Monastery%20Road%20and%20Tulley%27s%20Castle%20-%20geograph.org.uk%20-%20811234.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monastery%20Road%20and%20Tulley%27s%20Castle%20-%20geograph.org.uk%20-%20811234.jpg?width=400"
   },
   {
     "name": "Tullykelter Castle",
@@ -4357,7 +4357,7 @@
     "type": "castle",
     "lat": 53.6786,
     "lng": -7.3019,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tully-Nally-Castle%2003.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tully-Nally-Castle%2003.jpg?width=400"
   },
   {
     "name": "Turlough Abbey",
@@ -4365,7 +4365,7 @@
     "type": "monastery",
     "lat": 53.888741,
     "lng": -9.20827,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/TurloughRoundTower.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/TurloughRoundTower.jpg?width=400"
   },
   {
     "name": "Tynte's Castle",
@@ -4373,7 +4373,7 @@
     "type": "castle",
     "lat": 51.95592,
     "lng": -7.85016,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Tynte%27s%20Castle%20-%2020210725161247.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/County%20Cork%20-%20Tynte%27s%20Castle%20-%2020210725161247.jpg?width=400"
   },
   {
     "name": "Tyrrellspass Castle",
@@ -4381,7 +4381,7 @@
     "type": "castle",
     "lat": 53.386,
     "lng": -7.381,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyrrellspass%20Castle.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrrellspass%20Castle.jpg?width=400"
   },
   {
     "name": "Ullard Castle",
@@ -4397,7 +4397,7 @@
     "type": "castle",
     "lat": 52.7242,
     "lng": -7.58551,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Urlingford%20Castle.png?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Urlingford%20Castle.png?width=400"
   },
   {
     "name": "Westport House",
@@ -4405,7 +4405,7 @@
     "type": "castle",
     "lat": 53.8006,
     "lng": -9.53556,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Westport%20House%20in%20Co.%20Mayo%207.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Westport%20House%20in%20Co.%20Mayo%207.jpg?width=400"
   },
   {
     "name": "White Abbey",
@@ -4413,7 +4413,7 @@
     "type": "monastery",
     "lat": 53.159444,
     "lng": -6.916715,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/White%20Abbey%2C%20Kildare%20-%202025-06-29%2001.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Abbey%2C%20Kildare%20-%202025-06-29%2001.jpg?width=400"
   },
   {
     "name": "Whites Castle",
@@ -4421,7 +4421,7 @@
     "type": "castle",
     "lat": 52.992286656,
     "lng": -6.984523804,
-    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Athy%20White%20Castle%202013%2009%2003.jpg?width=400"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Athy%20White%20Castle%202013%2009%2003.jpg?width=400"
   },
   {
     "name": "Whiteswall Castle",

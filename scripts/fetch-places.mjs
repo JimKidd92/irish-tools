@@ -71,7 +71,8 @@ for (const b of data.results.bindings) {
     type: b.typeLabel?.value || '',
     lat: coord.lat,
     lng: coord.lng,
-    image: b.image?.value ? `${b.image.value}?width=400` : null,
+    // Force https (Wikidata returns http, which is blocked as mixed content).
+    image: b.image?.value ? `${b.image.value.replace(/^http:/, 'https:')}?width=400` : null,
   })
 }
 
