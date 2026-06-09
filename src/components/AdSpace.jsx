@@ -12,7 +12,7 @@ export default function AdSpace({ label = 'Advertisement', slot, format = 'auto'
         <ins
           className="adsbygoogle"
           style={{ display: 'block' }}
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+          data-ad-client="ca-pub-2509020334755517"
           data-ad-slot={slot}
           data-ad-format={format}
           data-full-width-responsive="true"
