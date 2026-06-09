@@ -32,6 +32,12 @@ const CountyGuide = lazy(() => import('./components/CountyGuide.jsx'))
 const MammyTool = lazy(() => import('./components/MammyTool.jsx'))
 const FocalTool = lazy(() => import('./components/FocalTool.jsx'))
 const PubTool = lazy(() => import('./components/PubTool.jsx'))
+const SlangTool = lazy(() => import('./components/SlangTool.jsx'))
+const RingHomeTool = lazy(() => import('./components/RingHomeTool.jsx'))
+const PaddysDayTool = lazy(() => import('./components/PaddysDayTool.jsx'))
+const HowIrishTool = lazy(() => import('./components/HowIrishTool.jsx'))
+const BlessingsTool = lazy(() => import('./components/BlessingsTool.jsx'))
+const TripBudgetTool = lazy(() => import('./components/TripBudgetTool.jsx'))
 const PrivacyPage = lazy(() => import('./components/PrivacyPage.jsx'))
 
 // Each tool page: a title, subtitle and the tool component itself.
@@ -138,6 +144,41 @@ const PAGES = {
     title: 'County Guide',
     subtitle: 'Explore all 32 counties — their Irish names, nicknames and what to see.',
     Component: CountyGuide,
+  },
+  slang: {
+    title: 'Irish Slang Dictionary',
+    subtitle:
+      'What’s the craic with all the yokes? Search the slang — meanings and examples included, ya gowl.',
+    Component: SlangTool,
+  },
+  'ring-home': {
+    title: 'Can I Ring Home?',
+    subtitle:
+      'The time in Ireland right now, the difference from where you are, and whether it’s a decent hour to call.',
+    Component: RingHomeTool,
+  },
+  'paddys-day': {
+    title: 'St Patrick’s Day Countdown',
+    subtitle: 'Counting down to the greenest day of the year. Lá Fhéile Pádraig abú!',
+    Component: PaddysDayTool,
+  },
+  'how-irish': {
+    title: 'How Irish Are You?',
+    subtitle:
+      'Twelve questions of pure Irishness — from the immersion to the good biscuits. Be honest now.',
+    Component: HowIrishTool,
+  },
+  blessings: {
+    title: 'Irish Blessings & Toasts',
+    subtitle:
+      'May the road rise to meet you — traditional blessings for weddings, toasts, farewells and luck.',
+    Component: BlessingsTool,
+  },
+  'trip-budget': {
+    title: 'Trip Budget Converter',
+    subtitle:
+      'Planning the trip home? Convert your money to euro at today’s rate and see what it gets you.',
+    Component: TripBudgetTool,
   },
 }
 

@@ -2173,6 +2173,227 @@ a {
   color: var(--ink-soft);
 }
 
+/* ---------- Slang dictionary ---------- */
+.slang__wotd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.slang__wotd-term {
+  font-size: 1.5rem;
+  color: var(--green-dark);
+}
+
+.slang__wotd-meaning {
+  color: var(--ink-soft);
+}
+
+.slang__list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.slang__entry {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--green);
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.slang__term {
+  font-size: 1.05rem;
+}
+
+.slang__meaning {
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.slang__example {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+/* ---------- Ring home ---------- */
+.ringhome {
+  text-align: center;
+}
+
+.ringhome__time {
+  font-size: 3.4rem;
+  margin: 4px 0 2px;
+  letter-spacing: -0.02em;
+}
+
+.ringhome__day {
+  color: var(--ink-soft);
+  margin: 0 0 20px;
+}
+
+.ringhome__verdict {
+  border-radius: 14px;
+  padding: 18px 20px;
+  max-width: 440px;
+  margin: 0 auto 8px;
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+}
+
+.ringhome__verdict--go {
+  border-color: var(--green);
+  background: rgba(22, 155, 98, 0.1);
+}
+
+.ringhome__verdict--stop {
+  border-color: #b5651d;
+  background: rgba(181, 101, 29, 0.1);
+}
+
+.ringhome__verdict-emoji {
+  font-size: 1.8rem;
+  display: block;
+}
+
+.ringhome__verdict-title {
+  font-size: 1.2rem;
+}
+
+.ringhome__verdict-blurb {
+  color: var(--ink-soft);
+  margin: 6px 0 0;
+}
+
+/* ---------- Paddy's day countdown ---------- */
+.paddys {
+  text-align: center;
+}
+
+.paddys__big {
+  font-size: 3.4rem;
+  display: block;
+}
+
+.paddys__title {
+  font-size: 1.8rem;
+  color: var(--green-dark);
+  margin: 8px 0;
+}
+
+.paddys__count {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.paddys__unit {
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 18px;
+  min-width: 84px;
+  display: flex;
+  flex-direction: column;
+}
+
+.paddys__num {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--green-dark);
+  font-variant-numeric: tabular-nums;
+}
+
+.paddys__lab {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+
+.paddys__sub {
+  color: var(--ink-soft);
+  margin: 8px 0 16px;
+}
+
+/* ---------- Blessings ---------- */
+.blessings {
+  text-align: center;
+}
+
+.blessings__text {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  font-style: italic;
+  max-width: 520px;
+  margin: 22px auto;
+  color: var(--ink);
+}
+
+/* ---------- Trip budget ---------- */
+.tripbudget {
+  text-align: center;
+}
+
+.tripbudget .pints__amount {
+  margin: 14px auto 0;
+  justify-content: center;
+}
+
+.tripbudget__result {
+  margin-top: 18px;
+}
+
+.tripbudget__heading {
+  font-size: 1rem;
+  margin: 22px 0 10px;
+}
+
+.tripbudget__costs {
+  list-style: none;
+  margin: 0 auto 12px;
+  padding: 0;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tripbudget__costs li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 14px;
+  text-align: left;
+}
+
+.tripbudget__label {
+  flex: 1;
+}
+
+.tripbudget__n {
+  font-weight: 800;
+  color: var(--green-dark);
+}
+
 /* ---------- Entrance animations ---------- */
 @keyframes fadeUp {
   from {
