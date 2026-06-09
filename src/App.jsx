@@ -9,6 +9,7 @@ import { metaFor, pathFor, SITE_URL } from './data/seo.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
 import { loadProgress, playedToday } from './lib/dailyQuiz.js'
+import { trackPageview } from './lib/analytics.js'
 
 // Tool pages are lazy-loaded so each becomes its own chunk — keeps the main
 // bundle small (the map alone pulls in Leaflet + 550 baked places).
@@ -157,6 +158,7 @@ function useRouteMeta(route) {
     document
       .querySelector('link[rel="canonical"]')
       ?.setAttribute('href', SITE_URL + pathFor(route))
+    trackPageview(pathFor(route))
   }, [route])
 }
 
