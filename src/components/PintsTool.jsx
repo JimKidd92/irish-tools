@@ -62,7 +62,7 @@ export default function PintsTool() {
             Based on €{price.toFixed(2)} a pint in {PINT_PRICES[where].label.toLowerCase()}.
           </p>
           <ShareButton
-            url="https://irishtools.ie/#/pints"
+            url="https://irishtools.ie/pints/"
             text={`🍺 €${value.toFixed(2)} is about ${Math.round(pints)} pints, like. (Irish Tools)`}
           />
         </div>

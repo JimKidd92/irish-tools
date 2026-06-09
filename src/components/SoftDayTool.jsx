@@ -70,7 +70,7 @@ export default function SoftDayTool() {
           </ul>
 
           <ShareButton
-            url="https://irishtools.ie/#/soft-day"
+            url="https://irishtools.ie/soft-day/"
             text={`🌧️ Is it a soft day in ${location?.name}? ${result.isSoftDay ? 'Soft day, thank God.' : 'Not a soft day.'} “${result.irish.phrase}”`}
           />
         </div>

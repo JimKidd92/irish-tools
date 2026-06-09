@@ -56,7 +56,7 @@ export default function HowsTheFormTool() {
           </ul>
 
           <ShareButton
-            url="https://irishtools.ie/#/form"
+            url="https://irishtools.ie/form/"
             text={`🌅 ${verdict.title} (${location?.name}) — sunset ${result.sunset}, ${result.dayLength} of daylight.`}
           />
         </div>

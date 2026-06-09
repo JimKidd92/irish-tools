@@ -1,33 +1,37 @@
-import ImmersionTool from './components/ImmersionTool.jsx'
-import DryingTool from './components/DryingTool.jsx'
-import SoftDayTool from './components/SoftDayTool.jsx'
-import FootTurfTool from './components/FootTurfTool.jsx'
-import TeaTool from './components/TeaTool.jsx'
-import RoundTool from './components/RoundTool.jsx'
-import SpudsTool from './components/SpudsTool.jsx'
-import HowsTheFormTool from './components/HowsTheFormTool.jsx'
-import QuizTool from './components/QuizTool.jsx'
-import BankHolidayTool from './components/BankHolidayTool.jsx'
-import RegDecoderTool from './components/RegDecoderTool.jsx'
-import PintsTool from './components/PintsTool.jsx'
-import SurnameTool from './components/SurnameTool.jsx'
-import NamesTool from './components/NamesTool.jsx'
-import PlacesTool from './components/PlacesTool.jsx'
-import CountyGuide from './components/CountyGuide.jsx'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import BuyMeAPint from './components/BuyMeAPint.jsx'
-import MammyTool from './components/MammyTool.jsx'
-import FocalTool from './components/FocalTool.jsx'
-import PubTool from './components/PubTool.jsx'
-import PrivacyPage from './components/PrivacyPage.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
 import SideNav from './components/SideNav.jsx'
 import Logo from './components/Logo.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { toolsByCategory } from './data/tools.js'
-import { useState } from 'react'
+import { metaFor, pathFor, SITE_URL } from './data/seo.js'
 import { useHashRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
 import { loadProgress, playedToday } from './lib/dailyQuiz.js'
+
+// Tool pages are lazy-loaded so each becomes its own chunk — keeps the main
+// bundle small (the map alone pulls in Leaflet + 550 baked places).
+const ImmersionTool = lazy(() => import('./components/ImmersionTool.jsx'))
+const DryingTool = lazy(() => import('./components/DryingTool.jsx'))
+const SoftDayTool = lazy(() => import('./components/SoftDayTool.jsx'))
+const FootTurfTool = lazy(() => import('./components/FootTurfTool.jsx'))
+const TeaTool = lazy(() => import('./components/TeaTool.jsx'))
+const RoundTool = lazy(() => import('./components/RoundTool.jsx'))
+const SpudsTool = lazy(() => import('./components/SpudsTool.jsx'))
+const HowsTheFormTool = lazy(() => import('./components/HowsTheFormTool.jsx'))
+const QuizTool = lazy(() => import('./components/QuizTool.jsx'))
+const BankHolidayTool = lazy(() => import('./components/BankHolidayTool.jsx'))
+const RegDecoderTool = lazy(() => import('./components/RegDecoderTool.jsx'))
+const PintsTool = lazy(() => import('./components/PintsTool.jsx'))
+const SurnameTool = lazy(() => import('./components/SurnameTool.jsx'))
+const NamesTool = lazy(() => import('./components/NamesTool.jsx'))
+const PlacesTool = lazy(() => import('./components/PlacesTool.jsx'))
+const CountyGuide = lazy(() => import('./components/CountyGuide.jsx'))
+const MammyTool = lazy(() => import('./components/MammyTool.jsx'))
+const FocalTool = lazy(() => import('./components/FocalTool.jsx'))
+const PubTool = lazy(() => import('./components/PubTool.jsx'))
+const PrivacyPage = lazy(() => import('./components/PrivacyPage.jsx'))
 
 // Each tool page: a title, subtitle and the tool component itself.
 const PAGES = {
@@ -136,11 +140,32 @@ const PAGES = {
   },
 }
 
+function PageLoading() {
+  return <p className="weather-status">Loading…</p>
+}
+
+// Keep the document head in sync with the current route (title, description,
+// canonical). The prerendered HTML has these baked in for first paint/SEO;
+// this handles client-side navigation after that.
+function useRouteMeta(route) {
+  useEffect(() => {
+    const meta = metaFor(route)
+    document.title = meta.title
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute('content', meta.description)
+    document
+      .querySelector('link[rel="canonical"]')
+      ?.setAttribute('href', SITE_URL + pathFor(route))
+  }, [route])
+}
+
 export default function App() {
   const route = useHashRoute()
   const page = PAGES[route]
   const [theme, toggleTheme] = useTheme()
   const [navOpen, setNavOpen] = useState(false)
+  useRouteMeta(route)
 
   return (
     <div className="page">
@@ -166,7 +191,7 @@ export default function App() {
         </button>
         <a
           className="brand"
-          href="#/"
+          href="/"
           onClick={(e) => {
             e.preventDefault()
             navigate('home')
@@ -181,7 +206,9 @@ export default function App() {
       <AdSpace label="Banner ad" />
 
       <main className="main">
-        {route === 'privacy' ? <PrivacyPage /> : page ? <ToolPage page={page} /> : <Home />}
+        <Suspense fallback={<PageLoading />}>
+          {route === 'privacy' ? <PrivacyPage /> : page ? <ToolPage page={page} /> : <Home />}
+        </Suspense>
       </main>
 
       <footer className="site-footer">
@@ -195,7 +222,7 @@ export default function App() {
         </p>
         <p className="site-footer__links">
           <a
-            href="#/privacy"
+            href="/privacy/"
             onClick={(e) => {
               e.preventDefault()
               navigate('privacy')
@@ -262,7 +289,7 @@ function Home() {
               <li key={tool.id}>
                 <a
                   className="tool-card tool-card--link is-live"
-                  href={`#/${tool.path}`}
+                  href={`/${tool.path}/`}
                   onClick={(e) => {
                     e.preventDefault()
                     navigate(tool.path)

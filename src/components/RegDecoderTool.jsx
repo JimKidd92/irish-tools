@@ -73,7 +73,7 @@ export default function RegDecoderTool() {
             {result.period ? `, ${result.period.toLowerCase()}` : ''}.
           </p>
           <ShareButton
-            url="https://irishtools.ie/#/reg"
+            url="https://irishtools.ie/reg/"
             text={`🚗 ${input.toUpperCase()} → ${result.county}, ${result.year}${result.period ? ` (${result.period})` : ''}.`}
           />
         </div>

@@ -66,7 +66,7 @@ export default function SurnameTool() {
           </p>
           {result.note && <p className="surname__note">{result.note}</p>}
           <ShareButton
-            url="https://irishtools.ie/#/surnames"
+            url="https://irishtools.ie/surnames/"
             text={`🧬 The Irish surname ${result.name} (${result.irish}) means ${result.meaning} — from ${result.region}.`}
           />
         </div>

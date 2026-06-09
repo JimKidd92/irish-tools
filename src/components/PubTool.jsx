@@ -47,7 +47,7 @@ export default function PubTool() {
         (Individual opening hours are up to each pub, mind — this is just the law of the land.)
       </p>
       <ShareButton
-        url="https://irishtools.ie/#/pub"
+        url="https://irishtools.ie/pub/"
         text={`🍻 Can I get a pint today? ${result.title} ${result.blurb}`}
       />
     </section>

@@ -23,7 +23,7 @@ export default function MammyTool() {
           Another one
         </button>
         <ShareButton
-          url="https://irishtools.ie/#/mammy"
+          url="https://irishtools.ie/mammy/"
           label="Share"
           text={`🗣️ Irish Mammy says: “${phrase}”`}
         />

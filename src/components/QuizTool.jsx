@@ -57,7 +57,7 @@ export default function QuizTool() {
     const res = await shareResult({
       title: 'Irish Tools Daily Quiz',
       text,
-      url: 'https://irishtools.ie/#/quiz',
+      url: 'https://irishtools.ie/quiz/',
     })
     setShareMsg(res === 'copied' ? 'Copied to clipboard!' : res === 'shared' ? 'Shared!' : '')
   }

@@ -34,7 +34,7 @@ export default function FocalTool() {
           Another focal
         </button>
         <ShareButton
-          url="https://irishtools.ie/#/focal"
+          url="https://irishtools.ie/focal/"
           label="Share"
           text={`📖 Cúpla focal: “${focal.irish}” — ${focal.english} (${focal.pron})`}
         />

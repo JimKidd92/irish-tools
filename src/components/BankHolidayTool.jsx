@@ -24,7 +24,7 @@ export default function BankHolidayTool() {
       </div>
 
       <ShareButton
-        url="https://irishtools.ie/#/bank-holiday"
+        url="https://irishtools.ie/bank-holiday/"
         text={`🗓️ Next Irish bank holiday: ${next.name} — ${countdown} (${formatHolidayDate(next.date)}).`}
       />
 

@@ -50,7 +50,7 @@ export default function CountyGuide() {
           )}
 
           <ShareButton
-            url="https://irishtools.ie/#/counties"
+            url="https://irishtools.ie/counties/"
             text={`☘️ ${county.name} (${county.irish}) — “${county.nickname}”, in ${county.province}. ${county.blurb}`}
           />
 
