@@ -40,6 +40,8 @@ const HowIrishTool = lazy(() => import('./components/HowIrishTool.jsx'))
 const BlessingsTool = lazy(() => import('./components/BlessingsTool.jsx'))
 const TripBudgetTool = lazy(() => import('./components/TripBudgetTool.jsx'))
 const PrivacyPage = lazy(() => import('./components/PrivacyPage.jsx'))
+// Lazy so the featured data (slang, counties, holidays) doesn't bloat every page.
+const FeaturedToday = lazy(() => import('./components/FeaturedToday.jsx'))
 
 // Each tool page: a title, subtitle and the tool component itself.
 const PAGES = {
@@ -325,8 +327,13 @@ function Home() {
 
       <QuizBanner />
 
+      <Suspense fallback={<div className="today-skeleton" aria-hidden="true" />}>
+        <FeaturedToday />
+      </Suspense>
+
+      <h2 className="section-title section-title--all">All tools</h2>
       {groups.map((group) => (
-        <section className="tools" id={group.category.toLowerCase()} key={group.category}>
+        <section className="tools" id={categorySlug(group.category)} key={group.category}>
           <h2 className="tools__heading">{group.category}</h2>
           <ul className="tool-grid">
             {group.items.map((tool) => (
