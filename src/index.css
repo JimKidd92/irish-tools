@@ -12,6 +12,8 @@
   --surface: #ffffff;
   --surface-alt: #f7f6ef;
   --input-bg: #ffffff;
+  --font-display: 'Fraunces Variable', Georgia, 'Times New Roman', serif;
+  --font-body: 'Mulish Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
 [data-theme='dark'] {
@@ -41,13 +43,36 @@ body {
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  font-family: var(--font-body);
   color: var(--ink);
   background:
     radial-gradient(1200px 500px at 50% -10%, rgba(22, 155, 98, 0.12), transparent 60%),
     var(--cream);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Characterful serif for display headings; calm sans for everything else. */
+.brand__name,
+.hero__title,
+.tools__heading,
+.immersion__status,
+.drying__verdict-title,
+.softday__answer,
+.surname__name,
+.county__name,
+.focal__irish,
+.pub__title,
+.quiz__result-title,
+.bankhol__name,
+.paddys__title,
+.ringhome__time,
+.slang__wotd-term,
+.legal__title,
+.section-title {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  letter-spacing: -0.01em;
 }
 
 a {
