@@ -1982,6 +1982,56 @@ a {
   font-size: 0.95rem;
 }
 
+/* ---------- Cross-link "related" chips (surnames/counties/slang) ---------- */
+.related {
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+
+.related__title {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 0 0 10px;
+}
+
+.related__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.related__chip {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--green-dark);
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.related__chip:hover {
+  border-color: var(--green);
+  background: var(--surface-alt);
+}
+
+.slang__term.linklike {
+  font: inherit;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  text-align: left;
+}
+
+.slang__term.linklike:hover {
+  text-decoration: underline;
+}
+
 /* ---------- Surname origins ---------- */
 .surname__result {
   text-align: center;
@@ -2584,6 +2634,23 @@ a {
 
 .tripbudget__n {
   font-weight: 800;
+  color: var(--green-dark);
+}
+
+/* Prerendered crawler/no-JS content (React replaces it on load). */
+.prerender {
+  max-width: 680px;
+  margin: 30px auto;
+  padding: 0 4px;
+  line-height: 1.7;
+}
+
+.prerender h1 {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+}
+
+.prerender a {
   color: var(--green-dark);
 }
 

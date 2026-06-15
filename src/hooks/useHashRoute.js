@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react'
 
-// Path-based router (history API). Routes are real URLs like /drying/ so each
-// tool gets its own indexable page — the build prerenders an HTML file per
-// route (scripts/prerender.mjs). Legacy #/route links redirect on load.
+// Path-based router (history API). Routes are real URLs like /surnames/ and
+// /surnames/murphy/ — the build prerenders an HTML file per route and per data
+// entry. Legacy #/route links redirect on load.
 // (File keeps its old name to avoid churning imports.)
 
-function currentRoute() {
+function parse() {
   const path = window.location.pathname.replace(/^\/+|\/+$/g, '')
-  return path || 'home'
+  const [route, slug] = path.split('/')
+  return { route: route || 'home', slug: slug || null }
 }
 
 // One-time redirect for old #/route links shared before the migration.
@@ -16,12 +17,13 @@ if (legacy) {
   window.history.replaceState(null, '', legacy[1] === '' ? '/' : `/${legacy[1]}/`)
 }
 
-export function useHashRoute() {
-  const [route, setRoute] = useState(() => currentRoute())
+// Returns { route, slug }.
+export function useRoute() {
+  const [state, setState] = useState(() => parse())
 
   useEffect(() => {
     const onChange = () => {
-      setRoute(currentRoute())
+      setState(parse())
       window.scrollTo(0, 0)
     }
     window.addEventListener('popstate', onChange)
@@ -32,11 +34,16 @@ export function useHashRoute() {
     }
   }, [])
 
-  return route
+  return state
 }
 
-export function navigate(route) {
-  const path = route === 'home' ? '/' : `/${route}/`
+// Back-compat: just the first path segment.
+export function useHashRoute() {
+  return useRoute().route
+}
+
+export function navigate(route, slug) {
+  const path = route === 'home' ? '/' : `/${route}/${slug ? `${slug}/` : ''}`
   if (window.location.pathname !== path) {
     window.history.pushState(null, '', path)
   }

@@ -7,7 +7,7 @@ import ToolIcon from './components/ToolIcon.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { toolsByCategory } from './data/tools.js'
 import { metaFor, pathFor, SITE_URL } from './data/seo.js'
-import { useHashRoute, navigate } from './hooks/useHashRoute.js'
+import { useRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
 import { loadProgress, playedToday } from './lib/dailyQuiz.js'
 import { trackPageview } from './lib/analytics.js'
@@ -192,8 +192,14 @@ function PageLoading() {
 // Keep the document head in sync with the current route (title, description,
 // canonical). The prerendered HTML has these baked in for first paint/SEO;
 // this handles client-side navigation after that.
-function useRouteMeta(route) {
+function useRouteMeta(route, slug) {
   useEffect(() => {
+    // Entry pages (e.g. /surnames/murphy/) own their own head — set by the
+    // detail component, which has the data. Here we just count the view.
+    if (slug) {
+      trackPageview(`${pathFor(route)}${slug}/`)
+      return
+    }
     const meta = metaFor(route)
     document.title = meta.title
     document
@@ -203,15 +209,15 @@ function useRouteMeta(route) {
       .querySelector('link[rel="canonical"]')
       ?.setAttribute('href', SITE_URL + pathFor(route))
     trackPageview(pathFor(route))
-  }, [route])
+  }, [route, slug])
 }
 
 export default function App() {
-  const route = useHashRoute()
+  const { route, slug } = useRoute()
   const page = PAGES[route]
   const [theme, toggleTheme] = useTheme()
   const [navOpen, setNavOpen] = useState(false)
-  useRouteMeta(route)
+  useRouteMeta(route, slug)
 
   return (
     <div className="page">
@@ -253,7 +259,7 @@ export default function App() {
 
       <main className="main">
         <Suspense fallback={<PageLoading />}>
-          {route === 'privacy' ? <PrivacyPage /> : page ? <ToolPage page={page} /> : <Home />}
+          {route === 'privacy' ? <PrivacyPage /> : page ? <ToolPage page={page} slug={slug} /> : <Home />}
         </Suspense>
       </main>
 
@@ -294,7 +300,7 @@ export default function App() {
   )
 }
 
-function ToolPage({ page }) {
+function ToolPage({ page, slug }) {
   const { title, subtitle, Component } = page
   return (
     <>
@@ -305,7 +311,7 @@ function ToolPage({ page }) {
         <h1 className="hero__title">{title}</h1>
         <p className="hero__subtitle">{subtitle}</p>
       </div>
-      <Component />
+      <Component slug={slug} />
       <aside className="sidebar-ad">
         <AdSpace label="Sidebar ad" />
       </aside>
