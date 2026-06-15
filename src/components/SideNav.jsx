@@ -1,7 +1,9 @@
 import { useEffect } from 'react'
+import { House, Sparkles, Lock, X } from 'lucide-react'
 import { navigate } from '../hooks/useHashRoute.js'
 import { toolsByCategory } from '../data/tools.js'
 import Logo from './Logo.jsx'
+import ToolIcon from './ToolIcon.jsx'
 
 // Collapsible slide-in navigation drawer with a quick link to every tool.
 export default function SideNav({ open, onClose, route }) {
@@ -40,7 +42,7 @@ export default function SideNav({ open, onClose, route }) {
             Irish Tools
           </span>
           <button className="sidenav__close" onClick={onClose} aria-label="Close menu">
-            ✕
+            <X size={18} aria-hidden="true" />
           </button>
         </div>
 
@@ -48,13 +50,13 @@ export default function SideNav({ open, onClose, route }) {
           className={`sidenav__item ${route === 'home' ? 'is-active' : ''}`}
           onClick={() => go('home')}
         >
-          🏠 <span>Home</span>
+          <House size={18} strokeWidth={1.75} aria-hidden="true" /> <span>Home</span>
         </button>
         <button
           className={`sidenav__item sidenav__item--feature ${route === 'quiz' ? 'is-active' : ''}`}
           onClick={() => go('quiz')}
         >
-          🍀 <span>Daily Irish Quiz</span>
+          <Sparkles size={18} strokeWidth={1.75} aria-hidden="true" /> <span>Daily Irish Quiz</span>
         </button>
 
         {groups.map((group) => (
@@ -66,7 +68,7 @@ export default function SideNav({ open, onClose, route }) {
                 className={`sidenav__item ${route === tool.path ? 'is-active' : ''}`}
                 onClick={() => go(tool.path)}
               >
-                {tool.emoji} <span>{tool.name}</span>
+                <ToolIcon name={tool.icon} size={18} /> <span>{tool.name}</span>
               </button>
             ))}
           </div>
@@ -76,7 +78,7 @@ export default function SideNav({ open, onClose, route }) {
           className={`sidenav__item sidenav__item--muted ${route === 'privacy' ? 'is-active' : ''}`}
           onClick={() => go('privacy')}
         >
-          🔒 <span>Privacy policy</span>
+          <Lock size={18} strokeWidth={1.75} aria-hidden="true" /> <span>Privacy policy</span>
         </button>
       </nav>
     </>

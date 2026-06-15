@@ -3,6 +3,7 @@ import BuyMeAPint from './components/BuyMeAPint.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
 import SideNav from './components/SideNav.jsx'
 import Logo from './components/Logo.jsx'
+import ToolIcon from './components/ToolIcon.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { toolsByCategory } from './data/tools.js'
 import { metaFor, pathFor, SITE_URL } from './data/seo.js'
@@ -376,12 +377,16 @@ function QuizBanner() {
 function ToolCardInner({ tool }) {
   return (
     <>
-      <span className="tool-card__emoji" aria-hidden="true">
-        {tool.emoji}
+      <span className={`tool-card__icon tool-card__icon--${categorySlug(tool.category)}`}>
+        <ToolIcon name={tool.icon} size={22} />
       </span>
       <h3 className="tool-card__name">{tool.name}</h3>
       <p className="tool-card__tagline">{tool.tagline}</p>
       {!tool.live && <span className="tool-card__badge">Coming soon</span>}
     </>
   )
+}
+
+function categorySlug(category) {
+  return (category || '').toLowerCase().replace(/[^a-z]+/g, '-')
 }

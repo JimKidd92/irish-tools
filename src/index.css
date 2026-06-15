@@ -250,6 +250,16 @@ a {
   transition: background 0.12s ease;
 }
 
+.sidenav__item svg {
+  flex: 0 0 auto;
+  color: var(--ink-soft);
+}
+
+.sidenav__item.is-active svg,
+.sidenav__item--feature svg {
+  color: var(--green);
+}
+
 .sidenav__item:hover {
   background: var(--surface-alt);
 }
@@ -589,11 +599,28 @@ a {
   opacity: 0.82;
 }
 
-.tool-card__emoji {
-  font-size: 2rem;
-  display: block;
-  margin-bottom: 8px;
+.tool-card__icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 11px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  color: var(--green-dark);
+  background: rgba(22, 155, 98, 0.12);
 }
+
+/* Per-category icon tints so the grid reads as organised, not random. */
+.tool-card__icon--heritage { color: #8a5a2b; background: rgba(138, 90, 43, 0.12); }
+.tool-card__icon--plan-your-trip { color: #2f7d8a; background: rgba(47, 125, 138, 0.13); }
+.tool-card__icon--craic { color: var(--orange); background: rgba(255, 122, 24, 0.13); }
+.tool-card__icon--weather { color: #3b6fa8; background: rgba(59, 111, 168, 0.13); }
+.tool-card__icon--handy { color: var(--green-dark); background: rgba(22, 155, 98, 0.12); }
+
+[data-theme='dark'] .tool-card__icon--heritage { color: #d2a06a; }
+[data-theme='dark'] .tool-card__icon--plan-your-trip { color: #6cc6d4; }
+[data-theme='dark'] .tool-card__icon--weather { color: #8fb6e6; }
 
 .tool-card__name {
   margin: 0 0 4px;

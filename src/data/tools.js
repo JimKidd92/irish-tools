@@ -4,6 +4,7 @@
 export const tools = [
   {
     id: 'surnames',
+    icon: 'ScrollText',
     emoji: '🧬',
     name: 'Irish Surname Origins',
     tagline: 'Where does your family name come from?',
@@ -13,6 +14,7 @@ export const tools = [
   },
   {
     id: 'names',
+    icon: 'Baby',
     emoji: '📛',
     name: 'Irish Names & Meanings',
     tagline: 'Beautiful names, with meanings.',
@@ -22,6 +24,7 @@ export const tools = [
   },
   {
     id: 'places',
+    icon: 'MapPin',
     emoji: '🗺️',
     name: 'Places to Visit',
     tagline: 'Map your trip to Ireland.',
@@ -31,6 +34,7 @@ export const tools = [
   },
   {
     id: 'counties',
+    icon: 'Castle',
     emoji: '☘️',
     name: 'County Guide',
     tagline: 'Find where your people came from.',
@@ -40,6 +44,7 @@ export const tools = [
   },
   {
     id: 'immersion',
+    icon: 'Flame',
     emoji: '🔥',
     name: 'Is the Immersion On?',
     tagline: 'The eternal question, finally answered.',
@@ -49,6 +54,7 @@ export const tools = [
   },
   {
     id: 'good-drying',
+    icon: 'Shirt',
     emoji: '🧺',
     name: 'Is There Good Drying Out?',
     tagline: 'Should ya hang the washing on the line?',
@@ -58,6 +64,7 @@ export const tools = [
   },
   {
     id: 'cup-of-tea',
+    icon: 'Coffee',
     emoji: '☕',
     name: 'Will Ya Have a Cup of Tea?',
     tagline: 'Ah go on, go on, go on, go on.',
@@ -67,6 +74,7 @@ export const tools = [
   },
   {
     id: 'soft-day',
+    icon: 'CloudDrizzle',
     emoji: '🌧️',
     name: 'Is It a Soft Day?',
     tagline: 'Translating the Irish weather forecast.',
@@ -76,6 +84,7 @@ export const tools = [
   },
   {
     id: 'foot-the-turf',
+    icon: 'Mountain',
     emoji: '🔥',
     name: 'Is It Time to Foot the Turf?',
     tagline: 'Weather says when the bog’s ready.',
@@ -85,6 +94,7 @@ export const tools = [
   },
   {
     id: 'mass-times',
+    icon: 'Sunrise',
     emoji: '🌅',
     name: 'How’s the Form?',
     tagline: 'A grand stretch in the evenings calculator.',
@@ -94,6 +104,7 @@ export const tools = [
   },
   {
     id: 'notes-money',
+    icon: 'Wallet',
     emoji: '💶',
     name: 'Whose Round Is It?',
     tagline: 'Never get caught at the bar again.',
@@ -103,6 +114,7 @@ export const tools = [
   },
   {
     id: 'spuds',
+    icon: 'CookingPot',
     emoji: '🥔',
     name: 'How Many Spuds?',
     tagline: 'Dinner portions, done properly.',
@@ -112,6 +124,7 @@ export const tools = [
   },
   {
     id: 'bank-holiday',
+    icon: 'CalendarDays',
     emoji: '🗓️',
     name: 'Next Bank Holiday',
     tagline: 'When’s the next day off?',
@@ -121,6 +134,7 @@ export const tools = [
   },
   {
     id: 'reg',
+    icon: 'Car',
     emoji: '🚗',
     name: 'Reg Plate Decoder',
     tagline: 'What year and county is that reg?',
@@ -130,6 +144,7 @@ export const tools = [
   },
   {
     id: 'pints',
+    icon: 'Beer',
     emoji: '🍺',
     name: 'That’s How Many Pints?',
     tagline: 'The only currency that matters.',
@@ -139,6 +154,7 @@ export const tools = [
   },
   {
     id: 'mammy',
+    icon: 'Quote',
     emoji: '🗣️',
     name: 'Irish Mammy Says…',
     tagline: 'Words of wisdom, on tap.',
@@ -148,6 +164,7 @@ export const tools = [
   },
   {
     id: 'focal',
+    icon: 'BookOpen',
     emoji: '📖',
     name: 'Cúpla Focal',
     tagline: 'A bit of Irish for the day.',
@@ -157,6 +174,7 @@ export const tools = [
   },
   {
     id: 'pub',
+    icon: 'Hop',
     emoji: '🍻',
     name: 'Is the Pub Open?',
     tagline: 'Can I get a pint today?',
@@ -166,6 +184,7 @@ export const tools = [
   },
   {
     id: 'slang',
+    icon: 'MessageSquare',
     emoji: '💬',
     name: 'Irish Slang Dictionary',
     tagline: 'What’s the craic with all the yokes?',
@@ -175,6 +194,7 @@ export const tools = [
   },
   {
     id: 'blessings',
+    icon: 'HeartHandshake',
     emoji: '🙏',
     name: 'Irish Blessings & Toasts',
     tagline: 'May the road rise to meet you.',
@@ -184,6 +204,7 @@ export const tools = [
   },
   {
     id: 'how-irish',
+    icon: 'Flag',
     emoji: '🇮🇪',
     name: 'How Irish Are You?',
     tagline: 'Be honest now. The test of tests.',
@@ -193,6 +214,7 @@ export const tools = [
   },
   {
     id: 'paddys-day',
+    icon: 'Clover',
     emoji: '☘️',
     name: 'St Patrick’s Day Countdown',
     tagline: 'How long till the green day?',
@@ -202,6 +224,7 @@ export const tools = [
   },
   {
     id: 'ring-home',
+    icon: 'Phone',
     emoji: '📞',
     name: 'Can I Ring Home?',
     tagline: 'The time in Ireland, right now.',
@@ -211,6 +234,7 @@ export const tools = [
   },
   {
     id: 'trip-budget',
+    icon: 'Banknote',
     emoji: '💶',
     name: 'Trip Budget Converter',
     tagline: 'Your money in euro — and in pints.',
