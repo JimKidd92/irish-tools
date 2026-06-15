@@ -42,6 +42,7 @@ const TripBudgetTool = lazy(() => import('./components/TripBudgetTool.jsx'))
 const PrivacyPage = lazy(() => import('./components/PrivacyPage.jsx'))
 // Lazy so the featured data (slang, counties, holidays) doesn't bloat every page.
 const FeaturedToday = lazy(() => import('./components/FeaturedToday.jsx'))
+const NewsFeed = lazy(() => import('./components/NewsFeed.jsx'))
 
 // Each tool page: a title, subtitle and the tool component itself.
 const PAGES = {
@@ -335,6 +336,10 @@ function Home() {
 
       <Suspense fallback={<div className="today-skeleton" aria-hidden="true" />}>
         <FeaturedToday />
+      </Suspense>
+
+      <Suspense fallback={null}>
+        <NewsFeed />
       </Suspense>
 
       <h2 className="section-title section-title--all">All tools</h2>

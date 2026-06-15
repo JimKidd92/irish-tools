@@ -84,17 +84,44 @@ function pickImage(data) {
   return file ? `https://commons.wikimedia.org/wiki/Special:FilePath/${file}?width=800` : null
 }
 
+const SKIP_IMG = /(?:\.svg|flag|coat[\s_-]*of|locator|location|map|logo|icon|seal|crest|emblem)/i
+
+// A few extra photos from the county's own Wikipedia page (for the carousel).
+async function pageImages(title) {
+  try {
+    const t = encodeURIComponent(title.replace(/ /g, '_'))
+    const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/media-list/${t}`, {
+      headers: { 'User-Agent': UA },
+    })
+    if (!res.ok) return []
+    const data = await res.json()
+    return (data.items || [])
+      .filter((i) => i.type === 'image' && i.title && !SKIP_IMG.test(i.title))
+      .map((i) => {
+        const file = i.title.replace(/^File:/, '')
+        return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=800`
+      })
+  } catch {
+    return []
+  }
+}
+
 async function fetchCounty(name) {
   const county = await summary(TITLE[name] || `County ${name}`)
-  let image = null
-  if (LANDMARK[name]) {
-    const lm = await summary(LANDMARK[name])
-    image = pickImage(lm)
+  const landmarkImg = LANDMARK[name] ? pickImage(await summary(LANDMARK[name])) : null
+  const extra = await pageImages(TITLE[name] || `County ${name}`)
+
+  // Landmark photo first (nicest), then a couple from the county page. De-duped.
+  const images = [...new Set([landmarkImg, ...extra].filter(Boolean))].slice(0, 4)
+  if (!images.length) {
+    const fb = pickImage(county)
+    if (fb) images.push(fb)
   }
-  if (!image) image = pickImage(county)
+
   return {
     extract: EXTRACT_OVERRIDE[name] || county?.extract || '',
-    image,
+    image: images[0] || null,
+    images,
     // Omit the source link where we've written our own copy (e.g. Derry).
     wikiUrl: EXTRACT_OVERRIDE[name] ? null : county?.content_urls?.desktop?.page || null,
   }

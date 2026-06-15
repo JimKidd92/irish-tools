@@ -42,6 +42,14 @@ export default function PrivacyPage() {
         to return a forecast. Please see Open-Meteo’s own privacy terms for how they handle requests.
       </p>
 
+      <h2>News headlines</h2>
+      <p>
+        The homepage shows a few live Irish headlines. To load them, your browser makes a
+        request to a third-party feed service (rss2json) and to the news sources (e.g. RTÉ,
+        The42), which means those services receive your IP address as part of a normal web
+        request. We don’t send them any other information, and no cookies are set by this.
+      </p>
+
       <h2>Advertising &amp; cookies</h2>
       <p>
         To keep Irish Tools free, we plan to display advertising (for example via Google
