@@ -127,6 +127,11 @@ export const ROUTE_META = {
     description:
       'Planning a trip to Ireland? Convert your dollars or pounds to euro at today’s rate and see what things cost.',
   },
+  planner: {
+    title: 'Ireland Trip Planner — Build Your Itinerary · Irish Tools',
+    description:
+      'Plan your trip to Ireland day by day: add castles, abbeys and must-see places to a free itinerary, note your flights, and print it out. No account needed.',
+  },
   privacy: {
     title: 'Privacy Policy · Irish Tools',
     description: 'How Irish Tools handles your data: locally, lightly, and honestly.',

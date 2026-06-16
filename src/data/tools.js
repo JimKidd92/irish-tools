@@ -33,6 +33,16 @@ export const tools = [
     category: 'Plan Your Trip',
   },
   {
+    id: 'planner',
+    icon: 'Plane',
+    emoji: '🧳',
+    name: 'Trip Planner',
+    tagline: 'Build your Ireland itinerary, day by day.',
+    live: true,
+    path: 'planner',
+    category: 'Plan Your Trip',
+  },
+  {
     id: 'counties',
     icon: 'Castle',
     emoji: '☘️',

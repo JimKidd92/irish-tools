@@ -2802,6 +2802,276 @@ a {
   color: var(--green-dark);
 }
 
+/* ---------- Trip planner ---------- */
+.planner__head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.planner__name {
+  flex: 1;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.planner__name-print {
+  display: none;
+}
+
+.planner__meta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.planner__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.planner__field--wide {
+  grid-column: 1 / -1;
+}
+
+.planner__field-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+
+.planner__setup {
+  margin-bottom: 16px;
+}
+
+.planner__map {
+  height: 300px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+.trip-pin {
+  background: var(--green);
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 0.8rem;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.planner__days {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.day-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 18px;
+}
+
+.day-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.day-card__title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 0;
+  color: var(--green-dark);
+}
+
+.day-card__remove {
+  border: none;
+  background: none;
+  color: var(--ink-soft);
+  cursor: pointer;
+  padding: 4px;
+}
+
+.day-card__remove:hover {
+  color: #c0392b;
+}
+
+.day-card__empty {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin: 0 0 10px;
+}
+
+.day-card__stops {
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.day-card__stop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: var(--surface-alt);
+}
+
+.day-card__num {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--green);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.day-card__stop-name {
+  flex: 1;
+  font-weight: 600;
+}
+
+.day-card__county {
+  color: var(--ink-soft);
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.day-card__stop-controls {
+  display: flex;
+  gap: 2px;
+}
+
+.day-card__stop-controls button {
+  border: none;
+  background: none;
+  color: var(--ink-soft);
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  display: inline-flex;
+}
+
+.day-card__stop-controls button:hover:not(:disabled) {
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.day-card__stop-controls button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.day-card__add {
+  position: relative;
+}
+
+.day-card__results {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 6px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.day-card__result {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+
+.day-card__result:hover {
+  background: var(--surface-alt);
+}
+
+.day-card__result--custom {
+  color: var(--green-dark);
+  font-weight: 600;
+  border-top: 1px solid var(--line);
+}
+
+.planner__actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.planner__saved {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  margin-top: 16px;
+}
+
+/* Print / PDF: show only the itinerary, cleanly. */
+@media print {
+  .site-header,
+  .site-footer,
+  .ad-slot,
+  .sidebar-ad,
+  .back-link,
+  .consent,
+  .no-print {
+    display: none !important;
+  }
+  .page {
+    padding: 0;
+    max-width: none;
+  }
+  body {
+    background: #fff;
+  }
+  .planner__name-print {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    margin: 0 0 12px;
+  }
+  .day-card {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding: 10px 0;
+    break-inside: avoid;
+  }
+  .day-card__stop {
+    background: none;
+    padding: 4px 0;
+  }
+}
+
 /* ---------- Entrance animations ---------- */
 @keyframes fadeUp {
   from {
