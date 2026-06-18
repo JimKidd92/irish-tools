@@ -341,6 +341,13 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   gap: 8px;
+  min-width: 0;
+}
+
+/* Grid items default to min-width:auto, which lets a wide horizontal scroller
+   (the news row) blow the page past its max-width. Allow them to shrink. */
+.main > * {
+  min-width: 0;
 }
 
 .hero {
@@ -3102,11 +3109,13 @@ a {
 /* ---------- News: sliding card row ---------- */
 .nrow {
   position: relative;
+  min-width: 0;
 }
 
 .nrow__track {
   display: flex;
   gap: 14px;
+  max-width: 100%;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
