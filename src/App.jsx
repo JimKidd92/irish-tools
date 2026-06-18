@@ -7,6 +7,7 @@ import Logo from './components/Logo.jsx'
 import ToolIcon from './components/ToolIcon.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools, TOOL_CATEGORIES } from './data/tools.js'
+import { TOOLS_OF_THE_DAY } from './data/toolsOfTheDay.js'
 import { metaFor, pathFor, SITE_URL } from './data/seo.js'
 import { useRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
@@ -394,13 +395,17 @@ function dailyHighlights() {
 
 function Home({ onOpenNav }) {
   const highlights = dailyHighlights()
+  const day = Math.floor(Date.now() / 86400000)
+  const tod = TOOLS_OF_THE_DAY[(day + 11) % TOOLS_OF_THE_DAY.length]
   return (
     <>
-      <div className="hero">
-        <h1 className="hero__title">Grand little tools for grand little problems.</h1>
-        <p className="hero__subtitle">
-          A growing collection of fun and handy tools for Ireland and the Irish abroad — sure
-          it’s only a bit of craic.
+      <div className="hero hero--tod">
+        <span className="hero__kicker">🔧 Tool of the day</span>
+        <h1 className="hero__title">{tod.name}</h1>
+        <p className="hero__jibe">{tod.jibe}</p>
+        <p className="hero__tagline">
+          Grand little tools for grand little problems — a growing collection of fun and handy
+          tools for Ireland and the Irish abroad. Sure it’s only a bit of craic.
         </p>
       </div>
 
@@ -416,7 +421,7 @@ function Home({ onOpenNav }) {
 
       <section className="tools">
         <h2 className="section-title">A few to try today</h2>
-        <ul className="tool-grid">
+        <ul className="tool-grid tool-grid--3">
           {highlights.map((tool) => (
             <li key={tool.id}>
               <a

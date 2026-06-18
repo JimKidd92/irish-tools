@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react'
-import { BookOpen, MessageSquare, CalendarDays, ChevronRight, Wrench, Beer } from 'lucide-react'
+import { BookOpen, MessageSquare, CalendarDays, ChevronRight, Beer } from 'lucide-react'
 import { navigate } from '../hooks/useHashRoute.js'
 import { FOCAL } from '../data/cuplaFocal.js'
 import { SLANG } from '../data/slang.js'
 import { COUNTIES } from '../data/counties.js'
 import countyInfo from '../data/counties.generated.json'
 import { BEERS } from '../data/beers.js'
-import { TOOLS_OF_THE_DAY } from '../data/toolsOfTheDay.js'
 import { upcomingHolidays } from '../lib/holidays.js'
 import { slugify } from '../lib/slug.js'
 
@@ -45,7 +44,6 @@ export default function FeaturedToday() {
   const focal = FOCAL[dayIndex(FOCAL.length)]
   const slang = SLANG[dayIndex(SLANG.length, 3)]
   const nextHol = upcomingHolidays()[0]
-  const tod = TOOLS_OF_THE_DAY[dayIndex(TOOLS_OF_THE_DAY.length, 11)]
   const beer = BEERS[dayIndex(BEERS.length, 17)]
 
   // One fixed county of the day; its photos rotate in the carousel.
@@ -117,12 +115,6 @@ export default function FeaturedToday() {
             title={slang.term}
             sub={slang.meaning}
             onClick={() => navigate('slang', slugify(slang.term))}
-          />
-          <FeedRow
-            icon={Wrench}
-            kicker="Tool of the day"
-            title={tod.name}
-            sub={tod.jibe}
           />
           <FeedRow
             icon={Beer}
