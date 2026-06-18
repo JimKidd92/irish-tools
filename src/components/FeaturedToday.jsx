@@ -121,6 +121,7 @@ export default function FeaturedToday() {
             kicker="Beer of the day"
             title={beer.name}
             sub={`${beer.brewery}, Co. ${beer.county} · ${beer.style}`}
+            onClick={() => navigate('beers')}
           />
           <FeedRow
             icon={CalendarDays}

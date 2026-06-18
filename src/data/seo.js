@@ -78,6 +78,11 @@ export const ROUTE_META = {
     title: 'Is the Pub Open? · Irish Tools',
     description: 'Can I get a pint in Ireland today? The eternal question, settled by law.',
   },
+  beers: {
+    title: 'Irish Beers — A Directory of Irish-Brewed Beer · Irish Tools',
+    description:
+      'Browse Irish-brewed beers and breweries — stouts, red ales, pale ales and IPAs from Guinness to the smallest craft brewery, by county and style.',
+  },
   surnames: {
     title: 'Irish Surname Origins & Meanings · Irish Tools',
     description:

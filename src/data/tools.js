@@ -203,6 +203,16 @@ export const tools = [
     category: 'Craic',
   },
   {
+    id: 'beers',
+    icon: 'Beer',
+    emoji: '🍺',
+    name: 'Irish Beers',
+    tagline: 'A directory of Irish-brewed beers.',
+    live: true,
+    path: 'beers',
+    category: 'Craic',
+  },
+  {
     id: 'slang',
     icon: 'MessageSquare',
     emoji: '💬',

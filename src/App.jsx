@@ -44,6 +44,7 @@ const BlessingsTool = lazy(() => import('./components/BlessingsTool.jsx'))
 const TripBudgetTool = lazy(() => import('./components/TripBudgetTool.jsx'))
 const TripPlanner = lazy(() => import('./components/TripPlanner.jsx'))
 const NewsPage = lazy(() => import('./components/NewsPage.jsx'))
+const BeersTool = lazy(() => import('./components/BeersTool.jsx'))
 const PrivacyPage = lazy(() => import('./components/PrivacyPage.jsx'))
 const SearchOverlay = lazy(() => import('./components/SearchOverlay.jsx'))
 // Lazy so the featured data (slang, counties, holidays) doesn't bloat every page.
@@ -133,6 +134,12 @@ const PAGES = {
     title: 'Is the Pub Open?',
     subtitle: 'Can I get a pint today? The eternal question, settled.',
     Component: PubTool,
+  },
+  beers: {
+    title: 'Irish Beers',
+    subtitle:
+      'A growing directory of Irish-brewed beers — from the big stouts to the smallest craft brewery. Search by name, brewery or county.',
+    Component: BeersTool,
   },
   surnames: {
     title: 'Irish Surname Origins',

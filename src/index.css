@@ -3635,6 +3635,101 @@ a {
   white-space: nowrap;
 }
 
+/* ---------- Irish beers directory ---------- */
+.beers__controls {
+  margin: 18px 0 6px;
+}
+
+.beers__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.beer-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 14px;
+}
+
+.beer-grid--feature {
+  grid-template-columns: 1fr;
+  margin-bottom: 4px;
+}
+
+.beer-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--orange);
+  border-radius: 12px;
+  background: var(--surface);
+  padding: 14px 16px;
+}
+
+.beer-card--featured {
+  border-left-width: 4px;
+  background: rgba(255, 122, 24, 0.06);
+  box-shadow: var(--shadow);
+}
+
+.beer-card__kicker {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--orange);
+  margin-bottom: 2px;
+}
+
+.beer-card__name {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.beer-card__brewery {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.beer-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 2px;
+}
+
+.beer-card__style {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--green-dark);
+  background: rgba(22, 155, 98, 0.12);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+.beer-card__abv {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.beer-card__note {
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
 /* ---------- Homepage heritage section ---------- */
 .heritage-home__panel {
   border: 1px solid var(--line);
