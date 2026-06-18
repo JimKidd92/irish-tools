@@ -6,7 +6,7 @@ import SideNav from './components/SideNav.jsx'
 import Logo from './components/Logo.jsx'
 import ToolIcon from './components/ToolIcon.jsx'
 import AdSpace from './components/AdSpace.jsx'
-import { toolsByCategory } from './data/tools.js'
+import { tools, TOOL_CATEGORIES } from './data/tools.js'
 import { metaFor, pathFor, SITE_URL } from './data/seo.js'
 import { useRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
@@ -309,7 +309,13 @@ export default function App() {
 
       <main className="main">
         <Suspense fallback={<PageLoading />}>
-          {route === 'privacy' ? <PrivacyPage /> : page ? <ToolPage page={page} slug={slug} /> : <Home />}
+          {route === 'privacy' ? (
+            <PrivacyPage />
+          ) : page ? (
+            <ToolPage page={page} slug={slug} />
+          ) : (
+            <Home onOpenNav={() => setNavOpen(true)} />
+          )}
         </Suspense>
       </main>
 
@@ -376,15 +382,25 @@ function ToolPage({ page, slug }) {
   )
 }
 
-function Home() {
-  const groups = toolsByCategory()
+// One tool per category, rotated daily, for the homepage highlights.
+function dailyHighlights() {
+  const day = Math.floor(Date.now() / 86400000)
+  return TOOL_CATEGORIES.map((category, ci) => {
+    const inCat = tools.filter((t) => t.live && t.category === category)
+    if (!inCat.length) return null
+    return inCat[(day + ci * 3) % inCat.length]
+  }).filter(Boolean)
+}
+
+function Home({ onOpenNav }) {
+  const highlights = dailyHighlights()
   return (
     <>
       <div className="hero">
         <h1 className="hero__title">Grand little tools for grand little problems.</h1>
         <p className="hero__subtitle">
-          A growing collection of fun and handy tools for Ireland and the Irish abroad.
-          Pick one below — sure it’s only a bit of craic.
+          A growing collection of fun and handy tools for Ireland and the Irish abroad — sure
+          it’s only a bit of craic.
         </p>
       </div>
 
@@ -398,28 +414,30 @@ function Home() {
         <NewsFeed />
       </Suspense>
 
-      <h2 className="section-title section-title--all">All tools</h2>
-      {groups.map((group) => (
-        <section className="tools" id={categorySlug(group.category)} key={group.category}>
-          <h2 className="tools__heading">{group.category}</h2>
-          <ul className="tool-grid">
-            {group.items.map((tool) => (
-              <li key={tool.id}>
-                <a
-                  className="tool-card tool-card--link is-live"
-                  href={`/${tool.path}/`}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    navigate(tool.path)
-                  }}
-                >
-                  <ToolCardInner tool={tool} />
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+      <section className="tools">
+        <h2 className="section-title">A few to try today</h2>
+        <ul className="tool-grid">
+          {highlights.map((tool) => (
+            <li key={tool.id}>
+              <a
+                className="tool-card tool-card--link is-live"
+                href={`/${tool.path}/`}
+                onClick={(e) => {
+                  e.preventDefault()
+                  navigate(tool.path)
+                }}
+              >
+                <ToolCardInner tool={tool} />
+              </a>
+            </li>
+          ))}
+        </ul>
+        <p className="tools__all">
+          <button className="linklike tools__all-btn" onClick={onOpenNav}>
+            Browse all {tools.filter((t) => t.live).length} tools →
+          </button>
+        </p>
+      </section>
     </>
   )
 }

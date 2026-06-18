@@ -1,0 +1,33 @@
+// "Tool of the Day" — a light-hearted jibe, the very Irish "the type of fella
+// who…" archetype. Observational and universal — no real names (keeps it funny
+// and keeps us out of bother).
+export const TOOLS_OF_THE_DAY = [
+  { name: 'The Plane Clapper', jibe: 'Applauds when the plane lands. Pure tool.' },
+  { name: 'The Reverse Parker', jibe: 'Eleven minutes reversing into a spot he could’ve driven into.' },
+  { name: 'The Speakerphone Lad', jibe: 'Takes the call on speaker on the bus. For everyone.' },
+  { name: 'The Round Dodger', jibe: 'Goes to the jacks the second it’s his round.' },
+  { name: 'The Reply-All Merchant', jibe: 'Hits “reply all” to say thanks to 400 people.' },
+  { name: 'The Tailgater', jibe: 'Drives so close you could read his mind, never his indicator.' },
+  { name: 'The Self-Checkout Blocker', jibe: 'Bags a full shop across all four tills.' },
+  { name: 'The Escalator Stopper', jibe: 'Comes to a full stop at the top to think about life.' },
+  { name: 'The Towel Claimer', jibe: 'On the sun lounger at 6am, in the pool at no am.' },
+  { name: 'The Voice-Note Villain', jibe: 'Sends a nine-minute voice note to say “grand so”.' },
+  { name: 'The Bill Splitter', jibe: 'Had the lobster, suggests splitting it evenly.' },
+  { name: 'The Festival Shoulder Lad', jibe: 'Up on the shoulders blocking the view for the back forty rows.' },
+  { name: 'The Office Fish Microwaver', jibe: 'Reheats the salmon at his desk. At 11am.' },
+  { name: 'The “Per My Last Email”', jibe: 'Found a way to say “read it, you eejit” in corporate.' },
+  { name: 'The Double Dipper', jibe: 'Crisp, dip, bite, dip again. In the shared bowl.' },
+  { name: 'The Seatbelt-Off Sprinter', jibe: 'Stands up the instant the plane stops. Goes nowhere for 20 minutes.' },
+  { name: 'The Crypto Evangelist', jibe: 'Brings up his portfolio at the christening.' },
+  { name: 'The “New Phone Who Dis”', jibe: 'Has your number. Pretends he hasn’t.' },
+  { name: 'The Loud Gym Grunter', jibe: 'Two reps, a roar you’d hear in the next county.' },
+  { name: 'The Queue Encroacher', jibe: 'Stands close enough to read your texts. And does.' },
+  { name: 'The “I Don’t Even Own a Telly”', jibe: 'Mentions it. Constantly. Unprompted.' },
+  { name: 'The Group-Chat Ghost', jibe: 'Reads everything, replies with a single 👍 a week later.' },
+  { name: 'The Slow-Lane Cruiser', jibe: 'Sits in the overtaking lane at 90, serene as you like.' },
+  { name: 'The Pint Hoverer', jibe: 'Eyes your nearly-finished pint like a hawk to skip his round.' },
+  { name: 'The “Well, Actually”', jibe: 'Corrects your story mid-sentence. Gets it wrong.' },
+  { name: 'The Two-Spaces Parker', jibe: 'Straddles the line so no one dares scratch the Audi.' },
+  { name: 'The Recliner', jibe: 'Full recline on the short-haul flight. During the meal.' },
+  { name: 'The Spoiler Merchant', jibe: '“Did you not see it yet?” then tells you anyway.' },
+]
