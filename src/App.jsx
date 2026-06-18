@@ -1,10 +1,11 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
-import { Search } from 'lucide-react'
+import { Search, Wrench } from 'lucide-react'
 import BuyMeAPint from './components/BuyMeAPint.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
 import SideNav from './components/SideNav.jsx'
 import Logo from './components/Logo.jsx'
 import ToolIcon from './components/ToolIcon.jsx'
+import HomeHeritage from './components/HomeHeritage.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools, TOOL_CATEGORIES } from './data/tools.js'
 import { TOOLS_OF_THE_DAY } from './data/toolsOfTheDay.js'
@@ -399,11 +400,16 @@ function Home({ onOpenNav }) {
   const tod = TOOLS_OF_THE_DAY[(day + 11) % TOOLS_OF_THE_DAY.length]
   return (
     <>
-      <div className="hero hero--tod">
-        <span className="hero__kicker">🔧 Tool of the day</span>
-        <h1 className="hero__title">{tod.name}</h1>
-        <p className="hero__jibe">{tod.jibe}</p>
-        <p className="hero__tagline">
+      <div className="hero hero--home">
+        <div className="tod-card">
+          <span className="tod-card__icon">
+            <Wrench size={24} strokeWidth={1.75} aria-hidden="true" />
+          </span>
+          <span className="tod-card__kicker">Tool of the day</span>
+          <h1 className="tod-card__name">{tod.name}</h1>
+          <p className="tod-card__jibe">{tod.jibe}</p>
+        </div>
+        <p className="home-tagline">
           Grand little tools for grand little problems — a growing collection of fun and handy
           tools for Ireland and the Irish abroad. Sure it’s only a bit of craic.
         </p>
@@ -418,6 +424,8 @@ function Home({ onOpenNav }) {
       <Suspense fallback={null}>
         <NewsFeed />
       </Suspense>
+
+      <HomeHeritage />
 
       <section className="tools">
         <h2 className="section-title">A few to try today</h2>

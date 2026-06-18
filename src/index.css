@@ -205,10 +205,23 @@ a {
   box-shadow: none;
 }
 
-/* On smaller screens these live in the side nav / footer instead. */
+/* On smaller screens these live in the side nav / footer instead, so the bar
+   never overflows. The hamburger is the menu; no second dropdown needed. */
 @media (max-width: 760px) {
   .navbar__link,
   .navbar__pint {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-streak {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .brand__name {
     display: none;
   }
 }
@@ -438,33 +451,77 @@ a {
   font-size: 1.05rem;
 }
 
-/* Tool-of-the-day hero */
-.hero--tod {
-  margin-top: 20px;
+/* Tool-of-the-day card (homepage hero) */
+.hero--home {
+  margin-top: 18px;
 }
 
-.hero__kicker {
-  display: inline-block;
-  font-size: 0.78rem;
+.tod-card {
+  max-width: 560px;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px 26px 26px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tod-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--orange);
+}
+
+.tod-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 122, 24, 0.14);
+  color: var(--orange);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tod-card__kicker {
+  display: block;
+  font-size: 0.74rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--orange);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
-.hero__jibe {
-  max-width: 600px;
-  margin: 10px auto 0;
-  font-size: 1.2rem;
+.tod-card__name {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  letter-spacing: -0.01em;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  margin: 0 0 8px;
   color: var(--ink);
+  line-height: 1.05;
 }
 
-.hero__tagline {
-  max-width: 560px;
+.tod-card__jibe {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+}
+
+.home-tagline {
+  max-width: 540px;
   margin: 18px auto 0;
   color: var(--ink-soft);
   font-size: 0.95rem;
+  text-align: center;
 }
 
 /* ---------- Immersion tool ---------- */
@@ -3576,6 +3633,72 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* ---------- Homepage heritage section ---------- */
+.heritage-home__panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  padding: 26px 24px;
+  text-align: center;
+}
+
+.heritage-home__lead {
+  max-width: 500px;
+  margin: 0 auto 16px;
+  color: var(--ink-soft);
+}
+
+.heritage-home__search {
+  display: flex;
+  gap: 10px;
+  max-width: 440px;
+  margin: 0 auto 18px;
+}
+
+.heritage-home__search .loc-search__input {
+  flex: 1;
+}
+
+.heritage-home__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.heritage-home__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.heritage-home__link:hover {
+  border-color: var(--green);
+}
+
+.heritage-home__link svg {
+  color: #8a5a2b;
+}
+
+[data-theme='dark'] .heritage-home__link svg {
+  color: #d2a06a;
+}
+
+@media (max-width: 460px) {
+  .heritage-home__search {
+    flex-direction: column;
+  }
 }
 
 /* ---------- Entrance animations ---------- */
