@@ -3,6 +3,16 @@
 // `category` groups them in the side nav: 'Weather' | 'Craic' | 'Handy'.
 export const tools = [
   {
+    id: 'news',
+    icon: 'Newspaper',
+    emoji: '📰',
+    name: 'Irish News',
+    tagline: 'Your headlines, your sources, one place.',
+    live: true,
+    path: 'news',
+    category: 'News',
+  },
+  {
     id: 'surnames',
     icon: 'ScrollText',
     emoji: '🧬',
@@ -255,7 +265,7 @@ export const tools = [
 ]
 
 // Tools grouped by category, in display order. Used by the side nav.
-export const TOOL_CATEGORIES = ['Heritage', 'Plan Your Trip', 'Craic', 'Weather', 'Handy']
+export const TOOL_CATEGORIES = ['News', 'Heritage', 'Plan Your Trip', 'Craic', 'Weather', 'Handy']
 
 export function toolsByCategory() {
   return TOOL_CATEGORIES.map((category) => ({

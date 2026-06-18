@@ -132,6 +132,11 @@ export const ROUTE_META = {
     description:
       'Plan your trip to Ireland day by day: add castles, abbeys and must-see places to a free itinerary, note your flights, and print it out. No account needed.',
   },
+  news: {
+    title: 'Irish News — Your Personalised Aggregator · Irish Tools',
+    description:
+      'All the Irish headlines in one place — national, sport, regional/local and Irish-abroad sources. Pick your own mix and read at a glance.',
+  },
   privacy: {
     title: 'Privacy Policy · Irish Tools',
     description: 'How Irish Tools handles your data: locally, lightly, and honestly.',

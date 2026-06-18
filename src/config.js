@@ -10,3 +10,9 @@ export const SUPPORT_URL = 'https://ko-fi.com/irishtools'
 // 'irishtools' if your dashboard is irishtools.goatcounter.com.
 // Leave as '' to disable analytics entirely.
 export const GOATCOUNTER_CODE = 'irishtools'
+
+// NEWS_API: the URL of the deployed Cloudflare news Worker (see worker/README.md).
+// While empty, the news falls back to a basic 2-source strip via rss2json.
+// Set this to light up the full personalised aggregator.
+// e.g. 'https://irish-tools-news.YOURNAME.workers.dev'
+export const NEWS_API = 'https://irish-tools-news.irish-tools.workers.dev'

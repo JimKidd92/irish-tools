@@ -3072,6 +3072,242 @@ a {
   }
 }
 
+/* ---------- News: head + customise ---------- */
+.news__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  position: relative;
+}
+
+.news__customise {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.news__customise:hover {
+  border-color: var(--green);
+}
+
+/* ---------- News: sliding card row ---------- */
+.nrow {
+  position: relative;
+}
+
+.nrow__track {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 4px 2px 12px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.nrow__btn {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.nrow__btn--l { left: -8px; }
+.nrow__btn--r { right: -8px; }
+
+@media (hover: hover) and (min-width: 720px) {
+  .nrow:hover .nrow__btn {
+    display: inline-flex;
+  }
+}
+
+.ncard {
+  flex: 0 0 248px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--surface);
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.ncard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.ncard__img {
+  height: 132px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--green-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ncard__img-fallback {
+  color: rgba(255, 255, 255, 0.92);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0 12px;
+  text-align: center;
+}
+
+.ncard__body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 14px 14px;
+  flex: 1;
+}
+
+.ncard__source {
+  font-size: 0.66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--green-dark);
+}
+
+.ncard__title {
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 0.95rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ncard__time {
+  margin-top: auto;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- News page: controls + sources ---------- */
+.newspage__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.newspage__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.news-chip {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.news-chip.is-active {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+
+.sources-panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-alt);
+  padding: 16px 18px;
+  margin: 6px 0 18px;
+}
+
+.sources-panel__note {
+  margin: 0 0 12px;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.sources-panel__group {
+  margin-bottom: 12px;
+}
+
+.sources-panel__cat {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-soft);
+}
+
+.sources-panel__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.source-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 7px 13px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.source-pill.is-on {
+  border-color: var(--green);
+  background: rgba(22, 155, 98, 0.12);
+  color: var(--green-dark);
+}
+
+.newspage__section {
+  margin-top: 10px;
+}
+
+.newspage__section-title {
+  text-align: left;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  margin: 18px 0 8px;
+}
+
 /* ---------- Entrance animations ---------- */
 @keyframes fadeUp {
   from {

@@ -40,6 +40,7 @@ const HowIrishTool = lazy(() => import('./components/HowIrishTool.jsx'))
 const BlessingsTool = lazy(() => import('./components/BlessingsTool.jsx'))
 const TripBudgetTool = lazy(() => import('./components/TripBudgetTool.jsx'))
 const TripPlanner = lazy(() => import('./components/TripPlanner.jsx'))
+const NewsPage = lazy(() => import('./components/NewsPage.jsx'))
 const PrivacyPage = lazy(() => import('./components/PrivacyPage.jsx'))
 // Lazy so the featured data (slang, counties, holidays) doesn't bloat every page.
 const FeaturedToday = lazy(() => import('./components/FeaturedToday.jsx'))
@@ -155,6 +156,12 @@ const PAGES = {
     subtitle:
       'Build your Ireland itinerary day by day — add places, note your flights, print it out. Saved on this device, no account needed.',
     Component: TripPlanner,
+  },
+  news: {
+    title: 'Irish News',
+    subtitle:
+      'All the headlines in one place. Pick your own sources — national, sport, local and Irish-abroad — and they’re remembered on this device.',
+    Component: NewsPage,
   },
   slang: {
     title: 'Irish Slang Dictionary',

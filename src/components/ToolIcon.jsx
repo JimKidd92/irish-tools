@@ -27,6 +27,7 @@ import {
   Banknote,
   Sparkles,
   Plane,
+  Newspaper,
 } from 'lucide-react'
 
 const ICONS = {
@@ -56,6 +57,7 @@ const ICONS = {
   Banknote,
   Sparkles,
   Plane,
+  Newspaper,
 }
 
 export default function ToolIcon({ name, size = 22, ...rest }) {

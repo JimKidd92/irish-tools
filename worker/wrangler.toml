@@ -1,0 +1,6 @@
+name = "irish-tools-news"
+main = "news-worker.js"
+compatibility_date = "2024-11-01"
+
+# Deploys to https://irish-tools-news.<your-subdomain>.workers.dev
+workers_dev = true
