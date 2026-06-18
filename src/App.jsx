@@ -1,4 +1,5 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
+import { Search } from 'lucide-react'
 import BuyMeAPint from './components/BuyMeAPint.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
 import SideNav from './components/SideNav.jsx'
@@ -42,6 +43,7 @@ const TripBudgetTool = lazy(() => import('./components/TripBudgetTool.jsx'))
 const TripPlanner = lazy(() => import('./components/TripPlanner.jsx'))
 const NewsPage = lazy(() => import('./components/NewsPage.jsx'))
 const PrivacyPage = lazy(() => import('./components/PrivacyPage.jsx'))
+const SearchOverlay = lazy(() => import('./components/SearchOverlay.jsx'))
 // Lazy so the featured data (slang, counties, holidays) doesn't bloat every page.
 const FeaturedToday = lazy(() => import('./components/FeaturedToday.jsx'))
 const NewsFeed = lazy(() => import('./components/NewsFeed.jsx'))
@@ -232,6 +234,7 @@ export default function App() {
   const page = PAGES[route]
   const [theme, toggleTheme] = useTheme()
   const [navOpen, setNavOpen] = useState(false)
+  const [searchOpen, setSearchOpen] = useState(false)
   const streak = loadProgress().streak
   useRouteMeta(route, slug)
 
@@ -260,6 +263,25 @@ export default function App() {
           </a>
 
           <div className="navbar__right">
+            <a
+              className="navbar__link"
+              href="/news/"
+              onClick={(e) => {
+                e.preventDefault()
+                navigate('news')
+              }}
+            >
+              News
+            </a>
+            <BuyMeAPint className="navbar__pint" label="Pint" />
+            <button
+              className="navbar__icon-btn"
+              onClick={() => setSearchOpen(true)}
+              aria-label="Search"
+              title="Search"
+            >
+              <Search size={18} strokeWidth={1.75} aria-hidden="true" />
+            </button>
             {streak > 0 && (
               <button
                 className="nav-streak"
@@ -323,6 +345,12 @@ export default function App() {
         </p>
       </footer>
       </div>
+
+      {searchOpen && (
+        <Suspense fallback={null}>
+          <SearchOverlay onClose={() => setSearchOpen(false)} />
+        </Suspense>
+      )}
 
       <ConsentBanner />
     </>
