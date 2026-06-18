@@ -232,45 +232,58 @@ export default function App() {
   const page = PAGES[route]
   const [theme, toggleTheme] = useTheme()
   const [navOpen, setNavOpen] = useState(false)
+  const streak = loadProgress().streak
   useRouteMeta(route, slug)
 
   return (
-    <div className="page">
+    <>
       <SideNav open={navOpen} onClose={() => setNavOpen(false)} route={route} />
 
-      <header className="site-header">
-        <button
-          className="nav-toggle"
-          onClick={() => setNavOpen(true)}
-          aria-label="Open menu"
-        >
-          <span className="nav-toggle__bar" />
-          <span className="nav-toggle__bar" />
-          <span className="nav-toggle__bar" />
-        </button>
-        <button
-          className="theme-toggle"
-          onClick={toggleTheme}
-          aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
-          title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
-        >
-          {theme === 'dark' ? '☀️' : '🌙'}
-        </button>
-        <a
-          className="brand"
-          href="/"
-          onClick={(e) => {
-            e.preventDefault()
-            navigate('home')
-          }}
-        >
-          <Logo size={34} className="brand__logo" />
-          <span className="brand__name">Irish&nbsp;Tools</span>
-        </a>
-        <p className="brand__tagline">Grand little tools for grand little problems.</p>
+      <header className="navbar">
+        <div className="navbar__inner">
+          <button className="nav-toggle" onClick={() => setNavOpen(true)} aria-label="Open menu">
+            <span className="nav-toggle__bar" />
+            <span className="nav-toggle__bar" />
+            <span className="nav-toggle__bar" />
+          </button>
+
+          <a
+            className="brand"
+            href="/"
+            onClick={(e) => {
+              e.preventDefault()
+              navigate('home')
+            }}
+          >
+            <Logo size={28} className="brand__logo" />
+            <span className="brand__name">Irish&nbsp;Tools</span>
+          </a>
+
+          <div className="navbar__right">
+            {streak > 0 && (
+              <button
+                className="nav-streak"
+                onClick={() => navigate('quiz')}
+                title="Your daily quiz streak"
+                aria-label={`Quiz streak: ${streak} days`}
+              >
+                {streak}&nbsp;🔥
+              </button>
+            )}
+            <button
+              className="theme-toggle"
+              onClick={toggleTheme}
+              aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+              title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
+            >
+              {theme === 'dark' ? '☀️' : '🌙'}
+            </button>
+          </div>
+        </div>
       </header>
 
-      <AdSpace label="Banner ad" />
+      <div className="page">
+        <AdSpace label="Banner ad" />
 
       <main className="main">
         <Suspense fallback={<PageLoading />}>
@@ -309,9 +322,10 @@ export default function App() {
           © {new Date().getFullYear()} Irish Tools · Sure it’s only a bit of craic.
         </p>
       </footer>
+      </div>
 
       <ConsentBanner />
-    </div>
+    </>
   )
 }
 
