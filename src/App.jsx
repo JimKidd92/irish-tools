@@ -9,6 +9,7 @@ import HomeHeritage from './components/HomeHeritage.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools, TOOL_CATEGORIES } from './data/tools.js'
 import { TOOLS_OF_THE_DAY } from './data/toolsOfTheDay.js'
+import { GUIDES } from './data/guides.js'
 import { metaFor, pathFor, SITE_URL } from './data/seo.js'
 import { useRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
@@ -45,6 +46,9 @@ const TripBudgetTool = lazy(() => import('./components/TripBudgetTool.jsx'))
 const TripPlanner = lazy(() => import('./components/TripPlanner.jsx'))
 const NewsPage = lazy(() => import('./components/NewsPage.jsx'))
 const BeersTool = lazy(() => import('./components/BeersTool.jsx'))
+const GuidesPage = lazy(() => import('./components/GuidesPage.jsx'))
+const AboutPage = lazy(() => import('./components/AboutPage.jsx'))
+const ContactPage = lazy(() => import('./components/ContactPage.jsx'))
 const PrivacyPage = lazy(() => import('./components/PrivacyPage.jsx'))
 const SearchOverlay = lazy(() => import('./components/SearchOverlay.jsx'))
 // Lazy so the featured data (slang, counties, holidays) doesn't bloat every page.
@@ -320,6 +324,12 @@ export default function App() {
         <Suspense fallback={<PageLoading />}>
           {route === 'privacy' ? (
             <PrivacyPage />
+          ) : route === 'about' ? (
+            <AboutPage />
+          ) : route === 'contact' ? (
+            <ContactPage />
+          ) : route === 'guides' ? (
+            <GuidesPage slug={slug} />
           ) : page ? (
             <ToolPage page={page} slug={slug} />
           ) : (
@@ -338,15 +348,13 @@ export default function App() {
           <a href="mailto:hello@irishtools.ie">Tell us</a>.
         </p>
         <p className="site-footer__links">
-          <a
-            href="/privacy/"
-            onClick={(e) => {
-              e.preventDefault()
-              navigate('privacy')
-            }}
-          >
-            Privacy policy
-          </a>
+          <FooterLink route="guides" label="Guides" />
+          {' · '}
+          <FooterLink route="about" label="About" />
+          {' · '}
+          <FooterLink route="contact" label="Contact" />
+          {' · '}
+          <FooterLink route="privacy" label="Privacy policy" />
           {' · '}
           <button
             className="linklike"
@@ -369,6 +377,20 @@ export default function App() {
 
       <ConsentBanner />
     </>
+  )
+}
+
+function FooterLink({ route, label }) {
+  return (
+    <a
+      href={`/${route}/`}
+      onClick={(e) => {
+        e.preventDefault()
+        navigate(route)
+      }}
+    >
+      {label}
+    </a>
   )
 }
 
@@ -455,6 +477,26 @@ function Home({ onOpenNav }) {
         <p className="tools__all">
           <button className="linklike tools__all-btn" onClick={onOpenNav}>
             Browse all {tools.filter((t) => t.live).length} tools →
+          </button>
+        </p>
+      </section>
+
+      <section className="tools">
+        <h2 className="section-title">Read up on Ireland</h2>
+        <ul className="guides-index__list guides-index__list--home">
+          {GUIDES.slice(0, 3).map((g) => (
+            <li key={g.slug}>
+              <button className="guide-card" onClick={() => navigate('guides', g.slug)}>
+                <span className="guide-card__title">{g.title}</span>
+                <span className="guide-card__desc">{g.description}</span>
+                <span className="guide-card__meta">{g.readMins} min read</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+        <p className="tools__all">
+          <button className="linklike tools__all-btn" onClick={() => navigate('guides')}>
+            All guides →
           </button>
         </p>
       </section>

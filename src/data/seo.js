@@ -142,6 +142,20 @@ export const ROUTE_META = {
     description:
       'All the Irish headlines in one place — national, sport, regional/local and Irish-abroad sources. Pick your own mix and read at a glance.',
   },
+  guides: {
+    title: 'Guides — Reading on Ireland, its Heritage & Craic · Irish Tools',
+    description:
+      'In-depth guides to Irish life, heritage and travel — surnames, slang, beer, the weather, planning a trip and more.',
+  },
+  about: {
+    title: 'About Irish Tools',
+    description:
+      'What Irish Tools is, who it’s for, and the idea behind it — fun and handy tools, guides and news for Ireland and the Irish abroad.',
+  },
+  contact: {
+    title: 'Contact · Irish Tools',
+    description: 'Get in touch with Irish Tools — feedback, corrections, tool ideas or just to say hello.',
+  },
   privacy: {
     title: 'Privacy Policy · Irish Tools',
     description: 'How Irish Tools handles your data: locally, lightly, and honestly.',
