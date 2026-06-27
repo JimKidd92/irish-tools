@@ -54,6 +54,7 @@ const SearchOverlay = lazy(() => import('./components/SearchOverlay.jsx'))
 // Lazy so the featured data (slang, counties, holidays) doesn't bloat every page.
 const FeaturedToday = lazy(() => import('./components/FeaturedToday.jsx'))
 const NewsFeed = lazy(() => import('./components/NewsFeed.jsx'))
+const StatsStrip = lazy(() => import('./components/StatsStrip.jsx'))
 
 // Each tool page: a title, subtitle and the tool component itself.
 const PAGES = {
@@ -399,7 +400,7 @@ function ToolPage({ page, slug }) {
   return (
     <>
       <button className="back-link" onClick={() => navigate('home')}>
-        ← All tools
+        ← Home
       </button>
       <div className="hero">
         <h1 className="hero__title">{title}</h1>
@@ -456,7 +457,11 @@ function Home({ onOpenNav }) {
 
       <HomeHeritage />
 
-      <section className="tools">
+      <Suspense fallback={null}>
+        <StatsStrip />
+      </Suspense>
+
+      <section className="tools reveal">
         <h2 className="section-title">A few to try today</h2>
         <ul className="tool-grid tool-grid--3">
           {highlights.map((tool) => (
@@ -481,7 +486,7 @@ function Home({ onOpenNav }) {
         </p>
       </section>
 
-      <section className="tools">
+      <section className="tools reveal">
         <h2 className="section-title">Read up on Ireland</h2>
         <ul className="guides-index__list guides-index__list--home">
           {publishedGuides().slice(0, 3).map((g) => (

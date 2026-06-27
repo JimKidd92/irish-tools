@@ -2,6 +2,14 @@ import { softDayAssessment, irishWeather, describeWeather } from '../lib/weather
 import { useWeatherTool } from '../hooks/useWeatherTool.js'
 import LocationSearch from './LocationSearch.jsx'
 import ShareButton from './ShareButton.jsx'
+import WeatherFX from './WeatherFX.jsx'
+
+function fxFor(r) {
+  if (r.isSoftDay) return 'mist'
+  if (r.precip >= 1.5) return 'rain'
+  if (r.code <= 1) return 'sun'
+  return null
+}
 
 function compute(forecast) {
   const assessment = softDayAssessment(forecast)
@@ -30,9 +38,10 @@ export default function SoftDayTool() {
 
       {result && status !== 'loading' && (
         <div
-          className={`softday__result ${result.isSoftDay ? 'is-soft' : 'is-not-soft'}`}
+          className={`softday__result fx-host ${result.isSoftDay ? 'is-soft' : 'is-not-soft'}`}
           aria-live="polite"
         >
+          <WeatherFX type={fxFor(result)} />
           <span className="softday__big" aria-hidden="true">
             {result.isSoftDay ? '🌧️🙏' : result.weather.emoji}
           </span>

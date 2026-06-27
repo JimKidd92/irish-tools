@@ -2,6 +2,9 @@ import { describeWeather, dryingScore, dryingVerdict } from '../lib/weather.js'
 import { useWeatherTool } from '../hooks/useWeatherTool.js'
 import LocationSearch from './LocationSearch.jsx'
 import ShareButton from './ShareButton.jsx'
+import WeatherFX from './WeatherFX.jsx'
+
+const FX_BY_LEVEL = { top: 'sun', good: 'sun', middling: 'mist', poor: 'rain', desperate: 'rain' }
 
 // Turn a raw forecast into this tool's result.
 function compute(forecast) {
@@ -28,7 +31,8 @@ export default function DryingTool() {
       {status === 'error' && <p className="weather-status weather-status--error">{error}</p>}
 
       {verdict && status !== 'loading' && (
-        <div className={`drying__result drying__result--${verdict.level}`} aria-live="polite">
+        <div className={`drying__result drying__result--${verdict.level} fx-host`} aria-live="polite">
+          <WeatherFX type={FX_BY_LEVEL[verdict.level]} />
           <div className="drying__verdict">
             <span className="drying__verdict-emoji" aria-hidden="true">
               {verdict.emoji}

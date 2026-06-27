@@ -3916,6 +3916,131 @@ a {
   margin-top: auto;
 }
 
+/* ---------- Weather FX ---------- */
+.fx-host {
+  position: relative;
+  overflow: hidden;
+}
+
+.fx-host > :not(.weather-fx) {
+  position: relative;
+  z-index: 1;
+}
+
+.weather-fx {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.weather-fx--mist {
+  background:
+    radial-gradient(55% 40% at 18% 45%, rgba(180, 200, 195, 0.22), transparent 70%),
+    radial-gradient(50% 35% at 78% 55%, rgba(180, 200, 195, 0.16), transparent 70%);
+  animation: wxMist 9s ease-in-out infinite alternate;
+}
+
+.weather-fx--rain {
+  opacity: 0.55;
+  background-image: repeating-linear-gradient(
+    108deg,
+    transparent 0 9px,
+    rgba(96, 140, 184, 0.28) 9px 10px
+  );
+  background-size: 42px 42px;
+  animation: wxRain 0.55s linear infinite;
+}
+
+.weather-fx--sun {
+  background: radial-gradient(circle at 86% 12%, rgba(255, 196, 84, 0.3), transparent 46%);
+}
+
+.weather-fx--sun::after {
+  content: '';
+  position: absolute;
+  top: -34%;
+  right: -12%;
+  width: 220px;
+  height: 220px;
+  background: conic-gradient(
+    from 0deg,
+    rgba(255, 196, 84, 0.16) 0 7deg,
+    transparent 7deg 30deg
+  );
+  border-radius: 50%;
+  animation: wxSpin 20s linear infinite;
+}
+
+@keyframes wxMist {
+  from { transform: translateX(-7%); }
+  to { transform: translateX(7%); }
+}
+@keyframes wxRain {
+  to { background-position: -21px 42px; }
+}
+@keyframes wxSpin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .weather-fx--mist,
+  .weather-fx--rain,
+  .weather-fx--sun::after {
+    animation: none;
+  }
+}
+
+/* ---------- By the numbers ---------- */
+.stats {
+  margin: 40px 0;
+}
+
+.stats__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(22, 155, 98, 0.06), transparent);
+  padding: 22px 18px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+}
+
+.stat__num {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--green-dark);
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat__label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  font-weight: 700;
+}
+
+@media (max-width: 560px) {
+  .stats__inner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 14px;
+  }
+}
+
 /* ---------- Scroll reveal (progressive enhancement, zero-JS) ---------- */
 @media (prefers-reduced-motion: no-preference) {
   @supports (animation-timeline: view()) {
