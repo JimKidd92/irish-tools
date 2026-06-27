@@ -8,7 +8,7 @@ import {
   timeUntilTomorrow,
   todayKey,
 } from '../lib/dailyQuiz.js'
-import { shareResult } from '../lib/share.js'
+import ShareImageButton from './ShareImageButton.jsx'
 
 export default function QuizTool() {
   const questions = useMemo(() => dailyQuestions(), [])
@@ -24,7 +24,6 @@ export default function QuizTool() {
       ? { score: progress.lastScore ?? 0, grid: progress.lastGrid ?? '', streak: progress.streak }
       : null,
   )
-  const [shareMsg, setShareMsg] = useState('')
 
   const q = questions[step]
 
@@ -51,17 +50,6 @@ export default function QuizTool() {
     }
   }
 
-  async function onShare() {
-    const date = new Date().toLocaleDateString('en-IE', { day: 'numeric', month: 'short' })
-    const text = `🍀 Irish Tools Daily Quiz — ${date}\n${final.score}/${questions.length}  ${final.grid}\nStreak: ${final.streak} 🔥`
-    const res = await shareResult({
-      title: 'Irish Tools Daily Quiz',
-      text,
-      url: 'https://irishtools.ie/quiz/',
-    })
-    setShareMsg(res === 'copied' ? 'Copied to clipboard!' : res === 'shared' ? 'Shared!' : '')
-  }
-
   if (phase === 'done' && final) {
     return (
       <section className="panel quiz">
@@ -85,10 +73,17 @@ export default function QuizTool() {
           <span className="quiz__streak-label">day streak</span>
         </div>
 
-        <button className="btn btn--primary" onClick={onShare}>
-          Share your score
-        </button>
-        {shareMsg && <p className="quiz__sharemsg">{shareMsg}</p>}
+        <ShareImageButton
+          image={{
+            kicker: `Daily Irish Quiz · ${new Date().toLocaleDateString('en-IE', { day: 'numeric', month: 'short' })}`,
+            big: `${final.score}/${questions.length}`,
+            sub: `${final.grid}   ·   ${final.streak} day streak 🔥`,
+            accent: 'orange',
+          }}
+          text={`🍀 Irish Tools Daily Quiz\n${final.score}/${questions.length}  ${final.grid}\nStreak: ${final.streak} 🔥`}
+          url="https://irishtools.ie/quiz/"
+          label="Share your score"
+        />
 
         <p className="quiz__tomorrow">
           Come back tomorrow for a new quiz — next one in {timeUntilTomorrow()}.

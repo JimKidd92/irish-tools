@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { celebrate } from '../lib/confetti.js'
-import { shareResult } from '../lib/share.js'
+import ShareImageButton from './ShareImageButton.jsx'
 
 // Each option carries points (0–2). Maximum honest Irishness: 24 points.
 const QUESTIONS = [
@@ -44,7 +44,6 @@ export default function HowIrishTool() {
   const [step, setStep] = useState(0)
   const [points, setPoints] = useState(0)
   const [done, setDone] = useState(false)
-  const [shareMsg, setShareMsg] = useState('')
 
   function answer(p) {
     const total = points + p
@@ -74,24 +73,16 @@ export default function HowIrishTool() {
         <h2 className="quiz__result-title">{pct}% Irish</h2>
         <p className="quiz__blurb"><strong>{t.title}.</strong> {t.blurb}</p>
         <div className="mammy__buttons">
-          <button
-            className="btn btn--primary"
-            onClick={async () => {
-              const res = await shareResult({
-                title: 'How Irish Are You?',
-                text: `☘️ I'm ${pct}% Irish — “${t.title}”. How Irish are you?`,
-                url: 'https://irishtools.ie/how-irish/',
-              })
-              setShareMsg(res === 'copied' ? 'Copied!' : res === 'shared' ? 'Shared!' : '')
-            }}
-          >
-            Share your score
-          </button>
+          <ShareImageButton
+            image={{ kicker: 'How Irish are you?', big: `${pct}% Irish`, sub: t.title, accent: 'green' }}
+            text={`☘️ I'm ${pct}% Irish — “${t.title}”. How Irish are you?`}
+            url="https://irishtools.ie/how-irish/"
+            label="Share your score"
+          />
           <button className="btn btn--ghost" onClick={restart}>
             Go again
           </button>
         </div>
-        {shareMsg && <p className="quiz__sharemsg">{shareMsg}</p>}
       </section>
     )
   }
