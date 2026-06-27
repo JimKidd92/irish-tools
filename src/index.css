@@ -3916,6 +3916,87 @@ a {
   margin-top: auto;
 }
 
+/* ---------- Scroll reveal (progressive enhancement, zero-JS) ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: revealUp linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 38%;
+    }
+  }
+}
+
+@keyframes revealUp {
+  from { opacity: 0; transform: translateY(26px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ---------- Image hover zoom ---------- */
+.ncard__img,
+.today__feature-img {
+  transition: transform 0.5s ease;
+}
+
+.ncard:hover .ncard__img,
+.today__feature:hover .today__feature-img {
+  transform: scale(1.06);
+}
+
+/* ---------- Hero glow-up ---------- */
+.hero--tod {
+  position: relative;
+  padding: 18px 16px 4px;
+}
+
+.hero--tod::before {
+  content: '';
+  position: absolute;
+  inset: -40px -10% auto -10%;
+  height: 320px;
+  z-index: -1;
+  background:
+    radial-gradient(60% 80% at 50% 0%, rgba(22, 155, 98, 0.22), transparent 70%),
+    radial-gradient(40% 60% at 80% 10%, rgba(255, 122, 24, 0.12), transparent 70%);
+  filter: blur(8px);
+  pointer-events: none;
+}
+
+/* faint shamrock watermark */
+.hero--tod::after {
+  content: '';
+  position: absolute;
+  top: -14px;
+  right: 8%;
+  width: 120px;
+  height: 120px;
+  z-index: -1;
+  background: url('/logo.svg') center / contain no-repeat;
+  opacity: 0.06;
+  transform: rotate(8deg);
+  pointer-events: none;
+}
+
+/* gradient accent on the tool-of-the-day name */
+.hero--tod .hero__title {
+  background: linear-gradient(120deg, var(--ink) 0%, var(--green-dark) 60%, var(--green) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+[data-theme='dark'] .hero--tod .hero__title {
+  background: linear-gradient(120deg, #fff 0%, #8fe9c0 70%, var(--green) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 560px) {
+  .hero--tod::after { display: none; }
+}
+
 /* ---------- Entrance animations ---------- */
 @keyframes fadeUp {
   from {
