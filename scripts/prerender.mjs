@@ -13,6 +13,8 @@ import { dirname, resolve, join } from 'node:path'
 import { ROUTE_META, SITE_URL, pathFor } from '../src/data/seo.js'
 import { SURNAMES } from '../src/data/surnames.js'
 import { COUNTIES } from '../src/data/counties.js'
+import { COUNTY_ABOUT } from '../src/data/countiesAbout.js'
+import { PLACES } from '../src/data/places.js'
 import { SLANG } from '../src/data/slang.js'
 import { publishedGuides } from '../src/data/guides.js'
 
@@ -80,14 +82,21 @@ function surnameContent(s) {
 }
 
 function countyContent(c) {
-  const info = countyInfo[c.name] || {}
+  const about = COUNTY_ABOUT[c.name] || ''
+  const places = PLACES.filter((p) => p.county === c.name)
   const surnames = SURNAMES.filter((s) => s.region.includes(c.name)).slice(0, 12)
   const sur = surnames.map((s) => `<a href="/surnames/${slugify(s.name)}/">${esc(s.name)}</a>`).join(' · ')
+  const placeList = places.length
+    ? `<h2>Places to visit in ${esc(c.name)}</h2><ul>${places
+        .map((p) => `<li><strong>${esc(p.name)}</strong> — ${esc(p.blurb)}</li>`)
+        .join('')}</ul>`
+    : ''
   return `<main class="prerender"><article>
-    <h1>County ${esc(c.name)} (${esc(c.irish)})</h1>
+    <h1>County ${esc(c.name)} Guide (${esc(c.irish)})</h1>
     <p>“${esc(c.nickname)}” — in the province of ${esc(c.province)}. County town: ${esc(c.town)}.</p>
     <p>${esc(c.blurb)}</p>
-    ${info.extract ? `<p>${esc(info.extract)}</p>` : ''}
+    ${about ? `<p>${esc(about)}</p>` : ''}
+    ${placeList}
     ${sur ? `<p><strong>Surnames from ${esc(c.name)}:</strong> ${sur}</p>` : ''}
     <p><a href="/counties/">All 32 counties</a> · <a href="/places/">Places to visit</a> · <a href="/">Irish Tools</a></p>
   </article></main>`

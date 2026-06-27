@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { COUNTIES, PROVINCES } from '../data/counties.js'
+import { COUNTY_ABOUT } from '../data/countiesAbout.js'
 import { PLACES } from '../data/places.js'
 import { SURNAMES } from '../data/surnames.js'
 import countyInfo from '../data/counties.generated.json'
@@ -49,7 +50,9 @@ export default function CountyGuide({ slug }) {
             <strong>County town:</strong> {county.town}
           </p>
 
-          {info.extract && <p className="county__about">{info.extract}</p>}
+          {COUNTY_ABOUT[county.name] && (
+            <p className="county__about">{COUNTY_ABOUT[county.name]}</p>
+          )}
 
           {places.length > 0 && (
             <div className="county__places">
