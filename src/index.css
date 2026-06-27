@@ -2218,12 +2218,14 @@ a {
   letter-spacing: 0.08em;
   color: var(--ink-soft);
   margin: 0 0 8px;
+  text-align: center;
 }
 
 .county__chips {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: center;
 }
 
 .county__chip {
