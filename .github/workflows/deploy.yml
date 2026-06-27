@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Daily rebuild so scheduled guides (and date-based tools) go live on time.
+  # 07:17 UTC; GitHub may delay scheduled runs by a few minutes.
+  schedule:
+    - cron: '17 7 * * *'
 
 # Permissions needed for the GitHub Pages deployment.
 permissions:

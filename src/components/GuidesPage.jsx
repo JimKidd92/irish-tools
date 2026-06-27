@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { GUIDES, getGuide } from '../data/guides.js'
+import { publishedGuides, getGuide } from '../data/guides.js'
 import { navigate } from '../hooks/useHashRoute.js'
 import { setHead } from '../lib/head.js'
 import { SITE_URL } from '../data/seo.js'
@@ -25,7 +25,7 @@ export default function GuidesPage({ slug }) {
   }, [slug, guide])
 
   if (guide) {
-    const others = GUIDES.filter((g) => g.slug !== guide.slug).slice(0, 3)
+    const others = publishedGuides().filter((g) => g.slug !== guide.slug).slice(0, 3)
     return (
       <article className="guide">
         <button className="back-link" onClick={() => navigate('guides')}>
@@ -65,7 +65,7 @@ export default function GuidesPage({ slug }) {
         Longer reads on Irish life, heritage and travel — the stories behind the tools.
       </p>
       <ul className="guides-index__list">
-        {GUIDES.map((g) => (
+        {publishedGuides().map((g) => (
           <li key={g.slug}>
             <button className="guide-card" onClick={() => navigate('guides', g.slug)}>
               <span className="guide-card__title">{g.title}</span>

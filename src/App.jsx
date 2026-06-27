@@ -9,7 +9,7 @@ import HomeHeritage from './components/HomeHeritage.jsx'
 import AdSpace from './components/AdSpace.jsx'
 import { tools, TOOL_CATEGORIES } from './data/tools.js'
 import { TOOLS_OF_THE_DAY } from './data/toolsOfTheDay.js'
-import { GUIDES } from './data/guides.js'
+import { publishedGuides } from './data/guides.js'
 import { metaFor, pathFor, SITE_URL } from './data/seo.js'
 import { useRoute, navigate } from './hooks/useHashRoute.js'
 import { useTheme } from './hooks/useTheme.js'
@@ -484,7 +484,7 @@ function Home({ onOpenNav }) {
       <section className="tools">
         <h2 className="section-title">Read up on Ireland</h2>
         <ul className="guides-index__list guides-index__list--home">
-          {GUIDES.slice(0, 3).map((g) => (
+          {publishedGuides().slice(0, 3).map((g) => (
             <li key={g.slug}>
               <button className="guide-card" onClick={() => navigate('guides', g.slug)}>
                 <span className="guide-card__title">{g.title}</span>

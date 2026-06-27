@@ -14,7 +14,9 @@ import { ROUTE_META, SITE_URL, pathFor } from '../src/data/seo.js'
 import { SURNAMES } from '../src/data/surnames.js'
 import { COUNTIES } from '../src/data/counties.js'
 import { SLANG } from '../src/data/slang.js'
-import { GUIDES } from '../src/data/guides.js'
+import { publishedGuides } from '../src/data/guides.js'
+
+const GUIDES = publishedGuides()
 import { slugify } from '../src/lib/slug.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))

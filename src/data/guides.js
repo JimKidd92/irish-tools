@@ -131,8 +131,140 @@ export const GUIDES = [
       { p: 'The throughline in all of it is a kind of weather-worn good humour. The weather will do what it likes; the least you can do is have a nice phrase ready for it.' },
     ],
   },
+  {
+    slug: 'tracing-your-irish-roots',
+    title: 'How to Trace Your Irish Roots: A Practical Starter Guide',
+    description:
+      'A step-by-step beginner’s guide to researching Irish ancestry — the records that survive, where to find them free, and how to get past the brick walls.',
+    readMins: 7,
+    date: '2026-06-21',
+    body: [
+      { p: 'Tens of millions of people around the world have Irish ancestry, and a great many of them dream of pinning down exactly where in Ireland their people came from. The good news is that Irish genealogy is more accessible than its reputation suggests — a surprising amount is free and online. The trick is knowing the order to do things in.' },
+      { h: 'Start at home, not in Ireland' },
+      { p: 'Before you touch an Irish record, gather everything your own family already knows: full names, approximate dates, and above all any hint of a county, parish or townland. A single place name can be the difference between a search that works and one that drowns. Talk to older relatives, and check the records of the country your ancestors emigrated to — US, British, Canadian and Australian censuses, naturalisation papers, ships’ passenger lists and gravestones often name an Irish county or town.' },
+      { h: 'The census: 1901 and 1911' },
+      { p: 'Ireland’s great genealogical tragedy is that most 19th-century census returns were destroyed — the 1821–51 censuses were pulped or burned, and the 1861–91 ones were destroyed by the government. What survives intact are the censuses of 1901 and 1911, and they are a gift: fully digitised, free, and searchable on the National Archives of Ireland website. Each lists every person in a household, their age, religion, occupation, birthplace and ability to read.' },
+      { h: 'Civil and church records' },
+      { p: 'Civil registration of births, marriages and deaths began in 1864 (and non-Catholic marriages from 1845). These are searchable for free on irishgenealogy.ie, often with images of the original register. For dates before 1864, you turn to church records — Catholic parish registers have been digitised and put online free by the National Library of Ireland, though they’re mostly unindexed, so you need that parish name to browse them.' },
+      { h: 'Land and other records' },
+      { p: 'Two land surveys help bridge the census gap. Griffith’s Valuation (1847–64) lists the occupier of nearly every property in the country and is free on askaboutireland.ie — invaluable for placing a surname in a townland. The earlier Tithe Applotment Books (1820s–30s) do something similar. Together they can put your family on the map a generation or two before the surviving censuses.' },
+      { h: 'Getting past the brick wall' },
+      { p: 'If you’re stuck, the usual culprit is a missing place name. Use your surname as a clue: many Irish surnames are concentrated in particular counties, which can narrow a search dramatically — our surname tool and county guide are a handy starting point. DNA testing can also break logjams by connecting you to cousins who already know the parish. And don’t overlook the county heritage and genealogy centres, several of which will do a paid look-up if you can give them a name and a rough date.' },
+      { p: 'Genealogy rewards patience more than anything else. Work backwards one verified generation at a time, write down your sources, and resist the temptation to grab the first matching name you see — Ireland had a great many Patrick Murphys.' },
+    ],
+  },
+  {
+    slug: 'the-four-provinces-of-ireland',
+    title: 'The Four Provinces of Ireland Explained',
+    description:
+      'Ulster, Munster, Leinster and Connacht — what the four provinces are, where they came from, and what makes each one distinct.',
+    readMins: 5,
+    date: '2026-06-24',
+    body: [
+      { p: 'You’ll often hear Ireland described not just by its 32 counties but by its four provinces — Ulster, Munster, Leinster and Connacht. They’re older than the counties, woven through Irish sport, identity and history, and worth understanding if you want to make sense of the place.' },
+      { h: 'Older than the counties' },
+      { p: 'The provinces are ancient. The Irish word for a province, cúige, literally means “a fifth” — because in early medieval Ireland there were five, the extra one being Meath (Mide), the seat of the High Kings. Meath was later absorbed into Leinster, leaving the four we know today. Each province was once a patchwork of small kingdoms ruled by Gaelic dynasties, long before the English-imposed county system overlaid it.' },
+      { h: 'Ulster — the north' },
+      { p: 'Ulster is the northern province, nine counties in all: Antrim, Armagh, Cavan, Derry, Donegal, Down, Fermanagh, Monaghan and Tyrone. Six of these make up Northern Ireland, part of the UK; the other three (Cavan, Donegal, Monaghan) are in the Republic. Ulster has its own strong identity, a distinctive accent and dialect, and a complex, sometimes painful history. It’s also stunningly beautiful — the Giant’s Causeway, the Mournes and the wilds of Donegal.' },
+      { h: 'Munster — the south-west' },
+      { p: 'Munster covers the south and south-west: Clare, Cork, Kerry, Limerick, Tipperary and Waterford. It’s the largest province by area, home to Ireland’s second city (Cork, the self-styled “real capital”), the tourist honeypots of Kerry, and a fierce hurling tradition. Munster Irish is one of the main living dialects of the language.' },
+      { h: 'Leinster — the east' },
+      { p: 'Leinster, in the east, has the most counties (twelve) and by far the most people, because it contains Dublin. From the capital it spreads out across Kildare horse country, the monastic glens of Wicklow, the ancient royal sites of Meath, and the sunny south-east of Wexford. It’s the most populous and economically dominant province.' },
+      { h: 'Connacht — the west' },
+      { p: 'Connacht is the western province — Galway, Leitrim, Mayo, Roscommon and Sligo — the smallest by population and, to many, the most romantically “Irish”. This is the land of the Wild Atlantic Way, Connemara, the Aran Islands and some of the strongest surviving Gaeltacht (Irish-speaking) areas. There’s an old saying, “to hell or to Connacht”, recalling the 17th-century displacement of Gaelic landowners to the poorer western lands.' },
+      { p: 'You’ll see the four provinces most vividly in sport: the GAA, rugby and other competitions are organised provincially, so a Munster–Leinster rugby match or an Ulster football final carries centuries of identity behind it.' },
+    ],
+  },
+  {
+    slug: 'choosing-an-irish-baby-name',
+    title: 'Choosing an Irish Baby Name: Meanings, Pronunciation and Fadas',
+    description:
+      'A friendly guide to picking an Irish name for your child — what the names mean, how to actually say them, and the little accent that changes everything.',
+    readMins: 5,
+    date: '2026-06-27',
+    body: [
+      { p: 'Irish names have never been more popular, both in Ireland and across the diaspora — Saoirse, Aoife, Cian and Fionn turn up everywhere now. They’re beautiful, deeply rooted, and carry real meaning. But they also come with a couple of things worth understanding before you commit one to a birth certificate.' },
+      { h: 'The fada matters' },
+      { p: 'That little accent over some vowels — á, é, í, ó, ú — is called a fada (meaning “long”), and it’s not decorative. It changes both the pronunciation and, sometimes, the meaning of a word entirely. Seán (with the fada) is the name; “sean” without it means “old”. If you choose an Irish name, keep its fada — many a person abroad has spent a lifetime correcting forms that dropped it.' },
+      { h: 'Spelling and sound don’t match (to English eyes)' },
+      { p: 'Irish spelling follows its own consistent rules, but they’re very different from English ones, which is why names look unpronounceable until you learn the patterns. Saoirse is “SEER-sha” and means “freedom”. Niamh is “NEEV” (“radiance”). Caoimhe is “KEE-va”. Tadhg is “TYGE”. Once you know that “mh” and “bh” often sound like a “v” or “w”, and that “dh” and “gh” are frequently silent, the names start to make sense. Our Irish names tool gives the meaning and a pronunciation for each.' },
+      { h: 'Names with stories' },
+      { p: 'Many Irish names come straight from mythology and history, which is part of their appeal. Fionn (“fair”) recalls the hero Fionn mac Cumhaill; Oisín (“little deer”) was his poet son; Niamh was the woman who carried Oisín to Tír na nÓg, the land of the young. Others are saints’ names — Bríd (Brigid), Pádraig (Patrick) — or describe a quality: Aoife means beauty, Caoimhe means gentleness, Cian means ancient and enduring.' },
+      { h: 'A practical word for the diaspora' },
+      { p: 'If your child will grow up outside Ireland, it’s worth picturing daily life with the name: will teachers manage it, will it survive English keyboards that lack the fada? Plenty of families choose a name that travels well (Liam, Erin, Ronan) or pair a traditional Irish name with a simpler middle name. There’s no wrong answer — but going in with eyes open means you’ll defend your choice happily rather than spend years explaining it.' },
+    ],
+  },
+  {
+    slug: 'the-real-story-of-st-patricks-day',
+    title: 'The Real Story of St Patrick’s Day',
+    description:
+      'Who St Patrick actually was, how 17 March became a global party, and the history behind the shamrock, the colour green and the parades.',
+    readMins: 5,
+    date: '2026-06-30',
+    body: [
+      { p: 'St Patrick’s Day, 17 March, is celebrated by more people in more countries than almost any other national day — and most of them have only the haziest idea of who Patrick was or why we mark it. The real story is more interesting than the green beer suggests.' },
+      { h: 'Who was Patrick?' },
+      { p: 'Patrick wasn’t Irish. He was a Romano-Briton, born in the late 4th or early 5th century, who by his own account was kidnapped by Irish raiders as a teenager and enslaved as a herdsman in Ireland for six years. He escaped home, became a cleric, and then — remarkably — returned to the land of his captivity as a missionary. His two surviving writings, the Confessio and the Letter to Coroticus, are among the earliest documents written in Ireland. He’s credited with spreading Christianity across the island, and 17 March is traditionally his death date.' },
+      { h: 'Snakes, shamrocks and legends' },
+      { p: 'Much of what “everyone knows” about Patrick is later legend. The famous tale that he drove the snakes out of Ireland is symbolic at best — Ireland, an island since the last Ice Age, never had snakes to begin with. The story that he used the three-leaved shamrock to explain the Christian Trinity is also a much later tradition, but it stuck, and the shamrock became his — and Ireland’s — emblem.' },
+      { h: 'From holy day to global party' },
+      { p: 'For centuries, St Patrick’s Day in Ireland was a quiet religious holiday — pubs were actually closed by law on the day until the 1970s. The boisterous, parade-filled version we know today was largely shaped by the Irish diaspora, especially in the United States. The first St Patrick’s Day parades were held not in Ireland but in cities like Boston and New York in the 18th century, as emigrants asserted their identity. Ireland eventually imported the spectacle back, and Dublin’s modern multi-day festival dates only from the 1990s.' },
+      { h: 'Why the green?' },
+      { p: 'St Patrick was originally associated with blue, not green. Green crept in through the shamrock, the “Emerald Isle”, and the green of Irish nationalism, until it overwhelmed everything else. Today the colour, the shamrock and the date together form a kind of global shorthand for Irishness — landmarks from Sydney to Chicago light up green, and millions who’ve never set foot in Ireland feel, for one day, a little bit Irish. There are worse legacies for a 5th-century missionary.' },
+    ],
+  },
+  {
+    slug: 'understanding-gaelic-games',
+    title: 'Understanding Gaelic Games: A Newcomer’s Guide to the GAA',
+    description:
+      'Hurling, Gaelic football and the GAA explained — the rules, the county system, the amateur ethos, and why it means so much in Ireland.',
+    readMins: 6,
+    date: '2026-07-03',
+    body: [
+      { p: 'Nothing reveals the heart of Ireland quite like its native games. Gaelic football and hurling are played in every parish, followed with fierce devotion, and run by one of the most remarkable sporting organisations in the world. For a newcomer — or a returning member of the diaspora — here’s what you need to know.' },
+      { h: 'The GAA' },
+      { p: 'The Gaelic Athletic Association (GAA) was founded in 1884 to promote Ireland’s native sports, and it became far more than a sports body — it was, and is, woven into Irish cultural and national identity. Crucially, it remains amateur at every level: the county players who fill 82,000-seat Croke Park for an All-Ireland final are not paid. They play for their parish and their county alongside ordinary jobs, which gives the games an intensity and authenticity professional sport rarely matches.' },
+      { h: 'Hurling — the fastest game on grass' },
+      { p: 'Hurling is often called the fastest field sport in the world, and it’s genuinely ancient — references to it appear in Irish mythology. Players use a wooden stick called a hurley (camán) to hit a small leather ball (the sliotar), which can travel at well over 100 km/h. You can catch it, carry it balanced on the stick while running, and strike it from the hand. Put it over the crossbar between the posts for a point; put it in the net for a goal, worth three points. The women’s version is called camogie.' },
+      { h: 'Gaelic football' },
+      { p: 'Gaelic football is a little easier for newcomers to follow — think a hybrid of soccer and rugby played with a round ball. You can catch it, kick it, and hand-pass it (a fist strike, not a throw), and you must bounce or “solo” it (drop and toe-kick it back to your hands) while running. The scoring is the same as hurling: over the bar is a point, into the net is a goal worth three. The Ladies’ Gaelic Football Association runs the women’s game, which draws big crowds of its own.' },
+      { h: 'County above all' },
+      { p: 'GAA is organised by county, and your county is not a choice — it’s where you’re from, full stop. This is why the All-Ireland Championships, played through the summer and culminating in September finals at Croke Park, carry such weight: a county that hasn’t won in decades will empty itself onto the streets when it finally does. The hurling trophy is the Liam MacCarthy Cup; the football one is the Sam Maguire. Learn your own family’s county and you’ll have a team for life.' },
+      { p: 'If you get the chance to see a championship match — even a club game on a wet Sunday in a small parish ground — take it. It’s the most Irish afternoon you can have.' },
+    ],
+  },
+  {
+    slug: 'irish-pub-culture-and-the-round',
+    title: 'Irish Pub Culture and the Sacred Art of the Round',
+    description:
+      'How the Irish pub really works — the round system, pub etiquette, the slow pint, and why the pub is about far more than drink.',
+    readMins: 5,
+    date: '2026-07-06',
+    body: [
+      { p: 'The pub — an abbreviation of “public house” — is the living room of Irish social life. It’s where news is exchanged, music is played, matches are watched, deals are done and friendships are kept up. Understanding how it works will make any trip to Ireland immeasurably richer, and there’s one custom above all you need to grasp.' },
+      { h: 'The round system' },
+      { p: 'If you’re drinking in a group, you don’t buy your own drinks — you buy in rounds. One person buys a drink for everyone, and then, over the course of the session, each person takes their turn to do the same. It is a system built on trust and reciprocity, and skipping your round is one of the gravest social crimes in Ireland; the term for someone who dodges it (“not standing their round”) is close to an accusation of bad character. If you join a group, offer to get a round in early. If you can’t keep pace with the drinking, it’s perfectly fine to bow out of the rounds — just say so honestly rather than quietly freeloading.' },
+      { h: 'The slow pint' },
+      { p: 'A pint of stout cannot be rushed. It’s poured in two stages — filled about three-quarters, left to settle while the famous cascade surges and clears, then topped off with a domed head. This takes a couple of minutes, so don’t be alarmed when the bartender abandons your pint half-poured to serve someone else; they haven’t forgotten you. A good pint is worth the wait, and trying to hurry it marks you out instantly.' },
+      { h: 'More than drink' },
+      { p: 'Crucially, the Irish pub is not only about alcohol. People nurse a single pint, or a mineral (a soft drink), or a cup of tea, for hours — the point is the company and the conversation, the craic. Striking up a chat with a stranger at the bar is completely normal and often the best part of the night. Many pubs host traditional music sessions, where musicians gather informally to play; sit quietly, listen, and you’ll witness one of the great living folk traditions of Europe.' },
+      { h: 'A few small courtesies' },
+      { p: 'Tipping isn’t expected for bar service as it is in the US, though leaving the change from a card or buying the bartender one is appreciated in a local you’re fond of. Last orders and “closing time” are still a thing, signalled by the ringing of a bell. And whatever you’re drinking, when glasses are raised the word is the same: sláinte. The pub will teach you more about Ireland in an evening than a guidebook will in a week.' },
+    ],
+  },
 ]
 
-export function getGuide(slug) {
-  return GUIDES.find((g) => g.slug === slug) || null
+// Guides whose publish date has arrived (no date = always published), newest first.
+export function publishedGuides(now = new Date()) {
+  const today = now.toISOString().slice(0, 10)
+  return GUIDES.filter((g) => !g.date || g.date <= today).sort((a, b) =>
+    (b.date || b.updated || '').localeCompare(a.date || a.updated || ''),
+  )
+}
+
+export function getGuide(slug, now = new Date()) {
+  const g = GUIDES.find((x) => x.slug === slug)
+  if (!g) return null
+  const today = now.toISOString().slice(0, 10)
+  return g.date && g.date > today ? null : g
 }
