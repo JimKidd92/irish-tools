@@ -185,7 +185,12 @@ function ServerQuiz() {
     )
   }
 
-  // done
+  // Any other status (or a transient state before the load effect runs) — show
+  // a loader rather than falling through to the results view with no result.
+  if (state.status !== 'done' || !state.result) {
+    return <section className="panel quiz"><p className="quiz__loading">Loading today’s quiz…</p></section>
+  }
+
   const { result, corrections, total } = state
   const score = result.correct
   return (
