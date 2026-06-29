@@ -20,10 +20,10 @@ export const NEWS_API = 'https://irish-tools-news.irish-tools.workers.dev'
 // QUIZ_API: the URL of the deployed Cloudflare quiz/leaderboard Worker
 // (see worker/quiz/README.md). While empty, the Daily Quiz + leaderboard are
 // hidden/disabled. e.g. 'https://irish-tools-quiz.YOURNAME.workers.dev'
-export const QUIZ_API = ''
+export const QUIZ_API = 'https://irish-tools-quiz.irish-tools.workers.dev'
 
 // GOOGLE_CLIENT_ID: your Google OAuth Web client ID for "Sign in with Google"
 // (https://console.cloud.google.com → Credentials). Safe to expose publicly.
 // Must match the GOOGLE_CLIENT_ID set in the quiz Worker. e.g.
 // '1234567890-abc123.apps.googleusercontent.com'. Empty disables sign-in.
-export const GOOGLE_CLIENT_ID = ''
+export const GOOGLE_CLIENT_ID = '888849269201-22j27mevvoc13bmsfnhf669ptato4pdb.apps.googleusercontent.com'
