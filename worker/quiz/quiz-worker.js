@@ -201,6 +201,13 @@ export default {
   async fetch(req, env) {
     const origin = req.headers.get('Origin') || ''
     if (req.method === 'OPTIONS') return new Response(null, { headers: cors(origin) })
+    if (!env.SESSION_SECRET) {
+      return json(
+        { error: 'Server not configured: SESSION_SECRET is missing. Run: wrangler secret put SESSION_SECRET' },
+        500,
+        origin,
+      )
+    }
     const url = new URL(req.url)
     try {
       const route = `${req.method} ${url.pathname}`
