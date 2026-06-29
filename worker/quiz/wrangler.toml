@@ -6,7 +6,7 @@ workers_dev = true
 # Public — your Google OAuth Web client ID (safe to expose). Used to verify the
 # audience of incoming Google ID tokens. Must match VITE_GOOGLE_CLIENT_ID.
 [vars]
-GOOGLE_CLIENT_ID = "REPLACE_WITH_YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+GOOGLE_CLIENT_ID = "888849269201-22j27mevvoc13bmsfnhf669ptato4pdb.apps.googleusercontent.com"
 
 # D1 database binding. Create it once with:
 #   wrangler d1 create irish-tools-quiz
@@ -14,7 +14,7 @@ GOOGLE_CLIENT_ID = "REPLACE_WITH_YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.co
 [[d1_databases]]
 binding = "DB"
 database_name = "irish-tools-quiz"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "4a131539-a3be-4d1c-9f61-0891f210c922"
 
 # Secret (do NOT put here) — set once with:
 #   wrangler secret put SESSION_SECRET
