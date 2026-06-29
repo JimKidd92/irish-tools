@@ -1,0 +1,1597 @@
+// Irish Tools — Daily Quiz question bank (SERVER-SIDE, with answers).
+// This lives in the Worker only and is never sent to the browser. The client
+// receives questions without the answer key. Add new questions weekly and
+// redeploy the Worker. Each: { q, options:[...], answer:<index> }.
+
+export const QUESTIONS = [
+  {
+    "q": "What’s the Irish for “hello”?",
+    "options": [
+      "Slán",
+      "Dia duit",
+      "Sláinte",
+      "Go raibh maith agat"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which county is known as “The Kingdom”?",
+    "options": [
+      "Cork",
+      "Galway",
+      "Kerry",
+      "Mayo"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "In Ireland, “grand” usually means…",
+    "options": [
+      "Huge",
+      "Fine / okay",
+      "Expensive",
+      "Angry"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Acting the maggot” means…",
+    "options": [
+      "Working hard",
+      "Messing about",
+      "Feeling sick",
+      "Telling lies"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s the longest river in Ireland?",
+    "options": [
+      "The Liffey",
+      "The Lee",
+      "The Shannon",
+      "The Boyne"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "“Sláinte” is a toast meaning…",
+    "options": [
+      "Goodbye",
+      "Health",
+      "Love",
+      "Money"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which is a traditional Irish sport?",
+    "options": [
+      "Hurling",
+      "Cricket",
+      "Lacrosse",
+      "Polo"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is “the immersion”?",
+    "options": [
+      "A water heater",
+      "A swimming pool",
+      "A type of bog",
+      "A pub"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "“What’s the craic?” is asking…",
+    "options": [
+      "The time",
+      "The news / any gossip",
+      "For directions",
+      "The weather"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Newgrange is older than…",
+    "options": [
+      "The Colosseum",
+      "Stonehenge",
+      "The Egyptian pyramids",
+      "All of these"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which colour is on the hoist side of the Irish tricolour?",
+    "options": [
+      "Orange",
+      "White",
+      "Green",
+      "Gold"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "A “culchie” is…",
+    "options": [
+      "A city slicker",
+      "Someone from rural Ireland",
+      "A tourist",
+      "A farm tool"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which is Ireland’s largest county by area?",
+    "options": [
+      "Cork",
+      "Galway",
+      "Mayo",
+      "Donegal"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In Hiberno-English, a “press” is often a…",
+    "options": [
+      "Cupboard",
+      "Newspaper",
+      "Button",
+      "Crowd"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "St Brigid’s Day falls on…",
+    "options": [
+      "1 February",
+      "17 March",
+      "1 May",
+      "1 November"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What’s the Irish for “thank you”?",
+    "options": [
+      "Le do thoil",
+      "Go raibh maith agat",
+      "Slán abhaile",
+      "Conas atá tú"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The Wild Atlantic Way runs along which coast?",
+    "options": [
+      "The east",
+      "The west",
+      "The south only",
+      "The north only"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "A “soft day” refers to…",
+    "options": [
+      "Mild, drizzly weather",
+      "A day off work",
+      "A lazy person",
+      "An easy job"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which instrument features on Irish euro coins?",
+    "options": [
+      "A fiddle",
+      "A harp",
+      "Uilleann pipes",
+      "A bodhrán"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Giving out” means…",
+    "options": [
+      "Donating",
+      "Complaining / scolding",
+      "Sharing food",
+      "Giving up"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Halloween comes from which Celtic festival?",
+    "options": [
+      "Bealtaine",
+      "Imbolc",
+      "Samhain",
+      "Lúnasa"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What does GAA stand for?",
+    "options": [
+      "Gaelic Athletic Association",
+      "Gaelic Arts Academy",
+      "Galway Athletic Alliance",
+      "Gaelic Amateur Association"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "“The jacks” is slang for…",
+    "options": [
+      "Money",
+      "The toilet",
+      "Playing cards",
+      "Your mates"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which city is known as “The Rebel City”?",
+    "options": [
+      "Limerick",
+      "Cork",
+      "Derry",
+      "Waterford"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Yoke” usually means…",
+    "options": [
+      "A thing / whatchamacallit",
+      "An egg yolk",
+      "A joke",
+      "A yoga pose"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Croke Park is mainly home to which sports?",
+    "options": [
+      "Soccer",
+      "Rugby",
+      "Gaelic games",
+      "Cricket"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The Cliffs of Moher are in which county?",
+    "options": [
+      "Clare",
+      "Kerry",
+      "Galway",
+      "Donegal"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "“Eejit” means…",
+    "options": [
+      "A fool",
+      "A genius",
+      "A child",
+      "An elder"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Guinness was first brewed in which city?",
+    "options": [
+      "Cork",
+      "Belfast",
+      "Dublin",
+      "Galway"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s the capital of Northern Ireland?",
+    "options": [
+      "Derry",
+      "Belfast",
+      "Armagh",
+      "Lisburn"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Grá” is the Irish word for…",
+    "options": [
+      "Love",
+      "Fear",
+      "Hunger",
+      "Rain"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many counties are on the island of Ireland?",
+    "options": [
+      "26",
+      "30",
+      "32",
+      "34"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What does “Tír na nÓg” mean?",
+    "options": [
+      "Land of Saints",
+      "Land of the Young",
+      "Land of Kings",
+      "Land of Mist"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Who drove the snakes out of Ireland, according to legend?",
+    "options": [
+      "St Brigid",
+      "St Colmcille",
+      "St Patrick",
+      "Fionn mac Cumhaill"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s a “gansey”?",
+    "options": [
+      "A jumper",
+      "A walk",
+      "A drink",
+      "A liar"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In what year was the Easter Rising?",
+    "options": [
+      "1798",
+      "1916",
+      "1921",
+      "1922"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Irish dish is made from mashed potato and cabbage or kale?",
+    "options": [
+      "Coddle",
+      "Boxty",
+      "Colcannon",
+      "Champ"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "“Fair play to ya” means…",
+    "options": [
+      "Be honest",
+      "Well done",
+      "Calm down",
+      "Hurry up"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What instrument is the bodhrán?",
+    "options": [
+      "A fiddle",
+      "A flute",
+      "A drum",
+      "A pipe"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which province is Galway in?",
+    "options": [
+      "Leinster",
+      "Munster",
+      "Connacht",
+      "Ulster"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s “boxty”?",
+    "options": [
+      "A potato pancake",
+      "A small donkey",
+      "A type of boot",
+      "A boxing match"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote Ulysses?",
+    "options": [
+      "W.B. Yeats",
+      "Samuel Beckett",
+      "Oscar Wilde",
+      "James Joyce"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What colour is associated with St Patrick’s Day?",
+    "options": [
+      "Blue",
+      "Green",
+      "Orange",
+      "Gold"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "A “gaff” is…",
+    "options": [
+      "A mistake",
+      "A house",
+      "A laugh",
+      "A boat"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Black stuff” usually refers to…",
+    "options": [
+      "Turf",
+      "Tea",
+      "Guinness",
+      "Liquorice"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The harp on Irish coins faces which way compared to the Guinness harp?",
+    "options": [
+      "The same way",
+      "The opposite way",
+      "Upside down",
+      "There is no difference"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which county is called “The Wee County”?",
+    "options": [
+      "Leitrim",
+      "Carlow",
+      "Louth",
+      "Longford"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s the Irish word for music?",
+    "options": [
+      "Ceol",
+      "Craic",
+      "Cáca",
+      "Cúl"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which mythical figure gained wisdom from a salmon?",
+    "options": [
+      "Cú Chulainn",
+      "Fionn mac Cumhaill",
+      "Oisín",
+      "Setanta"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What was Cú Chulainn’s original name?",
+    "options": [
+      "Oisín",
+      "Ferdia",
+      "Setanta",
+      "Conall"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "“The messages” means…",
+    "options": [
+      "Texts",
+      "The shopping",
+      "Mass readings",
+      "Gossip"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which city is the “Treaty City”?",
+    "options": [
+      "Cork",
+      "Galway",
+      "Limerick",
+      "Waterford"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "How many players are on a Gaelic football team?",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "17"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s the All-Ireland football trophy called?",
+    "options": [
+      "Liam MacCarthy Cup",
+      "Sam Maguire Cup",
+      "Bob O’Keeffe Cup",
+      "Brendan Martin Cup"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "And the All-Ireland hurling trophy?",
+    "options": [
+      "Sam Maguire Cup",
+      "Liam MacCarthy Cup",
+      "Tom Markham Cup",
+      "Christy Ring Cup"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is a sliotar?",
+    "options": [
+      "A hurling ball",
+      "A hurling stick",
+      "A type of boot",
+      "A penalty"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "“Acting the gom” means acting like…",
+    "options": [
+      "A boss",
+      "A fool",
+      "A hero",
+      "A child"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which river runs through Cork city?",
+    "options": [
+      "The Shannon",
+      "The Lee",
+      "The Suir",
+      "The Corrib"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which river runs through Galway?",
+    "options": [
+      "The Moy",
+      "The Corrib",
+      "The Barrow",
+      "The Erne"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s the highest mountain in Ireland?",
+    "options": [
+      "Croagh Patrick",
+      "Errigal",
+      "Carrauntoohil",
+      "Slieve Donard"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Carrauntoohil is in which county?",
+    "options": [
+      "Mayo",
+      "Wicklow",
+      "Kerry",
+      "Donegal"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "“I will yeah” usually means…",
+    "options": [
+      "Definitely yes",
+      "Absolutely not",
+      "Maybe",
+      "Right away"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s “the press” in an Irish kitchen?",
+    "options": [
+      "The iron",
+      "The cupboard",
+      "The newspaper",
+      "The kettle"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Irish writer won the Nobel Prize in 1923?",
+    "options": [
+      "James Joyce",
+      "W.B. Yeats",
+      "G.B. Shaw",
+      "Seamus Heaney"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Seamus Heaney came from which county?",
+    "options": [
+      "Monaghan",
+      "Sligo",
+      "Derry",
+      "Kerry"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s a “hooley”?",
+    "options": [
+      "A storm",
+      "A party",
+      "A fight",
+      "A hurling match"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The Claddagh ring shows two hands holding a…",
+    "options": [
+      "Harp",
+      "Shamrock",
+      "Crowned heart",
+      "Cross"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Where is the Claddagh?",
+    "options": [
+      "Dublin",
+      "Galway",
+      "Cork",
+      "Kerry"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Sceolán” and “Bran” were Fionn mac Cumhaill’s…",
+    "options": [
+      "Swords",
+      "Sons",
+      "Hounds",
+      "Horses"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s “poitín”?",
+    "options": [
+      "Illegal homemade spirits",
+      "A small pot",
+      "A potato dish",
+      "A fairy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "A “banshee” is said to warn of…",
+    "options": [
+      "Rain",
+      "A death",
+      "A wedding",
+      "Bad luck at cards"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What does “fáilte” mean?",
+    "options": [
+      "Goodbye",
+      "Welcome",
+      "Thanks",
+      "Cheers"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Ar dheis Dé go raibh a anam” is said when someone…",
+    "options": [
+      "Marries",
+      "Emigrates",
+      "Dies",
+      "Graduates"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which county is “The Banner County”?",
+    "options": [
+      "Clare",
+      "Kerry",
+      "Tipperary",
+      "Galway"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which county is “The Kingdom”?",
+    "options": [
+      "Cork",
+      "Kerry",
+      "Meath",
+      "Tyrone"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which county is “The Rebel County”?",
+    "options": [
+      "Wexford",
+      "Tipperary",
+      "Cork",
+      "Kilkenny"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Bunratty Castle is in which county?",
+    "options": [
+      "Limerick",
+      "Clare",
+      "Tipperary",
+      "Galway"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s the capital of Connacht (traditionally)?",
+    "options": [
+      "Sligo",
+      "Castlebar",
+      "Galway",
+      "Roscommon"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The Book of Kells is kept where?",
+    "options": [
+      "Kells",
+      "The National Museum",
+      "Trinity College Dublin",
+      "Armagh Cathedral"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s “turf” cut from?",
+    "options": [
+      "A field",
+      "A bog",
+      "A beach",
+      "A forest"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What does “níl aon tinteán mar do thinteán féin” mean?",
+    "options": [
+      "Health is wealth",
+      "There’s no place like home",
+      "Time waits for no one",
+      "Many hands make light work"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Two soft days in a row” means…",
+    "options": [
+      "It rained gently twice",
+      "A heatwave",
+      "Snow",
+      "A hard frost"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which ocean batters Ireland’s west coast?",
+    "options": [
+      "The Pacific",
+      "The Atlantic",
+      "The Irish Sea",
+      "The North Sea"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The Irish flag’s colours are green, white and…",
+    "options": [
+      "Gold",
+      "Red",
+      "Orange",
+      "Blue"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What does the white in the tricolour symbolise?",
+    "options": [
+      "Snow",
+      "Peace between traditions",
+      "The church",
+      "Surrender"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Dún an doras” means…",
+    "options": [
+      "Open the window",
+      "Close the door",
+      "Light the fire",
+      "Set the table"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "A “céilí” is…",
+    "options": [
+      "A funeral",
+      "A dance gathering",
+      "A market day",
+      "A church service"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s a “fleadh”?",
+    "options": [
+      "A music festival",
+      "A flood",
+      "A fight",
+      "A feast day"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Puck Fair, with its goat king, is held in which county?",
+    "options": [
+      "Clare",
+      "Galway",
+      "Kerry",
+      "Cork"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The Rose of Tralee is held in…",
+    "options": [
+      "Cork",
+      "Kerry",
+      "Limerick",
+      "Galway"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which is Ireland’s longest-running soap opera?",
+    "options": [
+      "Glenroe",
+      "Fair City",
+      "Ros na Rún",
+      "The Riordans"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Father Ted’s parochial house is on…",
+    "options": [
+      "Inis Mór",
+      "Craggy Island",
+      "Tory Island",
+      "Achill Island"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Mrs Doyle’s catchphrase is…",
+    "options": [
+      "“Ah here”",
+      "“Go on go on go on”",
+      "“That’d be an ecumenical matter”",
+      "“Down with this sort of thing”"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“That’d be an ecumenical matter” is whose line?",
+    "options": [
+      "Father Ted",
+      "Father Dougal",
+      "Father Jack",
+      "Bishop Brennan"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s “the strand”?",
+    "options": [
+      "The main street",
+      "The beach",
+      "The river bank",
+      "The pier"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which U.S. president famously visited his Mayo roots in 2023?",
+    "options": [
+      "Barack Obama",
+      "Joe Biden",
+      "Bill Clinton",
+      "John F. Kennedy"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Barack Obama’s Irish ancestors came from which village?",
+    "options": [
+      "Moneygall",
+      "Knock",
+      "Adare",
+      "Cong"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "JFK’s people came from which county?",
+    "options": [
+      "Cork",
+      "Wexford",
+      "Clare",
+      "Limerick"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s a “naggin”?",
+    "options": [
+      "A small bottle of spirits",
+      "A complaint",
+      "A young horse",
+      "A nap"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "“C’mere to me” means…",
+    "options": [
+      "Go away",
+      "Listen here",
+      "Carry me",
+      "Look at me"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Irish dance show took the world by storm in 1994?",
+    "options": [
+      "Lord of the Dance",
+      "Riverdance",
+      "Celtic Tiger",
+      "Feet of Flames"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The Eurovision interval act that became Riverdance happened in which Irish venue?",
+    "options": [
+      "The Olympia",
+      "The Point Theatre",
+      "Croke Park",
+      "The Gaiety"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "How many times has Ireland won Eurovision?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s “the jax”?",
+    "options": [
+      "The pub",
+      "The toilet",
+      "The bookies",
+      "The chipper"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "A “chipper” is…",
+    "options": [
+      "A carpenter",
+      "A fish-and-chip shop",
+      "A happy person",
+      "A golf club"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What goes into a “spice bag”?",
+    "options": [
+      "Herbs for stew",
+      "Chips, chicken and peppers",
+      "Turf",
+      "Sweets"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Tayto is famous for which flavour?",
+    "options": [
+      "Salt & Vinegar",
+      "Cheese & Onion",
+      "Smoky Bacon",
+      "Prawn Cocktail"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s “red lemonade” traditionally paired with?",
+    "options": [
+      "Tea",
+      "Whiskey",
+      "Stout",
+      "Milk"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "A “99” is…",
+    "options": [
+      "An ice cream with a Flake",
+      "A bus route",
+      "A lotto number",
+      "A penalty"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which saint is associated with a woven rush cross?",
+    "options": [
+      "St Patrick",
+      "St Brigid",
+      "St Colmcille",
+      "St Kevin"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Ireland’s patron saints are Patrick, Brigid and…",
+    "options": [
+      "Kevin",
+      "Oliver",
+      "Colmcille",
+      "Brendan"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "St Brendan the Navigator allegedly sailed to…",
+    "options": [
+      "Spain",
+      "Iceland",
+      "America",
+      "Egypt"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What’s the GPO famous for?",
+    "options": [
+      "The 1916 Rising HQ",
+      "Ireland’s first cinema",
+      "The oldest pub",
+      "Daniel O’Connell’s birthplace"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was “The Liberator”?",
+    "options": [
+      "Michael Collins",
+      "Daniel O’Connell",
+      "Éamon de Valera",
+      "Wolfe Tone"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Michael Collins came from which county?",
+    "options": [
+      "Dublin",
+      "Kerry",
+      "Cork",
+      "Tipperary"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The Great Famine began in which year?",
+    "options": [
+      "1825",
+      "1845",
+      "1865",
+      "1885"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Grace O’Malley (Gráinne Mhaol) was famous as a…",
+    "options": [
+      "Poet",
+      "Pirate queen",
+      "Saint",
+      "Healer"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Grace O’Malley ruled the seas off which county?",
+    "options": [
+      "Donegal",
+      "Mayo",
+      "Kerry",
+      "Wexford"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What was a “hedge school”?",
+    "options": [
+      "A gardening course",
+      "A secret school during Penal times",
+      "A farm school",
+      "A school for druids"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which language family does Irish belong to?",
+    "options": [
+      "Germanic",
+      "Romance",
+      "Celtic",
+      "Slavic"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "A “Gaeltacht” is…",
+    "options": [
+      "A music session",
+      "An Irish-speaking region",
+      "A type of dance",
+      "A summer storm"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What does “Éire go Brách” mean?",
+    "options": [
+      "Ireland is great",
+      "Ireland forever",
+      "Ireland awake",
+      "Ireland the brave"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Slán abhaile” means…",
+    "options": [
+      "Good luck",
+      "Safe home",
+      "Sleep well",
+      "God bless"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s a “currach”?",
+    "options": [
+      "A stone wall",
+      "A traditional boat",
+      "A peat spade",
+      "A round tower"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Round towers were mainly built by…",
+    "options": [
+      "Vikings",
+      "Normans",
+      "Monks",
+      "Celts"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Dublin was founded by…",
+    "options": [
+      "The Celts",
+      "The Vikings",
+      "The Normans",
+      "The Romans"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Dubh Linn” means…",
+    "options": [
+      "Black pool",
+      "Dark hill",
+      "Deep river",
+      "Old fort"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which stone do you kiss for eloquence?",
+    "options": [
+      "The Cashel Stone",
+      "The Blarney Stone",
+      "The Lia Fáil",
+      "The Turoe Stone"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The Lia Fáil (Stone of Destiny) stands at…",
+    "options": [
+      "Newgrange",
+      "The Hill of Tara",
+      "Cashel",
+      "Clonmacnoise"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What happens at Newgrange on the winter solstice?",
+    "options": [
+      "It floods",
+      "Sunlight fills the inner chamber",
+      "Druids gather legally",
+      "Nothing at all"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The Giant’s Causeway was built (in legend) by…",
+    "options": [
+      "Cú Chulainn",
+      "Fionn mac Cumhaill",
+      "The Tuatha Dé Danann",
+      "St Patrick"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“The Táin” is an epic about a raid to steal a…",
+    "options": [
+      "Sword",
+      "Crown",
+      "Bull",
+      "Harp"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The Children of Lir were turned into…",
+    "options": [
+      "Salmon",
+      "Deer",
+      "Swans",
+      "Ravens"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "How long were the Children of Lir cursed?",
+    "options": [
+      "100 years",
+      "300 years",
+      "900 years",
+      "1,000 years"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "A “leipreachán” traditionally guards…",
+    "options": [
+      "A rainbow",
+      "A pot of gold",
+      "A fairy fort",
+      "A well"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Disturbing a “fairy fort” is said to bring…",
+    "options": [
+      "Rain",
+      "Wealth",
+      "Bad luck",
+      "Visitors"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which airline has a shamrock on its tail?",
+    "options": [
+      "Ryanair",
+      "Aer Lingus",
+      "CityJet",
+      "Emerald Air"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Irish airline is famously no-frills?",
+    "options": [
+      "Aer Lingus",
+      "Ryanair",
+      "Stobart Air",
+      "Aer Arann"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Up the Dubs!” supports which county?",
+    "options": [
+      "Donegal",
+      "Down",
+      "Dublin",
+      "Derry"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Croke Park holds roughly how many people?",
+    "options": [
+      "52,000",
+      "68,000",
+      "82,000",
+      "95,000"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which sport does Katie Taylor dominate?",
+    "options": [
+      "Camogie",
+      "Boxing",
+      "Athletics",
+      "Rowing"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Camogie is the women’s version of…",
+    "options": [
+      "Gaelic football",
+      "Hurling",
+      "Rounders",
+      "Handball"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What does “GRMA” stand for in Irish texting?",
+    "options": [
+      "Good morning",
+      "Thank you (go raibh maith agat)",
+      "Goodbye",
+      "No bother"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "“Ah sure look it” roughly means…",
+    "options": [
+      "Look over there",
+      "It is what it is",
+      "Hurry up",
+      "I disagree"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s “drisheen”?",
+    "options": [
+      "A Cork blood pudding",
+      "A small fish",
+      "Light rain",
+      "A dance step"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Coddle is a dish most associated with…",
+    "options": [
+      "Cork",
+      "Belfast",
+      "Dublin",
+      "Galway"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Barmbrack is eaten at…",
+    "options": [
+      "Easter",
+      "Halloween",
+      "Christmas",
+      "St Patrick’s Day"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Finding the ring in the barmbrack means…",
+    "options": [
+      "Wealth",
+      "Marriage within the year",
+      "A journey",
+      "Bad luck"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s “curing the hay” dependent on?",
+    "options": [
+      "The moon",
+      "Good dry weather",
+      "The tides",
+      "A full barn"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The “wren boys” go out on…",
+    "options": [
+      "Christmas Day",
+      "St Stephen’s Day",
+      "New Year’s Day",
+      "Good Friday"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Women traditionally propose on…",
+    "options": [
+      "Christmas Eve",
+      "May Day",
+      "29 February",
+      "Midsummer"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "“Nollaig Shona” means…",
+    "options": [
+      "Happy Easter",
+      "Happy Christmas",
+      "Happy Birthday",
+      "Happy New Year"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The Angelus airs on RTÉ at…",
+    "options": [
+      "12 noon and 6pm",
+      "9am and 9pm",
+      "6am and 6pm",
+      "Noon only"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What’s the “GAA” pronounced as, colloquially?",
+    "options": [
+      "The Gah",
+      "The Gee-ay-ay",
+      "The Gaa-club",
+      "All of these get used"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What’s a “culchie’s” opposite?",
+    "options": [
+      "A bogger",
+      "A Jackeen",
+      "A townie",
+      "A blow-in"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "A “blow-in” is…",
+    "options": [
+      "A storm",
+      "A newcomer to an area",
+      "A trumpet player",
+      "A gossip"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What’s the oldest pub in Ireland said to be?",
+    "options": [
+      "The Brazen Head",
+      "Sean’s Bar, Athlone",
+      "Kyteler’s Inn",
+      "The Crown, Belfast"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which whiskey distillery is the world’s oldest licensed?",
+    "options": [
+      "Jameson",
+      "Teeling",
+      "Bushmills",
+      "Tullamore Dew"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Irish whiskey is usually distilled how many times?",
+    "options": [
+      "Once",
+      "Twice",
+      "Three times",
+      "Four times"
+    ],
+    "answer": 2
+  }
+]

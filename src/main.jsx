@@ -4,10 +4,13 @@ import { createRoot } from 'react-dom/client'
 import '@fontsource-variable/fraunces'
 import '@fontsource-variable/mulish'
 import App from './App.jsx'
+import { QuizAuthProvider } from './hooks/useQuizAuth.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <QuizAuthProvider>
+      <App />
+    </QuizAuthProvider>
   </StrictMode>,
 )

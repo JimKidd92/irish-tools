@@ -6,11 +6,11 @@ export default function PrivacyPage() {
   return (
     <article className="legal">
       <button className="back-link" onClick={() => navigate('home')}>
-        ← All tools
+        ← Home
       </button>
 
       <h1 className="legal__title">Privacy Policy</h1>
-      <p className="legal__updated">Last updated: 6 June 2026</p>
+      <p className="legal__updated">Last updated: 29 June 2026</p>
 
       <p>
         Irish Tools (“we”, “us”) runs <strong>irishtools.ie</strong>, a collection of small,
@@ -20,7 +20,7 @@ export default function PrivacyPage() {
 
       <h2>The short version</h2>
       <ul>
-        <li>We don’t ask you to sign up, and we don’t collect your name or email.</li>
+        <li>Most tools need no sign-up at all. The only exception is the <strong>ranked Daily Quiz leaderboard</strong>, which is optional and uses “Sign in with Google”.</li>
         <li>Your settings (like the immersion switch, saved locations and your quiz streak) are stored <strong>only on your own device</strong> using your browser’s local storage. They never reach us.</li>
         <li>When you use a weather tool, your chosen location is sent to our weather provider to fetch the forecast.</li>
         <li>We intend to show ads to keep the site free. When enabled, our ad provider may use cookies — and in the EU we ask your consent first.</li>
@@ -32,6 +32,25 @@ export default function PrivacyPage() {
         your preferences and progress in your browser’s <em>local storage</em>. This stays on
         your device, isn’t transmitted to us, and you can clear it any time by clearing your
         browser data.
+      </p>
+
+      <h2>Daily Quiz accounts &amp; leaderboard</h2>
+      <p>
+        The Daily Quiz leaderboard is optional. If you choose to take part, you sign in with
+        Google, and Google confirms your identity to us. We then store only a{' '}
+        <strong>random player ID</strong>, a stable identifier from Google that lets us recognise
+        you on future visits, and the <strong>nickname you choose</strong>. We do <em>not</em>
+        store your Google password, and we don’t use your email for marketing.
+      </p>
+      <p>
+        Your chosen nickname, your scores and your completion times are shown publicly on the
+        leaderboard. Please pick a nickname you’re happy for others to see. We keep your quiz
+        results to calculate the daily, weekly, monthly and all-time rankings.
+      </p>
+      <p>
+        Want your account and scores deleted? Email{' '}
+        <a href="mailto:hello@irishtools.ie">hello@irishtools.ie</a> with your nickname and we’ll
+        remove them.
       </p>
 
       <h2>Weather data</h2>

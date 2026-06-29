@@ -1739,6 +1739,235 @@ a {
   margin: 18px 0 0;
 }
 
+/* ---------- Ranked quiz: sign-in, results, review ---------- */
+.quiz__option.is-picked {
+  border-color: var(--green);
+  background: rgba(22, 155, 98, 0.1);
+  font-weight: 600;
+}
+
+.quiz__loading,
+.quiz__error {
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 16px 0;
+}
+.quiz__error {
+  color: #c0392b;
+}
+
+.quiz__fairnote {
+  margin: 14px 0 0;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.quiz__resultmeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 4px 0 10px;
+}
+.quiz__pill {
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.quiz__pill--rank {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+
+.quiz-auth {
+  text-align: center;
+  padding: 12px 8px 6px;
+}
+.quiz-auth__emoji {
+  font-size: 2.4rem;
+}
+.quiz-auth__title {
+  font-family: var(--font-display);
+  margin: 6px 0 4px;
+}
+.quiz-auth__pitch {
+  color: var(--ink-soft);
+  max-width: 30rem;
+  margin: 0 auto 16px;
+}
+.quiz-auth__form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 8px 0;
+}
+.quiz-auth__input {
+  padding: 11px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-size: 1rem;
+  background: var(--surface);
+  color: var(--ink);
+  min-width: 220px;
+}
+.quiz-auth__error {
+  color: #c0392b;
+  font-size: 0.9rem;
+  margin: 8px 0 0;
+}
+.quiz-auth__note {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+.quiz-auth__small {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin: 14px auto 0;
+  max-width: 26rem;
+}
+.gsi-button {
+  display: flex;
+  justify-content: center;
+  min-height: 44px;
+}
+
+.quiz__review {
+  margin: 18px 0 4px;
+  text-align: left;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+.quiz__review summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--green-dark);
+}
+.quiz__review-list {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 12px;
+}
+.quiz__review-q {
+  margin: 0 0 2px;
+  font-weight: 600;
+}
+.quiz__review-a {
+  margin: 0;
+  font-size: 0.92rem;
+}
+.quiz__review-a.is-right {
+  color: var(--green-dark);
+}
+.quiz__review-a.is-wrong {
+  color: #c0392b;
+}
+.quiz__review-correct {
+  color: var(--ink-soft);
+}
+
+.quiz__board {
+  margin-top: 22px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.quiz__board-title {
+  font-family: var(--font-display);
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+/* ---------- Leaderboard ---------- */
+.lb__tabs {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.lb__tab {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.lb__tab--on {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+.lb__status {
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 14px 0;
+}
+.lb__status--error {
+  color: #c0392b;
+}
+.lb__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.lb__table th {
+  text-align: left;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+  padding: 4px 8px;
+  border-bottom: 1px solid var(--line);
+}
+.lb__row td {
+  padding: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.lb__rank {
+  width: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+.lb__score,
+.lb__time {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.lb__name {
+  font-weight: 600;
+}
+.lb__row--me {
+  background: rgba(22, 155, 98, 0.1);
+}
+.lb__row--me .lb__name {
+  color: var(--green-dark);
+}
+.lb__you {
+  color: var(--green-dark);
+  font-weight: 700;
+}
+.lb__gap td {
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 2px;
+}
+.lb__hint {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  text-align: center;
+  margin: 10px 0 0;
+}
+
 /* ---------- Shared simple-tool panel ---------- */
 .panel {
   background: var(--surface);
