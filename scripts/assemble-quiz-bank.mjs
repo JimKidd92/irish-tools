@@ -4,6 +4,7 @@
 // Run: node scripts/assemble-quiz-bank.mjs
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { QUESTIONS as EXISTING } from '../worker/quiz/questions.js'
+import { balanceOptions } from './balanceOptions.mjs'
 
 const GEN_DIR = 'worker/quiz/_gen'
 const norm = (q) => String(q).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
@@ -48,7 +49,7 @@ for (const file of readdirSync(GEN_DIR).filter((f) => f.endsWith('.json')).sort(
       continue
     }
     seen.add(key)
-    out.push({ q: item.q.trim(), options: item.options.map((o) => o.trim()), answer: item.answer })
+    out.push(balanceOptions({ q: item.q.trim(), options: item.options.map((o) => o.trim()), answer: item.answer }))
     stats.added++
     fileAdded++
   }
