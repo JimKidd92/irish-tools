@@ -14743,5 +14743,6255 @@ export const QUESTIONS = [
       "Fleadh Cheoil"
     ],
     "answer": 0
+  },
+  {
+    "q": "In what year did the Irish Free State (Saorstat Eireann) come into existence?",
+    "options": [
+      "1922",
+      "1916",
+      "1937",
+      "1949"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the Irish-language name of the 1937 Constitution of Ireland?",
+    "options": [
+      "Bunreacht na hEireann",
+      "Dail Eireann",
+      "Saorstat Eireann",
+      "Oireachtas na hEireann"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was the dominant figure behind the 1937 Constitution?",
+    "options": [
+      "Eamon de Valera",
+      "Michael Collins",
+      "W.T. Cosgrave",
+      "Sean Lemass"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In what year did Ireland formally declare itself a Republic?",
+    "options": [
+      "1949",
+      "1937",
+      "1922",
+      "1948"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which political party did Eamon de Valera found in 1926?",
+    "options": [
+      "Fianna Fail",
+      "Fine Gael",
+      "Sinn Fein",
+      "Labour"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In what year did Ireland join the European Economic Community (EEC)?",
+    "options": [
+      "1973",
+      "1957",
+      "1992",
+      "2002"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was the first President of Ireland under the 1937 Constitution?",
+    "options": [
+      "Douglas Hyde",
+      "Eamon de Valera",
+      "Sean T. O'Kelly",
+      "Erskine Childers"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was the first female President of Ireland?",
+    "options": [
+      "Mary Robinson",
+      "Mary McAleese",
+      "Constance Markievicz",
+      "Catherine McGuinness"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who succeeded Mary Robinson as President of Ireland in 1997?",
+    "options": [
+      "Mary McAleese",
+      "Michael D. Higgins",
+      "Patrick Hillery",
+      "Cearbhall O'Dalaigh"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish poet and politician became President of Ireland in 2011?",
+    "options": [
+      "Michael D. Higgins",
+      "Mary McAleese",
+      "Brian Lenihan",
+      "Eamon Gilmore"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What title is given to the head of the Irish government?",
+    "options": [
+      "Taoiseach",
+      "Tanaiste",
+      "Ceann Comhairle",
+      "Uachtaran"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the title of the deputy head of the Irish government?",
+    "options": [
+      "Tanaiste",
+      "Taoiseach",
+      "Ceann Comhairle",
+      "Uachtaran"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the lower house of the Irish parliament called?",
+    "options": [
+      "Dail Eireann",
+      "Seanad Eireann",
+      "Oireachtas",
+      "Ard-Chomhairle"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the upper house (senate) of the Irish parliament called?",
+    "options": [
+      "Seanad Eireann",
+      "Dail Eireann",
+      "Oireachtas",
+      "Teachta Dala"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the collective name for the Irish parliament (President plus both houses)?",
+    "options": [
+      "Oireachtas",
+      "Dail",
+      "Seanad",
+      "Bunreacht"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the Irish term for a member of the Dail?",
+    "options": [
+      "Teachta Dala (TD)",
+      "Senator",
+      "Taoiseach",
+      "Ceann Comhairle"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Taoiseach is most associated with the economic modernisation of Ireland in the late 1950s and 1960s?",
+    "options": [
+      "Sean Lemass",
+      "Eamon de Valera",
+      "Jack Lynch",
+      "Liam Cosgrave"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which economist's planning is credited with Ireland's economic expansion programme from 1958?",
+    "options": [
+      "T.K. Whitaker",
+      "Sean Lemass",
+      "Garret FitzGerald",
+      "Ray MacSharry"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was Taoiseach during the outbreak of the Northern Ireland Troubles in 1969?",
+    "options": [
+      "Jack Lynch",
+      "Sean Lemass",
+      "Liam Cosgrave",
+      "Charles Haughey"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Fianna Fail leader served as Taoiseach on three separate occasions in the 1980s?",
+    "options": [
+      "Charles Haughey",
+      "Jack Lynch",
+      "Albert Reynolds",
+      "Bertie Ahern"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Fine Gael leader served as Taoiseach in the 1980s and was known for a 'constitutional crusade'?",
+    "options": [
+      "Garret FitzGerald",
+      "Liam Cosgrave",
+      "John Bruton",
+      "Alan Dukes"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was the Fianna Fail Taoiseach who helped broker the Good Friday Agreement in 1998?",
+    "options": [
+      "Bertie Ahern",
+      "Albert Reynolds",
+      "Charles Haughey",
+      "Brian Cowen"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Taoiseach succeeded Bertie Ahern in 2008?",
+    "options": [
+      "Brian Cowen",
+      "Enda Kenny",
+      "John Bruton",
+      "Micheal Martin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Fine Gael leader became Taoiseach in 2011 after the financial crisis?",
+    "options": [
+      "Enda Kenny",
+      "John Bruton",
+      "Leo Varadkar",
+      "Garret FitzGerald"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who became Ireland's first openly gay Taoiseach in 2017?",
+    "options": [
+      "Leo Varadkar",
+      "Enda Kenny",
+      "Simon Coveney",
+      "Micheal Martin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which two parties have historically been Ireland's largest, both tracing roots to the Civil War?",
+    "options": [
+      "Fianna Fail and Fine Gael",
+      "Labour and Sinn Fein",
+      "Fine Gael and Labour",
+      "Fianna Fail and Labour"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which party did W.T. Cosgrave's Cumann na nGaedheal merge into in 1933?",
+    "options": [
+      "Fine Gael",
+      "Fianna Fail",
+      "Labour",
+      "Sinn Fein"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the name of Ireland's oldest political party, founded in 1912?",
+    "options": [
+      "The Labour Party",
+      "Fianna Fail",
+      "Fine Gael",
+      "Sinn Fein"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What currency did Ireland adopt when euro notes and coins entered circulation in 2002?",
+    "options": [
+      "The euro",
+      "The punt",
+      "The pound sterling",
+      "The shilling"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What was the name of the Irish currency replaced by the euro?",
+    "options": [
+      "The Irish pound (punt)",
+      "The Irish shilling",
+      "The Irish crown",
+      "The Irish florin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In what year did euro notes and coins begin circulating in Ireland?",
+    "options": [
+      "2002",
+      "1999",
+      "2008",
+      "1992"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 'Troubles' primarily refers to conflict in which part of Ireland?",
+    "options": [
+      "Northern Ireland",
+      "Connacht",
+      "Munster",
+      "Leinster"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In which city did 'Bloody Sunday' occur on 30 January 1972?",
+    "options": [
+      "Derry",
+      "Belfast",
+      "Dublin",
+      "Armagh"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Northern Ireland Civil Rights Association of the late 1960s campaigned mainly against what?",
+    "options": [
+      "Discrimination against Catholics",
+      "Joining the EEC",
+      "Decimal currency",
+      "Television licences"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1981 protest by republican prisoners led to the death of Bobby Sands?",
+    "options": [
+      "The hunger strikes",
+      "Bloody Sunday",
+      "The Battle of the Bogside",
+      "Internment"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "While on hunger strike in 1981, Bobby Sands was elected as an MP for which constituency?",
+    "options": [
+      "Fermanagh and South Tyrone",
+      "West Belfast",
+      "Foyle",
+      "Mid Ulster"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Good Friday Agreement was signed in which year?",
+    "options": [
+      "1998",
+      "1985",
+      "1994",
+      "2005"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "By what other name is the Good Friday Agreement also known?",
+    "options": [
+      "The Belfast Agreement",
+      "The Sunningdale Agreement",
+      "The Downing Street Declaration",
+      "The St Andrews Agreement"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Northern Irish politician shared the 1998 Nobel Peace Prize with David Trimble?",
+    "options": [
+      "John Hume",
+      "Gerry Adams",
+      "Ian Paisley",
+      "Seamus Mallon"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "John Hume was the long-time leader of which Northern Irish party?",
+    "options": [
+      "The SDLP",
+      "Sinn Fein",
+      "The DUP",
+      "The Ulster Unionist Party"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which firebrand unionist founded the Democratic Unionist Party (DUP)?",
+    "options": [
+      "Ian Paisley",
+      "David Trimble",
+      "James Molyneaux",
+      "Edward Carson"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In 1995, Ireland voted in a referendum to legalise what?",
+    "options": [
+      "Divorce",
+      "Abortion",
+      "Same-sex marriage",
+      "Contraception"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In May 2015, Ireland became the first country to legalise same-sex marriage by what means?",
+    "options": [
+      "A popular referendum",
+      "A Dail vote",
+      "A court ruling",
+      "A presidential decree"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 2018 referendum to 'Repeal the 8th' concerned which issue?",
+    "options": [
+      "Abortion",
+      "Divorce",
+      "Marriage equality",
+      "Blasphemy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Eighth Amendment, repealed in 2018, had been inserted into the Constitution in which year?",
+    "options": [
+      "1983",
+      "1972",
+      "1995",
+      "2004"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What nickname was given to Ireland's period of rapid economic growth from the mid-1990s?",
+    "options": [
+      "The Celtic Tiger",
+      "The Emerald Boom",
+      "The Green Surge",
+      "The Shamrock Wave"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ireland's national public broadcaster is known by which abbreviation?",
+    "options": [
+      "RTE",
+      "BBC",
+      "ITV",
+      "TG4"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What does RTE stand for?",
+    "options": [
+      "Radio Telefis Eireann",
+      "Radio Television England",
+      "Republic of Ireland Television",
+      "Raidio Teilifis Eireann Network"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish-language television channel launched in 1996?",
+    "options": [
+      "TG4",
+      "RTE One",
+      "Virgin Media One",
+      "BBC Two"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the long-running RTE chat show, the world's second-longest-running talk show?",
+    "options": [
+      "The Late Late Show",
+      "The Tonight Show",
+      "The Den",
+      "Reeling in the Years"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was the original and long-serving host of The Late Late Show?",
+    "options": [
+      "Gay Byrne",
+      "Pat Kenny",
+      "Ryan Tubridy",
+      "Terry Wogan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ireland is well known internationally for what foreign-policy stance?",
+    "options": [
+      "Military neutrality",
+      "Nuclear armament",
+      "Colonial expansion",
+      "NATO membership"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Is the Republic of Ireland a member of the NATO military alliance?",
+    "options": [
+      "No",
+      "Yes",
+      "Only since 1998",
+      "Only since 2002"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which international body, focused on peace, has Ireland long contributed troops to?",
+    "options": [
+      "The United Nations",
+      "NATO",
+      "The Warsaw Pact",
+      "SEATO"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What was the title of the Irish head of state's representative replaced by the office of President in 1937?",
+    "options": [
+      "Governor-General",
+      "Lord Lieutenant",
+      "Viceroy",
+      "High Commissioner"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Eamon de Valera's party, Fianna Fail, first came to power in which year?",
+    "options": [
+      "1932",
+      "1922",
+      "1948",
+      "1937"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Act passed by the Dublin parliament in 1948 declared Ireland a republic?",
+    "options": [
+      "The Republic of Ireland Act",
+      "The Government of Ireland Act",
+      "The External Relations Act",
+      "The Constitution Act"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "When Ireland declared a republic, it left which international organisation?",
+    "options": [
+      "The Commonwealth",
+      "The United Nations",
+      "The League of Nations",
+      "The EEC"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which inter-party Taoiseach led the government that declared the Republic in 1949?",
+    "options": [
+      "John A. Costello",
+      "Eamon de Valera",
+      "Sean Lemass",
+      "W.T. Cosgrave"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1985 agreement gave the Irish government a consultative role in Northern Ireland?",
+    "options": [
+      "The Anglo-Irish Agreement",
+      "The Good Friday Agreement",
+      "The Sunningdale Agreement",
+      "The Downing Street Declaration"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 1993 Downing Street Declaration was issued jointly by John Major and which Taoiseach?",
+    "options": [
+      "Albert Reynolds",
+      "Charles Haughey",
+      "Bertie Ahern",
+      "John Bruton"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which republican paramilitary group declared a ceasefire in 1994?",
+    "options": [
+      "The Provisional IRA",
+      "The UDA",
+      "The UVF",
+      "The INLA"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 1972 events in Derry, 'Bloody Sunday', involved soldiers from which army?",
+    "options": [
+      "The British Army",
+      "The Irish Army",
+      "The US Army",
+      "The French Army"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many civil-rights marchers were killed on Bloody Sunday in Derry in 1972?",
+    "options": [
+      "13 (with another dying later)",
+      "6",
+      "21",
+      "3"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 2010 Saville Report was an inquiry into which event?",
+    "options": [
+      "Bloody Sunday",
+      "The Dublin and Monaghan bombings",
+      "The Omagh bombing",
+      "The hunger strikes"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which British Prime Minister apologised in 2010 following the Saville Report?",
+    "options": [
+      "David Cameron",
+      "Tony Blair",
+      "Gordon Brown",
+      "John Major"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was the British Prime Minister who signed the Good Friday Agreement with Bertie Ahern?",
+    "options": [
+      "Tony Blair",
+      "John Major",
+      "Gordon Brown",
+      "David Cameron"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In 1979, who was assassinated by the IRA while on holiday in County Sligo?",
+    "options": [
+      "Lord Mountbatten",
+      "Airey Neave",
+      "Christopher Ewart-Biggs",
+      "Ross McWhirter"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Sunningdale Agreement of 1973 attempted to set up what in Northern Ireland?",
+    "options": [
+      "A power-sharing executive",
+      "Direct rule",
+      "Joint sovereignty",
+      "An independent state"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish President resigned in 1976 after a clash with the government over a bill?",
+    "options": [
+      "Cearbhall O'Dalaigh",
+      "Erskine Childers",
+      "Patrick Hillery",
+      "Sean T. O'Kelly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which President of Ireland died in office in 1974?",
+    "options": [
+      "Erskine Childers",
+      "Douglas Hyde",
+      "Sean T. O'Kelly",
+      "Cearbhall O'Dalaigh"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Mary Robinson later became United Nations High Commissioner for what?",
+    "options": [
+      "Human Rights",
+      "Refugees",
+      "Trade",
+      "Education"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which referendum did Irish voters reject in 2008 before passing it in a second vote in 2009?",
+    "options": [
+      "The Lisbon Treaty",
+      "The Nice Treaty",
+      "The Maastricht Treaty",
+      "Repeal the 8th"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which EU treaty did Ireland first reject in 2001 before approving it in 2002?",
+    "options": [
+      "The Nice Treaty",
+      "The Lisbon Treaty",
+      "The Maastricht Treaty",
+      "The Amsterdam Treaty"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In which year did Ireland accept a financial bailout from the EU, ECB and IMF?",
+    "options": [
+      "2010",
+      "2008",
+      "2013",
+      "2002"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The group providing Ireland's 2010 bailout was nicknamed what?",
+    "options": [
+      "The Troika",
+      "The Quartet",
+      "The Big Three",
+      "The Council"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish bank's collapse in 2009 became a symbol of the banking crisis?",
+    "options": [
+      "Anglo Irish Bank",
+      "Bank of Ireland",
+      "AIB",
+      "Permanent TSB"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was Minister for Finance during the 2010 bailout and the 2008 bank guarantee?",
+    "options": [
+      "Brian Lenihan",
+      "Michael Noonan",
+      "Charlie McCreevy",
+      "Ray MacSharry"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What controversial 2008 measure guaranteed the liabilities of Ireland's banks?",
+    "options": [
+      "The bank guarantee",
+      "The bond bailout",
+      "Quantitative easing",
+      "The bad bank"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the name of the state agency set up in 2009 to manage distressed property loans?",
+    "options": [
+      "NAMA",
+      "IBRC",
+      "NTMA",
+      "AIB"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the official residence of the President of Ireland?",
+    "options": [
+      "Aras an Uachtarain",
+      "Leinster House",
+      "Dublin Castle",
+      "Farmleigh"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Dublin building is the seat of the Oireachtas (Irish parliament)?",
+    "options": [
+      "Leinster House",
+      "Dublin Castle",
+      "The Custom House",
+      "The Four Courts"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Eamon de Valera served as President of Ireland from 1959 until which year?",
+    "options": [
+      "1973",
+      "1966",
+      "1969",
+      "1975"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the term length of the Irish presidency?",
+    "options": [
+      "Seven years",
+      "Four years",
+      "Five years",
+      "Six years"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many terms (maximum) may an Irish President serve?",
+    "options": [
+      "Two",
+      "One",
+      "Three",
+      "Unlimited"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which political party led by Gerry Adams grew significantly in the Republic in the 2010s?",
+    "options": [
+      "Sinn Fein",
+      "The Green Party",
+      "Renua",
+      "The Social Democrats"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who succeeded Gerry Adams as leader of Sinn Fein in 2018?",
+    "options": [
+      "Mary Lou McDonald",
+      "Michelle O'Neill",
+      "Pearse Doherty",
+      "Eoin O Broin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which party, founded in the 1980s on environmental policy, first entered an Irish government in 2007?",
+    "options": [
+      "The Green Party",
+      "The Progressive Democrats",
+      "Labour",
+      "Renua"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which party founded by Des O'Malley split from Fianna Fail in 1985?",
+    "options": [
+      "The Progressive Democrats",
+      "The Green Party",
+      "Fine Gael",
+      "Labour"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the name of the Dublin street with the General Post Office, central to modern Irish history?",
+    "options": [
+      "O'Connell Street",
+      "Grafton Street",
+      "Dame Street",
+      "Henry Street"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1973 event involved Ireland joining alongside the UK and Denmark?",
+    "options": [
+      "Joining the EEC",
+      "Joining NATO",
+      "Joining the euro",
+      "Joining the UN"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In what year did Ireland join the United Nations?",
+    "options": [
+      "1955",
+      "1945",
+      "1973",
+      "1937"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irishman served as a UN diplomat and won the Nobel Peace Prize in 1974?",
+    "options": [
+      "Sean MacBride",
+      "John Hume",
+      "Eamon de Valera",
+      "Conor Cruise O'Brien"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Sean MacBride co-founded which human rights organisation?",
+    "options": [
+      "Amnesty International",
+      "The Red Cross",
+      "Concern",
+      "Trocaire"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which long-serving Irish broadcaster hosted The Late Late Show from 1999 to 2009?",
+    "options": [
+      "Pat Kenny",
+      "Ryan Tubridy",
+      "Gay Byrne",
+      "Joe Duffy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the name of RTE's flagship evening television news-and-current-affairs programme launched in 1962 as a current affairs show?",
+    "options": [
+      "Prime Time",
+      "Six One",
+      "Morning Ireland",
+      "Today Tonight"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which RTE radio programme is a popular morning news flagship?",
+    "options": [
+      "Morning Ireland",
+      "Liveline",
+      "Drivetime",
+      "The News at One"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which RTE radio phone-in show is hosted by Joe Duffy?",
+    "options": [
+      "Liveline",
+      "Morning Ireland",
+      "Drivetime",
+      "The Late Debate"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What flag has been the national flag of Ireland since the founding of the state?",
+    "options": [
+      "The green, white and orange tricolour",
+      "The harp on green",
+      "The Saint Patrick's saltire",
+      "The blue with gold harp"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the national anthem of the Republic of Ireland?",
+    "options": [
+      "Amhran na bhFiann",
+      "A Nation Once Again",
+      "The Foggy Dew",
+      "God Save Ireland"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the official state emblem of Ireland?",
+    "options": [
+      "The harp",
+      "The shamrock",
+      "The Celtic cross",
+      "The round tower"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which county became part of the Republic, not Northern Ireland, despite being in Ulster?",
+    "options": [
+      "Donegal",
+      "Antrim",
+      "Down",
+      "Armagh"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many counties make up Northern Ireland?",
+    "options": [
+      "Six",
+      "Nine",
+      "Four",
+      "Twenty-six"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many of the 32 counties of Ireland are in the Republic?",
+    "options": [
+      "26",
+      "32",
+      "28",
+      "24"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In the 1937 Constitution, what name was given to the state in English?",
+    "options": [
+      "Ireland (Eire)",
+      "The Irish Republic",
+      "Saorstat Eireann",
+      "The Free State"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Articles 2 and 3 of the original 1937 Constitution made a territorial claim over what?",
+    "options": [
+      "The whole island of Ireland",
+      "Great Britain",
+      "The Isle of Man",
+      "Scotland"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "As part of the Good Friday Agreement, Ireland amended Articles 2 and 3 to do what?",
+    "options": [
+      "Drop the territorial claim on Northern Ireland",
+      "Claim Wales",
+      "Abolish the Seanad",
+      "Adopt the euro"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Taoiseach controversially ran arms-related politics in the 1970 'Arms Crisis'?",
+    "options": [
+      "Charles Haughey",
+      "Jack Lynch",
+      "Sean Lemass",
+      "Liam Cosgrave"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Fianna Fail Taoiseach resigned in 1992 amid a phone-tapping and political controversy?",
+    "options": [
+      "Charles Haughey",
+      "Albert Reynolds",
+      "Jack Lynch",
+      "Brian Cowen"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1990s tribunal investigated payments to politicians, including Charles Haughey?",
+    "options": [
+      "The Moriarty Tribunal",
+      "The Saville Inquiry",
+      "The Beef Tribunal",
+      "The Mahon Tribunal"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Bertie Ahern resigned as Taoiseach in 2008 amid revelations at which tribunal?",
+    "options": [
+      "The Mahon Tribunal",
+      "The Moriarty Tribunal",
+      "The Saville Inquiry",
+      "The Beef Tribunal"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which referendum in 1972 lowered the voting age in Ireland to 18?",
+    "options": [
+      "The Fourth Amendment",
+      "The Eighth Amendment",
+      "The First Amendment",
+      "The Fifth Amendment"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1972 referendum removed the 'special position' of the Catholic Church from the Constitution?",
+    "options": [
+      "The Fifth Amendment",
+      "The Fourth Amendment",
+      "The Eighth Amendment",
+      "The Sixth Amendment"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Contraception was fully legalised in Ireland by legislation in which decade?",
+    "options": [
+      "The 1980s and 1990s",
+      "The 1950s",
+      "The 1920s",
+      "The 2010s"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "A 1986 referendum on legalising divorce in Ireland resulted in what?",
+    "options": [
+      "It was rejected",
+      "It was approved",
+      "It was withdrawn",
+      "It was a tie"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 2015 referendum, separate from marriage equality, lowered the minimum age for presidential candidates and was rejected?",
+    "options": [
+      "The presidential age referendum",
+      "The blasphemy referendum",
+      "The Seanad referendum",
+      "The divorce referendum"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In 2013 Irish voters rejected a referendum to abolish which institution?",
+    "options": [
+      "The Seanad (Senate)",
+      "The Dail",
+      "The Presidency",
+      "The Supreme Court"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish President was the only one to date elected unopposed more than once and served two full terms ending in 2011?",
+    "options": [
+      "Mary McAleese",
+      "Mary Robinson",
+      "Patrick Hillery",
+      "Michael D. Higgins"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which President of Ireland was previously a long-serving European Commissioner?",
+    "options": [
+      "Patrick Hillery",
+      "Mary Robinson",
+      "Erskine Childers",
+      "Douglas Hyde"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irishman served as European Commissioner for the Internal Market in the 2000s, having earlier been Minister for Finance?",
+    "options": [
+      "Charlie McCreevy",
+      "Ray MacSharry",
+      "Peter Sutherland",
+      "Padraig Flynn"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irishman served as a European Commissioner and later head of the World Trade Organization's predecessor GATT?",
+    "options": [
+      "Peter Sutherland",
+      "Garret FitzGerald",
+      "Sean Lemass",
+      "John Bruton"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In what year did the Republic of Ireland host the Eurovision Song Contest after Riverdance debuted as an interval act?",
+    "options": [
+      "1994",
+      "1988",
+      "1971",
+      "2000"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish dance phenomenon premiered as a Eurovision interval act in 1994?",
+    "options": [
+      "Riverdance",
+      "Lord of the Dance",
+      "Celtic Woman",
+      "Feet of Flames"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many times has Ireland won the Eurovision Song Contest, more than any other country?",
+    "options": [
+      "Seven",
+      "Five",
+      "Three",
+      "Ten"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish singer won Eurovision in 1980 and 1987?",
+    "options": [
+      "Johnny Logan",
+      "Dana",
+      "Linda Martin",
+      "Niamh Kavanagh"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who won Eurovision for Ireland in 1970 with 'All Kinds of Everything'?",
+    "options": [
+      "Dana",
+      "Johnny Logan",
+      "Linda Martin",
+      "Eimear Quinn"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Industrial Development Authority (IDA) is tasked with attracting what to Ireland?",
+    "options": [
+      "Foreign investment",
+      "Tourists",
+      "Immigrants",
+      "Students"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ireland's low rate of which tax attracted many multinationals during the Celtic Tiger?",
+    "options": [
+      "Corporation tax",
+      "Income tax",
+      "VAT",
+      "Property tax"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Many US tech giants located their European headquarters in which Irish city's docklands?",
+    "options": [
+      "Dublin",
+      "Cork",
+      "Galway",
+      "Limerick"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish-founded budget airline became one of Europe's largest carriers?",
+    "options": [
+      "Ryanair",
+      "Aer Lingus",
+      "Aer Arann",
+      "CityJet"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the name of Ireland's national flag carrier airline?",
+    "options": [
+      "Aer Lingus",
+      "Ryanair",
+      "British Airways",
+      "Aer Arann"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1990 World Cup brought huge national celebration when Ireland reached the quarter-finals?",
+    "options": [
+      "Italia '90",
+      "USA '94",
+      "Mexico '86",
+      "France '98"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Englishman managed the Republic of Ireland football team at Italia '90?",
+    "options": [
+      "Jack Charlton",
+      "Bobby Robson",
+      "Mick McCarthy",
+      "Brian Kerr"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which long-serving figure was Catholic Archbishop of Dublin and a major social influence from 1940 to 1972?",
+    "options": [
+      "John Charles McQuaid",
+      "Diarmuid Martin",
+      "Desmond Connell",
+      "Kevin McNamara"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 1979 visit of which Pope drew over a million people to Dublin's Phoenix Park?",
+    "options": [
+      "Pope John Paul II",
+      "Pope Paul VI",
+      "Pope Benedict XVI",
+      "Pope Francis"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Pope visited Ireland for the World Meeting of Families in 2018?",
+    "options": [
+      "Pope Francis",
+      "Pope John Paul II",
+      "Pope Benedict XVI",
+      "Pope Paul VI"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which British monarch made a historic first state visit to the Republic of Ireland in 2011?",
+    "options": [
+      "Queen Elizabeth II",
+      "King George VI",
+      "King Charles III",
+      "King Edward VIII"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which US President with Irish roots visited Ireland in 1963?",
+    "options": [
+      "John F. Kennedy",
+      "Ronald Reagan",
+      "Bill Clinton",
+      "Richard Nixon"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which US President helped advance the Northern Ireland peace process in the 1990s?",
+    "options": [
+      "Bill Clinton",
+      "George H.W. Bush",
+      "Ronald Reagan",
+      "Jimmy Carter"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which US senator chaired the Good Friday Agreement negotiations in 1998?",
+    "options": [
+      "George Mitchell",
+      "Ted Kennedy",
+      "John Kerry",
+      "Joe Biden"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the name of the policy body that runs Northern Ireland's devolved government under the Good Friday Agreement?",
+    "options": [
+      "The Northern Ireland Assembly",
+      "The Dail",
+      "The House of Commons",
+      "The Seanad"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The two top posts in Northern Ireland's devolved executive are First Minister and what?",
+    "options": [
+      "deputy First Minister",
+      "Taoiseach",
+      "Secretary of State",
+      "Speaker"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which former IRA commander became deputy First Minister of Northern Ireland in 2007?",
+    "options": [
+      "Martin McGuinness",
+      "Gerry Adams",
+      "Gerry Kelly",
+      "Pat Doherty"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ian Paisley and Martin McGuinness, who governed together from 2007, were nicknamed what?",
+    "options": [
+      "The Chuckle Brothers",
+      "The Odd Couple",
+      "The Peace Pair",
+      "The Twins"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1998 dissident-republican bombing killed 29 people in a Northern Irish town?",
+    "options": [
+      "The Omagh bombing",
+      "The Enniskillen bombing",
+      "The Dublin and Monaghan bombings",
+      "The Birmingham bombing"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1974 bombings in the Republic were the deadliest single day of the Troubles?",
+    "options": [
+      "The Dublin and Monaghan bombings",
+      "The Omagh bombing",
+      "The Enniskillen bombing",
+      "The Warrenpoint ambush"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In which decade was the Anglo-Irish Free Trade Agreement signed, predating EEC entry?",
+    "options": [
+      "The 1960s",
+      "The 1930s",
+      "The 1980s",
+      "The 1990s"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What were the 'Economic War' tariffs of the 1930s a dispute between Ireland and which country?",
+    "options": [
+      "The United Kingdom",
+      "France",
+      "Germany",
+      "The United States"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 1938 agreement that returned the 'Treaty Ports' to Irish control was negotiated with whom?",
+    "options": [
+      "The United Kingdom",
+      "France",
+      "The League of Nations",
+      "Germany"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Control of the Treaty Ports allowed Ireland to maintain what during the Second World War?",
+    "options": [
+      "Neutrality",
+      "An alliance with Britain",
+      "An invasion of Germany",
+      "A naval blockade"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What term did Ireland officially use for its neutral status during the Second World War?",
+    "options": [
+      "The Emergency",
+      "The Crisis",
+      "The Standoff",
+      "The Watch"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which abortion-related tragedy in 2012 intensified calls to repeal the Eighth Amendment?",
+    "options": [
+      "The death of Savita Halappanavar",
+      "The X Case",
+      "The C Case",
+      "The Kerry Babies case"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 1992 'X Case' in Ireland concerned the right to travel for what?",
+    "options": [
+      "An abortion",
+      "A divorce",
+      "An education",
+      "Emigration"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Taoiseach made a 2013 state apology to the women of the Magdalene Laundries?",
+    "options": [
+      "Enda Kenny",
+      "Bertie Ahern",
+      "Brian Cowen",
+      "Leo Varadkar"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What name is given to the Catholic-run institutions for so-called 'fallen women' in 20th-century Ireland?",
+    "options": [
+      "The Magdalene Laundries",
+      "The Mother and Baby Homes",
+      "The Industrial Schools",
+      "The Workhouses"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Eamon de Valera was born in which city in 1882?",
+    "options": [
+      "New York",
+      "Dublin",
+      "Limerick",
+      "Cork"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish university did many leaders attend and is part of the National University of Ireland system, located in Dublin?",
+    "options": [
+      "University College Dublin",
+      "Trinity College Dublin",
+      "Maynooth",
+      "University College Cork"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What name is given to Ireland's written 1937 fundamental law that replaced the 1922 Free State Constitution?",
+    "options": [
+      "The Constitution of Ireland",
+      "The Treaty",
+      "The Statute of Westminster",
+      "The Government of Ireland Act"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1931 statute gave Dominions like the Irish Free State greater legislative independence from Britain?",
+    "options": [
+      "The Statute of Westminster",
+      "The Government of Ireland Act",
+      "The External Relations Act",
+      "The Republic of Ireland Act"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many Six Nations Grand Slams had Ireland won by 2023?",
+    "options": [
+      "Four",
+      "Two",
+      "Six",
+      "One"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish rugby player was famous for scoring tries from centre and captaining Ireland for many years?",
+    "options": [
+      "Brian O'Driscoll",
+      "Paul O'Connell",
+      "Keith Wood",
+      "Ronan O'Gara"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Where do Leinster Rugby traditionally play their big home matches?",
+    "options": [
+      "The Aviva / RDS in Dublin",
+      "Thomond Park in Limerick",
+      "Ravenhill in Belfast",
+      "The Sportsground in Galway"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish out-half kicked Ireland to many wins and is among their top points scorers?",
+    "options": [
+      "Johnny Sexton",
+      "Brian O'Driscoll",
+      "Rob Kearney",
+      "Tommy Bowe"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish second row captained Ireland and Munster and was famous for his lineout play?",
+    "options": [
+      "Paul O'Connell",
+      "Cian Healy",
+      "Sean O'Brien",
+      "Jamie Heaslip"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which city is home to Ulster Rugby?",
+    "options": [
+      "Belfast",
+      "Cork",
+      "Galway",
+      "Dublin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which is the home stadium of the Irish national rugby team?",
+    "options": [
+      "Aviva Stadium",
+      "Croke Park",
+      "Thomond Park",
+      "Windsor Park"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What was the Aviva Stadium previously known as?",
+    "options": [
+      "Lansdowne Road",
+      "Dalymount Park",
+      "The RDS",
+      "Tolka Park"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many teams compete in the Six Nations rugby championship?",
+    "options": [
+      "Six",
+      "Five",
+      "Four",
+      "Eight"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Before it became the Six Nations, what was the championship called?",
+    "options": [
+      "The Five Nations",
+      "The Home Nations only",
+      "The Four Nations",
+      "The Tri Nations"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which team joined to turn the Five Nations into the Six Nations in 2000?",
+    "options": [
+      "Italy",
+      "Argentina",
+      "Romania",
+      "Spain"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Munster fly-half was renowned for his drop goals and points scoring against France and others?",
+    "options": [
+      "Ronan O'Gara",
+      "Peter Stringer",
+      "Donncha O'Callaghan",
+      "John Hayes"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish hooker captained the British and Irish Lions and was nicknamed for his ball-playing skills?",
+    "options": [
+      "Keith Wood",
+      "Shane Byrne",
+      "Jerry Flannery",
+      "Rory Best"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish winger from Ulster was known for his finishing and tries on the wing?",
+    "options": [
+      "Tommy Bowe",
+      "Gordon D'Arcy",
+      "Luke Fitzgerald",
+      "Andrew Trimble"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In which year did Ireland win the Six Nations Grand Slam captained by Brian O'Driscoll, their first since 1948?",
+    "options": [
+      "2009",
+      "2007",
+      "2011",
+      "2005"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "When Ireland won the Grand Slam in 1948, what was the championship called?",
+    "options": [
+      "The Five Nations",
+      "The Six Nations",
+      "The Four Nations",
+      "The Lions Cup"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which competition do Irish provinces play in alongside Welsh, Scottish, Italian and South African sides?",
+    "options": [
+      "The United Rugby Championship",
+      "The English Premiership",
+      "The Top 14",
+      "The Super Rugby"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish province pulled off a famous Pro12 league title in 2016 under Pat Lam?",
+    "options": [
+      "Connacht",
+      "Munster",
+      "Ulster",
+      "Leinster"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Munster famously beat the All Blacks in 1978 at which ground?",
+    "options": [
+      "Thomond Park",
+      "Lansdowne Road",
+      "Croke Park",
+      "Ravenhill"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What animal features on the crest of the Irish rugby team and IRFU?",
+    "options": [
+      "The shamrock",
+      "The harp",
+      "The wolfhound",
+      "The eagle"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish full-back from Leinster won a Grand Slam and many Lions caps?",
+    "options": [
+      "Rob Kearney",
+      "Geordan Murphy",
+      "Girvan Dempsey",
+      "Isa Nacewa"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which coach led Ireland to back-to-back Six Nations titles in 2014 and 2015?",
+    "options": [
+      "Joe Schmidt",
+      "Declan Kidney",
+      "Eddie O'Sullivan",
+      "Andy Farrell"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which coach guided Ireland to the 2009 Grand Slam?",
+    "options": [
+      "Declan Kidney",
+      "Joe Schmidt",
+      "Warren Gatland",
+      "Eddie O'Sullivan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ireland recorded a first-ever win over New Zealand in 2016 in which city?",
+    "options": [
+      "Chicago",
+      "Dublin",
+      "Auckland",
+      "London"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish scrum-half was famous at Munster for his small stature and a try-saving tackle in a 2006 final?",
+    "options": [
+      "Peter Stringer",
+      "Conor Murray",
+      "Eoin Reddan",
+      "Tomas O'Leary"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish flanker won player of the year awards and was known for his power at the breakdown?",
+    "options": [
+      "Sean O'Brien",
+      "Cian Healy",
+      "Rory Best",
+      "Devin Toner"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was Ireland's national soccer team manager during their 1990 World Cup run?",
+    "options": [
+      "Jack Charlton",
+      "Mick McCarthy",
+      "Eoin Hand",
+      "Brian Kerr"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Where did the Republic of Ireland reach their first-ever World Cup in 1990?",
+    "options": [
+      "Italy",
+      "USA",
+      "Mexico",
+      "Spain"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How far did Ireland progress at the 1990 World Cup?",
+    "options": [
+      "The quarter-finals",
+      "The semi-finals",
+      "The final",
+      "The last 16 only"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which team knocked Ireland out of the 1990 World Cup quarter-final?",
+    "options": [
+      "Italy",
+      "England",
+      "Romania",
+      "Germany"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ireland beat which country on penalties in the 1990 World Cup last 16?",
+    "options": [
+      "Romania",
+      "Italy",
+      "England",
+      "Egypt"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which goalkeeper saved the decisive penalty for Ireland against Romania in 1990?",
+    "options": [
+      "Packie Bonner",
+      "Shay Given",
+      "Alan Kelly",
+      "Gerry Peyton"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who scored the winning penalty for Ireland against Romania in 1990?",
+    "options": [
+      "David O'Leary",
+      "Kevin Sheedy",
+      "Niall Quinn",
+      "Ray Houghton"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish midfielder famously scored against England at Euro 88 with the line 'who put the ball in the England net'?",
+    "options": [
+      "Ray Houghton",
+      "Kevin Sheedy",
+      "Tony Cascarino",
+      "John Aldridge"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "At the 1994 World Cup, Ray Houghton scored a famous goal as Ireland beat which nation?",
+    "options": [
+      "Italy",
+      "Mexico",
+      "Norway",
+      "Holland"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In which country was the 1994 World Cup, where Ireland beat Italy?",
+    "options": [
+      "USA",
+      "Italy",
+      "France",
+      "Mexico"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish striker, known as the 'Tall' target man, scored at the 1990 and 2002 World Cups?",
+    "options": [
+      "Niall Quinn",
+      "Robbie Keane",
+      "Tony Cascarino",
+      "David Connolly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who became the Republic of Ireland's all-time record goalscorer?",
+    "options": [
+      "Robbie Keane",
+      "Niall Quinn",
+      "Frank Stapleton",
+      "Tony Cascarino"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which combative Irish midfielder captained Manchester United and left Ireland's 2002 World Cup camp in Saipan?",
+    "options": [
+      "Roy Keane",
+      "Roy Keane played for Liverpool",
+      "Andy Townsend",
+      "Mark Kennedy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which island gave its name to the famous 2002 dispute between Roy Keane and Mick McCarthy?",
+    "options": [
+      "Saipan",
+      "Tenerife",
+      "Malta",
+      "Cyprus"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How far did Ireland progress at the 2002 World Cup in Japan and South Korea?",
+    "options": [
+      "The last 16",
+      "The quarter-finals",
+      "The semi-finals",
+      "The group stage only"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish striker scored a famous late equaliser against Germany at the 2002 World Cup?",
+    "options": [
+      "Robbie Keane",
+      "Niall Quinn",
+      "Damien Duff",
+      "Gary Breen"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ireland lost on penalties to which country in the 2002 World Cup last 16?",
+    "options": [
+      "Spain",
+      "Germany",
+      "Italy",
+      "Sweden"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which long-serving goalkeeper holds the record for most Republic of Ireland caps?",
+    "options": [
+      "Shay Given",
+      "Packie Bonner",
+      "Alan Kelly",
+      "Dean Kiely"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which winger known for his dribbling and socks down was a star of Ireland's 2002 team?",
+    "options": [
+      "Damien Duff",
+      "Jason McAteer",
+      "Kevin Kilbane",
+      "Steve Finnan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the top division of soccer in the Republic of Ireland called?",
+    "options": [
+      "The League of Ireland",
+      "The Premier Division of England",
+      "The Irish Premiership",
+      "The Scottish League"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Dublin club is one of the most successful in League of Ireland history, based at Tallaght?",
+    "options": [
+      "Shamrock Rovers",
+      "Bohemians",
+      "St Patrick's Athletic",
+      "Shelbourne"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Dublin club plays at Dalymount Park?",
+    "options": [
+      "Bohemians",
+      "Shamrock Rovers",
+      "Shelbourne",
+      "UCD"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Northern Ireland football team plays its home games at which Belfast ground?",
+    "options": [
+      "Windsor Park",
+      "The Oval",
+      "Ravenhill",
+      "Casement Park"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Northern Ireland and Manchester United winger is regarded as one of the greatest players ever, nicknamed the 'fifth Beatle'?",
+    "options": [
+      "George Best",
+      "Pat Jennings",
+      "Norman Whiteside",
+      "David Healy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Northern Ireland goalkeeper had a long career with Tottenham and Arsenal and won over 100 caps?",
+    "options": [
+      "Pat Jennings",
+      "Harry Gregg",
+      "Roy Carroll",
+      "Maik Taylor"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Northern Ireland's youngest World Cup scorer Norman Whiteside played at which 1982 tournament host?",
+    "options": [
+      "Spain",
+      "Italy",
+      "Mexico",
+      "Argentina"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Republic of Ireland manager led the team to Euro 2016 in France?",
+    "options": [
+      "Martin O'Neill",
+      "Giovanni Trapattoni",
+      "Mick McCarthy",
+      "Brian Kerr"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Robbie Brady scored a famous winning header for Ireland against which team at Euro 2016?",
+    "options": [
+      "Italy",
+      "France",
+      "Sweden",
+      "Belgium"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Italian was Republic of Ireland manager who led them to Euro 2012?",
+    "options": [
+      "Giovanni Trapattoni",
+      "Fabio Capello",
+      "Marcello Lippi",
+      "Roberto Mancini"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which boxer won Ireland's first Olympic boxing gold medal in 1992?",
+    "options": [
+      "Michael Carruth",
+      "Wayne McCullough",
+      "Barry McGuigan",
+      "Steve Collins"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "At which Olympics did Michael Carruth win boxing gold?",
+    "options": [
+      "Barcelona 1992",
+      "Atlanta 1996",
+      "Seoul 1988",
+      "Sydney 2000"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Belfast boxer won a silver medal at the 1992 Olympics and was nicknamed the 'Pocket Rocket'?",
+    "options": [
+      "Wayne McCullough",
+      "Barry McGuigan",
+      "Carl Frampton",
+      "Michael Conlan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Clones boxer became WBA featherweight world champion and was nicknamed the 'Clones Cyclone'?",
+    "options": [
+      "Barry McGuigan",
+      "Steve Collins",
+      "Wayne McCullough",
+      "Bernard Dunne"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Dublin boxer known as the 'Celtic Warrior' beat Chris Eubank and Nigel Benn?",
+    "options": [
+      "Steve Collins",
+      "Barry McGuigan",
+      "Michael Carruth",
+      "Bernard Dunne"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Belfast boxer won the WBA super-bantamweight world title in front of a huge crowd in Dublin in 2009?",
+    "options": [
+      "Bernard Dunne",
+      "Steve Collins",
+      "Carl Frampton",
+      "Wayne McCullough"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Belfast two-weight world champion was nicknamed 'The Jackal'?",
+    "options": [
+      "Carl Frampton",
+      "Barry McGuigan",
+      "Paddy Barnes",
+      "Michael Conlan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish boxer won Olympic bronze medals at both Beijing 2008 and London 2012 in the light-flyweight class?",
+    "options": [
+      "Paddy Barnes",
+      "Kenneth Egan",
+      "John Joe Nevin",
+      "Darren Sutherland"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Kenneth Egan won an Olympic boxing silver for Ireland at which 2008 games?",
+    "options": [
+      "Beijing",
+      "Athens",
+      "London",
+      "Sydney"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which famous steeplechaser, regarded among the greatest ever, was trained in Ireland and won three Cheltenham Gold Cups?",
+    "options": [
+      "Arkle",
+      "Red Rum",
+      "Desert Orchid",
+      "Best Mate"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Arkle was famous for competing in which type of horse racing?",
+    "options": [
+      "National Hunt (jumps)",
+      "Flat racing",
+      "Harness racing",
+      "Endurance racing"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which famous flat-racing trainer based at Ballydoyle has won many Classics and Group 1 races?",
+    "options": [
+      "Aidan O'Brien",
+      "Willie Mullins",
+      "Jim Bolger",
+      "Dermot Weld"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish trainer is famous for his dominance at the Cheltenham Festival in National Hunt racing?",
+    "options": [
+      "Willie Mullins",
+      "Aidan O'Brien",
+      "John Oxx",
+      "Jessica Harrington"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Where is the famous flat racecourse that hosts the Irish Derby?",
+    "options": [
+      "The Curragh",
+      "Punchestown",
+      "Leopardstown",
+      "Galway"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which County Kildare venue hosts a famous National Hunt racing festival each spring?",
+    "options": [
+      "Punchestown",
+      "The Curragh",
+      "Fairyhouse",
+      "Naas"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The famous summer racing festival held over several days in the west of Ireland is at which town?",
+    "options": [
+      "Galway",
+      "Listowel",
+      "Tramore",
+      "Killarney"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Cheltenham Festival, hugely popular with Irish racing fans, is held in which country?",
+    "options": [
+      "England",
+      "Ireland",
+      "Scotland",
+      "Wales"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which famous jockey rode many winners for Aidan O'Brien and is the trainer's son?",
+    "options": [
+      "Joseph O'Brien",
+      "Ruby Walsh",
+      "Pat Smullen",
+      "Johnny Murtagh"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish jump jockey was one of the most successful at Cheltenham, riding for Willie Mullins?",
+    "options": [
+      "Ruby Walsh",
+      "Tony McCoy",
+      "Barry Geraghty",
+      "Davy Russell"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Northern Irish jockey became the most prolific winner in jump racing history and was knighted?",
+    "options": [
+      "Tony McCoy",
+      "Ruby Walsh",
+      "Richard Dunwoody",
+      "Charlie Swan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish horse trained by Dermot Weld won the prestigious Melbourne Cup in 1993?",
+    "options": [
+      "Vintage Crop",
+      "Galileo",
+      "Sea The Stars",
+      "Montjeu"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which outstanding colt trained by John Oxx won the 2009 Epsom Derby and Arc, named after a celestial theme?",
+    "options": [
+      "Sea The Stars",
+      "Galileo",
+      "Montjeu",
+      "High Chaparral"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish-bred stallion became one of the most influential sires in the world, based at Coolmore?",
+    "options": [
+      "Galileo",
+      "Arkle",
+      "Red Rum",
+      "Shergar"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish golfer won three majors including back-to-back Open Championships in 2007 and 2008?",
+    "options": [
+      "Padraig Harrington",
+      "Rory McIlroy",
+      "Darren Clarke",
+      "Graeme McDowell"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Northern Irish golfer won the 2010 US Open at Pebble Beach?",
+    "options": [
+      "Graeme McDowell",
+      "Rory McIlroy",
+      "Darren Clarke",
+      "Padraig Harrington"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which golfer from Northern Ireland won the 2011 US Open by eight shots at Congressional?",
+    "options": [
+      "Rory McIlroy",
+      "Graeme McDowell",
+      "Darren Clarke",
+      "Padraig Harrington"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Northern Irish golfer won the 2011 Open Championship at Royal St George's?",
+    "options": [
+      "Darren Clarke",
+      "Rory McIlroy",
+      "Graeme McDowell",
+      "Padraig Harrington"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish golfer won the 2019 Open Championship at Royal Portrush?",
+    "options": [
+      "Shane Lowry",
+      "Padraig Harrington",
+      "Rory McIlroy",
+      "Graeme McDowell"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 2019 Open Championship was held at which Northern Irish links course?",
+    "options": [
+      "Royal Portrush",
+      "Royal County Down",
+      "Portmarnock",
+      "Lahinch"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Padraig Harrington won the US PGA Championship in which year, completing his major haul?",
+    "options": [
+      "2008",
+      "2006",
+      "2010",
+      "2004"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which famous links course in County Down is regularly ranked among the world's best?",
+    "options": [
+      "Royal County Down",
+      "The K Club",
+      "Mount Juliet",
+      "Carton House"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which County Kildare resort hosted the 2006 Ryder Cup, a European victory?",
+    "options": [
+      "The K Club",
+      "Portmarnock",
+      "Lahinch",
+      "Ballybunion"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which famous links course is located near Dublin on a peninsula and has hosted the Irish Open?",
+    "options": [
+      "Portmarnock",
+      "Royal Portrush",
+      "Lahinch",
+      "Tralee"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish runner won Olympic 1500m gold for Ireland at the 1956 Melbourne Games?",
+    "options": [
+      "Ronnie Delany",
+      "Eamonn Coghlan",
+      "John Treacy",
+      "Noel Carroll"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Cork-born athlete won Olympic 5000m silver and was a world champion runner?",
+    "options": [
+      "Sonia O'Sullivan",
+      "Catherina McKiernan",
+      "Derval O'Rourke",
+      "Fionnuala McCormack"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "At which Olympics did Sonia O'Sullivan win her 5000m silver medal?",
+    "options": [
+      "Sydney 2000",
+      "Atlanta 1996",
+      "Barcelona 1992",
+      "Athens 2004"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish athlete won the marathon silver medal at the 1984 Los Angeles Olympics?",
+    "options": [
+      "John Treacy",
+      "Ronnie Delany",
+      "Eamonn Coghlan",
+      "Jerry Kiernan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish runner became known as the 'Chairman of the Boards' for his indoor mile records and won a 1983 World 5000m title?",
+    "options": [
+      "Eamonn Coghlan",
+      "Ronnie Delany",
+      "Marcus O'Sullivan",
+      "Frank O'Mara"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irishman became world champion in snooker by winning the 1997 World Championship?",
+    "options": [
+      "Ken Doherty",
+      "Alex Higgins",
+      "Dennis Taylor",
+      "Fergal O'Brien"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which flamboyant Belfast snooker player nicknamed 'Hurricane' won the World Championship in 1972 and 1982?",
+    "options": [
+      "Alex Higgins",
+      "Ken Doherty",
+      "Dennis Taylor",
+      "Joe Swail"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Northern Irish player famously won the 1985 World Snooker Championship on the final black, known for his upturned glasses?",
+    "options": [
+      "Dennis Taylor",
+      "Alex Higgins",
+      "Ken Doherty",
+      "Steve Davis"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish cyclist won the Tour de France, Giro d'Italia and World Championship all in 1987?",
+    "options": [
+      "Stephen Roche",
+      "Sean Kelly",
+      "Nicolas Roche",
+      "Martin Earley"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish cyclist from Carrick-on-Suir was one of the greatest one-day racers and won Paris-Roubaix and Milan-San Remo?",
+    "options": [
+      "Sean Kelly",
+      "Stephen Roche",
+      "Dan Martin",
+      "Philip Deignan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Sean Kelly won which Grand Tour, the Vuelta a Espana, in 1988?",
+    "options": [
+      "The Vuelta a Espana",
+      "The Tour de France",
+      "The Giro d'Italia",
+      "The Tour of Britain"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Stephen Roche's 1987 achievement of three major titles in one year is often compared to which cyclist who did the same?",
+    "options": [
+      "Eddy Merckx",
+      "Bernard Hinault",
+      "Greg LeMond",
+      "Miguel Indurain"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish rower brothers from Skibbereen won Olympic silver in the lightweight double sculls at Rio 2016?",
+    "options": [
+      "The O'Donovan brothers",
+      "The Lynch brothers",
+      "The Doyle brothers",
+      "The Walsh brothers"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "At which 2021 Olympics did Paul O'Donovan and Fintan McCarthy win rowing gold for Ireland?",
+    "options": [
+      "Tokyo",
+      "Rio",
+      "London",
+      "Paris"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which sport did the O'Donovan brothers from Skibbereen famously compete in?",
+    "options": [
+      "Rowing",
+      "Sailing",
+      "Boxing",
+      "Cycling"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish sailor won an Olympic silver medal in the Laser Radial class at Rio 2016?",
+    "options": [
+      "Annalise Murphy",
+      "Saskia Tidey",
+      "Aisling Keller",
+      "Ciara Peelo"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which province is represented by Connacht Rugby?",
+    "options": [
+      "The western province",
+      "The southern province",
+      "The eastern province",
+      "The northern province"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the name of Connacht Rugby's home ground in Galway?",
+    "options": [
+      "The Sportsground",
+      "Thomond Park",
+      "Ravenhill",
+      "The RDS"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which trophy do Ireland and England contest within the Six Nations?",
+    "options": [
+      "The Millennium Trophy",
+      "The Calcutta Cup",
+      "The Triple Crown only",
+      "The Lansdowne Cup"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "A team winning all matches against England, Scotland and Wales in the Six Nations earns which prize?",
+    "options": [
+      "The Triple Crown",
+      "The Grand Slam",
+      "The Calcutta Cup",
+      "The Wooden Spoon"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Winning every match in the Six Nations is known as achieving what?",
+    "options": [
+      "The Grand Slam",
+      "The Triple Crown",
+      "A clean sheet",
+      "The Championship only"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish centre partnered Brian O'Driscoll in midfield and won a Grand Slam in 2009?",
+    "options": [
+      "Gordon D'Arcy",
+      "Luke Fitzgerald",
+      "Keith Earls",
+      "Andrew Trimble"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish prop nicknamed 'The Bull' anchored the Munster and Ireland scrum for years?",
+    "options": [
+      "John Hayes",
+      "Cian Healy",
+      "Marcus Horan",
+      "Tony Buckley"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish number 8 captained Leinster and Ireland and won three Heineken Cups?",
+    "options": [
+      "Jamie Heaslip",
+      "Sean O'Brien",
+      "Denis Leamy",
+      "Kevin McLaughlin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which striker scored Ireland's winner against Italy at Euro 2016 to send them through?",
+    "options": [
+      "Robbie Brady",
+      "Wes Hoolahan",
+      "Shane Long",
+      "Jon Walters"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Shane Long scored a remarkably fast goal for the Republic of Ireland in 2019 against which country?",
+    "options": [
+      "Gibraltar",
+      "Denmark",
+      "Wales",
+      "Georgia"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish forward played for Liverpool and Manchester United and won 1990 World Cup caps as a striker?",
+    "options": [
+      "John Aldridge",
+      "Tony Cascarino",
+      "Frank Stapleton",
+      "David Kelly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish defender captained Arsenal and Ireland and played at the 1990 World Cup?",
+    "options": [
+      "David O'Leary",
+      "Kevin Moran",
+      "Paul McGrath",
+      "Mick McCarthy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish defender, much loved and nicknamed 'God' by Aston Villa fans, was a 1990 and 1994 World Cup star?",
+    "options": [
+      "Paul McGrath",
+      "Kevin Moran",
+      "David O'Leary",
+      "Steve Staunton"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish full-back holds a record for outfield appearances and later managed the national team?",
+    "options": [
+      "Steve Staunton",
+      "Denis Irwin",
+      "Phil Babb",
+      "Terry Phelan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish defender had a long, decorated career with Manchester United as a reliable full-back?",
+    "options": [
+      "Denis Irwin",
+      "Paul McGrath",
+      "Steve Staunton",
+      "Gary Kelly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which boxing world title did Carl Frampton win to become a two-weight world champion?",
+    "options": [
+      "Featherweight",
+      "Lightweight",
+      "Welterweight",
+      "Middleweight"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish horse named after a famous artist won the 2002 Epsom Derby for Aidan O'Brien?",
+    "options": [
+      "High Chaparral",
+      "Galileo",
+      "Montjeu",
+      "Camelot"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish-trained colt won the 2012 Epsom Derby and 2000 Guineas for Aidan O'Brien?",
+    "options": [
+      "Camelot",
+      "Galileo",
+      "Sea The Stars",
+      "Australia"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which famous Aidan O'Brien horse won the 2001 Epsom Derby and became a top sire?",
+    "options": [
+      "Galileo",
+      "Montjeu",
+      "High Chaparral",
+      "Giant's Causeway"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Tipperary-born flat jockey was a multiple Irish champion before his death in 2020?",
+    "options": [
+      "Pat Smullen",
+      "Johnny Murtagh",
+      "Mick Kinane",
+      "Kieren Fallon"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish flat jockey won Epsom Derbies and rode Sea The Stars to many of his wins?",
+    "options": [
+      "Mick Kinane",
+      "Pat Smullen",
+      "Johnny Murtagh",
+      "Joseph O'Brien"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish golfer was the first European to win the Open Championship in many years when he triumphed in 2007?",
+    "options": [
+      "Padraig Harrington",
+      "Darren Clarke",
+      "Graeme McDowell",
+      "Paul McGinley"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish golfer holed the winning putt for Europe at the 2002 Ryder Cup at The Belfry?",
+    "options": [
+      "Paul McGinley",
+      "Padraig Harrington",
+      "Darren Clarke",
+      "Des Smyth"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which course in County Antrim hosted the Open before 2019, last staging it in 1951?",
+    "options": [
+      "Royal Portrush",
+      "Royal County Down",
+      "Portmarnock",
+      "Lahinch"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish golfer captained the victorious 2014 European Ryder Cup team at Gleneagles?",
+    "options": [
+      "Paul McGinley",
+      "Padraig Harrington",
+      "Darren Clarke",
+      "Des Smyth"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish golfer captained Europe at the 2016 Ryder Cup at Hazeltine?",
+    "options": [
+      "Darren Clarke",
+      "Paul McGinley",
+      "Padraig Harrington",
+      "Graeme McDowell"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which legendary Irish horse won the Cheltenham Gold Cup three times in the 1960s?",
+    "options": [
+      "Arkle",
+      "Dawn Run",
+      "Best Mate",
+      "Desert Orchid"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which mare trained in Ireland famously won both the Champion Hurdle and the Cheltenham Gold Cup?",
+    "options": [
+      "Dawn Run",
+      "Arkle",
+      "Istabraq",
+      "Quevega"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which great Irish hurdler trained by Aidan O'Brien won the Champion Hurdle three times in the late 1990s?",
+    "options": [
+      "Istabraq",
+      "Dawn Run",
+      "Hardy Eustace",
+      "Hurricane Fly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ireland's rugby team shares its players from all four provinces across which political divide?",
+    "options": [
+      "The whole island, North and South",
+      "Republic only",
+      "Northern Ireland only",
+      "Leinster only"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Republic of Ireland manager was in charge for the Euro 88 campaign, the country's first major finals?",
+    "options": [
+      "Jack Charlton",
+      "Eoin Hand",
+      "Mick McCarthy",
+      "Johnny Giles"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which legendary Irish midfielder played for Leeds and Ireland and later managed the team in the 1980s?",
+    "options": [
+      "Johnny Giles",
+      "Liam Brady",
+      "Frank Stapleton",
+      "David O'Leary"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which gifted Irish midfielder starred for Arsenal and Juventus and was nicknamed 'Chippy'?",
+    "options": [
+      "Liam Brady",
+      "Johnny Giles",
+      "Ronnie Whelan",
+      "Ray Houghton"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish midfielder scored a memorable goal for Liverpool in the 1989 FA Cup final and played at the 1990 World Cup?",
+    "options": [
+      "Ronnie Whelan",
+      "John Aldridge",
+      "Steve Staunton",
+      "Ray Houghton"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which sport is the Galway Races primarily associated with?",
+    "options": [
+      "Horse racing",
+      "Greyhound racing",
+      "Rowing",
+      "Sailing"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish boxer turned a hugely successful amateur career into MMA fame, fighting in the UFC from Dublin?",
+    "options": [
+      "Conor McGregor",
+      "Joseph Duffy",
+      "Cathal Pendred",
+      "Paddy Holohan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In which sport did Conor McGregor become a two-division UFC champion?",
+    "options": [
+      "Mixed martial arts",
+      "Boxing",
+      "Wrestling",
+      "Kickboxing"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish woman won an Olympic gold medal in swimming controversy aside at the 1996 Atlanta Games?",
+    "options": [
+      "Michelle Smith",
+      "Sonia O'Sullivan",
+      "Annalise Murphy",
+      "Derval O'Rourke"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish hurdler won a World Indoor 60m hurdles title in 2006?",
+    "options": [
+      "Derval O'Rourke",
+      "Sonia O'Sullivan",
+      "Catherina McKiernan",
+      "Ailis McSweeney"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish athlete won the World Cross Country title and several big city marathons in the 1990s?",
+    "options": [
+      "Catherina McKiernan",
+      "Sonia O'Sullivan",
+      "Derval O'Rourke",
+      "Fionnuala McCormack"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which boxing club city produced many of Ireland's recent Olympic boxers, including the National Stadium?",
+    "options": [
+      "Dublin",
+      "Cork",
+      "Galway",
+      "Limerick"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish boxer won a bronze medal at the 2008 Olympics and tragically died soon afterwards?",
+    "options": [
+      "Darren Sutherland",
+      "Kenneth Egan",
+      "Paddy Barnes",
+      "John Joe Joyce"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Mullingar boxer won an Olympic silver medal in the bantamweight class at London 2012?",
+    "options": [
+      "John Joe Nevin",
+      "Paddy Barnes",
+      "Michael Conlan",
+      "Joe Ward"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which competition is the pinnacle of European club rugby, won several times by Leinster and Munster?",
+    "options": [
+      "The Champions Cup",
+      "The Premiership",
+      "The Top 14",
+      "The Currie Cup"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What colour jersey does the Irish national rugby team wear?",
+    "options": [
+      "Green",
+      "Blue",
+      "Red",
+      "White"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the traditional home jersey colour of the Republic of Ireland soccer team?",
+    "options": [
+      "Green",
+      "Blue",
+      "Red",
+      "Orange"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which sport did Stephen Roche and Sean Kelly compete in to international acclaim?",
+    "options": [
+      "Cycling",
+      "Athletics",
+      "Rowing",
+      "Motor racing"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which legendary Northern Irish motorcyclist was a multiple winner at the Isle of Man TT and North West 200?",
+    "options": [
+      "Joey Dunlop",
+      "Eddie Irvine",
+      "John Watson",
+      "Robert Dunlop"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Northern Irish driver finished as Formula One World Championship runner-up in 1999?",
+    "options": [
+      "Eddie Irvine",
+      "John Watson",
+      "Damon Hill",
+      "Martin Donnelly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ireland's first Olympic gold in boxing came in which weight division for Michael Carruth?",
+    "options": [
+      "Welterweight",
+      "Heavyweight",
+      "Flyweight",
+      "Lightweight"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which famous Munster and Ireland captain lifted the Heineken Cup in 2006 and 2008?",
+    "options": [
+      "Paul O'Connell",
+      "Ronan O'Gara",
+      "Anthony Foley",
+      "David Wallace"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which beloved Munster captain, who later coached the team, is remembered with the number 8 jersey?",
+    "options": [
+      "Anthony Foley",
+      "Paul O'Connell",
+      "Mick Galwey",
+      "Alan Quinlan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish golfer is from Holywood, County Down, and has won multiple majors?",
+    "options": [
+      "Rory McIlroy",
+      "Graeme McDowell",
+      "Darren Clarke",
+      "Padraig Harrington"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which surface is most associated with the Irish Derby and the Curragh?",
+    "options": [
+      "Flat turf racing",
+      "Jumps racing",
+      "All-weather",
+      "Sand"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which world-famous links in County Clare hosted the Irish Open and is known for its dunes?",
+    "options": [
+      "Lahinch",
+      "Royal Portrush",
+      "Portmarnock",
+      "The K Club"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish athlete won the country's first track Olympic medal of the modern era in the 1500m in 1956?",
+    "options": [
+      "Ronnie Delany",
+      "John Treacy",
+      "Eamonn Coghlan",
+      "Bob Tisdall"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish band released the album The Joshua Tree?",
+    "options": [
+      "U2",
+      "Thin Lizzy",
+      "The Cranberries",
+      "The Script"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who is the lead singer of U2?",
+    "options": [
+      "The Edge",
+      "Adam Clayton",
+      "Bono",
+      "Larry Mullen Jr"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the stage name of U2 guitarist David Howell Evans?",
+    "options": [
+      "Slash",
+      "The Edge",
+      "Bono",
+      "Sting"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Dublin band was fronted by Phil Lynott?",
+    "options": [
+      "U2",
+      "The Pogues",
+      "Horslips",
+      "Thin Lizzy"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Thin Lizzy song features the line 'the boys are back in town'?",
+    "options": [
+      "Whiskey in the Jar",
+      "Jailbreak",
+      "The Boys Are Back in Town",
+      "Dancing in the Moonlight"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Who was the lead singer of The Cranberries?",
+    "options": [
+      "Dolores O'Riordan",
+      "Sinéad O'Connor",
+      "Enya",
+      "Andrea Corr"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Cranberries song repeats the word 'zombie' in its chorus?",
+    "options": [
+      "Linger",
+      "Dreams",
+      "Ode to My Family",
+      "Zombie"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Irish singer had a worldwide hit with Nothing Compares 2 U?",
+    "options": [
+      "Dolores O'Riordan",
+      "Sinéad O'Connor",
+      "Enya",
+      "Mary Black"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Who wrote the song Nothing Compares 2 U, made famous by Sinéad O'Connor?",
+    "options": [
+      "Bob Dylan",
+      "Prince",
+      "Van Morrison",
+      "Phil Lynott"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Belfast-born singer recorded the album Astral Weeks?",
+    "options": [
+      "Rory Gallagher",
+      "Bono",
+      "Phil Lynott",
+      "Van Morrison"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Van Morrison was a member of which 1960s beat group?",
+    "options": [
+      "Them",
+      "The Pogues",
+      "Horslips",
+      "The Undertones"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Van Morrison song is about a 'brown eyed girl'?",
+    "options": [
+      "Moondance",
+      "Gloria",
+      "Brown Eyed Girl",
+      "Domino"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Irish blues guitarist played a famously battered Fender Stratocaster?",
+    "options": [
+      "The Edge",
+      "Gary Moore",
+      "Phil Lynott",
+      "Rory Gallagher"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which city was blues guitarist Rory Gallagher most associated with growing up?",
+    "options": [
+      "Dublin",
+      "Cork",
+      "Galway",
+      "Belfast"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which folk-punk band was fronted by Shane MacGowan?",
+    "options": [
+      "The Dubliners",
+      "The Wolfe Tones",
+      "The Pogues",
+      "Planxty"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The Pogues and Kirsty MacColl had a Christmas hit with which song?",
+    "options": [
+      "Fairytale of New York",
+      "Dirty Old Town",
+      "A Pair of Brown Eyes",
+      "Sally MacLennane"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who is the singer behind Hozier, known for the song Take Me to Church?",
+    "options": [
+      "Andrew Hozier-Byrne",
+      "Niall Horan",
+      "Danny O'Donoghue",
+      "Glen Hansard"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "From which county does the singer Hozier come?",
+    "options": [
+      "Cork",
+      "Kerry",
+      "Wicklow",
+      "Mayo"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Irish singer composed the ethereal hit Orinoco Flow (Sail Away)?",
+    "options": [
+      "Sinéad O'Connor",
+      "Enya",
+      "Dolores O'Riordan",
+      "Mary Black"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Enya was originally a member of which Donegal family band?",
+    "options": [
+      "The Corrs",
+      "Altan",
+      "Planxty",
+      "Clannad"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "The band Clannad is most associated with which Irish county?",
+    "options": [
+      "Cork",
+      "Dublin",
+      "Donegal",
+      "Galway"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "How many siblings make up the family band The Corrs?",
+    "options": [
+      "Four",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of these is NOT one of the Corr siblings?",
+    "options": [
+      "Andrea",
+      "Sharon",
+      "Caroline",
+      "Dolores"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Irish boy band had hits including Flying Without Wings and Swear It Again?",
+    "options": [
+      "Boyzone",
+      "Westlife",
+      "The Script",
+      "Kodaline"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Irish boy band was fronted by Ronan Keating?",
+    "options": [
+      "Westlife",
+      "Boyzone",
+      "The Coronas",
+      "The Script"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which town is the boy band Westlife from?",
+    "options": [
+      "Cork",
+      "Galway",
+      "Limerick",
+      "Sligo"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Who is the lead singer of The Script?",
+    "options": [
+      "Danny O'Donoghue",
+      "Ronan Keating",
+      "Niall Horan",
+      "Hozier"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish member of One Direction comes from Mullingar?",
+    "options": [
+      "Harry Styles",
+      "Liam Payne",
+      "Niall Horan",
+      "Zayn Malik"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which folk singer is famous for songs like Ride On and Ordinary Man?",
+    "options": [
+      "Luke Kelly",
+      "Liam Clancy",
+      "Paul Brady",
+      "Christy Moore"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Christy Moore was a founding member of which influential trad band?",
+    "options": [
+      "The Chieftains",
+      "Planxty",
+      "The Dubliners",
+      "Altan"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Dubliners member had a gravelly voice and sang Seven Drunken Nights?",
+    "options": [
+      "Luke Kelly",
+      "Barney McKenna",
+      "Ronnie Drew",
+      "John Sheahan"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which traditional Irish group was led for decades by Paddy Moloney?",
+    "options": [
+      "The Chieftains",
+      "The Dubliners",
+      "Planxty",
+      "The Bothy Band"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What instrument is Paddy Moloney of The Chieftains best known for playing?",
+    "options": [
+      "Uilleann pipes",
+      "Fiddle",
+      "Tin whistle",
+      "Banjo"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish ballad group is known for the song Come Out Ye Black and Tans?",
+    "options": [
+      "The Chieftains",
+      "Planxty",
+      "The Wolfe Tones",
+      "Altan"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Irish bagpipes are inflated by a bellows under the arm rather than the mouth?",
+    "options": [
+      "Highland pipes",
+      "Uilleann pipes",
+      "Northumbrian pipes",
+      "Gaita"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "A 'reel' in Irish traditional music is typically in which time signature?",
+    "options": [
+      "6/8",
+      "3/4",
+      "9/8",
+      "4/4"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "A 'jig' in Irish traditional music is most commonly in which time signature?",
+    "options": [
+      "4/4",
+      "2/4",
+      "6/8",
+      "3/4"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the name of a competitive Irish traditional music festival?",
+    "options": [
+      "Fleadh Cheoil",
+      "Oireachtas",
+      "Feis Ceoil",
+      "Mod"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "An informal gathering of musicians playing trad tunes in a pub is called a what?",
+    "options": [
+      "Recital",
+      "Symphony",
+      "Concerto",
+      "Session"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Irish singer won the Eurovision Song Contest twice as a performer?",
+    "options": [
+      "Dana",
+      "Johnny Logan",
+      "Niamh Kavanagh",
+      "Eimear Quinn"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "With which song did Johnny Logan win Eurovision in 1980?",
+    "options": [
+      "Hold Me Now",
+      "What's Another Year",
+      "All Kinds of Everything",
+      "Why Me"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which song did Johnny Logan win Eurovision with in 1987?",
+    "options": [
+      "What's Another Year",
+      "Rock 'n' Roll Kids",
+      "The Voice",
+      "Hold Me Now"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which singer gave Ireland its first Eurovision win in 1970 with All Kinds of Everything?",
+    "options": [
+      "Dana",
+      "Sandie Shaw",
+      "Linda Martin",
+      "Niamh Kavanagh"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which duo, Paul Harrington and Charlie McGettigan, won Eurovision in 1994?",
+    "options": [
+      "The Voice",
+      "Why Me",
+      "Rock 'n' Roll Kids",
+      "In Your Eyes"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Eimear Quinn won Eurovision for Ireland in 1996 with which song?",
+    "options": [
+      "Rock 'n' Roll Kids",
+      "In Your Eyes",
+      "Why Me",
+      "The Voice"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which trad fiddle and accordion band hails from Donegal and features Mairéad Ní Mhaonaigh?",
+    "options": [
+      "The Chieftains",
+      "Altan",
+      "Planxty",
+      "Dervish"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which 1987 U2 album contains the song With or Without You?",
+    "options": [
+      "Achtung Baby",
+      "War",
+      "The Joshua Tree",
+      "The Unforgettable Fire"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which U2 song shares its name with a 1972 Derry tragedy and the day of the week?",
+    "options": [
+      "Sunday Bloody Sunday",
+      "One",
+      "Pride",
+      "Desire"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1991 U2 album marked a shift to a more electronic sound and includes One?",
+    "options": [
+      "Achtung Baby",
+      "The Joshua Tree",
+      "Rattle and Hum",
+      "Boy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who is the drummer of U2?",
+    "options": [
+      "Adam Clayton",
+      "The Edge",
+      "Larry Mullen Jr",
+      "Bono"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Who is the bassist of U2?",
+    "options": [
+      "Larry Mullen Jr",
+      "Adam Clayton",
+      "The Edge",
+      "Bono"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The U2 song Pride (In the Name of Love) honours which historical figure?",
+    "options": [
+      "Nelson Mandela",
+      "John F Kennedy",
+      "Bobby Sands",
+      "Martin Luther King Jr"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which 1990 Sinéad O'Connor album features Nothing Compares 2 U?",
+    "options": [
+      "The Lion and the Cobra",
+      "Universal Mother",
+      "I Do Not Want What I Haven't Got",
+      "Faith and Courage"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Irish band recorded the song Linger?",
+    "options": [
+      "The Cranberries",
+      "The Corrs",
+      "Westlife",
+      "The Script"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which song about a betrayed highwayman was covered by Thin Lizzy and Metallica?",
+    "options": [
+      "The Wild Rover",
+      "Black Velvet Band",
+      "The Irish Rover",
+      "Whiskey in the Jar"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which folk standard has the chorus line 'And it's no, nay, never'?",
+    "options": [
+      "Whiskey in the Jar",
+      "The Wild Rover",
+      "Molly Malone",
+      "Dirty Old Town"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The song Molly Malone is set in which Irish city?",
+    "options": [
+      "Cork",
+      "Dublin",
+      "Galway",
+      "Limerick"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What does Molly Malone sell in the song, crying 'cockles and mussels'?",
+    "options": [
+      "Fish and chips",
+      "Apples and pears",
+      "Bread and milk",
+      "Cockles and mussels"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which guitarist who played with Thin Lizzy recorded the hit Parisienne Walkways?",
+    "options": [
+      "Gary Moore",
+      "Rory Gallagher",
+      "The Edge",
+      "Phil Lynott"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which band performs the best-known version of The Auld Triangle, written by Brendan Behan?",
+    "options": [
+      "Westlife",
+      "Clannad",
+      "The Dubliners",
+      "The Corrs"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which famous Irish writer wrote the song The Auld Triangle?",
+    "options": [
+      "James Joyce",
+      "Patrick Kavanagh",
+      "Sean O'Casey",
+      "Brendan Behan"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Raglan Road, sung by Luke Kelly, is based on a poem by which Irish poet?",
+    "options": [
+      "W.B. Yeats",
+      "Patrick Kavanagh",
+      "Seamus Heaney",
+      "Brendan Behan"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which song by The Saw Doctors is named after a road in the west of Ireland?",
+    "options": [
+      "Whiskey in the Jar",
+      "Dirty Old Town",
+      "N17",
+      "The Auld Triangle"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which county are The Saw Doctors from?",
+    "options": [
+      "Galway",
+      "Cork",
+      "Dublin",
+      "Kerry"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Derry punk band recorded Teenage Kicks?",
+    "options": [
+      "The Undertones",
+      "Stiff Little Fingers",
+      "The Pogues",
+      "Them"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Belfast punk band recorded Alternative Ulster?",
+    "options": [
+      "The Undertones",
+      "Them",
+      "Stiff Little Fingers",
+      "The Pogues"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Dirty Old Town, often sung by Irish folk acts, was written about which English town?",
+    "options": [
+      "Manchester",
+      "Salford",
+      "Liverpool",
+      "Birmingham"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Corrs album, released in 1997, includes the song So Young?",
+    "options": [
+      "Forgiven, Not Forgotten",
+      "In Blue",
+      "Borrowed Heaven",
+      "Talk on Corners"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which instrument is Sharon Corr of The Corrs best known for playing?",
+    "options": [
+      "Tin whistle",
+      "Bodhrán",
+      "Violin",
+      "Piano"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which instrument is Caroline Corr of The Corrs best known for playing?",
+    "options": [
+      "Drums",
+      "Violin",
+      "Guitar",
+      "Cello"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which member of The Corrs is the lead vocalist?",
+    "options": [
+      "Sharon",
+      "Caroline",
+      "Jim",
+      "Andrea"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Irish trad-rock band fused Celtic music with rock and released The Tain in 1973?",
+    "options": [
+      "Thin Lizzy",
+      "Horslips",
+      "Planxty",
+      "The Pogues"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Who composed the music for Riverdance?",
+    "options": [
+      "Phil Coulter",
+      "Bill Whelan",
+      "Michael Flatley",
+      "Shaun Davey"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Who was the original male lead of Riverdance and later created Lord of the Dance?",
+    "options": [
+      "Jean Butler",
+      "Colin Dunne",
+      "Colin Farrell",
+      "Michael Flatley"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which lullaby by Phil Coulter about his son became a Luke Kelly classic?",
+    "options": [
+      "Scorn Not His Simplicity",
+      "The Town I Loved So Well",
+      "Steal Away",
+      "Home from the Sea"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Town I Loved So Well, written by Phil Coulter, is about which city?",
+    "options": [
+      "Belfast",
+      "Dublin",
+      "Derry",
+      "Cork"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Irish singer is the lead vocalist of Clannad and a sister of Enya?",
+    "options": [
+      "Mary Black",
+      "Dolores Keane",
+      "Frances Black",
+      "Moya Brennan"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which 1970s trad supergroup included Donal Lunny, Andy Irvine, and Christy Moore?",
+    "options": [
+      "The Bothy Band",
+      "Planxty",
+      "Altan",
+      "Dervish"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which multi-instrumentalist and producer co-founded both Planxty and Moving Hearts?",
+    "options": [
+      "Paddy Moloney",
+      "Christy Moore",
+      "Donal Lunny",
+      "Andy Irvine"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which jazz-rock-trad fusion band did Christy Moore and Donal Lunny found in 1981?",
+    "options": [
+      "Moving Hearts",
+      "Planxty",
+      "The Bothy Band",
+      "Horslips"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which ballad singer was singled out by Bob Dylan as one of his favourites?",
+    "options": [
+      "Liam Clancy",
+      "Ronan Keating",
+      "Danny O'Donoghue",
+      "Bono"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which phenomenon saw bands play covers at dance halls all over 1960s Ireland?",
+    "options": [
+      "Sessions",
+      "Fleadhs",
+      "Showbands",
+      "Feiseanna"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Irishman organised Live Aid in 1985 and led The Boomtown Rats?",
+    "options": [
+      "Bono",
+      "Bob Geldof",
+      "Phil Lynott",
+      "Paul Brady"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Boomtown Rats song reached number one in the UK in 1979?",
+    "options": [
+      "Rat Trap",
+      "Banana Republic",
+      "She's So Modern",
+      "I Don't Like Mondays"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Limerick group brought Irish-language hip-hop to wide attention in the 2020s?",
+    "options": [
+      "Versatile",
+      "Rejjie Snow",
+      "Kneecap",
+      "Hozier"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Kneecap perform predominantly in which language?",
+    "options": [
+      "Irish",
+      "English",
+      "Ulster Scots",
+      "French"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish singer-songwriter recorded the album O and the song The Blower's Daughter?",
+    "options": [
+      "Glen Hansard",
+      "Paddy Casey",
+      "Mick Flannery",
+      "Damien Rice"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Irish musician starred in the film Once and won an Oscar for Falling Slowly?",
+    "options": [
+      "Damien Rice",
+      "Glen Hansard",
+      "Hozier",
+      "Paddy Casey"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Glen Hansard fronted which Dublin band before his Once fame?",
+    "options": [
+      "The Coronas",
+      "The Frames",
+      "Bell X1",
+      "The Thrills"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which mid-1970s trad supergroup included Matt Molloy and Triona Ní Dhomhnaill?",
+    "options": [
+      "Planxty",
+      "Altan",
+      "Dervish",
+      "The Bothy Band"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which county is famous for the fiddle style of Michael Coleman?",
+    "options": [
+      "Sligo",
+      "Clare",
+      "Donegal",
+      "Kerry"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Willie Clancy, honoured by a famous summer school, was a master of which instrument?",
+    "options": [
+      "Fiddle",
+      "Concertina",
+      "Uilleann pipes",
+      "Tin whistle"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Irish-American trad band took its name from the Irish word for 'light'?",
+    "options": [
+      "Lúnasa",
+      "Dervish",
+      "Altan",
+      "Solas"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which blind 18th-century harper composed many of Ireland's best-known harp tunes?",
+    "options": [
+      "Michael Coleman",
+      "Turlough O'Carolan",
+      "Seán Ó Riada",
+      "Davy Spillane"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which composer revived interest in trad and founded Ceoltóirí Chualann in the 1960s?",
+    "options": [
+      "Bill Whelan",
+      "Phil Coulter",
+      "Seán Ó Riada",
+      "Turlough O'Carolan"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which uilleann piper blended pipes with rock and featured on the Riverdance soundtrack?",
+    "options": [
+      "Davy Spillane",
+      "Paddy Moloney",
+      "Liam O'Flynn",
+      "Finbar Furey"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Dublin family band recorded Sweet Sixteen and The Green Fields of France?",
+    "options": [
+      "The Fureys",
+      "The Corrs",
+      "Clannad",
+      "The Dubliners"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1992 compilation of Irish female singers became Ireland's best-selling album?",
+    "options": [
+      "Common Ground",
+      "The Long Black Veil",
+      "A Woman's Heart",
+      "Celtic Woman"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which 1980 Thin Lizzy live album is regarded as a classic live rock record?",
+    "options": [
+      "Jailbreak",
+      "Live and Dangerous",
+      "Black Rose",
+      "Chinatown"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "In which year did Phil Lynott of Thin Lizzy die?",
+    "options": [
+      "1976",
+      "1991",
+      "1996",
+      "1986"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "In which year did Dolores O'Riordan of The Cranberries die?",
+    "options": [
+      "2008",
+      "2015",
+      "2018",
+      "2020"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Cranberries debut album contained Linger and Dreams?",
+    "options": [
+      "Everybody Else Is Doing It, So Why Can't We?",
+      "No Need to Argue",
+      "To the Faithful Departed",
+      "Bury the Hatchet"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "On which Cranberries album does the song Zombie appear?",
+    "options": [
+      "Everybody Else Is Doing It, So Why Can't We?",
+      "Bury the Hatchet",
+      "Wake Up and Smell the Coffee",
+      "No Need to Argue"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which band is fronted by Northern Irish singer Gary Lightbody?",
+    "options": [
+      "Ash",
+      "Snow Patrol",
+      "Two Door Cinema Club",
+      "The Divine Comedy"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Dublin post-punk band released the acclaimed album A Hero's Death?",
+    "options": [
+      "The Murder Capital",
+      "Fontaines D.C.",
+      "Kneecap",
+      "Just Mustard"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Westlife member represented Ireland solo at Eurovision 2016?",
+    "options": [
+      "Shane Filan",
+      "Mark Feehily",
+      "Kian Egan",
+      "Nicky Byrne"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "The twins Jedward, who represented Ireland at Eurovision, are named John and what?",
+    "options": [
+      "Edward",
+      "James",
+      "Eamon",
+      "Eoin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which frame drum, played with a beater, is central to Irish trad rhythm?",
+    "options": [
+      "Cajón",
+      "Tabla",
+      "Bodhrán",
+      "Djembe"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which song begins 'In Dublin's fair city, where the girls are so pretty'?",
+    "options": [
+      "The Wild Rover",
+      "Dirty Old Town",
+      "The Irish Rover",
+      "Molly Malone"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which song about an emigrant ship is a duet for The Dubliners and The Pogues?",
+    "options": [
+      "The Wild Rover",
+      "The Irish Rover",
+      "Whiskey in the Jar",
+      "Black Velvet Band"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Clannad's haunting Theme from Harry's Game is sung in which language?",
+    "options": [
+      "Latin",
+      "English",
+      "Irish",
+      "Scots Gaelic"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Irish ballad commemorating the 1798 rebellion is titled The Rising of the what?",
+    "options": [
+      "Moon",
+      "Sun",
+      "Dawn",
+      "Tide"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which song, popular at Irish sports events, was recorded by The Wolfe Tones?",
+    "options": [
+      "A Nation Once Again",
+      "Ireland's Call",
+      "Amhrán na bhFiann",
+      "Danny Boy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Fields of Athenry refers to a man transported for stealing food during which event?",
+    "options": [
+      "The 1916 Rising",
+      "The War of Independence",
+      "The Great Famine",
+      "The Penal Laws"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which rugby anthem written by Phil Coulter is sung by Irish fans?",
+    "options": [
+      "A Nation Once Again",
+      "Ireland's Call",
+      "The Fields of Athenry",
+      "Danny Boy"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Who wrote the lyrics of Ireland's national anthem, The Soldier's Song?",
+    "options": [
+      "Patrick Pearse",
+      "Thomas Davis",
+      "Phil Coulter",
+      "Peadar Kearney"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "In which county was Van Morrison born?",
+    "options": [
+      "Down",
+      "Derry",
+      "Antrim",
+      "Armagh"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which 1989 Van Morrison duet with Cliff Richard was a Christmas hit?",
+    "options": [
+      "Whenever God Shines His Light",
+      "Have I Told You Lately",
+      "Days Like This",
+      "Bright Side of the Road"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which instrument did Liam O'Flynn of Planxty play?",
+    "options": [
+      "Fiddle",
+      "Bouzouki",
+      "Tin whistle",
+      "Uilleann pipes"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Irish singer tore up a photograph on US television in 1992 in protest?",
+    "options": [
+      "Dolores O'Riordan",
+      "Sinéad O'Connor",
+      "Mary Black",
+      "Enya"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The band name Clannad is taken from the Irish word for what?",
+    "options": [
+      "Music",
+      "Family",
+      "Mountain",
+      "River"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "From which county does the singer Enya come?",
+    "options": [
+      "Galway",
+      "Cork",
+      "Mayo",
+      "Donegal"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Brendan Graham wrote two Eurovision winners for Ireland; which did he pen in 1996?",
+    "options": [
+      "The Voice",
+      "Rock 'n' Roll Kids",
+      "In Your Eyes",
+      "Why Me"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish guitar virtuoso released the album Calling Card in 1976?",
+    "options": [
+      "Gary Moore",
+      "The Edge",
+      "Rory Gallagher",
+      "Phil Lynott"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which classic Thin Lizzy album contains the title track Jailbreak?",
+    "options": [
+      "Black Rose",
+      "Chinatown",
+      "Renegade",
+      "Jailbreak"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which 2014 Hozier song reached number two on the US Billboard Hot 100?",
+    "options": [
+      "Cherry Wine",
+      "Take Me to Church",
+      "Someone New",
+      "Work Song"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which 2024 Hozier song became a global hit from the Unreal Unearth era?",
+    "options": [
+      "Take Me to Church",
+      "Cherry Wine",
+      "Too Sweet",
+      "Movement"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Donegal-named trad band features fiddler Mairéad Ní Mhaonaigh?",
+    "options": [
+      "Altan",
+      "Clannad",
+      "Dervish",
+      "Solas"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Fields of Athenry refers to a town in which county?",
+    "options": [
+      "Galway",
+      "Cork",
+      "Kerry",
+      "Mayo"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Clare-born fiddler leads the modern trad supergroup The Gloaming?",
+    "options": [
+      "Frankie Gavin",
+      "Kevin Burke",
+      "Martin Hayes",
+      "Paddy Glackin"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which Cranberries song opens 'Oh, my life is changing every day'?",
+    "options": [
+      "Linger",
+      "Dreams",
+      "Zombie",
+      "Ode to My Family"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "From which city do The Cranberries come?",
+    "options": [
+      "Cork",
+      "Dublin",
+      "Galway",
+      "Limerick"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "In which city did The Script form?",
+    "options": [
+      "Cork",
+      "Belfast",
+      "Dublin",
+      "Galway"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which 2008 Script hit is titled The Man Who Can't Be what?",
+    "options": [
+      "Moved",
+      "Saved",
+      "Found",
+      "Broken"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Script song features will.i.am and reached number one in the UK in 2012?",
+    "options": [
+      "Breakeven",
+      "For the First Time",
+      "Superheroes",
+      "Hall of Fame"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Co Clare town hosts a famous matchmaking and music festival?",
+    "options": [
+      "Doolin",
+      "Lisdoonvarna",
+      "Ennistymon",
+      "Kilrush"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which Co Clare village is internationally famous for its trad pub sessions?",
+    "options": [
+      "Lisdoonvarna",
+      "Doolin",
+      "Kilkee",
+      "Spanish Point"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Carrickfergus, the town in the traditional ballad, is in which county?",
+    "options": [
+      "Down",
+      "Derry",
+      "Armagh",
+      "Antrim"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which U2 member writes most of the band's music alongside Bono?",
+    "options": [
+      "The Edge",
+      "Adam Clayton",
+      "Larry Mullen Jr",
+      "Brian Eno"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which U2 song from Achtung Baby opens with 'Is it getting better'?",
+    "options": [
+      "Mysterious Ways",
+      "The Fly",
+      "One",
+      "Even Better Than the Real Thing"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which 1984 Band Aid charity single did Bono perform on?",
+    "options": [
+      "We Are the World",
+      "That's What Friends Are For",
+      "Feed the World",
+      "Do They Know It's Christmas?"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which Westlife song was their debut UK number one in 1999?",
+    "options": [
+      "Flying Without Wings",
+      "Swear It Again",
+      "If I Let You Go",
+      "My Love"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which singer represented Ireland at Eurovision 2024 with Doomsday Blue?",
+    "options": [
+      "Brooke Scullion",
+      "Lesley Roy",
+      "Bambie Thug",
+      "Nicky Byrne"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which 1960s Dublin ballad group recorded Seven Drunken Nights?",
+    "options": [
+      "The Dubliners",
+      "The Wolfe Tones",
+      "The Clancy Brothers",
+      "Planxty"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "To which instrument family does the fiddle belong in Irish traditional music?",
+    "options": [
+      "Bowed strings",
+      "Woodwind",
+      "Percussion",
+      "Brass"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In Fairytale of New York, who originally sang the female vocal part?",
+    "options": [
+      "Sinéad O'Connor",
+      "Dolores O'Riordan",
+      "Kirsty MacColl",
+      "Mary Black"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "In which city is the song Fairytale of New York set?",
+    "options": [
+      "Boston",
+      "New York",
+      "Chicago",
+      "Dublin"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which 2000 U2 album includes Beautiful Day?",
+    "options": [
+      "Pop",
+      "Zooropa",
+      "No Line on the Horizon",
+      "All That You Can't Leave Behind"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which instrumental trad quintet is named for the Irish word for August?",
+    "options": [
+      "Solas",
+      "Dervish",
+      "Lúnasa",
+      "Téada"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which social dance evening with music is spelled how in Irish?",
+    "options": [
+      "Céilí",
+      "Feis",
+      "Fleadh",
+      "Oireachtas"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Sligo-based family trad band rose to fame in the 1990s?",
+    "options": [
+      "Altan",
+      "Solas",
+      "Lúnasa",
+      "Dervish"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Who wrote the play Waiting for Godot?",
+    "options": [
+      "Samuel Beckett",
+      "Brian Friel",
+      "Sean O'Casey",
+      "J.M. Synge"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote the novel Dracula?",
+    "options": [
+      "Bram Stoker",
+      "Sheridan Le Fanu",
+      "Oscar Wilde",
+      "Lord Dunsany"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote Gulliver's Travels?",
+    "options": [
+      "Jonathan Swift",
+      "Oliver Goldsmith",
+      "Laurence Sterne",
+      "Richard Steele"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish writer penned The Importance of Being Earnest?",
+    "options": [
+      "Oscar Wilde",
+      "George Bernard Shaw",
+      "Richard Brinsley Sheridan",
+      "W.B. Yeats"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Frank McCourt's memoir of growing up in Limerick is titled what?",
+    "options": [
+      "Angela's Ashes",
+      "Tis",
+      "Teacher Man",
+      "The Limerick Years"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the novel The Picture of Dorian Gray?",
+    "options": [
+      "Oscar Wilde",
+      "Bram Stoker",
+      "George Moore",
+      "James Stephens"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish playwright wrote Pygmalion?",
+    "options": [
+      "George Bernard Shaw",
+      "Oscar Wilde",
+      "Sean O'Casey",
+      "Brian Friel"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Roddy Doyle's novel about a Dublin soul band is called what?",
+    "options": [
+      "The Commitments",
+      "The Snapper",
+      "The Van",
+      "Paddy Clarke Ha Ha Ha"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Roddy Doyle novel won the Booker Prize in 1993?",
+    "options": [
+      "Paddy Clarke Ha Ha Ha",
+      "The Snapper",
+      "The Commitments",
+      "A Star Called Henry"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the play The Playboy of the Western World?",
+    "options": [
+      "J.M. Synge",
+      "Sean O'Casey",
+      "Lady Gregory",
+      "W.B. Yeats"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Sally Rooney's novel about Connell and Marianne is titled what?",
+    "options": [
+      "Normal People",
+      "Conversations with Friends",
+      "Beautiful World, Where Are You",
+      "Intermezzo"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish poet won the Nobel Prize in Literature in 1995?",
+    "options": [
+      "Seamus Heaney",
+      "Patrick Kavanagh",
+      "Louis MacNeice",
+      "Derek Mahon"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the play Juno and the Paycock?",
+    "options": [
+      "Sean O'Casey",
+      "J.M. Synge",
+      "Brendan Behan",
+      "Brian Friel"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Brendan Behan wrote which famous play set in a prison?",
+    "options": [
+      "The Quare Fellow",
+      "The Hostage",
+      "Borstal Boy",
+      "The Plough and the Stars"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which novel by Flann O'Brien features a man writing a book about a man writing a book?",
+    "options": [
+      "At Swim-Two-Birds",
+      "The Third Policeman",
+      "The Dalkey Archive",
+      "The Poor Mouth"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Brian Friel's most famous play is set in the fictional town of Ballybeg and is called what?",
+    "options": [
+      "Dancing at Lughnasa",
+      "Translations",
+      "Philadelphia, Here I Come!",
+      "Faith Healer"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the play The Field, later made into a film?",
+    "options": [
+      "John B. Keane",
+      "Brian Friel",
+      "Tom Murphy",
+      "Hugh Leonard"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Maeve Binchy's debut novel was titled what?",
+    "options": [
+      "Light a Penny Candle",
+      "Circle of Friends",
+      "Tara Road",
+      "Echoes"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote the novel Brooklyn?",
+    "options": [
+      "Colm Toibin",
+      "John Banville",
+      "Sebastian Barry",
+      "Joseph O'Connor"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the Dublin Murder Squad crime novels?",
+    "options": [
+      "Tana French",
+      "John Connolly",
+      "Liz Nugent",
+      "Jane Casey"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which poet wrote the collection Death of a Naturalist?",
+    "options": [
+      "Seamus Heaney",
+      "Paul Muldoon",
+      "Michael Longley",
+      "Thomas Kinsella"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Patrick Kavanagh wrote which long poem about rural Irish life?",
+    "options": [
+      "The Great Hunger",
+      "The Waste Land",
+      "Tarry Flynn",
+      "Raglan Road"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which national theatre of Ireland was founded in 1904 in Dublin?",
+    "options": [
+      "The Abbey Theatre",
+      "The Gate Theatre",
+      "The Gaiety Theatre",
+      "The Olympia Theatre"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "John Banville won the Booker Prize in 2005 for which novel?",
+    "options": [
+      "The Sea",
+      "The Book of Evidence",
+      "The Untouchable",
+      "Ancient Light"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish writer created the crime novels featuring detective Quirke?",
+    "options": [
+      "John Banville",
+      "Ken Bruen",
+      "Declan Hughes",
+      "John Connolly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the play Translations, about an Irish-speaking community in Donegal?",
+    "options": [
+      "Brian Friel",
+      "Tom Murphy",
+      "Frank McGuinness",
+      "Sebastian Barry"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Eilis Lacey is the central character in which Colm Toibin novel?",
+    "options": [
+      "Brooklyn",
+      "The Master",
+      "Nora Webster",
+      "The Blackwater Lightship"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish actor played Oskar Schindler in Schindler's List?",
+    "options": [
+      "Liam Neeson",
+      "Brendan Gleeson",
+      "Stephen Rea",
+      "Gabriel Byrne"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Cillian Murphy won the Best Actor Oscar in 2024 for playing whom?",
+    "options": [
+      "J. Robert Oppenheimer",
+      "Tommy Shelby",
+      "Scarecrow",
+      "Jim"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Saoirse Ronan received an Oscar nomination for playing Eilis in which film?",
+    "options": [
+      "Brooklyn",
+      "Lady Bird",
+      "Atonement",
+      "Little Women"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 1952 John Ford film starring John Wayne and Maureen O'Hara is set in Ireland?",
+    "options": [
+      "The Quiet Man",
+      "The Informer",
+      "Ryan's Daughter",
+      "The Field"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The 1991 film The Commitments was based on a novel by which author?",
+    "options": [
+      "Roddy Doyle",
+      "Dermot Bolger",
+      "Joseph O'Connor",
+      "Colm Toibin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 2007 Irish musical film featured the Oscar-winning song Falling Slowly?",
+    "options": [
+      "Once",
+      "Sing Street",
+      "The Commitments",
+      "Begin Again"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who directed the 2022 film The Banshees of Inisherin?",
+    "options": [
+      "Martin McDonagh",
+      "Lenny Abrahamson",
+      "John Carney",
+      "Jim Sheridan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which two actors starred together in The Banshees of Inisherin?",
+    "options": [
+      "Colin Farrell and Brendan Gleeson",
+      "Cillian Murphy and Liam Neeson",
+      "Pierce Brosnan and Gabriel Byrne",
+      "Barry Keoghan and Stephen Rea"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Pierce Brosnan played which iconic spy character in four films?",
+    "options": [
+      "James Bond",
+      "Jason Bourne",
+      "Jack Ryan",
+      "George Smiley"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Daniel Day-Lewis won an Oscar for playing Christy Brown in which film?",
+    "options": [
+      "My Left Foot",
+      "In the Name of the Father",
+      "The Boxer",
+      "Gangs of New York"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Jim Sheridan film starred Daniel Day-Lewis as Gerry Conlon?",
+    "options": [
+      "In the Name of the Father",
+      "My Left Foot",
+      "The Boxer",
+      "The Field"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Colin Farrell starred as a hitman in which 2008 Martin McDonagh film?",
+    "options": [
+      "In Bruges",
+      "Seven Psychopaths",
+      "The Lobster",
+      "Phone Booth"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which sitcom is set on the fictional Craggy Island?",
+    "options": [
+      "Father Ted",
+      "Killinaskully",
+      "Bachelors Walk",
+      "Hardy Bucks"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who played Father Ted Crilly in the sitcom Father Ted?",
+    "options": [
+      "Dermot Morgan",
+      "Ardal O'Hanlon",
+      "Frank Kelly",
+      "Pat Shortt"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ardal O'Hanlon played which dim-witted priest in Father Ted?",
+    "options": [
+      "Father Dougal McGuire",
+      "Father Jack Hackett",
+      "Father Noel Furlong",
+      "Father Stone"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which actor played the foul-mouthed Father Jack in Father Ted?",
+    "options": [
+      "Frank Kelly",
+      "Dermot Morgan",
+      "Pat Laffan",
+      "Niall Buggy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Father Ted was co-written by Graham Linehan and which other writer?",
+    "options": [
+      "Arthur Mathews",
+      "Pauline McLynn",
+      "Declan Lowney",
+      "Paul Woodfull"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The teen comedy Derry Girls is set in which decade?",
+    "options": [
+      "The 1990s",
+      "The 1970s",
+      "The 1980s",
+      "The 2000s"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who created and wrote the sitcom Derry Girls?",
+    "options": [
+      "Lisa McGee",
+      "Sharon Horgan",
+      "Graham Linehan",
+      "Roddy Doyle"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In Derry Girls, what is the nationality of the boy James?",
+    "options": [
+      "English",
+      "Scottish",
+      "Welsh",
+      "American"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Brendan O'Carroll plays which matriarch in Mrs Brown's Boys?",
+    "options": [
+      "Agnes Brown",
+      "Cathy Brown",
+      "Winnie McGoogan",
+      "Betty Brown"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "RTE's flagship chat show, the world's longest-running, is called what?",
+    "options": [
+      "The Late Late Show",
+      "The Tonight Show",
+      "The Saturday Night Show",
+      "Tubridy Tonight"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who was the original host of The Late Late Show from 1962?",
+    "options": [
+      "Gay Byrne",
+      "Pat Kenny",
+      "Ryan Tubridy",
+      "Mike Murphy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish writer wrote the novel The Country Girls, once banned in Ireland?",
+    "options": [
+      "Edna O'Brien",
+      "Maeve Binchy",
+      "Kate O'Brien",
+      "Molly Keane"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the 1939 novel At Swim-Two-Birds under a pen name?",
+    "options": [
+      "Flann O'Brien",
+      "Brian Friel",
+      "Patrick Kavanagh",
+      "Samuel Beckett"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Bram Stoker was born in which Irish city?",
+    "options": [
+      "Dublin",
+      "Cork",
+      "Belfast",
+      "Galway"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish playwright wrote She Stoops to Conquer?",
+    "options": [
+      "Oliver Goldsmith",
+      "Richard Brinsley Sheridan",
+      "George Farquhar",
+      "William Congreve"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Richard Brinsley Sheridan wrote which famous comedy of manners?",
+    "options": [
+      "The School for Scandal",
+      "She Stoops to Conquer",
+      "The Beaux' Stratagem",
+      "The Way of the World"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which novel by James Joyce is a collection of short stories set in Dublin?",
+    "options": [
+      "Dubliners",
+      "A Portrait of the Artist as a Young Man",
+      "Finnegans Wake",
+      "Stephen Hero"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The final story in Joyce's Dubliners is called what?",
+    "options": [
+      "The Dead",
+      "Araby",
+      "Eveline",
+      "The Sisters"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish poet wrote The Lake Isle of Innisfree?",
+    "options": [
+      "W.B. Yeats",
+      "Patrick Kavanagh",
+      "Oliver Goldsmith",
+      "Thomas Moore"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the poem The Second Coming, with the line 'things fall apart'?",
+    "options": [
+      "W.B. Yeats",
+      "Seamus Heaney",
+      "Louis MacNeice",
+      "Austin Clarke"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish writer is famous for the novel The Sea, the Sea? (Note: she was Dublin-born)",
+    "options": [
+      "Iris Murdoch",
+      "Elizabeth Bowen",
+      "Molly Keane",
+      "Kate O'Brien"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "C.S. Lewis, author of The Chronicles of Narnia, was born in which Irish city?",
+    "options": [
+      "Belfast",
+      "Dublin",
+      "Derry",
+      "Lisburn"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote the Artemis Fowl series of children's books?",
+    "options": [
+      "Eoin Colfer",
+      "Derek Landy",
+      "Darren Shan",
+      "John Boyne"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "John Boyne wrote which novel set during the Holocaust?",
+    "options": [
+      "The Boy in the Striped Pyjamas",
+      "The Heart's Invisible Furies",
+      "A History of Loneliness",
+      "The Absolutist"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which playwright wrote The Weir, set in a rural Irish pub?",
+    "options": [
+      "Conor McPherson",
+      "Martin McDonagh",
+      "Enda Walsh",
+      "Mark O'Rowe"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Enda Walsh co-wrote the book for which Tony-winning musical based on an Irish film?",
+    "options": [
+      "Once",
+      "The Commitments",
+      "Riverdance",
+      "Sing Street"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote the 2018 novel Milkman, which won the Booker Prize?",
+    "options": [
+      "Anna Burns",
+      "Lisa McInerney",
+      "Eimear McBride",
+      "Sara Baume"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Anne Enright won the Booker Prize in 2007 for which novel?",
+    "options": [
+      "The Gathering",
+      "The Forgotten Waltz",
+      "The Green Road",
+      "Actress"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish poet and Nobel laureate wrote the play The Cure at Troy?",
+    "options": [
+      "Seamus Heaney",
+      "W.B. Yeats",
+      "Brian Friel",
+      "Tom Paulin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who wrote the novel Strumpet City, set in Dublin around the 1913 Lockout?",
+    "options": [
+      "James Plunkett",
+      "Liam O'Flaherty",
+      "Sean O'Faolain",
+      "Frank O'Connor"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Liam O'Flaherty wrote which novel set during the Irish War of Independence?",
+    "options": [
+      "The Informer",
+      "Famine",
+      "The Assassin",
+      "Skerrett"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which short-story writer wrote Guests of the Nation?",
+    "options": [
+      "Frank O'Connor",
+      "Sean O'Faolain",
+      "Mary Lavin",
+      "Bryan MacMahon"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "George Bernard Shaw won the Nobel Prize in Literature in which year?",
+    "options": [
+      "1925",
+      "1923",
+      "1932",
+      "1947"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Samuel Beckett won the Nobel Prize in Literature in which year?",
+    "options": [
+      "1969",
+      "1955",
+      "1961",
+      "1972"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of these plays was written by Samuel Beckett?",
+    "options": [
+      "Endgame",
+      "The Hostage",
+      "The Plough and the Stars",
+      "Sive"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Beckett's play Krapp's Last Tape features a man listening to what?",
+    "options": [
+      "Tape recordings of his past",
+      "The radio",
+      "Old gramophone records",
+      "Voicemail messages"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote A Star Called Henry, part of The Last Roundup trilogy?",
+    "options": [
+      "Roddy Doyle",
+      "Sebastian Barry",
+      "Joseph O'Connor",
+      "Dermot Bolger"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Sebastian Barry won the Costa Book of the Year twice, including for which novel?",
+    "options": [
+      "The Secret Scripture",
+      "A Long Long Way",
+      "Days Without End",
+      "Annie Dunne"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which writer created the character of Christy Mahon?",
+    "options": [
+      "J.M. Synge",
+      "Sean O'Casey",
+      "Lady Gregory",
+      "Padraic Colum"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Sean O'Casey's Dublin Trilogy includes Juno and the Paycock and which other play?",
+    "options": [
+      "The Plough and the Stars",
+      "The Silver Tassie",
+      "Red Roses for Me",
+      "Purple Dust"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote the novel The Heather Blazing?",
+    "options": [
+      "Colm Toibin",
+      "John McGahern",
+      "William Trevor",
+      "Patrick McCabe"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "John McGahern's acclaimed final novel was titled what?",
+    "options": [
+      "That They May Face the Rising Sun",
+      "Amongst Women",
+      "The Barracks",
+      "The Dark"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Patrick McCabe novel was adapted into a Neil Jordan film starring a boy named Francie Brady?",
+    "options": [
+      "The Butcher Boy",
+      "Breakfast on Pluto",
+      "The Dead School",
+      "Winterwood"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Neil Jordan won an Oscar for the screenplay of which 1992 film?",
+    "options": [
+      "The Crying Game",
+      "Michael Collins",
+      "Interview with the Vampire",
+      "The Butcher Boy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which actor played the title role in Neil Jordan's 1996 film Michael Collins?",
+    "options": [
+      "Liam Neeson",
+      "Aidan Quinn",
+      "Stephen Rea",
+      "Alan Rickman"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish actress won the 1953 Best Actress Oscar nomination but is best known for The Quiet Man?",
+    "options": [
+      "Maureen O'Hara",
+      "Siobhan McKenna",
+      "Greer Garson",
+      "Constance Smith"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Gabriel Byrne starred in which 1995 crime film as Dean Keaton?",
+    "options": [
+      "The Usual Suspects",
+      "Miller's Crossing",
+      "The Man in the Iron Mask",
+      "Stigmata"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish actor voiced Aslan in The Chronicles of Narnia films?",
+    "options": [
+      "Liam Neeson",
+      "Brendan Gleeson",
+      "Ciaran Hinds",
+      "Colm Meaney"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Colm Meaney played Miles O'Brien in which Star Trek series?",
+    "options": [
+      "Deep Space Nine",
+      "Voyager",
+      "Enterprise",
+      "Discovery"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which actor played the father, Jimmy Rabbitte Sr, in The Snapper and The Van?",
+    "options": [
+      "Colm Meaney",
+      "Donal McCann",
+      "Brendan Gleeson",
+      "Niall Toibin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Barry Keoghan received an Oscar nomination for his role in which 2022 film?",
+    "options": [
+      "The Banshees of Inisherin",
+      "Saltburn",
+      "The Killing of a Sacred Deer",
+      "Dunkirk"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish actor starred as the lead in the 2023 film Saltburn?",
+    "options": [
+      "Barry Keoghan",
+      "Paul Mescal",
+      "Jack Reynor",
+      "Cillian Murphy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Paul Mescal rose to fame playing Connell in which TV adaptation?",
+    "options": [
+      "Normal People",
+      "Conversations with Friends",
+      "The Deceived",
+      "Wild Mountain Thyme"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Paul Mescal received a Best Actor Oscar nomination for which 2022 film?",
+    "options": [
+      "Aftersun",
+      "All of Us Strangers",
+      "Gladiator II",
+      "God's Creatures"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which actress played the lead in the TV series Normal People opposite Paul Mescal?",
+    "options": [
+      "Daisy Edgar-Jones",
+      "Jessie Buckley",
+      "Aisling Bea",
+      "Niamh Algar"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Jessie Buckley received an Oscar nomination for which 2021 film?",
+    "options": [
+      "The Lost Daughter",
+      "Wild Rose",
+      "Women Talking",
+      "I'm Thinking of Ending Things"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 2019 film, with dialogue mostly in Irish, starred a boy named Ole Schibik?",
+    "options": [
+      "The Quiet Girl",
+      "Song of the Sea",
+      "Kisses",
+      "Garage"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The Quiet Girl (An Cailin Ciuin) was based on a story by which author?",
+    "options": [
+      "Claire Keegan",
+      "Edna O'Brien",
+      "Kevin Barry",
+      "Donal Ryan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Claire Keegan's novella Small Things Like These was adapted into a film starring whom?",
+    "options": [
+      "Cillian Murphy",
+      "Colin Farrell",
+      "Brendan Gleeson",
+      "Barry Keoghan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which animation studio based in Kilkenny made The Secret of Kells?",
+    "options": [
+      "Cartoon Saloon",
+      "Brown Bag Films",
+      "Boulder Media",
+      "JAM Media"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Cartoon Saloon's film about Irish folklore and wolves is titled what?",
+    "options": [
+      "Wolfwalkers",
+      "Song of the Sea",
+      "The Breadwinner",
+      "The Secret of Kells"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish sketch show featured the character of Mario Rosenstock impersonating celebrities?",
+    "options": [
+      "Gift Grub",
+      "Hardy Bucks",
+      "The Savage Eye",
+      "Republic of Telly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Pat Shortt starred as Jim in which RTE comedy series set in a rural pub?",
+    "options": [
+      "Killinaskully",
+      "Bachelors Walk",
+      "Paths to Freedom",
+      "Mattie"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which long-running RTE drama is set in the fictional Dublin suburb of Carrigstown?",
+    "options": [
+      "Fair City",
+      "Glenroe",
+      "The Riordans",
+      "Bracken"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which rural RTE soap, running from 1983 to 2001, was set in Wicklow?",
+    "options": [
+      "Glenroe",
+      "The Riordans",
+      "Bracken",
+      "Ros na Run"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ros na Run is a soap opera broadcast primarily in which language?",
+    "options": [
+      "Irish",
+      "English",
+      "Ulster Scots",
+      "Latin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who succeeded Gay Byrne as host of The Late Late Show in 1999?",
+    "options": [
+      "Pat Kenny",
+      "Ryan Tubridy",
+      "Patrick Kielty",
+      "Joe Duffy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Who became host of The Late Late Show in 2023?",
+    "options": [
+      "Patrick Kielty",
+      "Ryan Tubridy",
+      "Pat Kenny",
+      "Tommy Tiernan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which comedian hosts a chat show on RTE where he doesn't know the guests in advance?",
+    "options": [
+      "Tommy Tiernan",
+      "Dara O Briain",
+      "Dylan Moran",
+      "Ed Byrne"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Dylan Moran co-starred as bookshop owner Bernard Black in which sitcom?",
+    "options": [
+      "Black Books",
+      "Father Ted",
+      "The IT Crowd",
+      "Catastrophe"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Graham Linehan also co-created which sitcom about office tech support?",
+    "options": [
+      "The IT Crowd",
+      "Black Books",
+      "Spaced",
+      "Peep Show"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Sharon Horgan co-created and starred in which dark comedy with Rob Delaney?",
+    "options": [
+      "Catastrophe",
+      "Motherland",
+      "Pulling",
+      "Bad Sisters"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Sharon Horgan created which 2022 thriller-comedy series set in Ireland?",
+    "options": [
+      "Bad Sisters",
+      "This Way Up",
+      "Divorce",
+      "Together"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which comedian created and starred in the Channel 4 sitcom This Way Up?",
+    "options": [
+      "Aisling Bea",
+      "Sharon Horgan",
+      "Roisin Conaty",
+      "Katherine Ryan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Chris O'Dowd played which character in The IT Crowd?",
+    "options": [
+      "Roy",
+      "Moss",
+      "Douglas",
+      "Richmond"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Chris O'Dowd co-created and starred in which semi-autobiographical sitcom about his childhood?",
+    "options": [
+      "Moone Boy",
+      "The Sparticle Mystery",
+      "Family Tree",
+      "Get Shorty"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish band's songs feature in the film Sing Street, directed by John Carney?",
+    "options": [
+      "The film uses original songs and 80s hits",
+      "U2",
+      "The Cranberries",
+      "Thin Lizzy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "John Carney directed Once, Sing Street and which other music-based film?",
+    "options": [
+      "Begin Again",
+      "Whiplash",
+      "Yesterday",
+      "Rocketman"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish poet wrote the collection North in 1975?",
+    "options": [
+      "Seamus Heaney",
+      "John Montague",
+      "Derek Mahon",
+      "Michael Hartnett"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Eavan Boland is best known as an Irish writer in which genre?",
+    "options": [
+      "Poetry",
+      "Crime fiction",
+      "Theatre",
+      "Travel writing"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which contemporary Irish poet won the T.S. Eliot Prize and is from Northern Ireland, known for Moy Sand and Gravel?",
+    "options": [
+      "Paul Muldoon",
+      "Ciaran Carson",
+      "Tom Paulin",
+      "Frank Ormsby"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Thomas Moore wrote which collection of songs including The Last Rose of Summer?",
+    "options": [
+      "Irish Melodies",
+      "The Minstrel Boy Songs",
+      "Lalla Rookh",
+      "The Bard's Legacy"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish writer wrote The Vicar of Wakefield?",
+    "options": [
+      "Oliver Goldsmith",
+      "Laurence Sterne",
+      "Maria Edgeworth",
+      "Jonathan Swift"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Maria Edgeworth wrote which 1800 novel often called the first regional novel?",
+    "options": [
+      "Castle Rackrent",
+      "Belinda",
+      "The Absentee",
+      "Ormond"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish novelist wrote Felicia's Journey and The Story of Lucy Gault?",
+    "options": [
+      "William Trevor",
+      "John Banville",
+      "Brian Moore",
+      "Aidan Higgins"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Brian Moore wrote which novel about a Belfast spinster, later filmed with Maggie Smith?",
+    "options": [
+      "The Lonely Passion of Judith Hearne",
+      "The Doctor's Wife",
+      "Black Robe",
+      "Lies of Silence"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote the Skulduggery Pleasant series?",
+    "options": [
+      "Derek Landy",
+      "Eoin Colfer",
+      "Darren Shan",
+      "John Connolly"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Cecelia Ahern wrote which bestselling novel, later a film with Hilary Swank?",
+    "options": [
+      "P.S. I Love You",
+      "Love, Rosie",
+      "The Gift",
+      "If You Could See Me Now"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Cecelia Ahern is the daughter of which former Irish Taoiseach?",
+    "options": [
+      "Bertie Ahern",
+      "Brian Cowen",
+      "Charles Haughey",
+      "Albert Reynolds"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote the Glorious Heresies, winning the Baileys Prize in 2016?",
+    "options": [
+      "Lisa McInerney",
+      "Anna Burns",
+      "Eimear McBride",
+      "Donal Ryan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Donal Ryan's debut novel, told in 21 voices, is titled what?",
+    "options": [
+      "The Spinning Heart",
+      "The Thing About December",
+      "All We Shall Know",
+      "From a Low and Quiet Sea"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish writer won the Goldsmiths Prize for the experimental novel A Girl Is a Half-formed Thing?",
+    "options": [
+      "Eimear McBride",
+      "Anna Burns",
+      "Mike McCormack",
+      "Kevin Barry"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Kevin Barry's debut novel, set in a dystopian Irish city, is titled what?",
+    "options": [
+      "City of Bohane",
+      "Beatlebone",
+      "Night Boat to Tangier",
+      "That Old Country Music"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish playwright wrote The Pillowman and The Beauty Queen of Leenane?",
+    "options": [
+      "Martin McDonagh",
+      "Conor McPherson",
+      "Enda Walsh",
+      "Marina Carr"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Marina Carr's play By the Bog of Cats is loosely based on which Greek tragedy?",
+    "options": [
+      "Medea",
+      "Antigone",
+      "Oedipus Rex",
+      "Electra"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which actor played the lead role of Tommy Shelby in Peaky Blinders?",
+    "options": [
+      "Cillian Murphy",
+      "Aidan Gillen",
+      "Paul Anderson",
+      "Jack Reynor"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Aidan Gillen played Littlefinger in which hit HBO series?",
+    "options": [
+      "Game of Thrones",
+      "The Wire",
+      "Rome",
+      "Boardwalk Empire"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which RTE crime drama featured Aidan Gillen as Nidge and Tom Vaughan-Lawlor as a key figure?",
+    "options": [
+      "Love/Hate",
+      "The Clinic",
+      "Single-Handed",
+      "Red Rock"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Tom Vaughan-Lawlor played Nidge in which acclaimed RTE drama?",
+    "options": [
+      "Love/Hate",
+      "Red Rock",
+      "Raw",
+      "Amber"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish actor played the villain Ra's al Ghul in Batman Begins?",
+    "options": [
+      "Liam Neeson",
+      "Cillian Murphy",
+      "Gabriel Byrne",
+      "Pierce Brosnan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Cillian Murphy played which villain in Batman Begins and The Dark Knight?",
+    "options": [
+      "Scarecrow",
+      "The Joker",
+      "Two-Face",
+      "Bane"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Ruth Negga received a Best Actress Oscar nomination for which 2016 film?",
+    "options": [
+      "Loving",
+      "Passing",
+      "Preacher",
+      "Ad Astra"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Kerry Condon received an Oscar nomination for her role in which 2022 film?",
+    "options": [
+      "The Banshees of Inisherin",
+      "The Last Duel",
+      "Better Call Saul",
+      "Bad Samaritan"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Domhnall Gleeson played which character in the Star Wars sequel trilogy?",
+    "options": [
+      "General Hux",
+      "Poe Dameron",
+      "Finn",
+      "Kylo Ren"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which 2014 film directed by John Michael McDonagh starred Brendan Gleeson as a priest?",
+    "options": [
+      "Calvary",
+      "The Guard",
+      "War on Everyone",
+      "Cavalry Charge"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In the 2011 film The Guard, Brendan Gleeson plays a Garda partnered with an FBI agent played by whom?",
+    "options": [
+      "Don Cheadle",
+      "Forest Whitaker",
+      "Samuel L. Jackson",
+      "Idris Elba"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Adrian Dunbar played Superintendent Ted Hastings in which BBC police drama?",
+    "options": [
+      "Line of Duty",
+      "Blood",
+      "Cracker",
+      "The Fall"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which actor played serial killer Paul Spector in the BBC series The Fall, set in Belfast?",
+    "options": [
+      "Jamie Dornan",
+      "Cillian Murphy",
+      "James Nesbitt",
+      "Liam Cunningham"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Jamie Dornan starred as Christian Grey in which film series?",
+    "options": [
+      "Fifty Shades",
+      "Twilight",
+      "After",
+      "The Notebook"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Kenneth Branagh's semi-autobiographical 2021 film about his childhood in Northern Ireland is called what?",
+    "options": [
+      "Belfast",
+      "Derry",
+      "The Troubles",
+      "Home"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which young Irish actor played the boy Buddy in Kenneth Branagh's Belfast?",
+    "options": [
+      "Jude Hill",
+      "Barry Keoghan",
+      "Art Parkinson",
+      "Lewis McAskie"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which writer created the long-running sketch series and character Mrs Brown before TV fame?",
+    "options": [
+      "Brendan O'Carroll",
+      "Pat Shortt",
+      "Brendan Grace",
+      "Niall Toibin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which classic Irish comedy character did Brendan Grace famously portray, a schoolboy?",
+    "options": [
+      "Bottler",
+      "Father Stone",
+      "Podge",
+      "Buckets McGrath"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which Irish author wrote the Wonder, about a fasting girl, and Room?",
+    "options": [
+      "Emma Donoghue",
+      "Anne Enright",
+      "Belinda McKeon",
+      "Christine Dwyer Hickey"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Emma Donoghue's novel Room was adapted into a film that won an Oscar for which actress?",
+    "options": [
+      "Brie Larson",
+      "Saoirse Ronan",
+      "Ruth Negga",
+      "Jessie Buckley"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "John B. Keane's play about a matchmaking arrangement is titled what?",
+    "options": [
+      "Sive",
+      "The Field",
+      "Big Maggie",
+      "Moll"
+    ],
+    "answer": 0
   }
 ]
