@@ -19,8 +19,13 @@ CREATE TABLE IF NOT EXISTS games (
   correct      INTEGER,
   time_ms      INTEGER,
   answers      TEXT,                     -- JSON of chosen option indexes (for review)
+  qids         TEXT,                     -- JSON of the question indexes for this game (frozen at start)
   PRIMARY KEY (user_id, date)
 );
+
+-- Upgrading an existing database (adds qids to the games table). Safe to run
+-- once; ignore the "duplicate column" error if it's already there:
+--   wrangler d1 execute irish-tools-quiz --remote --command "ALTER TABLE games ADD COLUMN qids TEXT"
 
 CREATE INDEX IF NOT EXISTS idx_games_date ON games (date);
 CREATE INDEX IF NOT EXISTS idx_games_submitted ON games (date, submitted_at);

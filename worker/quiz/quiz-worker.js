@@ -274,21 +274,27 @@ async function quizToday(req, env, origin) {
   if (!session) return json({ error: 'unauthorized' }, 401, origin)
   if (!session.name) return json({ error: 'name required', needsName: true }, 403, origin)
   const date = dublinDate()
-  const idxs = todaysQuestionIdx(date)
   const game = await env.DB.prepare('SELECT * FROM games WHERE user_id = ? AND date = ?').bind(session.uid, date).first()
+  // Use the question set frozen when the game started so growing the bank later
+  // never re-maps an existing game (falls back to date selection for old rows).
+  const gameIdxs = (g) => (g && g.qids ? JSON.parse(g.qids) : todaysQuestionIdx(date))
   if (game && game.submitted_at) {
     const answers = game.answers ? JSON.parse(game.answers) : []
     const rank = await dailyRank(env, date, game.correct, game.time_ms)
     return json(
-      { date, played: true, total: DAILY, result: { correct: game.correct, time_ms: game.time_ms, rank }, corrections: corrections(idxs, answers) },
+      { date, played: true, total: DAILY, result: { correct: game.correct, time_ms: game.time_ms, rank }, corrections: corrections(gameIdxs(game), answers) },
       200,
       origin,
     )
   }
+  let idxs
   if (!game) {
-    await env.DB.prepare('INSERT INTO games (user_id, date, started_at) VALUES (?, ?, ?)')
-      .bind(session.uid, date, Date.now())
+    idxs = todaysQuestionIdx(date)
+    await env.DB.prepare('INSERT INTO games (user_id, date, started_at, qids) VALUES (?, ?, ?, ?)')
+      .bind(session.uid, date, Date.now(), JSON.stringify(idxs))
       .run()
+  } else {
+    idxs = gameIdxs(game)
   }
   return json({ date, played: false, total: DAILY, questions: publicQuestions(idxs) }, 200, origin)
 }
@@ -303,7 +309,7 @@ async function quizSubmit(req, env, origin) {
   const game = await env.DB.prepare('SELECT * FROM games WHERE user_id = ? AND date = ?').bind(session.uid, date).first()
   if (!game) return json({ error: 'no game in progress' }, 400, origin)
   if (game.submitted_at) return json({ error: 'already played today' }, 409, origin)
-  const idxs = todaysQuestionIdx(date)
+  const idxs = game.qids ? JSON.parse(game.qids) : todaysQuestionIdx(date)
   let correct = 0
   for (let i = 0; i < DAILY; i++) if (answers[i] === QUESTIONS[idxs[i]].answer) correct++
   const now = Date.now()
