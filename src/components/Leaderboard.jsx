@@ -19,7 +19,7 @@ function Row({ r, isMe }) {
   )
 }
 
-export default function Leaderboard({ defaultPeriod = 'daily' }) {
+export default function Leaderboard({ defaultPeriod = 'daily', league = null }) {
   const [period, setPeriod] = useState(defaultPeriod)
   const [data, setData] = useState(null)
   const [status, setStatus] = useState('loading')
@@ -27,7 +27,7 @@ export default function Leaderboard({ defaultPeriod = 'daily' }) {
   useEffect(() => {
     let cancelled = false
     setStatus('loading')
-    getLeaderboard(period)
+    getLeaderboard(period, league)
       .then((d) => {
         if (cancelled) return
         setData(d)
@@ -37,7 +37,7 @@ export default function Leaderboard({ defaultPeriod = 'daily' }) {
     return () => {
       cancelled = true
     }
-  }, [period])
+  }, [period, league])
 
   const meInList = data?.me && data.rows.some((r) => r.rank === data.me.rank && r.name === data.me.name)
 

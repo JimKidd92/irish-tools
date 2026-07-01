@@ -78,8 +78,14 @@ export async function claimName(name) {
 
 export const getToday = () => api('/quiz/today')
 export const submitQuiz = (answers) => api('/quiz/submit', { method: 'POST', body: { answers } })
-export const getLeaderboard = (period = 'daily') =>
-  api(`/leaderboard?period=${encodeURIComponent(period)}`, { auth: true })
+export const getLeaderboard = (period = 'daily', league = null) =>
+  api(`/leaderboard?period=${encodeURIComponent(period)}${league ? `&league=${encodeURIComponent(league)}` : ''}`)
+
+// Private leaderboards (leagues)
+export const createLeague = (name) => api('/league/create', { method: 'POST', body: { name } })
+export const joinLeague = (code) => api('/league/join', { method: 'POST', body: { code } })
+export const getMyLeagues = () => api('/league/mine')
+export const getLeagueInfo = (code) => api(`/league/info?code=${encodeURIComponent(code)}`, { auth: false })
 
 // "1m 23.4s" / "12.3s"
 export function formatTime(ms) {

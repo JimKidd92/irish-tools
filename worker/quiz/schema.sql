@@ -29,3 +29,21 @@ CREATE TABLE IF NOT EXISTS games (
 
 CREATE INDEX IF NOT EXISTS idx_games_date ON games (date);
 CREATE INDEX IF NOT EXISTS idx_games_submitted ON games (date, submitted_at);
+
+-- Private leaderboards ("leagues"): a named board with a shareable code that
+-- friends/family join. Safe to run on an existing database (IF NOT EXISTS).
+CREATE TABLE IF NOT EXISTS leagues (
+  code       TEXT PRIMARY KEY,          -- short shareable code (e.g. K7Q2MNP)
+  name       TEXT NOT NULL,
+  owner_id   TEXT NOT NULL,
+  created_at INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS league_members (
+  code      TEXT NOT NULL,
+  user_id   TEXT NOT NULL,
+  joined_at INTEGER NOT NULL,
+  PRIMARY KEY (code, user_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_league_members_user ON league_members (user_id);

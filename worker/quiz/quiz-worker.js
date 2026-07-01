@@ -216,6 +216,10 @@ export default {
       if (route === 'GET /quiz/today') return await quizToday(req, env, origin)
       if (route === 'POST /quiz/submit') return await quizSubmit(req, env, origin)
       if (route === 'GET /leaderboard') return await leaderboard(req, env, origin)
+      if (route === 'POST /league/create') return await leagueCreate(req, env, origin)
+      if (route === 'POST /league/join') return await leagueJoin(req, env, origin)
+      if (route === 'GET /league/mine') return await leagueMine(req, env, origin)
+      if (route === 'GET /league/info') return await leagueInfo(req, env, origin)
       return json({ error: 'not found' }, 404, origin)
     } catch (e) {
       return json({ error: String((e && e.message) || e) }, 500, origin)
@@ -347,21 +351,22 @@ async function leaderboard(req, env, origin) {
   const url = new URL(req.url)
   const wanted = url.searchParams.get('period')
   const period = ['daily', 'weekly', 'monthly', 'all'].includes(wanted) ? wanted : 'daily'
+  const league = (url.searchParams.get('league') || '').trim().toUpperCase() || null
   const date = dublinDate()
   const from = periodStart(period, date)
+  // Optional private-leaderboard filter: restrict to members of a league.
+  const lj = league ? 'JOIN league_members lm ON lm.user_id = g.user_id AND lm.code = ?' : ''
   let rows
   if (period === 'daily') {
-    rows = await env.DB.prepare(
-      'SELECT u.display_name AS name, g.correct AS correct, g.time_ms AS time_ms, 1 AS plays FROM games g JOIN users u ON u.id = g.user_id WHERE g.date = ? AND g.submitted_at IS NOT NULL ORDER BY correct DESC, time_ms ASC LIMIT 100',
+    const stmt = env.DB.prepare(
+      `SELECT u.display_name AS name, g.correct AS correct, g.time_ms AS time_ms, 1 AS plays FROM games g JOIN users u ON u.id = g.user_id ${lj} WHERE g.date = ? AND g.submitted_at IS NOT NULL ORDER BY correct DESC, time_ms ASC LIMIT 100`,
     )
-      .bind(date)
-      .all()
+    rows = await (league ? stmt.bind(league, date) : stmt.bind(date)).all()
   } else {
-    rows = await env.DB.prepare(
-      'SELECT u.display_name AS name, SUM(g.correct) AS correct, SUM(g.time_ms) AS time_ms, COUNT(*) AS plays FROM games g JOIN users u ON u.id = g.user_id WHERE g.date >= ? AND g.submitted_at IS NOT NULL GROUP BY g.user_id ORDER BY correct DESC, time_ms ASC LIMIT 100',
+    const stmt = env.DB.prepare(
+      `SELECT u.display_name AS name, SUM(g.correct) AS correct, SUM(g.time_ms) AS time_ms, COUNT(*) AS plays FROM games g JOIN users u ON u.id = g.user_id ${lj} WHERE g.date >= ? AND g.submitted_at IS NOT NULL GROUP BY g.user_id ORDER BY correct DESC, time_ms ASC LIMIT 100`,
     )
-      .bind(from)
-      .all()
+    rows = await (league ? stmt.bind(league, from) : stmt.bind(from)).all()
   }
   const list = (rows.results || []).map((r, i) => ({
     rank: i + 1,
@@ -373,12 +378,13 @@ async function leaderboard(req, env, origin) {
   let me = null
   const session = await requireAuth(req, env.SESSION_SECRET)
   if (session && session.name) {
-    me = list.find((r) => r.name === session.name) || (await myRank(env, period, date, from, session))
+    me = list.find((r) => r.name === session.name) || (await myRank(env, period, date, from, session, league))
   }
-  return json({ period, rows: list, me }, 200, origin)
+  return json({ period, league, rows: list, me }, 200, origin)
 }
 
-async function myRank(env, period, date, from, session) {
+async function myRank(env, period, date, from, session, league) {
+  const lj = league ? 'JOIN league_members lm ON lm.user_id = g.user_id AND lm.code = ?' : ''
   if (period === 'daily') {
     const g = await env.DB.prepare(
       'SELECT correct, time_ms FROM games WHERE user_id = ? AND date = ? AND submitted_at IS NOT NULL',
@@ -386,7 +392,14 @@ async function myRank(env, period, date, from, session) {
       .bind(session.uid, date)
       .first()
     if (!g) return null
-    return { rank: await dailyRank(env, date, g.correct, g.time_ms), name: session.name, correct: g.correct, time_ms: g.time_ms, plays: 1 }
+    const stmt = env.DB.prepare(
+      `SELECT COUNT(*) AS c FROM games g ${lj} WHERE g.date = ? AND g.submitted_at IS NOT NULL AND (g.correct > ? OR (g.correct = ? AND g.time_ms < ?))`,
+    )
+    const better = await (league
+      ? stmt.bind(league, date, g.correct, g.correct, g.time_ms)
+      : stmt.bind(date, g.correct, g.correct, g.time_ms)
+    ).first()
+    return { rank: (better.c || 0) + 1, name: session.name, correct: g.correct, time_ms: g.time_ms, plays: 1 }
   }
   const g = await env.DB.prepare(
     'SELECT SUM(correct) AS correct, SUM(time_ms) AS time_ms, COUNT(*) AS plays FROM games WHERE user_id = ? AND date >= ? AND submitted_at IS NOT NULL',
@@ -394,10 +407,99 @@ async function myRank(env, period, date, from, session) {
     .bind(session.uid, from)
     .first()
   if (!g || g.correct == null) return null
-  const better = await env.DB.prepare(
-    'SELECT COUNT(*) AS c FROM (SELECT user_id, SUM(correct) AS correct, SUM(time_ms) AS time_ms FROM games WHERE date >= ? AND submitted_at IS NOT NULL GROUP BY user_id) t WHERE t.correct > ? OR (t.correct = ? AND t.time_ms < ?)',
+  const stmt = env.DB.prepare(
+    `SELECT COUNT(*) AS c FROM (SELECT g.user_id, SUM(g.correct) AS correct, SUM(g.time_ms) AS time_ms FROM games g ${lj} WHERE g.date >= ? AND g.submitted_at IS NOT NULL GROUP BY g.user_id) t WHERE t.correct > ? OR (t.correct = ? AND t.time_ms < ?)`,
   )
-    .bind(from, g.correct, g.correct, g.time_ms)
-    .first()
+  const better = await (league
+    ? stmt.bind(league, from, g.correct, g.correct, g.time_ms)
+    : stmt.bind(from, g.correct, g.correct, g.time_ms)
+  ).first()
   return { rank: (better.c || 0) + 1, name: session.name, correct: g.correct, time_ms: g.time_ms, plays: g.plays }
+}
+
+/* ---------- Private leaderboards (leagues) ---------- */
+const LEAGUE_CAP = 25 // max leagues one account can create
+const LEAGUE_CODE_CHARS = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789' // no ambiguous 0/O/1/I/L
+
+function newLeagueCode() {
+  const bytes = crypto.getRandomValues(new Uint8Array(7))
+  let s = ''
+  for (const b of bytes) s += LEAGUE_CODE_CHARS[b % LEAGUE_CODE_CHARS.length]
+  return s
+}
+
+function cleanLeagueName(name) {
+  const n = (name || '').trim().replace(/\s+/g, ' ')
+  if (n.length < 2 || n.length > 30) return null
+  if (!/^[\p{L}0-9 _.'&!-]+$/u.test(n)) return null
+  if (BAD.some((w) => n.toLowerCase().includes(w))) return null
+  return n
+}
+
+async function leagueCreate(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  if (!session.name) return json({ error: 'name required', needsName: true }, 403, origin)
+  const { name } = await req.json()
+  const clean = cleanLeagueName(name)
+  if (!clean) return json({ error: 'Pick a name 2–30 characters — nothing rude.' }, 400, origin)
+  const owned = await env.DB.prepare('SELECT COUNT(*) AS c FROM leagues WHERE owner_id = ?').bind(session.uid).first()
+  if ((owned.c || 0) >= LEAGUE_CAP) return json({ error: 'You’ve created too many leaderboards.' }, 400, origin)
+  let code = null
+  for (let i = 0; i < 6; i++) {
+    const candidate = newLeagueCode()
+    const exists = await env.DB.prepare('SELECT code FROM leagues WHERE code = ?').bind(candidate).first()
+    if (!exists) {
+      code = candidate
+      break
+    }
+  }
+  if (!code) return json({ error: 'Could not generate a code, try again.' }, 500, origin)
+  const now = Date.now()
+  await env.DB.prepare('INSERT INTO leagues (code, name, owner_id, created_at) VALUES (?, ?, ?, ?)')
+    .bind(code, clean, session.uid, now)
+    .run()
+  await env.DB.prepare('INSERT OR IGNORE INTO league_members (code, user_id, joined_at) VALUES (?, ?, ?)')
+    .bind(code, session.uid, now)
+    .run()
+  return json({ code, name: clean, owner: true, members: 1 }, 200, origin)
+}
+
+async function leagueJoin(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  if (!session.name) return json({ error: 'name required', needsName: true }, 403, origin)
+  const { code } = await req.json()
+  const c = String(code || '').trim().toUpperCase()
+  const league = await env.DB.prepare('SELECT code, name FROM leagues WHERE code = ?').bind(c).first()
+  if (!league) return json({ error: 'That leaderboard code wasn’t found.' }, 404, origin)
+  await env.DB.prepare('INSERT OR IGNORE INTO league_members (code, user_id, joined_at) VALUES (?, ?, ?)')
+    .bind(league.code, session.uid, Date.now())
+    .run()
+  return json({ code: league.code, name: league.name }, 200, origin)
+}
+
+async function leagueMine(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session || !session.name) return json({ leagues: [] }, 200, origin)
+  const rows = await env.DB.prepare(
+    'SELECT l.code AS code, l.name AS name, l.owner_id AS owner_id, (SELECT COUNT(*) FROM league_members m2 WHERE m2.code = l.code) AS members FROM league_members m JOIN leagues l ON l.code = m.code WHERE m.user_id = ? ORDER BY l.created_at',
+  )
+    .bind(session.uid)
+    .all()
+  const leagues = (rows.results || []).map((r) => ({
+    code: r.code,
+    name: r.name,
+    owner: r.owner_id === session.uid,
+    members: r.members,
+  }))
+  return json({ leagues }, 200, origin)
+}
+
+async function leagueInfo(req, env, origin) {
+  const code = (new URL(req.url).searchParams.get('code') || '').trim().toUpperCase()
+  const league = await env.DB.prepare('SELECT code, name FROM leagues WHERE code = ?').bind(code).first()
+  if (!league) return json({ error: 'not found' }, 404, origin)
+  const m = await env.DB.prepare('SELECT COUNT(*) AS c FROM league_members WHERE code = ?').bind(league.code).first()
+  return json({ code: league.code, name: league.name, members: m.c || 0 }, 200, origin)
 }

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { celebrate } from '../lib/confetti.js'
 import {
   dailyQuestions,
@@ -8,10 +8,11 @@ import {
   timeUntilTomorrow,
   todayKey,
 } from '../lib/dailyQuiz.js'
-import { quizEnabled, getToday, submitQuiz, formatTime } from '../lib/quizApi.js'
+import { quizEnabled, getToday, submitQuiz, formatTime, joinLeague } from '../lib/quizApi.js'
 import { useQuizAuth } from '../hooks/useQuizAuth.jsx'
 import QuizSignIn from './QuizSignIn.jsx'
 import Leaderboard from './Leaderboard.jsx'
+import LeaderboardPanel from './LeaderboardPanel.jsx'
 import ShareImageButton from './ShareImageButton.jsx'
 
 // Once the quiz Worker + Google sign-in are configured, the ranked 10-question
@@ -68,6 +69,29 @@ function ServerQuiz() {
   const [answers, setAnswers] = useState([])
   const [streak, setStreak] = useState(0)
 
+  // Invite link (?join=CODE): auto-join once the user is signed in with a name.
+  const joinCode = useMemo(() => {
+    try {
+      return new URLSearchParams(window.location.search).get('join')
+    } catch {
+      return null
+    }
+  }, [])
+  const [joinedCode, setJoinedCode] = useState(null)
+  const [joinMsg, setJoinMsg] = useState('')
+  const joinTried = useRef(false)
+
+  useEffect(() => {
+    if (!ready || !joinCode || joinTried.current) return
+    joinTried.current = true
+    joinLeague(joinCode)
+      .then((d) => {
+        setJoinedCode(d.code)
+        setJoinMsg(`You’ve joined “${d.name}”!`)
+      })
+      .catch(() => {})
+  }, [ready, joinCode])
+
   useEffect(() => {
     if (!ready) {
       setState({ status: 'auth' })
@@ -96,7 +120,7 @@ function ServerQuiz() {
   if (!ready) {
     return (
       <section className="panel quiz">
-        <QuizSignIn />
+        <QuizSignIn inviteCode={joinCode} />
         <div className="quiz__board">
           <h3 className="quiz__board-title">🏆 Today’s leaderboard</h3>
           <Leaderboard />
@@ -220,9 +244,10 @@ function ServerQuiz() {
 
       {corrections && <QuizReview corrections={corrections} />}
 
+      {joinMsg && <p className="quiz__joinmsg">🎉 {joinMsg}</p>}
       <div className="quiz__board">
-        <h3 className="quiz__board-title">🏆 Leaderboard</h3>
-        <Leaderboard />
+        <h3 className="quiz__board-title">🏆 Leaderboards</h3>
+        <LeaderboardPanel focusCode={joinedCode} />
       </div>
 
       <p className="quiz__tomorrow">New quiz in {timeUntilTomorrow()}.</p>

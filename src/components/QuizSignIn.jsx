@@ -1,14 +1,23 @@
 import { useEffect, useState } from 'react'
 import { useQuizAuth } from '../hooks/useQuizAuth.jsx'
+import { getLeagueInfo } from '../lib/quizApi.js'
 import GoogleSignInButton from './GoogleSignInButton.jsx'
 
 // Handles the two pre-play states: signed-out (Google button + pitch) and
 // signed-in-but-no-nickname (claim a name). Renders nothing once ready to play.
-export default function QuizSignIn() {
+export default function QuizSignIn({ inviteCode = null }) {
   const { signedIn, needsName, suggestedName, handleCredential, chooseName } = useQuizAuth()
   const [name, setName] = useState('')
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
+  const [invite, setInvite] = useState(null)
+
+  useEffect(() => {
+    if (!inviteCode) return
+    getLeagueInfo(inviteCode)
+      .then((d) => setInvite(d))
+      .catch(() => {})
+  }, [inviteCode])
 
   useEffect(() => {
     if (suggestedName && !name) setName(suggestedName)
@@ -42,6 +51,12 @@ export default function QuizSignIn() {
   if (!signedIn) {
     return (
       <div className="quiz-auth">
+        {invite && (
+          <p className="quiz-auth__invite">
+            🎉 You’ve been invited to the <strong>“{invite.name}”</strong> leaderboard
+            {invite.members ? ` (${invite.members} playing)` : ''}. Sign in to join.
+          </p>
+        )}
         <span className="quiz-auth__emoji" aria-hidden="true">🏆</span>
         <h3 className="quiz-auth__title">Play the ranked Daily Quiz</h3>
         <p className="quiz-auth__pitch">

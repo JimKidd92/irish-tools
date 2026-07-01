@@ -100,7 +100,18 @@ before any repeat. Answers live here only and are never sent to the browser.
 | POST | `/auth/name` | ✓ | Claim a unique public nickname |
 | GET | `/quiz/today` | ✓ | Today's 10 questions (no answers) or your result |
 | POST | `/quiz/submit` | ✓ | Score + time + rank + answer review |
-| GET | `/leaderboard?period=daily\|weekly\|monthly\|all` | optional | Rankings (+ your row) |
+| GET | `/leaderboard?period=daily\|weekly\|monthly\|all[&league=CODE]` | optional | Rankings (+ your row); `league` filters to a private board |
+| POST | `/league/create` | ✓ | Create a private leaderboard, returns a shareable code |
+| POST | `/league/join` | ✓ | Join a private leaderboard by code |
+| GET | `/league/mine` | ✓ | The private leaderboards you're in |
+| GET | `/league/info?code=CODE` | – | Preview a leaderboard (name + player count) |
+
+## Private leaderboards (leagues)
+
+Signed-in players can create a named leaderboard and share a link
+(`https://irishtools.ie/quiz/?join=CODE`). Anyone who opens it, signs in and
+joins competes on that board's own daily/weekly/monthly/all-time rankings. The
+tables (`leagues`, `league_members`) are created by `schema.sql`.
 
 ## Reset / moderation
 

@@ -1968,6 +1968,80 @@ a {
   margin: 10px 0 0;
 }
 
+/* ---------- Leaderboard panel (private leaderboards / leagues) ---------- */
+.lbp__sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.lbp__src {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 6px 13px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  max-width: 14rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.lbp__src.is-on {
+  background: var(--green-dark);
+  border-color: var(--green-dark);
+  color: #fff;
+}
+.lbp__src--add {
+  color: var(--green-dark);
+  border-style: dashed;
+}
+.lbp__form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.lbp__share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+}
+.lbp__share-info {
+  font-size: 0.88rem;
+}
+.lbp__share-btn {
+  white-space: nowrap;
+}
+.quiz__joinmsg {
+  text-align: center;
+  background: rgba(22, 155, 98, 0.12);
+  border: 1px solid var(--green);
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-weight: 700;
+  margin: 6px 0 12px;
+}
+.quiz-auth__invite {
+  background: rgba(255, 122, 24, 0.12);
+  border: 1px solid var(--orange);
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 0 auto 14px;
+  max-width: 32rem;
+}
+
 /* ---------- Shared simple-tool panel ---------- */
 .panel {
   background: var(--surface);
