@@ -78,6 +78,8 @@ export async function claimName(name) {
 
 export const getToday = () => api('/quiz/today')
 export const submitQuiz = (answers) => api('/quiz/submit', { method: 'POST', body: { answers } })
+export const reportQuestion = (id, reason = '') =>
+  api('/quiz/report', { method: 'POST', body: { id, reason } })
 export const getLeaderboard = (period = 'daily', league = null) =>
   api(`/leaderboard?period=${encodeURIComponent(period)}${league ? `&league=${encodeURIComponent(league)}` : ''}`)
 

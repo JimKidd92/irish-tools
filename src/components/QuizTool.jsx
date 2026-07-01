@@ -8,7 +8,7 @@ import {
   timeUntilTomorrow,
   todayKey,
 } from '../lib/dailyQuiz.js'
-import { quizEnabled, getToday, submitQuiz, formatTime, joinLeague } from '../lib/quizApi.js'
+import { quizEnabled, getToday, submitQuiz, formatTime, joinLeague, reportQuestion } from '../lib/quizApi.js'
 import { useQuizAuth } from '../hooks/useQuizAuth.jsx'
 import QuizSignIn from './QuizSignIn.jsx'
 import Leaderboard from './Leaderboard.jsx'
@@ -255,24 +255,50 @@ function ServerQuiz() {
   )
 }
 
+function ReviewItem({ c }) {
+  const right = c.your === c.correct
+  const [reported, setReported] = useState(false)
+  const [busy, setBusy] = useState(false)
+
+  async function report() {
+    setBusy(true)
+    try {
+      await reportQuestion(c.id)
+    } catch {
+      /* still show thanks — the report is best-effort */
+    } finally {
+      setReported(true)
+      setBusy(false)
+    }
+  }
+
+  return (
+    <li className="quiz__review-item">
+      <p className="quiz__review-q">{c.q}</p>
+      <p className={`quiz__review-a ${right ? 'is-right' : 'is-wrong'}`}>
+        {right ? '✓ ' : '✗ '}
+        {c.your != null ? c.options[c.your] : 'No answer'}
+        {!right && <span className="quiz__review-correct"> · correct: {c.options[c.correct]}</span>}
+      </p>
+      {reported ? (
+        <span className="quiz__report is-done">✓ Reported — thanks!</span>
+      ) : (
+        <button type="button" className="quiz__report" onClick={report} disabled={busy}>
+          ⚑ Report this question
+        </button>
+      )}
+    </li>
+  )
+}
+
 function QuizReview({ corrections }) {
   return (
     <details className="quiz__review">
       <summary>Review the answers</summary>
       <ol className="quiz__review-list">
-        {corrections.map((c, i) => {
-          const right = c.your === c.correct
-          return (
-            <li key={i} className="quiz__review-item">
-              <p className="quiz__review-q">{c.q}</p>
-              <p className={`quiz__review-a ${right ? 'is-right' : 'is-wrong'}`}>
-                {right ? '✓ ' : '✗ '}
-                {c.your != null ? c.options[c.your] : 'No answer'}
-                {!right && <span className="quiz__review-correct"> · correct: {c.options[c.correct]}</span>}
-              </p>
-            </li>
-          )
-        })}
+        {corrections.map((c, i) => (
+          <ReviewItem key={c.id ?? i} c={c} />
+        ))}
       </ol>
     </details>
   )

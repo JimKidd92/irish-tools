@@ -47,3 +47,15 @@ CREATE TABLE IF NOT EXISTS league_members (
 );
 
 CREATE INDEX IF NOT EXISTS idx_league_members_user ON league_members (user_id);
+
+-- Player reports of dodgy questions (one per user per question). Review the
+-- worst offenders with:
+--   wrangler d1 execute irish-tools-quiz --remote --command "SELECT qid, q_text, COUNT(*) AS reports FROM reports GROUP BY qid ORDER BY reports DESC LIMIT 30"
+CREATE TABLE IF NOT EXISTS reports (
+  qid        INTEGER NOT NULL,
+  user_id    TEXT NOT NULL,
+  q_text     TEXT,
+  reason     TEXT,
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (qid, user_id)
+);

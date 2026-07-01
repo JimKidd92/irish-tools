@@ -179,6 +179,7 @@ function todaysQuestionIdx(dateStr) {
 const publicQuestions = (idxs) => idxs.map((i) => ({ id: i, q: QUESTIONS[i].q, options: QUESTIONS[i].options }))
 const corrections = (idxs, answers) =>
   idxs.map((qi, pos) => ({
+    id: qi,
     q: QUESTIONS[qi].q,
     options: QUESTIONS[qi].options,
     correct: QUESTIONS[qi].answer,
@@ -215,6 +216,7 @@ export default {
       if (route === 'POST /auth/name') return await authName(req, env, origin)
       if (route === 'GET /quiz/today') return await quizToday(req, env, origin)
       if (route === 'POST /quiz/submit') return await quizSubmit(req, env, origin)
+      if (route === 'POST /quiz/report') return await quizReport(req, env, origin)
       if (route === 'GET /leaderboard') return await leaderboard(req, env, origin)
       if (route === 'POST /league/create') return await leagueCreate(req, env, origin)
       if (route === 'POST /league/join') return await leagueJoin(req, env, origin)
@@ -326,6 +328,18 @@ async function quizSubmit(req, env, origin) {
     .run()
   const rank = await dailyRank(env, date, correct, time_ms)
   return json({ correct, total: DAILY, time_ms, rank, corrections: corrections(idxs, saved) }, 200, origin)
+}
+
+async function quizReport(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const { id, reason } = await req.json()
+  if (!Number.isInteger(id) || id < 0 || id >= QUESTIONS.length) return json({ error: 'bad question id' }, 400, origin)
+  const cleanReason = String(reason || '').slice(0, 300)
+  await env.DB.prepare('INSERT OR REPLACE INTO reports (qid, user_id, q_text, reason, created_at) VALUES (?, ?, ?, ?, ?)')
+    .bind(id, session.uid, QUESTIONS[id].q, cleanReason, Date.now())
+    .run()
+  return json({ ok: true }, 200, origin)
 }
 
 async function dailyRank(env, date, correct, time_ms) {
