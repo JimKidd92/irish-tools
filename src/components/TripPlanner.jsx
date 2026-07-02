@@ -4,6 +4,7 @@ import 'leaflet/dist/leaflet.css'
 import { Plus, X, ChevronUp, ChevronDown, Printer, Plane, MapPin } from 'lucide-react'
 import { PLACES } from '../data/places.js'
 import generated from '../data/places.generated.json'
+import { quizEnabled, getToken, getUserData, putUserData, shareTrip, getSharedTrip } from '../lib/quizApi.js'
 
 const STORAGE_KEY = 'irish-tools.trip'
 
@@ -38,6 +39,19 @@ function dayLabel(arrive, index) {
 }
 
 export default function TripPlanner() {
+  // A shared read-only trip link (?trip=CODE) shows the snapshot view instead.
+  const sharedCode = useMemo(() => {
+    try {
+      return new URLSearchParams(window.location.search).get('trip')
+    } catch {
+      return null
+    }
+  }, [])
+  if (sharedCode) return <SharedTripView code={sharedCode} />
+  return <TripEditor />
+}
+
+function TripEditor() {
   const [trip, setTrip] = useState(loadTrip)
 
   useEffect(() => {
@@ -170,9 +184,173 @@ export default function TripPlanner() {
         </button>
       </div>
 
+      <TripCloud trip={trip} setTrip={setTrip} />
+    </section>
+  )
+}
+
+// Account sync + share controls (uses the quiz sign-in). Falls back to a plain
+// "saved on this device" note when the backend isn't configured or signed out.
+function TripCloud({ trip, setTrip }) {
+  const signedIn = quizEnabled() && Boolean(getToken())
+  const [msg, setMsg] = useState('')
+  const [busy, setBusy] = useState(false)
+
+  if (!signedIn) {
+    return (
       <p className="planner__saved no-print">
-        Saved automatically on this device — no account needed.
+        Saved automatically on this device. Sign in on the Daily Quiz to keep trips on your
+        account and share them with family.
       </p>
+    )
+  }
+
+  function flash(m) {
+    setMsg(m)
+    setTimeout(() => setMsg(''), 3500)
+  }
+
+  async function save() {
+    setBusy(true)
+    try {
+      await putUserData('trip', trip)
+      flash('✓ Saved to your account')
+    } catch (e) {
+      flash(e.message || 'Could not save')
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  async function load() {
+    setBusy(true)
+    try {
+      const d = await getUserData('trip')
+      if (d.value && Array.isArray(d.value.days)) {
+        setTrip({ ...EMPTY_TRIP, ...d.value })
+        flash('✓ Loaded your saved trip')
+      } else {
+        flash('No trip saved on your account yet')
+      }
+    } catch (e) {
+      flash(e.message || 'Could not load')
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  async function share() {
+    setBusy(true)
+    try {
+      const { code } = await shareTrip(trip)
+      const url = `https://irishtools.ie/planner/?trip=${code}`
+      try {
+        await navigator.clipboard.writeText(url)
+        flash('🔗 Share link copied — send it to the family!')
+      } catch {
+        flash(`Share link: ${url}`)
+      }
+    } catch (e) {
+      flash(e.message || 'Could not share')
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  return (
+    <div className="planner__cloud no-print">
+      <button className="btn btn--ghost" onClick={save} disabled={busy}>☁️ Save to my account</button>
+      <button className="btn btn--ghost" onClick={load} disabled={busy}>Load my saved trip</button>
+      <button className="btn btn--primary" onClick={share} disabled={busy}>🔗 Share this trip</button>
+      {msg && <span className="planner__cloud-msg">{msg}</span>}
+    </div>
+  )
+}
+
+// Read-only view of a shared trip (irishtools.ie/planner/?trip=CODE).
+function SharedTripView({ code }) {
+  const [state, setState] = useState({ status: 'loading' })
+
+  useEffect(() => {
+    getSharedTrip(code)
+      .then((d) => setState({ status: 'ready', trip: { ...EMPTY_TRIP, ...d.trip } }))
+      .catch(() => setState({ status: 'error' }))
+  }, [code])
+
+  if (state.status === 'loading') {
+    return <section className="planner"><p className="weather-status">Loading the trip…</p></section>
+  }
+  if (state.status === 'error') {
+    return (
+      <section className="planner">
+        <p className="weather-status weather-status--error">
+          That trip link wasn’t found — it may have been removed.
+        </p>
+      </section>
+    )
+  }
+
+  const trip = state.trip
+  const mapped = trip.days.flatMap((d) => d.stops).filter((s) => s.lat && s.lng)
+
+  function copyIntoPlanner() {
+    if (!confirm('Copy this trip into your own planner? It will replace any trip you have in progress.')) return
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(trip))
+    } catch {
+      /* ignore */
+    }
+    window.location.href = '/planner/'
+  }
+
+  return (
+    <section className="planner planner--shared">
+      <p className="planner__shared-badge no-print">👀 You’re viewing a shared trip (read-only)</p>
+      <h1 className="planner__name-print">{trip.name}</h1>
+      <div className="planner__shared-meta">
+        {trip.arrive && trip.depart && (
+          <p>
+            <Plane size={15} aria-hidden="true" /> {trip.arrive} → {trip.depart}
+            {trip.flightIn ? ` · ${trip.flightIn}` : ''}
+          </p>
+        )}
+        {trip.stay && (
+          <p>
+            <MapPin size={15} aria-hidden="true" /> Staying: {trip.stay}
+          </p>
+        )}
+      </div>
+
+      {mapped.length > 0 && <ItineraryMap stops={mapped} />}
+
+      <div className="planner__days">
+        {trip.days.map((day, di) => (
+          <div key={di} className="day-card">
+            <div className="day-card__head">
+              <h2 className="day-card__title">{dayLabel(trip.arrive, di)}</h2>
+            </div>
+            {day.stops.length === 0 ? (
+              <p className="day-card__empty">Nothing planned.</p>
+            ) : (
+              <ol className="day-card__stops">
+                {day.stops.map((s) => (
+                  <li key={s.id} className="day-card__stop">
+                    <span className="day-card__stop-name">{s.name}</span>
+                    {s.county && <span className="day-card__stop-county">{s.county}</span>}
+                  </li>
+                ))}
+              </ol>
+            )}
+          </div>
+        ))}
+      </div>
+
+      <div className="planner__actions no-print">
+        <button className="btn btn--primary" onClick={copyIntoPlanner}>Copy into my planner</button>
+        <button className="btn btn--ghost" onClick={() => window.print()}>
+          <Printer size={16} strokeWidth={1.75} aria-hidden="true" /> Print / PDF
+        </button>
+      </div>
     </section>
   )
 }

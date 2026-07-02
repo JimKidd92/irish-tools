@@ -80,6 +80,16 @@ export const getToday = () => api('/quiz/today')
 export const submitQuiz = (answers) => api('/quiz/submit', { method: 'POST', body: { answers } })
 export const reportQuestion = (id, reason = '') =>
   api('/quiz/report', { method: 'POST', body: { id, reason } })
+export const getQuizStats = () => api('/quiz/stats')
+
+// Per-user synced data (visited counties, trip itinerary).
+export const getUserData = (key) => api(`/me/data?key=${encodeURIComponent(key)}`)
+export const putUserData = (key, value) => api('/me/data', { method: 'PUT', body: { key, value } })
+
+// Read-only shared trip snapshots.
+export const shareTrip = (trip) => api('/trip/share', { method: 'POST', body: { trip } })
+export const getSharedTrip = (code) =>
+  api(`/trip/shared?code=${encodeURIComponent(code)}`, { auth: false })
 export const getLeaderboard = (period = 'daily', league = null) =>
   api(`/leaderboard?period=${encodeURIComponent(period)}${league ? `&league=${encodeURIComponent(league)}` : ''}`)
 

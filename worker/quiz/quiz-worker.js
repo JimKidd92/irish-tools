@@ -217,6 +217,11 @@ export default {
       if (route === 'GET /quiz/today') return await quizToday(req, env, origin)
       if (route === 'POST /quiz/submit') return await quizSubmit(req, env, origin)
       if (route === 'POST /quiz/report') return await quizReport(req, env, origin)
+      if (route === 'GET /quiz/stats') return await quizStats(req, env, origin)
+      if (route === 'GET /me/data') return await meGetData(req, env, origin)
+      if (route === 'PUT /me/data') return await mePutData(req, env, origin)
+      if (route === 'POST /trip/share') return await tripShare(req, env, origin)
+      if (route === 'GET /trip/shared') return await tripShared(req, env, origin)
       if (route === 'GET /leaderboard') return await leaderboard(req, env, origin)
       if (route === 'POST /league/create') return await leagueCreate(req, env, origin)
       if (route === 'POST /league/join') return await leagueJoin(req, env, origin)
@@ -340,6 +345,108 @@ async function quizReport(req, env, origin) {
     .bind(id, session.uid, QUESTIONS[id].q, cleanReason, Date.now())
     .run()
   return json({ ok: true }, 200, origin)
+}
+
+/* ---------- Per-user synced data (visited counties, trip) ---------- */
+const DATA_KEYS = new Set(['counties', 'trip'])
+const DATA_MAX_BYTES = 40000
+
+async function meGetData(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const key = new URL(req.url).searchParams.get('key')
+  if (!DATA_KEYS.has(key)) return json({ error: 'bad key' }, 400, origin)
+  const row = await env.DB.prepare('SELECT value, updated_at FROM user_data WHERE user_id = ? AND key = ?')
+    .bind(session.uid, key)
+    .first()
+  return json({ key, value: row ? JSON.parse(row.value) : null, updated_at: row ? row.updated_at : null }, 200, origin)
+}
+
+async function mePutData(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const { key, value } = await req.json()
+  if (!DATA_KEYS.has(key)) return json({ error: 'bad key' }, 400, origin)
+  const raw = JSON.stringify(value ?? null)
+  if (raw.length > DATA_MAX_BYTES) return json({ error: 'too large' }, 413, origin)
+  const now = Date.now()
+  await env.DB.prepare(
+    'INSERT INTO user_data (user_id, key, value, updated_at) VALUES (?, ?, ?, ?) ON CONFLICT(user_id, key) DO UPDATE SET value = ?, updated_at = ?',
+  )
+    .bind(session.uid, key, raw, now, raw, now)
+    .run()
+  return json({ ok: true, updated_at: now }, 200, origin)
+}
+
+/* ---------- Shareable read-only trip snapshots ---------- */
+async function tripShare(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const { trip } = await req.json()
+  const raw = JSON.stringify(trip ?? null)
+  if (!trip || raw.length > DATA_MAX_BYTES) return json({ error: 'bad trip' }, 400, origin)
+  // One share per user: refresh the snapshot, keep the same code if it exists.
+  const existing = await env.DB.prepare('SELECT code FROM shared_trips WHERE user_id = ?').bind(session.uid).first()
+  const code = existing ? existing.code : newLeagueCode()
+  await env.DB.prepare(
+    'INSERT INTO shared_trips (code, user_id, trip, created_at) VALUES (?, ?, ?, ?) ON CONFLICT(code) DO UPDATE SET trip = ?, created_at = ?',
+  )
+    .bind(code, session.uid, raw, Date.now(), raw, Date.now())
+    .run()
+  return json({ code }, 200, origin)
+}
+
+async function tripShared(req, env, origin) {
+  const code = (new URL(req.url).searchParams.get('code') || '').trim().toUpperCase()
+  const row = await env.DB.prepare('SELECT trip FROM shared_trips WHERE code = ?').bind(code).first()
+  if (!row) return json({ error: 'not found' }, 404, origin)
+  return json({ code, trip: JSON.parse(row.trip) }, 200, origin)
+}
+
+/* ---------- Personal quiz stats ---------- */
+async function quizStats(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const rows = await env.DB.prepare(
+    'SELECT date, correct, time_ms FROM games WHERE user_id = ? AND submitted_at IS NOT NULL ORDER BY date ASC',
+  )
+    .bind(session.uid)
+    .all()
+  const games = rows.results || []
+  const plays = games.length
+  const totalCorrect = games.reduce((s, g) => s + (g.correct || 0), 0)
+  let best = null
+  for (const g of games) {
+    if (!best || g.correct > best.correct || (g.correct === best.correct && g.time_ms < best.time_ms)) {
+      best = { date: g.date, correct: g.correct, time_ms: g.time_ms }
+    }
+  }
+  // Streaks from consecutive dates.
+  let longest = 0
+  let current = 0
+  let prev = null
+  for (const g of games) {
+    if (prev) {
+      const d = new Date(prev + 'T00:00:00Z')
+      d.setUTCDate(d.getUTCDate() + 1)
+      current = g.date === d.toISOString().slice(0, 10) ? current + 1 : 1
+    } else {
+      current = 1
+    }
+    if (current > longest) longest = current
+    prev = g.date
+  }
+  // Current streak only counts if the last game was today or yesterday.
+  const today = dublinDate()
+  const yest = new Date(Date.now() - 86400000)
+  const yestStr = dublinDate(yest)
+  if (prev !== today && prev !== yestStr) current = 0
+  const last7 = games.slice(-7).map((g) => ({ date: g.date, correct: g.correct }))
+  return json(
+    { plays, totalCorrect, accuracy: plays ? totalCorrect / (plays * DAILY) : 0, best, currentStreak: current, longestStreak: longest, last7 },
+    200,
+    origin,
+  )
 }
 
 async function dailyRank(env, date, correct, time_ms) {

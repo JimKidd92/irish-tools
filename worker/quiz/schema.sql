@@ -51,6 +51,25 @@ CREATE INDEX IF NOT EXISTS idx_league_members_user ON league_members (user_id);
 -- Player reports of dodgy questions (one per user per question). Review the
 -- worst offenders with:
 --   wrangler d1 execute irish-tools-quiz --remote --command "SELECT qid, q_text, COUNT(*) AS reports FROM reports GROUP BY qid ORDER BY reports DESC LIMIT 30"
+-- Small per-user synced blobs: visited counties ('counties') and the trip
+-- planner itinerary ('trip').
+CREATE TABLE IF NOT EXISTS user_data (
+  user_id    TEXT NOT NULL,
+  key        TEXT NOT NULL,
+  value      TEXT,
+  updated_at INTEGER NOT NULL,
+  PRIMARY KEY (user_id, key)
+);
+
+-- Read-only shared trip snapshots (irishtools.ie/planner/?trip=CODE).
+-- One per user; re-sharing refreshes the snapshot under the same code.
+CREATE TABLE IF NOT EXISTS shared_trips (
+  code       TEXT PRIMARY KEY,
+  user_id    TEXT UNIQUE NOT NULL,
+  trip       TEXT NOT NULL,
+  created_at INTEGER NOT NULL
+);
+
 CREATE TABLE IF NOT EXISTS reports (
   qid        INTEGER NOT NULL,
   user_id    TEXT NOT NULL,

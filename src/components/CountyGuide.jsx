@@ -7,10 +7,13 @@ import countyInfo from '../data/counties.generated.json'
 import { slugify, findBySlug } from '../lib/slug.js'
 import { setHead } from '../lib/head.js'
 import { navigate } from '../hooks/useHashRoute.js'
+import { useVisitedCounties } from '../hooks/useVisitedCounties.js'
 import ShareButton from './ShareButton.jsx'
+import ShareImageButton from './ShareImageButton.jsx'
 
 export default function CountyGuide({ slug }) {
   const [selected, setSelected] = useState(() => findBySlug(COUNTIES, slug, 'name')?.name || null)
+  const { visited, toggle, signedIn } = useVisitedCounties()
 
   useEffect(() => {
     const c = findBySlug(COUNTIES, slug, 'name')
@@ -45,6 +48,14 @@ export default function CountyGuide({ slug }) {
           <h2 className="county__name">{county.name}</h2>
           <p className="county__irish" lang="ga">{county.irish}</p>
           <p className="county__nick">“{county.nickname}” · {county.province}</p>
+
+          <button
+            className={`county__visited-btn ${visited.includes(county.name) ? 'is-on' : ''}`}
+            aria-pressed={visited.includes(county.name)}
+            onClick={() => toggle(county.name)}
+          >
+            {visited.includes(county.name) ? '✓ I’ve been here' : 'Mark as visited'}
+          </button>
           <p className="county__blurb">{county.blurb}</p>
           <p className="county__town">
             <strong>County town:</strong> {county.town}
@@ -106,25 +117,60 @@ export default function CountyGuide({ slug }) {
     )
   }
 
+  const count = visited.length
   return (
     <section className="panel county">
       <p className="weather-hint">
         Pick a county to discover its Irish name, nickname, county town and what to see —
         a grand way to trace where your people came from.
       </p>
+
+      <div className="scratch">
+        <div className="scratch__row">
+          <span className="scratch__count">
+            {count}/{COUNTIES.length}
+          </span>
+          <span className="scratch__label">counties visited</span>
+          {count > 0 && (
+            <ShareImageButton
+              image={{
+                kicker: 'My Irish county scratch map',
+                big: `${count}/32`,
+                sub: 'counties of Ireland visited ☘',
+                accent: 'green',
+              }}
+              text={`☘️ I've been to ${count} of Ireland's 32 counties! How many have you visited?`}
+              url="https://irishtools.ie/counties/"
+              label="Share my map"
+            />
+          )}
+        </div>
+        <div className="scratch__bar" role="progressbar" aria-valuenow={count} aria-valuemin={0} aria-valuemax={32}>
+          <div className="scratch__fill" style={{ width: `${(count / COUNTIES.length) * 100}%` }} />
+        </div>
+        <p className="scratch__hint">
+          Tick off counties as you go —{' '}
+          {signedIn ? 'synced to your account.' : 'saved on this device (sign in on the Daily Quiz to sync).'}
+        </p>
+      </div>
+
       {PROVINCES.map((province) => (
         <div key={province} className="county__province">
           <h3 className="county__province-title">{province}</h3>
           <div className="county__chips">
-            {COUNTIES.filter((c) => c.province === province).map((c) => (
-              <button
-                key={c.name}
-                className="county__chip"
-                onClick={() => navigate('counties', slugify(c.name))}
-              >
-                {c.name}
-              </button>
-            ))}
+            {COUNTIES.filter((c) => c.province === province).map((c) => {
+              const been = visited.includes(c.name)
+              return (
+                <button
+                  key={c.name}
+                  className={`county__chip ${been ? 'is-visited' : ''}`}
+                  onClick={() => navigate('counties', slugify(c.name))}
+                >
+                  {been && <span aria-hidden="true">✓ </span>}
+                  {c.name}
+                </button>
+              )
+            })}
           </div>
         </div>
       ))}

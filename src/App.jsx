@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useState } from 'react'
 import { Search, Wrench } from 'lucide-react'
 import BuyMeAPint from './components/BuyMeAPint.jsx'
+import Fab from './components/Fab.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
 import SideNav from './components/SideNav.jsx'
 import Logo from './components/Logo.jsx'
@@ -369,6 +370,8 @@ export default function App() {
         </p>
       </footer>
       </div>
+
+      <Fab />
 
       {searchOpen && (
         <Suspense fallback={null}>

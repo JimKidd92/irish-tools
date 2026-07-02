@@ -8,7 +8,7 @@ import {
   timeUntilTomorrow,
   todayKey,
 } from '../lib/dailyQuiz.js'
-import { quizEnabled, getToday, submitQuiz, formatTime, joinLeague, reportQuestion } from '../lib/quizApi.js'
+import { quizEnabled, getToday, submitQuiz, formatTime, joinLeague, reportQuestion, getQuizStats } from '../lib/quizApi.js'
 import { useQuizAuth } from '../hooks/useQuizAuth.jsx'
 import QuizSignIn from './QuizSignIn.jsx'
 import Leaderboard from './Leaderboard.jsx'
@@ -250,8 +250,63 @@ function ServerQuiz() {
         <LeaderboardPanel focusCode={joinedCode} />
       </div>
 
+      <QuizStats />
+
       <p className="quiz__tomorrow">New quiz in {timeUntilTomorrow()}.</p>
     </section>
+  )
+}
+
+// Personal stats, fetched lazily the first time the panel is opened.
+function QuizStats() {
+  const [stats, setStats] = useState(null)
+  const [status, setStatus] = useState('idle')
+
+  function onToggle(e) {
+    if (!e.target.open || status !== 'idle') return
+    setStatus('loading')
+    getQuizStats()
+      .then((d) => {
+        setStats(d)
+        setStatus('ready')
+      })
+      .catch(() => setStatus('error'))
+  }
+
+  return (
+    <details className="quiz__stats" onToggle={onToggle}>
+      <summary>📊 My stats</summary>
+      {status === 'loading' && <p className="quiz__loading">Adding it all up…</p>}
+      {status === 'error' && <p className="quiz__error">Couldn’t load your stats.</p>}
+      {status === 'ready' && stats && (
+        <div className="quiz__stats-grid">
+          <div className="stat">
+            <span className="stat__num">{stats.plays}</span>
+            <span className="stat__label">quizzes played</span>
+          </div>
+          <div className="stat">
+            <span className="stat__num">{Math.round(stats.accuracy * 100)}%</span>
+            <span className="stat__label">accuracy</span>
+          </div>
+          <div className="stat">
+            <span className="stat__num">{stats.currentStreak} 🔥</span>
+            <span className="stat__label">current streak</span>
+          </div>
+          <div className="stat">
+            <span className="stat__num">{stats.longestStreak}</span>
+            <span className="stat__label">longest streak</span>
+          </div>
+          {stats.best && (
+            <div className="stat stat--wide">
+              <span className="stat__num">
+                {stats.best.correct}/10 · {formatTime(stats.best.time_ms)}
+              </span>
+              <span className="stat__label">best game ({stats.best.date})</span>
+            </div>
+          )}
+        </div>
+      )}
+    </details>
   )
 }
 
