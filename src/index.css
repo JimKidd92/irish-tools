@@ -2164,6 +2164,66 @@ a {
   .fab { display: none; }
 }
 
+/* ---------- Interactive county map ---------- */
+.county-map {
+  max-width: 380px;
+  margin: 0 auto 8px;
+  text-align: center;
+}
+
+.county-map__svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.county-map__shape {
+  fill: var(--surface-alt);
+  stroke: var(--line);
+  stroke-width: 1.2;
+  cursor: pointer;
+  transition: fill 0.15s ease;
+  outline: none;
+}
+
+.county-map__shape:hover,
+.county-map__shape.is-hover {
+  fill: rgba(22, 155, 98, 0.35);
+  stroke: var(--green-dark);
+}
+
+.county-map__shape:focus-visible {
+  stroke: var(--orange);
+  stroke-width: 2;
+}
+
+.county-map__shape.is-visited {
+  fill: rgba(22, 155, 98, 0.55);
+  stroke: var(--green-dark);
+}
+
+.county-map__shape.is-visited:hover,
+.county-map__shape.is-visited.is-hover {
+  fill: var(--green);
+}
+
+[data-theme='dark'] .county-map__shape {
+  fill: #253430;
+  stroke: #3a4a45;
+}
+
+[data-theme='dark'] .county-map__shape.is-visited {
+  fill: rgba(22, 155, 98, 0.6);
+}
+
+.county-map__label {
+  margin: 6px 0 0;
+  min-height: 1.3em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--green-dark);
+}
+
 /* ---------- County scratch map ---------- */
 .scratch {
   border: 1px solid var(--line);

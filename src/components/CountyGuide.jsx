@@ -10,6 +10,7 @@ import { navigate } from '../hooks/useHashRoute.js'
 import { useVisitedCounties } from '../hooks/useVisitedCounties.js'
 import ShareButton from './ShareButton.jsx'
 import ShareImageButton from './ShareImageButton.jsx'
+import CountyMap from './CountyMap.jsx'
 
 export default function CountyGuide({ slug }) {
   const [selected, setSelected] = useState(() => findBySlug(COUNTIES, slug, 'name')?.name || null)
@@ -124,6 +125,8 @@ export default function CountyGuide({ slug }) {
         Pick a county to discover its Irish name, nickname, county town and what to see —
         a grand way to trace where your people came from.
       </p>
+
+      <CountyMap visited={visited} />
 
       <div className="scratch">
         <div className="scratch__row">
