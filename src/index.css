@@ -2067,6 +2067,71 @@ a {
   max-width: 32rem;
 }
 
+/* ---------- PWA install banner ---------- */
+.install {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 70;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+  padding: 12px 14px;
+  animation: installIn 0.35s ease both;
+}
+
+@keyframes installIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: none; }
+}
+
+.install__icon {
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.install__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.install__title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.install__text {
+  margin: 2px 0 0;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+.install__btn {
+  flex-shrink: 0;
+  padding: 9px 16px;
+}
+
+.install__close {
+  flex-shrink: 0;
+  border: none;
+  background: none;
+  color: var(--ink-soft);
+  cursor: pointer;
+  padding: 6px;
+  display: grid;
+  place-items: center;
+}
+
+@media (min-width: 821px), print {
+  .install { display: none; }
+}
+
 /* ---------- FAB quick launcher ---------- */
 .fab {
   position: fixed;
