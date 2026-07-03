@@ -79,7 +79,7 @@ export default function CountyMap({ visited = [] }) {
             x={c.lx}
             y={c.ly}
             className={`county-map__name ${active === c.name ? 'is-active' : ''}`}
-            fontSize={c.name.length > 8 ? 16 : 21}
+            fontSize={c.name.length >= 8 ? 16 : 21}
           >
             {c.name}
           </text>

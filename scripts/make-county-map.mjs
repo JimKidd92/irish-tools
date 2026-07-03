@@ -179,6 +179,8 @@ const py = (lat) => +((maxY - lat) * scale).toFixed(1)
 // Label anchor = area centroid of the county's largest ring, with hand nudges
 // (in output px) where the centroid sits awkwardly for the printed name.
 const NUDGE = {
+  Roscommon: [-10, 0],
+  Longford: [6, 2],
   Dublin: [10, 0],
   Louth: [0, -4],
   Cavan: [-6, 4],
