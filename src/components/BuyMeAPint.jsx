@@ -10,7 +10,7 @@ export default function BuyMeAPint({ className = '', label = 'Buy me a pint' }) 
       target="_blank"
       rel="noopener noreferrer"
     >
-      🍺 {label}
+      🍺 <span className="pint-btn__label">{label}</span>
     </a>
   )
 }
