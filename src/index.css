@@ -2236,7 +2236,7 @@ a {
 
 /* ---------- Interactive county map ---------- */
 .county-map {
-  max-width: 380px;
+  max-width: 440px;
   margin: 0 auto 8px;
   text-align: center;
 }
@@ -2248,43 +2248,71 @@ a {
 }
 
 .county-map__shape {
-  fill: var(--surface-alt);
-  stroke: var(--line);
-  stroke-width: 1.2;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linejoin: round;
   cursor: pointer;
   transition: fill 0.15s ease;
   outline: none;
 }
 
+/* Soft province tints so the map reads as a map, not a blob. */
+.county-map__shape--leinster { fill: #dcefe0; }
+.county-map__shape--munster { fill: #fbe9d6; }
+.county-map__shape--connacht { fill: #dde9f5; }
+.county-map__shape--ulster { fill: #e9e4f3; }
+
 .county-map__shape:hover,
-.county-map__shape.is-hover {
-  fill: rgba(22, 155, 98, 0.35);
+.county-map__shape.is-active {
+  fill: #58c491;
   stroke: var(--green-dark);
 }
 
 .county-map__shape:focus-visible {
   stroke: var(--orange);
-  stroke-width: 2;
+  stroke-width: 3;
 }
 
 .county-map__shape.is-visited {
   fill: rgba(22, 155, 98, 0.55);
-  stroke: var(--green-dark);
 }
 
 .county-map__shape.is-visited:hover,
-.county-map__shape.is-visited.is-hover {
+.county-map__shape.is-visited.is-active {
   fill: var(--green);
 }
 
-[data-theme='dark'] .county-map__shape {
-  fill: #253430;
-  stroke: #3a4a45;
+.county-map__name {
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  font-family: var(--font-body);
+  font-weight: 700;
+  fill: #33413a;
+  paint-order: stroke;
+  stroke: rgba(255, 255, 255, 0.75);
+  stroke-width: 3;
 }
 
-[data-theme='dark'] .county-map__shape.is-visited {
-  fill: rgba(22, 155, 98, 0.6);
+.county-map__name.is-active {
+  fill: #0c3b26;
 }
+
+[data-theme='dark'] .county-map__shape {
+  stroke: #10201a;
+}
+[data-theme='dark'] .county-map__shape--leinster { fill: #26382d; }
+[data-theme='dark'] .county-map__shape--munster { fill: #3a3229; }
+[data-theme='dark'] .county-map__shape--connacht { fill: #273543; }
+[data-theme='dark'] .county-map__shape--ulster { fill: #322e42; }
+[data-theme='dark'] .county-map__shape:hover,
+[data-theme='dark'] .county-map__shape.is-active { fill: #1f7a52; }
+[data-theme='dark'] .county-map__shape.is-visited { fill: rgba(22, 155, 98, 0.5); }
+[data-theme='dark'] .county-map__name {
+  fill: #cfe0d6;
+  stroke: rgba(10, 20, 16, 0.7);
+}
+[data-theme='dark'] .county-map__name.is-active { fill: #fff; }
 
 .county-map__label {
   margin: 6px 0 0;
@@ -2292,6 +2320,28 @@ a {
   font-size: 0.85rem;
   font-weight: 700;
   color: var(--green-dark);
+}
+
+/* Mobile confirm bar: first tap selects, this (or a second tap) opens. */
+.county-map__go {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 11px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--surface-alt);
+  color: var(--ink-soft);
+  font: inherit;
+  font-weight: 700;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.county-map__go.is-ready {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+  cursor: pointer;
 }
 
 /* ---------- County scratch map ---------- */

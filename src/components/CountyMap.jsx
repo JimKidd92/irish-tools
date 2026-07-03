@@ -1,16 +1,36 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import mapData from '../data/countyMap.generated.json'
+import { COUNTIES } from '../data/counties.js'
 import { navigate } from '../hooks/useHashRoute.js'
 
-// Interactive 32-county map. Real boundaries (GADM + OSM), baked to SVG paths
-// by scripts/make-county-map.mjs. Visited counties are filled in — the map
-// doubles as the scratch map.
+// Interactive 32-county map (real GADM/OSM boundaries baked to SVG paths by
+// scripts/make-county-map.mjs). Counties are tinted by province with name
+// labels. Desktop: hover to preview, click to open. Touch: first tap selects
+// and shows the county in the bar below, second tap (or the bar) opens it.
+const PROVINCE = Object.fromEntries(COUNTIES.map((c) => [c.name, c.province.toLowerCase()]))
+
 export default function CountyMap({ visited = [] }) {
   const [hover, setHover] = useState(null)
+  const [selected, setSelected] = useState(null)
+  const coarse = useMemo(
+    () => typeof window !== 'undefined' && window.matchMedia('(hover: none)').matches,
+    [],
+  )
 
-  function go(c) {
+  function open(c) {
     navigate('counties', c.slug)
   }
+
+  function onTap(c) {
+    if (coarse && selected !== c.name) {
+      setSelected(c.name)
+      return
+    }
+    open(c)
+  }
+
+  const active = hover || selected
+  const activeCounty = active ? mapData.counties.find((c) => c.name === active) : null
 
   return (
     <div className="county-map">
@@ -22,19 +42,25 @@ export default function CountyMap({ visited = [] }) {
       >
         {mapData.counties.map((c) => {
           const been = visited.includes(c.name)
+          const cls = [
+            'county-map__shape',
+            `county-map__shape--${PROVINCE[c.name]}`,
+            been ? 'is-visited' : '',
+            active === c.name ? 'is-active' : '',
+          ].join(' ')
           return (
             <path
               key={c.slug}
               d={c.d}
-              className={`county-map__shape ${been ? 'is-visited' : ''} ${hover === c.name ? 'is-hover' : ''}`}
+              className={cls}
               role="button"
               tabIndex={0}
               aria-label={`County ${c.name}${been ? ' (visited)' : ''}`}
-              onClick={() => go(c)}
+              onClick={() => onTap(c)}
               onKeyDown={(e) => {
                 if (e.key === 'Enter' || e.key === ' ') {
                   e.preventDefault()
-                  go(c)
+                  open(c)
                 }
               }}
               onMouseEnter={() => setHover(c.name)}
@@ -46,10 +72,33 @@ export default function CountyMap({ visited = [] }) {
             </path>
           )
         })}
+        {/* labels on top so borders never cut through them */}
+        {mapData.counties.map((c) => (
+          <text
+            key={`t-${c.slug}`}
+            x={c.lx}
+            y={c.ly}
+            className={`county-map__name ${active === c.name ? 'is-active' : ''}`}
+            fontSize={c.name.length > 8 ? 16 : 21}
+          >
+            {c.name}
+          </text>
+        ))}
       </svg>
-      <p className="county-map__label" aria-hidden="true">
-        {hover ? `County ${hover}` : 'Tap a county'}
-      </p>
+
+      {coarse ? (
+        <button
+          className={`county-map__go ${activeCounty ? 'is-ready' : ''}`}
+          disabled={!activeCounty}
+          onClick={() => activeCounty && open(activeCounty)}
+        >
+          {activeCounty ? `Open County ${activeCounty.name} →` : 'Tap a county'}
+        </button>
+      ) : (
+        <p className="county-map__label" aria-hidden="true">
+          {active ? `County ${active}` : 'Click a county'}
+        </p>
+      )}
     </div>
   )
 }

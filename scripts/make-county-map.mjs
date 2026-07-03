@@ -176,13 +176,54 @@ const W = Math.round((maxX - minX) * scale)
 const px = (lng) => +((lng * KX - minX) * scale).toFixed(1)
 const py = (lat) => +((maxY - lat) * scale).toFixed(1)
 
+// Label anchor = area centroid of the county's largest ring, with hand nudges
+// (in output px) where the centroid sits awkwardly for the printed name.
+const NUDGE = {
+  Dublin: [10, 0],
+  Louth: [0, -4],
+  Cavan: [-6, 4],
+  Leitrim: [-2, 8],
+  Waterford: [0, -4],
+  Kerry: [10, -10],
+  Galway: [18, -6],
+  Mayo: [6, 6],
+  Cork: [10, -10],
+  Donegal: [-8, 10],
+  Antrim: [-4, 8],
+  Derry: [2, 8],
+}
+
+function centroid(ring) {
+  let a = 0
+  let cx = 0
+  let cy = 0
+  for (let i = 0; i < ring.length - 1; i++) {
+    const cross = ring[i][0] * ring[i + 1][1] - ring[i + 1][0] * ring[i][1]
+    a += cross
+    cx += (ring[i][0] + ring[i + 1][0]) * cross
+    cy += (ring[i][1] + ring[i + 1][1]) * cross
+  }
+  a /= 2
+  return [cx / (6 * a), cy / (6 * a)]
+}
+
 const counties = COUNTIES.map((c) => {
-  const ds = byCounty[c.name].map((ring) => {
+  const rings = byCounty[c.name]
+  const ds = rings.map((ring) => {
     let d = `M${px(ring[0][0])} ${py(ring[0][1])}`
     for (let i = 1; i < ring.length; i++) d += `L${px(ring[i][0])} ${py(ring[i][1])}`
     return d + 'Z'
   })
-  return { name: c.name, slug: slugify(c.name), d: ds.join('') }
+  const main = rings.reduce((a, b) => (ringAreaDeg(a) > ringAreaDeg(b) ? a : b))
+  const [clng, clat] = centroid(main)
+  const [nx, ny] = NUDGE[c.name] || [0, 0]
+  return {
+    name: c.name,
+    slug: slugify(c.name),
+    d: ds.join(''),
+    lx: +(px(clng) + nx).toFixed(0),
+    ly: +(py(clat) + ny).toFixed(0),
+  }
 })
 
 const out = { viewBox: `0 0 ${W} ${H}`, counties }
