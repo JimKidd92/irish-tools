@@ -24,6 +24,7 @@ import { slugify } from '../src/lib/slug.js'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const dist = resolve(__dirname, '../dist')
 const countyInfo = JSON.parse(await readFile(resolve(__dirname, '../src/data/counties.generated.json'), 'utf-8'))
+const COUNTY_RICH = JSON.parse(await readFile(resolve(__dirname, '../src/data/countiesRich.generated.json'), 'utf-8'))
 const template = await readFile(join(dist, 'index.html'), 'utf-8')
 
 function esc(s) {
@@ -83,6 +84,7 @@ function surnameContent(s) {
 
 function countyContent(c) {
   const about = COUNTY_ABOUT[c.name] || ''
+  const rich = COUNTY_RICH[c.name]
   const places = PLACES.filter((p) => p.county === c.name)
   const surnames = SURNAMES.filter((s) => s.region.includes(c.name)).slice(0, 12)
   const sur = surnames.map((s) => `<a href="/surnames/${slugify(s.name)}/">${esc(s.name)}</a>`).join(' · ')
@@ -91,11 +93,21 @@ function countyContent(c) {
         .map((p) => `<li><strong>${esc(p.name)}</strong> — ${esc(p.blurb)}</li>`)
         .join('')}</ul>`
     : ''
+  const richHtml = rich
+    ? `${rich.intro.map((p) => `<p>${esc(p)}</p>`).join('')}
+    <h2>Cities, towns and villages in ${esc(c.name)}</h2>
+    <ul>${rich.towns.map((t) => `<li><strong>${esc(t.name)}</strong> — ${esc(t.note)}</li>`).join('')}</ul>
+    <h2>Famous people from ${esc(c.name)}</h2>
+    <ul>${rich.people.map((p) => `<li><strong>${esc(p.name)}</strong> — ${esc(p.note)}</li>`).join('')}</ul>
+    <h2>Did you know?</h2>
+    <ul>${rich.facts.map((f) => `<li>${esc(f)}</li>`).join('')}</ul>`
+    : ''
   return `<main class="prerender"><article>
     <h1>County ${esc(c.name)} Guide (${esc(c.irish)})</h1>
     <p>“${esc(c.nickname)}” — in the province of ${esc(c.province)}. County town: ${esc(c.town)}.</p>
     <p>${esc(c.blurb)}</p>
     ${about ? `<p>${esc(about)}</p>` : ''}
+    ${richHtml}
     ${placeList}
     ${sur ? `<p><strong>Surnames from ${esc(c.name)}:</strong> ${sur}</p>` : ''}
     <p><a href="/counties/">All 32 counties</a> · <a href="/places/">Places to visit</a> · <a href="/">Irish Tools</a></p>

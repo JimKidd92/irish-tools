@@ -4,6 +4,7 @@ import { COUNTY_ABOUT } from '../data/countiesAbout.js'
 import { PLACES } from '../data/places.js'
 import { SURNAMES } from '../data/surnames.js'
 import countyInfo from '../data/counties.generated.json'
+import COUNTY_RICH from '../data/countiesRich.generated.json'
 import { slugify, findBySlug } from '../lib/slug.js'
 import { setHead } from '../lib/head.js'
 import { navigate } from '../hooks/useHashRoute.js'
@@ -66,6 +67,8 @@ export default function CountyGuide({ slug }) {
             <p className="county__about">{COUNTY_ABOUT[county.name]}</p>
           )}
 
+          {COUNTY_RICH[county.name] && <CountyRich rich={COUNTY_RICH[county.name]} name={county.name} />}
+
           {places.length > 0 && (
             <div className="county__places">
               <h3 className="county__places-title">Places to visit in {county.name}</h3>
@@ -119,6 +122,47 @@ export default function CountyGuide({ slug }) {
   }
 
   const count = visited.length
+  return (
+    <CountyIndex visited={visited} signedIn={signedIn} count={count} />
+  )
+}
+
+function CountyRich({ rich, name }) {
+  return (
+    <div className="county-rich">
+      {rich.intro.map((p, i) => (
+        <p key={i} className="county__about">{p}</p>
+      ))}
+
+      <h3 className="county-rich__title">Cities, towns & villages</h3>
+      <ul className="county-rich__list">
+        {rich.towns.map((t) => (
+          <li key={t.name}>
+            <strong>{t.name}</strong> — {t.note}
+          </li>
+        ))}
+      </ul>
+
+      <h3 className="county-rich__title">Famous people from {name}</h3>
+      <ul className="county-rich__list">
+        {rich.people.map((p) => (
+          <li key={p.name}>
+            <strong>{p.name}</strong> — {p.note}
+          </li>
+        ))}
+      </ul>
+
+      <h3 className="county-rich__title">Did you know?</h3>
+      <ul className="county-rich__list county-rich__list--facts">
+        {rich.facts.map((f, i) => (
+          <li key={i}>{f}</li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+function CountyIndex({ visited, signedIn, count }) {
   return (
     <section className="panel county">
       <p className="weather-hint">

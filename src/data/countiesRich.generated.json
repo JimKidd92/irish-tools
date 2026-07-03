@@ -1,0 +1,3063 @@
+{
+ "Carlow": {
+  "intro": [
+   "Wedged between the Blackstairs Mountains and the fertile valley of the River Barrow, Carlow is Ireland's second-smallest county, yet it punches well above its size in history. Granite from its uplands built much of Leinster, and the county's ancient nickname, the Dolmen County, comes from the Browneshill portal tomb outside Carlow town, whose colossal capstone is reckoned the heaviest in Europe. The Barrow, Ireland's second-longest river, threads the county from north to south, and its towpath, once walked by horses hauling grain barges to Waterford port, is now one of the country's loveliest long-distance trails.",
+   "Carlow town grew rich on milling and malting, and in 1926 it became the home of the Irish Free State's first sugar beet factory, an industry that shaped local farming for seventy years. The county has a strong scholarly streak too: Carlow College, founded in the 1780s, is among the oldest Catholic institutions of higher learning in Ireland, and the town now hosts a campus of the South East Technological University. For visitors tracing roots, the graveyards of Leighlinbridge, St Mullins and Clonegal sit in some of the most tranquil river scenery in the country."
+  ],
+  "towns": [
+   {
+    "name": "Carlow",
+    "note": "The county town on the Barrow, home to Carlow College, the Delta Sensory Gardens and the ruins of a 13th-century Norman castle."
+   },
+   {
+    "name": "Tullow",
+    "note": "A market town on the Slaney known as the gateway to the Blackstairs and the home club of rugby star Sean O'Brien, the Tullow Tank."
+   },
+   {
+    "name": "Bagenalstown",
+    "note": "Officially Muine Bheag, an elegant planned town founded by Walter Bagenal, who intended it to be a Versailles on the Barrow."
+   },
+   {
+    "name": "Borris",
+    "note": "A handsome Georgian estate village beneath Mount Leinster, seat of the MacMurrough Kavanaghs and famed for its 16-arch railway viaduct."
+   },
+   {
+    "name": "Leighlinbridge",
+    "note": "A Barrow-side village with one of Ireland's earliest Norman castles and the birthplace of physicist John Tyndall."
+   },
+   {
+    "name": "St Mullins",
+    "note": "A riverside monastic settlement founded by St Moling, burial place of the kings of Leinster including Art MacMurrough Kavanagh."
+   },
+   {
+    "name": "Clonegal",
+    "note": "A picture-postcard village at the end of the Wicklow Way, home to the atmospheric 17th-century Huntington Castle."
+   },
+   {
+    "name": "Rathvilly",
+    "note": "A trim village under Mount Leinster that has repeatedly won Ireland's Tidy Towns competition."
+   },
+   {
+    "name": "Hacketstown",
+    "note": "A hillside town near the Wicklow border, ancestral home of the family of 1916-era patriot Kevin Barry."
+   },
+   {
+    "name": "Myshall",
+    "note": "A quiet village at the foot of Mount Leinster, birthplace of American publishing magnate Peter Fenelon Collier."
+   }
+  ],
+  "people": [
+   {
+    "name": "John Tyndall",
+    "note": "The Leighlinbridge-born physicist who explained why the sky is blue and was a pioneer in understanding the greenhouse effect."
+   },
+   {
+    "name": "William Dargan",
+    "note": "Born near Carlow town in 1799, the great engineer who built most of Ireland's early railways and funded the exhibition that led to the National Gallery."
+   },
+   {
+    "name": "Saoirse Ronan",
+    "note": "The four-time Oscar-nominated actress who grew up in Ardattin, near Tullow, and has often spoken of her Carlow childhood."
+   },
+   {
+    "name": "Myles Keogh",
+    "note": "A soldier from Leighlinbridge who fought for the Pope and the Union Army before dying with Custer at Little Bighorn in 1876."
+   },
+   {
+    "name": "Samuel Haughton",
+    "note": "A Carlow-born polymath of Trinity College who made contributions to geology, medicine and mathematics in the 19th century."
+   },
+   {
+    "name": "Sean O'Brien",
+    "note": "The Tullow-born flanker who won multiple Six Nations titles with Ireland and toured with the British and Irish Lions."
+   },
+   {
+    "name": "Peter Fenelon Collier",
+    "note": "The Myshall emigrant who founded Collier's Weekly, one of America's most influential magazines."
+   },
+   {
+    "name": "Patrick Francis Moran",
+    "note": "The Leighlinbridge-born cardinal who became Archbishop of Sydney and a towering figure in Australian Catholic history."
+   },
+   {
+    "name": "Kevin Barry",
+    "note": "The 18-year-old medical student executed in 1920, whose family farm was at Tombeagh near Hacketstown, where he spent much of his youth."
+   }
+  ],
+  "facts": [
+   "The capstone of the Browneshill Dolmen outside Carlow town weighs an estimated 100 tonnes and is widely regarded as the heaviest in Europe.",
+   "Carlow was one of the first towns in Ireland or Britain to have electric street lighting, powered from 1891 by a hydroelectric scheme at Milford Mills on the Barrow.",
+   "Ireland's first sugar beet factory opened in Carlow in 1926 and operated until 2005, earning the county a central place in Irish agricultural history.",
+   "At roughly 897 square kilometres, Carlow is the second-smallest of Ireland's 32 counties, larger only than Louth.",
+   "Mount Leinster, on the Carlow-Wexford border, rises to 795 metres and its summit transmitter mast serves much of the south-east.",
+   "The Black Castle at Leighlinbridge, begun in 1181, guards one of the oldest bridging points on the River Barrow, with the present bridge dating from 1320.",
+   "Carlow College, established in the 1780s and opened in 1793, is one of the oldest centres of Catholic higher education in Ireland.",
+   "The Duckett's Grove estate near Carlow town features a dramatic Gothic Revival ruin that has become one of Ireland's most photographed abandoned houses."
+  ]
+ },
+ "Dublin": {
+  "intro": [
+   "Every Irish family story seems to pass through Dublin sooner or later, whether through its tenements, its docks or its emigrant ships. Founded as a Viking trading post around 841 at the dark tidal pool, the Dubh Linn, that gave the city its English name, the capital carries eleven centuries of layered history: medieval Christ Church and Dublin Castle, the grand Georgian squares of the 18th century, the bullet-scarred GPO of 1916, and the glass towers of the modern docklands. In Irish it is Baile Atha Cliath, the town of the hurdled ford, an even older name for an even older crossing of the Liffey.",
+   "Dublin's literary pedigree is unmatched for a city of its size: it was designated a UNESCO City of Literature in 2010 and claims Swift, Wilde, Joyce, Shaw, Beckett and Stoker among its own. Beyond the city centre, the county offers real variety, from the fishing harbours of Howth and Skerries to the Victorian seafront of Dun Laoghaire and the beaches of the north county. Today greater Dublin is home to well over a quarter of the Republic's population and hosts the European headquarters of many of the world's biggest technology firms, yet Moore Street traders and Sunday GAA crowds keep its older character alive."
+  ],
+  "towns": [
+   {
+    "name": "Dublin City",
+    "note": "The capital and largest city in Ireland, straddling the Liffey and home to Trinity College, the GPO and the Guinness brewery at St James's Gate."
+   },
+   {
+    "name": "Howth",
+    "note": "A fishing village on a rugged peninsula north of the city, famed for its cliff walk, seafood and the 1914 gun-running that armed the Irish Volunteers."
+   },
+   {
+    "name": "Dun Laoghaire",
+    "note": "A Victorian harbour town with two great granite piers, once the mail-boat gateway to Ireland and the departure point for generations of emigrants."
+   },
+   {
+    "name": "Malahide",
+    "note": "An affluent seaside town whose castle was held by the Talbot family for nearly 800 years."
+   },
+   {
+    "name": "Swords",
+    "note": "The county town of Fingal, grown from a 6th-century monastic settlement founded by St Colmcille into one of Ireland's largest towns."
+   },
+   {
+    "name": "Tallaght",
+    "note": "Once a small village on an ancient monastic site, now the bustling heart of South Dublin with its own hospital, theatre and stadium."
+   },
+   {
+    "name": "Dalkey",
+    "note": "A medieval heritage town turned upmarket coastal village, with two castles on its main street and a long roll-call of celebrity residents."
+   },
+   {
+    "name": "Skerries",
+    "note": "A north county fishing town with restored 18th-century mills and islands offshore where St Patrick is said to have landed."
+   },
+   {
+    "name": "Balbriggan",
+    "note": "A former cotton and hosiery town in north Fingal whose stockings were once famous enough that Queen Victoria wore them."
+   },
+   {
+    "name": "Lucan",
+    "note": "A Liffey-side village swallowed by the growing city, once celebrated for its spa and its demesne waterfalls."
+   }
+  ],
+  "people": [
+   {
+    "name": "James Joyce",
+    "note": "The author of Ulysses, born in Rathgar in 1882, who mapped Dublin so completely he claimed the city could be rebuilt from his pages."
+   },
+   {
+    "name": "Oscar Wilde",
+    "note": "The playwright and wit, born on Westland Row in 1854 and raised on Merrion Square, where his statue now reclines."
+   },
+   {
+    "name": "Samuel Beckett",
+    "note": "The Nobel laureate author of Waiting for Godot, born in Foxrock in 1906; a Liffey bridge now bears his name."
+   },
+   {
+    "name": "George Bernard Shaw",
+    "note": "Born in Portobello in 1856, the only person to win both a Nobel Prize in Literature and an Academy Award."
+   },
+   {
+    "name": "Bram Stoker",
+    "note": "The creator of Dracula, born in Clontarf in 1847 and educated at Trinity College while working at Dublin Castle."
+   },
+   {
+    "name": "Jonathan Swift",
+    "note": "The satirist behind Gulliver's Travels, born in Dublin in 1667 and later Dean of St Patrick's Cathedral, where he is buried."
+   },
+   {
+    "name": "Phil Lynott",
+    "note": "The Thin Lizzy frontman raised in Crumlin, honoured with a bronze statue off Grafton Street."
+   },
+   {
+    "name": "Bono",
+    "note": "Born Paul Hewson in Dublin in 1960, the U2 singer who formed the band with schoolmates from Mount Temple Comprehensive."
+   },
+   {
+    "name": "Luke Kelly",
+    "note": "The flame-haired Dubliners balladeer from Sheriff Street, whose voice defined songs like Raglan Road and The Auld Triangle."
+   },
+   {
+    "name": "Maeve Binchy",
+    "note": "The Dalkey-born novelist whose warm tales of Irish life sold more than 40 million copies worldwide."
+   }
+  ],
+  "facts": [
+   "Arthur Guinness signed a 9,000-year lease on the St James's Gate brewery in 1759 at an annual rent of 45 pounds.",
+   "Handel's Messiah received its world premiere on Fishamble Street in Dublin in April 1742.",
+   "Phoenix Park, at around 707 hectares, is one of the largest enclosed urban parks in any European capital and has a resident herd of wild fallow deer.",
+   "The Rotunda, founded in 1745, is the oldest continuously operating maternity hospital in the world.",
+   "Dublin's English name comes from the Irish Dubh Linn, meaning black pool, a tidal pond where the River Poddle met the Liffey behind Dublin Castle.",
+   "Three Nobel laureates in literature were born in Dublin: W.B. Yeats, George Bernard Shaw and Samuel Beckett.",
+   "Dublin was designated a UNESCO City of Literature in 2010, one of only a handful of cities then to hold the title.",
+   "St Patrick's Cathedral, founded in 1191, is the largest church in Ireland, and Jonathan Swift served as its dean for over 30 years."
+  ]
+ },
+ "Kildare": {
+  "intro": [
+   "Horses and saints have shaped Kildare in equal measure. The county takes its name from Cill Dara, the church of the oak, where St Brigid founded her great double monastery in the 5th century, and her perpetual flame has been rekindled in Kildare town in modern times. Just outside the town stretches the Curragh, a vast unfenced plain of short grass grazed by sheep for millennia and galloped over by racehorses for centuries; all five Irish Classic flat races are run at its racecourse, and the Irish National Stud and Japanese Gardens lie on its edge at Tully.",
+   "Flat, fertile and threaded by both the Grand and Royal Canals, Kildare was long the breadbasket and thoroughfare of Leinster, dominated by the FitzGerald earls whose power once rivalled the Crown's. The Bog of Allen spreads across its west, while the east has become Dublin's busiest commuter belt, anchored by Intel's enormous campus at Leixlip and the university town of Maynooth. Celbridge holds Castletown House, Ireland's grandest Palladian mansion, and Athy's Shackleton Museum honours the county's polar explorer son. Few counties blend big-house heritage, working bogland and world-class bloodstock quite so seamlessly."
+  ],
+  "towns": [
+   {
+    "name": "Naas",
+    "note": "The county town, whose Irish name Nas na Riogh means meeting place of the kings, once a seat of the kings of Leinster."
+   },
+   {
+    "name": "Newbridge",
+    "note": "Kildare's largest town, built around a 19th-century cavalry barracks and now famous for Newbridge Silverware."
+   },
+   {
+    "name": "Kildare",
+    "note": "A cathedral town founded on St Brigid's 5th-century monastery, with a climbable round tower and the National Stud on its doorstep."
+   },
+   {
+    "name": "Maynooth",
+    "note": "A university town containing both Maynooth University and St Patrick's College, once the largest Catholic seminary in the world."
+   },
+   {
+    "name": "Celbridge",
+    "note": "A Liffey-side town dominated by Castletown House, Ireland's finest Palladian mansion, and the boyhood home of Arthur Guinness."
+   },
+   {
+    "name": "Leixlip",
+    "note": "A Viking-named town, from the Norse for salmon leap, where Arthur Guinness first brewed and Intel now runs its vast European campus."
+   },
+   {
+    "name": "Athy",
+    "note": "A Barrow-side market town with a striking Dominican church and a museum devoted to Antarctic explorer Ernest Shackleton."
+   },
+   {
+    "name": "Monasterevin",
+    "note": "A canal town of bridges and aqueducts once home to poet Gerard Manley Hopkins on his retreats, and to tenor John McCormack at Moore Abbey."
+   },
+   {
+    "name": "Kilcullen",
+    "note": "A bridge town on the Liffey close to Dun Ailinne, the ancient royal ceremonial site of Leinster."
+   },
+   {
+    "name": "Kilcock",
+    "note": "A canal-harbour town on the Royal Canal, birthplace of the emigrant poet Teresa Brayton."
+   }
+  ],
+  "people": [
+   {
+    "name": "St Brigid",
+    "note": "One of Ireland's three patron saints, who founded her renowned monastery at Kildare around 480 and whose feast day is now a national holiday."
+   },
+   {
+    "name": "Arthur Guinness",
+    "note": "The founder of the Guinness brewery, born near Celbridge in 1725, who first brewed at Leixlip before moving to St James's Gate."
+   },
+   {
+    "name": "Ernest Shackleton",
+    "note": "The Antarctic explorer, born at Kilkea near Athy in 1874, celebrated for the heroic rescue of his entire Endurance crew."
+   },
+   {
+    "name": "Christy Moore",
+    "note": "The folk singer and Planxty and Moving Hearts founder, born and raised in Newbridge."
+   },
+   {
+    "name": "Luka Bloom",
+    "note": "The singer-songwriter born Barry Moore in Newbridge, younger brother of Christy Moore."
+   },
+   {
+    "name": "John Devoy",
+    "note": "The Fenian organiser from Kill who spent decades in America masterminding support for Irish independence, including the Catalpa rescue."
+   },
+   {
+    "name": "Silken Thomas FitzGerald",
+    "note": "The 10th Earl of Kildare, whose dramatic 1534 rebellion against Henry VIII ended the FitzGerald dynasty's dominance and his own life."
+   },
+   {
+    "name": "Damien Rice",
+    "note": "The internationally successful singer-songwriter behind the album O, raised in Celbridge."
+   },
+   {
+    "name": "Teresa Brayton",
+    "note": "The Kilcock-born poet of the diaspora, best remembered for the emigrant ballad The Old Bog Road."
+   }
+  ],
+  "facts": [
+   "The Curragh's roughly 2,000 hectares of unfenced short grass form one of the largest areas of semi-natural grassland in Europe, with racing recorded there for centuries.",
+   "All five Irish Classic flat races, including the Irish Derby, are run at the Curragh racecourse.",
+   "Castletown House in Celbridge, begun in 1722, was the first and is the largest Palladian country house ever built in Ireland.",
+   "St Patrick's College, Maynooth, founded in 1795, grew into the largest Catholic seminary in the world during the 19th century.",
+   "Leixlip takes its name from the Old Norse for salmon leap, one of the few Irish town names of purely Viking origin.",
+   "Intel's Leixlip campus, opened in 1989, is one of the largest private investments in the history of the Irish state.",
+   "The Japanese Gardens at Tully, created between 1906 and 1910, are regarded as among the finest of their kind in Europe.",
+   "Kildare means church of the oak, from the oak tree beside which St Brigid established her monastery."
+  ]
+ },
+ "Kilkenny": {
+  "intro": [
+   "For a few extraordinary years in the 1640s, Kilkenny city was effectively the capital of Ireland, seat of the Confederate Catholics who governed much of the island from its Parliament. That medieval swagger never quite left: the city keeps its castle, its 13th-century St Canice's Cathedral with a climbable round tower, its narrow slips and its merchant houses, and it remains the only inland city in the Republic. The local black limestone, polished to a gleam and sold as Kilkenny marble, gave the Marble City its nickname and adorns buildings across the world.",
+   "Beyond the city, the Nore and Barrow valleys hold some of Ireland's prettiest estate villages, Inistioge and Graiguenamanagh among them, along with the great Cistercian ruins of Jerpoint Abbey and the fortress-like Kells Priory. Castlecomer's plateau was mined for coal for three centuries, while Callan produced both the founder of the Christian Brothers and the architect of the White House. Above all, Kilkenny means hurling: the Cats have won more All-Ireland senior titles than any other county, and on championship Sundays the black and amber stripes are visible in every parish from Urlingford to Mooncoin."
+  ],
+  "towns": [
+   {
+    "name": "Kilkenny",
+    "note": "The medieval Marble City on the Nore, dominated by Kilkenny Castle, home of the Butler family for almost 600 years."
+   },
+   {
+    "name": "Callan",
+    "note": "A historic market town that produced Edmund Ignatius Rice, founder of the Christian Brothers, and White House architect James Hoban."
+   },
+   {
+    "name": "Thomastown",
+    "note": "A Norman market town on the Nore beside the magnificent ruins of Jerpoint Abbey and the renowned Mount Juliet estate."
+   },
+   {
+    "name": "Castlecomer",
+    "note": "An estate town on the north Kilkenny plateau where anthracite coal was mined for some 300 years, a story told in its Discovery Park."
+   },
+   {
+    "name": "Graiguenamanagh",
+    "note": "A Barrow-side boating town built around Duiske Abbey, one of the finest Cistercian foundations in Ireland."
+   },
+   {
+    "name": "Inistioge",
+    "note": "An impossibly pretty village of tree-lined square and ten-arch bridge, a favourite filming location including for Circle of Friends."
+   },
+   {
+    "name": "Bennettsbridge",
+    "note": "A Nore-side village that became a hub of Irish craft, home to Nicholas Mosse Pottery in an old flour mill."
+   },
+   {
+    "name": "Ballyragget",
+    "note": "A north Kilkenny market village with a well-preserved 15th-century Butler tower house."
+   },
+   {
+    "name": "Mooncoin",
+    "note": "A village in the county's southern tip, immortalised in the ballad The Rose of Mooncoin, Kilkenny's sporting anthem."
+   },
+   {
+    "name": "Freshford",
+    "note": "A quiet village whose 18th-century church preserves a remarkable 12th-century Hiberno-Romanesque doorway."
+   }
+  ],
+  "people": [
+   {
+    "name": "James Hoban",
+    "note": "The architect of the White House in Washington, born near Callan around 1755 and trained in Dublin before emigrating."
+   },
+   {
+    "name": "George Berkeley",
+    "note": "The great philosopher of idealism, born at Dysart Castle near Thomastown in 1685, after whom Berkeley, California is named."
+   },
+   {
+    "name": "Edmund Ignatius Rice",
+    "note": "The Callan-born founder of the Christian Brothers and Presentation Brothers, whose schools educated generations worldwide."
+   },
+   {
+    "name": "Henry Shefflin",
+    "note": "The Ballyhale hurler widely regarded as one of the greatest ever, winner of ten All-Ireland senior medals with Kilkenny."
+   },
+   {
+    "name": "DJ Carey",
+    "note": "The Gowran-born hurling forward whose skill made him one of the most celebrated players of the 1990s and 2000s."
+   },
+   {
+    "name": "Brian Cody",
+    "note": "The James Stephens clubman who managed Kilkenny to eleven All-Ireland titles across 24 seasons, a record in hurling management."
+   },
+   {
+    "name": "Alice Kyteler",
+    "note": "The wealthy Kilkenny moneylender accused in 1324 in one of Europe's earliest recorded witchcraft trials; she escaped, but her maid was burned."
+   },
+   {
+    "name": "John Banim",
+    "note": "The Kilkenny-born 19th-century novelist and playwright often called the Scott of Ireland for his Tales by the O'Hara Family."
+   },
+   {
+    "name": "Hubert Butler",
+    "note": "The essayist of Maidenhall, Bennettsbridge, whose luminous writing on Ireland and Europe won belated international acclaim."
+   },
+   {
+    "name": "Thomas Kilroy",
+    "note": "The Callan-born playwright and novelist, a leading figure in the Field Day movement and author of The Big Chapel."
+   }
+  ],
+  "facts": [
+   "Kilkenny hold more All-Ireland senior hurling titles than any other county, with 36 championships.",
+   "The 1324 trial of Alice Kyteler in Kilkenny was one of the earliest witchcraft prosecutions in Europe, and her servant Petronilla de Meath became the first person burned for heresy-linked witchcraft in Ireland.",
+   "The Statutes of Kilkenny, passed in 1366, notoriously attempted to ban the Anglo-Norman colonists from adopting Irish language, law, dress and customs.",
+   "From 1642 to 1649 Kilkenny was the seat of the Confederate Catholics of Ireland, making it the de facto capital of much of the country.",
+   "Kilkenny marble is not true marble but a local black limestone that takes a high polish, and it gave the Marble City its nickname.",
+   "Excavations at Dunmore Cave uncovered evidence linked to a Viking massacre recorded there in 928, along with a hoard of 10th-century coins.",
+   "Smithwick's ale was first brewed in Kilkenny in 1710 at the St Francis Abbey site, making it one of Ireland's oldest beer brands.",
+   "The round tower at St Canice's Cathedral, built in the 9th century, is one of only a few in Ireland that visitors can still climb."
+  ]
+ },
+ "Laois": {
+  "intro": [
+   "Few counties carry their history in their name the way Laois does. Known for centuries as Queen's County after Mary Tudor, whose 1556 plantation made it one of the first parts of Ireland formally colonised, it reclaimed its ancient name — from the Loígis tribe — after independence. The county's great symbol is the Rock of Dunamase, a shattered fortress on a limestone outcrop that passed as part of Aoife MacMurrough's dowry to Strongbow and was fought over for centuries. The O'More clan resisted the plantation fiercely from these plains, and their defiance shaped the county's early modern story as much as any settler town did.",
+   "Modern Laois is a county of quiet good looks and growing confidence. The Slieve Bloom Mountains rise gently along its western edge, laced with waymarked trails and glens, while the flat farmland of the Great Heath spreads eastward. Handsome estate towns like Abbeyleix and Stradbally speak of its landlord past; Stradbally now hosts Electric Picnic, Ireland's biggest music and arts festival, every autumn. Portlaoise has boomed as a motorway-age commuter hub, and Ballyfin Demesne, a Regency mansion turned hotel, is regularly ranked among the finest in the world. It is a county many drive through — and those who stop tend to be pleasantly surprised."
+  ],
+  "towns": [
+   {
+    "name": "Portlaoise",
+    "note": "The fast-growing county town, founded as Maryborough in 1557, today a major commuter hub and home to Ireland's high-security prison."
+   },
+   {
+    "name": "Abbeyleix",
+    "note": "An elegant planned estate town laid out by the de Vesci family, known for its heritage streetscape and Morrissey's, one of Ireland's most famous old pubs."
+   },
+   {
+    "name": "Stradbally",
+    "note": "A pretty estate village that hosts the Electric Picnic festival each year on the grounds of Stradbally Hall, along with a narrow-gauge steam railway museum."
+   },
+   {
+    "name": "Mountmellick",
+    "note": "A former Quaker industrial town that gave its name to Mountmellick work, a distinctive style of white-on-white embroidery."
+   },
+   {
+    "name": "Portarlington",
+    "note": "A border town with Offaly noted for its French Huguenot heritage, still remembered in its street names and annual French Festival."
+   },
+   {
+    "name": "Mountrath",
+    "note": "A market town at the foot of the Slieve Blooms, historically linked to St Fintan and a gateway to the mountains."
+   },
+   {
+    "name": "Durrow",
+    "note": "A picturesque estate village on the River Erkina famous for its annual Scarecrow Festival."
+   },
+   {
+    "name": "Rathdowney",
+    "note": "A tidy town in the south of the county with a strong brewing and agricultural heritage, once home to Perry's Brewery."
+   },
+   {
+    "name": "Timahoe",
+    "note": "A small village dominated by a 12th-century round tower with a rare and richly carved Romanesque doorway."
+   },
+   {
+    "name": "Ballinakill",
+    "note": "A heritage village near Abbeyleix known for its Georgian square and the nearby Heywood Gardens, designed by Edwin Lutyens."
+   }
+  ],
+  "people": [
+   {
+    "name": "James Fintan Lalor",
+    "note": "Influential Young Ireland writer on land reform, born at Tinakill near Raheen, whose ideas shaped later land agitation and republican thought."
+   },
+   {
+    "name": "Kevin O'Higgins",
+    "note": "Free State minister and one of the new state's dominant figures, born in Stradbally and assassinated in 1927."
+   },
+   {
+    "name": "Bartholomew Mosse",
+    "note": "Surgeon born in Maryborough (Portlaoise) who founded Dublin's Rotunda, the world's first purpose-built maternity hospital."
+   },
+   {
+    "name": "Cecil Day-Lewis",
+    "note": "British Poet Laureate and father of actor Daniel Day-Lewis, born at Ballintubbert near Stradbally in 1904."
+   },
+   {
+    "name": "Robert Sheehan",
+    "note": "Portlaoise-born actor known for Love/Hate, Misfits and The Umbrella Academy."
+   },
+   {
+    "name": "Zach Tuohy",
+    "note": "Portlaoise man who became one of the most-capped Irish players in Australian Rules history, winning an AFL premiership with Geelong."
+   },
+   {
+    "name": "Sue Ramsbottom",
+    "note": "Timahoe native regarded as one of the greatest ladies Gaelic footballers of all time, captaining Laois to the 2001 All-Ireland title."
+   },
+   {
+    "name": "Rory Óg O'More",
+    "note": "Sixteenth-century chieftain of the O'More clan who led fierce Gaelic resistance to the plantation of Queen's County."
+   },
+   {
+    "name": "John Keegan",
+    "note": "Pre-Famine poet and story collector from near Shanahoe, best remembered for the ballad Caoch the Piper."
+   }
+  ],
+  "facts": [
+   "Laois is the only county in Ireland that does not border a county with a coastline, making it arguably the most landlocked county on the island.",
+   "Until 1922 the county was officially called Queen's County, named for Mary I, and Portlaoise was called Maryborough — one half of the first plantation of Ireland in 1556, alongside King's County (Offaly).",
+   "The Rock of Dunamase was part of the dowry of Aoife, daughter of Diarmait Mac Murchada, when she married the Norman leader Strongbow in 1170.",
+   "Stradbally hosts Electric Picnic, Ireland's largest music and arts festival, which draws around 70,000 people to the grounds of Stradbally Hall each year.",
+   "Mountmellick gave its name to a unique form of white-on-white floral embroidery, Mountmellick work, developed in the Quaker town in the early 19th century.",
+   "The round tower at Timahoe is the only one in Ireland with an elaborately carved Romanesque doorway, decorated with human faces and interlaced hair.",
+   "Portlaoise is home to the Republic of Ireland's only high-security prison.",
+   "Ballyfin Demesne, a restored Regency house in the county, has repeatedly been named among the best hotels in the world since opening in 2011."
+  ]
+ },
+ "Longford": {
+  "intro": [
+   "Longford rewards the traveller who slows down. One of Ireland's smallest counties, tucked between the Shannon and the drumlins of the north midlands, it was for centuries the Gaelic kingdom of Annaly, ruled by the O'Farrells — a name still everywhere in the county. Its western boundary is the Shannon and the broad waters of Lough Ree, its southern reaches are Goldsmith country, and its bogs concealed one of Irish archaeology's great treasures: the Corlea Trackway, a massive oak road laid across the bog in 148 BC and now displayed where it was found near Kenagh.",
+   "For a quiet county, Longford's literary and revolutionary footprint is remarkable. Oliver Goldsmith grew up around Ballymahon; Maria Edgeworth wrote her pioneering novels at Edgeworthstown; Padraic Colum, poet of the Irish revival, was born in Longford town. The 1798 Rebellion ended in tragedy at Ballinamuck, where the Franco-Irish army made its last stand, and General Seán Mac Eoin, the Blacksmith of Ballinalee, made the county famous in the War of Independence. Today the restored St Mel's Cathedral crowns Longford town, and Center Parcs at Ballymahon has brought a new wave of visitors to a county long overlooked."
+  ],
+  "towns": [
+   {
+    "name": "Longford",
+    "note": "The county town on the River Camlin, dominated by the magnificently restored St Mel's Cathedral and long a garrison and market centre."
+   },
+   {
+    "name": "Granard",
+    "note": "A hilltop town crowned by one of Ireland's finest Norman mottes, known for its harp festival and as the home of Kitty Kiernan."
+   },
+   {
+    "name": "Edgeworthstown",
+    "note": "Home of the remarkable Edgeworth family, where novelist Maria Edgeworth lived and wrote Castle Rackrent."
+   },
+   {
+    "name": "Ballymahon",
+    "note": "A broad-streeted town on the River Inny at the heart of Goldsmith country, with Center Parcs Longford Forest nearby."
+   },
+   {
+    "name": "Lanesborough",
+    "note": "A gateway town where the Shannon enters Lough Ree, long known for its power station and its hot-water stretch beloved of anglers."
+   },
+   {
+    "name": "Ardagh",
+    "note": "An award-winning heritage village associated with St Mel, who founded a church here in the fifth century."
+   },
+   {
+    "name": "Newtownforbes",
+    "note": "An estate village beside Castle Forbes, seat of the Earls of Granard and one of the longest continuously occupied family castles in Ireland."
+   },
+   {
+    "name": "Drumlish",
+    "note": "A village at the foot of Cairn Hill with strong traditions of country music and emigration."
+   },
+   {
+    "name": "Abbeyshrule",
+    "note": "A tranquil village on the Inny and the Royal Canal, home to a ruined Cistercian abbey and a well-known small airfield."
+   },
+   {
+    "name": "Kenagh",
+    "note": "The village closest to the Corlea Trackway visitor centre, where an Iron Age bog road is preserved in situ."
+   }
+  ],
+  "people": [
+   {
+    "name": "Oliver Goldsmith",
+    "note": "Author of The Vicar of Wakefield and She Stoops to Conquer, born at Pallas near Ballymahon and reared in the county's south."
+   },
+   {
+    "name": "Maria Edgeworth",
+    "note": "Pioneering novelist who spent most of her life at Edgeworthstown, where she wrote Castle Rackrent, often called the first regional novel in English."
+   },
+   {
+    "name": "Seán Mac Eoin",
+    "note": "The Blacksmith of Ballinalee, celebrated IRA commander in the War of Independence and later a government minister."
+   },
+   {
+    "name": "Kitty Kiernan",
+    "note": "Granard woman famous as the fiancée of Michael Collins, whose letters to her are among the most read documents of the revolutionary era."
+   },
+   {
+    "name": "Padraic Colum",
+    "note": "Poet, playwright and folklorist of the Irish literary revival, born in Longford town in 1881."
+   },
+   {
+    "name": "Albert Reynolds",
+    "note": "Taoiseach from 1992 to 1994 and a key architect of the Northern Ireland peace process, who built his business empire and political base in Longford."
+   },
+   {
+    "name": "Ray Flynn",
+    "note": "Longford-born athlete who has held the Irish mile record since 1982 and became a leading international athletics agent."
+   },
+   {
+    "name": "Declan Nerney",
+    "note": "Country music star from Drumlish, one of the best-known figures on the Irish country scene."
+   },
+   {
+    "name": "St Mel",
+    "note": "Fifth-century bishop, traditionally a nephew of St Patrick, who founded the church at Ardagh and gave his name to Longford's cathedral."
+   }
+  ],
+  "facts": [
+   "The Corlea Trackway near Kenagh is a massive Iron Age oak road built in 148 BC — the largest trackway of its kind uncovered in Europe, with an 18-metre stretch preserved under cover where it was found.",
+   "The 1798 Rebellion effectively ended at the Battle of Ballinamuck in north Longford, where the combined French and Irish force under General Humbert was finally defeated.",
+   "St Mel's Cathedral in Longford town was gutted by fire on Christmas morning 2009 and reopened in 2014 after one of the largest church restoration projects ever undertaken in Ireland.",
+   "The county takes its name from the Irish longphort, a fortress or stronghold of the O'Farrells, who ruled the territory as the kingdom of Annaly for centuries.",
+   "Maria Edgeworth's Castle Rackrent (1800), written at Edgeworthstown, was admired by Jane Austen and credited by Walter Scott as an inspiration for his own novels.",
+   "The Royal Canal completes its 146-kilometre journey from Dublin at Richmond Harbour in Clondra, where it meets the River Shannon.",
+   "Center Parcs Longford Forest, opened near Ballymahon in 2019, was one of the largest single tourism investments in the history of the Irish state.",
+   "The Norman motte at Granard is among the highest and best preserved in Ireland, marking the north-western limit of the early Anglo-Norman advance."
+  ]
+ },
+ "Louth": {
+  "intro": [
+   "They call it the Wee County, but Louth looms enormous in Irish myth. Ireland's smallest county is the setting for much of the Táin Bó Cúailnge, the great epic in which the boy-warrior Cú Chulainn single-handedly defended the Gap of the North against the armies of Queen Medb. The Cooley Peninsula, where the saga's famous brown bull grazed, is still one of the east coast's most dramatic landscapes, its mountains falling to Carlingford Lough. Even the county's name is mythic — it comes from the village of Louth, itself named for Lugh, the shining god of the Tuatha Dé Danann.",
+   "History kept returning to this narrow corridor between Dublin and Ulster. Mellifont, Ireland's first Cistercian abbey, rose here in 1142, and the high crosses of Monasterboice are among the finest carved stones of early Christian Europe. Drogheda endured Cromwell's most notorious siege and today guards the preserved head of St Oliver Plunkett; Dundalk grew into a proud industrial and brewing town. A border county with a strong GAA and soccer culture, modern Louth thrives along the M1 corridor, while Carlingford's medieval lanes and oyster festivals make it one of Ireland's most atmospheric small towns."
+  ],
+  "towns": [
+   {
+    "name": "Dundalk",
+    "note": "The county town, midway between Dublin and Belfast, an industrial and brewing centre long associated with Cú Chulainn, Harp Lager and Dundalk FC."
+   },
+   {
+    "name": "Drogheda",
+    "note": "One of Ireland's largest towns, a historic walled port on the Boyne that holds the preserved head of St Oliver Plunkett in St Peter's Church."
+   },
+   {
+    "name": "Ardee",
+    "note": "A market town whose name, Áth Fhirdia, recalls the ford where Cú Chulainn slew his friend Ferdia in the Táin; two medieval castles still stand on its main street."
+   },
+   {
+    "name": "Carlingford",
+    "note": "A beautifully preserved medieval town beneath Slieve Foye, famous for King John's Castle, its narrow lanes and its annual Oyster Festival."
+   },
+   {
+    "name": "Blackrock",
+    "note": "A seaside village on Dundalk Bay with a Victorian promenade, long a favourite bathing spot for the town."
+   },
+   {
+    "name": "Clogherhead",
+    "note": "A working fishing port and Blue Flag beach village, famous for its prawns and its dramatic headland."
+   },
+   {
+    "name": "Termonfeckin",
+    "note": "A pretty village near the coast, once a summer seat of the Archbishops of Armagh and home to a fine 15th-century tower house."
+   },
+   {
+    "name": "Dunleer",
+    "note": "A growing mid-Louth town on the old Dublin to Belfast road with an early Christian monastic heritage."
+   },
+   {
+    "name": "Omeath",
+    "note": "A village on Carlingford Lough that remained Irish-speaking into the early 20th century, the last Gaeltacht area in Leinster."
+   },
+   {
+    "name": "Louth",
+    "note": "The tiny village that gives the county its name, associated with St Mochta, a disciple of St Patrick, whose stone oratory still stands."
+   }
+  ],
+  "people": [
+   {
+    "name": "The Corrs",
+    "note": "The Dundalk family band of Andrea, Sharon, Caroline and Jim, who sold tens of millions of albums worldwide blending pop with traditional Irish music."
+   },
+   {
+    "name": "Thomas D'Arcy McGee",
+    "note": "Carlingford-born journalist and politician who became a Father of Canadian Confederation and was assassinated in Ottawa in 1868."
+   },
+   {
+    "name": "Evanna Lynch",
+    "note": "Actress from Termonfeckin who played Luna Lovegood in the Harry Potter films."
+   },
+   {
+    "name": "Steve Staunton",
+    "note": "Dundalk-born defender who won 102 caps for the Republic of Ireland, played in two World Cups and later managed the national team."
+   },
+   {
+    "name": "Gary Kelly",
+    "note": "Drogheda native who spent his entire professional career at Leeds United, making over 500 appearances and playing for Ireland at two World Cups."
+   },
+   {
+    "name": "Peter Rice",
+    "note": "Dundalk-raised structural engineer behind the Sydney Opera House roof, the Pompidou Centre and the Lloyd's building, regarded as one of the greatest engineers of the 20th century."
+   },
+   {
+    "name": "Nano Reid",
+    "note": "Drogheda-born painter, one of Ireland's leading 20th-century modernist artists, who twice represented Ireland at the Venice Biennale."
+   },
+   {
+    "name": "St Brigid",
+    "note": "Ireland's foremost female saint, traditionally said to have been born at Faughart near Dundalk, where her shrine remains a place of pilgrimage."
+   }
+  ],
+  "facts": [
+   "Louth is the smallest county in Ireland at roughly 826 square kilometres, earning it the nickname 'the Wee County'.",
+   "Mellifont Abbey, founded in 1142, was the first Cistercian monastery in Ireland and became the model for dozens of daughter houses across the country.",
+   "Muiredach's Cross at Monasterboice, standing about 5.5 metres tall, is widely considered the finest high cross in all of Ireland.",
+   "The preserved head of St Oliver Plunkett, executed at Tyburn in 1681 and canonised in 1975, is displayed in a shrine in St Peter's Church, Drogheda.",
+   "Louth is one of the only Irish counties named after a village — the tiny settlement of Louth, whose name derives from Lugh, the ancient Celtic god of light.",
+   "St Laurence's Gate in Drogheda is regarded as one of the finest surviving barbican gates in Europe, a relic of the town's medieval walls.",
+   "The capstone of the Proleek Dolmen near Dundalk weighs an estimated 35 tonnes and has balanced on its three supporting stones for some 5,000 years.",
+   "Omeath on the Cooley Peninsula was the last Irish-speaking district in Leinster, with native speakers surviving there into the 1920s."
+  ]
+ },
+ "Meath": {
+  "intro": [
+   "Meath's very name declares its status: An Mhí, the middle, heart of the ancient fifth province of Míde and seat of the High Kings of Ireland at Tara. This is the Royal County, and no county in Ireland is so saturated with the deep past. In the bend of the Boyne stand Newgrange, Knowth and Dowth — vast passage tombs raised around 3200 BC, older than Stonehenge or the pyramids of Giza, and together a UNESCO World Heritage Site. Each winter solstice, dawn light still creeps up the passage at Newgrange exactly as its builders intended more than five thousand years ago.",
+   "Later ages left their marks just as boldly. The monks of Kells produced one of the world's great manuscripts; Hugh de Lacy built Trim Castle, the largest Anglo-Norman fortress in Ireland; and in 1690 the fate of two kingdoms was decided at the Battle of the Boyne near Oldbridge. Meath's famously rich limestone pastures made it Ireland's great fattening ground for cattle, while Navan sits above Europe's largest zinc mine. Today it is a prosperous, fast-growing county in Dublin's orbit, fiercely proud of its Gaelic football tradition and of a heritage that few places on earth can match."
+  ],
+  "towns": [
+   {
+    "name": "Navan",
+    "note": "The busy county town at the meeting of the Boyne and Blackwater, home to Tara Mines, Europe's largest zinc mine, and birthplace of a surprising number of comedians and actors."
+   },
+   {
+    "name": "Trim",
+    "note": "A heritage town dominated by Trim Castle, the largest Anglo-Norman castle in Ireland and a filming location for Braveheart."
+   },
+   {
+    "name": "Kells",
+    "note": "A monastic town founded by followers of St Colmcille, which gave its name to the Book of Kells and retains a round tower, high crosses and an ancient oratory."
+   },
+   {
+    "name": "Slane",
+    "note": "An elegant estate village where St Patrick is said to have lit the Paschal fire on the Hill of Slane, now world-famous for concerts at Slane Castle."
+   },
+   {
+    "name": "Ashbourne",
+    "note": "A fast-growing commuter town remembered for the Battle of Ashbourne in 1916, one of the few rebel victories of the Easter Rising."
+   },
+   {
+    "name": "Athboy",
+    "note": "A market town beside the Hill of Ward, the ancient site of Tlachtga, where the Samhain fires that gave rise to Halloween were lit."
+   },
+   {
+    "name": "Ratoath",
+    "note": "A commuter town beside Fairyhouse Racecourse, home of the Irish Grand National every Easter Monday."
+   },
+   {
+    "name": "Laytown",
+    "note": "A seaside village that hosts the Laytown Races, the only official race meeting in Europe run on a beach."
+   },
+   {
+    "name": "Oldcastle",
+    "note": "A north Meath town beneath the Loughcrew hills, whose Neolithic cairns align with the equinox sunrise."
+   },
+   {
+    "name": "Bettystown",
+    "note": "A coastal resort village where the magnificent 8th-century Tara Brooch was found on the beach in 1850."
+   }
+  ],
+  "people": [
+   {
+    "name": "Pierce Brosnan",
+    "note": "Navan-born actor who became world famous as James Bond and in films from The Thomas Crown Affair to Mamma Mia."
+   },
+   {
+    "name": "Francis Beaufort",
+    "note": "Navan-born hydrographer of the Royal Navy who devised the Beaufort scale of wind force still used around the world."
+   },
+   {
+    "name": "St Oliver Plunkett",
+    "note": "Archbishop of Armagh born at Loughcrew in 1625, martyred at Tyburn in 1681 and canonised in 1975 as the first new Irish saint in almost 700 years."
+   },
+   {
+    "name": "John Boyle O'Reilly",
+    "note": "Fenian poet born at Dowth Castle who was transported to Australia, escaped on a whaling ship and became one of Boston's most celebrated writers and editors."
+   },
+   {
+    "name": "Turlough O'Carolan",
+    "note": "Blind harper and composer born near Nobber around 1670, often called Ireland's national composer."
+   },
+   {
+    "name": "Jim Connell",
+    "note": "Labour activist from Kilskyre who wrote The Red Flag, the anthem of the international labour movement."
+   },
+   {
+    "name": "Dylan Moran",
+    "note": "Comedian and actor born in Navan, creator and star of the sitcom Black Books."
+   },
+   {
+    "name": "Tommy Tiernan",
+    "note": "One of Ireland's best-loved comedians and chat-show hosts, who grew up in Navan."
+   },
+   {
+    "name": "Seán Boylan",
+    "note": "Herbalist from Dunboyne who managed the Meath footballers for 23 years, winning four All-Ireland titles."
+   },
+   {
+    "name": "Mary Lavin",
+    "note": "Celebrated short-story writer who lived and worked for much of her life on a farm at Bective on the Boyne."
+   }
+  ],
+  "facts": [
+   "Newgrange was built around 3200 BC, making it centuries older than Stonehenge and the Great Pyramid of Giza; its roof-box channels the winter solstice sunrise into the burial chamber.",
+   "The Hill of Tara was the ceremonial seat of the High Kings of Ireland, and its standing stone, the Lia Fáil, was said to cry out when touched by the rightful king.",
+   "Trim Castle took around 30 years to build from 1176 and is the largest Anglo-Norman castle in Ireland; it stood in for medieval York in the film Braveheart.",
+   "The Battle of the Boyne was fought near Oldbridge on 1 July 1690, when William III defeated James II in one of the most consequential battles in Irish history.",
+   "Tara Mines near Navan is the largest zinc mine in Europe, in production since 1977.",
+   "The Laytown Races, run since 1868, are the only official horse races in Europe held on a beach under the rules of racing.",
+   "Westmeath was part of Meath until 1543, when it was split off by act of parliament — both counties descend from the ancient kingdom of Míde, once counted as Ireland's fifth province.",
+   "The Tara Brooch, one of the greatest treasures of early Irish metalwork, was actually found on the beach at Bettystown in 1850 and has no connection to the Hill of Tara beyond its marketing-friendly name.",
+   "Halloween traces its roots to the festival of Samhain celebrated at Tlachtga, the Hill of Ward near Athboy, where great fires were lit to mark the Celtic new year."
+  ]
+ },
+ "Offaly": {
+  "intro": [
+   "Few counties carry the weight of early Christian Ireland quite like Offaly. At Clonmacnoise, founded by St Ciaran around 544 where the Slighe Mhor road crossed the River Shannon, high kings of Ireland were buried among round towers and carved crosses, and the monastery grew into one of medieval Europe's great centres of learning. Shired in 1556 as King's County, in honour of Philip II of Spain during his marriage to Mary I, the county reclaimed its ancient name of Uibh Fhaili after independence. Its landscape is one of quiet drama: raised bogs, eskers left by retreating glaciers, and the rounded Slieve Bloom Mountains rising along the southern border.",
+   "For much of the twentieth century Offaly's economy ran on turf, with Bord na Mona harvesting the great midland bogs to feed power stations at Ferbane and Shannonbridge; today those same boglands are being rewetted and reimagined for wildlife and walking. Tullamore built a global whiskey brand, while Georgian Birr became an unlikely centre of Victorian science thanks to the astronomer earls of Rosse. Offaly people are famously understated, yet the county has punched far above its weight in sport, claiming All-Ireland titles in both hurling and football and producing an Open golf champion in Shane Lowry of Clara."
+  ],
+  "towns": [
+   {
+    "name": "Tullamore",
+    "note": "The county town on the Grand Canal, home of Tullamore D.E.W. whiskey and its visitor distillery."
+   },
+   {
+    "name": "Birr",
+    "note": "An elegant Georgian heritage town whose castle grounds hold the Leviathan, once the largest telescope on Earth."
+   },
+   {
+    "name": "Banagher",
+    "note": "A historic Shannon crossing point where Anthony Trollope worked and Charlotte Bronte spent her honeymoon."
+   },
+   {
+    "name": "Edenderry",
+    "note": "A busy market town on the county's eastern edge, ringed by the Bog of Allen and the Grand Canal."
+   },
+   {
+    "name": "Clara",
+    "note": "A former jute and mill town that raised both Taoiseach Brian Cowen and Open champion Shane Lowry."
+   },
+   {
+    "name": "Daingean",
+    "note": "Formerly Philipstown, the original county town of King's County, set on the Grand Canal."
+   },
+   {
+    "name": "Ferbane",
+    "note": "A west Offaly town shaped by the peat industry and its former Bord na Mona power station."
+   },
+   {
+    "name": "Shannonbridge",
+    "note": "A small Shannon-side village guarded by a Napoleonic-era artillery fortification, close to Clonmacnoise."
+   },
+   {
+    "name": "Kinnitty",
+    "note": "A pretty gateway village to the Slieve Bloom Mountains, known for its castle and curious pyramid mausoleum."
+   }
+  ],
+  "people": [
+   {
+    "name": "Shane Lowry",
+    "note": "Golfer from Clara who won the 2019 Open Championship at Royal Portrush."
+   },
+   {
+    "name": "Brian Cowen",
+    "note": "Clara native who served as Taoiseach from 2008 to 2011."
+   },
+   {
+    "name": "William Parsons, 3rd Earl of Rosse",
+    "note": "Astronomer of Birr Castle who built the Leviathan telescope and first observed the spiral structure of galaxies."
+   },
+   {
+    "name": "Sir Charles Parsons",
+    "note": "Inventor of the compound steam turbine, raised at Birr Castle as the youngest son of the 3rd Earl of Rosse."
+   },
+   {
+    "name": "Brian Whelahan",
+    "note": "Birr hurling legend named on the GAA Team of the Millennium while still playing."
+   },
+   {
+    "name": "Mundy",
+    "note": "Singer-songwriter from Birr best known for 'July' and his version of 'Galway Girl'."
+   },
+   {
+    "name": "Neil Delamere",
+    "note": "Comedian and broadcaster from Edenderry, a fixture of Irish television panel shows."
+   },
+   {
+    "name": "St Ciaran",
+    "note": "Sixth-century saint who founded the great monastic city of Clonmacnoise on the Shannon."
+   },
+   {
+    "name": "Barack Obama",
+    "note": "The 44th US president traces his Irish roots to Moneygall, where his ancestor Falmouth Kearney lived before emigrating in 1850."
+   }
+  ],
+  "facts": [
+   "Offaly was known as King's County from 1556 until independence, named for Philip II of Spain, then husband of Queen Mary I.",
+   "The Leviathan of Parsonstown at Birr Castle, completed in 1845, remained the largest telescope in the world for over seventy years.",
+   "In 1785 a crashed hot-air balloon set fire to Tullamore, destroying around 100 homes in what is often called the world's first aviation disaster; the town's crest features a phoenix rising from flames.",
+   "Old Croghan Man, an exceptionally tall Iron Age bog body over 2,000 years old, was discovered near Croghan Hill in 2003.",
+   "Seamus Darby's late goal for Offaly in the 1982 All-Ireland football final famously denied Kerry a historic five-in-a-row.",
+   "Tullamore D.E.W. whiskey takes its initials from Daniel E. Williams, the manager who built up the distillery in the late 1800s.",
+   "The box hedges in the gardens of Birr Castle are recognised as the tallest in the world.",
+   "Clonmacnoise was the burial place of the last High King of Ireland, Rory O'Connor, in 1198."
+  ]
+ },
+ "Westmeath": {
+  "intro": [
+   "Westmeath is Ireland's lake country, its low green hills threaded between Lough Ennell, Lough Owel, Lough Lene, Lough Derravaragh and the broad waters of Lough Ree on the Shannon. Myth runs deep here: the Children of Lir were said to have spent 300 years as swans on Derravaragh, and the Hill of Uisneach near Ballymore was regarded by the ancients as the sacred centre of Ireland, where the fires of Bealtaine were kindled and the provinces met at the great Catstone. Carved out of Meath by statute in 1543, the county has long been prosperous grazing land, celebrated for cattle so well fed the saying went 'beef to the heel like a Mullingar heifer'.",
+   "Its two principal towns pull in different directions: Mullingar, the county town, sits amid the lakes on the Royal Canal, while Athlone commands the Shannon crossing between Leinster and Connacht, its castle guarding a bridge fought over for centuries. Whiskey has been made at Kilbeggan since 1757, and music is a county tradition running from the tenor John McCormack through showband king Joe Dolan to Niall Horan of One Direction. With Goldsmith country along its western shore and Belvedere House on Lough Ennell, Westmeath rewards travellers who slow down and take to the water."
+  ],
+  "towns": [
+   {
+    "name": "Mullingar",
+    "note": "The lakeside county town on the Royal Canal, famed for its cathedral, its music heritage and its cattle-trading past."
+   },
+   {
+    "name": "Athlone",
+    "note": "The Shannon-side gateway between east and west, home to a Norman castle and Sean's Bar, reputedly Ireland's oldest pub."
+   },
+   {
+    "name": "Kilbeggan",
+    "note": "A canal-era town whose distillery, licensed in 1757, is among the oldest licensed distilleries in the world."
+   },
+   {
+    "name": "Moate",
+    "note": "A midlands market town named after the great Norman motte of Moategranoge beside it."
+   },
+   {
+    "name": "Castlepollard",
+    "note": "A trim plantation town near Tullynally Castle and the ancient monastic village of Fore."
+   },
+   {
+    "name": "Fore",
+    "note": "A tiny valley village celebrated for its Benedictine priory and the legendary Seven Wonders of Fore."
+   },
+   {
+    "name": "Tyrrellspass",
+    "note": "A graceful Georgian village built around a crescent green by the Countess of Belvedere."
+   },
+   {
+    "name": "Kinnegad",
+    "note": "A crossroads town on the old Dublin road, long a coaching and travellers' stop."
+   },
+   {
+    "name": "Glasson",
+    "note": "The 'village of the roses' near Lough Ree, at the heart of Goldsmith country."
+   }
+  ],
+  "people": [
+   {
+    "name": "Niall Horan",
+    "note": "Mullingar-born singer who found global fame with One Direction before a successful solo career."
+   },
+   {
+    "name": "Joe Dolan",
+    "note": "Mullingar showband legend whose statue stands on the town's Market Square."
+   },
+   {
+    "name": "John Count McCormack",
+    "note": "World-famous tenor born in Athlone in 1884, made a papal count for his services to charity."
+   },
+   {
+    "name": "Oliver Goldsmith",
+    "note": "Author of The Deserted Village and She Stoops to Conquer, raised at Lissoy near Glasson, the heart of Goldsmith country."
+   },
+   {
+    "name": "T. P. O'Connor",
+    "note": "Athlone-born journalist and MP who became Father of the House of Commons after nearly five decades at Westminster."
+   },
+   {
+    "name": "Niall Breslin (Bressie)",
+    "note": "Mullingar musician, former rugby player and mental-health advocate who fronted The Blizzards."
+   },
+   {
+    "name": "John Broderick",
+    "note": "Athlone novelist whose books chronicled midlands small-town life in the mid-twentieth century."
+   },
+   {
+    "name": "Michael O'Leary",
+    "note": "Ryanair chief executive and racehorse owner long based at Gigginstown House near Mullingar."
+   }
+  ],
+  "facts": [
+   "Sean's Bar in Athlone is recognised by Guinness World Records as Ireland's oldest pub, with parts of the building dating to around 900 AD.",
+   "The Hill of Uisneach was regarded in early Ireland as the mystical centre of the island, and its Bealtaine fire festival has been revived in modern times.",
+   "In legend, the Children of Lir spent 300 of their 900 enchanted years as swans on Lough Derravaragh.",
+   "Westmeath was created in 1543 when an Act of Parliament divided the old county of Meath in two.",
+   "A townland on the shores of Lough Ennell is called Lilliput, a name local tradition links to Jonathan Swift, who visited the area before writing Gulliver's Travels.",
+   "From 1933 the high-power radio transmitter at Athlone broadcast to all of Europe, and 'Athlone' was marked on radio dials across the continent.",
+   "The Jealous Wall at Belvedere House, built by an earl to blot out his brother's home, is Ireland's largest folly.",
+   "Kilbeggan Distillery, licensed in 1757, is one of the oldest licensed whiskey distilleries in the world."
+  ]
+ },
+ "Wexford": {
+  "intro": [
+   "History has a habit of arriving in Wexford by sea. The Vikings founded the county town as Waesfjord in the ninth century, and in 1169 the Normans made their first Irish landfall on the county's southern shore at Bannow Bay, changing the course of the island's story. In 1798 Wexford rose more fiercely than anywhere else in Ireland, and the pikemen of Boolavogue, the battle of Vinegar Hill and the short-lived Wexford Republic remain woven into the county's identity and its ballads. In the medieval baronies of Forth and Bargy, settlers' descendants spoke Yola, a unique dialect descended from Middle English, into the nineteenth century.",
+   "Known as the Model County for its progressive farming, Wexford enjoys more sunshine than most of Ireland, which is why its strawberries and early potatoes are famous nationwide. The fertile land rolls from the Blackstairs Mountains to long sandy beaches at Curracloe and Rosslare, where the Europort connects Ireland to Wales and France. Wexford town stages an internationally renowned opera festival each autumn, while New Ross tells the emigration story through the Dunbrody famine ship and the Kennedy Homestead at Dunganstown, the farm from which John F. Kennedy's great-grandfather set out in 1848."
+  ],
+  "towns": [
+   {
+    "name": "Wexford",
+    "note": "The Viking-founded county town, famous worldwide for its annual festival of rarely performed operas."
+   },
+   {
+    "name": "Enniscorthy",
+    "note": "A Norman castle town on the Slaney beneath Vinegar Hill, epicentre of the 1798 Rebellion."
+   },
+   {
+    "name": "New Ross",
+    "note": "A medieval port on the Barrow, home to the Dunbrody famine ship and gateway to the Kennedy ancestral homestead."
+   },
+   {
+    "name": "Gorey",
+    "note": "A thriving market town in north Wexford, a popular base for the beaches at Courtown and Ballymoney."
+   },
+   {
+    "name": "Rosslare Harbour",
+    "note": "Ireland's ferry gateway to Wales and continental Europe, beside the sunny resort of Rosslare Strand."
+   },
+   {
+    "name": "Ferns",
+    "note": "The ancient capital of Leinster and seat of Diarmait Mac Murchada, with a fine ruined castle and abbey."
+   },
+   {
+    "name": "Bunclody",
+    "note": "A handsome tree-lined town at the foot of Mount Leinster on the Carlow border."
+   },
+   {
+    "name": "Kilmore Quay",
+    "note": "A thatched-cottage fishing village and the departure point for the Saltee Islands bird sanctuaries."
+   },
+   {
+    "name": "Duncannon",
+    "note": "A beach village on the Hook Peninsula dominated by a star-shaped fort built against the Spanish Armada."
+   }
+  ],
+  "people": [
+   {
+    "name": "Commodore John Barry",
+    "note": "Born at Ballysampson near Tacumshane, he became a hero of the American Revolution and is honoured as a father of the US Navy."
+   },
+   {
+    "name": "Eileen Gray",
+    "note": "Pioneering modernist designer and architect, born near Enniscorthy in 1878, whose furniture now sells for record sums."
+   },
+   {
+    "name": "Colm Toibin",
+    "note": "Enniscorthy-born novelist whose book Brooklyn, set partly in his home town, became an Oscar-nominated film."
+   },
+   {
+    "name": "John Banville",
+    "note": "Wexford town native and Booker Prize-winning author of The Sea."
+   },
+   {
+    "name": "Diarmait Mac Murchada",
+    "note": "The King of Leinster, seated at Ferns, whose appeal for help brought the Normans to Ireland in 1169."
+   },
+   {
+    "name": "Nicky Rackard",
+    "note": "Legendary Rathnure hurler who led Wexford to All-Ireland glory in the 1950s and has a statue in Wexford town."
+   },
+   {
+    "name": "Jim Bolger",
+    "note": "Champion racehorse trainer born at Oylegate, who mentored both Aidan O'Brien and Tony McCoy."
+   },
+   {
+    "name": "Anne Doyle",
+    "note": "One of RTE's best-loved newsreaders, a native of Ferns."
+   },
+   {
+    "name": "Kevin Doyle",
+    "note": "Republic of Ireland striker from Adamstown who starred in the Premier League for Reading and Wolves."
+   },
+   {
+    "name": "Billy Roche",
+    "note": "Wexford town playwright whose Wexford Trilogy brought the town's life to the London stage."
+   }
+  ],
+  "facts": [
+   "Hook Lighthouse on the Hook Peninsula has guided ships for some 800 years, making it one of the oldest operational lighthouses in the world.",
+   "Wexford takes its name from the Norse Waesfjord, meaning inlet of the mudflats.",
+   "Yola, a distinct language descended from Middle English, was spoken in the baronies of Forth and Bargy until the nineteenth century.",
+   "During the 1798 Rebellion, Wexford insurgents briefly declared an independent Wexford Republic before defeat at Vinegar Hill.",
+   "John F. Kennedy's great-grandfather Patrick emigrated from Dunganstown near New Ross in 1848, and JFK returned to the family farm as US president in June 1963.",
+   "Wexford Festival Opera, founded in 1951, built a global reputation by staging rare and forgotten operas.",
+   "In 1943 businessman Michael Neale bought the Saltee Islands and declared himself Prince Michael the First of the Saltees, erecting a throne that still stands there.",
+   "The Normans made their first landing in Ireland in 1169 at Bannow Bay on the south Wexford coast."
+  ]
+ },
+ "Wicklow": {
+  "intro": [
+   "They call Wicklow the Garden of Ireland, but its beauty has a wild streak: the Wicklow Mountains form the largest continuous upland area in the country, a granite spine of heathery domes, glacial valleys and dark corrie lakes beginning barely an hour from Dublin city centre. In the valley of Glendalough, St Kevin founded a monastic settlement in the sixth century that grew into one of Ireland's most important religious sites, its round tower still standing between the two lakes. Those same mountains sheltered rebels for years after the 1798 Rising, prompting the British to cut the Military Road through the hills, today one of Ireland's most scenic drives.",
+   "Wicklow was the last of the traditional counties to be shired, in 1606, precisely because its terrain was so hard to subdue. Its later story is gentler: grand estates like Powerscourt and Parnell's Avondale, Victorian holidaymakers flocking to Bray on Brunel's railway, and a modern screen industry built around Ardmore Studios that has hosted everything from Braveheart to Vikings. Between the mountains and the sea runs a string of harbour and resort towns, while inland villages like Avoca and Enniskerry seem designed for postcards. For the diaspora, Wicklow offers Ireland in concentrate: monastic ruins, rebel history and mountain solitude within sight of the capital."
+  ],
+  "towns": [
+   {
+    "name": "Wicklow",
+    "note": "The county town, a harbour settlement of Viking origin whose historic gaol tells the story of transportation to Australia."
+   },
+   {
+    "name": "Bray",
+    "note": "A Victorian seaside resort with a famous seafront promenade, cliff walk to Greystones and the Ardmore film studios."
+   },
+   {
+    "name": "Greystones",
+    "note": "A fast-growing harbour town regularly ranked among the most desirable places to live in Ireland."
+   },
+   {
+    "name": "Arklow",
+    "note": "A proud maritime town at the mouth of the Avoca River, where Tyrrell's boatyard built Sir Francis Chichester's Gipsy Moth III."
+   },
+   {
+    "name": "Blessington",
+    "note": "A west Wicklow town on the shores of the vast Poulaphouca reservoir, which supplies Dublin's water."
+   },
+   {
+    "name": "Baltinglass",
+    "note": "A Slaney-side town beneath one of Europe's most remarkable clusters of hillforts, with a ruined Cistercian abbey."
+   },
+   {
+    "name": "Rathdrum",
+    "note": "A hillside town beside Avondale House, the birthplace and home of Charles Stewart Parnell."
+   },
+   {
+    "name": "Avoca",
+    "note": "The village of the Meeting of the Waters, home to Ireland's oldest working woollen mill and the setting for Ballykissangel."
+   },
+   {
+    "name": "Enniskerry",
+    "note": "A picture-perfect estate village at the gates of Powerscourt House, its gardens among the finest in the world."
+   },
+   {
+    "name": "Roundwood",
+    "note": "A mountain village near Lough Dan that claims to be among the highest villages in Ireland."
+   }
+  ],
+  "people": [
+   {
+    "name": "Charles Stewart Parnell",
+    "note": "The 'uncrowned king of Ireland' and Home Rule leader, born and raised at Avondale House near Rathdrum."
+   },
+   {
+    "name": "Katie Taylor",
+    "note": "Bray's Olympic gold medallist and undisputed world champion, one of the greatest boxers Ireland has produced."
+   },
+   {
+    "name": "Hozier",
+    "note": "The 'Take Me to Church' singer-songwriter, born in Bray and raised in County Wicklow."
+   },
+   {
+    "name": "Dara O Briain",
+    "note": "Bray-born comedian and broadcaster, a household name on British and Irish television."
+   },
+   {
+    "name": "Captain Robert Halpin",
+    "note": "Wicklow town mariner who commanded the Great Eastern as it laid transatlantic telegraph cables."
+   },
+   {
+    "name": "Erskine Childers",
+    "note": "Author of The Riddle of the Sands and republican leader, reared at Glendalough House, Annamoe."
+   },
+   {
+    "name": "St Kevin",
+    "note": "Sixth-century hermit and saint who founded the monastic city of Glendalough."
+   },
+   {
+    "name": "Daniel Day-Lewis",
+    "note": "Triple Oscar-winning actor who has made his home at Annamoe in the Wicklow hills for decades."
+   },
+   {
+    "name": "Sinead O'Connor",
+    "note": "The iconic singer lived much of her life in Bray, where thousands lined the seafront for her funeral in 2023."
+   }
+  ],
+  "facts": [
+   "Wicklow was the last of Ireland's traditional counties to be created, formally shired in 1606 because its mountains had resisted control for so long.",
+   "Lugnaquilla, at 925 metres, is the highest mountain in Ireland outside County Kerry.",
+   "Ireland's only gold rush took place in 1795 along the Goldmines River near Croghan Kinsella, where thousands panned for alluvial gold.",
+   "At 121 metres, Powerscourt Waterfall is generally cited as Ireland's highest year-round waterfall.",
+   "The railway around Bray Head, opened in the 1850s, was engineered by Isambard Kingdom Brunel.",
+   "The Military Road through the Wicklow Mountains was built by the British after 1798 to root out rebels such as Michael Dwyer hiding in the hills.",
+   "Lough Tay, the dark 'Guinness Lake' on the Luggala estate, doubled as Kattegat in the television series Vikings.",
+   "Wicklow has its own village called Hollywood, which displays a hillside sign echoing its Californian namesake."
+  ]
+ },
+ "Clare": {
+  "intro": [
+   "Few Irish counties pack in as much geological drama as Clare. The Burren, a vast limestone karst plateau in the north of the county, is a botanist's dream where arctic-alpine and Mediterranean plants grow side by side among grey stone pavements strewn with Neolithic tombs. To the south the land softens into farmland before ending abruptly at the Cliffs of Moher, which tower more than 200 metres above the Atlantic. Between them lie fishing villages, seaside resorts and the long finger of the Loop Head peninsula, while the county's eastern boundary is traced by Lough Derg and the River Shannon.",
+   "Clare is often called the home of Irish traditional music, and with reason: villages such as Doolin, Miltown Malbay and Feakle host sessions and summer schools that draw musicians from around the world. History runs deep too, from Brian Boru's power base at Killaloe to Michael Cusack of the Burren, who founded the GAA in 1884. The arrival of Shannon Airport in the 1940s transformed the county's economy, pioneering duty-free shopping and drawing industry to the mid-west. Known as the Banner County, Clare remains passionately devoted to hurling, and its 1995 All-Ireland win after an 81-year wait is the stuff of local legend."
+  ],
+  "towns": [
+   {
+    "name": "Ennis",
+    "note": "The county town, a medieval market town on the River Fergus known for its 13th-century Franciscan friary, narrow streets and lively traditional music scene."
+   },
+   {
+    "name": "Kilrush",
+    "note": "A heritage town and marina port in west Clare, the gateway to Scattery Island's monastic ruins and dolphin-watching on the Shannon Estuary."
+   },
+   {
+    "name": "Kilkee",
+    "note": "A Victorian seaside resort curved around a sheltered horseshoe bay, long a favourite bathing spot with dramatic cliff walks nearby."
+   },
+   {
+    "name": "Doolin",
+    "note": "A coastal village famed worldwide as a hub of traditional music, and the departure point for ferries to the Aran Islands and Cliffs of Moher cruises."
+   },
+   {
+    "name": "Lisdoonvarna",
+    "note": "A former Victorian spa town best known for its September Matchmaking Festival, one of Europe's largest singles gatherings."
+   },
+   {
+    "name": "Ennistymon",
+    "note": "A characterful market town noted for its old painted shopfronts and the Cascades, where the River Inagh tumbles over rocky falls behind the main street."
+   },
+   {
+    "name": "Killaloe",
+    "note": "A historic Lough Derg town linked by a 17-arch bridge to Ballina in Tipperary, and celebrated as the home place of High King Brian Boru."
+   },
+   {
+    "name": "Miltown Malbay",
+    "note": "A west Clare town that hosts the Willie Clancy Summer School each July, Ireland's largest traditional music school."
+   },
+   {
+    "name": "Bunratty",
+    "note": "A small village dominated by 15th-century Bunratty Castle and its folk park, one of Ireland's most visited heritage attractions."
+   },
+   {
+    "name": "Corofin",
+    "note": "A village on the edge of the Burren that is home to the Clare Heritage Centre, a key stop for those tracing Clare ancestors."
+   }
+  ],
+  "people": [
+   {
+    "name": "Brian Boru",
+    "note": "High King of Ireland who defeated the Vikings at Clontarf in 1014; his royal seat of Kincora was at Killaloe in east Clare."
+   },
+   {
+    "name": "Michael Cusack",
+    "note": "Founder of the Gaelic Athletic Association in 1884, born in the Burren village of Carron where his cottage is now a visitor centre."
+   },
+   {
+    "name": "Edna O'Brien",
+    "note": "Internationally acclaimed novelist, author of The Country Girls, born and raised in Tuamgraney in east Clare."
+   },
+   {
+    "name": "Willie Clancy",
+    "note": "Master uilleann piper from Miltown Malbay whose legacy lives on in the summer school named in his honour."
+   },
+   {
+    "name": "Martin Hayes",
+    "note": "One of the world's most celebrated traditional fiddlers, from Feakle, and a founding member of The Gloaming."
+   },
+   {
+    "name": "Sharon Shannon",
+    "note": "Button accordion virtuoso from Ruan near Corofin, one of Ireland's best-known traditional musicians."
+   },
+   {
+    "name": "Keith Wood",
+    "note": "Legendary Ireland and Lions rugby hooker, born in Killaloe, and the first-ever World Rugby Player of the Year in 2001."
+   },
+   {
+    "name": "Anthony Daly",
+    "note": "Clarecastle hurler who captained Clare to their famous All-Ireland victories of 1995 and 1997."
+   },
+   {
+    "name": "Davy Fitzgerald",
+    "note": "Sixmilebridge goalkeeper on Clare's 1995 and 1997 All-Ireland winning teams, later a high-profile intercounty manager."
+   },
+   {
+    "name": "Marty Morrissey",
+    "note": "RTE's much-loved GAA commentator, raised in the seaside village of Quilty in west Clare."
+   }
+  ],
+  "facts": [
+   "Shannon Airport opened the world's first duty-free shop in 1947, an idea that spread to airports across the globe.",
+   "The Poulnabrone dolmen in the Burren was built around 3800 BC, making it centuries older than the pyramids of Egypt.",
+   "Muhammad Ali's great-grandfather Abe Grady emigrated from Ennis in the 1860s, and the boxing legend visited the town to honour his roots in 2009.",
+   "Daniel O'Connell's victory in the 1828 Clare by-election forced the British government to grant Catholic Emancipation the following year.",
+   "The parochial house from the sitcom Father Ted stands near Kilnaboy, and much of the series was filmed around the Burren.",
+   "The Cliffs of Moher reach 214 metres at their highest point and attract well over a million visitors a year.",
+   "Clare is nicknamed the Banner County, a name linked to the banners carried at its great political rallies of the 19th century.",
+   "Spanish Point takes its name from ships of the Spanish Armada wrecked off the Clare coast in 1588."
+  ]
+ },
+ "Cork": {
+  "intro": [
+   "Ireland's largest county sprawls from rich dairy pasture in the north to the wild, fuchsia-hedged peninsulas of West Cork, where the land splinters into Mizen Head, Sheep's Head and Beara. At its heart sits Cork city, built on islands in the River Lee, a proudly independent merchant city whose people only half-jokingly call it the real capital. The county's coastline shaped its fortunes: Cork Harbour is one of the largest natural harbours in the world, and for generations Cobh was the last sight of Ireland for emigrants boarding ships for America, including passengers of the Titanic.",
+   "Cork earned its Rebel County nickname in the 15th century for backing the pretender Perkin Warbeck, and it lived up to the name during the War of Independence, when Michael Collins of Clonakilty led the fight and two of the city's Lord Mayors died for the cause. Today the county is as famous for food as for rebellion: the English Market has traded since 1788, Kinsale styles itself Ireland's gourmet capital, and Midleton distils some of the world's best-known whiskeys. Add a fierce hurling tradition, a thriving pharmaceutical and tech economy, and festivals from jazz to film, and Cork's confidence is easy to understand."
+  ],
+  "towns": [
+   {
+    "name": "Cork",
+    "note": "Ireland's second city, built on the River Lee, known for the English Market, Shandon's bells, University College Cork and a famously proud identity."
+   },
+   {
+    "name": "Cobh",
+    "note": "The great emigration port on Cork Harbour, the Titanic's final port of call in 1912 and the departure point of Annie Moore, the first emigrant processed at Ellis Island."
+   },
+   {
+    "name": "Kinsale",
+    "note": "A colourful harbour town regarded as Ireland's gourmet capital, and the site of the pivotal Battle of Kinsale in 1601."
+   },
+   {
+    "name": "Clonakilty",
+    "note": "A lively West Cork town famous for its black pudding and as the heartland of Michael Collins, who was born nearby at Woodfield."
+   },
+   {
+    "name": "Bantry",
+    "note": "A market town at the head of Bantry Bay, remembered for the failed French invasion fleet of 1796 and home to the elegant Bantry House."
+   },
+   {
+    "name": "Skibbereen",
+    "note": "A West Cork town whose Famine story is among the most harrowing in Ireland, movingly told at its heritage centre."
+   },
+   {
+    "name": "Youghal",
+    "note": "A walled medieval port at the mouth of the Blackwater once governed by Sir Walter Raleigh, and the filming location for the 1954 film Moby Dick."
+   },
+   {
+    "name": "Midleton",
+    "note": "An east Cork town synonymous with whiskey, home to the distillery where Jameson and Midleton Very Rare are produced."
+   },
+   {
+    "name": "Blarney",
+    "note": "A village just north of the city whose castle draws visitors from around the world to kiss the Blarney Stone for the gift of eloquence."
+   },
+   {
+    "name": "Baltimore",
+    "note": "A sailing village in West Cork infamously sacked by Barbary pirates in 1631, now the gateway to Sherkin and Cape Clear islands."
+   }
+  ],
+  "people": [
+   {
+    "name": "Michael Collins",
+    "note": "Revolutionary leader and Commander-in-Chief of the Free State army, born at Woodfield near Clonakilty in 1890."
+   },
+   {
+    "name": "Roy Keane",
+    "note": "One of football's greatest midfielders and Manchester United's long-serving captain, from Mayfield in Cork city."
+   },
+   {
+    "name": "Sonia O'Sullivan",
+    "note": "Olympic silver medallist and world champion runner from Cobh, one of Ireland's greatest ever athletes."
+   },
+   {
+    "name": "Cillian Murphy",
+    "note": "Oscar-winning star of Oppenheimer and Peaky Blinders, born and raised in Cork city."
+   },
+   {
+    "name": "Rory Gallagher",
+    "note": "Blues-rock guitar legend who grew up in Cork city, where a bronze statue and an annual festival honour him."
+   },
+   {
+    "name": "Jack Lynch",
+    "note": "Twice Taoiseach and a Cork sporting icon who won six consecutive All-Ireland medals in hurling and football in the 1940s."
+   },
+   {
+    "name": "Mother Jones",
+    "note": "Mary Harris Jones, the fearless American labour organiser once branded the most dangerous woman in America, was born in Cork city around 1837."
+   },
+   {
+    "name": "Christy Ring",
+    "note": "Cloyne-born hurler widely regarded as one of the greatest players in the history of the game, winner of eight All-Ireland titles."
+   },
+   {
+    "name": "Terence MacSwiney",
+    "note": "Lord Mayor of Cork whose 74-day hunger strike and death in 1920 drew worldwide attention to Ireland's independence struggle."
+   },
+   {
+    "name": "Graham Norton",
+    "note": "The BBC's celebrated chat show host, who grew up in Bandon in West Cork."
+   }
+  ],
+  "facts": [
+   "Cork is Ireland's largest county, and Cork Harbour is often described as one of the largest natural harbours in the world.",
+   "Annie Moore from Cork, the first immigrant ever processed at Ellis Island in 1892, sailed from Cobh, where her statue now stands on the quayside.",
+   "The Fastnet Rock off West Cork, Ireland's most southerly point, was nicknamed Ireland's Teardrop because it was the last piece of home emigrants saw.",
+   "Cork's English Market has been trading continuously since 1788 and was famously visited by Queen Elizabeth II in 2011.",
+   "The Rebel County nickname dates to 1491, when Cork backed Perkin Warbeck's claim to the English throne.",
+   "In 1631 pirates from the Barbary Coast sacked the village of Baltimore and carried off more than 100 inhabitants into slavery.",
+   "Henry Ford's father emigrated from Ballinascarthy near Clonakilty, and in 1917 Ford chose Cork city for its first purpose-built factory outside North America.",
+   "Cobh was called Queenstown when the Titanic made it her final port of call on 11 April 1912."
+  ]
+ },
+ "Kerry": {
+  "intro": [
+   "They call it the Kingdom, and Kerry's subjects rarely argue. Ireland's most mountainous county contains the island's highest range, MacGillycuddy's Reeks, crowned by Carrauntoohil at 1,038 metres, and a coastline of peninsulas that reach far into the Atlantic. Off the Iveragh Peninsula rises Skellig Michael, where early Christian monks built beehive cells on a sea crag six centuries before the Normans came. The Dingle Peninsula shelters one of Ireland's strongest Gaeltacht communities, and the abandoned Blasket Islands produced an astonishing body of Irish-language literature from a tiny fishing population.",
+   "Tourism came early to Kerry: Victorian travellers flocked to Killarney's lakes, and the Muckross Estate later became the nucleus of Ireland's first national park in 1932. The county gave Ireland its greatest political figure of the 19th century in Daniel O'Connell of Derrynane, and its greatest Antarctic hero in Tom Crean of Annascaul. Listowel's literary tradition, led by John B. Keane, earned north Kerry a reputation as a writers' county, while in sport Kerry stands alone, having won more All-Ireland senior football titles than any other county. Emigration scattered Kerry people across the world, and the diaspora returns in great numbers every summer."
+  ],
+  "towns": [
+   {
+    "name": "Tralee",
+    "note": "The county town and commercial hub of Kerry, home of the Rose of Tralee festival held every August since 1959."
+   },
+   {
+    "name": "Killarney",
+    "note": "Ireland's original tourist town, set beside the lakes, waterfalls and ancient oakwoods of Killarney National Park beneath MacGillycuddy's Reeks."
+   },
+   {
+    "name": "Dingle",
+    "note": "A harbour town on its namesake peninsula famed for seafood, film links, its Gaeltacht hinterland and decades of association with Fungie the dolphin."
+   },
+   {
+    "name": "Listowel",
+    "note": "North Kerry's literary capital, home town of playwright John B. Keane and host of Writers' Week, Ireland's oldest literary festival."
+   },
+   {
+    "name": "Kenmare",
+    "note": "An elegant heritage town at the meeting point of the Ring of Kerry and the Beara Peninsula, noted for fine food and a Bronze Age stone circle."
+   },
+   {
+    "name": "Cahersiveen",
+    "note": "The main town of the Iveragh Peninsula, birthplace area of Daniel O'Connell, whose memorial church is a rare one dedicated to a layman."
+   },
+   {
+    "name": "Killorglin",
+    "note": "A town on the River Laune famous for Puck Fair, one of Ireland's oldest festivals, at which a wild mountain goat is crowned king each August."
+   },
+   {
+    "name": "Waterville",
+    "note": "A Ring of Kerry seaside village beloved by Charlie Chaplin, who holidayed here for years and is remembered with a statue and film festival."
+   },
+   {
+    "name": "Ballybunion",
+    "note": "A north Kerry resort renowned for its cliffs, beaches and a links golf course ranked among the finest in the world."
+   },
+   {
+    "name": "Portmagee",
+    "note": "A fishing village connected by bridge to Valentia Island and the main departure point for boat trips to Skellig Michael."
+   }
+  ],
+  "people": [
+   {
+    "name": "Daniel O'Connell",
+    "note": "The Liberator who won Catholic Emancipation in 1829, born near Cahersiveen and forever associated with his home at Derrynane."
+   },
+   {
+    "name": "Tom Crean",
+    "note": "Antarctic explorer from Annascaul who served on three expeditions with Scott and Shackleton and later ran the South Pole Inn in his home village."
+   },
+   {
+    "name": "John B. Keane",
+    "note": "Playwright and publican from Listowel whose works, including The Field and Sive, captured rural Irish life like few others."
+   },
+   {
+    "name": "St Brendan the Navigator",
+    "note": "Sixth-century monk born near Tralee whose legendary Atlantic voyage made him the patron of sailors and a candidate for pre-Columbian discovery of America."
+   },
+   {
+    "name": "Peig Sayers",
+    "note": "Storyteller of the Great Blasket Island whose autobiography became one of the most famous works of Irish-language literature."
+   },
+   {
+    "name": "Mick O'Dwyer",
+    "note": "Waterville footballer and the most successful manager in Gaelic football history, guiding Kerry to eight All-Ireland titles."
+   },
+   {
+    "name": "Colm Cooper",
+    "note": "Killarney's 'Gooch', regarded as one of the most skilful forwards ever to play Gaelic football."
+   },
+   {
+    "name": "Michael Fassbender",
+    "note": "Hollywood star of films such as Hunger and 12 Years a Slave, raised in Killarney where his family ran a restaurant."
+   },
+   {
+    "name": "Brendan Kennelly",
+    "note": "Much-loved poet and Trinity College professor from Ballylongford in north Kerry."
+   },
+   {
+    "name": "Jessie Buckley",
+    "note": "Oscar-nominated actress and singer from Killarney, star of Wild Rose and Women Talking."
+   }
+  ],
+  "facts": [
+   "Carrauntoohil in MacGillycuddy's Reeks is Ireland's highest mountain at 1,038 metres.",
+   "Skellig Michael, a UNESCO World Heritage Site with a 6th-century monastery, appeared as Luke Skywalker's refuge in the Star Wars films.",
+   "Valentia Island was the eastern terminus of the first permanently successful transatlantic telegraph cable, completed in 1866.",
+   "A fossilised tetrapod trackway on Valentia Island, roughly 385 million years old, records some of the earliest known footsteps of a four-legged creature on land.",
+   "Kerry has won more All-Ireland senior football championships than any other county, earning it the nickname the Kingdom of football.",
+   "Killarney National Park, created from the Muckross Estate in 1932, was Ireland's first national park.",
+   "The Great Blasket Island was finally abandoned in 1953, but its tiny community produced classic books by Peig Sayers, Tomas O Criomhthain and Muiris O Suilleabhain.",
+   "Charlie Chaplin holidayed in Waterville so often that the village now hosts an annual comedy film festival in his name."
+  ]
+ },
+ "Limerick": {
+  "intro": [
+   "Founded by Vikings on an island in the Shannon in 922, Limerick city grew into one of Ireland's great medieval strongholds, its skyline still commanded by King John's Castle and St Mary's Cathedral. The city gave its name to the Treaty of Limerick of 1691, which ended the Williamite War and whose broken promises made Limerick the Treaty City. Beyond the city, the county spreads across the Golden Vale, some of the richest dairy farmland in Europe, dotted with medieval remnants at Kilmallock, Askeaton and Adare, whose thatched cottages make it one of Ireland's prettiest villages.",
+   "Limerick's modern story is one of reinvention. The Ardnacrusha hydroelectric scheme, completed on the Shannon in 1929, was a huge gamble by the young Free State that electrified the country. Frank McCourt's Angela's Ashes made the lanes of his childhood famous worldwide, while the city's passion for rugby, centred on Thomond Park and Munster's famous 1978 defeat of the All Blacks, is unmatched in Ireland. Recent decades brought a university, a thriving film industry and Limerick hurling's golden era, with the county dominating the game in the 2020s under John Kiely."
+  ],
+  "towns": [
+   {
+    "name": "Limerick",
+    "note": "The Treaty City on the Shannon, home to King John's Castle, the Hunt Museum, Thomond Park and Ireland's most fervent rugby tradition."
+   },
+   {
+    "name": "Adare",
+    "note": "Often called Ireland's prettiest village, known for its thatched cottages, medieval friaries and Adare Manor, host venue for the 2027 Ryder Cup."
+   },
+   {
+    "name": "Newcastle West",
+    "note": "The largest town in county Limerick outside the city, built around the medieval Desmond Castle and its banqueting hall."
+   },
+   {
+    "name": "Kilmallock",
+    "note": "One of Ireland's best-preserved medieval walled towns, once a stronghold of the Earls of Desmond."
+   },
+   {
+    "name": "Foynes",
+    "note": "A Shannon Estuary port that served as Europe's transatlantic flying boat terminal in the late 1930s and early 1940s, and the birthplace of Irish coffee."
+   },
+   {
+    "name": "Askeaton",
+    "note": "A historic town on the River Deel with a dramatic ruined Desmond castle on a rocky island and a 14th-century Franciscan friary."
+   },
+   {
+    "name": "Abbeyfeale",
+    "note": "A west Limerick market town on the Kerry border with a strong traditional music heritage."
+   },
+   {
+    "name": "Bruff",
+    "note": "A south Limerick town with ancestral links to the Fitzgerald family of Rose Fitzgerald Kennedy, mother of President John F. Kennedy."
+   },
+   {
+    "name": "Castleconnell",
+    "note": "A picturesque village on the Shannon long famous for its salmon fishery and 19th-century spa."
+   },
+   {
+    "name": "Murroe",
+    "note": "An east Limerick village beside Glenstal Abbey, a Benedictine monastery and renowned boarding school."
+   }
+  ],
+  "people": [
+   {
+    "name": "Richard Harris",
+    "note": "Limerick city-born star of This Sporting Life, The Field and the first Harry Potter films, and a proud son of the city's rugby culture."
+   },
+   {
+    "name": "Frank McCourt",
+    "note": "Pulitzer Prize-winning author of Angela's Ashes, the memoir of his impoverished Limerick childhood."
+   },
+   {
+    "name": "Dolores O'Riordan",
+    "note": "Unmistakable voice of The Cranberries, born in Limerick and raised in Ballybricken."
+   },
+   {
+    "name": "Terry Wogan",
+    "note": "Beloved BBC broadcaster and voice of Eurovision, born and schooled in Limerick city."
+   },
+   {
+    "name": "Paul O'Connell",
+    "note": "Towering second row who captained Munster, Ireland and the Lions, from Limerick city."
+   },
+   {
+    "name": "Kate O'Brien",
+    "note": "Pioneering novelist and playwright born in Limerick in 1897, whose books drew on the city's merchant Catholic world."
+   },
+   {
+    "name": "Catherine Hayes",
+    "note": "The 19th-century Limerick soprano who became the first Irishwoman to sing at La Scala in Milan."
+   },
+   {
+    "name": "Con Colbert",
+    "note": "1916 Easter Rising leader executed at Kilmainham, born at Moanleana near Athea in west Limerick."
+   },
+   {
+    "name": "J.P. McManus",
+    "note": "Businessman, racehorse owner and philanthropist from Limerick whose Pro-Am golf event has raised vast sums for local charities."
+   },
+   {
+    "name": "Keith Earls",
+    "note": "Moyross-born winger who became one of Munster and Ireland's most capped and best-loved players."
+   }
+  ],
+  "facts": [
+   "Irish coffee was invented at Foynes in the 1940s by chef Joe Sheridan to warm passengers from the transatlantic flying boats.",
+   "The Ardnacrusha hydroelectric scheme, completed in 1929, was among the largest in the world at the time and at first supplied most of the Free State's electricity.",
+   "Munster's 12-0 victory over the All Blacks at Thomond Park in 1978 remains one of rugby's most storied upsets, later celebrated in the play Alone It Stands.",
+   "Limerick city was founded by the Vikings in 922, making it one of Ireland's oldest cities.",
+   "The Treaty Stone on Clancy's Strand marks where the Treaty of Limerick was reputedly signed in 1691.",
+   "The five-line comic verse known as the limerick is named after the county, a link often traced to the refrain 'Will you come up to Limerick'.",
+   "Rose Fitzgerald Kennedy's ancestors, the maternal line of President John F. Kennedy, came from Bruff in south Limerick.",
+   "Adare Manor will host the Ryder Cup in 2027, bringing the contest to Limerick for the first time."
+  ]
+ },
+ "Tipperary": {
+  "intro": [
+   "Ireland's largest inland county sprawls across the heart of Munster, its name known around the world thanks to a marching song written by a man who likely never set foot in it. Tipperary's wealth has always come from its land: the Golden Vale, some of the richest dairy pasture in Europe, rolls between the Galtee, Knockmealdown and Silvermine mountains, and the River Suir threads the county from its source near Templemore down through Thurles, Cahir and Clonmel. That fertility drew Norman castles and great abbeys, and later made the county a stronghold of prosperous farming, horse breeding and agitation over land rights alike.",
+   "History sits heavily and proudly here. The Rock of Cashel, seat of the Kings of Munster before it passed to the church in 1101, is one of Ireland's most spectacular monuments, while the Gaelic Athletic Association was founded in a Thurles hotel in 1884, making the county a cradle of hurling ever since. The War of Independence effectively began at Soloheadbeg in 1919, and Fenian tradition runs deep through figures like Kickham and O'Leary. Until 2014 Tipperary was unique in being split into two administrative ridings, North and South, each with its own county town."
+  ],
+  "towns": [
+   {
+    "name": "Clonmel",
+    "note": "The county's largest town, on the Suir beneath the Comeraghs, long famous for Bulmers cider and as the birthplace of novelist Laurence Sterne."
+   },
+   {
+    "name": "Nenagh",
+    "note": "Former county town of North Tipperary, dominated by a superb 13th-century Norman castle keep and now a thriving food and market town."
+   },
+   {
+    "name": "Thurles",
+    "note": "Cathedral town where the GAA was founded at Hayes' Hotel in 1884, and home to Semple Stadium, hurling's most storied provincial ground."
+   },
+   {
+    "name": "Cashel",
+    "note": "Heritage town at the foot of the Rock of Cashel, whose round tower, Cormac's Chapel and ruined cathedral crown an ancient royal site."
+   },
+   {
+    "name": "Tipperary Town",
+    "note": "The market town that gave the county its name, set in the Golden Vale with a strong Fenian and land-agitation history."
+   },
+   {
+    "name": "Cahir",
+    "note": "Home to one of Ireland's largest and best-preserved castles on an island in the Suir, plus the ornamental Swiss Cottage nearby."
+   },
+   {
+    "name": "Carrick-on-Suir",
+    "note": "Riverside town holding Ormond Castle, Ireland's finest Tudor manor house, and proudly linked to cycling great Sean Kelly."
+   },
+   {
+    "name": "Roscrea",
+    "note": "One of Ireland's oldest towns, grown around a 7th-century monastery, with a round tower, high cross and Damer House castle complex."
+   },
+   {
+    "name": "Templemore",
+    "note": "Trim north-county town best known as the home of the Garda Siochana training college."
+   },
+   {
+    "name": "Fethard",
+    "note": "Small medieval town with the most complete circuit of town walls surviving in Ireland, close to the Coolmore horse-breeding empire."
+   }
+  ],
+  "people": [
+   {
+    "name": "Charles Kickham",
+    "note": "Mullinahone-born Fenian leader and author of Knocknagow, one of the most widely read Irish novels of the 19th century."
+   },
+   {
+    "name": "Laurence Sterne",
+    "note": "Author of Tristram Shandy, one of the great experimental novels in English, born in Clonmel in 1713."
+   },
+   {
+    "name": "John O'Leary",
+    "note": "Tipperary Town-born Fenian intellectual immortalised in Yeats's line that romantic Ireland was dead and gone, with O'Leary in the grave."
+   },
+   {
+    "name": "Dan Breen",
+    "note": "Soloheadbeg-born IRA leader whose 1919 ambush is regarded as the opening action of the War of Independence."
+   },
+   {
+    "name": "Sean Treacy",
+    "note": "Republican from near Tipperary Town who led the Soloheadbeg ambush alongside Breen and died in a Dublin gunfight in 1920."
+   },
+   {
+    "name": "Sean Kelly",
+    "note": "One of cycling's all-time greats, winner of Paris-Roubaix and the Vuelta, raised on a farm outside Carrick-on-Suir."
+   },
+   {
+    "name": "Frank Patterson",
+    "note": "Clonmel-born tenor known as Ireland's Golden Voice, who sang for popes, presidents and in The Dead and Miller's Crossing."
+   },
+   {
+    "name": "Pat Shortt",
+    "note": "Thurles-born comedian and actor, half of D'Unbelievables and award-winning star of the film Garage."
+   },
+   {
+    "name": "Una Healy",
+    "note": "Thurles singer who found international fame with the pop group The Saturdays."
+   },
+   {
+    "name": "Shane Long",
+    "note": "Republic of Ireland striker from Gortnahoe who scored the fastest goal in Premier League history in 2019."
+   }
+  ],
+  "facts": [
+   "The Gaelic Athletic Association was founded in the billiard room of Hayes' Hotel, Thurles, on 1 November 1884.",
+   "Until 2014 Tipperary was the only Irish county divided into two separate ridings, North and South, each with its own county council.",
+   "Galtymore, at around 917 metres, is the highest inland mountain in Ireland.",
+   "The Soloheadbeg ambush of 21 January 1919, seen as the first action of the War of Independence, took place on the same day the First Dail met in Dublin.",
+   "It's a Long Way to Tipperary, the great marching song of the First World War, was written in 1912 by Jack Judge, an Englishman of Irish descent.",
+   "Coolmore Stud near Fethard is the largest thoroughbred racehorse breeding operation in the world.",
+   "The Hogan Stand at Croke Park is named after Michael Hogan of Grangemockler, the Tipperary footballer shot dead on Bloody Sunday in 1920.",
+   "Tipperary is the largest of Ireland's inland counties, and the Rock of Cashel was reputedly handed to the church in 1101 by King Muirchertach Ua Briain."
+  ]
+ },
+ "Waterford": {
+  "intro": [
+   "No Irish city is older than Waterford. Viking raiders founded Vadrarfjordr in 914, and the city's Reginald's Tower, medieval walls and Viking Triangle museums still tell the story of a port that Norman, Tudor and Georgian rulers all prized. Strongbow married Aoife here in 1170, sealing the Norman entry into Ireland, and in 1848 Thomas Francis Meagher first flew the Irish tricolour from a window on the Mall. The county's name became a global byword for elegance through Waterford Crystal, founded by the Penrose brothers in 1783 and still cut in the city today.",
+   "Beyond the city, the Deise, as locals call the county, packs remarkable variety into a small space: the Copper Coast's cliffs and coves form a UNESCO Global Geopark, the Comeragh Mountains hold glacial corrie lakes like Coumshingaun, and the Blackwater valley around Lismore is lush castle country. An Rinn, near Dungarvan, keeps a living Gaeltacht alive in the sunny south-east, while the 46-kilometre Waterford Greenway along an old railway has become one of Ireland's favourite cycling routes. The local blaa, a soft white bread roll, is so distinctive it holds protected European status."
+  ],
+  "towns": [
+   {
+    "name": "Waterford City",
+    "note": "Ireland's oldest city, founded by Vikings in 914, home to Reginald's Tower, the Viking Triangle museums and the House of Waterford Crystal."
+   },
+   {
+    "name": "Dungarvan",
+    "note": "Harbour town beneath the Comeraghs that anchors the Waterford Greenway and has grown into a celebrated food destination."
+   },
+   {
+    "name": "Tramore",
+    "note": "Classic seaside resort with a five-kilometre strand, a promenade, surf schools and one of Ireland's best-loved racecourses."
+   },
+   {
+    "name": "Lismore",
+    "note": "Heritage town on the Blackwater dominated by Lismore Castle, Irish seat of the Dukes of Devonshire and birthplace of scientist Robert Boyle."
+   },
+   {
+    "name": "An Rinn",
+    "note": "Heart of Gaeltacht na nDeise, where Irish remains a community language and students flock to summer colleges."
+   },
+   {
+    "name": "Ardmore",
+    "note": "Cliff-walk village where St Declan founded a Christian settlement said to predate St Patrick, marked by a slender 12th-century round tower."
+   },
+   {
+    "name": "Portlaw",
+    "note": "Planned model village built by the Quaker Malcomson family around their 19th-century cotton mill."
+   },
+   {
+    "name": "Kilmacthomas",
+    "note": "Comeragh-foothills village whose great stone viaduct is now a highlight of the Waterford Greenway."
+   },
+   {
+    "name": "Passage East",
+    "note": "Fishing village where a car ferry crosses the estuary to Wexford, near the spot where the Normans landed in force."
+   }
+  ],
+  "people": [
+   {
+    "name": "Robert Boyle",
+    "note": "The father of modern chemistry and author of Boyle's Law, born at Lismore Castle in 1627."
+   },
+   {
+    "name": "Ernest Walton",
+    "note": "Physicist born in Abbeyside, Dungarvan, who split the atomic nucleus with Cockcroft and won the 1951 Nobel Prize, Ireland's only science Nobel."
+   },
+   {
+    "name": "Thomas Francis Meagher",
+    "note": "Waterford-born Young Irelander who first flew the tricolour in his native city in 1848 and later became a Union general and governor of Montana."
+   },
+   {
+    "name": "Luke Wadding",
+    "note": "Waterford-born Franciscan scholar credited with having St Patrick's Day placed on the church's universal calendar."
+   },
+   {
+    "name": "John Roberts",
+    "note": "18th-century Waterford architect with the rare distinction of designing both the city's Protestant and Catholic cathedrals."
+   },
+   {
+    "name": "Val Doonican",
+    "note": "Waterford city crooner whose easy-going BBC television show made him a household name across Britain and Ireland for decades."
+   },
+   {
+    "name": "Gilbert O'Sullivan",
+    "note": "Singer-songwriter of Alone Again (Naturally) and Clair, born Raymond O'Sullivan in Waterford in 1946."
+   },
+   {
+    "name": "Anna Manahan",
+    "note": "Waterford actress who won a Tony Award for The Beauty Queen of Leenane after a long career on Irish stages."
+   },
+   {
+    "name": "John Treacy",
+    "note": "Villierstown athlete who won two World Cross Country titles and marathon silver at the 1984 Los Angeles Olympics."
+   },
+   {
+    "name": "Tyrone Power",
+    "note": "The celebrated 19th-century Irish comic actor, founder of the Hollywood acting dynasty, born near Kilmacthomas in 1795."
+   }
+  ],
+  "facts": [
+   "Waterford is Ireland's oldest city, founded by Vikings in 914, several decades before Dublin received its city charter.",
+   "The Irish tricolour was first flown in public by Thomas Francis Meagher at 33 The Mall, Waterford, on 7 March 1848.",
+   "Jacob's, the bakery firm that went on to invent the cream cracker, was founded in Waterford in 1851 before moving to Dublin.",
+   "The Waterford blaa, a soft floury bread roll of Huguenot origin, was granted EU Protected Geographical Indication status in 2013.",
+   "The marriage of Strongbow and Aoife, which bound Ireland to the Norman world, took place in Waterford in 1170.",
+   "The Copper Coast between Tramore and Dungarvan is a UNESCO Global Geopark named for its 19th-century copper mines.",
+   "Waterford Crystal was founded by brothers George and William Penrose in 1783.",
+   "Ardmore claims to be Ireland's oldest Christian settlement, founded by St Declan before St Patrick's mission began."
+  ]
+ },
+ "Galway": {
+  "intro": [
+   "Few counties divide so dramatically in two. East of Lough Corrib, the Republic's largest lake, Galway is limestone farmland dotted with market towns, castles and monastic ruins; west of it lies Connemara, a wild sweep of blanket bog, quartzite peaks and Atlantic inlets where Ireland's largest Gaeltacht keeps the Irish language in daily use. The Aran Islands guard the mouth of the bay, their limestone pavements and stone forts, including the great cliff fortress of Dun Aonghasa, linking the county to millennia of settlement. The Connemara pony, Ireland's only native pony breed, still grazes the hillsides that shaped it.",
+   "Galway city grew rich on medieval trade with Spain and France under the fourteen merchant families known as the Tribes, and it wears that history lightly amid a famously bohemian street life of buskers, festivals and theatre, led by the Druid company and the summer Arts Festival. The Claddagh ring, with its heart, hands and crown, originated in the old fishing village across the Corrib. Race week at Ballybrit, the September oyster festival and the horse fair at Ballinasloe fill the calendar, and in 2020 the city held the title of European Capital of Culture."
+  ],
+  "towns": [
+   {
+    "name": "Galway City",
+    "note": "The fast-growing City of the Tribes, a university city famed for its festivals, medieval Latin Quarter and position where the Corrib meets the Atlantic."
+   },
+   {
+    "name": "Clifden",
+    "note": "Connemara's capital, founded in 1812, close to where Alcock and Brown ended the first nonstop transatlantic flight and Marconi built his wireless station."
+   },
+   {
+    "name": "Tuam",
+    "note": "Ancient ecclesiastical centre of the west, seat of archbishops since the 12th century and once the power base of the O'Connor high kings."
+   },
+   {
+    "name": "An Spideal",
+    "note": "Gateway village to the Cois Fharraige Gaeltacht, known for its craft village, summer colleges and strong traditional music scene."
+   },
+   {
+    "name": "Athenry",
+    "note": "One of Ireland's best-preserved medieval walled towns, with castle, priory and the name known worldwide from the ballad The Fields of Athenry."
+   },
+   {
+    "name": "Ballinasloe",
+    "note": "Market town on the Suck whose October horse fair is among the oldest and largest in Europe."
+   },
+   {
+    "name": "Loughrea",
+    "note": "Lakeside town whose cathedral holds an outstanding collection of Irish Arts and Crafts stained glass."
+   },
+   {
+    "name": "Oughterard",
+    "note": "Angling village on the shore of Lough Corrib, long styled the gateway to Connemara."
+   },
+   {
+    "name": "Portumna",
+    "note": "Shannonside heritage town with a great semi-fortified Jacobean house and forest park where Lough Derg begins."
+   },
+   {
+    "name": "Kinvara",
+    "note": "Picturesque harbour village on Galway Bay beside Dunguaire Castle, host of the Cruinniu na mBad gathering of traditional sailing boats."
+   }
+  ],
+  "people": [
+   {
+    "name": "Lady Augusta Gregory",
+    "note": "Playwright and co-founder of the Abbey Theatre whose home at Coole Park near Gort was the hub of the Irish Literary Revival."
+   },
+   {
+    "name": "Nora Barnacle",
+    "note": "Galway city woman who became James Joyce's muse and wife; their first walk together on 16 June 1904 is commemorated as Bloomsday."
+   },
+   {
+    "name": "Padraic O Conaire",
+    "note": "Pioneering Irish-language writer and wandering storyteller from Galway city, honoured with a famous statue in Eyre Square."
+   },
+   {
+    "name": "Mairtin O Cadhain",
+    "note": "Author of Cre na Cille, widely considered the greatest Irish-language novel, born in the Cois Fharraige Gaeltacht near An Spideal."
+   },
+   {
+    "name": "Walter Macken",
+    "note": "Galway city novelist, playwright and actor best remembered for the historical trilogy beginning with Seek the Fair Land."
+   },
+   {
+    "name": "Richard Kirwan",
+    "note": "Eccentric 18th-century chemist and mineralogist from Cloughballymore, one of the most celebrated Irish scientists of his day."
+   },
+   {
+    "name": "Michael D. Higgins",
+    "note": "President of Ireland since 2011, long a Galway West TD, university lecturer and Mayor of Galway before entering national politics."
+   },
+   {
+    "name": "Nicola Coughlan",
+    "note": "Galway-born actress who found global fame in Derry Girls and Bridgerton."
+   },
+   {
+    "name": "Joe Canning",
+    "note": "Portumna hurler regarded as one of the greatest forwards ever, Hurler of the Year when Galway won the 2017 All-Ireland."
+   },
+   {
+    "name": "Dolores Keane",
+    "note": "Caherlistrane-born singer, founding member of De Dannan and one of the defining voices of Irish traditional song."
+   }
+  ],
+  "facts": [
+   "Alcock and Brown completed the first nonstop transatlantic flight by crash-landing in Derrygimlagh bog near Clifden on 15 June 1919.",
+   "Marconi opened his first permanent transatlantic wireless telegraphy station at Clifden in 1907, employing hundreds in remote Connemara.",
+   "Lough Corrib is the largest lake in the Republic of Ireland and second largest on the island after Lough Neagh.",
+   "The Galway International Oyster Festival, founded in 1954, is billed as the oldest oyster festival in the world.",
+   "The Connemara pony is Ireland's only native breed of pony, shaped by the region's rough terrain.",
+   "The Claddagh ring takes its name from the old fishing village of the Claddagh, just across the Corrib from Galway city's Spanish Arch.",
+   "Galway city takes its nickname from the fourteen merchant Tribes, families such as the Lynches and Blakes who ran the town for centuries.",
+   "The Benedictine nuns of Kylemore Abbey settled in Connemara in 1920 after their community fled Ypres during the First World War."
+  ]
+ },
+ "Leitrim": {
+  "intro": [
+   "Quietly beautiful and often overlooked, Leitrim is Ireland's least populous county, a place of drumlins, rushy fields and an extraordinary amount of water: Lough Allen splits it almost in two, the Shannon rises just beyond its border and glides through it, and dozens of smaller lakes stock some of the best coarse fishing in Europe. Sliabh an Iarainn, the Iron Mountain, recalls centuries of iron working above Lough Allen. The Famine hit Leitrim harder than almost anywhere; a county of more than 150,000 people in 1841 fell decade after decade, and its story is written in emigrant letters across America, Britain and Australia.",
+   "That history of leaving gives Leitrim a special pull for the diaspora, and the county has quietly reinvented itself around its waterways, artists and food producers. The reopening of the Ballinamore-Ballyconnell canal as the Shannon-Erne Waterway in 1994 turned Carrick-on-Shannon into one of Ireland's busiest boating towns, while Drumshanbo's gin has carried the county's name around the world. This was O'Rourke country, the kingdom of Breifne ruled from Dromahair, and it later gave the 1916 Rising one of its signatories, Sean Mac Diarmada, whose thatched birthplace still stands at Kiltyclogher."
+  ],
+  "towns": [
+   {
+    "name": "Carrick-on-Shannon",
+    "note": "The lively county town and cruiser capital of the Shannon, home to the tiny Costello Memorial Chapel, the smallest in Ireland."
+   },
+   {
+    "name": "Manorhamilton",
+    "note": "Chief town of scenic north Leitrim, grown around the ruined 1630s castle of Sir Frederick Hamilton amid glacial valleys."
+   },
+   {
+    "name": "Drumshanbo",
+    "note": "Town at the foot of Sliabh an Iarainn famed for the Joe Mooney Summer School of traditional music and as the home of Gunpowder Irish Gin."
+   },
+   {
+    "name": "Mohill",
+    "note": "Market town closely associated with the blind harper Turlough O'Carolan, who is commemorated with a statue in its main street."
+   },
+   {
+    "name": "Ballinamore",
+    "note": "Friendly canal town on the Shannon-Erne Waterway with a strong angling and genealogy-research tradition."
+   },
+   {
+    "name": "Dromahair",
+    "note": "Village on the Bonet that was the seat of the O'Rourkes of Breifne, near the ruins of Creevelea Friary and Parke's Castle on Lough Gill."
+   },
+   {
+    "name": "Kiltyclogher",
+    "note": "Border village where 1916 leader Sean Mac Diarmada was born; his thatched homestead is preserved as a national monument."
+   },
+   {
+    "name": "Drumsna",
+    "note": "Shannonside village where Anthony Trollope, working for the postal service, found the inspiration for his first novel."
+   },
+   {
+    "name": "Kinlough",
+    "note": "Village near Lough Melvin, a lake renowned among anglers for trout varieties found almost nowhere else."
+   },
+   {
+    "name": "Tullaghan",
+    "note": "Leitrim's only coastal village, standing on the county's tiny sliver of Atlantic shoreline."
+   }
+  ],
+  "people": [
+   {
+    "name": "Sean Mac Diarmada",
+    "note": "Signatory of the 1916 Proclamation and chief organiser of the Rising, born at Corranmore near Kiltyclogher in 1883."
+   },
+   {
+    "name": "John McGahern",
+    "note": "One of the finest Irish novelists of the 20th century, raised in and around Aughawillan and later farming near Fenagh, where books like Amongst Women are set."
+   },
+   {
+    "name": "Margaret Haughery",
+    "note": "The Bread Woman of New Orleans, a famine-era emigrant from Carrigallen whose charity made her one of the first women honoured with a public statue in America."
+   },
+   {
+    "name": "Thomas Heazle Parke",
+    "note": "Surgeon and explorer from Drumsna, the first Irishman to cross Africa, whose statue stands outside the Natural History Museum in Dublin."
+   },
+   {
+    "name": "Turlough O'Carolan",
+    "note": "The great blind harper and composer spent much of his life around Mohill, which honours him with a bronze statue."
+   },
+   {
+    "name": "Brian O'Rourke",
+    "note": "Lord of West Breifne who sheltered survivors of the Spanish Armada and was executed at Tyburn in 1591 for his defiance of the Crown."
+   },
+   {
+    "name": "Packie McGarty",
+    "note": "Mohill-born Gaelic footballer of the 1950s and 60s, widely regarded as the greatest player never to win a major national honour."
+   },
+   {
+    "name": "Charlie McGettigan",
+    "note": "Singer-songwriter long based in Drumshanbo who won the 1994 Eurovision Song Contest with Rock 'n' Roll Kids."
+   }
+  ],
+  "facts": [
+   "Leitrim has the shortest coastline of any coastal county in Ireland, roughly four kilometres of Atlantic shore at Tullaghan.",
+   "It is the least populous county in Ireland, having fallen from over 150,000 people before the Famine.",
+   "The Costello Memorial Chapel in Carrick-on-Shannon, built in 1879 by a grieving husband, is the smallest chapel in Ireland and one of the smallest in the world.",
+   "The Shannon-Erne Waterway, reopened in 1994 along the old Ballinamore-Ballyconnell canal, reconnected Ireland's two great river systems through Leitrim.",
+   "Lough Melvin holds the gillaroo and sonaghan, genetically distinct trout found in very few waters anywhere in the world.",
+   "Anthony Trollope began his first novel, The Macdermots of Ballycloran, after being struck by a ruined house he saw while stationed at Drumsna.",
+   "Glencar Waterfall, on the Leitrim side of Glencar Lough, features in W. B. Yeats's poem The Stolen Child.",
+   "Leitrim's 1994 Connacht senior football title was only its second ever, the first having come in 1927."
+  ]
+ },
+ "Mayo": {
+  "intro": [
+   "Few counties carry the weight of Irish history quite like Mayo. Its name comes from Maigh Eo, the plain of the yew trees, but its story is written in stone and bog: the Céide Fields on the north coast preserve the most extensive Stone Age field system known anywhere in the world, farmed some 6,000 years ago and then sealed beneath blanket bog. Later centuries were harder. Mayo was among the counties most devastated by the Great Famine, and mass emigration scattered its people from Cleveland to Coventry, which is why so many of the diaspora trace a line back to parishes around Ballina, Westport and Erris.",
+   "The landscape is the wildest in Connacht: the fjord of Killary Harbour on the Galway border, the sheer sea cliffs of Achill, the vast empty boglands of Erris, and the holy mountain of Croagh Patrick rising above Clew Bay and its scatter of drumlin islands. The county was the crucible of the Land War, launched from Irishtown in 1879, and the word boycott itself was coined here, after Lough Mask land agent Captain Charles Boycott. Today tourism, agriculture and a cluster of pharmaceutical employers around Castlebar and Westport anchor the economy, while Mayo GAA supporters remain famous for hope in the face of heartbreak."
+  ],
+  "towns": [
+   {
+    "name": "Castlebar",
+    "note": "The county town and administrative heart of Mayo, remembered for the Races of Castlebar in 1798, when French and Irish forces routed a British garrison."
+   },
+   {
+    "name": "Westport",
+    "note": "A rare planned Georgian town laid out in the 1780s, sitting at the foot of Croagh Patrick and repeatedly voted among the best places to live in Ireland."
+   },
+   {
+    "name": "Ballina",
+    "note": "North Mayo's biggest town, world-famous for salmon fishing on the River Moy and the home place of President Mary Robinson."
+   },
+   {
+    "name": "Knock",
+    "note": "Village transformed by the 1879 apparition witnessed by fifteen local people, now an international Marian shrine visited by around a million pilgrims a year."
+   },
+   {
+    "name": "Keel (Achill)",
+    "note": "Achill Island's main village, strung along a sweeping three-kilometre beach beneath the Minaun Cliffs."
+   },
+   {
+    "name": "Dooagh (Achill)",
+    "note": "Achill village near Keem Bay where ocean rower Don Allum came ashore in 1987, and whose vanished beach famously reappeared overnight in 2017."
+   },
+   {
+    "name": "Belmullet",
+    "note": "The market town of remote Erris, gateway to the Mullet Peninsula, the Irish-speaking Gaeltacht and some of Europe's darkest night skies."
+   },
+   {
+    "name": "Cong",
+    "note": "Picture-postcard village on the Galway border where John Ford filmed The Quiet Man in 1951, beside the five-star Ashford Castle estate."
+   },
+   {
+    "name": "Foxford",
+    "note": "Moy-side town known for its woollen mills, founded in 1892 and still weaving, and as the birthplace of Admiral William Brown."
+   },
+   {
+    "name": "Claremorris",
+    "note": "Busy rail-junction town in south Mayo that grew as a market and transport hub for the surrounding plains."
+   }
+  ],
+  "people": [
+   {
+    "name": "Mary Robinson",
+    "note": "Ballina-born barrister who became Ireland's first female President in 1990 and later UN High Commissioner for Human Rights."
+   },
+   {
+    "name": "Grace O'Malley (Gráinne Mhaol)",
+    "note": "The 16th-century pirate queen of Clew Bay who commanded her own fleet and famously met Elizabeth I face to face in 1593."
+   },
+   {
+    "name": "Michael Davitt",
+    "note": "Founder of the Land League, born in Straide in 1846 and evicted with his family as a child, an experience that shaped the Land War he led."
+   },
+   {
+    "name": "Admiral William Brown",
+    "note": "Foxford emigrant who founded the Argentine Navy and is honoured as a national hero of Argentina, with over a thousand streets there bearing his name."
+   },
+   {
+    "name": "Martin Sheridan",
+    "note": "Bohola-born athlete who won five Olympic gold medals for the United States in the early 1900s as one of the famed Irish Whales."
+   },
+   {
+    "name": "Margaret Burke Sheridan",
+    "note": "Castlebar-born soprano who became one of the great Madama Butterfly interpreters at La Scala and was dubbed the Empress of Ireland by Toscanini's Milan."
+   },
+   {
+    "name": "John MacBride",
+    "note": "Westport-born republican, executed after the 1916 Rising, husband of Maud Gonne and father of Nobel laureate Seán MacBride."
+   },
+   {
+    "name": "Enda Kenny",
+    "note": "Castlebar politician who served as Taoiseach from 2011 to 2017, the longest-serving Fine Gael leader in the office."
+   },
+   {
+    "name": "Louis Walsh",
+    "note": "Kiltimagh-born music manager behind Boyzone and Westlife and a long-running judge on The X Factor."
+   },
+   {
+    "name": "Sally Rooney",
+    "note": "Castlebar-raised novelist whose books Normal People and Conversations with Friends made her one of the most acclaimed writers of her generation."
+   }
+  ],
+  "facts": [
+   "The Céide Fields near Ballycastle are the most extensive Stone Age field system in the world, walled farmland roughly 6,000 years old preserved under blanket bog.",
+   "Achill is Ireland's largest offshore island, joined to the mainland by a bridge since 1887.",
+   "Mayo footballers have not won the All-Ireland senior title since 1951 despite reaching numerous finals, giving rise to the famous legend of the 'curse of 51'.",
+   "Ireland West Airport Knock opened in 1985 on a foggy boggy hilltop after a campaign by local parish priest Monsignor James Horan, and now handles hundreds of thousands of passengers a year.",
+   "On Reek Sunday, the last Sunday of July, thousands of pilgrims climb Croagh Patrick, some barefoot, continuing a pilgrimage tradition well over a thousand years old.",
+   "The word boycott entered the English language in Mayo in 1880, when the community around Lough Mask ostracised land agent Captain Charles Boycott.",
+   "The Great Western Greenway, running 42 kilometres from Westport to Achill along a disused railway, was Ireland's first great off-road greenway when it fully opened in 2011.",
+   "In 1987 Don Allum landed at Dooagh on Achill to become the first person to row the Atlantic in both directions."
+  ]
+ },
+ "Roscommon": {
+  "intro": [
+   "Roscommon is royal country. At Rathcroghan near Tulsk lies Cruachan, the ancient capital of Connacht and seat of the legendary Queen Medb, a complex of more than 240 archaeological sites spread across the plains. The O'Conor kings of Connacht ruled from here, and two of them, Turlough and Rory, were the last High Kings of Ireland; remarkably, their descendants still live at Clonalis House in Castlerea, one of the oldest documented family lines in Europe. The county's name comes from Ros Comáin, the wood of St Comán, who founded a monastery where the county town now stands.",
+   "This is a quiet, low-lying county of cattle pasture, esker ridges and water, bounded by the Shannon to the east and the River Suck to the west, and the only county in Connacht without a coastline. It bore a terrible share of Famine suffering, losing a greater proportion of its population than almost any other county, a history confronted head-on at the National Famine Museum in Strokestown. Sheep and suckler farming still shape rural life, Lough Key Forest Park draws visitors to the north, and the county's scattered diaspora keeps strong ties to towns like Boyle, Elphin and Ballaghaderreen."
+  ],
+  "towns": [
+   {
+    "name": "Roscommon",
+    "note": "The county town, dominated by the ruins of its 13th-century Anglo-Norman castle and a Dominican priory founded in 1253."
+   },
+   {
+    "name": "Boyle",
+    "note": "Handsome north Roscommon town beside Lough Key, home to the beautifully preserved 12th-century Cistercian Boyle Abbey and the Georgian King House."
+   },
+   {
+    "name": "Castlerea",
+    "note": "Market town on the River Suck beside Clonalis House, ancestral home of the O'Conors, descendants of the last High Kings of Ireland."
+   },
+   {
+    "name": "Strokestown",
+    "note": "Planned estate town whose Palladian big house now holds the National Famine Museum, documenting the 1847 emigration of 1,490 tenants."
+   },
+   {
+    "name": "Elphin",
+    "note": "One of Ireland's oldest ecclesiastical centres, a diocese traditionally founded by St Patrick, with a restored 18th-century windmill."
+   },
+   {
+    "name": "Ballaghaderreen",
+    "note": "West Roscommon market town with a cathedral, transferred from County Mayo to Roscommon by boundary changes in 1898."
+   },
+   {
+    "name": "Frenchpark",
+    "note": "Village where Douglas Hyde, founder of the Gaelic League and first President of Ireland, grew up in the local rectory."
+   },
+   {
+    "name": "Tulsk",
+    "note": "Small village at the heart of the Rathcroghan complex, ancient royal site of Connacht, with a visitor centre interpreting Queen Medb's Cruachan."
+   }
+  ],
+  "people": [
+   {
+    "name": "Douglas Hyde",
+    "note": "First President of Ireland and founder of the Gaelic League, raised at Frenchpark where his father was Church of Ireland rector."
+   },
+   {
+    "name": "Rory O'Conor (Ruaidrí Ua Conchobair)",
+    "note": "King of Connacht and the last High King of Ireland, whose reign ended with the Anglo-Norman invasion of the 12th century."
+   },
+   {
+    "name": "Turlough O'Carolan",
+    "note": "The celebrated blind harper and composer spent much of his life under Roscommon patronage and is buried at Kilronan near Ballyfarnon."
+   },
+   {
+    "name": "Percy French",
+    "note": "One of Ireland's best-loved songwriters, composer of The Mountains of Mourne, born at Cloonyquin House near Tulsk in 1854."
+   },
+   {
+    "name": "Maureen O'Sullivan",
+    "note": "Boyle-born Hollywood star who played Jane in the Tarzan films of the 1930s and was mother of actress Mia Farrow."
+   },
+   {
+    "name": "Chris O'Dowd",
+    "note": "Boyle-born actor and comedian of Bridesmaids and The IT Crowd fame, who set his Sky series Moone Boy in his hometown."
+   },
+   {
+    "name": "Albert Reynolds",
+    "note": "Taoiseach from 1992 to 1994 and a key architect of the Northern Ireland peace process, born in Rooskey on the Roscommon-Leitrim border."
+   },
+   {
+    "name": "Sir William Wilde",
+    "note": "Eminent Victorian eye surgeon, antiquarian and father of Oscar Wilde, born near Castlerea in 1815."
+   }
+  ],
+  "facts": [
+   "Roscommon is the only landlocked county in Connacht, bounded instead by the River Shannon and the River Suck.",
+   "The cave of Oweynagat at Rathcroghan was described in medieval literature as Ireland's gate to hell, and folklorists link the site to the origins of Samhain, the festival behind Halloween.",
+   "According to well-documented local history, an 18th-century condemned prisoner known as Lady Betty was spared execution at Roscommon jail on condition she serve as the town's hangwoman.",
+   "Coal was mined at Arigna in north Roscommon for around 400 years until 1990, when Ireland's last working coal mine closed; it is now a visitor experience.",
+   "Clonalis House in Castlerea, home of the O'Conor family, preserves the harp of the composer Turlough O'Carolan among its heirlooms.",
+   "The main street of Strokestown was reputedly laid out to be one of the widest in Ireland, inspired by the grand boulevards of Vienna.",
+   "The National Famine Way, a 165-kilometre walking trail, follows the 1847 route of 1,490 evicted Strokestown tenants who walked to the Dublin ships.",
+   "Douglas Hyde of Frenchpark became the first President of Ireland in 1938, having earlier founded the Gaelic League to revive the Irish language."
+  ]
+ },
+ "Sligo": {
+  "intro": [
+   "Yeats called it the Land of Heart's Desire, and Sligo's landscape explains why: the great flat-topped prow of Benbulben, the cairn-crowned summit of Knocknarea, Lough Gill with its Isle of Innisfree, and Atlantic strands running from Enniscrone to Mullaghmore. W.B. Yeats spent his childhood summers here with his Pollexfen relations and asked to be buried at Drumcliff in Benbulben's shadow, while his brother Jack painted the county's horses, fairs and shorelines. But Sligo's story is far older than the Yeatses: the megalithic cemetery at Carrowmore is among the largest and most ancient in Ireland.",
+   "The name comes from Sligeach, the shelly place, after the abundant shellfish of the Garavogue estuary, and the sea still defines the county. Strandhill and Easkey are internationally known surfing breaks, Mullaghmore draws big-wave riders from around the world, and the Edwardian seaweed baths of Enniscrone carry on a distinctly Sligo cure. The town itself is the commercial capital of the north-west, with a strong traditional music heritage in the south of the county around Tubbercurry and Gurteen, the homeland of fiddle legend Michael Coleman, whose American recordings shaped Irish music worldwide."
+  ],
+  "towns": [
+   {
+    "name": "Sligo",
+    "note": "The county town and largest urban centre in the north-west, straddling the Garavogue river, rich in Yeats associations and home to a 13th-century abbey."
+   },
+   {
+    "name": "Strandhill",
+    "note": "Surfing village beneath Knocknarea with a famous beach break, seaweed baths and a seafront where swimming is banned but surfing thrives."
+   },
+   {
+    "name": "Rosses Point",
+    "note": "Seaside village loved by the Yeats brothers, with a championship links course and the Metal Man beacon guiding ships since 1821."
+   },
+   {
+    "name": "Enniscrone",
+    "note": "West Sligo resort on Killala Bay known for its five-kilometre beach and Kilcullen's hot seaweed baths, in business since 1912."
+   },
+   {
+    "name": "Tubbercurry",
+    "note": "South Sligo's largest town and a stronghold of traditional music, hosting the South Sligo Summer School each July."
+   },
+   {
+    "name": "Ballymote",
+    "note": "Market town with a great Norman castle where the Book of Ballymote, key to deciphering ogham script, was compiled around 1391."
+   },
+   {
+    "name": "Drumcliff",
+    "note": "Village beneath Benbulben where W.B. Yeats is buried in the churchyard of a monastery founded by St Colmcille, under his own epitaph."
+   },
+   {
+    "name": "Mullaghmore",
+    "note": "Harbour village with a big-wave surf reef offshore, overlooked by Classiebawn Castle, the summer home of Lord Mountbatten."
+   },
+   {
+    "name": "Grange",
+    "note": "North Sligo village near Streedagh Strand, where three ships of the Spanish Armada were wrecked in 1588."
+   }
+  ],
+  "people": [
+   {
+    "name": "W.B. Yeats",
+    "note": "Nobel Prize-winning poet who spent formative childhood summers in Sligo, drew lifelong inspiration from its landscape, and is buried at Drumcliff."
+   },
+   {
+    "name": "Jack B. Yeats",
+    "note": "Ireland's most celebrated 20th-century painter, raised in Sligo with his grandparents, whose scenes of west of Ireland life won Ireland's first Olympic medal, for art, in 1924."
+   },
+   {
+    "name": "Constance Markievicz",
+    "note": "1916 Rising leader and the first woman elected to the Westminster parliament, raised at Lissadell House on Sligo Bay."
+   },
+   {
+    "name": "Eva Gore-Booth",
+    "note": "Poet, suffragist and labour activist, sister of Constance Markievicz, also raised at Lissadell and remembered in Yeats's verse."
+   },
+   {
+    "name": "Michael Coleman",
+    "note": "Fiddler from Killavil whose 1920s and 1930s recordings in New York became the single greatest influence on Irish traditional fiddle playing."
+   },
+   {
+    "name": "Shane Filan",
+    "note": "Sligo town native and lead singer of Westlife, the chart-topping boyband formed in Sligo with fellow locals Kian Egan and Mark Feehily."
+   },
+   {
+    "name": "Neil Jordan",
+    "note": "Oscar-winning writer and director of The Crying Game and Michael Collins, born in Sligo town in 1950."
+   },
+   {
+    "name": "Ray MacSharry",
+    "note": "Sligo politician who served as Tánaiste, Minister for Finance and European Commissioner, nicknamed Mac the Knife for his budget discipline."
+   },
+   {
+    "name": "Tommy Fleming",
+    "note": "One of Ireland's best-loved folk and ballad singers, from Aclare in south Sligo."
+   }
+  ],
+  "facts": [
+   "Carrowmore is one of the largest and oldest megalithic cemeteries in Ireland, with some monuments believed to predate Newgrange.",
+   "The huge unexcavated cairn on Knocknarea is reputed to be the grave of Queen Maeve of Connacht, and tradition asks climbers to carry a stone up to add to it.",
+   "Three ships of the Spanish Armada were wrecked at Streedagh Strand in 1588, and survivor Francisco de Cuéllar left one of the most vivid first-hand accounts of Armada-era Ireland.",
+   "W.B. Yeats won the Nobel Prize in Literature in 1923 and lies at Drumcliff beneath the epitaph he wrote himself: cast a cold eye on life, on death.",
+   "Sligo's Irish name, Sligeach, means the shelly place, a reference to the shellfish-rich estuary of the Garavogue.",
+   "Lord Mountbatten was assassinated by an IRA bomb on his boat off Mullaghmore in August 1979.",
+   "Sligo Rovers, playing at the Showgrounds since 1928, are one of the few fully supporter-owned senior football clubs in Ireland.",
+   "The Book of Ballymote, compiled in the county around 1391, provided the key that allowed scholars to decipher the ancient ogham alphabet."
+  ]
+ },
+ "Cavan": {
+  "intro": [
+   "They say Cavan has a lake for every day of the year, and the claim is scarcely an exaggeration: the county's drumlin belt is threaded with hundreds of lakes and little hills left behind by the last Ice Age. This is the old heartland of the Gaelic kingdom of East Breifne, ruled by the O'Reillys, whose name still dominates the local phone book and the GAA team sheet. On the slopes of Cuilcagh mountain rises the Shannon Pot, the traditional source of Ireland's longest river, while underground the county shares the Marble Arch Caves Geopark with Fermanagh, the world's first cross-border geopark.",
+   "Though part of Ulster, Cavan lies in the Republic, and its border position shaped centuries of plantation, partition and quiet resilience. The land favours small farms, lakes and hedgerows over big fields, and the county's fortunes were built on markets, linen and later engineering and food businesses in towns like Cootehill, Kingscourt and Ballyjamesduff. Cavan people are famed, with a wink, for their thrift, but the county gave generously of its emigrants: from Marcus Daly, the Copper King of Montana, to the thousands whose descendants come back looking for townlands around Belturbet, Bailieborough and Virginia."
+  ],
+  "towns": [
+   {
+    "name": "Cavan",
+    "note": "The county town, grown around a 14th-century Franciscan friary, with a fine 1940s cathedral and a strong record of hosting the Fleadh Cheoil."
+   },
+   {
+    "name": "Virginia",
+    "note": "Planned plantation town on Lough Ramor, founded around 1610 and named in honour of Elizabeth I, the Virgin Queen."
+   },
+   {
+    "name": "Ballyjamesduff",
+    "note": "Market town immortalised in Percy French's song Come Back Paddy Reilly, home to the Cavan County Museum and birthplace of Montana copper magnate Marcus Daly."
+   },
+   {
+    "name": "Cootehill",
+    "note": "Handsome planter town that prospered on the 18th-century linen trade, named after the Coote family."
+   },
+   {
+    "name": "Belturbet",
+    "note": "Historic garrison town on the River Erne, now a popular boating base on the Shannon-Erne Waterway."
+   },
+   {
+    "name": "Bailieborough",
+    "note": "East Cavan market town, birthplace of the pacifist and 1916 martyr Francis Sheehy-Skeffington."
+   },
+   {
+    "name": "Kingscourt",
+    "note": "Town beside the great gypsum deposits that supply much of the plasterboard used in Irish construction."
+   },
+   {
+    "name": "Ballyconnell",
+    "note": "Border town at the Cavan end of the restored Shannon-Erne Waterway, in the shadow of Cuilcagh mountain."
+   },
+   {
+    "name": "Blacklion",
+    "note": "Small border village facing Fermanagh, known for the Cavan Burren's prehistoric landscape and Neven Maguire's MacNean House restaurant."
+   }
+  ],
+  "people": [
+   {
+    "name": "Marcus Daly",
+    "note": "Ballyjamesduff emigrant who became the Copper King of Butte, Montana, and one of the richest men in 19th-century America."
+   },
+   {
+    "name": "Owen Roe O'Neill",
+    "note": "The great Gaelic general of the 1640s, victor of Benburb, who died at Cloughoughter Castle in Cavan in 1649 and was buried at Cavan Abbey."
+   },
+   {
+    "name": "St Kilian",
+    "note": "Seventh-century missionary from Mullagh who evangelised Franconia and was martyred at Würzburg, where he is still the city's patron saint."
+   },
+   {
+    "name": "Francis Sheehy-Skeffington",
+    "note": "Pacifist, feminist and journalist born in Bailieborough, murdered by a British officer while trying to stop looting during the 1916 Rising."
+   },
+   {
+    "name": "John Charles McQuaid",
+    "note": "The formidable Archbishop of Dublin from 1940 to 1972, one of the most influential figures in 20th-century Irish life, born in Cootehill."
+   },
+   {
+    "name": "T.P. McKenna",
+    "note": "Distinguished stage and screen actor from Mullagh whose career ran from the Abbey Theatre to decades of British film and television."
+   },
+   {
+    "name": "John Joe O'Reilly",
+    "note": "The Gallant John Joe, captain of the Cavan team that won the 1947 All-Ireland football final at the Polo Grounds in New York."
+   },
+   {
+    "name": "Neven Maguire",
+    "note": "Celebrity chef and cookbook author whose MacNean House in Blacklion became one of Ireland's most sought-after restaurant bookings."
+   }
+  ],
+  "facts": [
+   "The 1947 All-Ireland football final, in which Cavan beat Kerry, was played at the Polo Grounds in New York, the only final ever staged outside Ireland.",
+   "The Shannon Pot on the slopes of Cuilcagh is the traditional source of the River Shannon, Ireland's longest river.",
+   "Cavan is reputed to contain 365 lakes, one for every day of the year, a legacy of its Ice Age drumlin landscape.",
+   "Songwriter Percy French worked in County Cavan as an inspector of drains in the 1880s, and later immortalised Ballyjamesduff in Come Back Paddy Reilly.",
+   "The Marble Arch Caves Geopark, shared between Cavan and Fermanagh, became the world's first international cross-border geopark in 2008.",
+   "The original Ballinamore-Ballyconnell canal was such a failure that only eight boats paid tolls before it closed; reborn in 1994 as the Shannon-Erne Waterway, it now links Ireland's two great river systems.",
+   "The plain of Magh Slécht near Ballyconnell was, according to early Irish texts, the cult centre of the pagan idol Crom Cruach, associated with the carved Killycluggin Stone.",
+   "Much of the plasterboard used in Irish building comes from the gypsum deposits mined around Kingscourt."
+  ]
+ },
+ "Donegal": {
+  "intro": [
+   "Wild, remote and fiercely proud of it, Donegal occupies the far north-west of the island, tied to the rest of the Republic by only a narrow strip of land around Bundoran. Its name, Dún na nGall, means 'fort of the foreigners', a nod to the Vikings, but the county's soul is thoroughly Gaelic: the Donegal Gaeltacht is one of the largest Irish-speaking regions in the country, and the distinctive Ulster dialect of Irish still rings out in Gweedore, the Rosses and Cloughaneely. The landscape is the county's calling card — the quartzite cone of Errigal, the sea cliffs of Slieve League, and a shattered Atlantic coastline of headlands, sea loughs and golden strands.",
+   "Historically this was the heartland of the O'Donnell clan, whose departure in the 1607 Flight of the Earls from Rathmullan marked the end of the old Gaelic order. Emigration shaped Donegal deeply — seasonal 'tattie hokers' crossed to Scotland for generations, and the county's diaspora stretches from Glasgow to Philadelphia. Its economy rests on fishing out of Killybegs, Ireland's premier fishing port, farming, tourism and the famous handwoven Donegal tweed of Ardara and Kilcar. Traditional music thrives here too, with a driving fiddle style all of its own, exported to the world by Clannad, Enya and Altan."
+  ],
+  "towns": [
+   {
+    "name": "Lifford",
+    "note": "The official county town, seated on the River Foyle opposite Strabane, with a fine 18th-century courthouse now a visitor centre."
+   },
+   {
+    "name": "Letterkenny",
+    "note": "Donegal's largest town and commercial hub, known as the Cathedral Town for St Eunan's Cathedral and its long Main Street."
+   },
+   {
+    "name": "Donegal Town",
+    "note": "Historic seat of the O'Donnells, home to Donegal Castle and a traditional centre of the tweed trade."
+   },
+   {
+    "name": "Killybegs",
+    "note": "Ireland's largest fishing port, where huge pelagic trawlers land mackerel and herring beneath the hills of south-west Donegal."
+   },
+   {
+    "name": "Buncrana",
+    "note": "The main town of the Inishowen Peninsula, sitting on the shores of Lough Swilly."
+   },
+   {
+    "name": "Bundoran",
+    "note": "A lively seaside resort in the county's southern corner, regarded as one of Europe's best surfing destinations."
+   },
+   {
+    "name": "Ballyshannon",
+    "note": "One of Ireland's oldest towns and the birthplace of blues guitarist Rory Gallagher, honoured with an annual festival."
+   },
+   {
+    "name": "Ardara",
+    "note": "A heritage town famed for handwoven Donegal tweed and knitwear, and a gateway to the Glengesh Pass."
+   },
+   {
+    "name": "Gweedore",
+    "note": "The heart of the Donegal Gaeltacht and one of Europe's most densely populated rural areas, home to Clannad and Enya."
+   },
+   {
+    "name": "Dungloe",
+    "note": "Capital of the Rosses and host of the long-running Mary from Dungloe international festival each summer."
+   }
+  ],
+  "people": [
+   {
+    "name": "Enya",
+    "note": "One of the world's best-selling solo artists, born Eithne Ní Bhraonáin in the Gaeltacht parish of Gweedore."
+   },
+   {
+    "name": "Rory Gallagher",
+    "note": "The legendary blues-rock guitarist was born in Ballyshannon in 1948."
+   },
+   {
+    "name": "Daniel O'Donnell",
+    "note": "The hugely popular singer from Kincasslagh in the Rosses, an ambassador for Donegal worldwide."
+   },
+   {
+    "name": "St Colmcille (Columba)",
+    "note": "One of Ireland's three patron saints, born at Gartan near Letterkenny in 521 before founding the monastery of Iona."
+   },
+   {
+    "name": "Packie Bonner",
+    "note": "The goalkeeping hero of Ireland's Italia 90 penalty shoot-out, from Burtonport."
+   },
+   {
+    "name": "Seamus Coleman",
+    "note": "Long-serving Everton and Republic of Ireland captain, a proud Killybegs man."
+   },
+   {
+    "name": "Shay Given",
+    "note": "One of Ireland's most-capped goalkeepers, born and raised in Lifford."
+   },
+   {
+    "name": "Moya Brennan",
+    "note": "Lead voice of Clannad and often called the First Lady of Celtic Music, from the Gweedore Gaeltacht."
+   },
+   {
+    "name": "Patrick MacGill",
+    "note": "The 'Navvy Poet' from Glenties whose novels chronicled the lives of Donegal migrant labourers, remembered in the annual MacGill Summer School."
+   },
+   {
+    "name": "Isaac Butt",
+    "note": "Founder of the Home Rule movement, born at Glenfin near Ballybofey in 1813."
+   }
+  ],
+  "facts": [
+   "Malin Head on the Inishowen Peninsula is the northernmost point of the island of Ireland — yet Donegal lies in the Republic, further north than anywhere in Northern Ireland.",
+   "The sea cliffs at Slieve League fall some 600 metres to the Atlantic, making them among the highest accessible sea cliffs in Europe.",
+   "Scenes from Star Wars: The Last Jedi were filmed at Malin Head in 2016.",
+   "The Flight of the Earls, which ended the Gaelic aristocratic order in Ireland, departed from Rathmullan on Lough Swilly in September 1607.",
+   "Glenveagh is one of Ireland's national parks, and its castle was once owned by American art collector Henry McIlhenny, who hosted Greta Garbo there.",
+   "Tory Island, nine miles off the coast, maintained the tradition of electing its own 'King of Tory' into the 21st century.",
+   "The Grianán of Aileach, a restored stone ringfort on a hilltop overlooking Lough Swilly, was a royal seat of the northern Uí Néill for centuries.",
+   "Fanad Head Lighthouse, guarding the mouth of Lough Swilly since 1817, is regularly voted one of the most beautiful lighthouses in the world."
+  ]
+ },
+ "Monaghan": {
+  "intro": [
+   "Little hills without end give Monaghan its name — Muineachán derives from the Irish for a place of small hills or thickets — and its distinctive drumlin landscape of rounded knolls, hidden lakes and winding lanes. This is Patrick Kavanagh country: the poet of the 'stony grey soil' grew up farming at Inniskeen, and his clear-eyed, affectionate portrait of small-farm life made Monaghan one of the most vividly written-about counties in Ireland. One of the three Ulster counties in the Republic, Monaghan wraps around the border, and partition cut deeply here, severing railways and hinterlands, especially around the old junction town of Clones.",
+   "Monaghan's quiet appearance belies a powerhouse agri-food economy: the county is a national leader in poultry, mushrooms, and furniture-making, with strong family firms exporting across Europe. Its craft heritage is world-class too — Carrickmacross lace and Clones lace, born of famine-relief schemes in the 19th century, adorned royal wedding gowns and are still made by hand today. Gaelic football is a passion bordering on religion, with St Tiernach's Park in Clones long a hallowed venue for Ulster finals, while Castleblayney's country music tradition earned it the nickname of Ireland's Nashville in the era of Big Tom."
+  ],
+  "towns": [
+   {
+    "name": "Monaghan",
+    "note": "The county town, built around three linked squares called the Diamond, with a fine county museum and St Macartan's Cathedral."
+   },
+   {
+    "name": "Carrickmacross",
+    "note": "A handsome market town world-famous for Carrickmacross lace, developed here in the 1820s."
+   },
+   {
+    "name": "Clones",
+    "note": "A former railway hub on the border, home of Clones lace, boxer Barry McGuigan and St Tiernach's Park, the great Ulster GAA venue."
+   },
+   {
+    "name": "Castleblayney",
+    "note": "Set beside Lough Muckno, the county's largest lake, and famed as the home of country music legend Big Tom."
+   },
+   {
+    "name": "Ballybay",
+    "note": "A drumlin market town on the Dromore river system, historically a centre of the linen trade."
+   },
+   {
+    "name": "Inniskeen",
+    "note": "Birthplace of Patrick Kavanagh, where the poet is buried and celebrated in a dedicated resource centre."
+   },
+   {
+    "name": "Glaslough",
+    "note": "A pristine estate village beside Castle Leslie, repeatedly honoured in Ireland's Tidy Towns awards."
+   },
+   {
+    "name": "Emyvale",
+    "note": "A north Monaghan village near the scenic lakes of Emy and the Sliabh Beagh uplands, heartland of the county's poultry industry."
+   }
+  ],
+  "people": [
+   {
+    "name": "Patrick Kavanagh",
+    "note": "One of Ireland's greatest 20th-century poets, born on a small farm at Inniskeen in 1904."
+   },
+   {
+    "name": "Barry McGuigan",
+    "note": "The 'Clones Cyclone' who won the WBA world featherweight title in 1985 and united fans across the border."
+   },
+   {
+    "name": "Charles Gavan Duffy",
+    "note": "Young Irelander, founder of The Nation newspaper and later Premier of Victoria, Australia, born in Monaghan town in 1816."
+   },
+   {
+    "name": "Big Tom McBride",
+    "note": "The king of Irish country music, who made Castleblayney the capital of the showband country scene."
+   },
+   {
+    "name": "Tommy Bowe",
+    "note": "Ireland and Lions rugby winger from Emyvale, one of Irish rugby's most prolific try scorers."
+   },
+   {
+    "name": "Ardal O'Hanlon",
+    "note": "Comedian and actor best known as Father Dougal in Father Ted, raised in Carrickmacross."
+   },
+   {
+    "name": "Caitriona Balfe",
+    "note": "Golden Globe-nominated star of Outlander and Belfast, who grew up in the village of Tydavnet."
+   },
+   {
+    "name": "John Robert Gregg",
+    "note": "Inventor of Gregg shorthand, once the world's most widely used shorthand system, born at Rockcorry in 1867."
+   },
+   {
+    "name": "Patrick McCabe",
+    "note": "Author of The Butcher Boy and Breakfast on Pluto, born in Clones, which colours much of his fiction."
+   }
+  ],
+  "facts": [
+   "Carrickmacross lace was incorporated into the wedding dress of Diana, Princess of Wales, in 1981, and lace from the town also featured in later royal wardrobes.",
+   "Monaghan is one of only three Ulster counties — with Cavan and Donegal — that remained in the Irish Free State after partition in 1921.",
+   "Paul McCartney married Heather Mills at Castle Leslie in Glaslough in 2002, briefly making the quiet estate village world news.",
+   "Monaghan farms produce a large share of Ireland's mushrooms and poultry, making the county an agri-food powerhouse out of all proportion to its size.",
+   "Gregg shorthand, invented by Rockcorry-born John Robert Gregg, became the standard shorthand system across North America.",
+   "Partition devastated Clones as a railway junction: the Great Northern Railway line criss-crossed the new border repeatedly, and services were eventually abandoned in 1957.",
+   "The county town's central marketplace, the Diamond, features the ornate Rossmore Memorial, a Victorian drinking fountain that is one of the finest of its kind in Ireland.",
+   "Patrick Kavanagh's poem On Raglan Road, set to the air The Dawning of the Day, became one of the most recorded Irish songs of the 20th century."
+  ]
+ },
+ "Antrim": {
+  "intro": [
+   "Few counties pack in as much drama per mile as Antrim. Its northern coast carries the Giant's Causeway, some 40,000 interlocking basalt columns formed by ancient volcanic activity and wrapped in the legend of Finn McCool, while the nine Glens of Antrim sweep green valleys down to the Sea of Moyle, with Scotland's Mull of Kintyre visible barely a dozen miles away. That closeness to Scotland has shaped everything here: the medieval kingdom of Dál Riada spanned the channel, the MacDonnell clan ruled from Dunluce Castle, and Ulster-Scots speech and song remain a living strand of the county's culture alongside its Gaelic and English inheritances.",
+   "Antrim's story is also an industrial one. Belfast, which grew along the Antrim side of the Lagan, boomed on linen, rope-making and shipbuilding to become one of the great Victorian industrial cities, and the county's mill towns and market towns — Ballymena, Lisburn, Larne — shared in that prosperity. Today visitors come for the Causeway Coastal Route, one of the world's great drives, for golf at Royal Portrush, whiskey at Bushmills and Game of Thrones filming locations from the Dark Hedges to Ballintoy. A county shared warmly by all traditions, Antrim rewards those tracing Presbyterian, Catholic and Church of Ireland roots alike."
+  ],
+  "towns": [
+   {
+    "name": "Antrim",
+    "note": "The historic county town at the north-east corner of Lough Neagh, with a well-preserved 10th-century round tower."
+   },
+   {
+    "name": "Belfast (part)",
+    "note": "Northern Ireland's capital straddles the Lagan, with its city centre, Cathedral Quarter and north and west of the city lying in County Antrim."
+   },
+   {
+    "name": "Ballymena",
+    "note": "A busy market and manufacturing town in mid-Antrim, known as the City of the Seven Towers and the heart of Ulster-Scots country."
+   },
+   {
+    "name": "Ballycastle",
+    "note": "A charming seaside town hosting the Ould Lammas Fair, one of Ireland's oldest fairs, and the ferry to Rathlin Island."
+   },
+   {
+    "name": "Bushmills",
+    "note": "Home of the Old Bushmills Distillery, working under a licence granted in 1608, and gateway to the Giant's Causeway."
+   },
+   {
+    "name": "Carrickfergus",
+    "note": "Dominated by its magnificent Norman castle on Belfast Lough, a town older than Belfast itself and namesake of a beloved ballad."
+   },
+   {
+    "name": "Portrush",
+    "note": "A classic seaside resort whose Royal Portrush links hosted golf's Open Championship in 1951, 2019 and 2025."
+   },
+   {
+    "name": "Larne",
+    "note": "A major ferry port linking Northern Ireland to Scotland, at the southern end of the Antrim Coast Road."
+   },
+   {
+    "name": "Lisburn (part)",
+    "note": "A cathedral city with deep linen-industry roots, granted city status in 2002, lying mostly within County Antrim."
+   },
+   {
+    "name": "Ballymoney",
+    "note": "A north Antrim market town forever associated with motorcycling legend Joey Dunlop, honoured with a memorial garden."
+   }
+  ],
+  "people": [
+   {
+    "name": "Liam Neeson",
+    "note": "The Oscar-nominated star of Schindler's List and Taken, born and raised in Ballymena."
+   },
+   {
+    "name": "Joey Dunlop",
+    "note": "From Ballymoney, widely considered the greatest road racer of all time with 26 Isle of Man TT wins."
+   },
+   {
+    "name": "Kenneth Branagh",
+    "note": "The Oscar-winning actor and director was born in north Belfast, the setting for his autobiographical film Belfast."
+   },
+   {
+    "name": "Mary McAleese",
+    "note": "President of Ireland from 1997 to 2011, born and raised in Ardoyne in north Belfast."
+   },
+   {
+    "name": "James Nesbitt",
+    "note": "Star of Cold Feet and The Missing, born in Ballymena and raised in the Antrim village of Broughshane."
+   },
+   {
+    "name": "Willie John McBride",
+    "note": "The iconic Ireland and Lions rugby captain, born near Toomebridge and long associated with Ballymena RFC."
+   },
+   {
+    "name": "Sorley Boy MacDonnell",
+    "note": "The formidable 16th-century chieftain who secured the MacDonnell hold on north Antrim from his stronghold at Dunluce Castle."
+   },
+   {
+    "name": "Ciaran Hinds",
+    "note": "Acclaimed stage and screen actor of Game of Thrones and Belfast fame, born in Belfast."
+   },
+   {
+    "name": "James Young",
+    "note": "Beloved Belfast comedian whose characters gently sent up all sides of the city's life in the 1960s and 70s."
+   }
+  ],
+  "facts": [
+   "The Giant's Causeway is Northern Ireland's only UNESCO World Heritage Site, formed by volcanic activity around 60 million years ago.",
+   "Old Bushmills Distillery traces its licence to distil to 1608, giving it a claim to be the oldest licensed whiskey distillery in the world.",
+   "According to tradition, the young St Patrick herded sheep as a slave on Slemish mountain near Ballymena.",
+   "A cave on Rathlin Island is reputed to be where Robert the Bruce, in hiding after defeat in 1306, watched the spider that inspired him to try again.",
+   "William of Orange landed at Carrickfergus in June 1690 on his way to the Battle of the Boyne.",
+   "The Antrim Coast Road, blasted through cliffs in the 1830s to link the isolated Glens, is regarded as one of the great feats of Victorian road engineering.",
+   "When the Open Championship came to Royal Portrush in 2019, it was the first time golf's oldest major had been played outside Great Britain since 1951 — also at Portrush.",
+   "Lough Neagh, which borders Antrim on the west, is the largest lake in these islands and by legend was formed when Finn McCool scooped out a clod of earth and hurled it into the sea, creating the Isle of Man."
+  ]
+ },
+ "Armagh": {
+  "intro": [
+   "Ireland's ecclesiastical capital for over 1,500 years, Armagh takes its name from Ard Mhacha, the height of Macha, the goddess-queen of Ulster legend. St Patrick chose the hill here for his principal church around 445 AD, and today two St Patrick's Cathedrals — Church of Ireland and Roman Catholic — face each other across the small Georgian city, each the seat of an all-Ireland primate. Two miles west stands Navan Fort, Emain Macha, the ancient capital of the Kings of Ulster and setting of the Táin sagas, making this compact county a place of extraordinary depth for anyone tracing the deep roots of Irish identity.",
+   "Beyond the city, Armagh is the Orchard County: apple growing was recorded here well over a millennium ago, and the pink-and-white blossom of May around Loughgall and Richhill remains a glorious sight, with the Armagh Bramley apple now protected under EU designation. Linen once powered towns like Lurgan, Portadown and the Quaker model village of Bessbrook, while today the county is renowned for Gaelic football — Crossmaglen Rangers are among the most decorated clubs in Ireland — and for road bowls, the ancient sport of hurling an iron bullet along country lanes, kept alive here and in Cork. Visitors of every tradition find a shared heritage in its cathedrals, orchards and observatory."
+  ],
+  "towns": [
+   {
+    "name": "Armagh",
+    "note": "The county town and ecclesiastical capital of Ireland, a Georgian gem with two St Patrick's Cathedrals, a 1790 observatory and a planetarium."
+   },
+   {
+    "name": "Lurgan",
+    "note": "A former linen powerhouse laid out with one of the widest main streets in Ireland, beside Lurgan Park, one of the largest urban parks in these islands."
+   },
+   {
+    "name": "Portadown",
+    "note": "A major market and railway town on the River Bann, once known as the hub of the North for its rail junction."
+   },
+   {
+    "name": "Craigavon",
+    "note": "A planned new town begun in 1965 between Lurgan and Portadown, named after Northern Ireland's first prime minister."
+   },
+   {
+    "name": "Crossmaglen",
+    "note": "A south Armagh village with one of Ireland's largest market squares and a Gaelic football club, Crossmaglen Rangers, of legendary success."
+   },
+   {
+    "name": "Bessbrook",
+    "note": "A Quaker model linen village founded in 1845, built famously without a public house and said to have inspired Bournville."
+   },
+   {
+    "name": "Keady",
+    "note": "A hillside mill town near the Monaghan border, birthplace of singer Tommy Makem and a heartland of traditional music."
+   },
+   {
+    "name": "Tandragee",
+    "note": "A castle town whose 19th-century castle now houses the Tayto crisp factory, one of Northern Ireland's best-loved brands."
+   },
+   {
+    "name": "Loughgall",
+    "note": "A pretty estate village at the centre of the county's apple orchards and the place where the Orange Order was founded in 1795."
+   }
+  ],
+  "people": [
+   {
+    "name": "St Patrick",
+    "note": "Ireland's patron saint established his principal church at Armagh around 445 AD, fixing the city's primacy in the Irish church ever since."
+   },
+   {
+    "name": "Brian Boru",
+    "note": "The High King of Ireland, killed at Clontarf in 1014, is buried in the grounds of St Patrick's Church of Ireland Cathedral in Armagh."
+   },
+   {
+    "name": "Tommy Makem",
+    "note": "The world-famous folk singer and banjo player, partner of the Clancy Brothers, born in Keady in 1932."
+   },
+   {
+    "name": "George William Russell (AE)",
+    "note": "Poet, painter, mystic and agricultural reformer of the Irish Literary Revival, born in Lurgan in 1867."
+   },
+   {
+    "name": "Cardinal Tomas O Fiaich",
+    "note": "Archbishop of Armagh and noted historian of the Irish colleges in Europe, born near Crossmaglen in 1923."
+   },
+   {
+    "name": "Colin Morgan",
+    "note": "The star of the BBC's Merlin and Humans, born and raised in Armagh city."
+   },
+   {
+    "name": "Charles Wood",
+    "note": "One of the great composers of Anglican church music and teacher of Vaughan Williams, born in Armagh in 1866."
+   },
+   {
+    "name": "Patrick Magee",
+    "note": "The distinctive stage and screen actor, a favourite of Samuel Beckett and star of A Clockwork Orange, born in Armagh in 1922."
+   },
+   {
+    "name": "Oisin McConville",
+    "note": "One of Gaelic football's greatest forwards, who won an All-Ireland with Armagh in 2002 and a hatful of club titles with Crossmaglen Rangers."
+   }
+  ],
+  "facts": [
+   "Armagh is the ecclesiastical capital of all Ireland: both the Catholic Church and the Church of Ireland seat their all-island primates in the city.",
+   "Navan Fort, or Emain Macha, was the royal capital of ancient Ulster and features in the epic tales of Cú Chulainn and the Red Branch Knights.",
+   "Armagh Observatory, founded in 1790, holds one of the longest continuous series of daily weather records anywhere in the world, unbroken since 1795.",
+   "The Armagh Bramley apple holds EU Protected Geographical Indication status, and apple growing in the county was recorded more than a thousand years ago.",
+   "Armagh is the smallest of the six counties of Northern Ireland by area.",
+   "Road bowls, in which players hurl a 28-ounce iron bullet along winding country roads in as few throws as possible, survives almost exclusively in Armagh and Cork.",
+   "The Bessbrook and Newry Tramway, opened in 1885, was one of the first hydroelectric-powered railways in the world.",
+   "Ireland's oldest public library outside Dublin, the Armagh Robinson Library of 1771, holds Jonathan Swift's own annotated copy of Gulliver's Travels."
+  ]
+ },
+ "Derry": {
+  "intro": [
+   "Few places in Ireland carry as much history within so small a compass as Derry, whose county town remains the only completely walled city on the island. The walls, raised between 1613 and 1619 during the Plantation of Ulster, were never breached — hence the nickname the Maiden City — and today you can walk their full circuit above the Bogside and the Guildhall. Beyond the city, the county unfolds into the heathery Sperrin Mountains, the fertile Roe and Faughan valleys, and a magnificent Atlantic coastline at Downhill, Castlerock and Portstewart, where the clifftop Mussenden Temple has become one of the most photographed buildings in Ireland.",
+   "Derry earned its living for generations from shirt-making — by the late nineteenth century it was one of the great shirt-producing centres of the world, an industry that famously employed far more women than men. The county's cultural weight is remarkable: Seamus Heaney grew up on a farm at Mossbawn near Bellaghy, and his poetry is saturated with this landscape of flax dams, bog and blackberries. In 2013 Derry-Londonderry became the first ever UK City of Culture, and the Peace Bridge across the Foyle, opened in 2011, has become a symbol of a city and county looking forward while honouring both of its traditions."
+  ],
+  "towns": [
+   {
+    "name": "Derry city",
+    "note": "Ireland's only completely walled city, built on a hill above the River Foyle and the first ever UK City of Culture in 2013."
+   },
+   {
+    "name": "Coleraine",
+    "note": "A busy university and market town near the mouth of the River Bann, close to Mountsandel, one of the earliest known settlement sites in Ireland."
+   },
+   {
+    "name": "Limavady",
+    "note": "The town where Jane Ross noted down the Londonderry Air, the melody of Danny Boy, from a travelling fiddler in the 1850s."
+   },
+   {
+    "name": "Portstewart",
+    "note": "A Victorian seaside resort whose two-mile strand is managed by the National Trust and hosts surfers year round."
+   },
+   {
+    "name": "Magherafelt",
+    "note": "A thriving Plantation-era market town and the main commercial centre of south Derry."
+   },
+   {
+    "name": "Bellaghy",
+    "note": "Seamus Heaney's home village, now home to the Seamus Heaney HomePlace arts centre and the poet's grave."
+   },
+   {
+    "name": "Dungiven",
+    "note": "A gateway town to the Sperrins with a ruined Augustinian priory holding the ornate tomb of chieftain Cooey na Gall O'Cahan."
+   },
+   {
+    "name": "Castlerock",
+    "note": "A small resort village beneath Downhill Demesne, where the Mussenden Temple perches dramatically on the cliff edge."
+   },
+   {
+    "name": "Maghera",
+    "note": "A market town at the foot of the Glenshane Pass with the remains of a sixth-century monastery founded by St Lurach."
+   },
+   {
+    "name": "Eglinton",
+    "note": "A neat planned village near Lough Foyle, laid out by the Grocers' Company of London and now home to City of Derry Airport."
+   }
+  ],
+  "people": [
+   {
+    "name": "Seamus Heaney",
+    "note": "Nobel Prize-winning poet born at Mossbawn near Castledawson and raised in Bellaghy, whose work is rooted in the south Derry countryside."
+   },
+   {
+    "name": "St Colmcille (Columba)",
+    "note": "The sixth-century saint who founded a monastery in the oak grove that gave Derry its name before sailing to Iona."
+   },
+   {
+    "name": "John Hume",
+    "note": "Derry-born SDLP leader and architect of the peace process, awarded the Nobel Peace Prize in 1998."
+   },
+   {
+    "name": "Phil Coulter",
+    "note": "Derry songwriter and pianist whose anthem The Town I Loved So Well is a love letter to his native city."
+   },
+   {
+    "name": "Dana (Rosemary Scallon)",
+    "note": "Raised in Derry's Bogside, she won the 1970 Eurovision Song Contest for Ireland with All Kinds of Everything."
+   },
+   {
+    "name": "Feargal Sharkey",
+    "note": "Derry-born frontman of The Undertones, whose Teenage Kicks was John Peel's favourite record of all time."
+   },
+   {
+    "name": "Roma Downey",
+    "note": "Derry-born actress and producer best known for the American series Touched by an Angel."
+   },
+   {
+    "name": "Nadine Coyle",
+    "note": "Derry singer who found fame as a member of the chart-topping group Girls Aloud."
+   },
+   {
+    "name": "Martin O'Neill",
+    "note": "Footballer and manager from Kilrea who captained Northern Ireland and later managed the Republic of Ireland."
+   },
+   {
+    "name": "Seamus Deane",
+    "note": "Derry-born poet, critic and novelist whose Reading in the Dark drew on his Bogside childhood."
+   }
+  ],
+  "facts": [
+   "Derry's city walls, completed in 1619, are the only complete city walls in Ireland and were never breached, earning Derry the title of the Maiden City.",
+   "The Siege of Derry in 1689 lasted 105 days and is remembered as the longest siege in British and Irish history.",
+   "Amelia Earhart landed in a field at Ballyarnett just outside Derry in 1932, completing the first solo transatlantic flight by a woman.",
+   "The melody of Danny Boy, known as the Londonderry Air, was collected in Limavady in the 1850s by Jane Ross.",
+   "The name Derry comes from the Irish Doire, meaning oak grove, recalling the wood where St Colmcille founded his monastery.",
+   "In the nineteenth century Derry was one of the shirt-making capitals of the world, and its factories were even mentioned by Karl Marx in Das Kapital.",
+   "Mountsandel near Coleraine has evidence of habitation from around 7600 BC, among the oldest known human settlement sites in Ireland.",
+   "Derry-Londonderry was named the first ever UK City of Culture in 2013, marked by the opening of the curved Peace Bridge across the Foyle in 2011."
+  ]
+ },
+ "Down": {
+  "intro": [
+   "Where the Mountains of Mourne sweep down to the sea — Percy French's famous line describes County Down exactly, for the granite Mournes rise almost straight from the beach at Newcastle, crowned by Slieve Donard, Northern Ireland's highest peak at 850 metres. This is also St Patrick's county: he is said to have begun his Irish mission at Saul near Downpatrick in 432 and to lie buried beside Down Cathedral. Between the mountains and Belfast Lough stretches a gentle drumlin landscape, the island-speckled waters of Strangford Lough, and the long arm of the Ards Peninsula, dotted with fishing harbours and early Christian sites.",
+   "Down has long been prosperous farming and market-town country, its northern edge now woven into Belfast's commuter belt through Holywood, Bangor and Comber. Its people have shaped the wider world out of all proportion to its size: Hans Sloane of Killyleagh founded the collection that became the British Museum, Thomas Andrews of Comber designed the Titanic, and Harry Ferguson from near Dromore revolutionised world farming with his tractor system. Golf pilgrims come for Royal County Down at Newcastle, walkers for the Mourne Wall and Tollymore Forest, and family historians for the graveyards and meeting houses that record centuries of both Planter and Gael."
+  ],
+  "towns": [
+   {
+    "name": "Downpatrick",
+    "note": "The county town, where St Patrick is reputedly buried in the grounds of Down Cathedral on the Hill of Down."
+   },
+   {
+    "name": "Newry",
+    "note": "A cathedral city straddling the Down-Armagh border at the head of Carlingford Lough, served by the pioneering Newry Canal of 1742."
+   },
+   {
+    "name": "Bangor",
+    "note": "A seaside city on Belfast Lough whose abbey, founded by St Comgall around 558, sent missionaries across Dark Age Europe."
+   },
+   {
+    "name": "Newcastle",
+    "note": "A resort town at the foot of Slieve Donard, home to the world-renowned Royal County Down golf links."
+   },
+   {
+    "name": "Hillsborough",
+    "note": "An elegant Georgian village whose castle is the official royal residence in Northern Ireland."
+   },
+   {
+    "name": "Portaferry",
+    "note": "A harbour town on the fast-flowing Strangford Narrows, reached by ferry and home to the Exploris aquarium."
+   },
+   {
+    "name": "Holywood",
+    "note": "A seaside town on Belfast Lough famous for its maypole and as the home town of golfer Rory McIlroy."
+   },
+   {
+    "name": "Banbridge",
+    "note": "A linen-era town on the River Bann whose unusual sunken carriageway, the Cut, was built in 1834 to help mail coaches up the steep main street."
+   },
+   {
+    "name": "Warrenpoint",
+    "note": "A Victorian resort on Carlingford Lough looking across to the Cooley Mountains, with a summer ferry to Omeath."
+   },
+   {
+    "name": "Killyleagh",
+    "note": "A village on Strangford Lough dominated by a turreted castle and known as the birthplace of Sir Hans Sloane."
+   }
+  ],
+  "people": [
+   {
+    "name": "St Patrick",
+    "note": "Ireland's patron saint began his mission at Saul near Downpatrick in 432 and is reputedly buried at Down Cathedral."
+   },
+   {
+    "name": "Sir Hans Sloane",
+    "note": "Killyleagh-born physician and collector whose vast collection founded the British Museum and who popularised drinking chocolate."
+   },
+   {
+    "name": "Thomas Andrews",
+    "note": "The Comber-born naval architect who designed the Titanic and went down with the ship in 1912."
+   },
+   {
+    "name": "Harry Ferguson",
+    "note": "Born near Dromore, he made the first powered flight in Ireland in 1909 and transformed world agriculture with the Ferguson tractor system."
+   },
+   {
+    "name": "Patrick Bronte",
+    "note": "Father of the Bronte novelists, born in a cottage at Drumballyroney near Rathfriland before making his way to Cambridge and Yorkshire."
+   },
+   {
+    "name": "Francis Crozier",
+    "note": "Banbridge-born polar explorer who commanded HMS Terror and vanished with the Franklin expedition in the Arctic."
+   },
+   {
+    "name": "Rory McIlroy",
+    "note": "Holywood's four-time major champion golfer, who completed the career Grand Slam at the 2025 Masters."
+   },
+   {
+    "name": "Jamie Dornan",
+    "note": "Holywood-born actor known for The Fall, Fifty Shades of Grey and Belfast."
+   },
+   {
+    "name": "James Martin",
+    "note": "Engineer from Crossgar whose Martin-Baker ejection seats have saved thousands of pilots' lives."
+   }
+  ],
+  "facts": [
+   "Slieve Donard, at 850 metres, is the highest mountain in Northern Ireland, and the 35-kilometre dry-stone Mourne Wall crosses fifteen summits around it.",
+   "The Newry Canal, opened in 1742, was the first summit-level canal in Britain or Ireland, predating England's celebrated Bridgewater Canal.",
+   "The Antiphonary of Bangor, written at Bangor Abbey in the seventh century, is one of the oldest surviving Irish manuscripts and is now kept in Milan.",
+   "Strangford Lough is the largest sea inlet in Britain and Ireland, and in 2008 its narrows hosted SeaGen, the world's first large-scale commercial tidal stream turbine.",
+   "Hillsborough Castle is the official residence of the monarch in Northern Ireland and hosted key negotiations throughout the peace process.",
+   "Royal County Down at Newcastle is regularly ranked among the greatest golf courses in the world.",
+   "The name Down comes from the Irish Dun, meaning fort, after the great hilltop fort at Downpatrick.",
+   "Tollymore Forest Park near Newcastle, opened in 1955, was the first state forest park in Northern Ireland and later served as a filming location for Game of Thrones."
+  ]
+ },
+ "Fermanagh": {
+  "intro": [
+   "Water defines Fermanagh more than any other Irish county: roughly a third of it lies under lakes and rivers, and locals like to say that for six months of the year Lough Erne is in Fermanagh, and for the other six Fermanagh is in Lough Erne. The county town of Enniskillen sits on an island in the river between Upper and Lower Lough Erne, a natural fortress that made it the seat of the Maguire chieftains, who ruled Fermanagh for centuries and patrolled the lakes with a private fleet of boats. Scattered across the waters are islands rich in carved stones and monastic ruins, from the round tower of Devenish to the enigmatic Janus figure on Boa Island.",
+   "Away from the loughs, Fermanagh rises into limestone uplands riddled with caves — the Marble Arch Caves near Florencecourt anchor a UNESCO Global Geopark that reaches across the border into Cavan. This is a county of stately homes such as Castle Coole and Florence Court, of the delicate Parian china made at Belleek since 1857, and of quiet market villages where anglers and boaters set out onto some of the best coarse fishing waters in Europe. Portora Royal School in Enniskillen educated both Oscar Wilde and Samuel Beckett, and in 2013 the eyes of the world turned to the Lough Erne Resort when it hosted the G8 summit."
+  ],
+  "towns": [
+   {
+    "name": "Enniskillen",
+    "note": "The county town, built on an island between Upper and Lower Lough Erne and guarded by the Maguires' castle."
+   },
+   {
+    "name": "Lisnaskea",
+    "note": "Fermanagh's second town, close to the crowning place of the Maguire chieftains at Cornashee."
+   },
+   {
+    "name": "Belleek",
+    "note": "One of the most westerly villages in Northern Ireland, world-famous for the Parian china produced at Belleek Pottery since 1857."
+   },
+   {
+    "name": "Irvinestown",
+    "note": "A Plantation market town near Necarne Castle and the wartime flying-boat base at Castle Archdale."
+   },
+   {
+    "name": "Kesh",
+    "note": "A village at the top of Lower Lough Erne popular with anglers and the gateway to Boa Island's ancient carved figures."
+   },
+   {
+    "name": "Belcoo",
+    "note": "A border village facing Blacklion in Cavan across the water, set between the two Lough Macneans."
+   },
+   {
+    "name": "Garrison",
+    "note": "A small angling village on Lough Melvin, a lake famous for its unique native trout varieties."
+   },
+   {
+    "name": "Newtownbutler",
+    "note": "A border village in south Fermanagh near the reedy islands and waterways of Upper Lough Erne."
+   },
+   {
+    "name": "Derrygonnelly",
+    "note": "A village beneath the cliffs of Magho, a gateway to the walking country of the western Fermanagh uplands."
+   }
+  ],
+  "people": [
+   {
+    "name": "The Maguires",
+    "note": "The Gaelic dynasty that ruled Fermanagh from the thirteenth to the seventeenth century, giving the county its enduring identity."
+   },
+   {
+    "name": "Oscar Wilde",
+    "note": "The playwright spent his schooldays at Portora Royal School in Enniskillen in the 1860s and early 1870s."
+   },
+   {
+    "name": "Samuel Beckett",
+    "note": "The Nobel laureate boarded at Portora Royal School in Enniskillen, where he excelled at cricket as much as at books."
+   },
+   {
+    "name": "Adrian Dunbar",
+    "note": "Enniskillen-born actor and director best known as Superintendent Ted Hastings in Line of Duty."
+   },
+   {
+    "name": "Neil Hannon",
+    "note": "The Divine Comedy songwriter grew up in Enniskillen, where his father was the Church of Ireland Bishop of Clogher."
+   },
+   {
+    "name": "Joan Trimble",
+    "note": "Enniskillen-born pianist and composer who, with her sister Valerie, formed a celebrated piano duo in the mid-twentieth century."
+   },
+   {
+    "name": "Frank Ormsby",
+    "note": "Poet and long-time anthologist of Ulster writing, born in Enniskillen and raised in rural Fermanagh."
+   },
+   {
+    "name": "Kyle Lafferty",
+    "note": "Footballer from Kesh who scored crucial goals in Northern Ireland's run to Euro 2016."
+   },
+   {
+    "name": "Ciaran McMenamin",
+    "note": "Enniskillen-born actor and novelist known for David Copperfield and Primeval."
+   }
+  ],
+  "facts": [
+   "About a third of County Fermanagh is covered by water, the highest proportion of any Irish county.",
+   "Enniskillen's historic core stands on an island in the River Erne, making it unique among Irish county towns.",
+   "The Marble Arch Caves form the heart of a UNESCO Global Geopark that was the first in the world to span an international border, reaching into County Cavan.",
+   "Belleek Pottery, founded in 1857, is one of Ireland's oldest working potteries and its delicate Parian china is prized by collectors worldwide.",
+   "The two-faced Janus figure on Boa Island is one of the most mysterious stone carvings in Ireland, possibly dating from the Iron Age.",
+   "The Lough Erne Resort outside Enniskillen hosted the G8 summit of world leaders in June 2013.",
+   "Fermanagh has had no railway since 1957, when the Great Northern lines through the county were closed.",
+   "During the Second World War, Catalina and Sunderland flying boats patrolled the Atlantic from bases on Lough Erne, using a secret flight corridor over neutral Donegal."
+  ]
+ },
+ "Tyrone": {
+  "intro": [
+   "Tyrone is the largest of Northern Ireland's six counties, a broad inland sweep of glens, bog and farmland rising to the Sperrin Mountains along its northern rim. Its name, Tir Eoghain, means the land of Eoghan, a son of Niall of the Nine Hostages, and for centuries it was the heartland of the O'Neills, the most powerful Gaelic dynasty in Ireland. Hugh O'Neill, Earl of Tyrone, led the great Gaelic resistance of the Nine Years' War before sailing from Ireland in 1607 in the Flight of the Earls — the event that opened the door to the Plantation of Ulster and reshaped the province forever.",
+   "Few counties are as bound up with the story of emigration to America. The Ulster American Folk Park outside Omagh grew around the boyhood home of Thomas Mellon, founder of the Pittsburgh banking dynasty, and the ancestral homesteads of Presidents Ulysses S. Grant and Woodrow Wilson still stand at Ballygawley and near Strabane. Strabane itself was a famous printing town whose apprentice John Dunlap went on to print the American Declaration of Independence. Today Tyrone is known for its engineering firms, its lively market towns, the Bronze Age mystery of the Beaghmore stone circles, and a fierce devotion to Gaelic football that has brought Sam Maguire home four times."
+  ],
+  "towns": [
+   {
+    "name": "Omagh",
+    "note": "The county town at the meeting of the Drumragh and Camowen rivers, with the Ulster American Folk Park on its doorstep."
+   },
+   {
+    "name": "Dungannon",
+    "note": "The historic seat of the O'Neill chieftains, whose castle hill overlooks a town later built on linen and engineering."
+   },
+   {
+    "name": "Strabane",
+    "note": "A border town with a famous printing tradition — John Dunlap and James Wilson, grandfather of President Woodrow Wilson, both learned their trades here."
+   },
+   {
+    "name": "Cookstown",
+    "note": "A Plantation town famous for its main street, around two kilometres long and one of the longest in Ireland."
+   },
+   {
+    "name": "Coalisland",
+    "note": "A former coal-mining and canal town, and the home of 1985 world snooker champion Dennis Taylor."
+   },
+   {
+    "name": "Castlederg",
+    "note": "A west Tyrone market town on the River Derg whose castle ruins recall centuries of border warfare."
+   },
+   {
+    "name": "Sion Mills",
+    "note": "A picturesque model village built around a great linen spinning mill by the Herdman family in the 1830s."
+   },
+   {
+    "name": "Clogher",
+    "note": "A tiny cathedral town in a fertile valley, seat of one of the oldest bishoprics in Ireland."
+   },
+   {
+    "name": "Benburb",
+    "note": "A village above the Blackwater gorge, site of Owen Roe O'Neill's famous victory over a Covenanter army in 1646."
+   },
+   {
+    "name": "Moy",
+    "note": "An elegant village laid out in the 1760s by Lord Charlemont, reputedly on the plan of an Italian piazza, and once famed for its horse fairs."
+   }
+  ],
+  "people": [
+   {
+    "name": "Hugh O'Neill",
+    "note": "Earl of Tyrone and last great Gaelic lord of Ireland, who led the Nine Years' War and departed in the Flight of the Earls in 1607."
+   },
+   {
+    "name": "John Dunlap",
+    "note": "Strabane-born printer who printed the first copies of the American Declaration of Independence and founded America's first successful daily newspaper."
+   },
+   {
+    "name": "Flann O'Brien (Brian O'Nolan)",
+    "note": "The comic novelist behind At Swim-Two-Birds and The Third Policeman was born in Strabane in 1911."
+   },
+   {
+    "name": "Brian Friel",
+    "note": "One of Ireland's greatest playwrights, author of Translations and Dancing at Lughnasa, born near Omagh in 1929."
+   },
+   {
+    "name": "Benedict Kiely",
+    "note": "Novelist, broadcaster and seanchai of modern Irish letters, raised in Omagh, which colours much of his fiction."
+   },
+   {
+    "name": "Jimmy Kennedy",
+    "note": "Omagh-born songwriter whose hits included Teddy Bears' Picnic and Red Sails in the Sunset."
+   },
+   {
+    "name": "Dennis Taylor",
+    "note": "Coalisland-born snooker player who won the 1985 world championship on the final black in front of 18.5 million BBC viewers."
+   },
+   {
+    "name": "Darren Clarke",
+    "note": "Dungannon golfer who won the Open Championship in 2011 and starred in multiple Ryder Cups."
+   },
+   {
+    "name": "Peter Canavan",
+    "note": "Ballygawley Gaelic footballer regarded as one of the greatest ever, who captained Tyrone to their first All-Ireland title in 2003."
+   }
+  ],
+  "facts": [
+   "Tyrone is the largest county in Northern Ireland, covering more than 3,200 square kilometres from Lough Neagh to the Donegal border.",
+   "The Beaghmore stone circles near Cookstown, uncovered during turf cutting in the 1940s, comprise seven circles and dozens of cairns and alignments from the Bronze Age.",
+   "John Dunlap of Strabane printed the Declaration of Independence on the night of 4 July 1776, and the surviving copies are known as Dunlap broadsides.",
+   "The ancestral homes of two US presidents survive in Tyrone: Ulysses S. Grant's at Ballygawley and Woodrow Wilson's family homestead at Dergalt near Strabane.",
+   "The Ulster American Folk Park at Omagh grew around the cottage where Thomas Mellon, founder of the Mellon banking dynasty of Pittsburgh, was born in 1813.",
+   "The name Tyrone comes from Tir Eoghain, the land of Eoghan, a son of the legendary fifth-century king Niall of the Nine Hostages.",
+   "Tyrone have won the All-Ireland Senior Football Championship four times, in 2003, 2005, 2008 and 2021.",
+   "Cookstown was laid out with a main street around two kilometres long, often cited as the longest in Ireland, earning it the nickname the Long Line."
+  ]
+ }
+}

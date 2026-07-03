@@ -2344,6 +2344,26 @@ a {
   cursor: pointer;
 }
 
+/* ---------- County rich content ---------- */
+.county-rich__title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 22px 0 8px;
+  color: var(--green-dark);
+}
+
+.county-rich__list {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 7px;
+  line-height: 1.5;
+}
+
+.county-rich__list--facts li::marker {
+  content: '☘ ';
+}
+
 /* ---------- County scratch map ---------- */
 .scratch {
   border: 1px solid var(--line);
