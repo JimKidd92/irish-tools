@@ -58,11 +58,17 @@ export default function SideNav({ open, onClose, route }) {
         >
           <Sparkles size={18} strokeWidth={1.75} aria-hidden="true" /> <span>Daily Irish Quiz</span>
         </button>
+        <button
+          className={`sidenav__item sidenav__item--feature ${route === 'sceal' ? 'is-active' : ''}`}
+          onClick={() => go('sceal')}
+        >
+          <ToolIcon name="MessagesSquare" size={18} /> <span>County Scéal</span>
+        </button>
 
         {groups.map((group) => (
           <div key={group.category} className="sidenav__group">
             <p className="sidenav__group-title">{group.category}</p>
-            {group.items.map((tool) => (
+            {group.items.filter((t) => t.id !== 'sceal').map((tool) => (
               <button
                 key={tool.id}
                 className={`sidenav__item ${route === tool.path ? 'is-active' : ''}`}

@@ -12,6 +12,7 @@ import { fileURLToPath } from 'node:url'
 import { dirname, resolve, join } from 'node:path'
 import { ROUTE_META, SITE_URL, pathFor } from '../src/data/seo.js'
 import { SURNAMES } from '../src/data/surnames.js'
+import { SURNAME_RICH } from '../src/data/surnamesRich.generated.js'
 import { COUNTIES } from '../src/data/counties.js'
 import { COUNTY_ABOUT } from '../src/data/countiesAbout.js'
 import { PLACES } from '../src/data/places.js'
@@ -71,12 +72,21 @@ function surnameContent(s) {
     (o) => o.name !== s.name && counties.some((c) => o.region.includes(c.name)),
   ).slice(0, 8)
   const rel = related.map((o) => `<a href="/surnames/${slugify(o.name)}/">${esc(o.name)}</a>`).join(' · ')
+  const rich = SURNAME_RICH[s.name]
+  const richHtml = rich
+    ? `${rich.pronunciation ? `<p><strong>Pronunciation:</strong> ${esc(rich.pronunciation)}</p>` : ''}
+    <h2>History of the ${esc(s.name)} name</h2>
+    ${rich.history.map((p) => `<p>${esc(p)}</p>`).join('')}
+    ${rich.variants.length ? `<p><strong>Variants:</strong> ${rich.variants.map(esc).join(' · ')}</p>` : ''}
+    ${rich.bearers.length ? `<h2>Famous bearers of the name</h2><ul>${rich.bearers.map((b) => `<li><strong>${esc(b.name)}</strong> — ${esc(b.note)}</li>`).join('')}</ul>` : ''}`
+    : ''
   return `<main class="prerender"><article>
     <h1>${esc(s.name)} — Irish Surname Origin &amp; Meaning</h1>
     <p><strong>Irish form:</strong> <span lang="ga">${esc(s.irish)}</span></p>
     <p><strong>Meaning:</strong> ${esc(s.meaning)}</p>
     <p><strong>Traditional stronghold:</strong> ${region}</p>
     ${s.note ? `<p>${esc(s.note)}</p>` : ''}
+    ${richHtml}
     ${rel ? `<p><strong>Related names from the same part of Ireland:</strong> ${rel}</p>` : ''}
     <p><a href="/surnames/">Browse all Irish surnames</a> · <a href="/">Irish Tools</a></p>
   </article></main>`
@@ -226,20 +236,27 @@ for (const g of GUIDES) {
 
 // Entry pages.
 let entryCount = 0
-// Surname & slang entry pages are kept for visitors who land on them directly,
-// but noindexed for now (thin/templated) and left out of the sitemap. They’ll be
-// re-indexed once each carries more substantial content.
+// Surname pages WITH rich content (history, bearers, variants) are substantial
+// enough to index and sit in the sitemap; thin ones stay noindexed. Slang entry
+// pages remain noindexed until they too carry more content.
+let richSurnames = 0
 for (const s of SURNAMES) {
   const slug = slugify(s.name)
+  const rich = Boolean(SURNAME_RICH[s.name])
   await writePage(`surnames/${slug}`, render({
     title: `${s.name} — Irish Surname Origin & Meaning · Irish Tools`,
     description: `The Irish surname ${s.name} (${s.irish}) means ${s.meaning}. Its traditional stronghold is ${s.region}.`,
     url: `${SITE_URL}/surnames/${slug}/`,
     content: surnameContent(s),
-    noindex: true,
+    noindex: !rich,
   }))
+  if (rich) {
+    addToSitemap(`/surnames/${slug}/`)
+    richSurnames++
+  }
   entryCount++
 }
+if (richSurnames) console.log(`Indexed ${richSurnames} rich surname pages`)
 for (const c of COUNTIES) {
   const slug = slugify(c.name)
   await writePage(`counties/${slug}`, render({

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { SURNAMES, findSurname } from '../data/surnames.js'
+import { SURNAME_RICH } from '../data/surnamesRich.generated.js'
 import { COUNTIES } from '../data/counties.js'
 import { slugify, findBySlug } from '../lib/slug.js'
 import { setHead } from '../lib/head.js'
@@ -19,6 +20,38 @@ function relatedTo(result, counties) {
   return SURNAMES.filter(
     (s) => s.name !== result.name && names.some((n) => s.region.includes(n)),
   ).slice(0, 8)
+}
+
+function SurnameRich({ rich, name }) {
+  return (
+    <div className="surname__rich">
+      {rich.pronunciation && (
+        <p className="surname__pron">
+          <strong>Say it:</strong> {rich.pronunciation}
+        </p>
+      )}
+      {rich.history.map((p, i) => (
+        <p key={i} className="surname__history">{p}</p>
+      ))}
+      {rich.variants.length > 0 && (
+        <p className="surname__variants">
+          <strong>Also spelled:</strong> {rich.variants.join(' · ')}
+        </p>
+      )}
+      {rich.bearers.length > 0 && (
+        <div className="surname__bearers">
+          <h3 className="county-rich__title">Famous {name}s</h3>
+          <ul className="county-rich__list">
+            {rich.bearers.map((b) => (
+              <li key={b.name}>
+                <strong>{b.name}</strong> — {b.note}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  )
 }
 
 export default function SurnameTool({ slug }) {
@@ -108,6 +141,9 @@ export default function SurnameTool({ slug }) {
               : result.region}
           </p>
           {result.note && <p className="surname__note">{result.note}</p>}
+
+          {SURNAME_RICH[result.name] && <SurnameRich rich={SURNAME_RICH[result.name]} name={result.name} />}
+
           <ShareButton
             url={`https://irishtools.ie/surnames/${slugify(result.name)}/`}
             text={`🧬 The Irish surname ${result.name} (${result.irish}) means ${result.meaning} — from ${result.region}.`}

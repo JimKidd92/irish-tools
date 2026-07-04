@@ -1,6 +1,10 @@
 // Common Irish surnames with origins. Meanings are the generally accepted
 // etymologies — grand for a bit of heritage craic, not a genealogy service.
-export const SURNAMES = [
+// The hand-written base list below is extended by generated entries
+// (surnamesExtra.generated.js); rich histories live in surnamesRich.generated.js.
+import { EXTRA_SURNAMES } from './surnamesExtra.generated.js'
+
+const BASE_SURNAMES = [
   { name: 'Murphy', irish: 'Ó Murchadha', meaning: '“sea warrior”', region: 'Cork, Wexford & Armagh', note: 'The most common surname in Ireland.' },
   { name: 'Kelly', irish: 'Ó Ceallaigh', meaning: '“bright-headed” or “strife”', region: 'Galway, Roscommon & Meath', note: 'The second most common Irish surname.' },
   { name: "O'Brien", irish: 'Ó Briain', meaning: 'descendant of Brian (Boru) — “noble, high”', region: 'Clare, Limerick & Tipperary' },
@@ -205,6 +209,9 @@ export const SURNAMES = [
   { name: 'Dunphy', irish: 'Ó Donnchaidh', meaning: '“brown warrior”', region: 'Kilkenny & Waterford' },
   { name: 'Phelan', irish: 'Ó Faoláin', meaning: '“wolf”', region: 'Waterford & Kilkenny', note: 'Whelan is the same name.' },
 ]
+
+// Base list (roughly by commonality) plus the generated extras.
+export const SURNAMES = [...BASE_SURNAMES, ...EXTRA_SURNAMES]
 
 function normalise(s) {
   return (s || '').toLowerCase().replace(/[^a-z]/g, '')
