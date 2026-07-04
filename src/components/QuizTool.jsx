@@ -62,8 +62,8 @@ function bumpStreak() {
 }
 
 function ServerQuiz() {
-  const { signedIn, needsName } = useQuizAuth()
-  const ready = signedIn && !needsName
+  const { signedIn, needsName, needsCounty } = useQuizAuth()
+  const ready = signedIn && !needsName && !needsCounty
   const [state, setState] = useState({ status: 'idle' })
   const [step, setStep] = useState(0)
   const [answers, setAnswers] = useState([])

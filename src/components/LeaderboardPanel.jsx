@@ -1,6 +1,12 @@
 import { useCallback, useEffect, useState } from 'react'
 import { createLeague, joinLeague, getMyLeagues } from '../lib/quizApi.js'
+import { useQuizAuth } from '../hooks/useQuizAuth.jsx'
 import Leaderboard from './Leaderboard.jsx'
+import CountyStandings from './CountyStandings.jsx'
+
+// Sentinel "sources" alongside league codes.
+const SRC_COUNTY = '__my_county'
+const SRC_COUNTIES = '__counties'
 
 const shareUrl = (code) => `${window.location.origin}/quiz/?join=${code}`
 
@@ -8,6 +14,7 @@ const shareUrl = (code) => `${window.location.origin}/quiz/?join=${code}`
 // private leaderboards you're in, create a new one (with a shareable link), or
 // join one by code. `focusCode` selects a league just joined via an invite link.
 export default function LeaderboardPanel({ focusCode = null }) {
+  const { county } = useQuizAuth()
   const [leagues, setLeagues] = useState([])
   const [selected, setSelected] = useState(focusCode)
   const [mode, setMode] = useState('none') // 'none' | 'create' | 'join'
@@ -81,7 +88,9 @@ export default function LeaderboardPanel({ focusCode = null }) {
     }
   }
 
-  const current = leagues.find((l) => l.code === selected) || null
+  const current = typeof selected === 'string' && !selected.startsWith('__')
+    ? leagues.find((l) => l.code === selected) || null
+    : null
 
   return (
     <div className="lbp">
@@ -94,6 +103,26 @@ export default function LeaderboardPanel({ focusCode = null }) {
           }}
         >
           🌍 Global
+        </button>
+        {county && (
+          <button
+            className={`lbp__src ${selected === SRC_COUNTY ? 'is-on' : ''}`}
+            onClick={() => {
+              setSelected(SRC_COUNTY)
+              setMode('none')
+            }}
+          >
+            ☘ {county}
+          </button>
+        )}
+        <button
+          className={`lbp__src ${selected === SRC_COUNTIES ? 'is-on' : ''}`}
+          onClick={() => {
+            setSelected(SRC_COUNTIES)
+            setMode('none')
+          }}
+        >
+          🆚 Counties
         </button>
         {leagues.map((l) => (
           <button
@@ -163,7 +192,13 @@ export default function LeaderboardPanel({ focusCode = null }) {
         </div>
       )}
 
-      <Leaderboard key={selected || 'global'} league={selected} />
+      {selected === SRC_COUNTIES ? (
+        <CountyStandings myCounty={county} />
+      ) : selected === SRC_COUNTY ? (
+        <Leaderboard key={`county-${county}`} county={county} />
+      ) : (
+        <Leaderboard key={selected || 'global'} league={selected} />
+      )}
     </div>
   )
 }

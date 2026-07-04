@@ -1,11 +1,28 @@
-import { createContext, useCallback, useContext, useMemo, useState } from 'react'
-import { authGoogle, claimName, clearSession, getUser, quizEnabled } from '../lib/quizApi.js'
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
+import {
+  authGoogle,
+  claimName,
+  claimCounty,
+  fetchProfile,
+  clearSession,
+  getUser,
+  quizEnabled,
+} from '../lib/quizApi.js'
 
 const QuizAuthContext = createContext(null)
 
 export function QuizAuthProvider({ children }) {
   const [user, setUser] = useState(() => getUser())
   const [suggestedName, setSuggestedName] = useState('')
+
+  // Sessions created before county affiliation existed have no `county` key at
+  // all (vs null = asked but skipped/unset server-side) — refresh those once.
+  useEffect(() => {
+    if (!quizEnabled() || !user || 'county' in user) return
+    fetchProfile()
+      .then((d) => setUser(d.user))
+      .catch(() => {})
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Called with the Google credential (JWT) from the Sign-in button.
   const handleCredential = useCallback(async (credential) => {
@@ -17,6 +34,13 @@ export function QuizAuthProvider({ children }) {
 
   const chooseName = useCallback(async (name) => {
     const data = await claimName(name)
+    // /auth/name doesn't know the county — preserve what we have.
+    setUser((u) => ({ ...u, ...data.user, county: u?.county ?? data.user.county ?? null }))
+    return data.user
+  }, [])
+
+  const chooseCounty = useCallback(async (county) => {
+    const data = await claimCounty(county)
     setUser(data.user)
     return data.user
   }, [])
@@ -33,11 +57,14 @@ export function QuizAuthProvider({ children }) {
       suggestedName,
       signedIn: Boolean(user),
       needsName: Boolean(user && user.needsName),
+      needsCounty: Boolean(user && !user.needsName && !user.county),
+      county: (user && user.county) || null,
       handleCredential,
       chooseName,
+      chooseCounty,
       signOut,
     }),
-    [user, suggestedName, handleCredential, chooseName, signOut],
+    [user, suggestedName, handleCredential, chooseName, chooseCounty, signOut],
   )
 
   return <QuizAuthContext.Provider value={value}>{children}</QuizAuthContext.Provider>

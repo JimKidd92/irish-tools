@@ -72,7 +72,22 @@ export async function authGoogle(credential) {
 
 export async function claimName(name) {
   const data = await api('/auth/name', { method: 'POST', body: { name } })
-  setSession(data.token, data.user)
+  // /auth/name doesn't return county — keep whatever we already know.
+  const prev = getUser() || {}
+  const user = { county: prev.county ?? null, ...data.user }
+  setSession(data.token, user)
+  return { ...data, user }
+}
+
+export async function claimCounty(county) {
+  const data = await api('/auth/county', { method: 'POST', body: { county } })
+  setSession(null, data.user)
+  return data
+}
+
+export async function fetchProfile() {
+  const data = await api('/me')
+  setSession(null, data.user)
   return data
 }
 
@@ -90,8 +105,23 @@ export const putUserData = (key, value) => api('/me/data', { method: 'PUT', body
 export const shareTrip = (trip) => api('/trip/share', { method: 'POST', body: { trip } })
 export const getSharedTrip = (code) =>
   api(`/trip/shared?code=${encodeURIComponent(code)}`, { auth: false })
-export const getLeaderboard = (period = 'daily', league = null) =>
-  api(`/leaderboard?period=${encodeURIComponent(period)}${league ? `&league=${encodeURIComponent(league)}` : ''}`)
+export const getLeaderboard = (period = 'daily', league = null, county = null) =>
+  api(
+    `/leaderboard?period=${encodeURIComponent(period)}${league ? `&league=${encodeURIComponent(league)}` : ''}${county ? `&county=${encodeURIComponent(county)}` : ''}`,
+  )
+export const getCountyStandings = (period = 'weekly') =>
+  api(`/leaderboard/counties?period=${encodeURIComponent(period)}`, { auth: false })
+
+// County Scéal boards
+export const getSceal = (county, before = null) =>
+  api(`/sceal?county=${encodeURIComponent(county)}${before ? `&before=${before}` : ''}`, { auth: false })
+export const getScealThread = (id) => api(`/sceal/post?id=${encodeURIComponent(id)}`)
+export const createSceal = (county, title, body) =>
+  api('/sceal/post', { method: 'POST', body: { county, title, body } })
+export const commentSceal = (postId, body, parentId = null) =>
+  api('/sceal/comment', { method: 'POST', body: { postId, body, parentId } })
+export const reportContent = (type, id) => api('/sceal/report', { method: 'POST', body: { type, id } })
+export const deleteContent = (type, id) => api('/sceal/delete', { method: 'POST', body: { type, id } })
 
 // Private leaderboards (leagues)
 export const createLeague = (name) => api('/league/create', { method: 'POST', body: { name } })

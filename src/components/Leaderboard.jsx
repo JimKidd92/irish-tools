@@ -12,14 +12,18 @@ function Row({ r, isMe }) {
   return (
     <tr className={isMe ? 'lb__row lb__row--me' : 'lb__row'}>
       <td className="lb__rank">{r.rank <= 3 ? ['🥇', '🥈', '🥉'][r.rank - 1] : r.rank}</td>
-      <td className="lb__name">{r.name}{isMe && <span className="lb__you"> (you)</span>}</td>
+      <td className="lb__name">
+        {r.name}
+        {r.flair && <span className="flair">☘ {r.flair}</span>}
+        {isMe && <span className="lb__you"> (you)</span>}
+      </td>
       <td className="lb__score">{r.correct}</td>
       <td className="lb__time">{formatTime(r.time_ms)}</td>
     </tr>
   )
 }
 
-export default function Leaderboard({ defaultPeriod = 'daily', league = null }) {
+export default function Leaderboard({ defaultPeriod = 'daily', league = null, county = null }) {
   const [period, setPeriod] = useState(defaultPeriod)
   const [data, setData] = useState(null)
   const [status, setStatus] = useState('loading')
@@ -27,7 +31,7 @@ export default function Leaderboard({ defaultPeriod = 'daily', league = null }) 
   useEffect(() => {
     let cancelled = false
     setStatus('loading')
-    getLeaderboard(period, league)
+    getLeaderboard(period, league, county)
       .then((d) => {
         if (cancelled) return
         setData(d)
@@ -37,7 +41,7 @@ export default function Leaderboard({ defaultPeriod = 'daily', league = null }) 
     return () => {
       cancelled = true
     }
-  }, [period, league])
+  }, [period, league, county])
 
   const meInList = data?.me && data.rows.some((r) => r.rank === data.me.rank && r.name === data.me.name)
 

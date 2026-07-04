@@ -6,8 +6,11 @@ CREATE TABLE IF NOT EXISTS users (
   google_sub         TEXT UNIQUE,        -- Google subject id (stable per Google account)
   display_name       TEXT,               -- chosen public nickname
   display_name_lower TEXT UNIQUE,        -- case-insensitive uniqueness guard
+  county             TEXT,               -- county affiliation (flair + county rankings)
   created_at         INTEGER NOT NULL
 );
+-- Upgrading an existing database:
+--   wrangler d1 execute irish-tools-quiz --remote --command "ALTER TABLE users ADD COLUMN county TEXT"
 
 -- One row per user per day: holds the start time (for server-side timing) and,
 -- once submitted, the score. PRIMARY KEY enforces one game per user per day.
@@ -47,6 +50,43 @@ CREATE TABLE IF NOT EXISTS league_members (
 );
 
 CREATE INDEX IF NOT EXISTS idx_league_members_user ON league_members (user_id);
+
+-- County Scéal boards: per-county posts and threaded comments.
+CREATE TABLE IF NOT EXISTS posts (
+  id         TEXT PRIMARY KEY,
+  county     TEXT NOT NULL,
+  user_id    TEXT NOT NULL,
+  title      TEXT NOT NULL,
+  body       TEXT,
+  comments   INTEGER NOT NULL DEFAULT 0,
+  deleted    INTEGER NOT NULL DEFAULT 0,
+  created_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_posts_county ON posts (county, deleted, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_posts_user ON posts (user_id, created_at);
+
+CREATE TABLE IF NOT EXISTS comments (
+  id         TEXT PRIMARY KEY,
+  post_id    TEXT NOT NULL,
+  parent_id  TEXT,                       -- one-level replies
+  user_id    TEXT NOT NULL,
+  body       TEXT NOT NULL,
+  deleted    INTEGER NOT NULL DEFAULT 0,
+  created_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_comments_post ON comments (post_id, deleted, created_at);
+CREATE INDEX IF NOT EXISTS idx_comments_user ON comments (user_id, created_at);
+
+-- Reports of posts/comments (one per user per item; 5+ auto-hides pending review).
+-- Review queue:
+--   wrangler d1 execute irish-tools-quiz --remote --command "SELECT target_type, target_id, COUNT(*) n FROM content_reports GROUP BY 1,2 ORDER BY n DESC LIMIT 30"
+CREATE TABLE IF NOT EXISTS content_reports (
+  target_type TEXT NOT NULL,
+  target_id   TEXT NOT NULL,
+  user_id     TEXT NOT NULL,
+  created_at  INTEGER NOT NULL,
+  PRIMARY KEY (target_type, target_id, user_id)
+);
 
 -- Player reports of dodgy questions (one per user per question). Review the
 -- worst offenders with:

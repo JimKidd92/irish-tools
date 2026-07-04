@@ -2,12 +2,16 @@ import { useEffect, useState } from 'react'
 import { useQuizAuth } from '../hooks/useQuizAuth.jsx'
 import { getLeagueInfo } from '../lib/quizApi.js'
 import GoogleSignInButton from './GoogleSignInButton.jsx'
+import CountySelect from './CountySelect.jsx'
 
-// Handles the two pre-play states: signed-out (Google button + pitch) and
-// signed-in-but-no-nickname (claim a name). Renders nothing once ready to play.
+// Handles the pre-play states: signed-out (Google button + pitch),
+// signed-in-but-no-nickname, and no-county-yet (affiliation for flair +
+// county rankings). Renders nothing once ready to play.
 export default function QuizSignIn({ inviteCode = null }) {
-  const { signedIn, needsName, suggestedName, handleCredential, chooseName } = useQuizAuth()
+  const { signedIn, needsName, needsCounty, suggestedName, handleCredential, chooseName, chooseCounty } =
+    useQuizAuth()
   const [name, setName] = useState('')
+  const [county, setCounty] = useState('')
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const [invite, setInvite] = useState(null)
@@ -30,6 +34,19 @@ export default function QuizSignIn({ inviteCode = null }) {
       await handleCredential(credential)
     } catch (e) {
       setError(e.message || 'Sign-in failed — try again.')
+    } finally {
+      setBusy(false)
+    }
+  }
+
+  async function onCounty(e) {
+    e.preventDefault()
+    setError('')
+    setBusy(true)
+    try {
+      await chooseCounty(county)
+    } catch (err) {
+      setError(err.message || 'Could not save your county.')
     } finally {
       setBusy(false)
     }
@@ -94,6 +111,30 @@ export default function QuizSignIn({ inviteCode = null }) {
           </button>
         </form>
         {error && <p className="quiz-auth__error">{error}</p>}
+      </div>
+    )
+  }
+
+  if (needsCounty) {
+    return (
+      <div className="quiz-auth">
+        <span className="quiz-auth__emoji" aria-hidden="true">🗺️</span>
+        <h3 className="quiz-auth__title">What county are you?</h3>
+        <p className="quiz-auth__pitch">
+          Wear your colours! Your county appears beside your name, ranks you against your own,
+          and puts you on your county’s Scéal board.
+        </p>
+        <form className="quiz-auth__form" onSubmit={onCounty}>
+          <CountySelect value={county} onChange={setCounty} />
+          <button className="btn btn--primary" type="submit" disabled={busy || !county}>
+            {busy ? 'Saving…' : 'Up ' + (county || 'we go') + '!'}
+          </button>
+        </form>
+        {error && <p className="quiz-auth__error">{error}</p>}
+        <p className="quiz-auth__small">
+          Born there, reared there, or just where the heart is — your call. You can post on every
+          county’s board either way.
+        </p>
       </div>
     )
   }

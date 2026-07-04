@@ -1908,6 +1908,165 @@ a {
   text-align: center;
 }
 
+/* ---------- County flair ---------- */
+.flair {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: rgba(22, 155, 98, 0.12);
+  border: 1px solid rgba(22, 155, 98, 0.3);
+  color: var(--green-dark);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* ---------- County Scéal boards ---------- */
+.sceal__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.sceal__title {
+  font-family: var(--font-display);
+  margin: 0;
+}
+.county-select {
+  max-width: 220px;
+}
+.sceal__sub {
+  color: var(--ink-soft);
+  margin: 6px 0 16px;
+}
+.sceal__new {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.sceal__compose {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.sceal__compose-title {
+  width: 100%;
+}
+.sceal__compose-body {
+  width: 100%;
+  resize: vertical;
+  font-family: inherit;
+}
+.sceal__compose-row {
+  display: flex;
+  gap: 10px;
+}
+.sceal__signin {
+  margin-bottom: 14px;
+}
+.sceal__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.sceal__post {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  text-align: left;
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 14px;
+  cursor: pointer;
+  font: inherit;
+  color: var(--ink);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.sceal__post:hover {
+  border-color: var(--green);
+  transform: translateY(-1px);
+}
+.sceal__post-title {
+  font-weight: 800;
+}
+.sceal__post-preview {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.sceal__post-meta {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+.sceal__more {
+  width: 100%;
+  margin-top: 12px;
+}
+.sceal__full {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
+.sceal__full-title {
+  font-family: var(--font-display);
+  margin: 10px 0 4px;
+}
+.sceal__full-body {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+.sceal__comments-title {
+  font-size: 0.95rem;
+  margin: 0 0 10px;
+}
+.sceal__comments {
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+.sceal__comment-body {
+  margin: 2px 0 4px;
+  white-space: pre-wrap;
+  line-height: 1.55;
+}
+.sceal__replies {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0 0 0 16px;
+  border-left: 2px solid var(--line);
+  display: grid;
+  gap: 12px;
+}
+.sceal__actions {
+  margin: 0;
+  display: flex;
+  gap: 14px;
+  font-size: 0.78rem;
+}
+.sceal__actions .linklike {
+  color: var(--ink-soft);
+}
+.sceal__actions .linklike:hover {
+  color: var(--green-dark);
+}
+.sceal__replybox {
+  display: grid;
+  gap: 10px;
+}
+.sceal__replying {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
 /* ---------- Leaderboard ---------- */
 .lb__tabs {
   display: flex;

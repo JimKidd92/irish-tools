@@ -29,6 +29,7 @@ const RoundTool = lazy(() => import('./components/RoundTool.jsx'))
 const SpudsTool = lazy(() => import('./components/SpudsTool.jsx'))
 const HowsTheFormTool = lazy(() => import('./components/HowsTheFormTool.jsx'))
 const QuizTool = lazy(() => import('./components/QuizTool.jsx'))
+const ScealBoard = lazy(() => import('./components/ScealBoard.jsx'))
 const BankHolidayTool = lazy(() => import('./components/BankHolidayTool.jsx'))
 const RegDecoderTool = lazy(() => import('./components/RegDecoderTool.jsx'))
 const PintsTool = lazy(() => import('./components/PintsTool.jsx'))
@@ -109,8 +110,14 @@ const PAGES = {
   quiz: {
     title: 'The Daily Irish Quiz',
     subtitle:
-      'Five fresh questions every day. Build your streak and share your score — sure you’d know it all.',
+      'Ten fresh questions every day. Build your streak, rep your county and climb the leaderboards.',
     Component: QuizTool,
+  },
+  sceal: {
+    title: 'County Scéal',
+    subtitle:
+      'Every county has its own board — post the scéal, join the chat, wear your colours.',
+    Component: ScealBoard,
   },
   'bank-holiday': {
     title: 'Next Bank Holiday',

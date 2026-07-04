@@ -39,7 +39,8 @@ export default function PrivacyPage() {
         The Daily Quiz leaderboard is optional. If you choose to take part, you sign in with
         Google, and Google confirms your identity to us. We then store only a{' '}
         <strong>random player ID</strong>, a stable identifier from Google that lets us recognise
-        you on future visits, and the <strong>nickname you choose</strong>. We do <em>not</em>
+        you on future visits, the <strong>nickname you choose</strong> and the{' '}
+        <strong>county you pick</strong> (shown beside your name as flair). We do <em>not</em>
         store your Google password, and we don’t use your email for marketing.
       </p>
       <p>
@@ -51,6 +52,16 @@ export default function PrivacyPage() {
         Want your account and scores deleted? Email{' '}
         <a href="mailto:hello@irishtools.ie">hello@irishtools.ie</a> with your nickname and we’ll
         remove them.
+      </p>
+
+      <h2>County Scéal boards (public posts)</h2>
+      <p>
+        The County Scéal boards are public discussion boards. Anything you post or comment —
+        along with your nickname and county — is <strong>visible to everyone on the internet</strong>,
+        so don’t post personal details you wouldn’t want public. You can delete your own posts and
+        comments at any time, and report anyone else’s; content reported by several accounts is
+        hidden automatically pending review. To have all your posts removed with your account,
+        email <a href="mailto:hello@irishtools.ie">hello@irishtools.ie</a>.
       </p>
 
       <h2>Weather data</h2>

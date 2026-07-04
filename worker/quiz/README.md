@@ -105,6 +105,15 @@ before any repeat. Answers live here only and are never sent to the browser.
 | POST | `/league/join` | ✓ | Join a private leaderboard by code |
 | GET | `/league/mine` | ✓ | The private leaderboards you're in |
 | GET | `/league/info?code=CODE` | – | Preview a leaderboard (name + player count) |
+| POST | `/auth/county` | ✓ | Set your county affiliation (flair + county rankings) |
+| GET | `/me` | ✓ | Your profile (name, county) |
+| GET | `/leaderboard/counties?period=…` | – | County-vs-county standings |
+| GET | `/sceal?county=NAME[&before=ts]` | – | A county board's posts (newest first, 20/page) |
+| GET | `/sceal/post?id=ID` | optional | One scéal + its comments |
+| POST | `/sceal/post` | ✓ | Create a scéal (rate-limited, slur-screened) |
+| POST | `/sceal/comment` | ✓ | Comment / reply (rate-limited) |
+| POST | `/sceal/report` | ✓ | Report a post/comment (5 reports auto-hides) |
+| POST | `/sceal/delete` | ✓ | Soft-delete your own post/comment |
 
 ## Private leaderboards (leagues)
 

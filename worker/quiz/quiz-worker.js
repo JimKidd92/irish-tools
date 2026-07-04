@@ -214,6 +214,15 @@ export default {
       const route = `${req.method} ${url.pathname}`
       if (route === 'POST /auth/google') return await authGoogle(req, env, origin)
       if (route === 'POST /auth/name') return await authName(req, env, origin)
+      if (route === 'POST /auth/county') return await authCounty(req, env, origin)
+      if (route === 'GET /me') return await meProfile(req, env, origin)
+      if (route === 'GET /leaderboard/counties') return await countyStandings(req, env, origin)
+      if (route === 'GET /sceal') return await scealList(req, env, origin)
+      if (route === 'GET /sceal/post') return await scealThread(req, env, origin)
+      if (route === 'POST /sceal/post') return await scealCreate(req, env, origin)
+      if (route === 'POST /sceal/comment') return await scealComment(req, env, origin)
+      if (route === 'POST /sceal/report') return await scealReportContent(req, env, origin)
+      if (route === 'POST /sceal/delete') return await scealDelete(req, env, origin)
       if (route === 'GET /quiz/today') return await quizToday(req, env, origin)
       if (route === 'POST /quiz/submit') return await quizSubmit(req, env, origin)
       if (route === 'POST /quiz/report') return await quizReport(req, env, origin)
@@ -243,24 +252,50 @@ async function authGoogle(req, env, origin) {
   } catch {
     return json({ error: 'invalid google token' }, 401, origin)
   }
-  let row = await env.DB.prepare('SELECT id, display_name FROM users WHERE google_sub = ?').bind(g.sub).first()
+  let row = await env.DB.prepare('SELECT id, display_name, county FROM users WHERE google_sub = ?').bind(g.sub).first()
   if (!row) {
     const id = crypto.randomUUID()
     await env.DB.prepare('INSERT INTO users (id, google_sub, created_at) VALUES (?, ?, ?)')
       .bind(id, g.sub, Date.now())
       .run()
-    row = { id, display_name: null }
+    row = { id, display_name: null, county: null }
   }
   const token = await newSession(row.id, row.display_name, env.SESSION_SECRET)
   return json(
     {
       token,
-      user: { name: row.display_name, needsName: !row.display_name },
+      user: { name: row.display_name, county: row.county || null, needsName: !row.display_name },
       suggestedName: g.given_name || (g.name || '').split(' ')[0] || '',
     },
     200,
     origin,
   )
+}
+
+// The 32 traditional counties — the only valid affiliations and Scéal boards.
+const COUNTY_NAMES = [
+  'Antrim', 'Armagh', 'Carlow', 'Cavan', 'Clare', 'Cork', 'Derry', 'Donegal', 'Down', 'Dublin',
+  'Fermanagh', 'Galway', 'Kerry', 'Kildare', 'Kilkenny', 'Laois', 'Leitrim', 'Limerick', 'Longford',
+  'Louth', 'Mayo', 'Meath', 'Monaghan', 'Offaly', 'Roscommon', 'Sligo', 'Tipperary', 'Tyrone',
+  'Waterford', 'Westmeath', 'Wexford', 'Wicklow',
+]
+
+async function authCounty(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const { county } = await req.json()
+  if (!COUNTY_NAMES.includes(county)) return json({ error: 'Pick one of the 32 counties.' }, 400, origin)
+  await env.DB.prepare('UPDATE users SET county = ? WHERE id = ?').bind(county, session.uid).run()
+  const row = await env.DB.prepare('SELECT display_name, county FROM users WHERE id = ?').bind(session.uid).first()
+  return json({ user: { name: row.display_name, county: row.county, needsName: !row.display_name } }, 200, origin)
+}
+
+async function meProfile(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const row = await env.DB.prepare('SELECT display_name, county FROM users WHERE id = ?').bind(session.uid).first()
+  if (!row) return json({ error: 'unauthorized' }, 401, origin)
+  return json({ user: { name: row.display_name, county: row.county || null, needsName: !row.display_name } }, 200, origin)
 }
 
 async function authName(req, env, origin) {
@@ -473,25 +508,33 @@ async function leaderboard(req, env, origin) {
   const wanted = url.searchParams.get('period')
   const period = ['daily', 'weekly', 'monthly', 'all'].includes(wanted) ? wanted : 'daily'
   const league = (url.searchParams.get('league') || '').trim().toUpperCase() || null
+  const countyWanted = url.searchParams.get('county')
+  const county = COUNTY_NAMES.includes(countyWanted) ? countyWanted : null
   const date = dublinDate()
   const from = periodStart(period, date)
-  // Optional private-leaderboard filter: restrict to members of a league.
+  // Optional filters: league membership, or county affiliation.
   const lj = league ? 'JOIN league_members lm ON lm.user_id = g.user_id AND lm.code = ?' : ''
+  const cw = county ? 'AND u.county = ?' : ''
+  const pre = league ? [league] : []
+  const post = county ? [county] : []
   let rows
   if (period === 'daily') {
-    const stmt = env.DB.prepare(
-      `SELECT u.display_name AS name, g.correct AS correct, g.time_ms AS time_ms, 1 AS plays FROM games g JOIN users u ON u.id = g.user_id ${lj} WHERE g.date = ? AND g.submitted_at IS NOT NULL ORDER BY correct DESC, time_ms ASC LIMIT 100`,
+    rows = await env.DB.prepare(
+      `SELECT u.display_name AS name, u.county AS flair, g.correct AS correct, g.time_ms AS time_ms, 1 AS plays FROM games g JOIN users u ON u.id = g.user_id ${lj} WHERE g.date = ? AND g.submitted_at IS NOT NULL ${cw} ORDER BY correct DESC, time_ms ASC LIMIT 100`,
     )
-    rows = await (league ? stmt.bind(league, date) : stmt.bind(date)).all()
+      .bind(...pre, date, ...post)
+      .all()
   } else {
-    const stmt = env.DB.prepare(
-      `SELECT u.display_name AS name, SUM(g.correct) AS correct, SUM(g.time_ms) AS time_ms, COUNT(*) AS plays FROM games g JOIN users u ON u.id = g.user_id ${lj} WHERE g.date >= ? AND g.submitted_at IS NOT NULL GROUP BY g.user_id ORDER BY correct DESC, time_ms ASC LIMIT 100`,
+    rows = await env.DB.prepare(
+      `SELECT u.display_name AS name, u.county AS flair, SUM(g.correct) AS correct, SUM(g.time_ms) AS time_ms, COUNT(*) AS plays FROM games g JOIN users u ON u.id = g.user_id ${lj} WHERE g.date >= ? AND g.submitted_at IS NOT NULL ${cw} GROUP BY g.user_id ORDER BY correct DESC, time_ms ASC LIMIT 100`,
     )
-    rows = await (league ? stmt.bind(league, from) : stmt.bind(from)).all()
+      .bind(...pre, from, ...post)
+      .all()
   }
   const list = (rows.results || []).map((r, i) => ({
     rank: i + 1,
     name: r.name,
+    flair: r.flair || null,
     correct: r.correct,
     time_ms: r.time_ms,
     plays: r.plays,
@@ -499,13 +542,16 @@ async function leaderboard(req, env, origin) {
   let me = null
   const session = await requireAuth(req, env.SESSION_SECRET)
   if (session && session.name) {
-    me = list.find((r) => r.name === session.name) || (await myRank(env, period, date, from, session, league))
+    me = list.find((r) => r.name === session.name) || (await myRank(env, period, date, from, session, league, county))
   }
-  return json({ period, league, rows: list, me }, 200, origin)
+  return json({ period, league, county, rows: list, me }, 200, origin)
 }
 
-async function myRank(env, period, date, from, session, league) {
+async function myRank(env, period, date, from, session, league, county) {
   const lj = league ? 'JOIN league_members lm ON lm.user_id = g.user_id AND lm.code = ?' : ''
+  const cw = county ? 'AND g.user_id IN (SELECT id FROM users WHERE county = ?)' : ''
+  const pre = league ? [league] : []
+  const post = county ? [county] : []
   if (period === 'daily') {
     const g = await env.DB.prepare(
       'SELECT correct, time_ms FROM games WHERE user_id = ? AND date = ? AND submitted_at IS NOT NULL',
@@ -513,13 +559,11 @@ async function myRank(env, period, date, from, session, league) {
       .bind(session.uid, date)
       .first()
     if (!g) return null
-    const stmt = env.DB.prepare(
-      `SELECT COUNT(*) AS c FROM games g ${lj} WHERE g.date = ? AND g.submitted_at IS NOT NULL AND (g.correct > ? OR (g.correct = ? AND g.time_ms < ?))`,
+    const better = await env.DB.prepare(
+      `SELECT COUNT(*) AS c FROM games g ${lj} WHERE g.date = ? AND g.submitted_at IS NOT NULL ${cw} AND (g.correct > ? OR (g.correct = ? AND g.time_ms < ?))`,
     )
-    const better = await (league
-      ? stmt.bind(league, date, g.correct, g.correct, g.time_ms)
-      : stmt.bind(date, g.correct, g.correct, g.time_ms)
-    ).first()
+      .bind(...pre, date, ...post, g.correct, g.correct, g.time_ms)
+      .first()
     return { rank: (better.c || 0) + 1, name: session.name, correct: g.correct, time_ms: g.time_ms, plays: 1 }
   }
   const g = await env.DB.prepare(
@@ -528,14 +572,30 @@ async function myRank(env, period, date, from, session, league) {
     .bind(session.uid, from)
     .first()
   if (!g || g.correct == null) return null
-  const stmt = env.DB.prepare(
-    `SELECT COUNT(*) AS c FROM (SELECT g.user_id, SUM(g.correct) AS correct, SUM(g.time_ms) AS time_ms FROM games g ${lj} WHERE g.date >= ? AND g.submitted_at IS NOT NULL GROUP BY g.user_id) t WHERE t.correct > ? OR (t.correct = ? AND t.time_ms < ?)`,
+  const better = await env.DB.prepare(
+    `SELECT COUNT(*) AS c FROM (SELECT g.user_id, SUM(g.correct) AS correct, SUM(g.time_ms) AS time_ms FROM games g ${lj} WHERE g.date >= ? AND g.submitted_at IS NOT NULL ${cw} GROUP BY g.user_id) t WHERE t.correct > ? OR (t.correct = ? AND t.time_ms < ?)`,
   )
-  const better = await (league
-    ? stmt.bind(league, from, g.correct, g.correct, g.time_ms)
-    : stmt.bind(from, g.correct, g.correct, g.time_ms)
-  ).first()
+    .bind(...pre, from, ...post, g.correct, g.correct, g.time_ms)
+    .first()
   return { rank: (better.c || 0) + 1, name: session.name, correct: g.correct, time_ms: g.time_ms, plays: g.plays }
+}
+
+// County-vs-county standings: every county's combined performance for a period.
+async function countyStandings(req, env, origin) {
+  const wanted = new URL(req.url).searchParams.get('period')
+  const period = ['daily', 'weekly', 'monthly', 'all'].includes(wanted) ? wanted : 'weekly'
+  const date = dublinDate()
+  const from = periodStart(period, date)
+  const rows = await env.DB.prepare(
+    `SELECT u.county AS county, COUNT(DISTINCT g.user_id) AS players, COUNT(*) AS plays, SUM(g.correct) AS correct, ROUND(AVG(g.correct), 1) AS avg
+     FROM games g JOIN users u ON u.id = g.user_id
+     WHERE g.date >= ? AND g.submitted_at IS NOT NULL AND u.county IS NOT NULL
+     GROUP BY u.county ORDER BY correct DESC, avg DESC`,
+  )
+    .bind(from)
+    .all()
+  const list = (rows.results || []).map((r, i) => ({ rank: i + 1, ...r }))
+  return json({ period, rows: list }, 200, origin)
 }
 
 /* ---------- Private leaderboards (leagues) ---------- */
@@ -615,6 +675,144 @@ async function leagueMine(req, env, origin) {
     members: r.members,
   }))
   return json({ leagues }, 200, origin)
+}
+
+/* ---------- County Scéal boards (per-county discussion) ---------- */
+// Content screening is lighter than nicknames — Irish chat without a bit of
+// colour isn't Irish chat — but slurs are hard-blocked.
+const SLURS = ['nigger', 'faggot', 'chink', 'spastic', 'retard', 'tranny']
+const hasSlur = (s) => {
+  const low = (s || '').toLowerCase()
+  return SLURS.some((w) => low.includes(w))
+}
+const cleanText = (s, max) =>
+  String(s || '')
+    .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g, '')
+    .trim()
+    .slice(0, max)
+
+const POSTS_PER_HOUR = 5
+const COMMENTS_PER_HOUR = 30
+
+async function overRate(env, table, uid, limit) {
+  const r = await env.DB.prepare(`SELECT COUNT(*) AS c FROM ${table} WHERE user_id = ? AND created_at > ?`)
+    .bind(uid, Date.now() - 3600000)
+    .first()
+  return (r.c || 0) >= limit
+}
+
+async function scealList(req, env, origin) {
+  const url = new URL(req.url)
+  const county = url.searchParams.get('county')
+  if (!COUNTY_NAMES.includes(county)) return json({ error: 'bad county' }, 400, origin)
+  const before = Number(url.searchParams.get('before')) || Date.now() + 1
+  const rows = await env.DB.prepare(
+    `SELECT p.id, p.title, p.body, p.created_at, p.comments, u.display_name AS author, u.county AS flair
+     FROM posts p JOIN users u ON u.id = p.user_id
+     WHERE p.county = ? AND p.deleted = 0 AND p.created_at < ?
+     ORDER BY p.created_at DESC LIMIT 20`,
+  )
+    .bind(county, before)
+    .all()
+  return json({ county, posts: rows.results || [] }, 200, origin)
+}
+
+async function scealThread(req, env, origin) {
+  const id = new URL(req.url).searchParams.get('id') || ''
+  const post = await env.DB.prepare(
+    `SELECT p.id, p.county, p.title, p.body, p.created_at, p.user_id, u.display_name AS author, u.county AS flair
+     FROM posts p JOIN users u ON u.id = p.user_id WHERE p.id = ? AND p.deleted = 0`,
+  )
+    .bind(id)
+    .first()
+  if (!post) return json({ error: 'not found' }, 404, origin)
+  const comments = await env.DB.prepare(
+    `SELECT c.id, c.parent_id, c.body, c.created_at, c.user_id, u.display_name AS author, u.county AS flair
+     FROM comments c JOIN users u ON u.id = c.user_id
+     WHERE c.post_id = ? AND c.deleted = 0 ORDER BY c.created_at ASC LIMIT 500`,
+  )
+    .bind(id)
+    .all()
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  const mine = session ? session.uid : null
+  const strip = (o) => {
+    const { user_id, ...rest } = o
+    return { ...rest, mine: user_id === mine }
+  }
+  return json({ post: strip(post), comments: (comments.results || []).map(strip) }, 200, origin)
+}
+
+async function scealCreate(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  if (!session.name) return json({ error: 'name required', needsName: true }, 403, origin)
+  const { county, title, body } = await req.json()
+  if (!COUNTY_NAMES.includes(county)) return json({ error: 'bad county' }, 400, origin)
+  const t = cleanText(title, 120)
+  const b = cleanText(body, 3000)
+  if (t.length < 5) return json({ error: 'Give your scéal a title (5+ characters).' }, 400, origin)
+  if (hasSlur(t) || hasSlur(b)) return json({ error: 'That language isn’t welcome here.' }, 400, origin)
+  if (await overRate(env, 'posts', session.uid, POSTS_PER_HOUR))
+    return json({ error: 'Easy now — you’re posting too fast. Try again in a while.' }, 429, origin)
+  const id = crypto.randomUUID()
+  await env.DB.prepare('INSERT INTO posts (id, county, user_id, title, body, created_at) VALUES (?, ?, ?, ?, ?, ?)')
+    .bind(id, county, session.uid, t, b, Date.now())
+    .run()
+  return json({ id }, 200, origin)
+}
+
+async function scealComment(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  if (!session.name) return json({ error: 'name required', needsName: true }, 403, origin)
+  const { postId, body, parentId } = await req.json()
+  const b = cleanText(body, 2000)
+  if (!b) return json({ error: 'Say something!' }, 400, origin)
+  if (hasSlur(b)) return json({ error: 'That language isn’t welcome here.' }, 400, origin)
+  const post = await env.DB.prepare('SELECT id FROM posts WHERE id = ? AND deleted = 0').bind(postId).first()
+  if (!post) return json({ error: 'post not found' }, 404, origin)
+  if (await overRate(env, 'comments', session.uid, COMMENTS_PER_HOUR))
+    return json({ error: 'Easy now — you’re commenting too fast. Try again in a while.' }, 429, origin)
+  const id = crypto.randomUUID()
+  await env.DB.prepare('INSERT INTO comments (id, post_id, parent_id, user_id, body, created_at) VALUES (?, ?, ?, ?, ?, ?)')
+    .bind(id, postId, parentId || null, session.uid, b, Date.now())
+    .run()
+  await env.DB.prepare('UPDATE posts SET comments = comments + 1 WHERE id = ?').bind(postId).run()
+  return json({ id }, 200, origin)
+}
+
+async function scealReportContent(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const { type, id } = await req.json()
+  if (!['post', 'comment'].includes(type) || !id) return json({ error: 'bad report' }, 400, origin)
+  await env.DB.prepare(
+    'INSERT OR REPLACE INTO content_reports (target_type, target_id, user_id, created_at) VALUES (?, ?, ?, ?)',
+  )
+    .bind(type, id, session.uid, Date.now())
+    .run()
+  // Auto-hide anything five different accounts have reported, pending review.
+  const n = await env.DB.prepare('SELECT COUNT(*) AS c FROM content_reports WHERE target_type = ? AND target_id = ?')
+    .bind(type, id)
+    .first()
+  if ((n.c || 0) >= 5) {
+    const table = type === 'post' ? 'posts' : 'comments'
+    await env.DB.prepare(`UPDATE ${table} SET deleted = 1 WHERE id = ?`).bind(id).run()
+  }
+  return json({ ok: true }, 200, origin)
+}
+
+async function scealDelete(req, env, origin) {
+  const session = await requireAuth(req, env.SESSION_SECRET)
+  if (!session) return json({ error: 'unauthorized' }, 401, origin)
+  const { type, id } = await req.json()
+  if (!['post', 'comment'].includes(type) || !id) return json({ error: 'bad request' }, 400, origin)
+  const table = type === 'post' ? 'posts' : 'comments'
+  const r = await env.DB.prepare(`UPDATE ${table} SET deleted = 1 WHERE id = ? AND user_id = ?`)
+    .bind(id, session.uid)
+    .run()
+  if (!r.meta.changes) return json({ error: 'not yours to delete' }, 403, origin)
+  return json({ ok: true }, 200, origin)
 }
 
 async function leagueInfo(req, env, origin) {

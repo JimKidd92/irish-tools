@@ -142,6 +142,11 @@ export const ROUTE_META = {
     description:
       'All the Irish headlines in one place — national, sport, regional/local and Irish-abroad sources. Pick your own mix and read at a glance.',
   },
+  sceal: {
+    title: 'County Scéal — Your County’s Board · Irish Tools',
+    description:
+      'Every Irish county has its own Scéal board — post the news, ask questions, share memories and chat with your county at home and abroad.',
+  },
   guides: {
     title: 'Guides — Reading on Ireland, its Heritage & Craic · Irish Tools',
     description:

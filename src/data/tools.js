@@ -13,6 +13,16 @@ export const tools = [
     category: 'News',
   },
   {
+    id: 'sceal',
+    icon: 'MessagesSquare',
+    emoji: '💬',
+    name: 'County Scéal',
+    tagline: 'Your county’s own board — what’s the scéal?',
+    live: true,
+    path: 'sceal',
+    category: 'Craic',
+  },
+  {
     id: 'surnames',
     icon: 'ScrollText',
     emoji: '🧬',

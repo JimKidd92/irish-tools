@@ -194,8 +194,8 @@ const HUB_CONTENT = {
 }
 
 // The aggregator just re-lists other people's headlines — keep it out of the index.
-const NOINDEX_ROUTES = new Set(['news'])
-const NOSITEMAP_ROUTES = new Set(['privacy', 'news'])
+const NOINDEX_ROUTES = new Set(['news', 'sceal'])
+const NOSITEMAP_ROUTES = new Set(['privacy', 'news', 'sceal'])
 
 let routeCount = 0
 for (const route of Object.keys(ROUTE_META)) {
