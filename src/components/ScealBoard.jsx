@@ -26,7 +26,7 @@ function Flair({ county }) {
 // County Scéal — subreddit-style boards, one per county. Read without an
 // account; posting/commenting uses the quiz sign-in (nickname + county flair).
 export default function ScealBoard({ slug }) {
-  const county = findBySlug(COUNTIES, slug, 'name')?.name || null
+  const county = slug === 'ireland' ? 'Ireland' : findBySlug(COUNTIES, slug, 'name')?.name || null
   const { county: myCounty } = useQuizAuth()
   const [postId, setPostId] = useState(() => {
     try {
@@ -53,10 +53,9 @@ export default function ScealBoard({ slug }) {
     return <section className="panel"><p className="weather-hint">The Scéal boards aren’t switched on yet.</p></section>
   }
 
-  // No county in the URL: go to your own board, or Dublin as a friendly default.
+  // No board in the URL: land on the shared all-island board.
   if (!county) {
-    const target = myCounty || 'Dublin'
-    navigate('sceal', slugify(target))
+    navigate('sceal', 'ireland')
     return null
   }
 
@@ -144,20 +143,23 @@ function Board({ county, myCounty, onOpenPost }) {
   return (
     <section className="panel sceal">
       <div className="sceal__head">
-        <h2 className="sceal__title">☘ {county} Scéal</h2>
+        <h2 className="sceal__title">{county === 'Ireland' ? '🇮🇪 Ireland Scéal' : `☘ ${county} Scéal`}</h2>
         <CountySelect
           value={county}
           onChange={(c) => navigate('sceal', slugify(c))}
           id="sceal-county"
+          allIsland
         />
       </div>
       <p className="sceal__sub">
-        The {county} noticeboard — news, questions, memories and pure craic.
+        {county === 'Ireland'
+          ? 'The all-island board — every county welcome. News, questions, memories and pure craic.'
+          : `The ${county} noticeboard — news, questions, memories and pure craic.`}
         {myCounty && myCounty !== county && (
           <>
             {' '}
             <button className="linklike" onClick={() => navigate('sceal', slugify(myCounty))}>
-              Back to {myCounty} →
+              {county === 'Ireland' ? `Your ${myCounty} board →` : `Back to ${myCounty} →`}
             </button>
           </>
         )}

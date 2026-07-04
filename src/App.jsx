@@ -458,6 +458,7 @@ function Home({ onOpenNav }) {
       </div>
 
       <QuizBanner />
+      <ScealBanner />
 
       <Suspense fallback={<div className="today-skeleton" aria-hidden="true" />}>
         <FeaturedToday />
@@ -532,7 +533,7 @@ function QuizBanner() {
         <span className="quiz-banner__sub">
           {done
             ? 'You’ve done today’s — come back tomorrow for more.'
-            : 'Five fresh questions every day. How well do you know your stuff?'}
+            : 'Ten fresh questions every day. How well do you know your stuff?'}
         </span>
       </span>
       <span className="quiz-banner__cta">
@@ -540,6 +541,23 @@ function QuizBanner() {
           <span className="quiz-banner__streak">{progress.streak} 🔥</span>
         )}
         <span className="quiz-banner__play">{done ? 'See result' : 'Play today →'}</span>
+      </span>
+    </button>
+  )
+}
+
+function ScealBanner() {
+  return (
+    <button className="quiz-banner quiz-banner--sceal" onClick={() => navigate('sceal')}>
+      <span className="quiz-banner__emoji" aria-hidden="true">💬</span>
+      <span className="quiz-banner__text">
+        <span className="quiz-banner__title">County Scéal</span>
+        <span className="quiz-banner__sub">
+          The boards are open — all-island chat plus a board for every county. What’s the scéal?
+        </span>
+      </span>
+      <span className="quiz-banner__cta">
+        <span className="quiz-banner__play">Join the chat →</span>
       </span>
     </button>
   )

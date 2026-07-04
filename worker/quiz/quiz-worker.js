@@ -701,10 +701,13 @@ async function overRate(env, table, uid, limit) {
   return (r.c || 0) >= limit
 }
 
+// Boards = the 32 counties plus the shared all-island "Ireland" board.
+const isBoard = (name) => name === 'Ireland' || COUNTY_NAMES.includes(name)
+
 async function scealList(req, env, origin) {
   const url = new URL(req.url)
   const county = url.searchParams.get('county')
-  if (!COUNTY_NAMES.includes(county)) return json({ error: 'bad county' }, 400, origin)
+  if (!isBoard(county)) return json({ error: 'bad county' }, 400, origin)
   const before = Number(url.searchParams.get('before')) || Date.now() + 1
   const rows = await env.DB.prepare(
     `SELECT p.id, p.title, p.body, p.created_at, p.comments, u.display_name AS author, u.county AS flair
@@ -747,7 +750,7 @@ async function scealCreate(req, env, origin) {
   if (!session) return json({ error: 'unauthorized' }, 401, origin)
   if (!session.name) return json({ error: 'name required', needsName: true }, 403, origin)
   const { county, title, body } = await req.json()
-  if (!COUNTY_NAMES.includes(county)) return json({ error: 'bad county' }, 400, origin)
+  if (!isBoard(county)) return json({ error: 'bad county' }, 400, origin)
   const t = cleanText(title, 120)
   const b = cleanText(body, 3000)
   if (t.length < 5) return json({ error: 'Give your scéal a title (5+ characters).' }, 400, origin)
