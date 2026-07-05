@@ -22,7 +22,7 @@ export function search(raw) {
 
   const sur = SURNAMES.filter((s) => has(s.name))
     .slice(0, 6)
-    .map((s) => ({ label: s.name, sub: `${s.irish} — ${s.meaning}`, route: 'surnames', slug: slugify(s.name) }))
+    .map((s) => ({ label: s.name, sub: `${s.irish} - ${s.meaning}`, route: 'surnames', slug: slugify(s.name) }))
   if (sur.length) groups.push({ type: 'Surnames', items: sur })
 
   const nm = NAMES.filter((n) => has(n.name) || has(n.meaning))

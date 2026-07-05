@@ -32,7 +32,7 @@ export default function ImmersionTool() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state))
     } catch {
-      /* storage might be unavailable (private mode) — no harm done */
+      /* storage might be unavailable (private mode) - no harm done */
     }
   }, [state])
 

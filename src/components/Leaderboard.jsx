@@ -68,7 +68,7 @@ export default function Leaderboard({ defaultPeriod = 'daily', league = null, co
       {status === 'ready' && (
         <>
           {data.rows.length === 0 ? (
-            <p className="lb__status">No scores yet — be the first on the board!</p>
+            <p className="lb__status">No scores yet - be the first on the board!</p>
           ) : (
             <table className="lb__table">
               <thead>

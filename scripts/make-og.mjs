@@ -1,4 +1,4 @@
-// Generates public/og-image.png (1200×630) — the social preview card.
+// Generates public/og-image.png (1200×630) - the social preview card.
 // Run with: node scripts/make-og.mjs   (requires the `sharp` dev dependency)
 import sharp from 'sharp'
 import { fileURLToPath } from 'node:url'

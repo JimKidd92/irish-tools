@@ -1,4 +1,4 @@
-// Irish Tools — Daily Quiz question bank (SERVER-SIDE, with answers).
+// Irish Tools - Daily Quiz question bank (SERVER-SIDE, with answers).
 // This lives in the Worker only and is never sent to the browser. The client
 // receives questions without the answer key. Add new questions weekly and
 // redeploy the Worker. Each: { q, options:[...], answer:<index> }.
@@ -11085,7 +11085,7 @@ export const QUESTIONS = [
     "answer": 2
   },
   {
-    "q": "Calling someone 'a soft oul day' is wrong — but a 'soft lad' is...",
+    "q": "Calling someone 'a soft oul day' is wrong - but a 'soft lad' is...",
     "options": [
       "A foolish or gullible fella",
       "A strong man",

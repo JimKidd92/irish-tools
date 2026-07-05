@@ -1,4 +1,4 @@
-# Irish Tools — Daily Quiz + Leaderboard Worker
+# Irish Tools - Daily Quiz + Leaderboard Worker
 
 A Cloudflare Worker + D1 database that powers the **ranked** Daily Quiz:
 server-authoritative scoring (answers never reach the browser), "Sign in with
@@ -74,7 +74,7 @@ export const QUIZ_API = 'https://irish-tools-quiz.<your-subdomain>.workers.dev'
 export const GOOGLE_CLIENT_ID = '1234567890-abc.apps.googleusercontent.com'
 ```
 
-Commit + push — the ranked quiz and leaderboard go live.
+Commit + push - the ranked quiz and leaderboard go live.
 
 ---
 
@@ -82,7 +82,7 @@ Commit + push — the ranked quiz and leaderboard go live.
 
 Edit `worker/quiz/questions.js` (add `{ q, options: [...], answer: <index> }`
 entries) and run `wrangler deploy` again. The bank is shared with the daily
-selection — 10 questions a day, the same for everyone, cycling through the bank
+selection - 10 questions a day, the same for everyone, cycling through the bank
 before any repeat. Answers live here only and are never sent to the browser.
 
 ## How fairness works

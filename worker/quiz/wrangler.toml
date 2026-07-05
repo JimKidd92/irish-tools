@@ -3,7 +3,7 @@ main = "quiz-worker.js"
 compatibility_date = "2024-11-01"
 workers_dev = true
 
-# Public — your Google OAuth Web client ID (safe to expose). Used to verify the
+# Public - your Google OAuth Web client ID (safe to expose). Used to verify the
 # audience of incoming Google ID tokens. Must match VITE_GOOGLE_CLIENT_ID.
 [vars]
 GOOGLE_CLIENT_ID = "888849269201-22j27mevvoc13bmsfnhf669ptato4pdb.apps.googleusercontent.com"
@@ -16,6 +16,6 @@ binding = "DB"
 database_name = "irish-tools-quiz"
 database_id = "4a131539-a3be-4d1c-9f61-0891f210c922"
 
-# Secret (do NOT put here) — set once with:
+# Secret (do NOT put here) - set once with:
 #   wrangler secret put SESSION_SECRET
 # A long random string used to sign our own session tokens.

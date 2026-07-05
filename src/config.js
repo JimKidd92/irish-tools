@@ -6,7 +6,7 @@
 export const SUPPORT_URL = 'https://ko-fi.com/irishtools'
 
 // GOATCOUNTER_CODE: free pageview analytics from goatcounter.com (no cookies,
-// no consent needed). Create a site there and put its code here — e.g.
+// no consent needed). Create a site there and put its code here - e.g.
 // 'irishtools' if your dashboard is irishtools.goatcounter.com.
 // Leave as '' to disable analytics entirely.
 export const GOATCOUNTER_CODE = 'irishtools'

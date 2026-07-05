@@ -50,7 +50,7 @@ export default function CountyStandings({ myCounty = null }) {
 
       {status === 'ready' &&
         (data.rows.length === 0 ? (
-          <p className="lb__status">No county scores yet — pick your county and get playing!</p>
+          <p className="lb__status">No county scores yet - pick your county and get playing!</p>
         ) : (
           <>
             <table className="lb__table">

@@ -16,7 +16,7 @@ export function QuizAuthProvider({ children }) {
   const [suggestedName, setSuggestedName] = useState('')
 
   // Sessions created before county affiliation existed have no `county` key at
-  // all (vs null = asked but skipped/unset server-side) — refresh those once.
+  // all (vs null = asked but skipped/unset server-side) - refresh those once.
   useEffect(() => {
     if (!quizEnabled() || !user || 'county' in user) return
     fetchProfile()
@@ -34,7 +34,7 @@ export function QuizAuthProvider({ children }) {
 
   const chooseName = useCallback(async (name) => {
     const data = await claimName(name)
-    // /auth/name doesn't know the county — preserve what we have.
+    // /auth/name doesn't know the county - preserve what we have.
     setUser((u) => ({ ...u, ...data.user, county: u?.county ?? data.user.county ?? null }))
     return data.user
   }, [])

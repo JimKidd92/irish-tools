@@ -28,7 +28,7 @@ export function useWeatherTool(storageKey, compute, fetcher = getForecast) {
       try {
         localStorage.setItem(storageKey, JSON.stringify(loc))
       } catch {
-        /* storage unavailable — grand, just won't remember */
+        /* storage unavailable - grand, just won't remember */
       }
       setStatus('idle')
     } catch (err) {

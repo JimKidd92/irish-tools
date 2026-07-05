@@ -44,7 +44,7 @@ export default function NamesTool() {
       </div>
 
       {shown.length === 0 ? (
-        <p className="weather-status">No names match that — try another search.</p>
+        <p className="weather-status">No names match that - try another search.</p>
       ) : (
         <ul className="names__list">
           {shown.map((n) => (

@@ -44,7 +44,7 @@ function SurnameRich({ rich, name }) {
           <ul className="county-rich__list">
             {rich.bearers.map((b) => (
               <li key={b.name}>
-                <strong>{b.name}</strong> — {b.note}
+                <strong>{b.name}</strong> - {b.note}
               </li>
             ))}
           </ul>
@@ -64,7 +64,7 @@ export default function SurnameTool({ slug }) {
     setResult(entry ?? (slug ? null : undefined))
     if (entry) {
       setHead({
-        title: `${entry.name} — Irish Surname Origin & Meaning · Irish Tools`,
+        title: `${entry.name} - Irish Surname Origin & Meaning · Irish Tools`,
         description: `The Irish surname ${entry.name} (${entry.irish}) means ${entry.meaning}. Its traditional stronghold is ${entry.region}.`,
         canonical: `https://irishtools.ie/surnames/${slugify(entry.name)}/`,
       })
@@ -186,7 +186,7 @@ export default function SurnameTool({ slug }) {
 
       {result === null && (
         <p className="weather-status weather-status--error">
-          Ah, we haven’t got that one yet — we’re adding more all the time. Try another?
+          Ah, we haven’t got that one yet - we’re adding more all the time. Try another?
         </p>
       )}
 
@@ -214,7 +214,7 @@ export default function SurnameTool({ slug }) {
 
           <ShareButton
             url={`https://irishtools.ie/surnames/${slugify(result.name)}/`}
-            text={`🧬 The Irish surname ${result.name} (${result.irish}) means ${result.meaning} — from ${result.region}.`}
+            text={`🧬 The Irish surname ${result.name} (${result.irish}) means ${result.meaning} - from ${result.region}.`}
           />
 
           {related.length > 0 && (

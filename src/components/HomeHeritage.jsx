@@ -11,7 +11,7 @@ const LINKS = [
   { icon: 'MessageSquare', label: 'Slang', route: 'slang' },
 ]
 
-// Heritage hook on the homepage — a surname lookup (the diaspora draw) plus
+// Heritage hook on the homepage - a surname lookup (the diaspora draw) plus
 // quick links into the rest of the heritage tools.
 export default function HomeHeritage() {
   const [name, setName] = useState('')

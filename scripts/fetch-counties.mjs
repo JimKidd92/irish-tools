@@ -10,7 +10,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const out = resolve(__dirname, '../src/data/counties.generated.json')
 
 // Wikipedia article titles (mostly "County X"; Derry's article is under a
-// different name, but we never display that name — it's Derry, full stop).
+// different name, but we never display that name - it's Derry, full stop).
 const TITLE = {
   Derry: 'County Londonderry',
 }
@@ -21,7 +21,7 @@ const EXTRACT_OVERRIDE = {
     'Derry is a county in the north-west of Ulster, one of the six counties of Northern Ireland. It’s known for the historic walled city of Derry on the River Foyle, the rolling Sperrin Mountains, and the dramatic north coast at Mussenden Temple and Downhill.',
 }
 
-// A scenic landmark per county — its Wikipedia photo is far nicer than the
+// A scenic landmark per county - its Wikipedia photo is far nicer than the
 // county article's location-map thumbnail.
 const LANDMARK = {
   Carlow: 'Brownshill Dolmen',
@@ -77,7 +77,7 @@ function fileFromUpload(url) {
 }
 
 // Use Special:FilePath (https) so Wikimedia generates a valid, correctly-sized
-// thumbnail — rewriting the thumb width by hand gets a 400.
+// thumbnail - rewriting the thumb width by hand gets a 400.
 function pickImage(data) {
   if (!data) return null
   const file = fileFromUpload(data.thumbnail?.source || data.originalimage?.source)

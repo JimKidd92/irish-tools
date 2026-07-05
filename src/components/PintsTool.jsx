@@ -68,7 +68,7 @@ export default function PintsTool() {
         </div>
       ) : (
         <p className="weather-hint">
-          Type in any amount and we’ll tell you what it’s really worth — in pints.
+          Type in any amount and we’ll tell you what it’s really worth - in pints.
         </p>
       )}
     </section>

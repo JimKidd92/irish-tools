@@ -3,7 +3,7 @@
 // GitHub Pages can't rewrite URLs, so we generate a static HTML file per route
 // AND per data entry (every surname, county and slang term). Each gets its own
 // title/description/canonical/OG, and entry/hub pages get the real content
-// baked into #root so Google indexes actual text — not an empty shell. React
+// baked into #root so Google indexes actual text - not an empty shell. React
 // takes over on load. Also emits sitemap.xml, robots-friendly 404.html.
 //
 // Runs automatically after `vite build` (see package.json "build").
@@ -78,10 +78,10 @@ function surnameContent(s) {
     <h2>History of the ${esc(s.name)} name</h2>
     ${rich.history.map((p) => `<p>${esc(p)}</p>`).join('')}
     ${rich.variants.length ? `<p><strong>Variants:</strong> ${rich.variants.map(esc).join(' · ')}</p>` : ''}
-    ${rich.bearers.length ? `<h2>Famous bearers of the name</h2><ul>${rich.bearers.map((b) => `<li><strong>${esc(b.name)}</strong> — ${esc(b.note)}</li>`).join('')}</ul>` : ''}`
+    ${rich.bearers.length ? `<h2>Famous bearers of the name</h2><ul>${rich.bearers.map((b) => `<li><strong>${esc(b.name)}</strong> - ${esc(b.note)}</li>`).join('')}</ul>` : ''}`
     : ''
   return `<main class="prerender"><article>
-    <h1>${esc(s.name)} — Irish Surname Origin &amp; Meaning</h1>
+    <h1>${esc(s.name)} - Irish Surname Origin &amp; Meaning</h1>
     <p><strong>Irish form:</strong> <span lang="ga">${esc(s.irish)}</span></p>
     <p><strong>Meaning:</strong> ${esc(s.meaning)}</p>
     <p><strong>Traditional stronghold:</strong> ${region}</p>
@@ -100,21 +100,21 @@ function countyContent(c) {
   const sur = surnames.map((s) => `<a href="/surnames/${slugify(s.name)}/">${esc(s.name)}</a>`).join(' · ')
   const placeList = places.length
     ? `<h2>Places to visit in ${esc(c.name)}</h2><ul>${places
-        .map((p) => `<li><strong>${esc(p.name)}</strong> — ${esc(p.blurb)}</li>`)
+        .map((p) => `<li><strong>${esc(p.name)}</strong> - ${esc(p.blurb)}</li>`)
         .join('')}</ul>`
     : ''
   const richHtml = rich
     ? `${rich.intro.map((p) => `<p>${esc(p)}</p>`).join('')}
     <h2>Cities, towns and villages in ${esc(c.name)}</h2>
-    <ul>${rich.towns.map((t) => `<li><strong>${esc(t.name)}</strong> — ${esc(t.note)}</li>`).join('')}</ul>
+    <ul>${rich.towns.map((t) => `<li><strong>${esc(t.name)}</strong> - ${esc(t.note)}</li>`).join('')}</ul>
     <h2>Famous people from ${esc(c.name)}</h2>
-    <ul>${rich.people.map((p) => `<li><strong>${esc(p.name)}</strong> — ${esc(p.note)}</li>`).join('')}</ul>
+    <ul>${rich.people.map((p) => `<li><strong>${esc(p.name)}</strong> - ${esc(p.note)}</li>`).join('')}</ul>
     <h2>Did you know?</h2>
     <ul>${rich.facts.map((f) => `<li>${esc(f)}</li>`).join('')}</ul>`
     : ''
   return `<main class="prerender"><article>
     <h1>County ${esc(c.name)} Guide (${esc(c.irish)})</h1>
-    <p>“${esc(c.nickname)}” — in the province of ${esc(c.province)}. County town: ${esc(c.town)}.</p>
+    <p>“${esc(c.nickname)}” - in the province of ${esc(c.province)}. County town: ${esc(c.town)}.</p>
     <p>${esc(c.blurb)}</p>
     ${about ? `<p>${esc(about)}</p>` : ''}
     ${richHtml}
@@ -155,7 +155,7 @@ function guideContent(g) {
 
 function guidesHubContent() {
   const list = GUIDES.map(
-    (g) => `<li><a href="/guides/${g.slug}/">${esc(g.title)}</a> — ${esc(g.description)}</li>`,
+    (g) => `<li><a href="/guides/${g.slug}/">${esc(g.title)}</a> - ${esc(g.description)}</li>`,
   ).join('\n')
   return `<main class="prerender"><h1>Guides</h1>
     <p>Longer reads on Irish life, heritage and travel.</p><ul>${list}</ul></main>`
@@ -164,7 +164,7 @@ function guidesHubContent() {
 function aboutContent() {
   return `<main class="prerender"><article>
     <h1>About Irish Tools</h1>
-    <p>Irish Tools is a growing collection of small, useful and occasionally daft tools, guides and news for Ireland and the Irish abroad. It started with one tongue-in-cheek question — “is the immersion on?” — and grew into a little corner of the web that tries to capture the everyday texture of Irish life.</p>
+    <p>Irish Tools is a growing collection of small, useful and occasionally daft tools, guides and news for Ireland and the Irish abroad. It started with one tongue-in-cheek question - “is the immersion on?” - and grew into a little corner of the web that tries to capture the everyday texture of Irish life.</p>
     <p>There are three sides to the site: practical and craic-filled <a href="/">tools</a>; heritage material like <a href="/surnames/">surname origins</a>, the <a href="/counties/">county guide</a> and the <a href="/slang/">slang dictionary</a>; and a personalised <a href="/news/">Irish news</a> aggregator plus longer <a href="/guides/">guides</a>.</p>
     <p>It’s an independent project, built and maintained by one person in Ireland, free to use, and kept that way by unobtrusive advertising. Questions or ideas? See our <a href="/contact/">contact page</a>.</p>
   </article></main>`
@@ -173,7 +173,7 @@ function aboutContent() {
 function contactContent() {
   return `<main class="prerender"><article>
     <h1>Contact Irish Tools</h1>
-    <p>Irish Tools is run by one person in Ireland and we like hearing from people who use the site — feedback, corrections, tool ideas or just to say hello.</p>
+    <p>Irish Tools is run by one person in Ireland and we like hearing from people who use the site - feedback, corrections, tool ideas or just to say hello.</p>
     <p>Email us at <a href="mailto:hello@irishtools.ie">hello@irishtools.ie</a>. For details on how we handle data, see our <a href="/privacy/">privacy policy</a>.</p>
   </article></main>`
 }
@@ -203,7 +203,7 @@ const HUB_CONTENT = {
   contact: contactContent,
 }
 
-// The aggregator just re-lists other people's headlines — keep it out of the index.
+// The aggregator just re-lists other people's headlines - keep it out of the index.
 const NOINDEX_ROUTES = new Set(['news', 'sceal'])
 const NOSITEMAP_ROUTES = new Set(['privacy', 'news', 'sceal'])
 
@@ -222,7 +222,7 @@ for (const route of Object.keys(ROUTE_META)) {
   routeCount++
 }
 
-// Guide articles — full original content, indexed.
+// Guide articles - full original content, indexed.
 for (const g of GUIDES) {
   await writePage(`guides/${g.slug}`, render({
     title: `${g.title} · Irish Tools`,
@@ -244,7 +244,7 @@ for (const s of SURNAMES) {
   const slug = slugify(s.name)
   const rich = Boolean(SURNAME_RICH[s.name])
   await writePage(`surnames/${slug}`, render({
-    title: `${s.name} — Irish Surname Origin & Meaning · Irish Tools`,
+    title: `${s.name} - Irish Surname Origin & Meaning · Irish Tools`,
     description: `The Irish surname ${s.name} (${s.irish}) means ${s.meaning}. Its traditional stronghold is ${s.region}.`,
     url: `${SITE_URL}/surnames/${slug}/`,
     content: surnameContent(s),
@@ -260,7 +260,7 @@ if (richSurnames) console.log(`Indexed ${richSurnames} rich surname pages`)
 for (const c of COUNTIES) {
   const slug = slugify(c.name)
   await writePage(`counties/${slug}`, render({
-    title: `County ${c.name} Guide — ${c.nickname} · Irish Tools`,
+    title: `County ${c.name} Guide - ${c.nickname} · Irish Tools`,
     description: `${c.name} (${c.irish}), “${c.nickname}”, in ${c.province}. ${c.blurb}`,
     url: `${SITE_URL}/counties/${slug}/`,
     content: countyContent(c),
@@ -272,7 +272,7 @@ for (const s of SLANG) {
   const slug = slugify(s.term)
   await writePage(`slang/${slug}`, render({
     title: `What does “${s.term}” mean? · Irish Slang · Irish Tools`,
-    description: `${s.term}: ${s.meaning}. Example — ${s.example}`,
+    description: `${s.term}: ${s.meaning}. Example - ${s.example}`,
     url: `${SITE_URL}/slang/${slug}/`,
     content: slangContent(s),
     noindex: true,

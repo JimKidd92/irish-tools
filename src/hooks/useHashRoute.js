@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 // Path-based router (history API). Routes are real URLs like /surnames/ and
-// /surnames/murphy/ — the build prerenders an HTML file per route and per data
+// /surnames/murphy/ - the build prerenders an HTML file per route and per data
 // entry. Legacy #/route links redirect on load.
 // (File keeps its old name to avoid churning imports.)
 

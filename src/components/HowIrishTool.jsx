@@ -36,7 +36,7 @@ function tier(pct) {
   if (pct >= 90) return { emoji: '☘️👑', title: 'Pure Irish to the bone', blurb: 'You’d refuse tea twice and still end up with a cup in your hand. Bualadh bos!' }
   if (pct >= 70) return { emoji: '🍀', title: 'More Irish than the Irish themselves', blurb: 'You’ve a finger-wave and a hidden biscuit tin. Mighty stuff.' }
   if (pct >= 50) return { emoji: '🇮🇪', title: 'A grand bit Irish', blurb: 'The roots are showing. A summer in the Gaeltacht would finish the job.' }
-  if (pct >= 30) return { emoji: '🌱', title: 'A hint of the Emerald Isle', blurb: 'It’s in there somewhere — probably on your mother’s side.' }
+  if (pct >= 30) return { emoji: '🌱', title: 'A hint of the Emerald Isle', blurb: 'It’s in there somewhere - probably on your mother’s side.' }
   return { emoji: '🗺️', title: 'Irish at heart (honorary)', blurb: 'Sure aren’t we all a bit Irish on the right day. Welcome aboard.' }
 }
 
@@ -75,7 +75,7 @@ export default function HowIrishTool() {
         <div className="mammy__buttons">
           <ShareImageButton
             image={{ kicker: 'How Irish are you?', big: `${pct}% Irish`, sub: t.title, accent: 'green' }}
-            text={`☘️ I'm ${pct}% Irish — “${t.title}”. How Irish are you?`}
+            text={`☘️ I'm ${pct}% Irish - “${t.title}”. How Irish are you?`}
             url="https://irishtools.ie/how-irish/"
             label="Share your score"
           />

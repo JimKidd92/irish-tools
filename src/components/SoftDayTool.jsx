@@ -87,7 +87,7 @@ export default function SoftDayTool() {
 
       {!result && status === 'idle' && (
         <p className="weather-hint">
-          Where are you? We’ll tell you if it’s a soft oul day — and translate the
+          Where are you? We’ll tell you if it’s a soft oul day - and translate the
           forecast into proper Irish.
         </p>
       )}

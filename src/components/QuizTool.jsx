@@ -204,12 +204,12 @@ function ServerQuiz() {
           {submitting ? 'Scoring…' : step + 1 < qs.length ? 'Next question →' : 'Finish & submit'}
         </button>
         {state.error && <p className="quiz__error">{state.error}</p>}
-        <p className="quiz__fairnote">No peeking — answers are scored on the server. Faster correct runs rank higher.</p>
+        <p className="quiz__fairnote">No peeking - answers are scored on the server. Faster correct runs rank higher.</p>
       </section>
     )
   }
 
-  // Any other status (or a transient state before the load effect runs) — show
+  // Any other status (or a transient state before the load effect runs) - show
   // a loader rather than falling through to the results view with no result.
   if (state.status !== 'done' || !state.result) {
     return <section className="panel quiz"><p className="quiz__loading">Loading today’s quiz…</p></section>
@@ -237,7 +237,7 @@ function ServerQuiz() {
           sub: `#${result.rank} today  ·  ${streak} day streak 🔥`,
           accent: 'orange',
         }}
-        text={`🍀 Irish Tools Daily Quiz — I got ${score}/${total} and ranked #${result.rank} today. Can you beat me?`}
+        text={`🍀 Irish Tools Daily Quiz - I got ${score}/${total} and ranked #${result.rank} today. Can you beat me?`}
         url="https://irishtools.ie/quiz/"
         label="Share your score"
       />
@@ -320,7 +320,7 @@ function ReviewItem({ c }) {
     try {
       await reportQuestion(c.id)
     } catch {
-      /* still show thanks — the report is best-effort */
+      /* still show thanks - the report is best-effort */
     } finally {
       setReported(true)
       setBusy(false)
@@ -336,7 +336,7 @@ function ReviewItem({ c }) {
         {!right && <span className="quiz__review-correct"> · correct: {c.options[c.correct]}</span>}
       </p>
       {reported ? (
-        <span className="quiz__report is-done">✓ Reported — thanks!</span>
+        <span className="quiz__report is-done">✓ Reported - thanks!</span>
       ) : (
         <button type="button" className="quiz__report" onClick={report} disabled={busy}>
           ⚑ Report this question
@@ -423,7 +423,7 @@ function LocalQuiz() {
           url="https://irishtools.ie/quiz/"
           label="Share your score"
         />
-        <p className="quiz__tomorrow">Come back tomorrow for a new quiz — next one in {timeUntilTomorrow()}.</p>
+        <p className="quiz__tomorrow">Come back tomorrow for a new quiz - next one in {timeUntilTomorrow()}.</p>
       </section>
     )
   }

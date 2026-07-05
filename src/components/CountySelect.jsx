@@ -2,7 +2,7 @@ import { COUNTIES, PROVINCES } from '../data/counties.js'
 
 // A province-grouped county <select>. Controlled: value + onChange(name).
 // `allIsland` prepends the shared 🇮🇪 Ireland board (for switching Scéal
-// boards — not for county affiliation).
+// boards - not for county affiliation).
 export default function CountySelect({ value, onChange, id = 'county-select', allIsland = false }) {
   return (
     <select

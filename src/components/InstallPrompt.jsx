@@ -9,7 +9,7 @@ const SNOOZE_KEY = 'irish-tools.install-dismissed'
 const SNOOZE_DAYS = 30
 const SHOW_AFTER_MS = 14000
 
-// Capture the event at module load — Chrome may fire it before React mounts.
+// Capture the event at module load - Chrome may fire it before React mounts.
 let deferredPrompt = null
 if (typeof window !== 'undefined') {
   window.addEventListener('beforeinstallprompt', (e) => {
@@ -73,7 +73,7 @@ export default function InstallPrompt() {
       <div className="install__body">
         <p className="install__title">Get the Irish Tools app</p>
         {mode === 'android' ? (
-          <p className="install__text">Quick access from your home screen — no app store needed.</p>
+          <p className="install__text">Quick access from your home screen - no app store needed.</p>
         ) : (
           <p className="install__text">
             Tap <strong>Share</strong> <span aria-hidden="true">⎋</span> then{' '}

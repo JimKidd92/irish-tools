@@ -38,7 +38,7 @@ export default function CountyMap({ visited = [] }) {
         viewBox={mapData.viewBox}
         className="county-map__svg"
         role="group"
-        aria-label="Map of Ireland's 32 counties — select one"
+        aria-label="Map of Ireland's 32 counties - select one"
       >
         {mapData.counties.map((c) => {
           const been = visited.includes(c.name)

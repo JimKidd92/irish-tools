@@ -15,7 +15,7 @@ export function setConsent(value) {
   try {
     localStorage.setItem(KEY, value)
   } catch {
-    /* storage unavailable — grand */
+    /* storage unavailable - grand */
   }
   // Let listeners (e.g. the banner) react without a full reload.
   window.dispatchEvent(new Event('consentchange'))

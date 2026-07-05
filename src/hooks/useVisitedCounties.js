@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { getUserData, putUserData, getToken, quizEnabled } from '../lib/quizApi.js'
 
-// Visited-counties "scratch map" state: always in localStorage, and — when the
-// user is signed in (quiz account) — merged with and synced to their account.
+// Visited-counties "scratch map" state: always in localStorage, and - when the
+// user is signed in (quiz account) - merged with and synced to their account.
 const KEY = 'irish-tools.visited-counties'
 
 function loadLocal() {

@@ -33,7 +33,7 @@ export default function QuizSignIn({ inviteCode = null }) {
     try {
       await handleCredential(credential)
     } catch (e) {
-      setError(e.message || 'Sign-in failed — try again.')
+      setError(e.message || 'Sign-in failed - try again.')
     } finally {
       setBusy(false)
     }
@@ -78,13 +78,13 @@ export default function QuizSignIn({ inviteCode = null }) {
         <h3 className="quiz-auth__title">Play the ranked Daily Quiz</h3>
         <p className="quiz-auth__pitch">
           10 questions a day, the same for everyone. Sign in to save your streak and climb the
-          leaderboard — daily, weekly, monthly and all-time.
+          leaderboard - daily, weekly, monthly and all-time.
         </p>
         <GoogleSignInButton onCredential={onCredential} />
         {busy && <p className="quiz-auth__note">Signing you in…</p>}
         {error && <p className="quiz-auth__error">{error}</p>}
         <p className="quiz-auth__small">
-          We only store a nickname you choose — no email, no spam. See our{' '}
+          We only store a nickname you choose - no email, no spam. See our{' '}
           <a href="/privacy/">privacy page</a>.
         </p>
       </div>
@@ -132,7 +132,7 @@ export default function QuizSignIn({ inviteCode = null }) {
         </form>
         {error && <p className="quiz-auth__error">{error}</p>}
         <p className="quiz-auth__small">
-          Born there, reared there, or just where the heart is — your call. You can post on every
+          Born there, reared there, or just where the heart is - your call. You can post on every
           county’s board either way.
         </p>
       </div>

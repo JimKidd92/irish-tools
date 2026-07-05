@@ -22,7 +22,7 @@ export default function CountyGuide({ slug }) {
     setSelected(c?.name || null)
     if (c) {
       setHead({
-        title: `County ${c.name} Guide — ${c.nickname} · Irish Tools`,
+        title: `County ${c.name} Guide - ${c.nickname} · Irish Tools`,
         description: `${c.name} (${c.irish}), “${c.nickname}”, in the province of ${c.province}. ${c.blurb}`,
         canonical: `https://irishtools.ie/counties/${slugify(c.name)}/`,
       })
@@ -34,7 +34,7 @@ export default function CountyGuide({ slug }) {
   if (county) {
     const places = PLACES.filter((p) => p.county === county.name)
     const info = countyInfo[county.name] || {}
-    // Surnames whose stronghold includes this county — the roots cross-link.
+    // Surnames whose stronghold includes this county - the roots cross-link.
     const surnames = SURNAMES.filter((s) => s.region.includes(county.name)).slice(0, 12)
     return (
       <section className="panel county">
@@ -75,7 +75,7 @@ export default function CountyGuide({ slug }) {
               <ul>
                 {places.map((p) => (
                   <li key={p.name}>
-                    <strong>{p.name}</strong> — {p.blurb}
+                    <strong>{p.name}</strong> - {p.blurb}
                   </li>
                 ))}
               </ul>
@@ -104,7 +104,7 @@ export default function CountyGuide({ slug }) {
 
           <ShareButton
             url={`https://irishtools.ie/counties/${slugify(county.name)}/`}
-            text={`☘️ ${county.name} (${county.irish}) — “${county.nickname}”, in ${county.province}. ${county.blurb}`}
+            text={`☘️ ${county.name} (${county.irish}) - “${county.nickname}”, in ${county.province}. ${county.blurb}`}
           />
 
           {info.wikiUrl && (
@@ -138,7 +138,7 @@ function CountyRich({ rich, name }) {
       <ul className="county-rich__list">
         {rich.towns.map((t) => (
           <li key={t.name}>
-            <strong>{t.name}</strong> — {t.note}
+            <strong>{t.name}</strong> - {t.note}
           </li>
         ))}
       </ul>
@@ -147,7 +147,7 @@ function CountyRich({ rich, name }) {
       <ul className="county-rich__list">
         {rich.people.map((p) => (
           <li key={p.name}>
-            <strong>{p.name}</strong> — {p.note}
+            <strong>{p.name}</strong> - {p.note}
           </li>
         ))}
       </ul>
@@ -166,7 +166,7 @@ function CountyIndex({ visited, signedIn, count }) {
   return (
     <section className="panel county">
       <p className="weather-hint">
-        Pick a county to discover its Irish name, nickname, county town and what to see —
+        Pick a county to discover its Irish name, nickname, county town and what to see -
         a grand way to trace where your people came from.
       </p>
 
@@ -196,7 +196,7 @@ function CountyIndex({ visited, signedIn, count }) {
           <div className="scratch__fill" style={{ width: `${(count / COUNTIES.length) * 100}%` }} />
         </div>
         <p className="scratch__hint">
-          Tick off counties as you go —{' '}
+          Tick off counties as you go -{' '}
           {signedIn ? 'synced to your account.' : 'saved on this device (sign in on the Daily Quiz to sync).'}
         </p>
       </div>

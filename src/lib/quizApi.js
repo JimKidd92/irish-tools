@@ -72,7 +72,7 @@ export async function authGoogle(credential) {
 
 export async function claimName(name) {
   const data = await api('/auth/name', { method: 'POST', body: { name } })
-  // /auth/name doesn't return county — keep whatever we already know.
+  // /auth/name doesn't return county - keep whatever we already know.
   const prev = getUser() || {}
   const user = { county: prev.county ?? null, ...data.user }
   setSession(data.token, user)
@@ -131,7 +131,7 @@ export const getLeagueInfo = (code) => api(`/league/info?code=${encodeURICompone
 
 // "1m 23.4s" / "12.3s"
 export function formatTime(ms) {
-  if (ms == null) return '—'
+  if (ms == null) return '-'
   const s = ms / 1000
   if (s < 60) return `${s.toFixed(1)}s`
   const m = Math.floor(s / 60)

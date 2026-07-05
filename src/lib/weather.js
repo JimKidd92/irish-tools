@@ -95,7 +95,7 @@ function clamp(n, min, max) {
   return Math.max(min, Math.min(max, n))
 }
 
-// Daytime hours only — no one's drying clothes at 3am.
+// Daytime hours only - no one's drying clothes at 3am.
 function daytimeHourly(forecast) {
   const { time = [], precipitation_probability = [], relative_humidity_2m = [], wind_speed_10m = [] } =
     forecast.hourly ?? {}
@@ -189,7 +189,7 @@ export function dryingVerdict(score) {
 
 // --- Soft day --------------------------------------------------------------
 // A "soft day, thank God" is the classic Irish mild, grey, damp, drizzly/misty
-// day — not cold, not lashing, just a gentle persistent mizzle under low cloud.
+// day - not cold, not lashing, just a gentle persistent mizzle under low cloud.
 
 export function softDayAssessment(forecast) {
   const c = forecast.current ?? {}
@@ -210,7 +210,7 @@ export function softDayAssessment(forecast) {
   const grey = greyCodes.includes(code) ? 1 : code <= 2 ? 0 : 0.4
   // Gentle, not blowing a gale.
   const gentle = clamp(1 - Math.max(0, wind - 25) / 30, 0, 1)
-  // Not lashing — a soft day is a light mizzle, not heavy rain.
+  // Not lashing - a soft day is a light mizzle, not heavy rain.
   const notLashing = precip <= 2.5 ? 1 : clamp(1 - (precip - 2.5) / 5, 0, 1)
 
   const score = Math.round(
@@ -223,10 +223,10 @@ export function softDayAssessment(forecast) {
   return { score, isSoftDay, temp, humidity, wind, precip, code }
 }
 
-// Translate the raw weather into proper Irish vernacular — the fun bit.
+// Translate the raw weather into proper Irish vernacular - the fun bit.
 export function irishWeather({ temp, wind, humidity, code, precip }) {
-  if (code >= 95) return { phrase: 'Wild out altogether', note: 'Thunder and all — stay in by the fire.' }
-  if (code >= 71 && code <= 77) return { phrase: 'Baltic — snow and all', note: 'Perishing. Wrap up well.' }
+  if (code >= 95) return { phrase: 'Wild out altogether', note: 'Thunder and all - stay in by the fire.' }
+  if (code >= 71 && code <= 77) return { phrase: 'Baltic - snow and all', note: 'Perishing. Wrap up well.' }
   if (precip >= 5 || (code >= 63 && code <= 67) || code === 82)
     return { phrase: 'It’s lashing', note: 'Bucketing down out there. You’d be drownded.' }
   if (temp <= 3) return { phrase: 'Perishing', note: 'Baltic out. Bitter cold.' }
@@ -234,7 +234,7 @@ export function irishWeather({ temp, wind, humidity, code, precip }) {
   if (code === 45 || code === 48) return { phrase: 'A soft, misty oul day', note: 'Fog down low, can’t see a thing.' }
   if ([51, 53, 55, 56, 57, 61].includes(code))
     return { phrase: 'Soft day, thank God', note: 'Gentle mizzle, mild and grey. Classic.' }
-  if (wind >= 45) return { phrase: 'Blowing a hooley', note: 'Mind your washing — it’d take the head off ya.' }
+  if (wind >= 45) return { phrase: 'Blowing a hooley', note: 'Mind your washing - it’d take the head off ya.' }
   if (temp >= 18 && humidity >= 75) return { phrase: 'Awful close', note: 'Muggy and warm. You’d be stuck to yourself.' }
   if (code <= 1 && temp >= 14) return { phrase: 'Grand day altogether', note: 'Dry and bright. Make the most of it.' }
   if (code === 3) return { phrase: 'Bit grey but grand', note: 'Dry enough, just a blanket of cloud.' }
@@ -243,7 +243,7 @@ export function irishWeather({ temp, wind, humidity, code, precip }) {
 
 // --- Foot the turf ---------------------------------------------------------
 // Footing turf means standing the cut sods up in little stooks so they dry in
-// the bog. You want a dry, breezy spell — ideally it's been dry and stays dry.
+// the bog. You want a dry, breezy spell - ideally it's been dry and stays dry.
 
 const DRY_DAY_MM = 1.0 // under 1mm of rain counts as a "dry" day
 
@@ -298,13 +298,13 @@ export function footTurfVerdict(score) {
       level: 'top',
       emoji: '🔥',
       title: 'Get to the bog!',
-      blurb: 'A grand dry stretch. Get the turf footed while it lasts — perfect drying.',
+      blurb: 'A grand dry stretch. Get the turf footed while it lasts - perfect drying.',
     }
   if (score >= 55)
     return {
       level: 'good',
       emoji: '👍',
-      title: 'A grand stretch — chance it',
+      title: 'A grand stretch - chance it',
       blurb: 'Decent enough drying ahead. Worth getting out to the bog.',
     }
   if (score >= 35)
@@ -359,26 +359,26 @@ export function formVerdict({ weeklyDeltaMin, sunset }) {
       level: 'stretching',
       emoji: '🌅',
       title: 'There’s a grand stretch in the evenings!',
-      blurb: `Up about ${weeklyDeltaMin} min on last week — bright till ${sunset}. Lovely altogether.`,
+      blurb: `Up about ${weeklyDeltaMin} min on last week - bright till ${sunset}. Lovely altogether.`,
     }
   if (weeklyDeltaMin <= -3)
     return {
       level: 'drawing-in',
       emoji: '🌇',
       title: 'Ah, the evenings are drawing in.',
-      blurb: `Down about ${Math.abs(weeklyDeltaMin)} min on last week — dark by ${sunset}. Winter’s coming.`,
+      blurb: `Down about ${Math.abs(weeklyDeltaMin)} min on last week - dark by ${sunset}. Winter’s coming.`,
     }
   return {
     level: 'steady',
     emoji: '🌤️',
     title: 'Holding steady, around the turn.',
-    blurb: `Daylight’s much the same as last week — sunset around ${sunset}. We’re near the longest or shortest of it.`,
+    blurb: `Daylight’s much the same as last week - sunset around ${sunset}. We’re near the longest or shortest of it.`,
   }
 }
 
 // Pull "9:47pm" out of an Open-Meteo local ISO string ("2026-06-06T21:47").
 function fmtClock(iso) {
-  if (!iso) return '—'
+  if (!iso) return '-'
   const [h, m] = iso.slice(11, 16).split(':').map(Number)
   const ap = h >= 12 ? 'pm' : 'am'
   const hh = h % 12 || 12

@@ -16,9 +16,9 @@ export default function GuidesPage({ slug }) {
       })
     } else {
       setHead({
-        title: 'Guides — Reading on Ireland, its Heritage & Craic · Irish Tools',
+        title: 'Guides - Reading on Ireland, its Heritage & Craic · Irish Tools',
         description:
-          'In-depth guides to Irish life, heritage and travel — surnames, slang, beer, the weather, planning a trip and more.',
+          'In-depth guides to Irish life, heritage and travel - surnames, slang, beer, the weather, planning a trip and more.',
         canonical: `${SITE_URL}/guides/`,
       })
     }
@@ -62,7 +62,7 @@ export default function GuidesPage({ slug }) {
   return (
     <section className="guides-index">
       <p className="guides-index__intro">
-        Longer reads on Irish life, heritage and travel — the stories behind the tools.
+        Longer reads on Irish life, heritage and travel - the stories behind the tools.
       </p>
       <ul className="guides-index__list">
         {publishedGuides().map((g) => (

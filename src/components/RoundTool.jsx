@@ -19,7 +19,7 @@ export default function RoundTool() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(people))
     } catch {
-      /* storage unavailable — grand */
+      /* storage unavailable - grand */
     }
   }, [people])
 
@@ -68,7 +68,7 @@ export default function RoundTool() {
 
       {people.length === 0 ? (
         <p className="weather-hint">
-          Add everyone in the session and we’ll keep track of whose round it is — no more
+          Add everyone in the session and we’ll keep track of whose round it is - no more
           slippin’ off to the jacks when it’s your turn.
         </p>
       ) : (

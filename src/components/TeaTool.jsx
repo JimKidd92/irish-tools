@@ -60,7 +60,7 @@ export default function TeaTool() {
 
   const nag = refusals === 0 ? 'Will ya have a cup of tea?' : NAGS[Math.min(refusals - 1, NAGS.length - 1)]
   const noLabel = NO_REPLIES[Math.min(refusals, NO_REPLIES.length - 1)]
-  // The "no" button shrinks the more you refuse — she's wearing you down.
+  // The "no" button shrinks the more you refuse - she's wearing you down.
   const noScale = Math.max(0.55, 1 - refusals * 0.06)
 
   return (

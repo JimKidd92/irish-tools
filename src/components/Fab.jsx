@@ -6,7 +6,7 @@ import { navigate } from '../hooks/useHashRoute.js'
 const FAVS_KEY = 'irish-tools.favorites'
 const DEFAULT_FAVS = ['immersion', 'quiz', 'sceal', 'soft-day']
 
-// The quiz lives on a special route, not in tools.js — give it a FAB entry.
+// The quiz lives on a special route, not in tools.js - give it a FAB entry.
 const QUIZ_ENTRY = { id: 'quiz', emoji: '🍀', name: 'Daily Quiz', path: 'quiz', live: true }
 const ALL = [QUIZ_ENTRY, ...tools.filter((t) => t.live)]
 

@@ -58,7 +58,7 @@ function TripEditor() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(trip))
     } catch {
-      /* storage unavailable — grand */
+      /* storage unavailable - grand */
     }
   }, [trip])
 
@@ -246,7 +246,7 @@ function TripCloud({ trip, setTrip }) {
       const url = `https://irishtools.ie/planner/?trip=${code}`
       try {
         await navigator.clipboard.writeText(url)
-        flash('🔗 Share link copied — send it to the family!')
+        flash('🔗 Share link copied - send it to the family!')
       } catch {
         flash(`Share link: ${url}`)
       }
@@ -284,7 +284,7 @@ function SharedTripView({ code }) {
     return (
       <section className="planner">
         <p className="weather-status weather-status--error">
-          That trip link wasn’t found — it may have been removed.
+          That trip link wasn’t found - it may have been removed.
         </p>
       </section>
     )

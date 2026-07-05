@@ -84,7 +84,7 @@ export default function LeaderboardPanel({ focusCode = null }) {
       setCopied(true)
       setTimeout(() => setCopied(false), 2500)
     } catch {
-      setError('Couldn’t copy — the link is: ' + shareUrl(code))
+      setError('Couldn’t copy - the link is: ' + shareUrl(code))
     }
   }
 

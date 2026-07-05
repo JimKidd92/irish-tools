@@ -61,7 +61,7 @@ export default function FootTurfTool() {
 
           <ShareButton
             url="https://irishtools.ie/turf/"
-            text={`🔥 Time to foot the turf near ${location?.name}? ${verdict.title} — ${result.score}/100 footing weather.`}
+            text={`🔥 Time to foot the turf near ${location?.name}? ${verdict.title} - ${result.score}/100 footing weather.`}
           />
         </div>
       )}

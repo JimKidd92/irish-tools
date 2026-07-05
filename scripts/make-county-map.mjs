@@ -1,4 +1,4 @@
-// Builds src/data/countyMap.generated.json — one clickable SVG path per
+// Builds src/data/countyMap.generated.json - one clickable SVG path per
 // traditional county (all 32).
 //
 // Sources:
@@ -63,8 +63,8 @@ function ringAreaDeg(ring) {
   return Math.abs(s / 2)
 }
 
-const TOL = 0.006 // ~600 m — keeps shapes crisp at panel size, file small
-const MIN_ISLAND = 0.004 // drop islets below this (deg²-ish) — keeps Achill etc.
+const TOL = 0.006 // ~600 m - keeps shapes crisp at panel size, file small
+const MIN_ISLAND = 0.004 // drop islets below this (deg²-ish) - keeps Achill etc.
 
 function cleanPolygons(rings) {
   // rings: array of outer rings [[lng,lat],…]; simplify + drop tiny islands.
@@ -134,7 +134,7 @@ function stitchRings(ways) {
           break
         }
       }
-      if (found === -1) break // open chain — discard
+      if (found === -1) break // open chain - discard
       const next = segs.splice(found, 1)[0]
       ring = ring.concat(reversed ? next.slice(0, -1).reverse() : next.slice(1))
     }

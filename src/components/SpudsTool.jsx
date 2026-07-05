@@ -5,7 +5,7 @@ import { useState } from 'react'
 const APPETITES = {
   light: { label: 'Light enough', factor: 0.75, quip: 'Watching the figures, are we?' },
   normal: { label: 'Normal', factor: 1, quip: 'A grand feed for all.' },
-  big: { label: 'Big eaters', factor: 1.4, quip: 'Hungry crowd — pile them high.' },
+  big: { label: 'Big eaters', factor: 1.4, quip: 'Hungry crowd - pile them high.' },
   mammy: {
     label: 'Irish Mammy',
     factor: 1.9,

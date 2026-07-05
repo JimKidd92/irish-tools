@@ -1,7 +1,7 @@
-# Irish Tools — News Worker
+# Irish Tools - News Worker
 
 A tiny stateless Cloudflare Worker that fetches Irish RSS feeds, merges them, and
-returns clean JSON. No database, no accounts, no user data — read-only. Free tier
+returns clean JSON. No database, no accounts, no user data - read-only. Free tier
 (100k requests/day) is far more than enough since upstream feeds are edge-cached.
 
 ## One-time deploy (~5 minutes)

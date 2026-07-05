@@ -1,5 +1,5 @@
 // Shared search bar for weather tools: a town input, a check button and a
-// "use my location" button. Purely presentational — the parent owns the state.
+// "use my location" button. Purely presentational - the parent owns the state.
 export default function LocationSearch({ query, setQuery, onSearch, useMyLocation, placeholder }) {
   return (
     <form className="loc-search" onSubmit={onSearch}>

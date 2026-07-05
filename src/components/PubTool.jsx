@@ -14,7 +14,7 @@ function assess(now = new Date()) {
     return {
       open: false,
       emoji: '🎄',
-      title: 'No — it’s Christmas Day.',
+      title: 'No - it’s Christmas Day.',
       blurb: 'The pubs are shut for Christmas Day. Away home and have one out of the press.',
     }
   }
@@ -24,14 +24,14 @@ function assess(now = new Date()) {
       emoji: '🍺',
       title: 'Actually… yes!',
       blurb:
-        'It’s Good Friday — but the drink ban was lifted back in 2018. The pubs are open. Sláinte!',
+        'It’s Good Friday - but the drink ban was lifted back in 2018. The pubs are open. Sláinte!',
     }
   }
   return {
     open: true,
     emoji: '🍻',
     title: 'Of course it is!',
-    blurb: 'Grand normal day. The pub’s open — off ya go and enjoy your pint.',
+    blurb: 'Grand normal day. The pub’s open - off ya go and enjoy your pint.',
   }
 }
 
@@ -44,7 +44,7 @@ export default function PubTool() {
       <h2 className="pub__title">{result.title}</h2>
       <p className="pub__blurb">{result.blurb}</p>
       <p className="pub__disclaimer">
-        (Individual opening hours are up to each pub, mind — this is just the law of the land.)
+        (Individual opening hours are up to each pub, mind - this is just the law of the land.)
       </p>
       <ShareButton
         url="https://irishtools.ie/pub/"

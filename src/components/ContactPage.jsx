@@ -7,7 +7,7 @@ export default function ContactPage() {
   useEffect(() => {
     setHead({
       title: 'Contact · Irish Tools',
-      description: 'Get in touch with Irish Tools — feedback, corrections, tool ideas or just to say hello.',
+      description: 'Get in touch with Irish Tools - feedback, corrections, tool ideas or just to say hello.',
       canonical: `${SITE_URL}/contact/`,
     })
   }, [])
@@ -22,7 +22,7 @@ export default function ContactPage() {
       <p>
         Irish Tools is run by one person in Ireland, and we genuinely like hearing from people who
         use the site. Whether you’ve spotted a mistake, have an idea for a new tool, want a source
-        added to the news, or just fancy saying hello — get in touch.
+        added to the news, or just fancy saying hello - get in touch.
       </p>
 
       <h2>Email</h2>
@@ -34,8 +34,8 @@ export default function ContactPage() {
 
       <h2>Corrections &amp; suggestions</h2>
       <p>
-        We try hard to get the details right — surname meanings, county facts, beer styles and the
-        rest — but it’s a big collection and the odd error slips through. If you see something that
+        We try hard to get the details right - surname meanings, county facts, beer styles and the
+        rest - but it’s a big collection and the odd error slips through. If you see something that
         isn’t right, please tell us and we’ll fix it. Likewise, if your local news source, your
         county’s missing landmark, or a beer we’ve overlooked should be on the site, send it on.
       </p>

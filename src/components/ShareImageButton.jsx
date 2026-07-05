@@ -12,7 +12,7 @@ export default function ShareImageButton({ image, text, url, label = 'Share as i
     const res = await shareResultImage(image, { text, url })
     setBusy(false)
     if (res === 'shared') setMsg('Shared!')
-    else if (res === 'downloaded') setMsg('Image saved — share it anywhere!')
+    else if (res === 'downloaded') setMsg('Image saved - share it anywhere!')
     else if (res === 'failed') setMsg('Couldn’t make the image')
     if (res && res !== 'cancelled') setTimeout(() => setMsg(''), 3000)
   }

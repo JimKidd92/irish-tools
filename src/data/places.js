@@ -2,7 +2,7 @@
 export const PLACES = [
   { name: 'Cliffs of Moher', county: 'Clare', lat: 52.9719, lng: -9.4264, blurb: 'Towering 700ft sea cliffs on the Wild Atlantic Way.' },
   { name: 'Giant’s Causeway', county: 'Antrim', lat: 55.2408, lng: -6.5116, blurb: '40,000 basalt columns of legend. A UNESCO site.' },
-  { name: 'Newgrange', county: 'Meath', lat: 53.6947, lng: -6.4755, blurb: 'A 5,200-year-old passage tomb — older than the pyramids.' },
+  { name: 'Newgrange', county: 'Meath', lat: 53.6947, lng: -6.4755, blurb: 'A 5,200-year-old passage tomb - older than the pyramids.' },
   { name: 'Ring of Kerry', county: 'Kerry', lat: 51.9, lng: -9.9, blurb: 'A 179km scenic drive around the Iveragh Peninsula.' },
   { name: 'Rock of Cashel', county: 'Tipperary', lat: 52.5206, lng: -7.8906, blurb: 'A dramatic medieval fortress of kings and saints.' },
   { name: 'Skellig Michael', county: 'Kerry', lat: 51.7708, lng: -10.5386, blurb: 'A remote island monastery (and a certain film set).' },
@@ -18,7 +18,7 @@ export const PLACES = [
   { name: 'Croagh Patrick', county: 'Mayo', lat: 53.7603, lng: -9.6586, blurb: 'Ireland’s holy mountain, climbed by pilgrims for 1,500 years.' },
   { name: 'Powerscourt Estate', county: 'Wicklow', lat: 53.1840, lng: -6.1900, blurb: 'Grand 18th-century house with world-renowned gardens.' },
   { name: 'Hook Lighthouse', county: 'Wexford', lat: 52.1233, lng: -6.9289, blurb: 'One of the world’s oldest working lighthouses, 800+ years old.' },
-  { name: 'Slieve League', county: 'Donegal', lat: 54.6386, lng: -8.6939, blurb: 'Among the highest sea cliffs in Europe — wild and uncrowded.' },
+  { name: 'Slieve League', county: 'Donegal', lat: 54.6386, lng: -8.6939, blurb: 'Among the highest sea cliffs in Europe - wild and uncrowded.' },
   { name: 'Glenveagh National Park', county: 'Donegal', lat: 55.0286, lng: -8.0011, blurb: 'A remote castle and gardens amid mountains and loughs.' },
   { name: 'Mountains of Mourne', county: 'Down', lat: 54.1803, lng: -5.9214, blurb: 'The granite peaks that “sweep down to the sea”.' },
   { name: 'Derry City Walls', county: 'Derry', lat: 54.9971, lng: -7.3199, blurb: 'The only completely walled city in Ireland.' },

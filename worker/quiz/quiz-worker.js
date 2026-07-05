@@ -1,9 +1,9 @@
-// Irish Tools — Daily Quiz + Leaderboard Worker (Cloudflare Workers + D1).
+// Irish Tools - Daily Quiz + Leaderboard Worker (Cloudflare Workers + D1).
 //
 // Server-authoritative: the question bank (with answers) lives here, never in
 // the browser. The client fetches the day's 10 questions WITHOUT answers, the
 // Worker scores the submission and times it server-side, and stores results for
-// the leaderboard. Identity is "Sign in with Google" — Google handles the
+// the leaderboard. Identity is "Sign in with Google" - Google handles the
 // password/security; we verify the ID token, then issue our own session token.
 //
 // Endpoints:
@@ -272,7 +272,7 @@ async function authGoogle(req, env, origin) {
   )
 }
 
-// The 32 traditional counties — the only valid affiliations and Scéal boards.
+// The 32 traditional counties - the only valid affiliations and Scéal boards.
 const COUNTY_NAMES = [
   'Antrim', 'Armagh', 'Carlow', 'Cavan', 'Clare', 'Cork', 'Derry', 'Donegal', 'Down', 'Dublin',
   'Fermanagh', 'Galway', 'Kerry', 'Kildare', 'Kilkenny', 'Laois', 'Leitrim', 'Limerick', 'Longford',
@@ -303,11 +303,11 @@ async function authName(req, env, origin) {
   if (!session) return json({ error: 'unauthorized' }, 401, origin)
   const { name } = await req.json()
   const clean = cleanName(name)
-  if (!clean) return json({ error: 'Pick a name 2–20 characters — letters and numbers, nothing rude.' }, 400, origin)
+  if (!clean) return json({ error: 'Pick a name 2–20 characters - letters and numbers, nothing rude.' }, 400, origin)
   const taken = await env.DB.prepare('SELECT id FROM users WHERE display_name_lower = ? AND id <> ?')
     .bind(clean.toLowerCase(), session.uid)
     .first()
-  if (taken) return json({ error: 'That name is taken — try another.' }, 409, origin)
+  if (taken) return json({ error: 'That name is taken - try another.' }, 409, origin)
   await env.DB.prepare('UPDATE users SET display_name = ?, display_name_lower = ? WHERE id = ?')
     .bind(clean, clean.toLowerCase(), session.uid)
     .run()
@@ -623,7 +623,7 @@ async function leagueCreate(req, env, origin) {
   if (!session.name) return json({ error: 'name required', needsName: true }, 403, origin)
   const { name } = await req.json()
   const clean = cleanLeagueName(name)
-  if (!clean) return json({ error: 'Pick a name 2–30 characters — nothing rude.' }, 400, origin)
+  if (!clean) return json({ error: 'Pick a name 2–30 characters - nothing rude.' }, 400, origin)
   const owned = await env.DB.prepare('SELECT COUNT(*) AS c FROM leagues WHERE owner_id = ?').bind(session.uid).first()
   if ((owned.c || 0) >= LEAGUE_CAP) return json({ error: 'You’ve created too many leaderboards.' }, 400, origin)
   let code = null
@@ -678,8 +678,8 @@ async function leagueMine(req, env, origin) {
 }
 
 /* ---------- County Scéal boards (per-county discussion) ---------- */
-// Content screening is lighter than nicknames — Irish chat without a bit of
-// colour isn't Irish chat — but slurs are hard-blocked.
+// Content screening is lighter than nicknames - Irish chat without a bit of
+// colour isn't Irish chat - but slurs are hard-blocked.
 const SLURS = ['nigger', 'faggot', 'chink', 'spastic', 'retard', 'tranny']
 const hasSlur = (s) => {
   const low = (s || '').toLowerCase()
@@ -756,7 +756,7 @@ async function scealCreate(req, env, origin) {
   if (t.length < 5) return json({ error: 'Give your scéal a title (5+ characters).' }, 400, origin)
   if (hasSlur(t) || hasSlur(b)) return json({ error: 'That language isn’t welcome here.' }, 400, origin)
   if (await overRate(env, 'posts', session.uid, POSTS_PER_HOUR))
-    return json({ error: 'Easy now — you’re posting too fast. Try again in a while.' }, 429, origin)
+    return json({ error: 'Easy now - you’re posting too fast. Try again in a while.' }, 429, origin)
   const id = crypto.randomUUID()
   await env.DB.prepare('INSERT INTO posts (id, county, user_id, title, body, created_at) VALUES (?, ?, ?, ?, ?, ?)')
     .bind(id, county, session.uid, t, b, Date.now())
@@ -775,7 +775,7 @@ async function scealComment(req, env, origin) {
   const post = await env.DB.prepare('SELECT id FROM posts WHERE id = ? AND deleted = 0').bind(postId).first()
   if (!post) return json({ error: 'post not found' }, 404, origin)
   if (await overRate(env, 'comments', session.uid, COMMENTS_PER_HOUR))
-    return json({ error: 'Easy now — you’re commenting too fast. Try again in a while.' }, 429, origin)
+    return json({ error: 'Easy now - you’re commenting too fast. Try again in a while.' }, 429, origin)
   const id = crypto.randomUUID()
   await env.DB.prepare('INSERT INTO comments (id, post_id, parent_id, user_id, body, created_at) VALUES (?, ?, ?, ?, ?, ?)')
     .bind(id, postId, parentId || null, session.uid, b, Date.now())

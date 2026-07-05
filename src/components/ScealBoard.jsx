@@ -19,7 +19,7 @@ import Flair from './Flair.jsx'
 
 const postUrl = (countySlug, id) => `/sceal/${countySlug}/?p=${id}`
 
-// County Scéal — subreddit-style boards, one per county. Read without an
+// County Scéal - subreddit-style boards, one per county. Read without an
 // account; posting/commenting uses the quiz sign-in (nickname + county flair).
 export default function ScealBoard({ slug }) {
   const county = slug === 'ireland' ? 'Ireland' : findBySlug(COUNTIES, slug, 'name')?.name || null
@@ -149,8 +149,8 @@ function Board({ county, myCounty, onOpenPost }) {
       </div>
       <p className="sceal__sub">
         {county === 'Ireland'
-          ? 'The all-island board — every county welcome. News, questions, memories and pure craic.'
-          : `The ${county} noticeboard — news, questions, memories and pure craic.`}
+          ? 'The all-island board - every county welcome. News, questions, memories and pure craic.'
+          : `The ${county} noticeboard - news, questions, memories and pure craic.`}
         {myCounty && myCounty !== county && (
           <>
             {' '}
@@ -168,7 +168,7 @@ function Board({ county, myCounty, onOpenPost }) {
               className="quiz-auth__input sceal__compose-title"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              placeholder="Title — what’s the scéal?"
+              placeholder="Title - what’s the scéal?"
               maxLength={120}
               autoFocus
             />
@@ -199,7 +199,7 @@ function Board({ county, myCounty, onOpenPost }) {
         <div className="sceal__signin">
           <QuizSignIn />
           {!signedIn && (
-            <p className="quiz-auth__small">Sign in to post — anyone can read without an account.</p>
+            <p className="quiz-auth__small">Sign in to post - anyone can read without an account.</p>
           )}
         </div>
       )}
@@ -207,7 +207,7 @@ function Board({ county, myCounty, onOpenPost }) {
       {status === 'loading' && <p className="lb__status">Getting the latest scéal…</p>}
       {status === 'error' && <p className="lb__status lb__status--error">Couldn’t load the board.</p>}
       {status === 'ready' && posts.length === 0 && (
-        <p className="lb__status">No scéal here yet — be the first to post!</p>
+        <p className="lb__status">No scéal here yet - be the first to post!</p>
       )}
 
       {status === 'ready' && posts.length > 0 && (
@@ -278,9 +278,9 @@ function ScealThread({ id, onBack }) {
   async function onReport(type, targetId) {
     try {
       await reportContent(type, targetId)
-      alert('Reported — thanks, we’ll take a look.')
+      alert('Reported - thanks, we’ll take a look.')
     } catch {
-      alert('Couldn’t report — are you signed in?')
+      alert('Couldn’t report - are you signed in?')
     }
   }
 

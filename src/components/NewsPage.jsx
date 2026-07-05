@@ -67,7 +67,7 @@ export default function NewsPage() {
       {showSources && (
         <div className="sources-panel">
           <p className="sources-panel__note">
-            Pick the sources you want — your choice is saved on this device.
+            Pick the sources you want - your choice is saved on this device.
           </p>
           {NEWS_CATEGORIES.map((cat) => {
             const inCat = NEWS_SOURCES.filter((s) => s.category === cat)
@@ -98,7 +98,7 @@ export default function NewsPage() {
       {items === null && <p className="weather-status">Gathering the headlines…</p>}
       {items && items.length === 0 && (
         <p className="weather-status weather-status--error">
-          Couldn’t load any headlines just now — try again shortly.
+          Couldn’t load any headlines just now - try again shortly.
         </p>
       )}
 
@@ -115,7 +115,7 @@ export default function NewsPage() {
         })}
 
       <p className="news__note">
-        Headlines link out to the source. Choose your own mix above — it’s remembered on this device.
+        Headlines link out to the source. Choose your own mix above - it’s remembered on this device.
       </p>
     </section>
   )

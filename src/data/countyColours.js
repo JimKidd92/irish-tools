@@ -1,4 +1,4 @@
-// Traditional county (GAA) jersey colours — two per county — used to give
+// Traditional county (GAA) jersey colours - two per county - used to give
 // each county's flair a distinct look instead of a generic shamrock icon.
 export const COUNTY_COLOURS = {
   Antrim: ['#FFB81C', '#1A1A1A'],

@@ -1,11 +1,11 @@
-// Irish Tools — News aggregator Worker.
+// Irish Tools - News aggregator Worker.
 //
 // A tiny, stateless Cloudflare Worker that fetches Irish RSS feeds server-side
 // (no CORS, no third-party like rss2json), parses them, merges + sorts + dedupes,
 // and returns clean JSON. Upstream feeds are edge-cached (cf.cacheTtl) so each
 // feed is fetched at most once per cache window and shared across all visitors.
 //
-// No database, no accounts, no user data — read-only.
+// No database, no accounts, no user data - read-only.
 //
 // Endpoints:
 //   GET /?sources=rte-news,the42,corkbeo   -> merged headlines from those sources

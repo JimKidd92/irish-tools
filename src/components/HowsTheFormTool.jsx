@@ -57,14 +57,14 @@ export default function HowsTheFormTool() {
 
           <ShareButton
             url="https://irishtools.ie/form/"
-            text={`🌅 ${verdict.title} (${location?.name}) — sunset ${result.sunset}, ${result.dayLength} of daylight.`}
+            text={`🌅 ${verdict.title} (${location?.name}) - sunset ${result.sunset}, ${result.dayLength} of daylight.`}
           />
         </div>
       )}
 
       {!result && status === 'idle' && (
         <p className="weather-hint">
-          Where are you? We’ll check if there’s a grand stretch in the evenings — or if
+          Where are you? We’ll check if there’s a grand stretch in the evenings - or if
           they’re drawing in on ya.
         </p>
       )}

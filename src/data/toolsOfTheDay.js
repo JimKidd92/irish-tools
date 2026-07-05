@@ -1,5 +1,5 @@
-// "Tool of the Day" — a light-hearted jibe, the very Irish "the type of fella
-// who…" archetype. Observational and universal — no real names (keeps it funny
+// "Tool of the Day" - a light-hearted jibe, the very Irish "the type of fella
+// who…" archetype. Observational and universal - no real names (keeps it funny
 // and keeps us out of bother).
 export const TOOLS_OF_THE_DAY = [
   { name: 'The Plane Clapper', jibe: 'Applauds when the plane lands. Pure tool.' },

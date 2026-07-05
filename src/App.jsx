@@ -18,7 +18,7 @@ import { useTheme } from './hooks/useTheme.js'
 import { loadProgress, playedToday } from './lib/dailyQuiz.js'
 import { trackPageview } from './lib/analytics.js'
 
-// Tool pages are lazy-loaded so each becomes its own chunk — keeps the main
+// Tool pages are lazy-loaded so each becomes its own chunk - keeps the main
 // bundle small (the map alone pulls in Leaflet + 550 baked places).
 const ImmersionTool = lazy(() => import('./components/ImmersionTool.jsx'))
 const DryingTool = lazy(() => import('./components/DryingTool.jsx'))
@@ -64,7 +64,7 @@ const PAGES = {
   immersion: {
     title: 'Is the Immersion On?',
     subtitle:
-      'The eternal Irish question. Settle it once and for all — your answer is saved on this device.',
+      'The eternal Irish question. Settle it once and for all - your answer is saved on this device.',
     Component: ImmersionTool,
   },
   drying: {
@@ -76,7 +76,7 @@ const PAGES = {
   'soft-day': {
     title: 'Is It a Soft Day?',
     subtitle:
-      'Mild, grey and a gentle mizzle? We’ll tell you if it’s a soft oul day — and translate the forecast into proper Irish.',
+      'Mild, grey and a gentle mizzle? We’ll tell you if it’s a soft oul day - and translate the forecast into proper Irish.',
     Component: SoftDayTool,
   },
   turf: {
@@ -116,7 +116,7 @@ const PAGES = {
   sceal: {
     title: 'County Scéal',
     subtitle:
-      'Every county has its own board — post the scéal, join the chat, wear your colours.',
+      'Every county has its own board - post the scéal, join the chat, wear your colours.',
     Component: ScealBoard,
   },
   'bank-holiday': {
@@ -152,7 +152,7 @@ const PAGES = {
   beers: {
     title: 'Irish Beers',
     subtitle:
-      'A growing directory of Irish-brewed beers — from the big stouts to the smallest craft brewery. Search by name, brewery or county.',
+      'A growing directory of Irish-brewed beers - from the big stouts to the smallest craft brewery. Search by name, brewery or county.',
     Component: BeersTool,
   },
   surnames: {
@@ -173,25 +173,25 @@ const PAGES = {
   },
   counties: {
     title: 'County Guide',
-    subtitle: 'Explore all 32 counties — their Irish names, nicknames and what to see.',
+    subtitle: 'Explore all 32 counties - their Irish names, nicknames and what to see.',
     Component: CountyGuide,
   },
   planner: {
     title: 'Trip Planner',
     subtitle:
-      'Build your Ireland itinerary day by day — add places, note your flights, print it out. Saved on this device, no account needed.',
+      'Build your Ireland itinerary day by day - add places, note your flights, print it out. Saved on this device, no account needed.',
     Component: TripPlanner,
   },
   news: {
     title: 'Irish News',
     subtitle:
-      'All the headlines in one place. Pick your own sources — national, sport, local and Irish-abroad — and they’re remembered on this device.',
+      'All the headlines in one place. Pick your own sources - national, sport, local and Irish-abroad - and they’re remembered on this device.',
     Component: NewsPage,
   },
   slang: {
     title: 'Irish Slang Dictionary',
     subtitle:
-      'What’s the craic with all the yokes? Search the slang — meanings and examples included, ya gowl.',
+      'What’s the craic with all the yokes? Search the slang - meanings and examples included, ya gowl.',
     Component: SlangTool,
   },
   'ring-home': {
@@ -208,13 +208,13 @@ const PAGES = {
   'how-irish': {
     title: 'How Irish Are You?',
     subtitle:
-      'Twelve questions of pure Irishness — from the immersion to the good biscuits. Be honest now.',
+      'Twelve questions of pure Irishness - from the immersion to the good biscuits. Be honest now.',
     Component: HowIrishTool,
   },
   blessings: {
     title: 'Irish Blessings & Toasts',
     subtitle:
-      'May the road rise to meet you — traditional blessings for weddings, toasts, farewells and luck.',
+      'May the road rise to meet you - traditional blessings for weddings, toasts, farewells and luck.',
     Component: BlessingsTool,
   },
   'trip-budget': {
@@ -234,7 +234,7 @@ function PageLoading() {
 // this handles client-side navigation after that.
 function useRouteMeta(route, slug) {
   useEffect(() => {
-    // Entry pages (e.g. /surnames/murphy/) own their own head — set by the
+    // Entry pages (e.g. /surnames/murphy/) own their own head - set by the
     // detail component, which has the data. Here we just count the view.
     if (slug) {
       trackPageview(`${pathFor(route)}${slug}/`)
@@ -452,7 +452,7 @@ function Home({ onOpenNav }) {
           <p className="tod-card__jibe">{tod.jibe}</p>
         </div>
         <p className="home-tagline">
-          Grand little tools for grand little problems — a growing collection of fun and handy
+          Grand little tools for grand little problems - a growing collection of fun and handy
           tools for Ireland and the Irish abroad. Sure it’s only a bit of craic.
         </p>
       </div>
@@ -532,7 +532,7 @@ function QuizBanner() {
         <span className="quiz-banner__title">The Daily Irish Quiz</span>
         <span className="quiz-banner__sub">
           {done
-            ? 'You’ve done today’s — come back tomorrow for more.'
+            ? 'You’ve done today’s - come back tomorrow for more.'
             : 'Ten fresh questions every day. How well do you know your stuff?'}
         </span>
       </span>
@@ -553,7 +553,7 @@ function ScealBanner() {
       <span className="quiz-banner__text">
         <span className="quiz-banner__title">County Scéal</span>
         <span className="quiz-banner__sub">
-          The boards are open — all-island chat plus a board for every county. What’s the scéal?
+          The boards are open - all-island chat plus a board for every county. What’s the scéal?
         </span>
       </span>
       <span className="quiz-banner__cta">

@@ -1,4 +1,4 @@
-// Generates a branded square result image on a canvas and shares it — the
+// Generates a branded square result image on a canvas and shares it - the
 // native share sheet with the image file where supported (mobile), otherwise
 // downloads it. Fully client-side, no backend.
 const SIZE = 1080

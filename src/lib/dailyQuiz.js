@@ -72,7 +72,7 @@ export function recordResult(score, grid) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
   } catch {
-    /* storage unavailable — grand */
+    /* storage unavailable - grand */
   }
   return next
 }

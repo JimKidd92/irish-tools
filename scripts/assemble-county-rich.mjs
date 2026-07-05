@@ -1,6 +1,6 @@
 // Merges agent-written county content (src/data/_gen/counties-*.json) into
 // src/data/countiesRich.generated.json, validating shape and county names.
-// Idempotent — rerun after any file lands. Run: node scripts/assemble-county-rich.mjs
+// Idempotent - rerun after any file lands. Run: node scripts/assemble-county-rich.mjs
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { COUNTIES } from '../src/data/counties.js'
 

@@ -21,7 +21,7 @@ export function useTheme() {
     try {
       localStorage.setItem(KEY, theme)
     } catch {
-      /* storage unavailable — grand */
+      /* storage unavailable - grand */
     }
   }, [theme])
 

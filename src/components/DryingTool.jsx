@@ -78,7 +78,7 @@ export default function DryingTool() {
 
           <ShareButton
             url="https://irishtools.ie/drying/"
-            text={`🧺 Is there good drying out in ${location?.name}? ${verdict.title} — ${result.score}/100 drying.`}
+            text={`🧺 Is there good drying out in ${location?.name}? ${verdict.title} - ${result.score}/100 drying.`}
           />
         </div>
       )}

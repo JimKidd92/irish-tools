@@ -13,7 +13,7 @@ export default function SlangTool({ slug }) {
     if (entry) {
       setHead({
         title: `What does “${entry.term}” mean? · Irish Slang · Irish Tools`,
-        description: `${entry.term}: ${entry.meaning}. Example — ${entry.example}`,
+        description: `${entry.term}: ${entry.meaning}. Example - ${entry.example}`,
         canonical: `https://irishtools.ie/slang/${slugify(entry.term)}/`,
       })
     }
@@ -51,7 +51,7 @@ export default function SlangTool({ slug }) {
         <ShareButton
           url={`https://irishtools.ie/slang/${slugify(featured.term)}/`}
           label="Share"
-          text={`🗣️ Irish slang: “${featured.term}” — ${featured.meaning}. E.g. ${featured.example}`}
+          text={`🗣️ Irish slang: “${featured.term}” - ${featured.meaning}. E.g. ${featured.example}`}
         />
         {entry && (
           <div className="related__chips" style={{ marginTop: '14px' }}>
@@ -80,7 +80,7 @@ export default function SlangTool({ slug }) {
       <p className="places__count">{shown.length} of {SLANG.length} entries</p>
 
       {shown.length === 0 ? (
-        <p className="weather-status">Nothing for that — sure maybe you’ve invented a new one.</p>
+        <p className="weather-status">Nothing for that - sure maybe you’ve invented a new one.</p>
       ) : (
         <ul className="slang__list">
           {shown.map((s) => (

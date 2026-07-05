@@ -62,7 +62,7 @@ export default function PaddysDayTool() {
       </div>
       <p className="paddys__sub">
         {days > 200
-          ? 'A fair oul wait — but sure it’ll fly.'
+          ? 'A fair oul wait - but sure it’ll fly.'
           : days > 60
             ? 'Getting closer. Time to plan the green outfit.'
             : days > 7

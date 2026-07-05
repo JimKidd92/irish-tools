@@ -6,7 +6,7 @@ export const ROUTE_META = {
   home: {
     title: 'Irish Tools · Grand little tools for grand little problems',
     description:
-      'Discover your Irish roots, plan a trip home, and enjoy the everyday craic of real Irish life — surname origins, Irish names, places to visit, a Daily Irish Quiz and more.',
+      'Discover your Irish roots, plan a trip home, and enjoy the everyday craic of real Irish life - surname origins, Irish names, places to visit, a Daily Irish Quiz and more.',
   },
   immersion: {
     title: 'Is the Immersion On? · Irish Tools',
@@ -44,7 +44,7 @@ export const ROUTE_META = {
   },
   spuds: {
     title: 'How Many Spuds? Potato Portion Calculator · Irish Tools',
-    description: 'Dinner portions done properly — including the Irish Mammy setting.',
+    description: 'Dinner portions done properly - including the Irish Mammy setting.',
   },
   quiz: {
     title: 'The Daily Irish Quiz · Irish Tools',
@@ -63,14 +63,14 @@ export const ROUTE_META = {
   },
   pints: {
     title: 'That’s How Many Pints? · Irish Tools',
-    description: 'The only currency that matters — convert any price into pints.',
+    description: 'The only currency that matters - convert any price into pints.',
   },
   mammy: {
     title: 'Irish Mammy Says… · Irish Tools',
     description: 'Words of wisdom from the woman herself. Wrap up, you’ll catch your death.',
   },
   focal: {
-    title: 'Cúpla Focal — Irish Word of the Day · Irish Tools',
+    title: 'Cúpla Focal - Irish Word of the Day · Irish Tools',
     description:
       'Learn a bit of Irish every day: a focal with its meaning and how to actually pronounce it.',
   },
@@ -79,34 +79,34 @@ export const ROUTE_META = {
     description: 'Can I get a pint in Ireland today? The eternal question, settled by law.',
   },
   beers: {
-    title: 'Irish Beers — A Directory of Irish-Brewed Beer · Irish Tools',
+    title: 'Irish Beers - A Directory of Irish-Brewed Beer · Irish Tools',
     description:
-      'Browse Irish-brewed beers and breweries — stouts, red ales, pale ales and IPAs from Guinness to the smallest craft brewery, by county and style.',
+      'Browse Irish-brewed beers and breweries - stouts, red ales, pale ales and IPAs from Guinness to the smallest craft brewery, by county and style.',
   },
   surnames: {
     title: 'Irish Surname Origins & Meanings · Irish Tools',
     description:
-      'Where does your Irish family name come from? Look up its Irish form, meaning and home county — Murphy, Kelly, O’Brien, Walsh and hundreds more.',
+      'Where does your Irish family name come from? Look up its Irish form, meaning and home county - Murphy, Kelly, O’Brien, Walsh and hundreds more.',
   },
   names: {
     title: 'Irish First Names, Meanings & Pronunciation · Irish Tools',
     description:
-      'Beautiful Irish names with their meanings and how to actually say them — Saoirse, Aoife, Cian, Tadhg and more.',
+      'Beautiful Irish names with their meanings and how to actually say them - Saoirse, Aoife, Cian, Tadhg and more.',
   },
   places: {
-    title: 'Places to Visit in Ireland — Interactive Map · Irish Tools',
+    title: 'Places to Visit in Ireland - Interactive Map · Irish Tools',
     description:
       'Plan your trip to Ireland: an interactive map of 550+ castles, abbeys, ancient sites and must-see landmarks across the island.',
   },
   counties: {
-    title: 'Irish County Guide — All 32 Counties · Irish Tools',
+    title: 'Irish County Guide - All 32 Counties · Irish Tools',
     description:
       'Explore all 32 counties of Ireland: Irish names, nicknames, photos, and what to see. A grand way to find where your people came from.',
   },
   slang: {
     title: 'Irish Slang Dictionary · Irish Tools',
     description:
-      'What’s the craic? Search the Irish slang dictionary — from acting the maggot to the jacks, with meanings and examples.',
+      'What’s the craic? Search the Irish slang dictionary - from acting the maggot to the jacks, with meanings and examples.',
   },
   'how-irish': {
     title: 'How Irish Are You? Quiz · Irish Tools',
@@ -121,7 +121,7 @@ export const ROUTE_META = {
   blessings: {
     title: 'Irish Blessings & Toasts Generator · Irish Tools',
     description:
-      'Traditional Irish blessings for weddings, farewells, toasts and luck — may the road rise to meet you.',
+      'Traditional Irish blessings for weddings, farewells, toasts and luck - may the road rise to meet you.',
   },
   'paddys-day': {
     title: 'St Patrick’s Day Countdown · Irish Tools',
@@ -133,33 +133,33 @@ export const ROUTE_META = {
       'Planning a trip to Ireland? Convert your dollars or pounds to euro at today’s rate and see what things cost.',
   },
   planner: {
-    title: 'Ireland Trip Planner — Build Your Itinerary · Irish Tools',
+    title: 'Ireland Trip Planner - Build Your Itinerary · Irish Tools',
     description:
       'Plan your trip to Ireland day by day: add castles, abbeys and must-see places to a free itinerary, note your flights, and print it out. No account needed.',
   },
   news: {
-    title: 'Irish News — Your Personalised Aggregator · Irish Tools',
+    title: 'Irish News - Your Personalised Aggregator · Irish Tools',
     description:
-      'All the Irish headlines in one place — national, sport, regional/local and Irish-abroad sources. Pick your own mix and read at a glance.',
+      'All the Irish headlines in one place - national, sport, regional/local and Irish-abroad sources. Pick your own mix and read at a glance.',
   },
   sceal: {
-    title: 'County Scéal — Your County’s Board · Irish Tools',
+    title: 'County Scéal - Your County’s Board · Irish Tools',
     description:
-      'Every Irish county has its own Scéal board — post the news, ask questions, share memories and chat with your county at home and abroad.',
+      'Every Irish county has its own Scéal board - post the news, ask questions, share memories and chat with your county at home and abroad.',
   },
   guides: {
-    title: 'Guides — Reading on Ireland, its Heritage & Craic · Irish Tools',
+    title: 'Guides - Reading on Ireland, its Heritage & Craic · Irish Tools',
     description:
-      'In-depth guides to Irish life, heritage and travel — surnames, slang, beer, the weather, planning a trip and more.',
+      'In-depth guides to Irish life, heritage and travel - surnames, slang, beer, the weather, planning a trip and more.',
   },
   about: {
     title: 'About Irish Tools',
     description:
-      'What Irish Tools is, who it’s for, and the idea behind it — fun and handy tools, guides and news for Ireland and the Irish abroad.',
+      'What Irish Tools is, who it’s for, and the idea behind it - fun and handy tools, guides and news for Ireland and the Irish abroad.',
   },
   contact: {
     title: 'Contact · Irish Tools',
-    description: 'Get in touch with Irish Tools — feedback, corrections, tool ideas or just to say hello.',
+    description: 'Get in touch with Irish Tools - feedback, corrections, tool ideas or just to say hello.',
   },
   privacy: {
     title: 'Privacy Policy · Irish Tools',

@@ -1,5 +1,5 @@
 // Lightweight, privacy-friendly pageview counting via GoatCounter.
-// No cookies, no personal data — so no consent banner needed for it.
+// No cookies, no personal data - so no consent banner needed for it.
 //
 // To enable: create a free site at goatcounter.com and put its code in
 // GOATCOUNTER_CODE in src/config.js (e.g. 'irishtools' for

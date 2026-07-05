@@ -1,4 +1,4 @@
-// A few words and phrases as Gaeilge for "Cúpla Focal" — the word of the day.
+// A few words and phrases as Gaeilge for "Cúpla Focal" - the word of the day.
 // Pronunciations are rough phonetic guides, not strict IPA.
 export const FOCAL = [
   { irish: 'Dia duit', english: 'Hello', pron: 'DEE-a gwitch' },

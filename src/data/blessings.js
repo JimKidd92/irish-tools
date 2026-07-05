@@ -9,7 +9,7 @@ export const BLESSINGS = {
     'Wherever you go and whatever you do,\nMay the luck of the Irish be there with you.',
   ],
   toast: [
-    'Sláinte! — Health!',
+    'Sláinte! - Health!',
     'May we be alive at this time next year.',
     'Here’s to a long life and a merry one,\nA quick death and an easy one,\nA pretty girl and an honest one,\nA cold pint and another one!',
     'May your glass be ever full,\nMay the roof over your head be always strong,\nAnd may you be in heaven half an hour before the devil knows you’re dead.',
@@ -24,9 +24,9 @@ export const BLESSINGS = {
   ],
   farewell: [
     'May the road rise to meet you, until we meet again.',
-    'Go n-éirí an bóthar leat — may the road rise with you.',
+    'Go n-éirí an bóthar leat - may the road rise with you.',
     'May the wind be always at your back, and may you arrive safe home.',
-    'Slán abhaile — safe home.',
+    'Slán abhaile - safe home.',
     'May the journey be short and the welcome be warm.',
   ],
   home: [
@@ -36,7 +36,7 @@ export const BLESSINGS = {
     'May peace and plenty bless your world with joy that long endures,\nAnd may all life’s passing seasons bring the best to you and yours.',
   ],
   sympathy: [
-    'Ar dheis Dé go raibh a anam — may their soul be at God’s right hand.',
+    'Ar dheis Dé go raibh a anam - may their soul be at God’s right hand.',
     'May the Lord keep you in His hand,\nAnd never close His fist too tight.',
     'Death leaves a heartache no one can heal,\nLove leaves a memory no one can steal.',
     'May the sun shine softly on the place where they rest.',

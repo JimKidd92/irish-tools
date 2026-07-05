@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <li>Most tools need no sign-up at all. The only exception is the <strong>ranked Daily Quiz leaderboard</strong>, which is optional and uses “Sign in with Google”.</li>
         <li>Your settings (like the immersion switch, saved locations and your quiz streak) are stored <strong>only on your own device</strong> using your browser’s local storage. They never reach us.</li>
         <li>When you use a weather tool, your chosen location is sent to our weather provider to fetch the forecast.</li>
-        <li>We intend to show ads to keep the site free. When enabled, our ad provider may use cookies — and in the EU we ask your consent first.</li>
+        <li>We intend to show ads to keep the site free. When enabled, our ad provider may use cookies - and in the EU we ask your consent first.</li>
       </ul>
 
       <h2>Information stored on your device</h2>
@@ -56,8 +56,8 @@ export default function PrivacyPage() {
 
       <h2>County Scéal boards (public posts)</h2>
       <p>
-        The County Scéal boards are public discussion boards. Anything you post or comment —
-        along with your nickname and county — is <strong>visible to everyone on the internet</strong>,
+        The County Scéal boards are public discussion boards. Anything you post or comment -
+        along with your nickname and county - is <strong>visible to everyone on the internet</strong>,
         so don’t post personal details you wouldn’t want public. You can delete your own posts and
         comments at any time, and report anyone else’s; content reported by several accounts is
         hidden automatically pending review. To have all your posts removed with your account,

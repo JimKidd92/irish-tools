@@ -1,5 +1,5 @@
 // The growing collection of fun & handy Irish tools.
-// Add new ones here — `live: true` to enable, otherwise it shows as "Coming soon".
+// Add new ones here - `live: true` to enable, otherwise it shows as "Coming soon".
 // `category` groups them in the side nav: 'Weather' | 'Craic' | 'Handy'.
 export const tools = [
   {
@@ -17,7 +17,7 @@ export const tools = [
     icon: 'MessagesSquare',
     emoji: '💬',
     name: 'County Scéal',
-    tagline: 'Your county’s own board — what’s the scéal?',
+    tagline: 'Your county’s own board - what’s the scéal?',
     live: true,
     path: 'sceal',
     category: 'Craic',
@@ -277,7 +277,7 @@ export const tools = [
     icon: 'Banknote',
     emoji: '💶',
     name: 'Trip Budget Converter',
-    tagline: 'Your money in euro — and in pints.',
+    tagline: 'Your money in euro - and in pints.',
     live: true,
     path: 'trip-budget',
     category: 'Plan Your Trip',

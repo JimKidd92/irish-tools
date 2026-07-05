@@ -16,10 +16,10 @@ function verdict(hour) {
   if (hour >= 9 && hour < 21)
     return { emoji: '✅', title: 'Grand time to ring home', blurb: 'They’re up and about. Stick on the kettle talk.' }
   if (hour >= 21 && hour < 23)
-    return { emoji: '🤔', title: 'Chance it', blurb: 'They’re probably watching the Nine O’Clock News — they’ll answer.' }
+    return { emoji: '🤔', title: 'Chance it', blurb: 'They’re probably watching the Nine O’Clock News - they’ll answer.' }
   if (hour >= 8 && hour < 9)
     return { emoji: '☕', title: 'They’re just up', blurb: 'Mid-breakfast. Go on, they’d love to hear from you.' }
-  return { emoji: '😴', title: 'They’re asleep — hold off', blurb: 'Unless it’s urgent, let them sleep. Ring after 9am Irish time.' }
+  return { emoji: '😴', title: 'They’re asleep - hold off', blurb: 'Unless it’s urgent, let them sleep. Ring after 9am Irish time.' }
 }
 
 export default function RingHomeTool() {
@@ -37,7 +37,7 @@ export default function RingHomeTool() {
   const diffH = Math.round(((ie - now) / 3600000) * 2) / 2
   const diffLabel =
     diffH === 0
-      ? 'You’re on Irish time already — are you home?!'
+      ? 'You’re on Irish time already - are you home?!'
       : diffH > 0
         ? `Ireland is ${diffH} hour${Math.abs(diffH) === 1 ? '' : 's'} ahead of you`
         : `Ireland is ${Math.abs(diffH)} hour${Math.abs(diffH) === 1 ? '' : 's'} behind you`
@@ -59,7 +59,7 @@ export default function RingHomeTool() {
 
       <ShareButton
         url="https://irishtools.ie/ring-home/"
-        text={`🇮🇪 It’s ${fmt(ie)} in Ireland right now — ${v.title.toLowerCase()}.`}
+        text={`🇮🇪 It’s ${fmt(ie)} in Ireland right now - ${v.title.toLowerCase()}.`}
       />
     </section>
   )

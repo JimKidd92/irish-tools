@@ -93,11 +93,11 @@ export default function TripBudgetTool() {
               </li>
             ))}
           </ul>
-          <p className="pints__basis">Rough average prices — Dublin will sting ya a bit more.</p>
+          <p className="pints__basis">Rough average prices - Dublin will sting ya a bit more.</p>
 
           <ShareButton
             url="https://irishtools.ie/trip-budget/"
-            text={`💶 My Ireland trip budget: ${CURRENCIES[currency].label.split(' ')[0]} ${value} ≈ €${eur.toFixed(0)} — that’s ${Math.floor(eur / 6)} pints, like.`}
+            text={`💶 My Ireland trip budget: ${CURRENCIES[currency].label.split(' ')[0]} ${value} ≈ €${eur.toFixed(0)} - that’s ${Math.floor(eur / 6)} pints, like.`}
           />
         </div>
       )}

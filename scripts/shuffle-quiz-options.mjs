@@ -18,7 +18,7 @@ const dist = [0, 0, 0, 0]
 out.forEach((q) => dist[q.answer]++)
 
 const header =
-  '// Irish Tools — Daily Quiz question bank (SERVER-SIDE, with answers).\n' +
+  '// Irish Tools - Daily Quiz question bank (SERVER-SIDE, with answers).\n' +
   '// This lives in the Worker only and is never sent to the browser. The client\n' +
   '// receives questions without the answer key. Add new questions weekly and\n' +
   '// redeploy the Worker. Each: { q, options:[...], answer:<index> }.\n\n'

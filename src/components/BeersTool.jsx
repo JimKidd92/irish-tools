@@ -83,7 +83,7 @@ export default function BeersTool() {
       </p>
 
       {shown.length === 0 ? (
-        <p className="weather-status">No beers match that — try another search.</p>
+        <p className="weather-status">No beers match that - try another search.</p>
       ) : (
         <ul className="beer-grid">
           {shown.map((b) => (
