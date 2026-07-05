@@ -222,6 +222,52 @@ function stem(s) {
   return normalise(s).replace(/^mac/, '').replace(/^mc/, '').replace(/^o/, '')
 }
 
+// Cheap edit distance, capped so a couple of typos still match but wildly
+// different strings bail out fast.
+function editDistance(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return max + 1
+  let prev = Array.from({ length: b.length + 1 }, (_, i) => i)
+  for (let i = 1; i <= a.length; i++) {
+    const row = [i]
+    let rowMin = i
+    for (let j = 1; j <= b.length; j++) {
+      const cost = a[i - 1] === b[j - 1] ? 0 : 1
+      const v = Math.min(row[j - 1] + 1, prev[j] + 1, prev[j - 1] + cost)
+      row.push(v)
+      if (v < rowMin) rowMin = v
+    }
+    if (rowMin > max) return max + 1
+    prev = row
+  }
+  return prev[b.length]
+}
+
+// Fuzzy surname search for an autocomplete dropdown: exact > prefix >
+// substring > close-typo, each searched against both the full name and the
+// Mac/Mc/O-stemmed form so "sullivan" still surfaces O'Sullivan.
+export function searchSurnames(query, limit = 8) {
+  const q = normalise(query)
+  const qs = stem(query)
+  if (!q) return []
+  const scored = []
+  for (const s of SURNAMES) {
+    const n = normalise(s.name)
+    const ns = stem(s.name)
+    let score = -1
+    if (n === q || ns === qs) score = 100
+    else if (n.startsWith(q) || ns.startsWith(qs)) score = 80 - Math.min(n.length - q.length, 20)
+    else if (n.includes(q) || ns.includes(qs)) score = 55 - Math.min(n.length - q.length, 20)
+    else if (q.length >= 3) {
+      const maxDist = q.length <= 4 ? 1 : 2
+      const d = Math.min(editDistance(n, q, maxDist), editDistance(ns, qs, maxDist))
+      if (d <= maxDist) score = 30 - d * 10
+    }
+    if (score > -1) scored.push({ s, score })
+  }
+  scored.sort((a, b) => b.score - a.score || a.s.name.localeCompare(b.s.name))
+  return scored.slice(0, limit).map((x) => x.s)
+}
+
 export function findSurname(query) {
   const q = normalise(query)
   const qs = stem(query)
@@ -230,6 +276,8 @@ export function findSurname(query) {
     SURNAMES.find((s) => {
       const keys = new Set([normalise(s.name), stem(s.name)])
       return keys.has(q) || keys.has(qs)
-    }) || null
+    }) ||
+    searchSurnames(query, 1)[0] ||
+    null
   )
 }

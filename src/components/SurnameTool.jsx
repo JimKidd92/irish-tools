@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import { SURNAMES, findSurname } from '../data/surnames.js'
+import { useEffect, useRef, useState } from 'react'
+import { SURNAMES, findSurname, searchSurnames } from '../data/surnames.js'
 import { SURNAME_RICH } from '../data/surnamesRich.generated.js'
 import { COUNTIES } from '../data/counties.js'
 import { slugify, findBySlug } from '../lib/slug.js'
@@ -71,9 +71,26 @@ export default function SurnameTool({ slug }) {
     }
   }, [slug])
 
+  const [suggestions, setSuggestions] = useState([])
+  const [open, setOpen] = useState(false)
+  const [activeIndex, setActiveIndex] = useState(-1)
+  const boxRef = useRef(null)
+
+  useEffect(() => {
+    function onOutside(e) {
+      if (boxRef.current && !boxRef.current.contains(e.target)) setOpen(false)
+    }
+    document.addEventListener('pointerdown', onOutside)
+    return () => document.removeEventListener('pointerdown', onOutside)
+  }, [])
+
   function show(entry) {
     setResult(entry)
-    if (entry) navigate('surnames', slugify(entry.name))
+    setOpen(false)
+    if (entry) {
+      setInput(entry.name)
+      navigate('surnames', slugify(entry.name))
+    }
   }
 
   function search(value) {
@@ -82,26 +99,77 @@ export default function SurnameTool({ slug }) {
     show(findSurname(v))
   }
 
+  function onInputChange(value) {
+    setInput(value)
+    setActiveIndex(-1)
+    const matches = searchSurnames(value)
+    setSuggestions(matches)
+    setOpen(matches.length > 0)
+  }
+
+  function onKeyDown(e) {
+    if (!open || suggestions.length === 0) return
+    if (e.key === 'ArrowDown') {
+      e.preventDefault()
+      setActiveIndex((i) => (i + 1) % suggestions.length)
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault()
+      setActiveIndex((i) => (i <= 0 ? suggestions.length - 1 : i - 1))
+    } else if (e.key === 'Enter' && activeIndex >= 0) {
+      e.preventDefault()
+      show(suggestions[activeIndex])
+    } else if (e.key === 'Escape') {
+      setOpen(false)
+    }
+  }
+
   const counties = result ? countiesIn(result.region) : []
   const related = result ? relatedTo(result, counties) : []
 
   return (
     <section className="panel surname">
       <form
-        className="loc-search"
+        className="loc-search surname__search"
+        ref={boxRef}
         onSubmit={(e) => {
           e.preventDefault()
-          search()
+          if (activeIndex >= 0 && suggestions[activeIndex]) show(suggestions[activeIndex])
+          else search()
         }}
       >
-        <input
-          type="text"
-          className="loc-search__input"
-          placeholder="Enter your surname… (e.g. Murphy)"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          aria-label="Surname"
-        />
+        <div className="surname__search-box">
+          <input
+            type="text"
+            className="loc-search__input"
+            placeholder="Enter your surname… (e.g. Murphy)"
+            value={input}
+            onChange={(e) => onInputChange(e.target.value)}
+            onFocus={() => suggestions.length > 0 && setOpen(true)}
+            onKeyDown={onKeyDown}
+            aria-label="Surname"
+            aria-autocomplete="list"
+            aria-expanded={open}
+            role="combobox"
+            autoComplete="off"
+          />
+          {open && (
+            <ul className="surname__suggestions" role="listbox">
+              {suggestions.map((s, i) => (
+                <li key={s.name} role="option" aria-selected={i === activeIndex}>
+                  <button
+                    type="button"
+                    className={`surname__suggestion ${i === activeIndex ? 'is-active' : ''}`}
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => show(s)}
+                  >
+                    <span className="surname__suggestion-name">{s.name}</span>
+                    <span className="surname__suggestion-meaning">{s.meaning}</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
         <button type="submit" className="btn btn--primary">
           Look it up
         </button>

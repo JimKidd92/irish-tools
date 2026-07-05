@@ -1915,6 +1915,62 @@ a {
   text-align: center;
 }
 
+/* ---------- Surname fuzzy search dropdown ---------- */
+.surname__search {
+  align-items: flex-start;
+}
+.surname__search-box {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+.surname__suggestions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 20;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+  max-height: 320px;
+  overflow-y: auto;
+}
+.surname__suggestion {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  color: var(--ink);
+}
+.surname__suggestion:hover,
+.surname__suggestion.is-active {
+  background: var(--surface-alt);
+}
+.surname__suggestion-name {
+  font-weight: 700;
+}
+.surname__suggestion-meaning {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 55%;
+}
+
 /* ---------- Surname rich content ---------- */
 .surname__rich {
   margin-top: 14px;
