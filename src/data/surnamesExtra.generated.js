@@ -2,6 +2,294 @@
 // hand-written base list. Do not edit by hand.
 export const EXTRA_SURNAMES = [
  {
+  "name": "Ahern",
+  "irish": "O hEachthigheirn",
+  "meaning": "'lord of horses'",
+  "region": "Cork & Clare"
+ },
+ {
+  "name": "Aylmer",
+  "irish": "de Aylmer",
+  "meaning": "from a Norman personal name meaning 'noble and famous'",
+  "region": "Kildare & Meath"
+ },
+ {
+  "name": "Aylward",
+  "irish": "de Aylward",
+  "meaning": "from a Norman-Flemish personal name, Ailward",
+  "region": "Waterford & Kilkenny"
+ },
+ {
+  "name": "Bagenal",
+  "irish": "not applicable; English/Welsh origin",
+  "meaning": "from a Welsh place name",
+  "region": "Kilkenny & Carlow"
+ },
+ {
+  "name": "Balfe",
+  "irish": "O Beollain",
+  "meaning": "uncertain, possibly 'good-mouthed'",
+  "region": "Roscommon & Mayo"
+ },
+ {
+  "name": "Barr",
+  "irish": "not applicable; Scots-Ulster origin",
+  "meaning": "uncertain, possibly topographic, meaning 'height' or 'crest'",
+  "region": "Derry & Antrim"
+ },
+ {
+  "name": "Barrington",
+  "irish": "not applicable; English toponymic origin",
+  "meaning": "from an English place name",
+  "region": "Limerick"
+ },
+ {
+  "name": "Behan",
+  "irish": "O Beachain",
+  "meaning": "'little bee'",
+  "region": "Dublin & Kildare"
+ },
+ {
+  "name": "Beirne",
+  "irish": "O Beirn",
+  "meaning": "from a personal name possibly of Norse origin, meaning 'bear'",
+  "region": "Roscommon & Leitrim"
+ },
+ {
+  "name": "Bergin",
+  "irish": "O hAimheirgin",
+  "meaning": "uncertain, possibly related to wonder or portent",
+  "region": "Laois & Kilkenny"
+ },
+ {
+  "name": "Berrigan",
+  "irish": "O Bearagain",
+  "meaning": "uncertain, related to the same root as Bergin",
+  "region": "Offaly & Leitrim"
+ },
+ {
+  "name": "Blaney",
+  "irish": "O Blathnaigh",
+  "meaning": "from blath, 'flower' or 'blossom'",
+  "region": "Monaghan"
+ },
+ {
+  "name": "Blennerhassett",
+  "irish": "not applicable; English toponymic origin",
+  "meaning": "from a place name in Cumbria, England",
+  "region": "Kerry"
+ },
+ {
+  "name": "Bolger",
+  "irish": "O Bolguidhir",
+  "meaning": "possibly 'yellow belly'",
+  "region": "Wexford & Carlow"
+ },
+ {
+  "name": "Bonner",
+  "irish": "O Cnaimhin",
+  "meaning": "'little bone', possibly denoting a lean ancestor",
+  "region": "Donegal"
+ },
+ {
+  "name": "Bowen",
+  "irish": "not applicable; Welsh-Norman origin",
+  "meaning": "from Welsh ap Owen, 'son of Owen'",
+  "region": "Cork & Kerry"
+ },
+ {
+  "name": "Boylan",
+  "irish": "O Baoighealain",
+  "meaning": "uncertain, possibly related to 'vain' or 'proud'",
+  "region": "Meath & Cavan"
+ },
+ {
+  "name": "Bracken",
+  "irish": "O Breacain",
+  "meaning": "from breac, 'speckled'",
+  "region": "Clare & Galway"
+ },
+ {
+  "name": "Breslin",
+  "irish": "O Breislein",
+  "meaning": "possibly related to 'strife' or 'contention'",
+  "region": "Donegal & Derry"
+ },
+ {
+  "name": "Broderick",
+  "irish": "O Bruadair",
+  "meaning": "uncertain, an old personal name",
+  "region": "Cork & Limerick"
+ },
+ {
+  "name": "Brogan",
+  "irish": "O Broigain",
+  "meaning": "possibly from brog, 'shoe', a nickname for a shoemaker",
+  "region": "Mayo & Roscommon"
+ },
+ {
+  "name": "Bruton",
+  "irish": "not applicable; English toponymic origin",
+  "meaning": "from an English place name meaning 'farmstead by a stream'",
+  "region": "Meath & Cork"
+ },
+ {
+  "name": "Bulfin",
+  "irish": "not applicable; not a traditional Gaelic clan name",
+  "meaning": "origin uncertain",
+  "region": "Offaly & Clare"
+ },
+ {
+  "name": "Cahill",
+  "irish": "O Cathail",
+  "meaning": "'descendant of Cathal, meaning mighty in battle'",
+  "region": "Clare & Tipperary"
+ },
+ {
+  "name": "Callaghan",
+  "irish": "O Ceallachain",
+  "meaning": "'descendant of Ceallachan, from ceallach meaning strife or bright-headed'",
+  "region": "Cork"
+ },
+ {
+  "name": "Cannon",
+  "irish": "O Canainn / Mac Canannain",
+  "meaning": "'descendant of Canann, from a root meaning wolf-cub or fair-haired'",
+  "region": "Donegal & Mayo"
+ },
+ {
+  "name": "Carey",
+  "irish": "O Ciardha",
+  "meaning": "'descendant of Ciardha, from ciar meaning dark or black'",
+  "region": "Kildare & Westmeath"
+ },
+ {
+  "name": "Carmody",
+  "irish": "Mac Diarmada / Mac Cormaic",
+  "meaning": "'son of Diarmaid, or of a personal name meaning free man'",
+  "region": "Clare & Limerick"
+ },
+ {
+  "name": "Carr",
+  "irish": "O Carra / Mac Giolla Chathair",
+  "meaning": "'descendant of Carra, or from Mac Giolla Chathair meaning son of the servant of Cathair'",
+  "region": "Mayo & Louth"
+ },
+ {
+  "name": "Carty",
+  "irish": "Mac Carthaigh (variant) / O Cárthaigh",
+  "meaning": "'descendant of Carthach, meaning loving'",
+  "region": "Mayo & Sligo"
+ },
+ {
+  "name": "Cawley",
+  "irish": "Mac Amhlaoibh",
+  "meaning": "'son of Amhlaoibh (Olaf), a Norse-derived personal name'",
+  "region": "Mayo & Sligo"
+ },
+ {
+  "name": "Cleary",
+  "irish": "O Cleirigh",
+  "meaning": "'descendant of the clerk or scribe'",
+  "region": "Tipperary & Cork"
+ },
+ {
+  "name": "Clifford",
+  "irish": "de Clifford (Norman)",
+  "meaning": "'from the ford near a cliff or slope', an Anglo-Norman toponymic",
+  "region": "Kerry"
+ },
+ {
+  "name": "Clohessy",
+  "irish": "O Clochasaigh",
+  "meaning": "'descendant of Clochasach, from cloch meaning stone'",
+  "region": "Limerick & Clare"
+ },
+ {
+  "name": "Comerford",
+  "irish": "de Comerford (Norman)",
+  "meaning": "an Anglo-Norman toponymic surname, from a place name meaning merchant's ford",
+  "region": "Kilkenny"
+ },
+ {
+  "name": "Concannon",
+  "irish": "Mac Conchainn / O Concheanainn",
+  "meaning": "'son of Conchobhar, or descendant of Con-Ceanainn, hound of Cean'",
+  "region": "Galway"
+ },
+ {
+  "name": "Conlon",
+  "irish": "O Coindealbhain / Mac Conallain",
+  "meaning": "'descendant of Conallan, from cu meaning hound and a diminutive suffix'",
+  "region": "Sligo & Mayo"
+ },
+ {
+  "name": "Conroy",
+  "irish": "Mac Conraoi / O Conraoi",
+  "meaning": "'son/descendant of Conraoi, hound of the plain or of the king'",
+  "region": "Galway & Roscommon"
+ },
+ {
+  "name": "Considine",
+  "irish": "Mac Consaidin",
+  "meaning": "'son of Considine', likely from a Norman personal name absorbed into Gaelic usage",
+  "region": "Clare"
+ },
+ {
+  "name": "Cooney",
+  "irish": "O Cuana",
+  "meaning": "'descendant of Cuana, meaning elegant or comely'",
+  "region": "Galway & Clare"
+ },
+ {
+  "name": "Corcoran",
+  "irish": "O Corcrain",
+  "meaning": "'descendant of Corcran, from corcair meaning purple or ruddy'",
+  "region": "Offaly & Clare"
+ },
+ {
+  "name": "Cosgrave",
+  "irish": "Mac Coscraigh",
+  "meaning": "'son of Coscrach, meaning victorious'",
+  "region": "Meath & Dublin"
+ },
+ {
+  "name": "Coyle",
+  "irish": "Mac Giolla Chomhghaill",
+  "meaning": "'son of the servant of Comhghall, an early Irish saint'",
+  "region": "Donegal"
+ },
+ {
+  "name": "Coyne",
+  "irish": "O Cadhain",
+  "meaning": "'descendant of Cadhan, meaning wild goose or barnacle goose'",
+  "region": "Galway & Mayo"
+ },
+ {
+  "name": "Cronin",
+  "irish": "O Cronin",
+  "meaning": "'descendant of Cronan, a diminutive of cron meaning swarthy or dark'",
+  "region": "Cork & Kerry"
+ },
+ {
+  "name": "Crowe",
+  "irish": "MacConchradha / O Cruadha",
+  "meaning": "'descendant of Cruadha, meaning hard or strong'",
+  "region": "Clare"
+ },
+ {
+  "name": "Cummins",
+  "irish": "O Coimin / Mac Coimin",
+  "meaning": "'descendant of Coimin, a personal name of uncertain root, possibly linked to cam meaning bent or crooked'",
+  "region": "Clare & Cork"
+ },
+ {
+  "name": "Curtin",
+  "irish": "Mac Cruitin / O Cruitin",
+  "meaning": "'descendant of Cruitin, from cruit meaning hunchbacked or a small harp'",
+  "region": "Clare & Kerry"
+ },
+ {
   "name": "Dalton",
   "irish": "Daltún",
   "meaning": "'from Alton (d'Alton), a place in England'",
@@ -600,6 +888,156 @@ export const EXTRA_SURNAMES = [
   "irish": "Ó Maoil Mhichíl",
   "meaning": "'devotee of St Michael'",
   "region": "Roscommon & Limerick & Kerry"
+ },
+ {
+  "name": "Nash",
+  "irish": "O hAonghusa (in Munster usage); English 'atten ash'",
+  "meaning": "'at the ash tree' (English); also used to anglicise O hAonghusa in Munster",
+  "region": "Limerick & Clare"
+ },
+ {
+  "name": "Neary",
+  "irish": "O Naraigh",
+  "meaning": "'descendant of Nárach' (from nár, meaning noble or modest)",
+  "region": "Roscommon & Sligo"
+ },
+ {
+  "name": "Neville",
+  "irish": "de Neuville (Norman)",
+  "meaning": "'from the new settlement' (Norman French neuve ville)",
+  "region": "Cork & Waterford"
+ },
+ {
+  "name": "Nevin",
+  "irish": "Mac Naoimhin",
+  "meaning": "'son of the little saint' (naomh, saint)",
+  "region": "Wicklow & Antrim"
+ },
+ {
+  "name": "Newell",
+  "irish": "O Tnuthghail",
+  "meaning": "'descendant of Tnuthghal' (tnuth, envy/desire + gal, valour)",
+  "region": "Fermanagh & Antrim"
+ },
+ {
+  "name": "Nihill",
+  "irish": "O Niadhaill",
+  "meaning": "'descendant of Niadhal' (possibly from niadh, meaning champion or hero)",
+  "region": "Clare"
+ },
+ {
+  "name": "Noonan",
+  "irish": "O Nuanain",
+  "meaning": "'descendant of Nuanan' (possibly linked to nua, meaning new)",
+  "region": "Cork & Clare"
+ },
+ {
+  "name": "Noone",
+  "irish": "O Nuadhain",
+  "meaning": "'descendant of Nuadha' (an old mythological personal name)",
+  "region": "Mayo & Galway"
+ },
+ {
+  "name": "Norton",
+  "irish": "toponymic (English)",
+  "meaning": "'north farm/settlement' (English place-name origin)",
+  "region": "Kilkenny & Kerry"
+ },
+ {
+  "name": "Nulty",
+  "irish": "O Nuallain",
+  "meaning": "'descendant of Nuallan' (from nuall, meaning fame or a cry/exclamation)",
+  "region": "Westmeath & Meath"
+ },
+ {
+  "name": "O'Beirne",
+  "irish": "O Beirn",
+  "meaning": "'descendant of Beirn' (from a Norse-derived personal name meaning bear)",
+  "region": "Roscommon"
+ },
+ {
+  "name": "O'Boyle",
+  "irish": "O Baoighill",
+  "meaning": "'descendant of Baoighill' (baoth, rash + giall, pledge/hostage)",
+  "region": "Donegal"
+ },
+ {
+  "name": "O'Donoghue",
+  "irish": "O Donnchadha",
+  "meaning": "'descendant of Donnchadh' (donn, brown-haired + cath, battle)",
+  "region": "Kerry"
+ },
+ {
+  "name": "O'Dwyer",
+  "irish": "O Duibhir",
+  "meaning": "'descendant of Duibhir' (dubh, black or dark)",
+  "region": "Tipperary"
+ },
+ {
+  "name": "O'Gara",
+  "irish": "O Gadhra",
+  "meaning": "'descendant of Gadhra' (gadhar, hound, i.e. fierce as a hound)",
+  "region": "Sligo"
+ },
+ {
+  "name": "O'Hagan",
+  "irish": "O hAgain",
+  "meaning": "'descendant of Ogan' (og, young)",
+  "region": "Tyrone"
+ },
+ {
+  "name": "O'Hare",
+  "irish": "O hIr",
+  "meaning": "'descendant of Ir' (a personal name of uncertain origin)",
+  "region": "Armagh & Down"
+ },
+ {
+  "name": "O'Hea",
+  "irish": "O hAodha",
+  "meaning": "'descendant of Aodh' (aodh, fire)",
+  "region": "Cork"
+ },
+ {
+  "name": "O'Hehir",
+  "irish": "O hAichir",
+  "meaning": "'descendant of Aichear' (aichear, meaning sharp or bitter)",
+  "region": "Clare"
+ },
+ {
+  "name": "O'Kane",
+  "irish": "O Cathain",
+  "meaning": "'descendant of Cathan' (cath, battle)",
+  "region": "Derry"
+ },
+ {
+  "name": "O'Loughlin",
+  "irish": "O Lochlainn",
+  "meaning": "'descendant of Lochlann' (Lochlann, meaning Scandinavia or a Viking)",
+  "region": "Clare"
+ },
+ {
+  "name": "O'Malley",
+  "irish": "O Maille",
+  "meaning": "'descendant of Maille' (of disputed origin, sometimes linked to maol, bald or tonsured)",
+  "region": "Mayo"
+ },
+ {
+  "name": "O'Meara",
+  "irish": "O Meadhra",
+  "meaning": "'descendant of Meadhar' (possibly linked to meidhir, mirth or joy)",
+  "region": "Tipperary"
+ },
+ {
+  "name": "O'Regan",
+  "irish": "O Riagain",
+  "meaning": "'descendant of Riagan' (from rioghan, little king)",
+  "region": "Laois & Cork"
+ },
+ {
+  "name": "O'Shaughnessy",
+  "irish": "O Seachnasaigh",
+  "meaning": "'descendant of Seachnasach' (seachnaim, to avoid or elude)",
+  "region": "Galway"
  },
  {
   "name": "Pierce",

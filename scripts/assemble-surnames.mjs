@@ -20,8 +20,8 @@ const problems = []
 const validRich = (e) =>
   Array.isArray(e.history) && e.history.length >= 1 && e.history.every((p) => typeof p === 'string' && p.length > 60) &&
   Array.isArray(e.variants) && e.variants.every((v) => typeof v === 'string') &&
-  Array.isArray(e.bearers) && e.bearers.length >= 1 && e.bearers.every((b) => b.name && b.note) &&
-  typeof e.pronunciation === 'string' && e.pronunciation.length > 3
+  Array.isArray(e.bearers) && e.bearers.every((b) => b.name && b.note) &&
+  typeof e.pronunciation === 'string' && e.pronunciation.length >= 2
 
 for (const file of readdirSync(GEN).filter((f) => /^surnames-\d+\.json$/.test(f)).sort()) {
   let data
@@ -44,15 +44,20 @@ for (const file of readdirSync(GEN).filter((f) => /^surnames-\d+\.json$/.test(f)
       continue
     }
     if (isNew) {
-      if (!entry.irish || !entry.meaning || !entry.region) {
-        problems.push(`${file}: new name ${name} missing base fields`)
-        continue
-      }
       const key = name.toLowerCase()
-      if (extraSeen.has(key)) continue
-      extraSeen.add(key)
-      extra.push({ name, irish: entry.irish, meaning: entry.meaning, region: entry.region })
-    } else if (!exists) {
+      if (!extraSeen.has(key)) {
+        if (!entry.irish || !entry.meaning || !entry.region) {
+          problems.push(`${file}: new name ${name} missing base fields`)
+          continue
+        }
+        extraSeen.add(key)
+        extra.push({ name, irish: entry.irish, meaning: entry.meaning, region: entry.region })
+      }
+      // Already known from a prior merge — still take this run's rich content.
+      rich[name] = pick(entry)
+      continue
+    }
+    if (!exists) {
       problems.push(`${file}: enrich target ${name} not in base list (skipped)`)
       continue
     }

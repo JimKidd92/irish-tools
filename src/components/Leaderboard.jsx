@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { getLeaderboard, formatTime } from '../lib/quizApi.js'
+import Flair from './Flair.jsx'
 
 const PERIODS = [
   { id: 'daily', label: 'Today' },
@@ -14,7 +15,7 @@ function Row({ r, isMe }) {
       <td className="lb__rank">{r.rank <= 3 ? ['🥇', '🥈', '🥉'][r.rank - 1] : r.rank}</td>
       <td className="lb__name">
         {r.name}
-        {r.flair && <span className="flair">☘ {r.flair}</span>}
+        <Flair county={r.flair} />
         {isMe && <span className="lb__you"> (you)</span>}
       </td>
       <td className="lb__score">{r.correct}</td>

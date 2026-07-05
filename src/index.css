@@ -1993,18 +1993,29 @@ a {
 
 /* ---------- County flair ---------- */
 .flair {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   margin-left: 6px;
-  padding: 1px 8px;
+  padding: 1px 8px 1px 5px;
   border-radius: 999px;
-  background: rgba(22, 155, 98, 0.12);
-  border: 1px solid rgba(22, 155, 98, 0.3);
-  color: var(--green-dark);
+  background: var(--surface-alt);
+  border: 1px solid color-mix(in srgb, var(--flair-c1, var(--green)) 55%, var(--line));
+  color: var(--ink-soft);
   font-size: 0.68rem;
   font-weight: 800;
   letter-spacing: 0.02em;
   vertical-align: middle;
   white-space: nowrap;
+}
+
+.flair__swatch {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--flair-c1, var(--green)) 50%, var(--flair-c2, var(--green-dark)) 50%);
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 /* ---------- County Scéal boards ---------- */

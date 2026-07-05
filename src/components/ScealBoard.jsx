@@ -15,13 +15,9 @@ import {
 import { timeAgo } from '../lib/news.js'
 import QuizSignIn from './QuizSignIn.jsx'
 import CountySelect from './CountySelect.jsx'
+import Flair from './Flair.jsx'
 
 const postUrl = (countySlug, id) => `/sceal/${countySlug}/?p=${id}`
-
-function Flair({ county }) {
-  if (!county) return null
-  return <span className="flair">☘ {county}</span>
-}
 
 // County Scéal — subreddit-style boards, one per county. Read without an
 // account; posting/commenting uses the quiz sign-in (nickname + county flair).
