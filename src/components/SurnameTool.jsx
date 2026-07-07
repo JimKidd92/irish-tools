@@ -6,6 +6,7 @@ import { slugify, findBySlug } from '../lib/slug.js'
 import { setHead } from '../lib/head.js'
 import { navigate } from '../hooks/useHashRoute.js'
 import ShareButton from './ShareButton.jsx'
+import AffiliateCard from './AffiliateCard.jsx'
 
 const EXAMPLES = ['Murphy', "O'Sullivan", 'Walsh', 'Kennedy']
 
@@ -211,6 +212,13 @@ export default function SurnameTool({ slug }) {
           {result.note && <p className="surname__note">{result.note}</p>}
 
           {SURNAME_RICH[result.name] && <SurnameRich rich={SURNAME_RICH[result.name]} name={result.name} />}
+
+          <AffiliateCard
+            program="ancestry"
+            title={`Dig deeper into the ${result.name} family tree`}
+            pitch="Historical records, census data and DNA matches to trace your line further back."
+            cta="Explore Ancestry →"
+          />
 
           <ShareButton
             url={`https://irishtools.ie/surnames/${slugify(result.name)}/`}

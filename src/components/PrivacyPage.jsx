@@ -97,6 +97,16 @@ export default function PrivacyPage() {
         storage so we can remember it.
       </p>
 
+      <h2>Affiliate links</h2>
+      <p>
+        Some pages (surname pages, county guides, the trip planner) include links to
+        third-party services such as Ancestry and Booking.com. These are affiliate links: if
+        you click through and make a purchase or booking, we may earn a small commission at
+        no extra cost to you. We only link to services relevant to what you’re looking at, and
+        we clearly label these links where they appear. Clicking one takes you to that
+        company’s own site, where their own privacy policy and cookies apply.
+      </p>
+
       <h2>Your rights</h2>
       <p>
         Under the GDPR you have rights over your personal data, including access, correction

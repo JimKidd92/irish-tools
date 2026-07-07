@@ -27,3 +27,19 @@ export const QUIZ_API = 'https://irish-tools-quiz.irish-tools.workers.dev'
 // Must match the GOOGLE_CLIENT_ID set in the quiz Worker. e.g.
 // '1234567890-abc123.apps.googleusercontent.com'. Empty disables sign-in.
 export const GOOGLE_CLIENT_ID = '888849269201-22j27mevvoc13bmsfnhf669ptato4pdb.apps.googleusercontent.com'
+
+// AFFILIATE: full tracking links from affiliate programs, pasted in once you're
+// approved. Each is used exactly as given (no URL-building), so there's no risk
+// of a wrong parameter format - just paste the link the network gives you.
+// Leave any value as '' to hide that placement entirely.
+//
+//   ancestry: sign up at ancestry.com/c/affiliates (no traffic minimum, no
+//             website required) - shown on surname pages ("dig deeper into
+//             the family tree"). Use your deep-link to the DNA or search page.
+//   booking:  sign up at partnerships.booking.com (free, ~1-5 day review) -
+//             shown on county pages and the trip planner. Use their link
+//             generator for an Ireland/county-specific search results page.
+export const AFFILIATE = {
+  ancestry: '',
+  booking: '',
+}

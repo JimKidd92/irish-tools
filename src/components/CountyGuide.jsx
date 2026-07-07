@@ -12,6 +12,7 @@ import { useVisitedCounties } from '../hooks/useVisitedCounties.js'
 import ShareButton from './ShareButton.jsx'
 import ShareImageButton from './ShareImageButton.jsx'
 import CountyMap from './CountyMap.jsx'
+import AffiliateCard from './AffiliateCard.jsx'
 
 export default function CountyGuide({ slug }) {
   const [selected, setSelected] = useState(() => findBySlug(COUNTIES, slug, 'name')?.name || null)
@@ -84,6 +85,13 @@ export default function CountyGuide({ slug }) {
               </button>
             </div>
           )}
+
+          <AffiliateCard
+            program="booking"
+            title={`Planning a visit to ${county.name}?`}
+            pitch="Search places to stay - from B&Bs to city hotels."
+            cta="Find somewhere to stay →"
+          />
 
           {surnames.length > 0 && (
             <div className="related">

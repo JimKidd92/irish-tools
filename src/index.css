@@ -1991,6 +1991,47 @@ a {
   font-size: 0.92rem;
 }
 
+/* ---------- Affiliate card ---------- */
+.affiliate-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(255, 122, 24, 0.07), transparent);
+  padding: 16px 18px;
+  margin: 22px 0;
+}
+.affiliate-card__emoji {
+  font-size: 1.7rem;
+  flex-shrink: 0;
+}
+.affiliate-card__body {
+  flex: 1;
+  min-width: 200px;
+}
+.affiliate-card__title {
+  margin: 0;
+  font-weight: 800;
+}
+.affiliate-card__pitch {
+  margin: 2px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+.affiliate-card__cta {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.affiliate-card__disclosure {
+  width: 100%;
+  margin: 4px 0 0;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
+
 /* ---------- County flair ---------- */
 .flair {
   display: inline-flex;

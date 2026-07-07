@@ -5,6 +5,7 @@ import { Plus, X, ChevronUp, ChevronDown, Printer, Plane, MapPin } from 'lucide-
 import { PLACES } from '../data/places.js'
 import generated from '../data/places.generated.json'
 import { quizEnabled, getToken, getUserData, putUserData, shareTrip, getSharedTrip } from '../lib/quizApi.js'
+import AffiliateCard from './AffiliateCard.jsx'
 
 const STORAGE_KEY = 'irish-tools.trip'
 
@@ -185,6 +186,15 @@ function TripEditor() {
       </div>
 
       <TripCloud trip={trip} setTrip={setTrip} />
+
+      <div className="no-print">
+        <AffiliateCard
+          program="booking"
+          title="Sorted your route - now sort your bed"
+          pitch="Search hotels and B&Bs along the way."
+          cta="Find somewhere to stay →"
+        />
+      </div>
     </section>
   )
 }
