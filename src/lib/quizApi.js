@@ -33,6 +33,23 @@ export function clearSession() {
   try {
     localStorage.removeItem(TOKEN_KEY)
     localStorage.removeItem(USER_KEY)
+    // Let Google show the account chooser again instead of silently re-using
+    // the last account.
+    window.google?.accounts?.id?.disableAutoSelect?.()
+  } catch {
+    /* ignore */
+  }
+}
+
+// Session tokens expire (60 days) and can be invalidated server-side. When that
+// happens every authed call 401s, so we drop the stale session and tell the app
+// to fall back to the signed-out view - otherwise the UI keeps believing it's
+// signed in and never offers the Google button again.
+export const SESSION_EXPIRED_EVENT = 'irish-tools:quiz-session-expired'
+function sessionExpired() {
+  clearSession()
+  try {
+    window.dispatchEvent(new Event(SESSION_EXPIRED_EVENT))
   } catch {
     /* ignore */
   }
@@ -55,6 +72,9 @@ async function api(path, { method = 'GET', body, auth = true } = {}) {
     /* non-json */
   }
   if (!res.ok) {
+    // Only a rejected *session* counts - /auth/google 401s mean a bad Google
+    // token, and there's no session to throw away yet.
+    if (res.status === 401 && auth && token) sessionExpired()
     const err = new Error((data && data.error) || `Request failed (${res.status})`)
     err.status = res.status
     err.needsName = data && data.needsName

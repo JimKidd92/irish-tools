@@ -8,7 +8,7 @@ import CountySelect from './CountySelect.jsx'
 // signed-in-but-no-nickname, and no-county-yet (affiliation for flair +
 // county rankings). Renders nothing once ready to play.
 export default function QuizSignIn({ inviteCode = null }) {
-  const { signedIn, needsName, needsCounty, suggestedName, handleCredential, chooseName, chooseCounty } =
+  const { signedIn, needsName, needsCounty, suggestedName, expired, handleCredential, chooseName, chooseCounty } =
     useQuizAuth()
   const [name, setName] = useState('')
   const [county, setCounty] = useState('')
@@ -72,6 +72,12 @@ export default function QuizSignIn({ inviteCode = null }) {
           <p className="quiz-auth__invite">
             🎉 You’ve been invited to the <strong>“{invite.name}”</strong> leaderboard
             {invite.members ? ` (${invite.members} playing)` : ''}. Sign in to join.
+          </p>
+        )}
+        {expired && (
+          <p className="quiz-auth__expired">
+            Your sign-in expired - sign in again to pick up where you left off. Your scores and
+            streak are safe.
           </p>
         )}
         <span className="quiz-auth__emoji" aria-hidden="true">🏆</span>

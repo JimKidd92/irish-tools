@@ -7,6 +7,7 @@ import {
   clearSession,
   getUser,
   quizEnabled,
+  SESSION_EXPIRED_EVENT,
 } from '../lib/quizApi.js'
 
 const QuizAuthContext = createContext(null)
@@ -14,21 +15,36 @@ const QuizAuthContext = createContext(null)
 export function QuizAuthProvider({ children }) {
   const [user, setUser] = useState(() => getUser())
   const [suggestedName, setSuggestedName] = useState('')
+  const [expired, setExpired] = useState(false)
 
-  // Sessions created before county affiliation existed have no `county` key at
-  // all (vs null = asked but skipped/unset server-side) - refresh those once.
+  // Check the stored session against the server once on load. This both
+  // refreshes the profile (old sessions predate county affiliation and have no
+  // `county` key at all - vs null = asked but unset) and catches a token that
+  // has expired or been invalidated, which 401s and signs us out below.
   useEffect(() => {
-    if (!quizEnabled() || !user || 'county' in user) return
+    if (!quizEnabled() || !user) return
     fetchProfile()
       .then((d) => setUser(d.user))
       .catch(() => {})
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Any authed call that comes back 401 means the session is dead - drop back
+  // to signed-out so the Google button is offered again.
+  useEffect(() => {
+    const onExpired = () => {
+      setUser(null)
+      setExpired(true)
+    }
+    window.addEventListener(SESSION_EXPIRED_EVENT, onExpired)
+    return () => window.removeEventListener(SESSION_EXPIRED_EVENT, onExpired)
+  }, [])
 
   // Called with the Google credential (JWT) from the Sign-in button.
   const handleCredential = useCallback(async (credential) => {
     const data = await authGoogle(credential)
     setUser(data.user)
     setSuggestedName(data.suggestedName || '')
+    setExpired(false)
     return data.user
   }, [])
 
@@ -48,6 +64,7 @@ export function QuizAuthProvider({ children }) {
   const signOut = useCallback(() => {
     clearSession()
     setUser(null)
+    setExpired(false)
   }, [])
 
   const value = useMemo(
@@ -59,12 +76,13 @@ export function QuizAuthProvider({ children }) {
       needsName: Boolean(user && user.needsName),
       needsCounty: Boolean(user && !user.needsName && !user.county),
       county: (user && user.county) || null,
+      expired,
       handleCredential,
       chooseName,
       chooseCounty,
       signOut,
     }),
-    [user, suggestedName, handleCredential, chooseName, chooseCounty, signOut],
+    [user, suggestedName, expired, handleCredential, chooseName, chooseCounty, signOut],
   )
 
   return <QuizAuthContext.Provider value={value}>{children}</QuizAuthContext.Provider>

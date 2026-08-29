@@ -62,7 +62,7 @@ function bumpStreak() {
 }
 
 function ServerQuiz() {
-  const { signedIn, needsName, needsCounty } = useQuizAuth()
+  const { signedIn, needsName, needsCounty, user, signOut } = useQuizAuth()
   const ready = signedIn && !needsName && !needsCounty
   const [state, setState] = useState({ status: 'idle' })
   const [step, setStep] = useState(0)
@@ -140,6 +140,12 @@ function ServerQuiz() {
         <button className="btn btn--ghost" onClick={() => setState({ status: 'idle' })}>
           Try again
         </button>
+        <p className="quiz__signedin">
+          Still stuck?{' '}
+          <button type="button" className="linkbtn" onClick={signOut}>
+            Sign out and sign in again
+          </button>
+        </p>
       </section>
     )
   }
@@ -253,6 +259,13 @@ function ServerQuiz() {
       <QuizStats />
 
       <p className="quiz__tomorrow">New quiz in {timeUntilTomorrow()}.</p>
+      <p className="quiz__signedin">
+        Signed in as <strong>{user?.name}</strong>
+        {user?.county ? ` (${user.county})` : ''} ·{' '}
+        <button type="button" className="linkbtn" onClick={signOut}>
+          Sign out
+        </button>
+      </p>
     </section>
   )
 }

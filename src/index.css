@@ -1843,6 +1843,39 @@ a {
   margin: 14px auto 0;
   max-width: 26rem;
 }
+/* Shown when a stored session was rejected and we dropped back to signed-out. */
+.quiz-auth__expired {
+  background: #fff6e5;
+  border: 1px solid #f0c987;
+  border-radius: 10px;
+  color: #7a4b06;
+  font-size: 0.88rem;
+  margin: 0 auto 16px;
+  max-width: 28rem;
+  padding: 10px 14px;
+}
+[data-theme='dark'] .quiz-auth__expired {
+  background: #3a2c14;
+  border-color: #6b5220;
+  color: #f3cf95;
+}
+.quiz__signedin {
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  margin: 10px 0 0;
+}
+.linkbtn {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-decoration: underline;
+}
+.linkbtn:hover {
+  color: var(--ink);
+}
 .gsi-button {
   display: flex;
   justify-content: center;
