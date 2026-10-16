@@ -169,11 +169,32 @@ function fixedOrder(n) {
   }
   return arr
 }
-const ORDER = fixedOrder(QUESTIONS.length)
+
+// The schedule walks one fixed playlist, 10 questions a day from launch day, so
+// growing the bank never reshuffles questions that are already scheduled:
+//   1. the 2,099 questions the bank had when this went live, in their original
+//      seeded shuffle (rotated so every day already played keeps its questions)
+//   2. then everything appended since, in file order - assemble-quiz-bank.mjs
+//      shuffles each new batch before appending it.
+// Questions only come round again once the whole playlist has been served.
+// Append only: deleting or reordering questions re-maps days already played.
+const LAUNCH_DAY = dayNumber('2026-06-29')
+const BASE = 2099
+if (QUESTIONS.length < BASE) throw new Error('question bank shrank below ' + BASE + ' - it must be append-only')
+function buildPlaylist(n) {
+  const base = fixedOrder(BASE)
+  const offset = (LAUNCH_DAY * DAILY) % BASE
+  const list = []
+  for (let j = 0; j < BASE; j++) list.push(base[(offset + j) % BASE])
+  for (let i = BASE; i < n; i++) list.push(i)
+  return list
+}
+const PLAYLIST = buildPlaylist(QUESTIONS.length)
 function todaysQuestionIdx(dateStr) {
-  const dn = dayNumber(dateStr)
+  const start = (dayNumber(dateStr) - LAUNCH_DAY) * DAILY
+  const L = PLAYLIST.length
   const out = []
-  for (let i = 0; i < DAILY; i++) out.push(ORDER[(dn * DAILY + i) % QUESTIONS.length])
+  for (let i = 0; i < DAILY; i++) out.push(PLAYLIST[(((start + i) % L) + L) % L])
   return out
 }
 const publicQuestions = (idxs) => idxs.map((i) => ({ id: i, q: QUESTIONS[i].q, options: QUESTIONS[i].options }))

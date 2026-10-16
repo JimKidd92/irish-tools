@@ -21,6 +21,9 @@ function valid(item) {
 
 const seen = new Set(EXISTING.map((q) => norm(q.q)))
 const out = [...EXISTING]
+// New questions collect here and get shuffled before appending: the Worker serves
+// appended questions in file order, and the generated files come grouped by topic.
+const batch = []
 const stats = { files: 0, raw: 0, invalid: 0, dupe: 0, added: 0, badFiles: [] }
 
 for (const file of readdirSync(GEN_DIR).filter((f) => f.endsWith('.json')).sort()) {
@@ -49,18 +52,26 @@ for (const file of readdirSync(GEN_DIR).filter((f) => f.endsWith('.json')).sort(
       continue
     }
     seen.add(key)
-    out.push(balanceOptions({ q: item.q.trim(), options: item.options.map((o) => o.trim()), answer: item.answer }))
+    batch.push(balanceOptions({ q: item.q.trim(), options: item.options.map((o) => o.trim()), answer: item.answer }))
     stats.added++
     fileAdded++
   }
   console.log(`  ${file}: +${fileAdded}`)
 }
 
+for (let i = batch.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1))
+  ;[batch[i], batch[j]] = [batch[j], batch[i]]
+}
+out.push(...batch)
+
 const header =
   '// Irish Tools - Daily Quiz question bank (SERVER-SIDE, with answers).\n' +
   '// This lives in the Worker only and is never sent to the browser. The client\n' +
   '// receives questions without the answer key. Add new questions weekly and\n' +
-  '// redeploy the Worker. Each: { q, options:[...], answer:<index> }.\n\n'
+  '// redeploy the Worker. Each: { q, options:[...], answer:<index> }.\n' +
+  '// APPEND ONLY - never delete or reorder: days already played point at these\n' +
+  '// positions. To retire a bad question, rewrite it in place.\n\n'
 writeFileSync('worker/quiz/questions.js', header + 'export const QUESTIONS = ' + JSON.stringify(out, null, 2) + '\n')
 
 console.log('\n--- assembly ---')
