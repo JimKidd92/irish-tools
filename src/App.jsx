@@ -328,7 +328,7 @@ export default function App() {
       </header>
 
       <div className="page">
-        <AdSpace label="Banner ad" />
+        <AdSpace slot="banner" />
 
       <main className="main">
         <Suspense fallback={<PageLoading />}>
@@ -420,7 +420,7 @@ function ToolPage({ page, slug }) {
       </div>
       <Component slug={slug} />
       <aside className="sidebar-ad">
-        <AdSpace label="Sidebar ad" />
+        <AdSpace slot="sidebar" />
       </aside>
     </>
   )

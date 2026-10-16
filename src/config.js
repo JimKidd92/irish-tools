@@ -43,3 +43,16 @@ export const AFFILIATE = {
   ancestry: '',
   booking: '',
 }
+
+// ADSENSE: Google AdSense ad units. The loader script is in index.html (that's
+// also what AdSense checks for site verification). Once approved, create one
+// "Display" ad unit per placement in the AdSense console and paste its slot ID
+// (the number in data-ad-slot) here. A placement with no slot renders nothing,
+// so the site shows no ad boxes until there are real ads to fill them.
+export const ADSENSE = {
+  client: 'ca-pub-2509020334755517',
+  slots: {
+    banner: '', // top of every page, under the header
+    sidebar: '', // under the tool on each tool page
+  },
+}
